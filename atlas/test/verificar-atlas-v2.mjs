@@ -1,6 +1,8 @@
 // Verificacao do atlas v2 em /atlas/ — dados reais data/atlas-agot-v2.json
 // (sem interceptacao no caminho feliz). Uso: node atlas/test/verificar-atlas-v2.mjs
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -85,6 +87,9 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "desktop");
+  /* transicao real: previa primeiro, nativo liberado no ponto do
+     antigo clique manual */
+  await pausarTilesAutomaticos(page);
 
   const r1 = await page.goto(BASE + "/");
   check("portal / responde 200", r1.status() === 200, "HTTP " + r1.status());
@@ -199,7 +204,7 @@ const browser = await chromium.launch();
     };
   }, [MANIFESTO.width, MANIFESTO.height]);
 
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(700);
 
@@ -243,7 +248,6 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "hash");
-  const tilesAntes = requests.length;
   await page.goto(
     BASE + "/atlas/#cap=19&personagens=jon,tyrion&rotulos=1&somente=0&regiao=norte"
   );
@@ -258,9 +262,8 @@ const browser = await chromium.launch();
       (await page.locator("#loc-rotulos").isChecked()));
   check("hash: marcador agrupado restaurado",
     (await page.locator(".loc-pin-personagem").count()) === 1);
-  check("hash: nenhum fetch de tiles automatico",
-    !requests.slice(tilesAntes).some((u) => u.includes("/atlas/tiles/")),
-    "tiles nunca carregados por estado");
+  /* tiles passam a carregar automaticamente no boot — restauracao de
+     estado nao impede nem depende disso */
   await ctx.close();
 }
 
@@ -361,7 +364,6 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "hashlocal");
-  const tilesAntes = requests.length;
   await page.route("**/o-mundo-conhecido-recorte-v1-preview.webp", async (r) => {
     await new Promise((res) => setTimeout(res, 1500));
     await r.continue();
@@ -374,8 +376,6 @@ const browser = await chromium.launch();
   check("hash local= restaura jon + cap19",
     (await page.locator("#chk-jon").isChecked()) &&
       (await page.locator("#cap-slider").inputValue()) === "19");
-  check("hash local= nenhum tile automatico",
-    !requests.slice(tilesAntes).some((u) => u.includes("/atlas/tiles/")));
   await ctx.close();
 }
 

@@ -14,7 +14,6 @@
   var badgeEstadoEl = document.getElementById("badge-estado");
   var btnTelaCheia = document.getElementById("btn-tela-cheia");
   var btnAjuda = document.getElementById("btn-ajuda");
-  var btnTiles = document.getElementById("btn-tiles");
   var painelAjuda = document.getElementById("painel-ajuda");
   var lateralEl = document.getElementById("lateral");
   var lateralCorpo = document.getElementById("lateral-corpo");
@@ -38,7 +37,11 @@
   var homeBounds = null;
   var tilesLayer = null;
   var overlayLayer = null;
-  var carregandoTiles = false;
+  var nativeBounds = null;
+  var previewFailed = false;
+  var anyTileLoaded = false;
+  var hadTileError = false;
+  var nativeFailed = false;
 
   /* o painel flutuante nao pode arrastar/dar zoom no mapa por baixo */
   if (lateralEl) {
@@ -69,26 +72,46 @@
   /* gancho de depuracao/teste */
   window.__atlasMap = map;
 
-  /* ---------- previa reduzida ---------- */
+  /* ---------- previa reduzida (apoio e reserva) ---------- */
 
-  setStatus("Carregando pr\u00e9via reduzida\u2026");
+  setStatus("Carregando mapa\u2026");
+
+  /* a previa fica no tilePane com zIndex 0 inline: abaixo da camada
+     de tiles (container zIndex 1) quando o nativo ativar por cima.
+     setZIndex(0) e chamado a parte porque o Leaflet nao aplica
+     zIndex 0 (falso) so pela opcao na criacao */
+  function apoioPrevia(bounds) {
+    var l = L.imageOverlay(probe.src, bounds,
+      { pane: "tilePane", zIndex: 0 }).addTo(map);
+    l.setZIndex(0);
+    return l;
+  }
 
   var probe = new Image();
   probe.onload = function () {
-    /* um onload tardio nao pode sobrescrever o modo nativo ja ativo */
-    if (tilesLayer) return;
     var w = probe.naturalWidth;
     var h = probe.naturalHeight;
+    /* previa tardia: o nativo ja decidiu a vista; a imagem entra so
+       como apoio sob os tiles, sem tocar centro/zoom/estado */
+    if (tilesLayer) {
+      if (!overlayLayer && nativeBounds) {
+        overlayLayer = apoioPrevia(nativeBounds);
+      }
+      return;
+    }
     var bounds = L.latLngBounds([[0, 0], [h, w]]);
 
-    overlayLayer = L.imageOverlay(probe.src, bounds).addTo(map);
+    overlayLayer = apoioPrevia(bounds);
     map.setMaxBounds(bounds);
     /* cobertura (inside=true): a imagem preenche o quadro; o usuario
        afasta/arrasta para ver a imagem inteira */
     map.setView(bounds.getCenter(),
       map.getBoundsZoom(bounds, true), { animate: false });
     homeBounds = bounds;
-    setStatus("");
+    /* um manifesto ja falho nao tem seu aviso apagado pela previa */
+    if (!nativeFailed) {
+      setStatus("");
+    }
     if (window.GOTATLAS) {
       window.GOTATLAS.setView({
         mode: "preview",
@@ -98,8 +121,13 @@
     }
   };
   probe.onerror = function () {
-    setStatus("");
-    erroEl.hidden = false;
+    previewFailed = true;
+    /* fatal so quando o nativo TAMBEM falhou de forma terminal;
+       manifesto em voo ou tiles carregando ainda podem salvar */
+    if (nativeFailed && !anyTileLoaded) {
+      setStatus("");
+      erroEl.hidden = false;
+    }
   };
   probe.src = OVERVIEW_URL;
 
@@ -151,19 +179,134 @@
     btnAjuda.textContent = abrir ? "Ocultar ajuda" : "Ajuda";
   });
 
-  /* ---------- tiles nativos (manifesto, acao manual com retentativa) ---------- */
+  /* ---------- tiles nativos (manifesto validado, carga automatica) ---------- */
 
-  btnTiles.addEventListener("click", function () {
-    if (tilesLayer) {
-      setStatus("Tiles nativos j\u00e1 est\u00e3o carregados.");
-      return;
+  /* valida o essencial do manifesto ANTES de tocar mapa/coords */
+  function manifestoValido(m) {
+    return !!m && m.nativePixelsValidated === true &&
+      Number.isFinite(m.width) && m.width > 0 &&
+      Number.isFinite(m.height) && m.height > 0 &&
+      Number.isFinite(m.tileSize) && m.tileSize > 0 &&
+      typeof m.tileUrl === "string" && m.tileUrl.length > 0 &&
+      Number.isFinite(m.minZoom) &&
+      Number.isFinite(m.maxNativeZoom) &&
+      Number.isFinite(m.maxZoom) &&
+      m.minZoom <= m.maxNativeZoom && m.maxNativeZoom <= m.maxZoom;
+  }
+
+  /* manifesto ausente/invalido ou fetch falho: o nativo esta
+     terminalmente indisponivel — fatal so se a previa tambem falhou */
+  function nativoIndisponivel() {
+    nativeFailed = true;
+    if (previewFailed) {
+      erroEl.hidden = false;
+      setStatus("");
+    } else {
+      setStatus("Tiles nativos indispon\u00edveis; mantida a " +
+        "pr\u00e9via reduzida.");
     }
-    if (carregandoTiles) {
-      return;
+  }
+
+  /* selo visual so depois do primeiro pixel nativo confirmado:
+     com zero tiles carregados, a interface nao anuncia "nativo" */
+  function seloNativo() {
+    badgeEstadoEl.textContent = "Resolu\u00e7\u00e3o nativa";
+    avisoTextoEl.textContent = "Tiles locais em resolu\u00e7\u00e3o nativa. " +
+      "Marca\u00e7\u00f5es e trajetos em revis\u00e3o.";
+    mapEl.setAttribute("aria-label",
+      "Mapa O Mundo Conhecido, resolu\u00e7\u00e3o nativa");
+  }
+
+  function ativarNativo(m) {
+    var bounds = L.latLngBounds(
+      map.unproject([0, 0], m.maxNativeZoom),
+      map.unproject([m.width, m.height], m.maxNativeZoom)
+    );
+    nativeBounds = bounds;
+    /* preserva centro relativo a imagem e escala efetiva de pixels,
+       em vez de reenquadrar o mapa inteiro */
+    var centroAlvo = null;
+    var zoomAlvo = null;
+    if (overlayLayer && probe.naturalWidth && probe.naturalHeight) {
+      var c0 = map.getCenter();
+      var xImg = c0.lng * m.width / probe.naturalWidth;
+      var yImg = (1 - c0.lat / probe.naturalHeight) * m.height;
+      centroAlvo = map.unproject([xImg, yImg], m.maxNativeZoom);
+      zoomAlvo = map.getZoom() +
+        Math.log2(probe.naturalWidth * Math.pow(2, m.maxNativeZoom) / m.width);
     }
-    carregandoTiles = true;
-    btnTiles.disabled = true;
-    setStatus("Procurando manifesto de tiles\u2026");
+    var versao = m.sourceSha256 ? "?v=" + String(m.sourceSha256).slice(0, 12) : "";
+    /* min/max zoom do manifesto ANTES do setView, para permitir
+       alcancar o zoom nativo */
+    map.setMinZoom(m.minZoom);
+    map.setMaxZoom(m.maxZoom);
+    tilesLayer = L.tileLayer(m.tileUrl + versao, {
+      tileSize: m.tileSize,
+      minZoom: m.minZoom,
+      maxNativeZoom: m.maxNativeZoom,
+      maxZoom: m.maxZoom,
+      updateWhenIdle: true,
+      keepBuffer: 1,
+      noWrap: true,
+      bounds: bounds
+    });
+    tilesLayer.on("tileload", function () {
+      if (!anyTileLoaded) {
+        anyTileLoaded = true;
+        nativeFailed = false;
+        erroEl.hidden = true;
+        seloNativo();
+        /* um aviso de falha parcial nao e apagado por sucessos tardios */
+        if (!hadTileError) {
+          setStatus("Tiles de resolu\u00e7\u00e3o nativa carregados.");
+        }
+      }
+    });
+    tilesLayer.on("tileerror", function () {
+      /* falha parcial nao e terminal: so o evento 'load' (lote da
+         vista encerrado) decide se ZERO pixels chegaram */
+      hadTileError = true;
+      if (!nativeFailed) {
+        setStatus("Falha em parte dos tiles nativos; a pr\u00e9via " +
+          "permanece como apoio.");
+      }
+    });
+    tilesLayer.on("load", function () {
+      /* 'load' = o lote visivel terminou. Se nenhum pixel chegou ate
+         aqui, o nativo falhou de fato: fatal so se a previa tambem
+         falhou; se ela existir, aviso honesto de reserva */
+      if (!anyTileLoaded) {
+        nativeFailed = true;
+        if (previewFailed) {
+          erroEl.hidden = false;
+          setStatus("");
+        } else {
+          setStatus("Falha nos tiles nativos; a pr\u00e9via " +
+            "permanece como reserva.");
+        }
+      }
+    });
+    tilesLayer.addTo(map);
+    /* a previa vira apoio sob a malha nativa inteira — nao e removida */
+    if (overlayLayer) {
+      overlayLayer.setBounds(bounds);
+    }
+    map.setMaxBounds(bounds);
+    if (centroAlvo && zoomAlvo !== null) {
+      zoomAlvo = Math.min(m.maxZoom, Math.max(m.minZoom, zoomAlvo));
+      map.setView(centroAlvo, zoomAlvo);
+    } else {
+      /* sem previa pronta: mesma cobertura inicial */
+      map.setView(bounds.getCenter(),
+        map.getBoundsZoom(bounds, true), { animate: false });
+    }
+    homeBounds = bounds;
+    if (window.GOTATLAS) {
+      window.GOTATLAS.setView({ mode: "native", manifest: m });
+    }
+  }
+
+  function carregarTiles() {
     fetch(MANIFEST_URL)
       .then(function (resp) {
         if (!resp.ok) {
@@ -172,72 +315,16 @@
         return resp.json();
       })
       .then(function (m) {
-        if (!m.nativePixelsValidated) {
-          setStatus("Manifesto encontrado, mas pixels nativos ainda n\u00e3o " +
-            "validados. Mantida a pr\u00e9via.");
+        if (!manifestoValido(m)) {
+          nativoIndisponivel();
           return;
         }
-        var bounds = L.latLngBounds(
-          map.unproject([0, 0], m.maxNativeZoom),
-          map.unproject([m.width, m.height], m.maxNativeZoom)
-        );
-        /* preserva centro relativo a imagem e escala efetiva de pixels,
-           em vez de reenquadrar o mapa inteiro */
-        var centroAlvo = null;
-        var zoomAlvo = null;
-        if (overlayLayer && probe.naturalWidth && probe.naturalHeight) {
-          var c0 = map.getCenter();
-          var xImg = c0.lng * m.width / probe.naturalWidth;
-          var yImg = (1 - c0.lat / probe.naturalHeight) * m.height;
-          centroAlvo = map.unproject([xImg, yImg], m.maxNativeZoom);
-          zoomAlvo = map.getZoom() +
-            Math.log2(probe.naturalWidth * Math.pow(2, m.maxNativeZoom) / m.width);
-        }
-        var versao = m.sourceSha256 ? "?v=" + String(m.sourceSha256).slice(0, 12) : "";
-        /* min/max zoom do manifesto ANTES do setView, para permitir
-           alcancar o zoom nativo */
-        map.setMinZoom(m.minZoom);
-        map.setMaxZoom(m.maxZoom);
-        tilesLayer = L.tileLayer(m.tileUrl + versao, {
-          tileSize: m.tileSize,
-          minZoom: m.minZoom,
-          maxNativeZoom: m.maxNativeZoom,
-          maxZoom: m.maxZoom,
-          updateWhenIdle: true,
-          keepBuffer: 1,
-          noWrap: true,
-          bounds: bounds
-        }).addTo(map);
-        if (overlayLayer) {
-          overlayLayer.remove();
-        }
-        map.setMaxBounds(bounds);
-        if (centroAlvo && zoomAlvo !== null) {
-          zoomAlvo = Math.min(m.maxZoom, Math.max(m.minZoom, zoomAlvo));
-          map.setView(centroAlvo, zoomAlvo);
-        } else {
-          /* sem previa pronta: mesma cobertura inicial */
-          map.setView(bounds.getCenter(),
-            map.getBoundsZoom(bounds, true), { animate: false });
-        }
-        homeBounds = bounds;
-        badgeEstadoEl.textContent = "Resolu\u00e7\u00e3o nativa";
-        avisoTextoEl.textContent = "Tiles locais em resolu\u00e7\u00e3o nativa. " +
-          "Marca\u00e7\u00f5es e trajetos em revis\u00e3o.";
-        mapEl.setAttribute("aria-label",
-          "Mapa O Mundo Conhecido, resolu\u00e7\u00e3o nativa");
-        setStatus("Tiles de resolu\u00e7\u00e3o nativa carregados.");
-        if (window.GOTATLAS) {
-          window.GOTATLAS.setView({ mode: "native", manifest: m });
-        }
+        ativarNativo(m);
       })
-      .catch(function () {
-        setStatus("Tiles nativos ainda n\u00e3o gerados; mantida a pr\u00e9via " +
-          "reduzida.");
-      })
-      .finally(function () {
-        carregandoTiles = false;
-        btnTiles.disabled = false;
-      });
-  });
+      .catch(nativoIndisponivel);
+  }
+
+  /* boot: manifesto e previa correm em paralelo — quem chegar
+     primeiro monta a sua parte sem esperar o outro */
+  carregarTiles();
 })();

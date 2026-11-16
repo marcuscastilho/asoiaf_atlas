@@ -45,12 +45,27 @@ async function fluxoNativo(tag, ctxOpts, shot, panProgramatico) {
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
 
   const tilesAntes = tileResponses.length;
-  await page.click("#btn-tiles");
+  /* carga automatica no boot — sem acao do usuario */
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   check(tag + " tiles nativos carregados",
     (await page.locator("img.leaflet-tile-loaded").count()) > 0);
-  check(tag + " overlay de previa removido",
-    (await page.locator("img.leaflet-image-layer").count()) === 0);
+  const apoio = await page.evaluate(() => {
+    const img = document.querySelector("img.leaflet-image-layer");
+    let tileZ = null;
+    window.__atlasMap.eachLayer((l) => {
+      if (l instanceof L.TileLayer && tileZ === null) {
+        tileZ = l.getContainer().style.zIndex;
+      }
+    });
+    return img ? {
+      paneTile: !!img.closest(".leaflet-tile-pane"),
+      z: img.style.zIndex,
+      tileZ: tileZ
+    } : null;
+  });
+  check(tag + " previa mantida como apoio sob os tiles",
+    !!apoio && apoio.paneTile && apoio.z === "0" && apoio.tileZ === "1",
+    apoio ? JSON.stringify(apoio) : "sem image-layer");
   const badge = await page.locator("#badge-estado").textContent();
   check(tag + " badge indica nativa", /nativa/i.test(badge), badge.trim());
 

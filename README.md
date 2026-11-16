@@ -26,8 +26,8 @@ npm run serve        # http://localhost:8080
   limites em `atlas/README.md` e `atlas/data/PERCURSOS-V6.md`.
 
 Não é necessária nenhuma chave: por padrão o mapa usa **Leaflet** com os tiles
-locais em `assets/tiles/`; o Atlas usa a prévia WebP em `atlas/assets/` e, sob
-demanda, os **1698 tiles nativos incluídos** em
+locais em `assets/tiles/`; o Atlas carrega automaticamente a prévia WebP em
+`atlas/assets/` e os **1698 tiles nativos incluídos** em
 `atlas/tiles/o-mundo-conhecido-recorte-v1/` (~1 GB no clone — é o mapa em
 alta resolução, nada precisa ser gerado). Não estão no repositório: os
 mestres JPEG (`mapas/jpeg/`), a pirâmide antiga sem recorte

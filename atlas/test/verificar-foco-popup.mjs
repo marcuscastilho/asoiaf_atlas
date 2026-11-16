@@ -9,6 +9,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 
 const DIR = dirname(fileURLToPath(import.meta.url));
 const OUT = join(DIR, "evidencias");
@@ -46,6 +48,8 @@ const browser = await chromium.launch();
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   page.on("pageerror", (e) => pageErrors.push("[desktop] " + e.message));
+  /* popup aberto em previa; nativo liberado no ponto do clique antigo */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE);
   await page.waitForSelector("#loc-lista li", { timeout: 15000 });
 
@@ -59,8 +63,8 @@ const browser = await chromium.launch();
     return p && p.textContent.includes("Castle Black");
   }, null, { timeout: 12000 });
 
-  // troca explicita para tiles nativos
-  await page.click("#btn-tiles");
+  // transicao previa->nativo (boot automatico retido ate aqui)
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(1200);
 

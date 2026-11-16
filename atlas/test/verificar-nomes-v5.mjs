@@ -320,8 +320,8 @@ async function limparBusca(page) {
    area visivel) e abre o popup; no nativo o zoom de busca da o closeup */
 {
   const { ctx, page } = await novaPagina({ width: 1366, height: 900 });
-  await page.evaluate(() =>
-    document.querySelector("#btn-tiles").click());
+  /* nativo sobe sozinho no boot — espera os tiles como ponto de
+     sincronia antes das leituras de geometria */
   await page.waitForSelector("img.leaflet-tile-loaded",
     { timeout: 30000 });
 

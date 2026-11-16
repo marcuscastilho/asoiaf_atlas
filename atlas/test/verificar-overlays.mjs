@@ -3,6 +3,8 @@
 // (tileSetId/sourceSha256 reais do manifesto recorte-v1 para passar na
 // validacao). Uso: node atlas/test/verificar-overlays.mjs
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -149,6 +151,9 @@ async function ligarColetores(page, tag) {
       body: JSON.stringify(fixture(SHA_REAL))
     })
   );
+  /* transicao real: previa primeiro, nativo liberado no ponto do
+     antigo clique manual */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
   await page.waitForSelector("#loc-lista li", { timeout: 15000 });
@@ -253,7 +258,7 @@ async function ligarColetores(page, tag) {
     (await page.locator(".leaflet-overlay-pane path").count()) >= 1 &&
       (await page.locator(".loc-pin-jon").count()) === 1);
 
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(600);
   check("pos-switch: estado preservado (jon + cap18)",
@@ -439,6 +444,9 @@ async function ligarColetores(page, tag) {
       body: JSON.stringify(falso)
     });
   });
+  /* o pedido retido do boot cai no mock acima como "segundo fetch":
+     1o=init real, 2o=nativo adulterado — ordem preservada via fallback */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
   await page.waitForSelector(".loc-pin", { timeout: 15000 });
@@ -450,7 +458,7 @@ async function ligarColetores(page, tag) {
   await page.waitForTimeout(600);
   check("revalida: todos os pinos ao afastar",
     (await page.locator(".loc-pin").count()) === 3);
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(800);
   check("revalida: camadas removidas com manifesto divergente",

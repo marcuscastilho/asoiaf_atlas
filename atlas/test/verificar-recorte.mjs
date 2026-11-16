@@ -1,6 +1,8 @@
 // Verificacao focada do recorte v1 em /atlas/ — previa cropped 1600x1066 e
 // tiles nativos recorte-v1. Uso: node atlas/test/verificar-recorte.mjs
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -39,10 +41,10 @@ async function fluxo(tag, ctxOpts, shotOverview, shotNativo) {
   });
   page.on("pageerror", (e) => consoleLog.push("[pageerror " + tag + "] " + e.message));
 
+  /* transicao real: sobe em previa (boot nativo retido) e libera
+     depois das checagens de previa */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("img.leaflet-tile, img.leaflet-image-layer", {
-    timeout: 20000
-  });
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
 
   // previa cropped: aspecto natural esperado 1600x1066
@@ -56,8 +58,8 @@ async function fluxo(tag, ctxOpts, shotOverview, shotNativo) {
     dims ? dims.w + "x" + dims.h : "sem imagem");
   await page.screenshot({ path: join(OUT, shotOverview), fullPage: true });
 
-  // switch nativo
-  await page.click("#btn-tiles");
+  // switch nativo (libera o fetch automatico retido no boot)
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   check(tag + " tiles nativos carregados",
     (await page.locator("img.leaflet-tile-loaded").count()) > 0);

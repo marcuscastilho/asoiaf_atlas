@@ -4,6 +4,8 @@
 // Roda contra dados REAIS (v3) no servidor local — sem interceptacao.
 
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { mkdirSync, readFileSync } from "fs";
 import { join } from "path";
 import { fileURLToPath } from "url";
@@ -38,6 +40,9 @@ async function novaPagina(vp) {
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   page.on("pageerror", (e) => pageErrors.push(e.message));
+  /* os contextos que nao exercitam a transicao ficam em previa como
+     antes; o bloco nativo libera no ponto do antigo clique */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#loc-lista li",
     { state: "attached", timeout: 20000 });
@@ -495,7 +500,7 @@ async function popupDentroDoMapa(page) {
     !!txtPrev && /Daenerys/.test(txtPrev),
     txtPrev ? txtPrev.trim().slice(0, 60) : "sem popup");
 
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(1400);
   check("preview->nativo: popup do modo anterior fechado",

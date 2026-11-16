@@ -2,6 +2,8 @@
 // Somente leitura tecnica (L.Polyline.getLatLngs vs unproject JSON),
 // sem revalidar cartografia nem dados.
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -44,6 +46,8 @@ await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
 const errs = [];
 page.on("pageerror", (e) => errs.push(e.message));
 
+/* estado montado em previa; nativo liberado no ponto do clique antigo */
+await pausarTilesAutomaticos(page);
 await page.goto(BASE + "/atlas/");
 await page.waitForSelector("#loc-lista li", { timeout: 20000 });
 await page.check("#chk-catelyn");
@@ -52,7 +56,7 @@ await page.locator("#cap-slider").evaluate((el) => {
   el.dispatchEvent(new Event("input", { bubbles: true }));
 });
 await page.waitForTimeout(400);
-await page.click("#btn-tiles");
+liberarTilesAutomaticos(page);
 await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
 await page.waitForTimeout(1200);
 

@@ -125,7 +125,7 @@ PASS v6 404: sem rotulos de cobertura no v5 (campo ausente)
 PASS v6 404: livro-select funciona no fallback
 PASS nenhuma requisição externa — ok
 PASS nenhum fetch de imagem mestre — ok
-PASS tiles realmente requisitados no nativo — n=17
+PASS tiles realmente requisitados no nativo — n=25
 PASS todas respostas de tile HTTP 200 — ok
 PASS nenhuma requisição falha — ok
 PASS sem pageerrors

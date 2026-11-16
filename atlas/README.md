@@ -21,8 +21,9 @@ O `-a 127.0.0.1` mantem o servidor acessivel apenas na propria maquina.
 - Exibe `assets/o-mundo-conhecido-recorte-v1-preview.webp`, uma **previa
   reduzida** (1600x1066) do mapa "O Mundo Conhecido" ja recortada.
   Nao baixa o JPEG mestre.
-- A resolucao nativa (tiles WebP locais) e carregada sob demanda pelo
-  botao "Carregar tiles".
+- A resolucao nativa (tiles WebP locais) e carregada **automaticamente**
+  ao abrir a pagina; a previa reduzida permanece por baixo como apoio e
+  como substituta se os tiles falharem.
 - O mapa ocupa a largura total; o painel "Explorar Atlas" flutua sobre
   ele (recolhivel pelo botao do cabecalho, recolhido por padrao em
   telas de ate 700px). A imagem inicia **preenchendo o quadro**
@@ -105,13 +106,15 @@ O `-a 127.0.0.1` mantem o servidor acessivel apenas na propria maquina.
 - Imagem exibida **21654x14428 px** (apos o recorte), tiles de 512 px,
   **1698 tiles** em **7 niveis de zoom** (0 a 6), distribuicao por nivel
   `[1, 2, 6, 24, 88, 330, 1247]`.
-- O carregamento e **manual**: o botao "Carregar tiles" busca
-  `data/mapa.json` e ativa a camada `L.tileLayer` com `tileSize`,
-  `minZoom`, `maxNativeZoom`, `maxZoom`, `tileUrl`, `width`, `height` e
-  `sourceSha256` do manifesto (o hash entra como query `?v=` para
-  invalidar cache). O painel interativo tambem consulta o manifesto na
-  abertura. Se ele estiver ausente, o painel informa a falha e a previa
-  permanece navegavel; os tiles continuam dependendo da acao manual.
+- O carregamento e **automatico**: na abertura, a pagina busca
+  `data/mapa.json`, valida o manifesto e ativa a camada `L.tileLayer`
+  com `tileSize`, `minZoom`, `maxNativeZoom`, `maxZoom`, `tileUrl`,
+  `width`, `height` e `sourceSha256` do manifesto (o hash entra como
+  query `?v=` para invalidar cache). O painel interativo tambem
+  consulta o manifesto na abertura. Se o manifesto estiver ausente ou
+  invalido, o painel informa a falha e a previa permanece navegavel —
+  a mesma previa que fica sob os tiles como apoio quando o nativo
+  ativa.
 
 Os 1698 tiles ja vem incluidos no repositorio — **nenhuma geracao e
 necessaria para rodar**. O historico de build existia apenas para

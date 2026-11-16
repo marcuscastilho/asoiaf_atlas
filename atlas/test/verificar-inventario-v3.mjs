@@ -7,6 +7,8 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 
 const DIR = dirname(fileURLToPath(import.meta.url));
 const OUT = join(DIR, "evidencias");
@@ -87,6 +89,9 @@ const browser = await chromium.launch();
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   ligarColetores(page, "feliz");
+  /* transicao real: previa primeiro, nativo liberado no ponto do
+     antigo clique manual */
+  await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#loc-lista li", { timeout: 20000 });
 
@@ -367,7 +372,7 @@ const browser = await chromium.launch();
     (cpAncora.english || cpAncora.label), cpAncora.id);
   check("previa: popup do ponto-ancora aberto",
     rAnc.txt.length > 0);
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(1200);
   check("nativo: um unico popup",
@@ -630,6 +635,8 @@ if (existsSync(DIAG_PATH)) {
   ligarColetores(page, "w1920");
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#loc-lista li", { timeout: 20000 });
+  await page.waitForSelector("img.leaflet-image-layer",
+    { timeout: 20000 });
   const g1920 = await page.evaluate(() => {
     const q = document.getElementById("mapa-quadro").getBoundingClientRect();
     const c = getComputedStyle(document.querySelector(".conteudo"));
@@ -672,6 +679,8 @@ for (const w of [390, 320]) {
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#loc-lista li",
     { timeout: 20000, state: "attached" });
+  await page.waitForSelector("img.leaflet-image-layer",
+    { timeout: 20000 });
   const overflow = await page.evaluate(() =>
     document.documentElement.scrollWidth - document.documentElement.clientWidth);
   check("mobile " + w + " sem overflow horizontal",

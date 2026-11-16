@@ -493,9 +493,8 @@ const tywin = rotaDe(/tywin/i);
 {
   const { ctx, page } = await novaPagina({ width: 1366, height: 900 });
   if (tyrion) await solo(page, tyrion.id);
-  /* clique DOM: o handler liga tiles; evita espera de actionability */
-  await page.evaluate(() =>
-    document.querySelector("#btn-tiles").click());
+  /* nativo sobe sozinho no boot — espera os tiles como ponto de
+     sincronia antes das leituras de geometria */
   await page.waitForSelector("img.leaflet-tile-loaded",
     { timeout: 30000 });
   await page.waitForTimeout(400);

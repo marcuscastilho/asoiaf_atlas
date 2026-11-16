@@ -2,6 +2,8 @@
 // data/piloto-norte.json (sem interceptacao no caminho feliz).
 // Uso: node atlas/test/verificar-piloto-real.mjs
 import { chromium } from "playwright";
+import { pausarTilesAutomaticos, liberarTilesAutomaticos }
+  from "./lib-tiles-auto.mjs";
 import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -71,6 +73,9 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 768 } });
   const page = await ctx.newPage();
   ligarColetores(page, "desktop");
+  /* transicao real: previa primeiro, nativo liberado no ponto do
+     antigo clique manual */
+  await pausarTilesAutomaticos(page);
 
   const r1 = await page.goto(BASE + "/");
   check("portal / responde 200", r1.status() === 200, "HTTP " + r1.status());
@@ -179,7 +184,7 @@ const browser = await chromium.launch();
   check("markerOnly: linha oculta na previa",
     (await page.locator(".leaflet-overlay-pane path").count()) === 0);
 
-  await page.click("#btn-tiles");
+  liberarTilesAutomaticos(page);
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(700);
 
