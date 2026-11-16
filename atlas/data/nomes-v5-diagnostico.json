@@ -1,0 +1,2271 @@
+{
+  "datasetId": "atlas-saga-v5",
+  "baseDatasetSha256": "1ce80c8a9024709381d4ca4b8cc352925453b01b6e8f81fe2e552e7a036b334b",
+  "entries": 240,
+  "newProperNames": 31,
+  "totalAssociatedProperNames": 217,
+  "namedGroupMembers": 5,
+  "describedWithoutProperName": 18,
+  "reviewedOriginalPoints": 56,
+  "removedNonSymbols": 3,
+  "newMissingSymbols": 1,
+  "coordinateCorrections": 1,
+  "decisions": [
+    {
+      "pointId": "scan-site-v4-293",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-293",
+        "label": "Simbolo sem nome 293",
+        "english": "Unidentified printed settlement",
+        "x": 3410,
+        "y": 8032,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          293
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-293",
+        "key": "Longtable"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-00.png",
+      "afterLabel": "Mesalonga",
+      "afterEnglish": "Longtable"
+    },
+    {
+      "pointId": "scan-site-v4-299",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-299",
+        "label": "Simbolo sem nome 299",
+        "english": "Unidentified printed settlement",
+        "x": 3202,
+        "y": 8182,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          299
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-299",
+        "key": "Cider_Hall",
+        "label": "Solar da Sidra"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-00.png",
+      "afterLabel": "Solar da Sidra",
+      "afterEnglish": "Cider Hall"
+    },
+    {
+      "pointId": "scan-site-v4-300",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-300",
+        "label": "Simbolo sem nome 300",
+        "english": "Unidentified printed settlement",
+        "x": 4754,
+        "y": 8184,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          300
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-300",
+        "key": "Griffin%27s_Roost",
+        "coordinateCorrection": [
+          4806,
+          8216
+        ],
+        "proofImage": "nomes-v5-grifo-nativo.png",
+        "reason": "The old center was on a mountain. The actual coastal castle immediately east is matched to Poleiro do Grifo by the bay and neighboring heights."
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-grifo-nativo.png",
+      "afterLabel": "Poleiro do Grifo",
+      "afterEnglish": "Griffin's Roost"
+    },
+    {
+      "pointId": "scan-site-v4-328",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-328",
+        "label": "Simbolo sem nome 328",
+        "english": "Unidentified printed settlement",
+        "x": 5328,
+        "y": 8356,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          328
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-328",
+        "key": "Rain_House"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-06.png",
+      "afterLabel": "Casais de Chuva",
+      "afterEnglish": "Rain House"
+    },
+    {
+      "pointId": "scan-site-v4-375",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-375",
+        "label": "Simbolo sem nome 375",
+        "english": "Unidentified printed settlement",
+        "x": 3850,
+        "y": 8574,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          375
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-375",
+        "key": "Blackhaven"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-06.png",
+      "afterLabel": "Portonegro",
+      "afterEnglish": "Blackhaven"
+    },
+    {
+      "pointId": "scan-site-v4-384",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-384",
+        "label": "Simbolo sem nome 384",
+        "english": "Unidentified printed settlement",
+        "x": 2130,
+        "y": 8620,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          384
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-384",
+        "key": "Bandallon"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-06.png",
+      "afterLabel": "Bandallon",
+      "afterEnglish": "Bandallon"
+    },
+    {
+      "pointId": "scan-site-v4-393",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-393",
+        "label": "Simbolo sem nome 393",
+        "english": "Unidentified printed settlement",
+        "x": 5274,
+        "y": 8656,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          393
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-393",
+        "key": "Greenstone"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-06.png",
+      "afterLabel": "Pedraverde",
+      "afterEnglish": "Greenstone"
+    },
+    {
+      "pointId": "scan-site-v4-396",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-396",
+        "label": "Simbolo sem nome 396",
+        "english": "Unidentified printed settlement",
+        "x": 4106,
+        "y": 8674,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          396
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-396",
+        "key": "Wyl",
+        "label": "Wyl",
+        "english": "Wyl"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-06.png",
+      "afterLabel": "Wyl",
+      "afterEnglish": "Wyl"
+    },
+    {
+      "pointId": "scan-site-v4-412",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-412",
+        "label": "Simbolo sem nome 412",
+        "english": "Unidentified printed settlement",
+        "x": 5016,
+        "y": 8736,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          412
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-412",
+        "key": "Weeping_Tower"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png",
+      "afterLabel": "Torre dos Prantos",
+      "afterEnglish": "Weeping Tower"
+    },
+    {
+      "pointId": "scan-site-v4-414",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-414",
+        "label": "Simbolo sem nome 414",
+        "english": "Unidentified printed settlement",
+        "x": 3488,
+        "y": 8748,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          414
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-414",
+        "key": "Tower_of_Joy"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png",
+      "afterLabel": "Torre da Alegria",
+      "afterEnglish": "Tower of Joy"
+    },
+    {
+      "pointId": "scan-site-v4-439",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-439",
+        "label": "Simbolo sem nome 439",
+        "english": "Unidentified printed settlement",
+        "x": 2442,
+        "y": 8800,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          439
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-439",
+        "key": "Honeyholt"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png",
+      "afterLabel": "Bosquemel",
+      "afterEnglish": "Honeyholt"
+    },
+    {
+      "pointId": "scan-site-v4-456",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-456",
+        "label": "Simbolo sem nome 456",
+        "english": "Unidentified printed settlement",
+        "x": 3496,
+        "y": 8854,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          456
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-456",
+        "key": "Kingsgrave"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png",
+      "afterLabel": "Tumbarreal",
+      "afterEnglish": "Kingsgrave"
+    },
+    {
+      "pointId": "scan-site-v4-475",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-475",
+        "label": "Simbolo sem nome 475",
+        "english": "Unidentified printed settlement",
+        "x": 4282,
+        "y": 8942,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          475
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-475",
+        "key": "Ghaston_Grey",
+        "label": "Ghaston Grey"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png",
+      "afterLabel": "Ghaston Grey",
+      "afterEnglish": "Ghaston Grey"
+    },
+    {
+      "pointId": "scan-site-v4-492",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-492",
+        "label": "Simbolo sem nome 492",
+        "english": "Unidentified printed settlement",
+        "x": 3522,
+        "y": 9014,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          492
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-492",
+        "key": "Skyreach"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Alcanceleste",
+      "afterEnglish": "Skyreach"
+    },
+    {
+      "pointId": "scan-site-v4-496",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-496",
+        "label": "Simbolo sem nome 496",
+        "english": "Unidentified printed settlement",
+        "x": 2110,
+        "y": 9076,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          496
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-496",
+        "key": "Blackcrown"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Coroanegra",
+      "afterEnglish": "Blackcrown"
+    },
+    {
+      "pointId": "scan-site-v4-511",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-511",
+        "label": "Simbolo sem nome 511",
+        "english": "Unidentified printed settlement",
+        "x": 3072,
+        "y": 9122,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          511
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-511",
+        "key": "High_Hermitage"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Alto Ermit\u00e9rio",
+      "afterEnglish": "High Hermitage"
+    },
+    {
+      "pointId": "scan-site-v4-528",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-528",
+        "label": "Simbolo sem nome 528",
+        "english": "Unidentified printed settlement",
+        "x": 2206,
+        "y": 9200,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          528
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-528",
+        "key": "Three_Towers"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Tr\u00eas Torres",
+      "afterEnglish": "Three Towers"
+    },
+    {
+      "pointId": "scan-site-v4-549",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-549",
+        "label": "Simbolo sem nome 549",
+        "english": "Unidentified printed settlement",
+        "x": 2926,
+        "y": 9240,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          549
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-549",
+        "key": "Starfall"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Tombastela",
+      "afterEnglish": "Starfall"
+    },
+    {
+      "pointId": "scan-site-v4-580",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-580",
+        "label": "Simbolo sem nome 580",
+        "english": "Unidentified printed settlement",
+        "x": 4620,
+        "y": 9402,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          580
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-580",
+        "key": "Godsgrace",
+        "label": "Gra\u00e7a dos Deuses"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-18.png",
+      "afterLabel": "Gra\u00e7a dos Deuses",
+      "afterEnglish": "Godsgrace"
+    },
+    {
+      "pointId": "scan-site-v4-587",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-587",
+        "label": "Simbolo sem nome 587",
+        "english": "Unidentified printed settlement",
+        "x": 5266,
+        "y": 9420,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          587
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-587",
+        "key": "Water_Gardens"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png",
+      "afterLabel": "Jardins de \u00c1gua",
+      "afterEnglish": "Water Gardens"
+    },
+    {
+      "pointId": "scan-site-v4-602",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-602",
+        "label": "Simbolo sem nome 602",
+        "english": "Unidentified printed settlement",
+        "x": 3696,
+        "y": 9464,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          602
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-602",
+        "key": "Hellholt"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png",
+      "afterLabel": "Toca do Inferno",
+      "afterEnglish": "Hellholt"
+    },
+    {
+      "pointId": "scan-site-v4-608",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-608",
+        "label": "Simbolo sem nome 608",
+        "english": "Unidentified printed settlement",
+        "x": 2562,
+        "y": 9478,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          608
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-608",
+        "key": "Sunhouse",
+        "label": "Casasolar",
+        "english": "Sunhouse"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png",
+      "afterLabel": "Casasolar",
+      "afterEnglish": "Sunhouse"
+    },
+    {
+      "pointId": "scan-v4-white-tree-glyph",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-white-tree-glyph",
+        "label": "Simbolo sem nome junto a Muralha",
+        "english": "Unidentified settlement symbol",
+        "x": 4200,
+        "y": 2300,
+        "kind": "village",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "norte",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-muralha-preto.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Small dark hut north of the Wall; no secure individual identity assigned. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-white-tree-glyph",
+        "key": "White_Tree",
+        "label": "Brancarbor",
+        "english": "White Tree"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png",
+      "afterLabel": "Brancarbor",
+      "afterEnglish": "White Tree"
+    },
+    {
+      "pointId": "scan-v4-cape-castle",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-cape-castle",
+        "label": "Castelo sem nome ao norte da Dentada",
+        "english": "Unidentified castle",
+        "x": 4268,
+        "y": 4916,
+        "kind": "castle",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "norte",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-gargalo.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Coastal castle north of the Three Sisters; no secure individual identity assigned. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-cape-castle",
+        "key": "Oldcastle",
+        "aliases": [
+          "Castelo Velho"
+        ]
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png",
+      "afterLabel": "Castelovelho",
+      "afterEnglish": "Oldcastle"
+    },
+    {
+      "pointId": "scan-v4-summerhall-glyph",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-summerhall-glyph",
+        "label": "Ruina sem nome nas Marcas",
+        "english": "Unidentified ruined castle",
+        "x": 4250,
+        "y": 8220,
+        "kind": "ruin",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-closeup-storm-limpo.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Hollow castle glyph inland west of the stormlands; no secure individual identity assigned. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-summerhall-glyph",
+        "key": "Summerhall"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-30.png",
+      "afterLabel": "Solarestival",
+      "afterEnglish": "Summerhall"
+    },
+    {
+      "pointId": "scan-v4-dorne-3988-9056",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-dorne-3988-9056",
+        "label": "Castelo sem nome em Dorne",
+        "english": "Unidentified castle",
+        "x": 3988,
+        "y": 9056,
+        "kind": "castle",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-dorne-leste.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Western dark coastal castle on the northern shore of Dorne. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-dorne-3988-9056",
+        "key": "Yronwood"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-30.png",
+      "afterLabel": "Paloferro",
+      "afterEnglish": "Yronwood"
+    },
+    {
+      "pointId": "scan-v4-dorne-4574-9180",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-dorne-4574-9180",
+        "label": "Castelo sem nome em Dorne",
+        "english": "Unidentified castle",
+        "x": 4574,
+        "y": 9180,
+        "kind": "castle",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-dorne-leste.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Central dark coastal castle on the northern shore of Dorne. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-dorne-4574-9180",
+        "key": "Tor"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-30.png",
+      "afterLabel": "Penha",
+      "afterEnglish": "Tor"
+    },
+    {
+      "pointId": "scan-v4-dorne-5170-9180",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-dorne-5170-9180",
+        "label": "Castelo sem nome em Dorne",
+        "english": "Unidentified castle",
+        "x": 5170,
+        "y": 9180,
+        "kind": "castle",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-dorne-leste.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Eastern dark coastal castle north of Sunspear. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-dorne-5170-9180",
+        "key": "Ghost_Hill",
+        "aliases": [
+          "Colina Fantasma"
+        ]
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-30.png",
+      "afterLabel": "Monte Fantasma",
+      "afterEnglish": "Ghost Hill"
+    },
+    {
+      "pointId": "scan-v4-dorne-4264-9470",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-v4-dorne-4264-9470",
+        "label": "Castelo sem nome junto ao Vaith",
+        "english": "Unidentified castle by the Vaith",
+        "x": 4264,
+        "y": 9470,
+        "kind": "castle",
+        "reviewedCandidateIds": [],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-dorne-leste.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Dark castle beside the Vaith river; river name alone is not an individual settlement identification. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-v4-dorne-4264-9470",
+        "key": "Vaith"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-30.png",
+      "afterLabel": "Vaith",
+      "afterEnglish": "Vaith"
+    },
+    {
+      "pointId": "scan-site-v4-368",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-368",
+        "label": "Simbolo sem nome 368",
+        "english": "Unidentified printed settlement",
+        "x": 15528,
+        "y": 8532,
+        "kind": "city",
+        "reviewedCandidateIds": [
+          368
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-4.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-368",
+        "key": "Samyriana",
+        "label": "Samyriana",
+        "english": "Samyriana"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-00.png",
+      "afterLabel": "Samyriana",
+      "afterEnglish": "Samyriana"
+    },
+    {
+      "pointId": "scan-site-v4-771",
+      "disposition": "proper-name-associated",
+      "before": {
+        "id": "scan-site-v4-771",
+        "label": "Simbolo sem nome 771",
+        "english": "Unidentified printed settlement",
+        "x": 9422,
+        "y": 11172,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          771
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-771",
+        "key": "Valyria"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png",
+      "afterLabel": "Val\u00edria",
+      "afterEnglish": "Valyria"
+    },
+    {
+      "pointId": "scan-site-2870-2880",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-2870-2880",
+        "label": "Simbolo sem nome 86",
+        "english": "",
+        "x": 2870,
+        "y": 2880,
+        "kind": "castle",
+        "region": "norte",
+        "identificationStatus": "unidentified-symbol",
+        "status": "manual-review",
+        "summary": "Castelo representado na Ilha dos Ursos. O nome da ilha esta impresso; o mapa nao da nome proprio ao castelo.",
+        "note": "Referencia insular identificada; nome proprio desta edificacao nao estabelecido.",
+        "reviewedCandidateIds": [
+          86
+        ],
+        "evidence": [
+          {
+            "kind": "scan-symbol",
+            "label": "Simbolo revisto visualmente",
+            "locator": "atlas/test/evidencias/revisao-west-*.png; candidato 86"
+          },
+          {
+            "kind": "companion-region",
+            "label": "Referencia regional; nome individual nao indicado",
+            "locator": "mapas/jpeg/O Ocidente.jpg; recorte de referencia [1083, 569, 1263, 679] na copia de inspecao 1/4",
+            "sourceSha256": "4d5dfa437e8b63a706f7311d78d71d915cc8baebfa2612c4f9d1b6dbb9f34619",
+            "referenceCropSourcePixels": [
+              4332,
+              2276,
+              5052,
+              2716
+            ],
+            "comparisonSheet": "atlas/test/evidencias/ocidente-correspondencias-0.png"
+          }
+        ]
+      },
+      "decision": {
+        "id": "scan-site-2870-2880",
+        "label": "Castelo na Ilha dos Ursos",
+        "english": "Castle on Bear Island",
+        "context": "Ilha dos Ursos"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-00.png"
+    },
+    {
+      "pointId": "scan-site-1990-9564",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-1990-9564",
+        "label": "Simbolo sem nome 624",
+        "english": "",
+        "x": 1990,
+        "y": 9564,
+        "kind": "village",
+        "region": "westeros",
+        "identificationStatus": "unidentified-symbol",
+        "status": "manual-review",
+        "summary": "Vilarejo representado no Arbor. O nome da ilha esta impresso, mas este simbolo nao recebe nome proprio no mapa.",
+        "note": "Referencia insular identificada; nome proprio desta edificacao nao estabelecido.",
+        "reviewedCandidateIds": [
+          624
+        ],
+        "evidence": [
+          {
+            "kind": "scan-symbol",
+            "label": "Simbolo revisto visualmente",
+            "locator": "atlas/test/evidencias/revisao-west-*.png; candidato 624"
+          },
+          {
+            "kind": "companion-region",
+            "label": "Referencia regional; nome individual nao indicado",
+            "locator": "mapas/jpeg/O Ocidente.jpg; recorte de referencia [693, 3397, 873, 3507] na copia de inspecao 1/4",
+            "sourceSha256": "4d5dfa437e8b63a706f7311d78d71d915cc8baebfa2612c4f9d1b6dbb9f34619",
+            "referenceCropSourcePixels": [
+              2772,
+              13588,
+              3492,
+              14028
+            ],
+            "comparisonSheet": "atlas/test/evidencias/ocidente-correspondencias-60.png"
+          }
+        ]
+      },
+      "decision": {
+        "id": "scan-site-1990-9564",
+        "label": "Vilarejo na costa nordeste do Arbor",
+        "english": "Village on the northeastern Arbor coast",
+        "context": "Arbor"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-00.png"
+    },
+    {
+      "pointId": "scan-site-2058-9636",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-2058-9636",
+        "label": "Simbolo sem nome 638",
+        "english": "",
+        "x": 2058,
+        "y": 9636,
+        "kind": "village",
+        "region": "westeros",
+        "identificationStatus": "unidentified-symbol",
+        "status": "manual-review",
+        "summary": "Outro vilarejo representado no Arbor. A referencia insular nao identifica o nome proprio deste assentamento.",
+        "note": "Referencia insular identificada; nome proprio desta edificacao nao estabelecido.",
+        "reviewedCandidateIds": [
+          638
+        ],
+        "evidence": [
+          {
+            "kind": "scan-symbol",
+            "label": "Simbolo revisto visualmente",
+            "locator": "atlas/test/evidencias/revisao-west-*.png; candidato 638"
+          },
+          {
+            "kind": "companion-region",
+            "label": "Referencia regional; nome individual nao indicado",
+            "locator": "mapas/jpeg/O Ocidente.jpg; recorte de referencia [721, 3427, 901, 3537] na copia de inspecao 1/4",
+            "sourceSha256": "4d5dfa437e8b63a706f7311d78d71d915cc8baebfa2612c4f9d1b6dbb9f34619",
+            "referenceCropSourcePixels": [
+              2884,
+              13708,
+              3604,
+              14148
+            ],
+            "comparisonSheet": "atlas/test/evidencias/ocidente-correspondencias-60.png"
+          }
+        ]
+      },
+      "decision": {
+        "id": "scan-site-2058-9636",
+        "label": "Vilarejo na costa sudeste do Arbor",
+        "english": "Village on the southeastern Arbor coast",
+        "context": "Arbor"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-00.png"
+    },
+    {
+      "pointId": "scan-site-v4-606",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-606",
+        "label": "Simbolo sem nome 606",
+        "english": "Unidentified printed settlement",
+        "x": 1906,
+        "y": 9474,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          606
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-0.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-606",
+        "label": "Castelo do Arbor",
+        "english": "Castle on the Arbor",
+        "context": "Arbor; o nome e da ilha, nao do edificio"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-24.png"
+    },
+    {
+      "pointId": "scan-site-v4-550",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-550",
+        "label": "Simbolo sem nome 550",
+        "english": "Unidentified printed settlement",
+        "x": 9392,
+        "y": 9288,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          550
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-550",
+        "label": "Ru\u00ednas na Estrada do Dem\u00f4nio",
+        "english": "Ruins on the Demon Road",
+        "context": "Estrada do Demonio, a oeste de Mantarys"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-592",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-592",
+        "label": "Simbolo sem nome 592",
+        "english": "Unidentified printed settlement",
+        "x": 8886,
+        "y": 9430,
+        "kind": "city",
+        "reviewedCandidateIds": [
+          592
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-592",
+        "label": "Cidade costeira a leste de Volantis",
+        "english": "Coastal city east of Volantis",
+        "context": "Estrada do Demonio; costa a leste de Volantis"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-649",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-649",
+        "label": "Simbolo sem nome 649",
+        "english": "Unidentified printed settlement",
+        "x": 8270,
+        "y": 9710,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          649
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-649",
+        "label": "Ru\u00ednas na ilha ao sul de Volantis",
+        "english": "Ruins on the island south of Volantis",
+        "context": "Ilhota ao sul de Volantis"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-698",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-698",
+        "label": "Simbolo sem nome 698",
+        "english": "Unidentified printed settlement",
+        "x": 9150,
+        "y": 10150,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          698
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-698",
+        "label": "Ru\u00ednas no noroeste de Val\u00edria",
+        "english": "Ruins in northwestern Valyria",
+        "context": "Peninsula valiriana; noroeste da antiga capital"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-699",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-699",
+        "label": "Simbolo sem nome 699",
+        "english": "Unidentified printed settlement",
+        "x": 10532,
+        "y": 10152,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          699
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-699",
+        "label": "Ru\u00ednas a oeste da Ilha de Cedros",
+        "english": "Ruins west of the Isle of Cedars",
+        "context": "Ilhota a oeste da Ilha de Cedros; nao e Ghozai nem Velos"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-741",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-741",
+        "label": "Simbolo sem nome 741",
+        "english": "Unidentified printed settlement",
+        "x": 15108,
+        "y": 10742,
+        "kind": "village",
+        "reviewedCandidateIds": [
+          741
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-4.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-741",
+        "label": "Vilarejo na costa noroeste de Qal",
+        "english": "Village on the northwestern Qal coast",
+        "context": "Ilha Qal, costa noroeste"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-06.png"
+    },
+    {
+      "pointId": "scan-site-v4-747",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-747",
+        "label": "Simbolo sem nome 747",
+        "english": "Unidentified printed settlement",
+        "x": 15340,
+        "y": 10824,
+        "kind": "village",
+        "reviewedCandidateIds": [
+          747
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-4.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-747",
+        "label": "Vilarejo na costa sudeste de Qal",
+        "english": "Village on the southeastern Qal coast",
+        "context": "Ilha Qal, costa sudeste"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-754",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-754",
+        "label": "Simbolo sem nome 754",
+        "english": "Unidentified printed settlement",
+        "x": 9010,
+        "y": 10922,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          754
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-754",
+        "label": "Ru\u00ednas na costa oeste de Val\u00edria",
+        "english": "Ruins on the western Valyrian coast",
+        "context": "Costa oeste da peninsula valiriana; nao e Tyria"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-766",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-766",
+        "label": "Simbolo sem nome 766",
+        "english": "Unidentified printed settlement",
+        "x": 10024,
+        "y": 11120,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          766
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-766",
+        "label": "Ru\u00ednas na costa leste de Val\u00edria",
+        "english": "Ruins on the eastern Valyrian coast",
+        "context": "Costa leste da peninsula valiriana"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-794",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-794",
+        "label": "Simbolo sem nome 794",
+        "english": "Unidentified printed settlement",
+        "x": 9308,
+        "y": 11580,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          794
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "essos",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-2.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-794",
+        "label": "Ru\u00ednas no sul de Val\u00edria",
+        "english": "Ruins in southern Valyria",
+        "context": "Sul da peninsula valiriana; nao e a capital nomeada"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-799",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-799",
+        "label": "Simbolo sem nome 799",
+        "english": "Unidentified printed settlement",
+        "x": 5526,
+        "y": 11634,
+        "kind": "village",
+        "reviewedCandidateIds": [
+          799
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "ilhas-verao",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-4-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-799",
+        "label": "Vilarejo no noroeste de Walano",
+        "english": "Village in northwestern Walano",
+        "context": "Ilha Walano, extremo noroeste"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-828",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-828",
+        "label": "Simbolo sem nome 828",
+        "english": "Unidentified printed settlement",
+        "x": 6268,
+        "y": 12172,
+        "kind": "village",
+        "reviewedCandidateIds": [
+          828
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "ilhas-verao",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-5-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-828",
+        "label": "Vilarejo no sudeste de Walano",
+        "english": "Village in southeastern Walano",
+        "context": "Ilha Walano, setor sudeste; nao e Porto de Lotus"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-18.png"
+    },
+    {
+      "pointId": "scan-site-v4-838",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-838",
+        "label": "Simbolo sem nome 838",
+        "english": "Unidentified printed settlement",
+        "x": 21200,
+        "y": 12750,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          838
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-5-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-838",
+        "label": "Ru\u00ednas no noroeste de Ulthos",
+        "english": "Ruins in northwestern Ulthos",
+        "context": "Ulthos, costa noroeste"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-18.png"
+    },
+    {
+      "pointId": "scan-site-v4-855",
+      "disposition": "geographic-description-not-proper-name",
+      "before": {
+        "id": "scan-site-v4-855",
+        "label": "Simbolo sem nome 855",
+        "english": "Unidentified printed settlement",
+        "x": 6262,
+        "y": 13884,
+        "kind": "village",
+        "reviewedCandidateIds": [
+          855
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "ilhas-verao",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-5-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-855",
+        "label": "Vilarejo na foz do Rio Doce",
+        "english": "Village at the Sweet River mouth",
+        "context": "Foz do Rio Doce, Ilhas do Verao"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-18.png"
+    },
+    {
+      "pointId": "scan-site-v4-470",
+      "disposition": "named-group-member-not-individual-name",
+      "before": {
+        "id": "scan-site-v4-470",
+        "label": "Simbolo sem nome 470",
+        "english": "Unidentified printed settlement",
+        "x": 19420,
+        "y": 8924,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          470
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-470",
+        "label": "Cinco Fortes - noroeste",
+        "english": "Five Forts - northwest"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-cinco-fortes-nativo.png"
+    },
+    {
+      "pointId": "scan-site-v4-494",
+      "disposition": "named-group-member-not-individual-name",
+      "before": {
+        "id": "scan-site-v4-494",
+        "label": "Simbolo sem nome 494",
+        "english": "Unidentified printed settlement",
+        "x": 19490,
+        "y": 9028,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          494
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-494",
+        "label": "Cinco Fortes - centro-noroeste",
+        "english": "Five Forts - central northwest"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-cinco-fortes-nativo.png"
+    },
+    {
+      "pointId": "Five_Forts_Central",
+      "disposition": "missing-group-member-added",
+      "decision": {
+        "id": "Five_Forts_Central",
+        "label": "Cinco Fortes - central",
+        "english": "Five Forts - central",
+        "newPoint": [
+          19586,
+          9116
+        ]
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-cinco-fortes-nativo.png"
+    },
+    {
+      "pointId": "scan-site-v4-521",
+      "disposition": "named-group-member-not-individual-name",
+      "before": {
+        "id": "scan-site-v4-521",
+        "label": "Simbolo sem nome 521",
+        "english": "Unidentified printed settlement",
+        "x": 19698,
+        "y": 9166,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          521
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-521",
+        "label": "Cinco Fortes - centro-sudeste",
+        "english": "Five Forts - central southeast"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-cinco-fortes-nativo.png"
+    },
+    {
+      "pointId": "scan-site-v4-531",
+      "disposition": "named-group-member-not-individual-name",
+      "before": {
+        "id": "scan-site-v4-531",
+        "label": "Simbolo sem nome 531",
+        "english": "Unidentified printed settlement",
+        "x": 19832,
+        "y": 9206,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          531
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-531",
+        "label": "Cinco Fortes - sudeste",
+        "english": "Five Forts - southeast"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-cinco-fortes-nativo.png"
+    },
+    {
+      "pointId": "scan-site-v4-306",
+      "disposition": "rejected-terrain-not-settlement",
+      "before": {
+        "id": "scan-site-v4-306",
+        "label": "Simbolo sem nome 306",
+        "english": "Unidentified printed settlement",
+        "x": 4674,
+        "y": 8214,
+        "kind": "ruin",
+        "reviewedCandidateIds": [
+          306
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-306",
+        "reason": "Mountain slope and shading southwest of the actual Griffin's Roost castle, not a ruin glyph.",
+        "proofImage": "nomes-v5-grifo-nativo.png"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-grifo-nativo.png"
+    },
+    {
+      "pointId": "scan-site-v4-478",
+      "disposition": "rejected-terrain-not-settlement",
+      "before": {
+        "id": "scan-site-v4-478",
+        "label": "Simbolo sem nome 478",
+        "english": "Unidentified printed settlement",
+        "x": 3778,
+        "y": 8944,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          478
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "westeros",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-1.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-478",
+        "reason": "Mountain peak north of the Dornish coast, not a castle. O Ocidente locates Yronwood at the separately preserved point3988,9056.",
+        "proofImage": "nomes-v5-ocidente-12.png"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-ocidente-12.png"
+    },
+    {
+      "pointId": "scan-site-v4-413",
+      "disposition": "rejected-terrain-not-settlement",
+      "before": {
+        "id": "scan-site-v4-413",
+        "label": "Simbolo sem nome 413",
+        "english": "Unidentified printed settlement",
+        "x": 21266,
+        "y": 8746,
+        "kind": "castle",
+        "reviewedCandidateIds": [
+          413
+        ],
+        "originalKey": null,
+        "status": "manual-review",
+        "identificationStatus": "unidentified-symbol",
+        "region": "oriente",
+        "evidence": [
+          {
+            "kind": "scan",
+            "label": "Simbolo conferido visualmente; centro aproximado",
+            "locator": "atlas/test/evidencias/v4-setor-3-5.png"
+          },
+          {
+            "kind": "coverage-review",
+            "label": "Revisao por setores e detalhe; nao certifica exaustividade",
+            "locator": "atlas/data/cobertura-simbolos-v4-revisada.json"
+          }
+        ],
+        "note": "Simbolo real sem identidade individual segura; nenhum nome adivinhado. Centro manual em revisao."
+      },
+      "decision": {
+        "id": "scan-site-v4-413",
+        "reason": "Terrain shading beside the Dry Deep/Planalto da Seca near the map edge, no castle glyph.",
+        "proofImage": "nomes-v5-outros-00.png"
+      },
+      "proofImage": "atlas/test/evidencias/nomes-v5-outros-00.png"
+    }
+  ],
+  "proofSha256": {
+    "nomes-v5-cinco-fortes-nativo.png": "6d14bba579d41160665f658243c6d087cabd6d3f1e879b2525292edea04cb36a",
+    "nomes-v5-grifo-nativo.png": "b66ddae9742a1443a6b73acbe41469a9c3e5bb99bfb22c972576bfc7d5434227",
+    "nomes-v5-ocidente-00.png": "09755f868cb23406aa48930711f97478a601edde828d638a9b53a170b6c76a3b",
+    "nomes-v5-ocidente-06.png": "ccc617093cb5dbe4209428313f7847d59c61f1ffa27f09de97c3ed5e6daaab22",
+    "nomes-v5-ocidente-12.png": "c963ce73d619390ee045a797a6e4cbe775934f912efe153126a72fab7e0c5a06",
+    "nomes-v5-ocidente-18.png": "84676db25a7e1698be5c9970c519bd653a26dd109d496ace09e4c116419d3dbc",
+    "nomes-v5-ocidente-24.png": "fd7f624411c5a1247c21b39b537aa6d5aae8d39f64cccf28d6db88d9c56d002d",
+    "nomes-v5-ocidente-30.png": "0c1bac3d806f8dc19ae608f5636090bc8d21c44d26f64ca137839151432b5b87",
+    "nomes-v5-outros-00.png": "e1a79f8fd9d737f5f871b894a0b3dc5b590230dcdaf0d1956fd64d8b70c8e0b7",
+    "nomes-v5-outros-06.png": "c8c22d999b4056e31214d29de37d23f3561ac2eaef2f95b3871fccb6c844b6f6",
+    "nomes-v5-outros-12.png": "e883c96b16afb83518dbb2ec146fe4a46b152bd25307403bc2906d943b33c2a9",
+    "nomes-v5-outros-18.png": "23bb707f5d416fee3beb0b04e852042e08661b6b4c7467c35e54592c7c00c539"
+  },
+  "referenceMaps": [
+    {
+      "id": "ocidente",
+      "file": "mapas/jpeg/O Ocidente.jpg",
+      "sha256": "4d5dfa437e8b63a706f7311d78d71d915cc8baebfa2612c4f9d1b6dbb9f34619"
+    },
+    {
+      "id": "oriente",
+      "file": "mapas/jpeg/O Oriente.jpg",
+      "sha256": "8372aa4de7c53f13f88589c455c8bc51319f1e1a67b13a79debcb3c99ec808d5"
+    },
+    {
+      "id": "essos-central",
+      "file": "mapas/jpeg/Essos Central.jpg",
+      "sha256": "22cc0a40a95b5a5ad68d001f5cef4ed09bb69a02d675e6b05a164f7f467b2aae"
+    }
+  ],
+  "policy": "Lead-reviewed symbols, coastlines, roads, rivers and neighboring features. Registration only located inspection windows. Portuguese dictionary variants are not literary certification. Descriptions and collective Five Forts labels are not invented individual proper names."
+}

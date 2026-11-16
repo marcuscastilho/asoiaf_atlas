@@ -1,0 +1,20 @@
+{
+  "name": "gotmap",
+  "version": "0.0.0",
+  "private": true,
+  "description": "pt-BR localized fan clone of Quartermaester (ASoIaF interactive map), using Editora Suma 2019 translations",
+  "scripts": {
+    "serve": "http-server . -p 8080 -c-1",
+    "test": "node --test test/unit.test.js",
+    "smoke": "node scripts/smoke.mjs",
+    "screenshot": "node scripts/screenshot.mjs",
+    "assets": "node tools/download-assets.mjs all",
+    "data": "node tools/generate-data.mjs"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "playwright": "^1.64.1",
+    "pngjs": "^7.0.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

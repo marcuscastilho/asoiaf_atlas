@@ -1,0 +1,3509 @@
+{
+  "policy": "Chapter-member alignment and edition provenance only. Headings are metadata, not verification of any route, coordinate, translation or event chronology.",
+  "portalSnapshotSha256": "ee290ba589816745784d61033ce17fb8e7f18dd8e0d59990a8d528a3cfd0e213",
+  "editions": {
+    "AGOT-LEYA": {
+      "filename": "01- A Guerra dos Tronos - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2010,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580442786",
+      "copyrightMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-1.html",
+      "id": "AGOT-LEYA",
+      "sha256": "72be668d777e87d1d2704c0ebf3cc07ea15e6e4c0301af53baa47f6f76e17e68",
+      "locatorMethod": "NCX chapter entries, including fragment anchors in shared HTML members"
+    },
+    "ACOK-LEYA": {
+      "filename": "02 - A F\u00faria dos Reis - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2011,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580442793",
+      "copyrightMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-1.html",
+      "id": "ACOK-LEYA",
+      "sha256": "bccaa12cd1dd48b06b79fdafa93eff1f4c143738250183533fae95534f0391e6",
+      "locatorMethod": "NCX chapter entries, including fragment anchors in shared HTML members"
+    },
+    "ASOS-LEYA": {
+      "filename": "03 - A Tormenta de Espadas - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2011,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580444650",
+      "copyrightMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-1.html",
+      "id": "ASOS-LEYA",
+      "sha256": "7904816fc36f1664dab5301eb6b880546f906f97888bd1dc64e29e6d1dd8283e",
+      "locatorMethod": "NCX chapter entries, including fragment anchors in shared HTML members"
+    },
+    "AFFC-LEYA": {
+      "filename": "04 - O Festim dos Corvos - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2012,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580445053",
+      "copyrightMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-1.xhtml",
+      "id": "AFFC-LEYA",
+      "sha256": "a51c7ce713109319602fdc776b28f7a84bcbdb6a291fec3b205964e73f26d9f8",
+      "locatorMethod": "NCX chapter entries, including fragment anchors in shared HTML members"
+    },
+    "ADWD-LEYA": {
+      "filename": "05 - A Dan\u00e7a dos Drag\u00f5es - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2012,
+      "translator": "Marcia Blasques",
+      "isbn": "9788580445763",
+      "copyrightMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-1.xhtml",
+      "id": "ADWD-LEYA",
+      "sha256": "9753b4fd0d07071c50abac518b86e6ab4fa379e0bc5e69972532c8a71efee1fd",
+      "locatorMethod": "NCX chapter entries, including fragment anchors in shared HTML members"
+    }
+  },
+  "chapters": [
+    {
+      "globalIndex": 0,
+      "bookId": "agot",
+      "localIndex": 0,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-3.html",
+      "anchor": "toc_marker-3",
+      "heading": "Pr\u00f3logo",
+      "portalTitle": "AGOT-0: Prologue"
+    },
+    {
+      "globalIndex": 1,
+      "bookId": "agot",
+      "localIndex": 1,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-4.html",
+      "anchor": "toc_marker-4",
+      "heading": "Bran",
+      "portalTitle": "AGOT-1: Bran I"
+    },
+    {
+      "globalIndex": 2,
+      "bookId": "agot",
+      "localIndex": 2,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-5.html",
+      "anchor": "toc_marker-5",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-2: Catelyn I"
+    },
+    {
+      "globalIndex": 3,
+      "bookId": "agot",
+      "localIndex": 3,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-6.html",
+      "anchor": "toc_marker-6",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-3: Daenerys I"
+    },
+    {
+      "globalIndex": 4,
+      "bookId": "agot",
+      "localIndex": 4,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-7.html",
+      "anchor": "toc_marker-7",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-4: Eddard I"
+    },
+    {
+      "globalIndex": 5,
+      "bookId": "agot",
+      "localIndex": 5,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-8.html",
+      "anchor": "toc_marker-8",
+      "heading": "Jon",
+      "portalTitle": "AGOT-5: Jon I"
+    },
+    {
+      "globalIndex": 6,
+      "bookId": "agot",
+      "localIndex": 6,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-9.html",
+      "anchor": "toc_marker-9",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-6: Catelyn II"
+    },
+    {
+      "globalIndex": 7,
+      "bookId": "agot",
+      "localIndex": 7,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-10.html",
+      "anchor": "toc_marker-10",
+      "heading": "Arya",
+      "portalTitle": "AGOT-7: Arya I"
+    },
+    {
+      "globalIndex": 8,
+      "bookId": "agot",
+      "localIndex": 8,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html",
+      "anchor": "toc_marker-11",
+      "heading": "Bran",
+      "portalTitle": "AGOT-8: Bran II"
+    },
+    {
+      "globalIndex": 9,
+      "bookId": "agot",
+      "localIndex": 9,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-12.html",
+      "anchor": "toc_marker-12",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-9: Tyrion I"
+    },
+    {
+      "globalIndex": 10,
+      "bookId": "agot",
+      "localIndex": 10,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-13.html",
+      "anchor": "toc_marker-13",
+      "heading": "Jon",
+      "portalTitle": "AGOT-10: Jon II"
+    },
+    {
+      "globalIndex": 11,
+      "bookId": "agot",
+      "localIndex": 11,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-14.html",
+      "anchor": "toc_marker-14",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-11: Daenerys II"
+    },
+    {
+      "globalIndex": 12,
+      "bookId": "agot",
+      "localIndex": 12,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html",
+      "anchor": "toc_marker-15",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-12: Eddard II"
+    },
+    {
+      "globalIndex": 13,
+      "bookId": "agot",
+      "localIndex": 13,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html",
+      "anchor": "toc_marker-16",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-13: Tyrion II"
+    },
+    {
+      "globalIndex": 14,
+      "bookId": "agot",
+      "localIndex": 14,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html",
+      "anchor": "toc_marker-17",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-14: Catelyn III"
+    },
+    {
+      "globalIndex": 15,
+      "bookId": "agot",
+      "localIndex": 15,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-18.html",
+      "anchor": "toc_marker-18",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-15: Sansa I"
+    },
+    {
+      "globalIndex": 16,
+      "bookId": "agot",
+      "localIndex": 16,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-19.html",
+      "anchor": "toc_marker-19",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-16: Eddard III"
+    },
+    {
+      "globalIndex": 17,
+      "bookId": "agot",
+      "localIndex": 17,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html",
+      "anchor": "toc_marker-20",
+      "heading": "Bran",
+      "portalTitle": "AGOT-17: Bran III"
+    },
+    {
+      "globalIndex": 18,
+      "bookId": "agot",
+      "localIndex": 18,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html",
+      "anchor": "toc_marker-21",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-18: Catelyn IV"
+    },
+    {
+      "globalIndex": 19,
+      "bookId": "agot",
+      "localIndex": 19,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html",
+      "anchor": "toc_marker-22",
+      "heading": "Jon",
+      "portalTitle": "AGOT-19: Jon III"
+    },
+    {
+      "globalIndex": 20,
+      "bookId": "agot",
+      "localIndex": 20,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html",
+      "anchor": "toc_marker-23",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-20: Eddard IV"
+    },
+    {
+      "globalIndex": 21,
+      "bookId": "agot",
+      "localIndex": 21,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-24.html",
+      "anchor": "toc_marker-24",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-21: Tyrion III"
+    },
+    {
+      "globalIndex": 22,
+      "bookId": "agot",
+      "localIndex": 22,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-25.html",
+      "anchor": "toc_marker-25",
+      "heading": "Arya",
+      "portalTitle": "AGOT-22: Arya II"
+    },
+    {
+      "globalIndex": 23,
+      "bookId": "agot",
+      "localIndex": 23,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+      "anchor": "toc_marker-26",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-23: Daenerys III"
+    },
+    {
+      "globalIndex": 24,
+      "bookId": "agot",
+      "localIndex": 24,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-27.html",
+      "anchor": "toc_marker-27",
+      "heading": "Bran",
+      "portalTitle": "AGOT-24: Bran IV"
+    },
+    {
+      "globalIndex": 25,
+      "bookId": "agot",
+      "localIndex": 25,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-28.html",
+      "anchor": "toc_marker-28",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-25: Eddard V"
+    },
+    {
+      "globalIndex": 26,
+      "bookId": "agot",
+      "localIndex": 26,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-29.html",
+      "anchor": "toc_marker-29",
+      "heading": "Jon",
+      "portalTitle": "AGOT-26: Jon IV"
+    },
+    {
+      "globalIndex": 27,
+      "bookId": "agot",
+      "localIndex": 27,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-30.html",
+      "anchor": "toc_marker-30",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-27: Eddard VI"
+    },
+    {
+      "globalIndex": 28,
+      "bookId": "agot",
+      "localIndex": 28,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html",
+      "anchor": "toc_marker-31",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-28: Catelyn V"
+    },
+    {
+      "globalIndex": 29,
+      "bookId": "agot",
+      "localIndex": 29,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-32.html",
+      "anchor": "toc_marker-32",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-29: Sansa II"
+    },
+    {
+      "globalIndex": 30,
+      "bookId": "agot",
+      "localIndex": 30,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-33.html",
+      "anchor": "toc_marker-33",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-30: Eddard VII"
+    },
+    {
+      "globalIndex": 31,
+      "bookId": "agot",
+      "localIndex": 31,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-34.html",
+      "anchor": "toc_marker-34",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-31: Tyrion IV"
+    },
+    {
+      "globalIndex": 32,
+      "bookId": "agot",
+      "localIndex": 32,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-35.html",
+      "anchor": "toc_marker-35",
+      "heading": "Arya",
+      "portalTitle": "AGOT-32: Arya III"
+    },
+    {
+      "globalIndex": 33,
+      "bookId": "agot",
+      "localIndex": 33,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-36.html",
+      "anchor": "toc_marker-36",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-33: Eddard VIII"
+    },
+    {
+      "globalIndex": 34,
+      "bookId": "agot",
+      "localIndex": 34,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-37.html",
+      "anchor": "toc_marker-37",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-34: Catelyn VI"
+    },
+    {
+      "globalIndex": 35,
+      "bookId": "agot",
+      "localIndex": 35,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-38.html",
+      "anchor": "toc_marker-38",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-35: Eddard IX"
+    },
+    {
+      "globalIndex": 36,
+      "bookId": "agot",
+      "localIndex": 36,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-39.html",
+      "anchor": "toc_marker-39",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-36: Daenerys IV"
+    },
+    {
+      "globalIndex": 37,
+      "bookId": "agot",
+      "localIndex": 37,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-40.html",
+      "anchor": "toc_marker-40",
+      "heading": "Bran",
+      "portalTitle": "AGOT-37: Bran V"
+    },
+    {
+      "globalIndex": 38,
+      "bookId": "agot",
+      "localIndex": 38,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-41.html",
+      "anchor": "toc_marker-41",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-38: Tyrion V"
+    },
+    {
+      "globalIndex": 39,
+      "bookId": "agot",
+      "localIndex": 39,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-42.html",
+      "anchor": "toc_marker-42",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-39: Eddard X"
+    },
+    {
+      "globalIndex": 40,
+      "bookId": "agot",
+      "localIndex": 40,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-43.html",
+      "anchor": "toc_marker-43",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-40: Catelyn VII"
+    },
+    {
+      "globalIndex": 41,
+      "bookId": "agot",
+      "localIndex": 41,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-44.html",
+      "anchor": "toc_marker-44",
+      "heading": "Jon",
+      "portalTitle": "AGOT-41: Jon V"
+    },
+    {
+      "globalIndex": 42,
+      "bookId": "agot",
+      "localIndex": 42,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-45.html",
+      "anchor": "toc_marker-45",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-42: Tyrion VI"
+    },
+    {
+      "globalIndex": 43,
+      "bookId": "agot",
+      "localIndex": 43,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-46.html",
+      "anchor": "toc_marker-46",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-43: Eddard XI"
+    },
+    {
+      "globalIndex": 44,
+      "bookId": "agot",
+      "localIndex": 44,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-47.html",
+      "anchor": "toc_marker-47",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-44: Sansa III"
+    },
+    {
+      "globalIndex": 45,
+      "bookId": "agot",
+      "localIndex": 45,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-48.html",
+      "anchor": "toc_marker-48",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-45: Eddard XII"
+    },
+    {
+      "globalIndex": 46,
+      "bookId": "agot",
+      "localIndex": 46,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-49.html",
+      "anchor": "toc_marker-49",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-46: Daenerys V"
+    },
+    {
+      "globalIndex": 47,
+      "bookId": "agot",
+      "localIndex": 47,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-50.html",
+      "anchor": "toc_marker-50",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-47: Eddard XIII"
+    },
+    {
+      "globalIndex": 48,
+      "bookId": "agot",
+      "localIndex": 48,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-51.html",
+      "anchor": "toc_marker-51",
+      "heading": "Jon",
+      "portalTitle": "AGOT-48: Jon VI"
+    },
+    {
+      "globalIndex": 49,
+      "bookId": "agot",
+      "localIndex": 49,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-52.html",
+      "anchor": "toc_marker-52",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-49: Eddard XIV"
+    },
+    {
+      "globalIndex": 50,
+      "bookId": "agot",
+      "localIndex": 50,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-53.html",
+      "anchor": "toc_marker-53",
+      "heading": "Arya",
+      "portalTitle": "AGOT-50: Arya IV"
+    },
+    {
+      "globalIndex": 51,
+      "bookId": "agot",
+      "localIndex": 51,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-54.html",
+      "anchor": "toc_marker-54",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-51: Sansa IV"
+    },
+    {
+      "globalIndex": 52,
+      "bookId": "agot",
+      "localIndex": 52,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-55.html",
+      "anchor": "toc_marker-55",
+      "heading": "Jon",
+      "portalTitle": "AGOT-52: Jon VII"
+    },
+    {
+      "globalIndex": 53,
+      "bookId": "agot",
+      "localIndex": 53,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html",
+      "anchor": "toc_marker-56",
+      "heading": "Bran",
+      "portalTitle": "AGOT-53: Bran VI"
+    },
+    {
+      "globalIndex": 54,
+      "bookId": "agot",
+      "localIndex": 54,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html",
+      "anchor": "toc_marker-57",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-54: Daenerys VI"
+    },
+    {
+      "globalIndex": 55,
+      "bookId": "agot",
+      "localIndex": 55,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-58.html",
+      "anchor": "toc_marker-58",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-55: Catelyn VIII"
+    },
+    {
+      "globalIndex": 56,
+      "bookId": "agot",
+      "localIndex": 56,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-59.html",
+      "anchor": "toc_marker-59",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-56: Tyrion VII"
+    },
+    {
+      "globalIndex": 57,
+      "bookId": "agot",
+      "localIndex": 57,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-60.html",
+      "anchor": "toc_marker-60",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-57: Sansa V"
+    },
+    {
+      "globalIndex": 58,
+      "bookId": "agot",
+      "localIndex": 58,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-61.html",
+      "anchor": "toc_marker-61",
+      "heading": "Eddard",
+      "portalTitle": "AGOT-58: Eddard XV"
+    },
+    {
+      "globalIndex": 59,
+      "bookId": "agot",
+      "localIndex": 59,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-62.html",
+      "anchor": "toc_marker-62",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-59: Catelyn IX"
+    },
+    {
+      "globalIndex": 60,
+      "bookId": "agot",
+      "localIndex": 60,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-63.html",
+      "anchor": "toc_marker-63",
+      "heading": "Jon",
+      "portalTitle": "AGOT-60: Jon VIII"
+    },
+    {
+      "globalIndex": 61,
+      "bookId": "agot",
+      "localIndex": 61,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-64.html",
+      "anchor": "toc_marker-64",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-61: Daenerys VII"
+    },
+    {
+      "globalIndex": 62,
+      "bookId": "agot",
+      "localIndex": 62,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-65.html",
+      "anchor": "toc_marker-65",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-62: Tyrion VIII"
+    },
+    {
+      "globalIndex": 63,
+      "bookId": "agot",
+      "localIndex": 63,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-66.html",
+      "anchor": "toc_marker-66",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-63: Catelyn X"
+    },
+    {
+      "globalIndex": 64,
+      "bookId": "agot",
+      "localIndex": 64,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-67.html",
+      "anchor": "toc_marker-67",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-64: Daenerys VIII"
+    },
+    {
+      "globalIndex": 65,
+      "bookId": "agot",
+      "localIndex": 65,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-68.html",
+      "anchor": "toc_marker-68",
+      "heading": "Arya",
+      "portalTitle": "AGOT-65: Arya V"
+    },
+    {
+      "globalIndex": 66,
+      "bookId": "agot",
+      "localIndex": 66,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-69.html",
+      "anchor": "toc_marker-69",
+      "heading": "Bran",
+      "portalTitle": "AGOT-66: Bran VII"
+    },
+    {
+      "globalIndex": 67,
+      "bookId": "agot",
+      "localIndex": 67,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-70.html",
+      "anchor": "toc_marker-70",
+      "heading": "Sansa",
+      "portalTitle": "AGOT-67: Sansa VI"
+    },
+    {
+      "globalIndex": 68,
+      "bookId": "agot",
+      "localIndex": 68,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-71.html",
+      "anchor": "toc_marker-71",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-68: Daenerys IX"
+    },
+    {
+      "globalIndex": 69,
+      "bookId": "agot",
+      "localIndex": 69,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-72.html",
+      "anchor": "toc_marker-72",
+      "heading": "Tyrion",
+      "portalTitle": "AGOT-69: Tyrion IX"
+    },
+    {
+      "globalIndex": 70,
+      "bookId": "agot",
+      "localIndex": 70,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-73.html",
+      "anchor": "toc_marker-73",
+      "heading": "Jon",
+      "portalTitle": "AGOT-70: Jon IX"
+    },
+    {
+      "globalIndex": 71,
+      "bookId": "agot",
+      "localIndex": 71,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-74.html",
+      "anchor": "toc_marker-74",
+      "heading": "Catelyn",
+      "portalTitle": "AGOT-71: Catelyn XI"
+    },
+    {
+      "globalIndex": 72,
+      "bookId": "agot",
+      "localIndex": 72,
+      "edition": "AGOT-LEYA",
+      "member": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-75.html",
+      "anchor": "toc_marker-75",
+      "heading": "Daenerys",
+      "portalTitle": "AGOT-72: Daenerys X"
+    },
+    {
+      "globalIndex": 73,
+      "bookId": "acok",
+      "localIndex": 0,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-3.html",
+      "anchor": "toc_marker-3",
+      "heading": "Pr\u00f3logo",
+      "portalTitle": "ACOK-0: Prologue"
+    },
+    {
+      "globalIndex": 74,
+      "bookId": "acok",
+      "localIndex": 1,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-4.html",
+      "anchor": "toc_marker-4",
+      "heading": "Arya",
+      "portalTitle": "ACOK-1: Arya I"
+    },
+    {
+      "globalIndex": 75,
+      "bookId": "acok",
+      "localIndex": 2,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-5.html",
+      "anchor": "toc_marker-5",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-2: Sansa I"
+    },
+    {
+      "globalIndex": 76,
+      "bookId": "acok",
+      "localIndex": 3,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-6.html",
+      "anchor": "toc_marker-6",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-3: Tyrion I"
+    },
+    {
+      "globalIndex": 77,
+      "bookId": "acok",
+      "localIndex": 4,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-7.html",
+      "anchor": "toc_marker-7",
+      "heading": "Bran",
+      "portalTitle": "ACOK-4: Bran I"
+    },
+    {
+      "globalIndex": 78,
+      "bookId": "acok",
+      "localIndex": 5,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-8.html",
+      "anchor": "toc_marker-8",
+      "heading": "Arya",
+      "portalTitle": "ACOK-5: Arya II"
+    },
+    {
+      "globalIndex": 79,
+      "bookId": "acok",
+      "localIndex": 6,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-9.html",
+      "anchor": "toc_marker-9",
+      "heading": "Jon",
+      "portalTitle": "ACOK-6: Jon I"
+    },
+    {
+      "globalIndex": 80,
+      "bookId": "acok",
+      "localIndex": 7,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+      "anchor": "toc_marker-10",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-7: Catelyn I"
+    },
+    {
+      "globalIndex": 81,
+      "bookId": "acok",
+      "localIndex": 8,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-11.html",
+      "anchor": "toc_marker-11",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-8: Tyrion II"
+    },
+    {
+      "globalIndex": 82,
+      "bookId": "acok",
+      "localIndex": 9,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-12.html",
+      "anchor": "toc_marker-12",
+      "heading": "Arya",
+      "portalTitle": "ACOK-9: Arya III"
+    },
+    {
+      "globalIndex": 83,
+      "bookId": "acok",
+      "localIndex": 10,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+      "anchor": "toc_marker-13",
+      "heading": "Davos",
+      "portalTitle": "ACOK-10: Davos I"
+    },
+    {
+      "globalIndex": 84,
+      "bookId": "acok",
+      "localIndex": 11,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+      "anchor": "toc_marker-14",
+      "heading": "Theon",
+      "portalTitle": "ACOK-11: Theon I"
+    },
+    {
+      "globalIndex": 85,
+      "bookId": "acok",
+      "localIndex": 12,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+      "anchor": null,
+      "heading": "Daenerys",
+      "portalTitle": "ACOK-12: Daenerys I",
+      "unanchoredHeading": {
+        "paragraphClass": "Texto",
+        "text": "Daenerys",
+        "occurrence": 1
+      },
+      "locatorNotice": "Titulo omitido do NCX e sem ancora; apos Theon I no mesmo membro HTML, conferido diretamente."
+    },
+    {
+      "globalIndex": 86,
+      "bookId": "acok",
+      "localIndex": 13,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-15.html",
+      "anchor": "toc_marker-15",
+      "heading": "Jon",
+      "portalTitle": "ACOK-13: Jon II"
+    },
+    {
+      "globalIndex": 87,
+      "bookId": "acok",
+      "localIndex": 14,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-16.html",
+      "anchor": "toc_marker-16",
+      "heading": "Arya",
+      "portalTitle": "ACOK-14: Arya IV"
+    },
+    {
+      "globalIndex": 88,
+      "bookId": "acok",
+      "localIndex": 15,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-17.html",
+      "anchor": "toc_marker-17",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-15: Tyrion III"
+    },
+    {
+      "globalIndex": 89,
+      "bookId": "acok",
+      "localIndex": 16,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-18.html",
+      "anchor": "toc_marker-18",
+      "heading": "Bran",
+      "portalTitle": "ACOK-16: Bran II"
+    },
+    {
+      "globalIndex": 90,
+      "bookId": "acok",
+      "localIndex": 17,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-19.html",
+      "anchor": "toc_marker-19",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-17: Tyrion IV"
+    },
+    {
+      "globalIndex": 91,
+      "bookId": "acok",
+      "localIndex": 18,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-20.html",
+      "anchor": "toc_marker-20",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-18: Sansa II"
+    },
+    {
+      "globalIndex": 92,
+      "bookId": "acok",
+      "localIndex": 19,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-21.html",
+      "anchor": "toc_marker-21",
+      "heading": "Arya",
+      "portalTitle": "ACOK-19: Arya V"
+    },
+    {
+      "globalIndex": 93,
+      "bookId": "acok",
+      "localIndex": 20,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-22.html",
+      "anchor": "toc_marker-22",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-20: Tyrion V"
+    },
+    {
+      "globalIndex": 94,
+      "bookId": "acok",
+      "localIndex": 21,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-23.html",
+      "anchor": "toc_marker-23",
+      "heading": "Bran",
+      "portalTitle": "ACOK-21: Bran III"
+    },
+    {
+      "globalIndex": 95,
+      "bookId": "acok",
+      "localIndex": 22,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-24.html",
+      "anchor": "toc_marker-24",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-22: Catelyn II"
+    },
+    {
+      "globalIndex": 96,
+      "bookId": "acok",
+      "localIndex": 23,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-25.html",
+      "anchor": "toc_marker-25",
+      "heading": "Jon",
+      "portalTitle": "ACOK-23: Jon III"
+    },
+    {
+      "globalIndex": 97,
+      "bookId": "acok",
+      "localIndex": 24,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-26.html",
+      "anchor": "toc_marker-26",
+      "heading": "Theon",
+      "portalTitle": "ACOK-24: Theon II"
+    },
+    {
+      "globalIndex": 98,
+      "bookId": "acok",
+      "localIndex": 25,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-27.html",
+      "anchor": "toc_marker-27",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-25: Tyrion VI"
+    },
+    {
+      "globalIndex": 99,
+      "bookId": "acok",
+      "localIndex": 26,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-28.html",
+      "anchor": "toc_marker-28",
+      "heading": "Arya",
+      "portalTitle": "ACOK-26: Arya VI"
+    },
+    {
+      "globalIndex": 100,
+      "bookId": "acok",
+      "localIndex": 27,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-29.html",
+      "anchor": "toc_marker-29",
+      "heading": "Daenerys",
+      "portalTitle": "ACOK-27: Daenerys II"
+    },
+    {
+      "globalIndex": 101,
+      "bookId": "acok",
+      "localIndex": 28,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-30.html",
+      "anchor": "toc_marker-30",
+      "heading": "Bran",
+      "portalTitle": "ACOK-28: Bran IV"
+    },
+    {
+      "globalIndex": 102,
+      "bookId": "acok",
+      "localIndex": 29,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-31.html",
+      "anchor": "toc_marker-31",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-29: Tyrion VII"
+    },
+    {
+      "globalIndex": 103,
+      "bookId": "acok",
+      "localIndex": 30,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-32.html",
+      "anchor": "toc_marker-32",
+      "heading": "Arya",
+      "portalTitle": "ACOK-30: Arya VII"
+    },
+    {
+      "globalIndex": 104,
+      "bookId": "acok",
+      "localIndex": 31,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-33.html",
+      "anchor": "toc_marker-33",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-31: Catelyn III"
+    },
+    {
+      "globalIndex": 105,
+      "bookId": "acok",
+      "localIndex": 32,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-34.html",
+      "anchor": "toc_marker-34",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-32: Sansa III"
+    },
+    {
+      "globalIndex": 106,
+      "bookId": "acok",
+      "localIndex": 33,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-35.html",
+      "anchor": "toc_marker-35",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-33: Catelyn IV"
+    },
+    {
+      "globalIndex": 107,
+      "bookId": "acok",
+      "localIndex": 34,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-36.html",
+      "anchor": "toc_marker-36",
+      "heading": "Jon",
+      "portalTitle": "ACOK-34: Jon IV"
+    },
+    {
+      "globalIndex": 108,
+      "bookId": "acok",
+      "localIndex": 35,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-37.html",
+      "anchor": "toc_marker-37",
+      "heading": "Bran",
+      "portalTitle": "ACOK-35: Bran V"
+    },
+    {
+      "globalIndex": 109,
+      "bookId": "acok",
+      "localIndex": 36,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-38.html",
+      "anchor": "toc_marker-38",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-36: Tyrion VIII"
+    },
+    {
+      "globalIndex": 110,
+      "bookId": "acok",
+      "localIndex": 37,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-39.html",
+      "anchor": "toc_marker-39",
+      "heading": "Theon",
+      "portalTitle": "ACOK-37: Theon III"
+    },
+    {
+      "globalIndex": 111,
+      "bookId": "acok",
+      "localIndex": 38,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-40.html",
+      "anchor": "toc_marker-40",
+      "heading": "Arya",
+      "portalTitle": "ACOK-38: Arya VIII"
+    },
+    {
+      "globalIndex": 112,
+      "bookId": "acok",
+      "localIndex": 39,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-41.html",
+      "anchor": "toc_marker-41",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-39: Catelyn V"
+    },
+    {
+      "globalIndex": 113,
+      "bookId": "acok",
+      "localIndex": 40,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-42.html",
+      "anchor": "toc_marker-42",
+      "heading": "Daenerys",
+      "portalTitle": "ACOK-40: Daenerys III"
+    },
+    {
+      "globalIndex": 114,
+      "bookId": "acok",
+      "localIndex": 41,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-43.html",
+      "anchor": "toc_marker-43",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-41: Tyrion IX"
+    },
+    {
+      "globalIndex": 115,
+      "bookId": "acok",
+      "localIndex": 42,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-44.html",
+      "anchor": "toc_marker-44",
+      "heading": "Davos",
+      "portalTitle": "ACOK-42: Davos II"
+    },
+    {
+      "globalIndex": 116,
+      "bookId": "acok",
+      "localIndex": 43,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-45.html",
+      "anchor": "toc_marker-45",
+      "heading": "Jon",
+      "portalTitle": "ACOK-43: Jon V"
+    },
+    {
+      "globalIndex": 117,
+      "bookId": "acok",
+      "localIndex": 44,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/Section0001.xhtml",
+      "anchor": null,
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-44: Tyrion X"
+    },
+    {
+      "globalIndex": 118,
+      "bookId": "acok",
+      "localIndex": 45,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-46.html",
+      "anchor": "toc_marker-47",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-45: Catelyn VI"
+    },
+    {
+      "globalIndex": 119,
+      "bookId": "acok",
+      "localIndex": 46,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-47.html",
+      "anchor": "toc_marker-48",
+      "heading": "Bran",
+      "portalTitle": "ACOK-46: Bran VI"
+    },
+    {
+      "globalIndex": 120,
+      "bookId": "acok",
+      "localIndex": 47,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-48.html",
+      "anchor": "toc_marker-49",
+      "heading": "Arya",
+      "portalTitle": "ACOK-47: Arya IX"
+    },
+    {
+      "globalIndex": 121,
+      "bookId": "acok",
+      "localIndex": 48,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-49.html",
+      "anchor": "toc_marker-50",
+      "heading": "Daenerys",
+      "portalTitle": "ACOK-48: Daenerys IV"
+    },
+    {
+      "globalIndex": 122,
+      "bookId": "acok",
+      "localIndex": 49,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-50.html",
+      "anchor": "toc_marker-51",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-49: Tyrion XI"
+    },
+    {
+      "globalIndex": 123,
+      "bookId": "acok",
+      "localIndex": 50,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-51.html",
+      "anchor": "toc_marker-52",
+      "heading": "Theon",
+      "portalTitle": "ACOK-50: Theon IV"
+    },
+    {
+      "globalIndex": 124,
+      "bookId": "acok",
+      "localIndex": 51,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-52.html",
+      "anchor": "toc_marker-53",
+      "heading": "Jon",
+      "portalTitle": "ACOK-51: Jon VI"
+    },
+    {
+      "globalIndex": 125,
+      "bookId": "acok",
+      "localIndex": 52,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-53.html",
+      "anchor": "toc_marker-54",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-52: Sansa IV"
+    },
+    {
+      "globalIndex": 126,
+      "bookId": "acok",
+      "localIndex": 53,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-54.html",
+      "anchor": "toc_marker-55",
+      "heading": "Jon",
+      "portalTitle": "ACOK-53: Jon VII"
+    },
+    {
+      "globalIndex": 127,
+      "bookId": "acok",
+      "localIndex": 54,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-55.html",
+      "anchor": "toc_marker-56",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-54: Tyrion XII"
+    },
+    {
+      "globalIndex": 128,
+      "bookId": "acok",
+      "localIndex": 55,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-56.html",
+      "anchor": "toc_marker-57",
+      "heading": "Catelyn",
+      "portalTitle": "ACOK-55: Catelyn VII"
+    },
+    {
+      "globalIndex": 129,
+      "bookId": "acok",
+      "localIndex": 56,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-57.html",
+      "anchor": "toc_marker-58",
+      "heading": "Theon",
+      "portalTitle": "ACOK-56: Theon V"
+    },
+    {
+      "globalIndex": 130,
+      "bookId": "acok",
+      "localIndex": 57,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-58.html",
+      "anchor": "toc_marker-59",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-57: Sansa V"
+    },
+    {
+      "globalIndex": 131,
+      "bookId": "acok",
+      "localIndex": 58,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-59.html",
+      "anchor": "toc_marker-60",
+      "heading": "Davos",
+      "portalTitle": "ACOK-58: Davos III"
+    },
+    {
+      "globalIndex": 132,
+      "bookId": "acok",
+      "localIndex": 59,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-60.html",
+      "anchor": "toc_marker-61",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-59: Tyrion XIII"
+    },
+    {
+      "globalIndex": 133,
+      "bookId": "acok",
+      "localIndex": 60,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-61.html",
+      "anchor": "toc_marker-62",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-60: Sansa VI"
+    },
+    {
+      "globalIndex": 134,
+      "bookId": "acok",
+      "localIndex": 61,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-62.html",
+      "anchor": "toc_marker-63",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-61: Tyrion XIV"
+    },
+    {
+      "globalIndex": 135,
+      "bookId": "acok",
+      "localIndex": 62,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-63.html",
+      "anchor": "toc_marker-64",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-62: Sansa VII"
+    },
+    {
+      "globalIndex": 136,
+      "bookId": "acok",
+      "localIndex": 63,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-64.html",
+      "anchor": "toc_marker-65",
+      "heading": "Daenerys",
+      "portalTitle": "ACOK-63: Daenerys V"
+    },
+    {
+      "globalIndex": 137,
+      "bookId": "acok",
+      "localIndex": 64,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-65.html",
+      "anchor": "toc_marker-66",
+      "heading": "Arya",
+      "portalTitle": "ACOK-64: Arya X"
+    },
+    {
+      "globalIndex": 138,
+      "bookId": "acok",
+      "localIndex": 65,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-66.html",
+      "anchor": "toc_marker-67",
+      "heading": "Sansa",
+      "portalTitle": "ACOK-65: Sansa VIII"
+    },
+    {
+      "globalIndex": 139,
+      "bookId": "acok",
+      "localIndex": 66,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-67.html",
+      "anchor": "toc_marker-68",
+      "heading": "Theon",
+      "portalTitle": "ACOK-66: Theon VI"
+    },
+    {
+      "globalIndex": 140,
+      "bookId": "acok",
+      "localIndex": 67,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-68.html",
+      "anchor": "toc_marker-69",
+      "heading": "Tyrion",
+      "portalTitle": "ACOK-67: Tyrion XV"
+    },
+    {
+      "globalIndex": 141,
+      "bookId": "acok",
+      "localIndex": 68,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-69.html",
+      "anchor": "toc_marker-70",
+      "heading": "Jon",
+      "portalTitle": "ACOK-68: Jon VIII"
+    },
+    {
+      "globalIndex": 142,
+      "bookId": "acok",
+      "localIndex": 69,
+      "edition": "ACOK-LEYA",
+      "member": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-70.html",
+      "anchor": "toc_marker-71",
+      "heading": "Bran",
+      "portalTitle": "ACOK-69: Bran VII"
+    },
+    {
+      "globalIndex": 143,
+      "bookId": "asos",
+      "localIndex": 0,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-5.html",
+      "anchor": "toc_marker-4",
+      "heading": "PR\u00d3LOGO",
+      "portalTitle": "ASOS-0: Prologue"
+    },
+    {
+      "globalIndex": 144,
+      "bookId": "asos",
+      "localIndex": 1,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-5.html",
+      "anchor": "toc_marker-5",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-1: Jaime I"
+    },
+    {
+      "globalIndex": 145,
+      "bookId": "asos",
+      "localIndex": 2,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-6.html",
+      "anchor": "toc_marker-6",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-2: Catelyn I"
+    },
+    {
+      "globalIndex": 146,
+      "bookId": "asos",
+      "localIndex": 3,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-7.html",
+      "anchor": "toc_marker-7",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-3: Arya I"
+    },
+    {
+      "globalIndex": 147,
+      "bookId": "asos",
+      "localIndex": 4,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-8.html",
+      "anchor": "toc_marker-8",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-4: Tyrion I"
+    },
+    {
+      "globalIndex": 148,
+      "bookId": "asos",
+      "localIndex": 5,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-9.html",
+      "anchor": "toc_marker-9",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-5: Davos I"
+    },
+    {
+      "globalIndex": 149,
+      "bookId": "asos",
+      "localIndex": 6,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-10.html",
+      "anchor": "toc_marker-10",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-6: Sansa I"
+    },
+    {
+      "globalIndex": 150,
+      "bookId": "asos",
+      "localIndex": 7,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+      "anchor": "toc_marker-11",
+      "heading": "JON",
+      "portalTitle": "ASOS-7: Jon I"
+    },
+    {
+      "globalIndex": 151,
+      "bookId": "asos",
+      "localIndex": 8,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+      "anchor": "toc_marker-12",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-8: Daenerys I"
+    },
+    {
+      "globalIndex": 152,
+      "bookId": "asos",
+      "localIndex": 9,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+      "anchor": "toc_marker-13",
+      "heading": "BRAN",
+      "portalTitle": "ASOS-9: Bran I"
+    },
+    {
+      "globalIndex": 153,
+      "bookId": "asos",
+      "localIndex": 10,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+      "anchor": "toc_marker-14",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-10: Davos II"
+    },
+    {
+      "globalIndex": 154,
+      "bookId": "asos",
+      "localIndex": 11,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-14.html",
+      "anchor": "toc_marker-15",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-11: Jaime II"
+    },
+    {
+      "globalIndex": 155,
+      "bookId": "asos",
+      "localIndex": 12,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-15.html",
+      "anchor": "toc_marker-16",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-12: Tyrion II"
+    },
+    {
+      "globalIndex": 156,
+      "bookId": "asos",
+      "localIndex": 13,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-16.html",
+      "anchor": "toc_marker-17",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-13: Arya II"
+    },
+    {
+      "globalIndex": 157,
+      "bookId": "asos",
+      "localIndex": 14,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-17.html",
+      "anchor": "toc_marker-18",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-14: Catelyn II"
+    },
+    {
+      "globalIndex": 158,
+      "bookId": "asos",
+      "localIndex": 15,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-18.html",
+      "anchor": "toc_marker-19",
+      "heading": "JON",
+      "portalTitle": "ASOS-15: Jon II"
+    },
+    {
+      "globalIndex": 159,
+      "bookId": "asos",
+      "localIndex": 16,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-19.html",
+      "anchor": "toc_marker-20",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-16: Sansa II"
+    },
+    {
+      "globalIndex": 160,
+      "bookId": "asos",
+      "localIndex": 17,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-20.html",
+      "anchor": "toc_marker-21",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-17: Arya III"
+    },
+    {
+      "globalIndex": 161,
+      "bookId": "asos",
+      "localIndex": 18,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-21.html",
+      "anchor": "toc_marker-22",
+      "heading": "SAMWELL",
+      "portalTitle": "ASOS-18: Samwell I"
+    },
+    {
+      "globalIndex": 162,
+      "bookId": "asos",
+      "localIndex": 19,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+      "anchor": "toc_marker-23",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-19: Tyrion III"
+    },
+    {
+      "globalIndex": 163,
+      "bookId": "asos",
+      "localIndex": 20,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-23.html",
+      "anchor": "toc_marker-24",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-20: Catelyn III"
+    },
+    {
+      "globalIndex": 164,
+      "bookId": "asos",
+      "localIndex": 21,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-24.html",
+      "anchor": "toc_marker-25",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-21: Jaime III"
+    },
+    {
+      "globalIndex": 165,
+      "bookId": "asos",
+      "localIndex": 22,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-25.html",
+      "anchor": "toc_marker-26",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-22: Arya IV"
+    },
+    {
+      "globalIndex": 166,
+      "bookId": "asos",
+      "localIndex": 23,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+      "anchor": "toc_marker-27",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-23: Daenerys II"
+    },
+    {
+      "globalIndex": 167,
+      "bookId": "asos",
+      "localIndex": 24,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-27.html",
+      "anchor": "toc_marker-28",
+      "heading": "BRAN",
+      "portalTitle": "ASOS-24: Bran II"
+    },
+    {
+      "globalIndex": 168,
+      "bookId": "asos",
+      "localIndex": 25,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-28.html",
+      "anchor": "toc_marker-29",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-25: Davos III"
+    },
+    {
+      "globalIndex": 169,
+      "bookId": "asos",
+      "localIndex": 26,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-29.html",
+      "anchor": "toc_marker-30",
+      "heading": "JON",
+      "portalTitle": "ASOS-26: Jon III"
+    },
+    {
+      "globalIndex": 170,
+      "bookId": "asos",
+      "localIndex": 27,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-30.html",
+      "anchor": "toc_marker-31",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-27: Daenerys III"
+    },
+    {
+      "globalIndex": 171,
+      "bookId": "asos",
+      "localIndex": 28,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-31.html",
+      "anchor": "toc_marker-32",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-28: Sansa III"
+    },
+    {
+      "globalIndex": 172,
+      "bookId": "asos",
+      "localIndex": 29,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-32.html",
+      "anchor": "toc_marker-33",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-29: Arya V"
+    },
+    {
+      "globalIndex": 173,
+      "bookId": "asos",
+      "localIndex": 30,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-33.html",
+      "anchor": "toc_marker-34",
+      "heading": "JON",
+      "portalTitle": "ASOS-30: Jon IV"
+    },
+    {
+      "globalIndex": 174,
+      "bookId": "asos",
+      "localIndex": 31,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-34.html",
+      "anchor": "toc_marker-35",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-31: Jaime IV"
+    },
+    {
+      "globalIndex": 175,
+      "bookId": "asos",
+      "localIndex": 32,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-35.html",
+      "anchor": "toc_marker-36",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-32: Tyrion IV"
+    },
+    {
+      "globalIndex": 176,
+      "bookId": "asos",
+      "localIndex": 33,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-36.html",
+      "anchor": "toc_marker-37",
+      "heading": "SAMWELL",
+      "portalTitle": "ASOS-33: Samwell II"
+    },
+    {
+      "globalIndex": 177,
+      "bookId": "asos",
+      "localIndex": 34,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-37.html",
+      "anchor": "toc_marker-38",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-34: Arya VI"
+    },
+    {
+      "globalIndex": 178,
+      "bookId": "asos",
+      "localIndex": 35,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-38.html",
+      "anchor": "toc_marker-39",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-35: Catelyn IV"
+    },
+    {
+      "globalIndex": 179,
+      "bookId": "asos",
+      "localIndex": 36,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-39.html",
+      "anchor": "toc_marker-40",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-36: Davos IV"
+    },
+    {
+      "globalIndex": 180,
+      "bookId": "asos",
+      "localIndex": 37,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-40.html",
+      "anchor": "toc_marker-41",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-37: Jaime V"
+    },
+    {
+      "globalIndex": 181,
+      "bookId": "asos",
+      "localIndex": 38,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-41.html",
+      "anchor": "toc_marker-42",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-38: Tyrion V"
+    },
+    {
+      "globalIndex": 182,
+      "bookId": "asos",
+      "localIndex": 39,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-42.html",
+      "anchor": "toc_marker-43",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-39: Arya VII"
+    },
+    {
+      "globalIndex": 183,
+      "bookId": "asos",
+      "localIndex": 40,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-43.html",
+      "anchor": "toc_marker-44",
+      "heading": "BRAN",
+      "portalTitle": "ASOS-40: Bran III"
+    },
+    {
+      "globalIndex": 184,
+      "bookId": "asos",
+      "localIndex": 41,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-44.html",
+      "anchor": "toc_marker-45",
+      "heading": "JON",
+      "portalTitle": "ASOS-41: Jon V"
+    },
+    {
+      "globalIndex": 185,
+      "bookId": "asos",
+      "localIndex": 42,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-45.html",
+      "anchor": "toc_marker-46",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-42: Daenerys IV"
+    },
+    {
+      "globalIndex": 186,
+      "bookId": "asos",
+      "localIndex": 43,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-46.html",
+      "anchor": "toc_marker-47",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-43: Arya VIII"
+    },
+    {
+      "globalIndex": 187,
+      "bookId": "asos",
+      "localIndex": 44,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-47.html",
+      "anchor": "toc_marker-48",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-44: Jaime VI"
+    },
+    {
+      "globalIndex": 188,
+      "bookId": "asos",
+      "localIndex": 45,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+      "anchor": "toc_marker-49",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-45: Catelyn V"
+    },
+    {
+      "globalIndex": 189,
+      "bookId": "asos",
+      "localIndex": 46,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-49.html",
+      "anchor": "toc_marker-50",
+      "heading": "SAMWELL",
+      "portalTitle": "ASOS-46: Samwell III"
+    },
+    {
+      "globalIndex": 190,
+      "bookId": "asos",
+      "localIndex": 47,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-50.html",
+      "anchor": "toc_marker-51",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-47: Arya IX"
+    },
+    {
+      "globalIndex": 191,
+      "bookId": "asos",
+      "localIndex": 48,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-51.html",
+      "anchor": "toc_marker-52",
+      "heading": "JON",
+      "portalTitle": "ASOS-48: Jon VI"
+    },
+    {
+      "globalIndex": 192,
+      "bookId": "asos",
+      "localIndex": 49,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-52.html",
+      "anchor": "toc_marker-53",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-49: Catelyn VI"
+    },
+    {
+      "globalIndex": 193,
+      "bookId": "asos",
+      "localIndex": 50,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-53.html",
+      "anchor": "toc_marker-54",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-50: Arya X"
+    },
+    {
+      "globalIndex": 194,
+      "bookId": "asos",
+      "localIndex": 51,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-54.html",
+      "anchor": "toc_marker-55",
+      "heading": "CATELYN",
+      "portalTitle": "ASOS-51: Catelyn VII"
+    },
+    {
+      "globalIndex": 195,
+      "bookId": "asos",
+      "localIndex": 52,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-55.html",
+      "anchor": "toc_marker-56",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-52: Arya XI"
+    },
+    {
+      "globalIndex": 196,
+      "bookId": "asos",
+      "localIndex": 53,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-56.html",
+      "anchor": "toc_marker-57",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-53: Tyrion VI"
+    },
+    {
+      "globalIndex": 197,
+      "bookId": "asos",
+      "localIndex": 54,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-57.html",
+      "anchor": "toc_marker-58",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-54: Davos V"
+    },
+    {
+      "globalIndex": 198,
+      "bookId": "asos",
+      "localIndex": 55,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-58.html",
+      "anchor": "toc_marker-59",
+      "heading": "JON",
+      "portalTitle": "ASOS-55: Jon VII"
+    },
+    {
+      "globalIndex": 199,
+      "bookId": "asos",
+      "localIndex": 56,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-59.html",
+      "anchor": "toc_marker-60",
+      "heading": "BRAN",
+      "portalTitle": "ASOS-56: Bran IV"
+    },
+    {
+      "globalIndex": 200,
+      "bookId": "asos",
+      "localIndex": 57,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-60.html",
+      "anchor": "toc_marker-61",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-57: Daenerys V"
+    },
+    {
+      "globalIndex": 201,
+      "bookId": "asos",
+      "localIndex": 58,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-61.html",
+      "anchor": "toc_marker-62",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-58: Tyrion VII"
+    },
+    {
+      "globalIndex": 202,
+      "bookId": "asos",
+      "localIndex": 59,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-62.html",
+      "anchor": "toc_marker-63",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-59: Sansa IV"
+    },
+    {
+      "globalIndex": 203,
+      "bookId": "asos",
+      "localIndex": 60,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-63.html",
+      "anchor": "toc_marker-64",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-60: Tyrion VIII"
+    },
+    {
+      "globalIndex": 204,
+      "bookId": "asos",
+      "localIndex": 61,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-64.html",
+      "anchor": "toc_marker-65",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-61: Sansa V"
+    },
+    {
+      "globalIndex": 205,
+      "bookId": "asos",
+      "localIndex": 62,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-65.html",
+      "anchor": "toc_marker-66",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-62: Jaime VII"
+    },
+    {
+      "globalIndex": 206,
+      "bookId": "asos",
+      "localIndex": 63,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-66.html",
+      "anchor": "toc_marker-67",
+      "heading": "DAVOS",
+      "portalTitle": "ASOS-63: Davos VI"
+    },
+    {
+      "globalIndex": 207,
+      "bookId": "asos",
+      "localIndex": 64,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-67.html",
+      "anchor": "toc_marker-68",
+      "heading": "JON",
+      "portalTitle": "ASOS-64: Jon VIII"
+    },
+    {
+      "globalIndex": 208,
+      "bookId": "asos",
+      "localIndex": 65,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-68.html",
+      "anchor": "toc_marker-69",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-65: Arya XII"
+    },
+    {
+      "globalIndex": 209,
+      "bookId": "asos",
+      "localIndex": 66,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-69.html",
+      "anchor": "toc_marker-70",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-66: Tyrion IX"
+    },
+    {
+      "globalIndex": 210,
+      "bookId": "asos",
+      "localIndex": 67,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-70.html",
+      "anchor": "toc_marker-71",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-67: Jaime VIII"
+    },
+    {
+      "globalIndex": 211,
+      "bookId": "asos",
+      "localIndex": 68,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-71.html",
+      "anchor": "toc_marker-72",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-68: Sansa VI"
+    },
+    {
+      "globalIndex": 212,
+      "bookId": "asos",
+      "localIndex": 69,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-72.html",
+      "anchor": "toc_marker-73",
+      "heading": "JON",
+      "portalTitle": "ASOS-69: Jon IX"
+    },
+    {
+      "globalIndex": 213,
+      "bookId": "asos",
+      "localIndex": 70,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-73.html",
+      "anchor": "toc_marker-74",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-70: Tyrion X"
+    },
+    {
+      "globalIndex": 214,
+      "bookId": "asos",
+      "localIndex": 71,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-74.html",
+      "anchor": "toc_marker-75",
+      "heading": "DAENERYS",
+      "portalTitle": "ASOS-71: Daenerys VI"
+    },
+    {
+      "globalIndex": 215,
+      "bookId": "asos",
+      "localIndex": 72,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-75.html",
+      "anchor": "toc_marker-76",
+      "heading": "JAIME",
+      "portalTitle": "ASOS-72: Jaime IX"
+    },
+    {
+      "globalIndex": 216,
+      "bookId": "asos",
+      "localIndex": 73,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-76.html",
+      "anchor": "toc_marker-77",
+      "heading": "JON",
+      "portalTitle": "ASOS-73: Jon X"
+    },
+    {
+      "globalIndex": 217,
+      "bookId": "asos",
+      "localIndex": 74,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-77.html",
+      "anchor": "toc_marker-78",
+      "heading": "ARYA",
+      "portalTitle": "ASOS-74: Arya XIII"
+    },
+    {
+      "globalIndex": 218,
+      "bookId": "asos",
+      "localIndex": 75,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-78.html",
+      "anchor": "toc_marker-79",
+      "heading": "SAMWELL",
+      "portalTitle": "ASOS-75: Samwell IV"
+    },
+    {
+      "globalIndex": 219,
+      "bookId": "asos",
+      "localIndex": 76,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-79.html",
+      "anchor": "toc_marker-80",
+      "heading": "JON",
+      "portalTitle": "ASOS-76: Jon XI"
+    },
+    {
+      "globalIndex": 220,
+      "bookId": "asos",
+      "localIndex": 77,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-80.html",
+      "anchor": "toc_marker-81",
+      "heading": "TYRION",
+      "portalTitle": "ASOS-77: Tyrion XI"
+    },
+    {
+      "globalIndex": 221,
+      "bookId": "asos",
+      "localIndex": 78,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-81.html",
+      "anchor": "toc_marker-82",
+      "heading": "SAMWELL",
+      "portalTitle": "ASOS-78: Samwell V"
+    },
+    {
+      "globalIndex": 222,
+      "bookId": "asos",
+      "localIndex": 79,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-82.html",
+      "anchor": "toc_marker-83",
+      "heading": "JON",
+      "portalTitle": "ASOS-79: Jon XII"
+    },
+    {
+      "globalIndex": 223,
+      "bookId": "asos",
+      "localIndex": 80,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-83.html",
+      "anchor": "toc_marker-84",
+      "heading": "SANSA",
+      "portalTitle": "ASOS-80: Sansa VII"
+    },
+    {
+      "globalIndex": 224,
+      "bookId": "asos",
+      "localIndex": 81,
+      "edition": "ASOS-LEYA",
+      "member": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-84.html",
+      "anchor": "toc_marker-85",
+      "heading": "EP\u00cdLOGO",
+      "portalTitle": "ASOS-81: Epilogue"
+    },
+    {
+      "globalIndex": 225,
+      "bookId": "affc",
+      "localIndex": 0,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-3.xhtml",
+      "anchor": "toc_marker-4",
+      "heading": "PR\u00d3LOGO",
+      "portalTitle": "AFFC-0: Prologue"
+    },
+    {
+      "globalIndex": 226,
+      "bookId": "affc",
+      "localIndex": 1,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-4.xhtml",
+      "anchor": "toc_marker-5",
+      "heading": "O PROFETA",
+      "portalTitle": "AFFC-1: The Prophet"
+    },
+    {
+      "globalIndex": 227,
+      "bookId": "affc",
+      "localIndex": 2,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-5.xhtml",
+      "anchor": "toc_marker-6",
+      "heading": "O CAPIT\u00c3O DOS GUARDAS",
+      "portalTitle": "AFFC-2: The Captain Of Guards"
+    },
+    {
+      "globalIndex": 228,
+      "bookId": "affc",
+      "localIndex": 3,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-6.xhtml",
+      "anchor": "toc_marker-7",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-3: Cersei I"
+    },
+    {
+      "globalIndex": 229,
+      "bookId": "affc",
+      "localIndex": 4,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-7.xhtml",
+      "anchor": "toc_marker-8",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-4: Brienne I"
+    },
+    {
+      "globalIndex": 230,
+      "bookId": "affc",
+      "localIndex": 5,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-8.xhtml",
+      "anchor": "toc_marker-9",
+      "heading": "SAMWELL",
+      "portalTitle": "AFFC-5: Samwell I"
+    },
+    {
+      "globalIndex": 231,
+      "bookId": "affc",
+      "localIndex": 6,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-9.xhtml",
+      "anchor": "toc_marker-10",
+      "heading": "ARYA",
+      "portalTitle": "AFFC-6: Arya I"
+    },
+    {
+      "globalIndex": 232,
+      "bookId": "affc",
+      "localIndex": 7,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-10.xhtml",
+      "anchor": "toc_marker-11",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-7: Cersei II"
+    },
+    {
+      "globalIndex": 233,
+      "bookId": "affc",
+      "localIndex": 8,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-11.xhtml",
+      "anchor": "toc_marker-12",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-8: Jaime I"
+    },
+    {
+      "globalIndex": 234,
+      "bookId": "affc",
+      "localIndex": 9,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-12.xhtml",
+      "anchor": "toc_marker-13",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-9: Brienne II"
+    },
+    {
+      "globalIndex": 235,
+      "bookId": "affc",
+      "localIndex": 10,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-13.xhtml",
+      "anchor": "toc_marker-14",
+      "heading": "SANSA",
+      "portalTitle": "AFFC-10: Sansa I"
+    },
+    {
+      "globalIndex": 236,
+      "bookId": "affc",
+      "localIndex": 11,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+      "anchor": "toc_marker-15",
+      "heading": "A FILHA DA LULA GIGANTE",
+      "portalTitle": "AFFC-11: Kraken's Daughter"
+    },
+    {
+      "globalIndex": 237,
+      "bookId": "affc",
+      "localIndex": 12,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-15.xhtml",
+      "anchor": "toc_marker-16",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-12: Cersei III"
+    },
+    {
+      "globalIndex": 238,
+      "bookId": "affc",
+      "localIndex": 13,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-16.xhtml",
+      "anchor": "toc_marker-17",
+      "heading": "O CAVALEIRO MACULADO",
+      "portalTitle": "AFFC-13: The Soiled Knight"
+    },
+    {
+      "globalIndex": 239,
+      "bookId": "affc",
+      "localIndex": 14,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-17.xhtml",
+      "anchor": "toc_marker-18",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-14: Brienne III"
+    },
+    {
+      "globalIndex": 240,
+      "bookId": "affc",
+      "localIndex": 15,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+      "anchor": "toc_marker-19",
+      "heading": "SAMWELL",
+      "portalTitle": "AFFC-15: Samwell II"
+    },
+    {
+      "globalIndex": 241,
+      "bookId": "affc",
+      "localIndex": 16,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-19.xhtml",
+      "anchor": "toc_marker-20",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-16: Jaime II"
+    },
+    {
+      "globalIndex": 242,
+      "bookId": "affc",
+      "localIndex": 17,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-20.xhtml",
+      "anchor": "toc_marker-21",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-17: Cersei IV"
+    },
+    {
+      "globalIndex": 243,
+      "bookId": "affc",
+      "localIndex": 18,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+      "anchor": "toc_marker-22",
+      "heading": "O CAPIT\u00c3O DE FERRO",
+      "portalTitle": "AFFC-18: The Iron Captain"
+    },
+    {
+      "globalIndex": 244,
+      "bookId": "affc",
+      "localIndex": 19,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+      "anchor": "toc_marker-23",
+      "heading": "O AFOGADO",
+      "portalTitle": "AFFC-19: The Drowned Man"
+    },
+    {
+      "globalIndex": 245,
+      "bookId": "affc",
+      "localIndex": 20,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-23.xhtml",
+      "anchor": "toc_marker-24",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-20: Brienne IV"
+    },
+    {
+      "globalIndex": 246,
+      "bookId": "affc",
+      "localIndex": 21,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-24.xhtml",
+      "anchor": "toc_marker-25",
+      "heading": "A FAZEDORA DE RAINHAS",
+      "portalTitle": "AFFC-21: The Queenmaker"
+    },
+    {
+      "globalIndex": 247,
+      "bookId": "affc",
+      "localIndex": 22,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-25.xhtml",
+      "anchor": "toc_marker-26",
+      "heading": "ARYA",
+      "portalTitle": "AFFC-22: Arya II"
+    },
+    {
+      "globalIndex": 248,
+      "bookId": "affc",
+      "localIndex": 23,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-26.xhtml",
+      "anchor": "toc_marker-27",
+      "heading": "ALAYNE",
+      "portalTitle": "AFFC-23: Alayne I"
+    },
+    {
+      "globalIndex": 249,
+      "bookId": "affc",
+      "localIndex": 24,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-27.xhtml",
+      "anchor": "toc_marker-28",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-24: Cersei V"
+    },
+    {
+      "globalIndex": 250,
+      "bookId": "affc",
+      "localIndex": 25,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-28.xhtml",
+      "anchor": "toc_marker-29",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-25: Brienne V"
+    },
+    {
+      "globalIndex": 251,
+      "bookId": "affc",
+      "localIndex": 26,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-29.xhtml",
+      "anchor": "toc_marker-30",
+      "heading": "SAMWELL",
+      "portalTitle": "AFFC-26: Samwell III"
+    },
+    {
+      "globalIndex": 252,
+      "bookId": "affc",
+      "localIndex": 27,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-30.xhtml",
+      "anchor": "toc_marker-31",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-27: Jaime III"
+    },
+    {
+      "globalIndex": 253,
+      "bookId": "affc",
+      "localIndex": 28,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-31.xhtml",
+      "anchor": "toc_marker-32",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-28: Cersei VI"
+    },
+    {
+      "globalIndex": 254,
+      "bookId": "affc",
+      "localIndex": 29,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-32.xhtml",
+      "anchor": "toc_marker-33",
+      "heading": "O PIRATA",
+      "portalTitle": "AFFC-29: The Reaver"
+    },
+    {
+      "globalIndex": 255,
+      "bookId": "affc",
+      "localIndex": 30,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-33.xhtml",
+      "anchor": "toc_marker-34",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-30: Jaime IV"
+    },
+    {
+      "globalIndex": 256,
+      "bookId": "affc",
+      "localIndex": 31,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-34.xhtml",
+      "anchor": "toc_marker-35",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-31: Brienne VI"
+    },
+    {
+      "globalIndex": 257,
+      "bookId": "affc",
+      "localIndex": 32,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-35.xhtml",
+      "anchor": "toc_marker-36",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-32: Cersei VII"
+    },
+    {
+      "globalIndex": 258,
+      "bookId": "affc",
+      "localIndex": 33,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-36.xhtml",
+      "anchor": "toc_marker-37",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-33: Jaime V"
+    },
+    {
+      "globalIndex": 259,
+      "bookId": "affc",
+      "localIndex": 34,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-37.xhtml",
+      "anchor": "toc_marker-38",
+      "heading": "GATA DOS CANAIS",
+      "portalTitle": "AFFC-34: Cat Of The Canals"
+    },
+    {
+      "globalIndex": 260,
+      "bookId": "affc",
+      "localIndex": 35,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-38.xhtml",
+      "anchor": "toc_marker-39",
+      "heading": "SAMWELL",
+      "portalTitle": "AFFC-35: Samwell IV"
+    },
+    {
+      "globalIndex": 261,
+      "bookId": "affc",
+      "localIndex": 36,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-39.xhtml",
+      "anchor": "toc_marker-40",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-36: Cersei VIII"
+    },
+    {
+      "globalIndex": 262,
+      "bookId": "affc",
+      "localIndex": 37,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-40.xhtml",
+      "anchor": "toc_marker-41",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-37: Brienne VII"
+    },
+    {
+      "globalIndex": 263,
+      "bookId": "affc",
+      "localIndex": 38,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-41.xhtml",
+      "anchor": "toc_marker-42",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-38: Jaime VI"
+    },
+    {
+      "globalIndex": 264,
+      "bookId": "affc",
+      "localIndex": 39,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-42.xhtml",
+      "anchor": "toc_marker-43",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-39: Cersei IX"
+    },
+    {
+      "globalIndex": 265,
+      "bookId": "affc",
+      "localIndex": 40,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-43.xhtml",
+      "anchor": "toc_marker-44",
+      "heading": "A PRINCESA NA TORRE",
+      "portalTitle": "AFFC-40: Princess in the Tower"
+    },
+    {
+      "globalIndex": 266,
+      "bookId": "affc",
+      "localIndex": 41,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-44.xhtml",
+      "anchor": "toc_marker-45",
+      "heading": "ALAYNE",
+      "portalTitle": "AFFC-41: Alayne II"
+    },
+    {
+      "globalIndex": 267,
+      "bookId": "affc",
+      "localIndex": 42,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-45.xhtml",
+      "anchor": "toc_marker-46",
+      "heading": "BRIENNE",
+      "portalTitle": "AFFC-42: Brienne VIII"
+    },
+    {
+      "globalIndex": 268,
+      "bookId": "affc",
+      "localIndex": 43,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-46.xhtml",
+      "anchor": "toc_marker-47",
+      "heading": "CERSEI",
+      "portalTitle": "AFFC-43: Cersei X"
+    },
+    {
+      "globalIndex": 269,
+      "bookId": "affc",
+      "localIndex": 44,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-47.xhtml",
+      "anchor": "toc_marker-48",
+      "heading": "JAIME",
+      "portalTitle": "AFFC-44: Jaime VII"
+    },
+    {
+      "globalIndex": 270,
+      "bookId": "affc",
+      "localIndex": 45,
+      "edition": "AFFC-LEYA",
+      "member": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-48.xhtml",
+      "anchor": "toc_marker-49",
+      "heading": "SAMWELL",
+      "portalTitle": "AFFC-45: Samwell V"
+    },
+    {
+      "globalIndex": 271,
+      "bookId": "adwd",
+      "localIndex": 0,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-5.xhtml",
+      "anchor": "toc_marker-4",
+      "heading": "Pr\u00f3logo",
+      "portalTitle": "ADWD-0: Prologue"
+    },
+    {
+      "globalIndex": 272,
+      "bookId": "adwd",
+      "localIndex": 1,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-6.xhtml",
+      "anchor": "toc_marker-5",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-1: Tyrion I"
+    },
+    {
+      "globalIndex": 273,
+      "bookId": "adwd",
+      "localIndex": 2,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-7.xhtml",
+      "anchor": "toc_marker-6",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-2: Daenerys I"
+    },
+    {
+      "globalIndex": 274,
+      "bookId": "adwd",
+      "localIndex": 3,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-8.xhtml",
+      "anchor": "toc_marker-7",
+      "heading": "Jon",
+      "portalTitle": "ADWD-3: Jon I"
+    },
+    {
+      "globalIndex": 275,
+      "bookId": "adwd",
+      "localIndex": 4,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-9.xhtml",
+      "anchor": "toc_marker-8",
+      "heading": "Bran",
+      "portalTitle": "ADWD-4: Bran I"
+    },
+    {
+      "globalIndex": 276,
+      "bookId": "adwd",
+      "localIndex": 5,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+      "anchor": "toc_marker-9",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-5: Tyrion II"
+    },
+    {
+      "globalIndex": 277,
+      "bookId": "adwd",
+      "localIndex": 6,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-11.xhtml",
+      "anchor": "toc_marker-10",
+      "heading": "O homem do Mercador",
+      "portalTitle": "ADWD-6: The Merchant's Man"
+    },
+    {
+      "globalIndex": 278,
+      "bookId": "adwd",
+      "localIndex": 7,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-12.xhtml",
+      "anchor": "toc_marker-11",
+      "heading": "Jon",
+      "portalTitle": "ADWD-7: Jon II"
+    },
+    {
+      "globalIndex": 279,
+      "bookId": "adwd",
+      "localIndex": 8,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-13.xhtml",
+      "anchor": "toc_marker-12",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-8: Tyrion III"
+    },
+    {
+      "globalIndex": 280,
+      "bookId": "adwd",
+      "localIndex": 9,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+      "anchor": "toc_marker-13",
+      "heading": "Davos",
+      "portalTitle": "ADWD-9: Davos I"
+    },
+    {
+      "globalIndex": 281,
+      "bookId": "adwd",
+      "localIndex": 10,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-15.xhtml",
+      "anchor": "toc_marker-14",
+      "heading": "Jon",
+      "portalTitle": "ADWD-10: Jon III"
+    },
+    {
+      "globalIndex": 282,
+      "bookId": "adwd",
+      "localIndex": 11,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-16.xhtml",
+      "anchor": "toc_marker-15",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-11: Daenerys II"
+    },
+    {
+      "globalIndex": 283,
+      "bookId": "adwd",
+      "localIndex": 12,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-17.xhtml",
+      "anchor": "toc_marker-16",
+      "heading": "Fedor",
+      "portalTitle": "ADWD-12: Reek I"
+    },
+    {
+      "globalIndex": 284,
+      "bookId": "adwd",
+      "localIndex": 13,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-18.xhtml",
+      "anchor": "toc_marker-17",
+      "heading": "Bran",
+      "portalTitle": "ADWD-13: Bran II"
+    },
+    {
+      "globalIndex": 285,
+      "bookId": "adwd",
+      "localIndex": 14,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+      "anchor": "toc_marker-18",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-14: Tyrion IV"
+    },
+    {
+      "globalIndex": 286,
+      "bookId": "adwd",
+      "localIndex": 15,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-20.xhtml",
+      "anchor": "toc_marker-19",
+      "heading": "Davos",
+      "portalTitle": "ADWD-15: Davos II"
+    },
+    {
+      "globalIndex": 287,
+      "bookId": "adwd",
+      "localIndex": 16,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-21.xhtml",
+      "anchor": "toc_marker-20",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-16: Daenerys III"
+    },
+    {
+      "globalIndex": 288,
+      "bookId": "adwd",
+      "localIndex": 17,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+      "anchor": "toc_marker-21",
+      "heading": "Jon",
+      "portalTitle": "ADWD-17: Jon IV"
+    },
+    {
+      "globalIndex": 289,
+      "bookId": "adwd",
+      "localIndex": 18,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-23.xhtml",
+      "anchor": "toc_marker-22",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-18: Tyrion V"
+    },
+    {
+      "globalIndex": 290,
+      "bookId": "adwd",
+      "localIndex": 19,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-24.xhtml",
+      "anchor": "toc_marker-23",
+      "heading": "Davos",
+      "portalTitle": "ADWD-19: Davos III"
+    },
+    {
+      "globalIndex": 291,
+      "bookId": "adwd",
+      "localIndex": 20,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-25.xhtml",
+      "anchor": "toc_marker-24",
+      "heading": "Fedor",
+      "portalTitle": "ADWD-20: Reek II"
+    },
+    {
+      "globalIndex": 292,
+      "bookId": "adwd",
+      "localIndex": 21,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-26.xhtml",
+      "anchor": "toc_marker-25",
+      "heading": "Jon",
+      "portalTitle": "ADWD-21: Jon V"
+    },
+    {
+      "globalIndex": 293,
+      "bookId": "adwd",
+      "localIndex": 22,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-27.xhtml",
+      "anchor": "toc_marker-26",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-22: Tyrion VI"
+    },
+    {
+      "globalIndex": 294,
+      "bookId": "adwd",
+      "localIndex": 23,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-28.xhtml",
+      "anchor": "toc_marker-27",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-23: Daenerys IV"
+    },
+    {
+      "globalIndex": 295,
+      "bookId": "adwd",
+      "localIndex": 24,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-29.xhtml",
+      "anchor": "toc_marker-28",
+      "heading": "O Senhor Perdido",
+      "portalTitle": "ADWD-24: The Lost Lord"
+    },
+    {
+      "globalIndex": 296,
+      "bookId": "adwd",
+      "localIndex": 25,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-30.xhtml",
+      "anchor": "toc_marker-29",
+      "heading": "O SOPRADO PELO VENTO",
+      "portalTitle": "ADWD-25: The Windblown"
+    },
+    {
+      "globalIndex": 297,
+      "bookId": "adwd",
+      "localIndex": 26,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-31.xhtml",
+      "anchor": "toc_marker-30",
+      "heading": "A noiva rebelde",
+      "portalTitle": "ADWD-26: The Wayward Bride"
+    },
+    {
+      "globalIndex": 298,
+      "bookId": "adwd",
+      "localIndex": 27,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-32.xhtml",
+      "anchor": "toc_marker-31",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-27: Tyrion VII"
+    },
+    {
+      "globalIndex": 299,
+      "bookId": "adwd",
+      "localIndex": 28,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-33.xhtml",
+      "anchor": "toc_marker-32",
+      "heading": "Jon",
+      "portalTitle": "ADWD-28: Jon VI"
+    },
+    {
+      "globalIndex": 300,
+      "bookId": "adwd",
+      "localIndex": 29,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-34.xhtml",
+      "anchor": "toc_marker-33",
+      "heading": "Davos",
+      "portalTitle": "ADWD-29: Davos IV"
+    },
+    {
+      "globalIndex": 301,
+      "bookId": "adwd",
+      "localIndex": 30,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-35.xhtml",
+      "anchor": "toc_marker-34",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-30: Daenerys V"
+    },
+    {
+      "globalIndex": 302,
+      "bookId": "adwd",
+      "localIndex": 31,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-36.xhtml",
+      "anchor": "toc_marker-35",
+      "heading": "Melisandre",
+      "portalTitle": "ADWD-31: Melisandre I"
+    },
+    {
+      "globalIndex": 303,
+      "bookId": "adwd",
+      "localIndex": 32,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-37.xhtml",
+      "anchor": "toc_marker-36",
+      "heading": "Fedor",
+      "portalTitle": "ADWD-32: Reek III"
+    },
+    {
+      "globalIndex": 304,
+      "bookId": "adwd",
+      "localIndex": 33,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-38.xhtml",
+      "anchor": "toc_marker-37",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-33: Tyrion VIII"
+    },
+    {
+      "globalIndex": 305,
+      "bookId": "adwd",
+      "localIndex": 34,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-39.xhtml",
+      "anchor": "toc_marker-38",
+      "heading": "Bran",
+      "portalTitle": "ADWD-34: Bran III"
+    },
+    {
+      "globalIndex": 306,
+      "bookId": "adwd",
+      "localIndex": 35,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-40.xhtml",
+      "anchor": "toc_marker-39",
+      "heading": "Jon",
+      "portalTitle": "ADWD-35: Jon VII"
+    },
+    {
+      "globalIndex": 307,
+      "bookId": "adwd",
+      "localIndex": 36,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-41.xhtml",
+      "anchor": "toc_marker-40",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-36: Daenerys VI"
+    },
+    {
+      "globalIndex": 308,
+      "bookId": "adwd",
+      "localIndex": 37,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-42.xhtml",
+      "anchor": "toc_marker-41",
+      "heading": "O Pr\u00edncipe de Winterfell",
+      "portalTitle": "ADWD-37: Prince of Winterfell"
+    },
+    {
+      "globalIndex": 309,
+      "bookId": "adwd",
+      "localIndex": 38,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-43.xhtml",
+      "anchor": "toc_marker-42",
+      "heading": "O Sentinela",
+      "portalTitle": "ADWD-38: The Watcher"
+    },
+    {
+      "globalIndex": 310,
+      "bookId": "adwd",
+      "localIndex": 39,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-44.xhtml",
+      "anchor": "toc_marker-43",
+      "heading": "Jon",
+      "portalTitle": "ADWD-39: Jon VIII"
+    },
+    {
+      "globalIndex": 311,
+      "bookId": "adwd",
+      "localIndex": 40,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-45.xhtml",
+      "anchor": "toc_marker-44",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-40: Tyrion IX"
+    },
+    {
+      "globalIndex": 312,
+      "bookId": "adwd",
+      "localIndex": 41,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-46.xhtml",
+      "anchor": "toc_marker-45",
+      "heading": "O vira-casaca",
+      "portalTitle": "ADWD-41: The Turncloak"
+    },
+    {
+      "globalIndex": 313,
+      "bookId": "adwd",
+      "localIndex": 42,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-47.xhtml",
+      "anchor": "toc_marker-46",
+      "heading": "O pr\u00eamio do Rei",
+      "portalTitle": "ADWD-42: The King's Prize"
+    },
+    {
+      "globalIndex": 314,
+      "bookId": "adwd",
+      "localIndex": 43,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-48.xhtml",
+      "anchor": "toc_marker-47",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-43: Daenerys VII"
+    },
+    {
+      "globalIndex": 315,
+      "bookId": "adwd",
+      "localIndex": 44,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-49.xhtml",
+      "anchor": "toc_marker-48",
+      "heading": "Jon",
+      "portalTitle": "ADWD-44: Jon IX"
+    },
+    {
+      "globalIndex": 316,
+      "bookId": "adwd",
+      "localIndex": 45,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-50.xhtml",
+      "anchor": "toc_marker-49",
+      "heading": "A garota cega",
+      "portalTitle": "ADWD-45: The Blind Girl"
+    },
+    {
+      "globalIndex": 317,
+      "bookId": "adwd",
+      "localIndex": 46,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-51.xhtml",
+      "anchor": "toc_marker-50",
+      "heading": "Um fantasma em Winterfell",
+      "portalTitle": "ADWD-46: A Ghost In Winterfell"
+    },
+    {
+      "globalIndex": 318,
+      "bookId": "adwd",
+      "localIndex": 47,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-52.xhtml",
+      "anchor": "toc_marker-51",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-47: Tyrion X"
+    },
+    {
+      "globalIndex": 319,
+      "bookId": "adwd",
+      "localIndex": 48,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-53.xhtml",
+      "anchor": "toc_marker-52",
+      "heading": "Jaime",
+      "portalTitle": "ADWD-48: Jaime I"
+    },
+    {
+      "globalIndex": 320,
+      "bookId": "adwd",
+      "localIndex": 49,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-54.xhtml",
+      "anchor": "toc_marker-53",
+      "heading": "Jon",
+      "portalTitle": "ADWD-49: Jon X"
+    },
+    {
+      "globalIndex": 321,
+      "bookId": "adwd",
+      "localIndex": 50,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-55.xhtml",
+      "anchor": "toc_marker-54",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-50: Daenerys VIII"
+    },
+    {
+      "globalIndex": 322,
+      "bookId": "adwd",
+      "localIndex": 51,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-56.xhtml",
+      "anchor": "toc_marker-55",
+      "heading": "Theon",
+      "portalTitle": "ADWD-51: Theon I"
+    },
+    {
+      "globalIndex": 323,
+      "bookId": "adwd",
+      "localIndex": 52,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-57.xhtml",
+      "anchor": "toc_marker-56",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-52: Daenerys IX"
+    },
+    {
+      "globalIndex": 324,
+      "bookId": "adwd",
+      "localIndex": 53,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-58.xhtml",
+      "anchor": "toc_marker-57",
+      "heading": "Jon",
+      "portalTitle": "ADWD-53: Jon XI"
+    },
+    {
+      "globalIndex": 325,
+      "bookId": "adwd",
+      "localIndex": 54,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-59.xhtml",
+      "anchor": "toc_marker-58",
+      "heading": "Cersei",
+      "portalTitle": "ADWD-54: Cersei I"
+    },
+    {
+      "globalIndex": 326,
+      "bookId": "adwd",
+      "localIndex": 55,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-60.xhtml",
+      "anchor": "toc_marker-59",
+      "heading": "O guarda da Rainha",
+      "portalTitle": "ADWD-55: The Queensguard"
+    },
+    {
+      "globalIndex": 327,
+      "bookId": "adwd",
+      "localIndex": 56,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-61.xhtml",
+      "anchor": "toc_marker-60",
+      "heading": "O pretendente de ferro",
+      "portalTitle": "ADWD-56: The Iron Suitor"
+    },
+    {
+      "globalIndex": 328,
+      "bookId": "adwd",
+      "localIndex": 57,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-62.xhtml",
+      "anchor": "toc_marker-61",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-57: Tyrion XI"
+    },
+    {
+      "globalIndex": 329,
+      "bookId": "adwd",
+      "localIndex": 58,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-63.xhtml",
+      "anchor": "toc_marker-62",
+      "heading": "Jon",
+      "portalTitle": "ADWD-58: Jon XII"
+    },
+    {
+      "globalIndex": 330,
+      "bookId": "adwd",
+      "localIndex": 59,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-64.xhtml",
+      "anchor": "toc_marker-63",
+      "heading": "O cavaleiro descartado",
+      "portalTitle": "ADWD-59: Discarded Knight"
+    },
+    {
+      "globalIndex": 331,
+      "bookId": "adwd",
+      "localIndex": 60,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-65.xhtml",
+      "anchor": "toc_marker-64",
+      "heading": "O pretendente rejeitado",
+      "portalTitle": "ADWD-60: The Spurned Suitor"
+    },
+    {
+      "globalIndex": 332,
+      "bookId": "adwd",
+      "localIndex": 61,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-66.xhtml",
+      "anchor": "toc_marker-65",
+      "heading": "O grifo renascido",
+      "portalTitle": "ADWD-61: The Griffin Reborn"
+    },
+    {
+      "globalIndex": 333,
+      "bookId": "adwd",
+      "localIndex": 62,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-67.xhtml",
+      "anchor": "toc_marker-66",
+      "heading": "O sacrif\u00edcio",
+      "portalTitle": "ADWD-62: The Sacrifice"
+    },
+    {
+      "globalIndex": 334,
+      "bookId": "adwd",
+      "localIndex": 63,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-68.xhtml",
+      "anchor": "toc_marker-67",
+      "heading": "Victarion",
+      "portalTitle": "ADWD-63: Victarion I"
+    },
+    {
+      "globalIndex": 335,
+      "bookId": "adwd",
+      "localIndex": 64,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-69.xhtml",
+      "anchor": "toc_marker-68",
+      "heading": "A garotinha feia",
+      "portalTitle": "ADWD-64: The Ugly Little Girl"
+    },
+    {
+      "globalIndex": 336,
+      "bookId": "adwd",
+      "localIndex": 65,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-70.xhtml",
+      "anchor": "toc_marker-69",
+      "heading": "Cersei",
+      "portalTitle": "ADWD-65: Cersei II"
+    },
+    {
+      "globalIndex": 337,
+      "bookId": "adwd",
+      "localIndex": 66,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-71.xhtml",
+      "anchor": "toc_marker-70",
+      "heading": "Tyrion",
+      "portalTitle": "ADWD-66: Tyrion XII"
+    },
+    {
+      "globalIndex": 338,
+      "bookId": "adwd",
+      "localIndex": 67,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-72.xhtml",
+      "anchor": "toc_marker-71",
+      "heading": "O derrubador de reis",
+      "portalTitle": "ADWD-67: The Kingbreaker"
+    },
+    {
+      "globalIndex": 339,
+      "bookId": "adwd",
+      "localIndex": 68,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-73.xhtml",
+      "anchor": "toc_marker-72",
+      "heading": "O domador de drag\u00f5es",
+      "portalTitle": "ADWD-68: The Dragontamer"
+    },
+    {
+      "globalIndex": 340,
+      "bookId": "adwd",
+      "localIndex": 69,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-74.xhtml",
+      "anchor": "toc_marker-73",
+      "heading": "Jon",
+      "portalTitle": "ADWD-69: Jon XIII"
+    },
+    {
+      "globalIndex": 341,
+      "bookId": "adwd",
+      "localIndex": 70,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-75.xhtml",
+      "anchor": "toc_marker-74",
+      "heading": "A m\u00e3o da Rainha",
+      "portalTitle": "ADWD-70: The Queen's Hand"
+    },
+    {
+      "globalIndex": 342,
+      "bookId": "adwd",
+      "localIndex": 71,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-76.xhtml",
+      "anchor": "toc_marker-75",
+      "heading": "Daenerys",
+      "portalTitle": "ADWD-71: Daenerys X"
+    },
+    {
+      "globalIndex": 343,
+      "bookId": "adwd",
+      "localIndex": 72,
+      "edition": "ADWD-LEYA",
+      "member": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-77.xhtml",
+      "anchor": "toc_marker-76",
+      "heading": "Ep\u00edlogo",
+      "portalTitle": "ADWD-72: Epilogue"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+PASS v5 real: datasetId atlas-saga-v5 — atlas-saga-v5
+PASS v5 real: schemaVersion 2
+PASS v5 real: 240 pontos de controle — n=240
+PASS v5 real: 5 livros declarados — n=5
+PASS v5 real: 344 capitulos — n=344
+PASS v5 real: 27 rotas — n=27
+PASS v5 real: 18 entradas geographically-described — n=18
+PASS v5 real: 5 membros named-group-member — n=5
+PASS v5 real: membro central Five_Forts_Central em 19586,9116 — 19586,9116
+PASS v5 real: nenhum rotulo anonimo 'Simbolo sem nome N' — ok
+PASS v5 real: 3 glifos rejeitados ausentes — ok
+PASS v5 real: ponto corrigido scan-site-v4-300 em 4806,8216 — 4806,8216
+PASS v5 real: 115 segmentos (congelado) — n=115
+PASS v5 real: 152 posicoes (congelado) — n=152
+PASS v5 real: rotas identicas ao v4 congelado (igualdade mecanica) — ok
+PASS UI: v5 real carregado sem fallback — 200 atlas-inventario-v5.json
+PASS UI: nota mostra 240 referências — 240 referências calibradas manualmente (222 identificadas em
+PASS UI: 27 perfis selecionáveis
+PASS UI: 5 livros no seletor
+PASS busca 'Poleiro do Grifo' resolve o ponto corrigido — ["scan-site-v4-300"]
+PASS busca em inglês 'Griffin's Roost' resolve o mesmo ponto — ["scan-site-v4-300"]
+PASS alias 'Sinistres Gris' resolve Ghaston Grey — ["scan-site-v4-475"]
+PASS grupo: termo de busca compartilhado derivado do artefato — cinco fortes
+PASS grupo: busca retorna exatamente os 5 membros — visiveis=5 ["scan-site-v4-470","scan-site-v4-494","scan-site-v4-521","scan-site-v4-531","Five_Forts_Central"]
+PASS grupo: inclui o membro central novo
+PASS grupo: membros sem nome próprio individual genérico
+PASS UI: nenhum item renderiza 'Simbolo sem nome N' — itens=240 ok
+PASS filtro 'Somente identificados' esconde os 18 descritos — descritos visiveis=0
+PASS filtro 'Somente identificados' mantém os 5 membros
+PASS popup descrito: item exato clicável
+PASS popup descrito: texto honesto de descrição geográfica — Castelo na Ilha dos UrsosDescrição geográfica; a fonte não informa nome próprio para este 
+PASS popup descrito: não clama nome impresso
+PASS nativo: foco de busca gera closeup nativo (zoom≈4) — zoom=4
+PASS nativo: marcador scan-site-v4-300 ancorado em 4806,8216 — dlat=0.000000
+PASS nativo: ponto identificado não é pino vazio
+PASS nativo: popup do ponto corrigido mostra o nome próprio — Poleiro do GrifoGriffin's RoostCorrespondência cartográfica em revisãoNome assoc
+PASS nativo: popup de membro identifica o conjunto — Cinco Fortes - centralFive Forts - centralIdentificação do conjunto; sem nome próprio indi
+PASS nativo: ponto descrito mantém pino vazio (símbolo) — simbolo=true
+PASS nativo: popup descrito honesto (sem nome próprio) — Castelo na Ilha dos UrsosDescrição geográfica; a fonte não informa nome próprio 
+PASS v5 inválido: status indisponível/inválido — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua 
+PASS v5 inválido: controles travados, livro oculto
+PASS v5 inválido: NUNCA requisita v4/v3/v2/v1
+PASS v5 HTTP 500: status indisponível/erro — Localidades e trajetos indisponíveis: data/atlas-inventario-v5.json HTTP 500. O 
+PASS v5 HTTP 500: controles travados, livro oculto
+PASS v5 HTTP 500: NUNCA requisita v4/v3/v2/v1
+PASS v5 404: fallback carrega v4 real (242 referências) — 242 referências calibradas manualmente (186 identificadas em
+PASS v5 404: resposta foi 404 do v5 + 200 do v4 — 404 atlas-inventario-v5.json, 200 atlas-inventario-v4.json
+PASS v5 404: livro-select funciona no fallback v4
+PASS mobile 390: sem overflow horizontal — overflow=0
+PASS mobile 390: livro-select acessível após expandir
+PASS mobile 390: ADWD vai ao cap. 271 — cap=271
+PASS mobile 320: sem overflow horizontal — overflow=0
+PASS mobile 320: livro-select acessível após expandir
+PASS mobile 320: ADWD vai ao cap. 271 — cap=271
+PASS nenhuma requisição externa — todas locais
+PASS nenhum fetch de imagem mestre — ok
+PASS tiles realmente requisitados no nativo — n=96
+PASS todas respostas de tile HTTP 200 — ok
+PASS nenhuma requisição falha — ok
+PASS sem pageerrors
+— verificar-nomes-v5 —
+PASS v5 real: datasetId atlas-saga-v5 — atlas-saga-v5
+PASS v5 real: schemaVersion 2
+PASS v5 real: 240 pontos de controle — n=240
+PASS v5 real: 5 livros declarados — n=5
+PASS v5 real: 344 capitulos — n=344
+PASS v5 real: 27 rotas — n=27
+PASS v5 real: 18 entradas geographically-described — n=18
+PASS v5 real: 5 membros named-group-member — n=5
+PASS v5 real: membro central Five_Forts_Central em 19586,9116 — 19586,9116
+PASS v5 real: nenhum rotulo anonimo 'Simbolo sem nome N' — ok
+PASS v5 real: 3 glifos rejeitados ausentes — ok
+PASS v5 real: ponto corrigido scan-site-v4-300 em 4806,8216 — 4806,8216
+PASS v5 real: 115 segmentos (congelado) — n=115
+PASS v5 real: 152 posicoes (congelado) — n=152
+PASS v5 real: rotas identicas ao v4 congelado (igualdade mecanica) — ok
+PASS UI: v5 real carregado sem fallback — 200 atlas-inventario-v5.json
+PASS UI: nota mostra 240 referências — 240 referências calibradas manualmente (222 identificadas em
+PASS UI: 27 perfis selecionáveis
+PASS UI: 5 livros no seletor
+PASS busca 'Poleiro do Grifo' resolve o ponto corrigido — ["scan-site-v4-300"]
+PASS busca em inglês 'Griffin's Roost' resolve o mesmo ponto — ["scan-site-v4-300"]
+PASS alias 'Sinistres Gris' resolve Ghaston Grey — ["scan-site-v4-475"]
+PASS grupo: termo de busca compartilhado derivado do artefato — cinco fortes
+PASS grupo: busca retorna exatamente os 5 membros — visiveis=5 ["scan-site-v4-470","scan-site-v4-494","scan-site-v4-521","scan-site-v4-531","Five_Forts_Central"]
+PASS grupo: inclui o membro central novo
+PASS grupo: membros sem nome próprio individual genérico
+PASS UI: nenhum item renderiza 'Simbolo sem nome N' — itens=240 ok
+PASS filtro 'Somente identificados' esconde os 18 descritos — descritos visiveis=0
+PASS filtro 'Somente identificados' mantém os 5 membros
+PASS popup descrito: item exato clicável
+PASS popup descrito: texto honesto de descrição geográfica — Castelo na Ilha dos UrsosDescrição geográfica; a fonte não informa nome próprio para este 
+PASS popup descrito: não clama nome impresso
+PASS nativo: foco de busca gera closeup nativo (zoom≈4) — zoom=4
+PASS nativo: marcador scan-site-v4-300 ancorado em 4806,8216 — dlat=0.000000
+PASS nativo: ponto identificado não é pino vazio
+PASS nativo: popup do ponto corrigido mostra o nome próprio — Poleiro do GrifoGriffin's RoostCorrespondência cartográfica em revisãoNome assoc
+PASS nativo: popup de membro identifica o conjunto — Cinco Fortes - centralFive Forts - centralIdentificação do conjunto; sem nome próprio indi
+PASS nativo: ponto descrito mantém pino vazio (símbolo) — simbolo=true
+PASS nativo: popup descrito honesto (sem nome próprio) — Castelo na Ilha dos UrsosDescrição geográfica; a fonte não informa nome próprio 
+PASS v5 inválido: status indisponível/inválido — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua 
+PASS v5 inválido: controles travados, livro oculto
+PASS v5 inválido: NUNCA requisita v4/v3/v2/v1
+PASS v5 HTTP 500: status indisponível/erro — Localidades e trajetos indisponíveis: data/atlas-inventario-v5.json HTTP 500. O 
+PASS v5 HTTP 500: controles travados, livro oculto
+PASS v5 HTTP 500: NUNCA requisita v4/v3/v2/v1
+PASS v5 404: fallback carrega v4 real (242 referências) — 242 referências calibradas manualmente (186 identificadas em
+PASS v5 404: resposta foi 404 do v5 + 200 do v4 — 404 atlas-inventario-v5.json, 200 atlas-inventario-v4.json
+PASS v5 404: livro-select funciona no fallback v4
+PASS mobile 390: sem overflow horizontal — overflow=0
+PASS mobile 390: livro-select acessível após expandir
+PASS mobile 390: ADWD vai ao cap. 271 — cap=271
+PASS mobile 320: sem overflow horizontal — overflow=0
+PASS mobile 320: livro-select acessível após expandir
+PASS mobile 320: ADWD vai ao cap. 271 — cap=271
+PASS nenhuma requisição externa — todas locais
+PASS nenhum fetch de imagem mestre — ok
+PASS tiles realmente requisitados no nativo — n=96
+PASS todas respostas de tile HTTP 200 — ok
+PASS nenhuma requisição falha — ok
+PASS sem pageerrors
+0 falhas — 60 checagens

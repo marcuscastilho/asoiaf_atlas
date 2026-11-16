@@ -1,0 +1,21 @@
+{
+ "provenance": "https://quartermaester.info/{nat,fsm}/t<keyhole>.jpg",
+ "keyhole": "root 't'; quadrant letters q=NW r=NE t=SW s=SE, MSB->LSB",
+ "zooms": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "layers": [
+  "nat",
+  "fsm"
+ ],
+ "expected": 2728,
+ "ok": 2728,
+ "skipped": 0,
+ "failed": 0,
+ "failures": [],
+ "downloadedAt": "2026-11-01T22:44:26.992Z"
+}

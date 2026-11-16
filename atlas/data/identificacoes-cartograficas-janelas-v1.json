@@ -1,0 +1,887 @@
+[
+  {
+    "pointId": "scan-site-4738-1880",
+    "candidateIds": [
+      58
+    ],
+    "referenceCropDraft": [
+      1858,
+      150,
+      2038,
+      260
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-2870-2880",
+    "candidateIds": [
+      86
+    ],
+    "referenceCropDraft": [
+      1083,
+      569,
+      1263,
+      679
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4906-5504",
+    "candidateIds": [
+      130,
+      127
+    ],
+    "referenceCropDraft": [
+      1913,
+      1685,
+      2093,
+      1795
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4896-5646",
+    "candidateIds": [
+      133,
+      131
+    ],
+    "referenceCropDraft": [
+      1908,
+      1745,
+      2088,
+      1855
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-5200-5774",
+    "candidateIds": [
+      141
+    ],
+    "referenceCropDraft": [
+      2033,
+      1800,
+      2213,
+      1910
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4346-5798",
+    "candidateIds": [
+      142,
+      140
+    ],
+    "referenceCropDraft": [
+      1681,
+      1808,
+      1861,
+      1918
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4734-5802",
+    "candidateIds": [
+      143,
+      139
+    ],
+    "referenceCropDraft": [
+      1841,
+      1811,
+      2021,
+      1921
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-3386-5862",
+    "candidateIds": [
+      145
+    ],
+    "referenceCropDraft": [
+      1284,
+      1833,
+      1464,
+      1943
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-5256-5974",
+    "candidateIds": [
+      152
+    ],
+    "referenceCropDraft": [
+      2056,
+      1885,
+      2236,
+      1995
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-3626-6042",
+    "candidateIds": [
+      155
+    ],
+    "referenceCropDraft": [
+      1383,
+      1910,
+      1563,
+      2020
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4914-6130",
+    "candidateIds": [
+      169,
+      165,
+      163
+    ],
+    "referenceCropDraft": [
+      1914,
+      1950,
+      2094,
+      2060
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-5346-6150",
+    "candidateIds": [
+      172
+    ],
+    "referenceCropDraft": [
+      2092,
+      1960,
+      2272,
+      2070
+    ],
+    "sheet": "ocidente-correspondencias-0.png"
+  },
+  {
+    "pointId": "scan-site-4542-6160",
+    "candidateIds": [
+      174
+    ],
+    "referenceCropDraft": [
+      1760,
+      1962,
+      1940,
+      2072
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-3724-6190",
+    "candidateIds": [
+      177
+    ],
+    "referenceCropDraft": [
+      1422,
+      1973,
+      1602,
+      2083
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4826-6298",
+    "candidateIds": [
+      181
+    ],
+    "referenceCropDraft": [
+      1877,
+      2021,
+      2057,
+      2131
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-2540-6306",
+    "candidateIds": [
+      182
+    ],
+    "referenceCropDraft": [
+      933,
+      2019,
+      1113,
+      2129
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-3610-6356",
+    "candidateIds": [
+      183
+    ],
+    "referenceCropDraft": [
+      1375,
+      2043,
+      1555,
+      2153
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4116-6426",
+    "candidateIds": [
+      185
+    ],
+    "referenceCropDraft": [
+      1583,
+      2074,
+      1763,
+      2184
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4052-6476",
+    "candidateIds": [
+      188
+    ],
+    "referenceCropDraft": [
+      1557,
+      2095,
+      1737,
+      2205
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4400-6552",
+    "candidateIds": [
+      191
+    ],
+    "referenceCropDraft": [
+      1700,
+      2128,
+      1880,
+      2238
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-2516-6554",
+    "candidateIds": [
+      192
+    ],
+    "referenceCropDraft": [
+      922,
+      2123,
+      1102,
+      2233
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4886-6590",
+    "candidateIds": [
+      193,
+      194
+    ],
+    "referenceCropDraft": [
+      1900,
+      2145,
+      2080,
+      2255
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-4440-6670",
+    "candidateIds": [
+      197,
+      195
+    ],
+    "referenceCropDraft": [
+      1716,
+      2178,
+      1896,
+      2288
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-2674-6698",
+    "candidateIds": [
+      200
+    ],
+    "referenceCropDraft": [
+      987,
+      2185,
+      1167,
+      2295
+    ],
+    "sheet": "ocidente-correspondencias-12.png"
+  },
+  {
+    "pointId": "scan-site-3558-6710",
+    "candidateIds": [
+      201
+    ],
+    "referenceCropDraft": [
+      1352,
+      2192,
+      1532,
+      2302
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2282-6730",
+    "candidateIds": [
+      203
+    ],
+    "referenceCropDraft": [
+      825,
+      2197,
+      1005,
+      2307
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2922-6742",
+    "candidateIds": [
+      204
+    ],
+    "referenceCropDraft": [
+      1089,
+      2204,
+      1269,
+      2314
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-4584-6750",
+    "candidateIds": [
+      206
+    ],
+    "referenceCropDraft": [
+      1775,
+      2212,
+      1955,
+      2322
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-3306-6804",
+    "candidateIds": [
+      209
+    ],
+    "referenceCropDraft": [
+      1247,
+      2231,
+      1427,
+      2341
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2626-6870",
+    "candidateIds": [
+      213
+    ],
+    "referenceCropDraft": [
+      966,
+      2258,
+      1146,
+      2368
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-4840-6886",
+    "candidateIds": [
+      215,
+      214
+    ],
+    "referenceCropDraft": [
+      1880,
+      2270,
+      2060,
+      2380
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-4390-6926",
+    "candidateIds": [
+      218,
+      216
+    ],
+    "referenceCropDraft": [
+      1694,
+      2286,
+      1874,
+      2396
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2918-6938",
+    "candidateIds": [
+      219
+    ],
+    "referenceCropDraft": [
+      1087,
+      2287,
+      1267,
+      2397
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-3514-6972",
+    "candidateIds": [
+      221
+    ],
+    "referenceCropDraft": [
+      1333,
+      2303,
+      1513,
+      2413
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-5066-7024",
+    "candidateIds": [
+      222
+    ],
+    "referenceCropDraft": [
+      1973,
+      2329,
+      2153,
+      2439
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2936-7040",
+    "candidateIds": [
+      224
+    ],
+    "referenceCropDraft": [
+      1094,
+      2330,
+      1274,
+      2440
+    ],
+    "sheet": "ocidente-correspondencias-24.png"
+  },
+  {
+    "pointId": "scan-site-2090-7054",
+    "candidateIds": [
+      225
+    ],
+    "referenceCropDraft": [
+      744,
+      2334,
+      924,
+      2444
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-4656-7094",
+    "candidateIds": [
+      228
+    ],
+    "referenceCropDraft": [
+      1803,
+      2358,
+      1983,
+      2468
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2010-7100",
+    "candidateIds": [
+      229
+    ],
+    "referenceCropDraft": [
+      711,
+      2353,
+      891,
+      2463
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-5130-7168",
+    "candidateIds": [
+      233
+    ],
+    "referenceCropDraft": [
+      1999,
+      2390,
+      2179,
+      2500
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2888-7234",
+    "candidateIds": [
+      237
+    ],
+    "referenceCropDraft": [
+      1073,
+      2412,
+      1253,
+      2522
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-4452-7282",
+    "candidateIds": [
+      241
+    ],
+    "referenceCropDraft": [
+      1718,
+      2437,
+      1898,
+      2547
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-5198-7284",
+    "candidateIds": [
+      242
+    ],
+    "referenceCropDraft": [
+      2026,
+      2440,
+      2206,
+      2550
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2526-7474",
+    "candidateIds": [
+      252
+    ],
+    "referenceCropDraft": [
+      923,
+      2513,
+      1103,
+      2623
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2150-7546",
+    "candidateIds": [
+      257
+    ],
+    "referenceCropDraft": [
+      767,
+      2543,
+      947,
+      2653
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-3928-7614",
+    "candidateIds": [
+      261
+    ],
+    "referenceCropDraft": [
+      1501,
+      2576,
+      1681,
+      2686
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2570-7696",
+    "candidateIds": [
+      265
+    ],
+    "referenceCropDraft": [
+      940,
+      2607,
+      1120,
+      2717
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-2910-7788",
+    "candidateIds": [
+      272
+    ],
+    "referenceCropDraft": [
+      1080,
+      2647,
+      1260,
+      2757
+    ],
+    "sheet": "ocidente-correspondencias-36.png"
+  },
+  {
+    "pointId": "scan-site-4858-7802",
+    "candidateIds": [
+      273
+    ],
+    "referenceCropDraft": [
+      1884,
+      2658,
+      2064,
+      2768
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-3550-7818",
+    "candidateIds": [
+      275
+    ],
+    "referenceCropDraft": [
+      1344,
+      2661,
+      1524,
+      2771
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-3862-7940",
+    "candidateIds": [
+      288
+    ],
+    "referenceCropDraft": [
+      1472,
+      2714,
+      1652,
+      2824
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-4590-7954",
+    "candidateIds": [
+      289,
+      285
+    ],
+    "referenceCropDraft": [
+      1773,
+      2722,
+      1953,
+      2832
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-2302-7962",
+    "candidateIds": [
+      290
+    ],
+    "referenceCropDraft": [
+      828,
+      2719,
+      1008,
+      2829
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-5322-8024",
+    "candidateIds": [
+      292
+    ],
+    "referenceCropDraft": [
+      2075,
+      2753,
+      2255,
+      2863
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-4978-8094",
+    "candidateIds": [
+      296
+    ],
+    "referenceCropDraft": [
+      1932,
+      2782,
+      2112,
+      2892
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-3508-8256",
+    "candidateIds": [
+      313
+    ],
+    "referenceCropDraft": [
+      1325,
+      2847,
+      1505,
+      2957
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-4676-8386",
+    "candidateIds": [
+      338,
+      332
+    ],
+    "referenceCropDraft": [
+      1806,
+      2905,
+      1986,
+      3015
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-4502-8514",
+    "candidateIds": [
+      362
+    ],
+    "referenceCropDraft": [
+      1734,
+      2959,
+      1914,
+      3069
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-5012-8566",
+    "candidateIds": [
+      374
+    ],
+    "referenceCropDraft": [
+      1944,
+      2982,
+      2124,
+      3092
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-3380-8600",
+    "candidateIds": [
+      381
+    ],
+    "referenceCropDraft": [
+      1271,
+      2992,
+      1451,
+      3102
+    ],
+    "sheet": "ocidente-correspondencias-48.png"
+  },
+  {
+    "pointId": "scan-site-2378-8638",
+    "candidateIds": [
+      386
+    ],
+    "referenceCropDraft": [
+      857,
+      3005,
+      1037,
+      3115
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-3090-8950",
+    "candidateIds": [
+      480
+    ],
+    "referenceCropDraft": [
+      1149,
+      3139,
+      1329,
+      3249
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-3312-9466",
+    "candidateIds": [
+      604
+    ],
+    "referenceCropDraft": [
+      1239,
+      3359,
+      1419,
+      3469
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-1990-9564",
+    "candidateIds": [
+      624
+    ],
+    "referenceCropDraft": [
+      693,
+      3397,
+      873,
+      3507
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-5106-9574",
+    "candidateIds": [
+      628,
+      634
+    ],
+    "referenceCropDraft": [
+      1979,
+      3409,
+      2159,
+      3519
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-4614-9634",
+    "candidateIds": [
+      637,
+      642
+    ],
+    "referenceCropDraft": [
+      1776,
+      3433,
+      1956,
+      3543
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  },
+  {
+    "pointId": "scan-site-2058-9636",
+    "candidateIds": [
+      638
+    ],
+    "referenceCropDraft": [
+      721,
+      3427,
+      901,
+      3537
+    ],
+    "sheet": "ocidente-correspondencias-60.png"
+  }
+]

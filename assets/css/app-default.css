@@ -1,0 +1,181 @@
+/* Desktop styles - adapted from the original ASoIaF-default.css.
+   Remote image URLs replaced with local vendored assets. */
+html {height:100%}
+body {height:100%; margin:0; padding:0;}
+
+#footer {width:100%; height:60px; position:fixed; bottom:20px; margin-left:-234px; z-index:1; background:transparent; border:none;}
+#banner {width:468px; height:60px; margin-left:50%; background:rgba(30,115,190, 1);}
+
+#shade       {display: none; position: absolute; top: 0%;  left: 0%;  z-index:1001; background:rgb(25,25,25); background:rgba(25,25,25,.5);}
+#lightbox    {display: none; position: absolute; top: 10%; left: 15%; min-width:580px; width: 60%; height: 70%; padding: 16px; border: 16px solid rgb(214, 162, 65); background-color: white; z-index:1002; overflow:auto; font-family:sans-serif;}
+#closeButton {width:40px; height:40px; margin:-20px -16px 0px 0px; float:right; background:red; color:white; text-align:center; font:bold 2em sans-serif; cursor:pointer;}
+#subtitle    {width:180px; margin:-25px 0px 0px 410px; padding:10px 0px; background:red; color:white; font-size:1.2em; text-align:center; transform: rotate(-7deg); -webkit-transform: rotate(-7deg); -o-transform: rotate(-7deg); -moz-transform: rotate(-7deg);}
+#header, #menuButton, label.handheldMenu, #handheldToggles, #handheldCloseButton  {display:none;}
+
+#page, #content, #map_canvas  {height:100%; padding:0px; border:0px;}
+/* keep every engine-internal layer (Leaflet panes z200-700, Google tiles)
+   inside the map container's own stacking context so the gold panel, menus
+   and the lightbox always paint above the map */
+#map_canvas {position:relative; z-index:0; isolation:isolate;}
+#filter   {position:fixed; top:30px; bottom:125px; right:5px; z-index:1; width:200px; overflow:hidden; background:rgba(214, 162, 65, 0.9); font-family:Arial; text-shadow:0px 0px;}
+#toggles {position:fixed; top:225px; bottom:125px; width:200px; overflow-y:auto; z-index:-1;}
+h4 {margin-bottom:5px;}
+#infoLink {width:30px; height:24px; float:right; margin:5px 5px 0px 0px; cursor:pointer; text-align:center; font:bold 16px/24px Georgia,serif; color:#a00; border:2px solid #a00; border-radius:12px; box-sizing:border-box;}
+#infoLink:before {content:'i';}
+
+input.ui-slider-input {display:none !important;}
+#slideUp   {width:10px; height:10px; float:right;  margin:10px 0px 0px 0px; cursor:pointer; background-image:url(../img/arrow-right.png); background-repeat:no-repeat;}
+#slideDown {width:10px; height:10px; float:left;   margin:10px 0px 0px 0px; cursor:pointer; background-image:url(../img/arrow-left.png);  background-repeat:no-repeat;}
+#chapTitle {height:25px; font-size:0.75em; margin:12px 0px 0px 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:block; max-width:100%;}
+#filter a, #filter a:visited {color:inherit; font-weight:normal;}
+div.ui-slider {margin-top:0px;}
+div.ui-slider-track {margin:0px 15px;}
+
+div.ui-radio span.ui-btn-inner {padding:5px 0px !important;}
+#filter label, span.ui-btn-text  {font-size:0.75em;}
+
+form.ui-listview-filter {width:190px; margin:0px 5px;}
+form.ui-listview-filter input {font-size:0.8em;}
+ul#townSelector {width:130px; margin:0px 45px;}
+
+#legend {display:none; font-size:0.75em;}
+#legend tr td {min-width:16px;}
+#gift    td:first-child {background-color: #000000;}
+#north   td:first-child {background-color: #808080;}
+#rivers  td:first-child {background-color: #caffff;}
+#vale    td:first-child {background-color: #0368bc;}
+#islands td:first-child {background-color: #fffe8b;}
+#west    td:first-child {background-color: #ffa4a4;}
+#crown   td:first-child {background-color: #feac77;}
+#reach   td:first-child {background-color: #c8ff75;}
+#storm   td:first-child {background-color: #ffffca;}
+#dorne   td:first-child {background-color: #ffe2b7;}
+
+#textToggles {margin-top:0px; margin-bottom:-10px; text-align:center;}
+#textToggles .textToggle {font-size:0.6em; color:blue; text-decoration:underline; cursor:pointer; background:none; border:none; padding:0; font-family:inherit;}
+#showMarkerOnly {display:none;}
+#filter ul li {list-style:none; margin-left:-40px;}
+#characters-novellas {display:none;}
+
+.aegonListItem {display:none;}
+.icon {display:inline-block;height:16px;width:16px;background-size:16px 16px;background-repeat:no-repeat;}
+/* .icon.<house> background images are injected by app.js from the local
+   heraldry manifest (original URLs could not be hotlinked: CORP blocks them) */
+
+/* --- localized vector map labels --- */
+.gotmap-label-wrap {pointer-events:none;}
+.gotmap-label {
+  display:inline-block; margin-left:9px; white-space:nowrap;
+  font:italic 12px Georgia,"Times New Roman",serif; color:#7a1f1f;
+  text-shadow:none;
+  -webkit-text-stroke:0.8px #fff; paint-order:stroke;
+}
+/* curved long-form labels: SVG textPath inside the same .gotmap-label span;
+   non-interactive, inherits the label's Georgia italic + currentColor */
+.gotmap-curve {display:block; pointer-events:none;}
+.gotmap-curve text {font-style:italic; font-family:Georgia,"Times New Roman",serif;}
+/* subtle leader from a displaced point label back to its symbol */
+.gotmap-leader {pointer-events:none; display:block;}
+.geo-continent .gotmap-label {font-size:17px; color:#6b3d12; text-transform:uppercase;}
+.geo-region .gotmap-label    {font-size:13px; color:#6b3d12;}
+.geo-sea .gotmap-label       {font-size:12px; color:#1e4a6e;}
+.geo-landmark .gotmap-label  {font-size:12px; color:#3a3a3a;}
+.gotmap-arrow {pointer-events:none;}
+
+/* --- source-aligned catalog labels (colors measured from the original
+       artwork; white -webkit-text-stroke outline, italic serif text) --- */
+.gotmap-label-cat .gotmap-label {
+  margin-left:0;
+  font:italic 12px Georgia,"Times New Roman",serif;
+  text-shadow:none;
+}
+.gotmap-centered .gotmap-label {margin-left:0;}
+.gotmap-label-wrap.clickable {pointer-events:auto; cursor:pointer;}
+.kind-city .gotmap-label, .kind-town .gotmap-label, .kind-castle .gotmap-label,
+.kind-ruin .gotmap-label, .kind-other .gotmap-label {color:#692323;}
+.kind-forest .gotmap-label   {color:#283519;}
+.kind-water .gotmap-label, .kind-island .gotmap-label {color:#829aa4;}
+.kind-mountain .gotmap-label {color:#20221a;}
+.kind-region .gotmap-label {color:#483824;}
+.kind-continent .gotmap-label {color:#483824;}
+.kind-road .gotmap-label     {color:#483824;}
+
+/* --- map legend (uses sprites cropped from the source artwork layers) --- */
+#legendToggle {
+  position:absolute; left:8px; bottom:24px; z-index:20;
+  padding:4px 10px; font:bold 12px Arial,sans-serif;
+  background:#f5ecd7; border:1px solid #a08c6a; border-radius:3px;
+  color:#5a3c1a; cursor:pointer;
+}
+#mapLegend {
+  display:none; position:absolute; left:8px; bottom:52px; z-index:20;
+  width:240px; max-height:min(58vh, 420px); overflow-y:auto;
+  padding:8px 10px;
+  background:#f5ecd7; border:1px solid #a08c6a; border-radius:4px;
+  font:12px Arial,sans-serif; color:#4a3a26;
+}
+#mapLegend .legend-title {
+  margin:0 24px 4px 0; font-size:13px; font-weight:bold;
+  text-transform:none; color:#5a3c1a;
+}
+#mapLegend h5 {margin:6px 0 3px; font-size:11px; text-transform:uppercase; color:#7a5c34;}
+#mapLegend h6 {margin:4px 0 2px; font-size:10px; color:#7a5c34;}
+#mapLegend .legend-cols {display:flex; gap:8px;}
+#mapLegend .legend-col {flex:1;}
+#mapLegend .legend-col li span {font-size:10px;}
+#mapLegend ul {margin:0; padding:0; list-style:none;}
+#mapLegend li {display:flex; align-items:center; margin:2px 0;}
+#mapLegend li img {width:18px; height:18px; margin-right:4px; background:transparent;}
+#legendClose {
+  position:absolute; top:4px; right:6px; width:22px; height:22px;
+  border:1px solid #a08c6a; border-radius:3px; background:#efe3c8;
+  color:#5a3c1a; font:bold 14px/1 Arial,sans-serif; cursor:pointer;
+}
+#mapLegend .gate-glyph {
+  /* local addition (the source legend has no gate symbol): a simple line
+     drawing of a gate/arch, deliberately not a source-artwork sprite */
+  display:inline-block; width:20px; height:20px; margin-right:6px;
+  background:
+    linear-gradient(#692323,#692323) 4px 15px/12px 2px no-repeat,
+    linear-gradient(#692323,#692323) 4px 4px/2px 13px no-repeat,
+    linear-gradient(#692323,#692323) 14px 4px/2px 13px no-repeat,
+    linear-gradient(#692323,#692323) 4px 4px/12px 2px no-repeat;
+}
+#mapLegend .local-add {font-style:normal; font-size:10px; color:#8a6c48;}
+#mapLegend .swatch {
+  display:inline-block; width:14px; height:10px; margin-right:6px;
+  border:1px solid rgba(0,0,0,.25);
+}
+#mapLegend .legend-note {margin:6px 0 0; font-size:10px; color:#6a5840;}
+.gotmap-popup {font-family:Arial,sans-serif; font-size:13px;}
+.popup-sigil {float:left; width:30px; margin-right:4px;}
+.popup-orig {font-size:11px; color:#555;}
+
+/* --- Leaflet layer control, styled like the original map-type buttons --- */
+.gotmap-layer-control {
+  margin-top:8px; margin-left:8px;
+  background:#fff; border-radius:2px;
+  box-shadow:0 1px 4px rgba(0,0,0,.3);
+  font-family:Arial,sans-serif; overflow:hidden;
+}
+.gotmap-layer-btn {
+  display:block; border:none; border-right:1px solid #ddd; background:#fff;
+  padding:4px 8px; font-size:12px; cursor:pointer; float:left;
+}
+.gotmap-layer-btn:last-child {border-right:none;}
+.gotmap-layer-btn:hover {background:#eee;}
+.gotmap-layer-btn.gotmap-layer-active {background:#e8e3d3; font-weight:bold;}
+.gotmap-fs-btn {font-size:14px; padding:3px 8px;}
+
+#engineStatus {
+  display:none; position:absolute; bottom:4px; left:8px; z-index:1000;
+  background:rgba(255,255,255,.8); padding:2px 6px; font:11px Arial,sans-serif;
+  color:#333; border-radius:2px; pointer-events:none;
+}
+/* native-button resets for controls converted from divs/spans */
+#menuButton, #infoLink, #closeButton, #slideUp, #slideDown {padding:0; border-style:none;}
+#slideUp {background-color:transparent;}
+#slideDown {background-color:transparent;}
+#menuButton {background-color:transparent;}
+#closeButton {font-family:sans-serif;}
+.leaflet-container {font:inherit;}

@@ -1,0 +1,4146 @@
+{
+  "policy": "Exact accent-preserving, case-insensitive whole-phrase occurrence. Suma first, then identified LeYa editions. No absence claim, automatic translation, TV source or full-text storage.",
+  "decisions": [
+    {
+      "id": "Land_of_Always_Winter",
+      "english": "Land of Always Winter",
+      "label": "Terra de Sempre Inverno",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-56.xhtml",
+        "matched": "Terra de Sempre Inverno"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Terras de Sempre Inverno"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-56.xhtml",
+          "matched": "Terra de Sempre Inverno"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_012.html",
+          "matched": "Terra de Sempre Inverno"
+        }
+      ]
+    },
+    {
+      "id": "Thenn",
+      "english": "Thenn",
+      "label": "Thenn",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-102.html",
+        "matched": "Thenn"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-102.html",
+          "matched": "Thenn"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-69.xhtml",
+          "matched": "Thenn"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-15.xhtml",
+          "matched": "Thenn"
+        }
+      ]
+    },
+    {
+      "id": "Frostfangs",
+      "english": "Frostfangs",
+      "label": "Presas de Gelo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 397,
+        "matched": "Presas de Gelo"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 397,
+          "matched": "Presas de Gelo"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-25.html",
+          "matched": "Presas de Gelo"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+          "matched": "Presas de Gelo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_063.html",
+          "matched": "Presas de Gelo"
+        }
+      ]
+    },
+    {
+      "id": "Shivering_Sea",
+      "english": "The Shivering Sea",
+      "label": "Mar Tremente",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-57.html",
+        "matched": "Mar Tremente"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-57.html",
+          "matched": "Mar Tremente"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-44.xhtml",
+          "matched": "Mar Tremente"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Mar Tremente"
+        }
+      ]
+    },
+    {
+      "id": "Storrold%27s_Point",
+      "english": "Storrold's Point",
+      "label": "Ponta de Storrold",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_063.html",
+        "matched": "Ponta de Storrold"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_063.html",
+          "matched": "Ponta de Storrold"
+        }
+      ]
+    },
+    {
+      "id": "Milkwater",
+      "english": "Milkwater",
+      "label": "Milkwater",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Skirling_Pass",
+      "english": "The Skirling Pass",
+      "label": "Passo dos Guinchos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 536,
+        "matched": "Passo dos Guinchos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 536,
+          "matched": "Passo dos Guinchos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-36.html",
+          "matched": "Passo dos Guinchos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-100.html",
+          "matched": "Passo dos Guinchos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-68.xhtml",
+          "matched": "Passo dos Guinchos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-91.xhtml",
+          "matched": "Passo dos Guinchos"
+        }
+      ]
+    },
+    {
+      "id": "Antler_(river)",
+      "english": "Antler",
+      "label": "Antler",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Haunted_Forest",
+      "english": "The Haunted Forest",
+      "label": "Floresta Assombrada",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 103,
+        "matched": "Floresta Assombrada"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 103,
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html",
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-15.html",
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-18.html",
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-15.xhtml",
+          "matched": "Floresta Assombrada"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_063.html",
+          "matched": "Floresta Assombrada"
+        }
+      ]
+    },
+    {
+      "id": "Frozen_Shore",
+      "english": "The Frozen Shore",
+      "label": "Costa Gelada",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 101,
+        "matched": "Costa Gelada"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 101,
+          "matched": "Costa Gelada"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html",
+          "matched": "Costa Gelada"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-9.html",
+          "matched": "Costa Gelada"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+          "matched": "Costa Gelada"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-63.xhtml",
+          "matched": "Costa Gelada"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Costa Gelada"
+        }
+      ]
+    },
+    {
+      "id": "Skane",
+      "english": "Skane",
+      "label": "Skane",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+        "matched": "Skane"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+          "matched": "Skane"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-63.xhtml",
+          "matched": "Skane"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_057.html",
+          "matched": "Skane"
+        }
+      ]
+    },
+    {
+      "id": "Skagos",
+      "english": "Skagos",
+      "label": "Skagos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 136,
+        "matched": "Skagos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 136,
+          "matched": "Skagos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-11.html",
+          "matched": "Skagos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-51.html",
+          "matched": "Skagos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+          "matched": "Skagos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+          "matched": "Skagos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Skagos"
+        }
+      ]
+    },
+    {
+      "id": "Bay_of_Ice",
+      "english": "Bay of Ice",
+      "label": "Ba\u00eda do Gelo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+        "matched": "Ba\u00eda do Gelo"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+          "matched": "Ba\u00eda do Gelo"
+        }
+      ]
+    },
+    {
+      "id": "Bear_Island",
+      "english": "Bear Island",
+      "label": "Ilha dos Ursos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 211,
+        "matched": "Ilha dos Ursos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 211,
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html",
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-62.xhtml",
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-40.xhtml",
+          "matched": "Ilha dos Ursos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Ilha dos Ursos"
+        }
+      ]
+    },
+    {
+      "id": "Bay_of_Seals",
+      "english": "Bay of Seals",
+      "label": "Ba\u00eda das Focas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 272,
+        "matched": "Ba\u00eda das Focas"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 272,
+          "matched": "Ba\u00eda das Focas"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-18.html",
+          "matched": "Ba\u00eda das Focas"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-33.html",
+          "matched": "Ba\u00eda das Focas"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+          "matched": "Ba\u00eda das Focas"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+          "matched": "Ba\u00eda das Focas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_057.html",
+          "matched": "Ba\u00eda das Focas"
+        }
+      ]
+    },
+    {
+      "id": "Sea_Dragon_Point",
+      "english": "Sea Dragon Point",
+      "label": "Ponta do Drag\u00e3o Marinho",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 418,
+        "matched": "Ponta do Drag\u00e3o Marinho"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 418,
+          "matched": "Ponta do Drag\u00e3o Marinho"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-26.html",
+          "matched": "Ponta do Drag\u00e3o Marinho"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+          "matched": "Ponta do Drag\u00e3o Marinho"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Ponta do Drag\u00e3o Marinho"
+        }
+      ]
+    },
+    {
+      "id": "Brandon%27s_Gift",
+      "english": "Brandon's Gift",
+      "label": "D\u00e1diva de Brandon",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-43.html",
+        "matched": "D\u00e1diva de Brandon"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-43.html",
+          "matched": "D\u00e1diva de Brandon"
+        }
+      ]
+    },
+    {
+      "id": "New_Gift",
+      "english": "New Gift",
+      "label": "Nova D\u00e1diva",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+        "matched": "Nova D\u00e1diva"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+          "matched": "Nova D\u00e1diva"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_029.html",
+          "matched": "Nova D\u00e1diva"
+        }
+      ]
+    },
+    {
+      "id": "Wolfswood",
+      "english": "Wolfswood",
+      "label": "Mata de Lobos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 82,
+        "matched": "Mata de Lobos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 82,
+          "matched": "Mata de Lobos"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html",
+          "matched": "Mata de Lobos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Mata de Lobos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Mata de Lobos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Mata de Lobos"
+        }
+      ]
+    },
+    {
+      "id": "Long_Lake",
+      "english": "Long Lake",
+      "label": "Lago Longo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-72.html",
+        "matched": "Lago Longo"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-72.html",
+          "matched": "Lago Longo"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-12.xhtml",
+          "matched": "Lago Longo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Lago Longo"
+        }
+      ]
+    },
+    {
+      "id": "Lonely_Hills",
+      "english": "The Lonely Hills",
+      "label": "Colinas Solit\u00e1rias",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+        "matched": "Colinas Solit\u00e1rias"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+          "matched": "Colinas Solit\u00e1rias"
+        }
+      ]
+    },
+    {
+      "id": "Grey_Cliffs",
+      "english": "The Grey Cliffs",
+      "label": "Fal\u00e9sias Cinzentas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+        "matched": "Fal\u00e9sias Cinzentas"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+          "matched": "Fal\u00e9sias Cinzentas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_127.html",
+          "matched": "Fal\u00e9sias Cinzentas"
+        }
+      ]
+    },
+    {
+      "id": "Last_River",
+      "english": "Last River",
+      "label": "Rio \u00daltimo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 272,
+        "matched": "Rio \u00daltimo"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 272,
+          "matched": "Rio \u00daltimo"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-18.html",
+          "matched": "Rio \u00daltimo"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+          "matched": "Rio \u00daltimo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Rio \u00daltimo"
+        }
+      ]
+    },
+    {
+      "id": "Weeping_Water",
+      "english": "Weeping Water",
+      "label": "\u00c1guas Chorosas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-17.xhtml",
+        "matched": "\u00c1guas Chorosas"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-17.xhtml",
+          "matched": "\u00c1guas Chorosas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "\u00c1guas Chorosas"
+        }
+      ]
+    },
+    {
+      "id": "Broken_Branch",
+      "english": "Broken Branch",
+      "label": "Broken Branch",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "White_Knife",
+      "english": "White Knife",
+      "label": "Faca Branca",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 549,
+        "matched": "Faca Branca"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 549,
+          "matched": "Faca Branca"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html",
+          "matched": "Faca Branca"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-37.html",
+          "matched": "Faca Branca"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Faca Branca"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-20.xhtml",
+          "matched": "Faca Branca"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Faca Branca"
+        }
+      ]
+    },
+    {
+      "id": "Barrowlands",
+      "english": "Barrowlands",
+      "label": "Barrowlands",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Rills",
+      "english": "The Rills",
+      "label": "Regatos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-51.html",
+        "matched": "Regatos"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-51.html",
+          "matched": "Regatos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-18.html",
+          "matched": "Regatos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-62.xhtml",
+          "matched": "Regatos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-25.xhtml",
+          "matched": "Regatos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Regatos"
+        }
+      ]
+    },
+    {
+      "id": "Blazewater_Bay",
+      "english": "Blazewater Bay",
+      "label": "Blazewater Bay",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Saltspear",
+      "english": "Saltspear",
+      "label": "Saltspear",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Fever_River",
+      "english": "Fever",
+      "label": "Febre",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 418,
+        "matched": "Febre"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 418,
+          "matched": "Febre"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-26.html",
+          "matched": "Febre"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+          "matched": "Febre"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+          "matched": "Febre"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_033.html",
+          "matched": "Febre"
+        }
+      ]
+    },
+    {
+      "id": "Cape_Kraken",
+      "english": "Cape Kraken",
+      "label": "Cape Kraken",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Flint_Cliffs",
+      "english": "The Flint Cliffs",
+      "label": "The Flint Cliffs",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Neck",
+      "english": "The Neck",
+      "label": "Gargalo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 118,
+        "matched": "Gargalo"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 118,
+          "matched": "Gargalo"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html",
+          "matched": "Gargalo"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Gargalo"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Gargalo"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-19.xhtml",
+          "matched": "Gargalo"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-25.xhtml",
+          "matched": "Gargalo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Gargalo"
+        }
+      ]
+    },
+    {
+      "id": "Three_Sisters",
+      "english": "The Three Sisters",
+      "label": "Tr\u00eas Irm\u00e3s",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 136,
+        "matched": "Tr\u00eas Irm\u00e3s"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 136,
+          "matched": "Tr\u00eas Irm\u00e3s"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html",
+          "matched": "Tr\u00eas Irm\u00e3s"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-11.html",
+          "matched": "Tr\u00eas Irm\u00e3s"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-46.xhtml",
+          "matched": "Tr\u00eas Irm\u00e3s"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+          "matched": "Tr\u00eas Irm\u00e3s"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Tr\u00eas Irm\u00e3s"
+        }
+      ]
+    },
+    {
+      "id": "Sweetsister",
+      "english": "Sweetsister",
+      "label": "Doceirm\u00e3",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+        "matched": "Doceirm\u00e3"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+          "matched": "Doceirm\u00e3"
+        }
+      ]
+    },
+    {
+      "id": "Littlesister",
+      "english": "Littlesister",
+      "label": "Littlesister",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Longsister",
+      "english": "Longsister",
+      "label": "Longsister",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Pebble",
+      "english": "Pebble",
+      "label": "Seixo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_070.html",
+        "matched": "Seixo"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_070.html",
+          "matched": "Seixo"
+        }
+      ]
+    },
+    {
+      "id": "Paps",
+      "english": "The Paps",
+      "label": "Tetas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+        "matched": "Tetas"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+          "matched": "Tetas"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Tetas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_038.html",
+          "matched": "Tetas"
+        }
+      ]
+    },
+    {
+      "id": "Bite",
+      "english": "The Bite",
+      "label": "Dentada",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html",
+        "matched": "Dentada"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html",
+          "matched": "Dentada"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml",
+          "matched": "Dentada"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_070.html",
+          "matched": "Dentada"
+        }
+      ]
+    },
+    {
+      "id": "Fingers",
+      "english": "The Fingers",
+      "label": "Dedos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 34,
+        "matched": "Dedos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 34,
+          "matched": "Dedos"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-13.html",
+          "matched": "Dedos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+          "matched": "Dedos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Dedos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-13.xhtml",
+          "matched": "Dedos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-12.xhtml",
+          "matched": "Dedos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Dedos"
+        }
+      ]
+    },
+    {
+      "id": "Mountains_of_the_Moon",
+      "english": "The Mountains of the Moon",
+      "label": "Montanhas da Lua",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 69,
+        "matched": "Montanhas da Lua"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 69,
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html",
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-83.xhtml",
+          "matched": "Montanhas da Lua"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Montanhas da Lua"
+        }
+      ]
+    },
+    {
+      "id": "High_Road",
+      "english": "High Road",
+      "label": "Estrada de Altitude",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 691,
+        "matched": "Estrada de Altitude"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 691,
+          "matched": "Estrada de Altitude"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-34.html",
+          "matched": "Estrada de Altitude"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-46.html",
+          "matched": "Estrada de Altitude"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-23.html",
+          "matched": "Estrada de Altitude"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-28.xhtml",
+          "matched": "Estrada de Altitude"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_070.html",
+          "matched": "Estrada de Altitude"
+        }
+      ]
+    },
+    {
+      "id": "Bay_of_Crabs",
+      "english": "Bay of Crabs",
+      "label": "Ba\u00eda dos Caranguejos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-77.html",
+        "matched": "Ba\u00eda dos Caranguejos"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-77.html",
+          "matched": "Ba\u00eda dos Caranguejos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-28.xhtml",
+          "matched": "Ba\u00eda dos Caranguejos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Ba\u00eda dos Caranguejos"
+        }
+      ]
+    },
+    {
+      "id": "Claw_Isle",
+      "english": "Claw Isle",
+      "label": "Ilha da Garra",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 1016,
+        "matched": "Ilha da Garra"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 1016,
+          "matched": "Ilha da Garra"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-73.html",
+          "matched": "Ilha da Garra"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-39.html",
+          "matched": "Ilha da Garra"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Ilha da Garra"
+        }
+      ]
+    },
+    {
+      "id": "Fair_Isle",
+      "english": "Fair Isle",
+      "label": "Ilha Bela",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+        "matched": "Ilha Bela"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Ilha Bela"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Ilha Bela"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_028.html",
+          "matched": "Ilha Bela"
+        }
+      ]
+    },
+    {
+      "id": "Driftmark",
+      "english": "Driftmark",
+      "label": "Derivamarca",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 162,
+        "matched": "Derivamarca"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 162,
+          "matched": "Derivamarca"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+          "matched": "Derivamarca"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Derivamarca"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-15.xhtml",
+          "matched": "Derivamarca"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-79.xhtml",
+          "matched": "Derivamarca"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Derivamarca"
+        }
+      ]
+    },
+    {
+      "id": "Blackwater_Bay",
+      "english": "Blackwater Bay",
+      "label": "Ba\u00eda da \u00c1gua Negra",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 616,
+        "matched": "Ba\u00eda da \u00c1gua Negra"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 616,
+          "matched": "Ba\u00eda da \u00c1gua Negra"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-43.html",
+          "matched": "Ba\u00eda da \u00c1gua Negra"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Ba\u00eda da \u00c1gua Negra"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-11.xhtml",
+          "matched": "Ba\u00eda da \u00c1gua Negra"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_018.html",
+          "matched": "Ba\u00eda da \u00c1gua Negra"
+        }
+      ]
+    },
+    {
+      "id": "Gullet",
+      "english": "The Gullet",
+      "label": "Goela",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 787,
+        "matched": "Goela"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 787,
+          "matched": "Goela"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-53.html",
+          "matched": "Goela"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Goela"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Goela"
+        }
+      ]
+    },
+    {
+      "id": "Massey%27s_Hook",
+      "english": "Massey's Hook",
+      "label": "Gancho de Massey",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 787,
+        "matched": "Gancho de Massey"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 787,
+          "matched": "Gancho de Massey"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-53.html",
+          "matched": "Gancho de Massey"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Gancho de Massey"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Gancho de Massey"
+        }
+      ]
+    },
+    {
+      "id": "Narrow_Sea",
+      "english": "The Narrow Sea",
+      "label": "Mar Estreito",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 3,
+        "matched": "Mar Estreito"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 3,
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-10.html",
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-10.xhtml",
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Mar Estreito"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_011.html",
+          "matched": "Mar Estreito"
+        }
+      ]
+    },
+    {
+      "id": "Kingswood",
+      "english": "Kingswood",
+      "label": "Mata de Rei",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 251,
+        "matched": "Mata de Rei"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 251,
+          "matched": "Mata de Rei"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-100.html",
+          "matched": "Mata de Rei"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+          "matched": "Mata de Rei"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-15.xhtml",
+          "matched": "Mata de Rei"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_038.html",
+          "matched": "Mata de Rei"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-42.html",
+          "matched": "Mataderrei"
+        }
+      ]
+    },
+    {
+      "id": "Rainwood",
+      "english": "Rainwood",
+      "label": "Rainwood",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Stormlands",
+      "english": "The Stormlands",
+      "label": "Terras da Tempestade",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-12.xhtml",
+        "matched": "Terras da Tempestade"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-12.xhtml",
+          "matched": "Terras da Tempestade"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-60.xhtml",
+          "matched": "Terras da Tempestade"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Terras da Tempestade"
+        }
+      ]
+    },
+    {
+      "id": "Shipbreaker_Bay",
+      "english": "Shipbreaker Bay",
+      "label": "Ba\u00eda dos Naufr\u00e1gios",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 11,
+        "matched": "Ba\u00eda dos Naufr\u00e1gios"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 11,
+          "matched": "Ba\u00eda dos Naufr\u00e1gios"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-3.html",
+          "matched": "Ba\u00eda dos Naufr\u00e1gios"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-35.xhtml",
+          "matched": "Ba\u00eda dos Naufr\u00e1gios"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_032.html",
+          "matched": "Ba\u00eda dos Naufr\u00e1gios"
+        }
+      ]
+    },
+    {
+      "id": "Straits_of_Tarth",
+      "english": "Straits of Tarth",
+      "label": "Estreitos de Tarth",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 858,
+        "matched": "Estreitos de Tarth"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 858,
+          "matched": "Estreitos de Tarth"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-59.html",
+          "matched": "Estreitos de Tarth"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-20.xhtml",
+          "matched": "Estreitos de Tarth"
+        }
+      ]
+    },
+    {
+      "id": "Tarth",
+      "english": "Tarth",
+      "label": "Tarth",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 15,
+        "matched": "Tarth"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 15,
+          "matched": "Tarth"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-63.html",
+          "matched": "Tarth"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-24.html",
+          "matched": "Tarth"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-100.html",
+          "matched": "Tarth"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-11.xhtml",
+          "matched": "Tarth"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-53.xhtml",
+          "matched": "Tarth"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_029.html",
+          "matched": "Tarth"
+        }
+      ]
+    },
+    {
+      "id": "Cape_Wrath",
+      "english": "Cape Wrath",
+      "label": "Cabo da F\u00faria",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 16,
+        "matched": "Cabo da F\u00faria"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 16,
+          "matched": "Cabo da F\u00faria"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+          "matched": "Cabo da F\u00faria"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Cabo da F\u00faria"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-27.xhtml",
+          "matched": "Cabo da F\u00faria"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-59.xhtml",
+          "matched": "Cabo da F\u00faria"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Cabo da F\u00faria"
+        }
+      ]
+    },
+    {
+      "id": "Estermont",
+      "english": "Estermont",
+      "label": "Estermont",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 170,
+        "matched": "Estermont"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 170,
+          "matched": "Estermont"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-77.html",
+          "matched": "Estermont"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-13.html",
+          "matched": "Estermont"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-39.html",
+          "matched": "Estermont"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-27.xhtml",
+          "matched": "Estermont"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-66.xhtml",
+          "matched": "Estermont"
+        }
+      ]
+    },
+    {
+      "id": "Red_Watch",
+      "english": "The Red Watch",
+      "label": "The Red Watch",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Dornish_Marches",
+      "english": "The Dornish Marches",
+      "label": "Marcas de Dorne",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-8.xhtml",
+        "matched": "Marcas de Dorne"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-8.xhtml",
+          "matched": "Marcas de Dorne"
+        }
+      ]
+    },
+    {
+      "id": "Red_Mountains",
+      "english": "The Red Mountains",
+      "label": "Montanhas Vermelhas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-42.html",
+        "matched": "Montanhas Vermelhas"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-42.html",
+          "matched": "Montanhas Vermelhas"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+          "matched": "Montanhas Vermelhas"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-46.xhtml",
+          "matched": "Montanhas Vermelhas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Montanhas Vermelhas"
+        }
+      ]
+    },
+    {
+      "id": "Sea_of_Dorne",
+      "english": "Sea of Dorne",
+      "label": "Mar de Dorne",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-69.html",
+        "matched": "Mar de Dorne"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-69.html",
+          "matched": "Mar de Dorne"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-43.xhtml",
+          "matched": "Mar de Dorne"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_095.html",
+          "matched": "Mar de Dorne"
+        }
+      ]
+    },
+    {
+      "id": "Arm_of_Dorne",
+      "english": "Arm of Dorne",
+      "label": "Bra\u00e7o de Dorne",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_088.html",
+        "matched": "Bra\u00e7o de Dorne"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_088.html",
+          "matched": "Bra\u00e7o de Dorne"
+        }
+      ]
+    },
+    {
+      "id": "Greenblood",
+      "english": "Greenblood",
+      "label": "Sangueverde",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-16.xhtml",
+        "matched": "Sangueverde"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-16.xhtml",
+          "matched": "Sangueverde"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+          "matched": "Sangueverde"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_017.html",
+          "matched": "Sangueverde"
+        }
+      ]
+    },
+    {
+      "id": "Redwyne_Straits",
+      "english": "Redwyne Straits",
+      "label": "Estreitos Redwyne",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+        "matched": "Estreitos Redwyne"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-18.xhtml",
+          "matched": "Estreitos Redwyne"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-61.xhtml",
+          "matched": "Estreito Redwyne"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_087.html",
+          "matched": "Estreito Redwyne"
+        }
+      ]
+    },
+    {
+      "id": "Whispering_Sound",
+      "english": "Whispering Sound",
+      "label": "Enseada dos Murm\u00farios",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-3.xhtml",
+        "matched": "Enseada dos Murm\u00farios"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-3.xhtml",
+          "matched": "Enseada dos Murm\u00farios"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_091.html",
+          "matched": "Enseada dos Murm\u00farios"
+        }
+      ]
+    },
+    {
+      "id": "Arbor",
+      "english": "The Arbor",
+      "label": "\u00c1rvore",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 16,
+        "matched": "\u00c1rvore"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 16,
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html",
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-11.html",
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-11.html",
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-11.xhtml",
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-11.xhtml",
+          "matched": "\u00c1rvore"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "\u00c1rvore"
+        }
+      ]
+    },
+    {
+      "id": "Shield_Islands",
+      "english": "Shield Islands",
+      "label": "Ilhas Escudo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-66.html",
+        "matched": "Ilhas Escudo"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-66.html",
+          "matched": "Ilhas Escudo"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-32.xhtml",
+          "matched": "Ilhas Escudo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_076.html",
+          "matched": "Ilhas Escudo"
+        }
+      ]
+    },
+    {
+      "id": "Mander",
+      "english": "The Mander",
+      "label": "Vago",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 356,
+        "matched": "Vago"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 356,
+          "matched": "Vago"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-24.html",
+          "matched": "Vago"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-10.html",
+          "matched": "Vago"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-24.xhtml",
+          "matched": "Vago"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-43.xhtml",
+          "matched": "Vago"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Vago"
+        }
+      ]
+    },
+    {
+      "id": "Sunset_Sea",
+      "english": "The Sunset Sea",
+      "label": "Mar do Poente",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 975,
+        "matched": "Mar do Poente"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 975,
+          "matched": "Mar do Poente"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-28.html",
+          "matched": "Mar do Poente"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-68.html",
+          "matched": "Mar do Poente"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-17.html",
+          "matched": "Mar do Poente"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-22.xhtml",
+          "matched": "Mar do Poente"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Mar do Poente"
+        }
+      ]
+    },
+    {
+      "id": "Summer_Sea",
+      "english": "Summer Sea",
+      "label": "Mar do Ver\u00e3o",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 461,
+        "matched": "Mar do Ver\u00e3o"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-21.xhtml",
+          "matched": "Mar de Ver\u00e3o"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_127.html",
+          "matched": "Mar de Ver\u00e3o"
+        },
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 461,
+          "matched": "Mar do Ver\u00e3o"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-9.html",
+          "matched": "Mar do Ver\u00e3o"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-30.html",
+          "matched": "Mar do Ver\u00e3o"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-32.xhtml",
+          "matched": "Mar do Ver\u00e3o"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-23.xhtml",
+          "matched": "Mar do Ver\u00e3o"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Mar do Ver\u00e3o"
+        }
+      ]
+    },
+    {
+      "id": "Summer_Islands",
+      "english": "Summer Islands",
+      "label": "Ilhas do Ver\u00e3o",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 26,
+        "matched": "Ilhas do Ver\u00e3o"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 26,
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html",
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-11.html",
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-10.html",
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-17.xhtml",
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-11.xhtml",
+          "matched": "Ilhas do Ver\u00e3o"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Ilhas do Ver\u00e3o"
+        }
+      ]
+    },
+    {
+      "id": "Westeros",
+      "english": "Westeros",
+      "label": "Westeros",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 17,
+        "matched": "Westeros"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 17,
+          "matched": "Westeros"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-25.html",
+          "matched": "Westeros"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Westeros"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Westeros"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Westeros"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Westeros"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_002.html",
+          "matched": "Westeros"
+        }
+      ]
+    },
+    {
+      "id": "Ibben",
+      "english": "Ibben",
+      "label": "Ibben",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 409,
+        "matched": "Ibben"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 409,
+          "matched": "Ibben"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html",
+          "matched": "Ibben"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-26.html",
+          "matched": "Ibben"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-87.html",
+          "matched": "Ibben"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-29.xhtml",
+          "matched": "Ibben"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-20.xhtml",
+          "matched": "Ibben"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_114.html",
+          "matched": "Ibben"
+        }
+      ]
+    },
+    {
+      "id": "Lorath_(islands)",
+      "english": "Lorath",
+      "label": "Lorath",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 93,
+        "matched": "Lorath"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 93,
+          "matched": "Lorath"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html",
+          "matched": "Lorath"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-40.html",
+          "matched": "Lorath"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-9.xhtml",
+          "matched": "Lorath"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-49.xhtml",
+          "matched": "Lorath"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Lorath"
+        }
+      ]
+    },
+    {
+      "id": "Braavosian_Coastlands",
+      "english": "Braavosian Coastlands",
+      "label": "Costa Bravosiana",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-6.html",
+        "matched": "Costa Bravosiana"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-6.html",
+          "matched": "Costa Bravosiana"
+        }
+      ]
+    },
+    {
+      "id": "Axe",
+      "english": "The Axe",
+      "label": "Machado",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 709,
+        "matched": "Machado"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 709,
+          "matched": "Machado"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-48.html",
+          "matched": "Machado"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-29.html",
+          "matched": "Machado"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+          "matched": "Machado"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Machado"
+        }
+      ]
+    },
+    {
+      "id": "Andalos",
+      "english": "Andalos",
+      "label": "Andalos",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Hills_of_Norvos",
+      "english": "Hills of Norvos",
+      "label": "Hills of Norvos",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Flatlands",
+      "english": "The Flatlands",
+      "label": "Terras Planas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+        "matched": "Terras Planas"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Terras Planas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Terras Planas"
+        }
+      ]
+    },
+    {
+      "id": "Forest_of_Qohor",
+      "english": "Forest of Qohor",
+      "label": "Floresta de Qohor",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+        "matched": "Floresta de Qohor"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+          "matched": "Floresta de Qohor"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-13.xhtml",
+          "matched": "Floresta de Qohor"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_116.html",
+          "matched": "Floresta de Qohor"
+        }
+      ]
+    },
+    {
+      "id": "Golden_Fields",
+      "english": "The Golden Fields",
+      "label": "Campos Dourados",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+        "matched": "Campos Dourados"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+          "matched": "Campos Dourados"
+        }
+      ]
+    },
+    {
+      "id": "Sea_of_Myrth",
+      "english": "Sea of Myrth",
+      "label": "Mar de Myrth",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_117.html",
+        "matched": "Mar de Myrth"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_117.html",
+          "matched": "Mar de Myrth"
+        }
+      ]
+    },
+    {
+      "id": "Disputed_Lands",
+      "english": "The Disputed Lands",
+      "label": "Terras Disputadas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-41.html",
+        "matched": "Terras Disputadas"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-41.html",
+          "matched": "Terras Disputadas"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Terras Disputadas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_018.html",
+          "matched": "Terras Disputadas"
+        }
+      ]
+    },
+    {
+      "id": "Rhoyne",
+      "english": "The Rhoyne",
+      "label": "The Rhoyne",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Stepstones",
+      "english": "The Stepstones",
+      "label": "Degraus",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+        "matched": "Degraus"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Degraus"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+          "matched": "Degraus"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-27.xhtml",
+          "matched": "Degraus"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_017.html",
+          "matched": "Degraus"
+        }
+      ]
+    },
+    {
+      "id": "Essos",
+      "english": "Essos",
+      "label": "Essos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-94.xhtml",
+        "matched": "Essos"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-94.xhtml",
+          "matched": "Essos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_014.html",
+          "matched": "Essos"
+        }
+      ]
+    },
+    {
+      "id": "Dothraki_Sea",
+      "english": "The Dothraki Sea",
+      "label": "Mar Dothraki",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 201,
+        "matched": "Mar Dothraki"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 201,
+          "matched": "Mar Dothraki"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+          "matched": "Mar Dothraki"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Mar Dothraki"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+          "matched": "Mar Dothraki"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Mar Dothraki"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_018.html",
+          "matched": "Mar Dothraki"
+        }
+      ]
+    },
+    {
+      "id": "Mother_of_Mountains",
+      "english": "Mother of Mountains",
+      "label": "M\u00e3e das Montanhas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 739,
+        "matched": "M\u00e3e das Montanhas"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 739,
+          "matched": "M\u00e3e das Montanhas"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-39.html",
+          "matched": "M\u00e3e das Montanhas"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-49.html",
+          "matched": "M\u00e3e das Montanhas"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+          "matched": "M\u00e3e das Montanhas"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-76.xhtml",
+          "matched": "M\u00e3e das Montanhas"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "M\u00e3e das Montanhas"
+        }
+      ]
+    },
+    {
+      "id": "Womb_of_the_World",
+      "english": "Womb of the World",
+      "label": "Ventre do Mundo",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-49.html",
+        "matched": "Ventre do Mundo"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-49.html",
+          "matched": "Ventre do Mundo"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+          "matched": "Ventre do Mundo"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-76.xhtml",
+          "matched": "Ventre do Mundo"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "Ventre do Mundo"
+        }
+      ]
+    },
+    {
+      "id": "Painted_Mountains",
+      "english": "The Painted Mountains",
+      "label": "Montanhas Pintadas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_126.html",
+        "matched": "Montanhas Pintadas"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "Montanhas Pintadas"
+        }
+      ]
+    },
+    {
+      "id": "Demon_Road",
+      "english": "The Demon Road",
+      "label": "The Demon Road",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Khyzai_Pass",
+      "english": "Khyzai Pass",
+      "label": "Khyzai Pass",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Skahazadhan",
+      "english": "Skahazadhan",
+      "label": "Skahazadhan",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-60.html",
+        "matched": "Skahazadhan"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-60.html",
+          "matched": "Skahazadhan"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-16.xhtml",
+          "matched": "Skahazadhan"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "Skahazadhan"
+        }
+      ]
+    },
+    {
+      "id": "Slaver%27s_Bay",
+      "english": "Slaver's Bay",
+      "label": "Ba\u00eda dos Escravos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 201,
+        "matched": "Ba\u00eda dos Escravos"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 201,
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-64.html",
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-32.xhtml",
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Ba\u00eda dos Escravos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_014.html",
+          "matched": "Ba\u00eda dos Escravos"
+        }
+      ]
+    },
+    {
+      "id": "Yaros",
+      "english": "Yaros",
+      "label": "Yaros",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-68.xhtml",
+        "matched": "Yaros"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-68.xhtml",
+          "matched": "Yaros"
+        }
+      ]
+    },
+    {
+      "id": "Isle_of_Cedars",
+      "english": "Isle of Cedars",
+      "label": "Isle of Cedars",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Lands_of_the_Long_Summer",
+      "english": "The Lands of the Long Summer",
+      "label": "Terras do Longo Ver\u00e3o",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+        "matched": "Terras do Longo Ver\u00e3o"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html",
+          "matched": "Terras do Longo Ver\u00e3o"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-60.html",
+          "matched": "Terras do Longo Ver\u00e3o"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-38.xhtml",
+          "matched": "Terras do Longo Ver\u00e3o"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_017.html",
+          "matched": "Terras do Longo Ver\u00e3o"
+        }
+      ]
+    },
+    {
+      "id": "Smoking_Sea",
+      "english": "The Smoking Sea",
+      "label": "Mar Fumegante",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+        "matched": "Mar Fumegante"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Mar Fumegante"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-32.xhtml",
+          "matched": "Mar Fumegante"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-19.xhtml",
+          "matched": "Mar Fumegante"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_018.html",
+          "matched": "Mar Fumegante"
+        }
+      ]
+    },
+    {
+      "id": "Gulf_of_Grief",
+      "english": "The Gulf of Grief",
+      "label": "Golfo da Afli\u00e7\u00e3o",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-68.xhtml",
+        "matched": "Golfo da Afli\u00e7\u00e3o"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-68.xhtml",
+          "matched": "Golfo da Afli\u00e7\u00e3o"
+        }
+      ]
+    },
+    {
+      "id": "Ghaen",
+      "english": "Ghaen",
+      "label": "Ghaen",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Worm_River",
+      "english": "Worm River",
+      "label": "Worm River",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Red_Waste",
+      "english": "The Red Waste",
+      "label": "Deserto Vermelho",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 203,
+        "matched": "Deserto Vermelho"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 203,
+          "matched": "Deserto Vermelho"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Deserto Vermelho"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-12.html",
+          "matched": "Deserto Vermelho"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-21.xhtml",
+          "matched": "Deserto Vermelho"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "Deserto Vermelho"
+        }
+      ]
+    },
+    {
+      "id": "Jade_Sea",
+      "english": "The Jade Sea",
+      "label": "Mar de Jade",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 26,
+        "matched": "Mar de Jade"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 26,
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html",
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-29.html",
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-8.xhtml",
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Mar de Jade"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_014.html",
+          "matched": "Mar de Jade"
+        }
+      ]
+    },
+    {
+      "id": "Straits_of_Qarth",
+      "english": "Straits of Qarth",
+      "label": "Straits of Qarth",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Jade_Gates",
+      "english": "The Jade Gates",
+      "label": "Port\u00f5es de Jade",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-3.xhtml",
+        "matched": "Port\u00f5es de Jade"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-3.xhtml",
+          "matched": "Port\u00f5es de Jade"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-11.xhtml",
+          "matched": "Port\u00f5es de Jade"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_126.html",
+          "matched": "Port\u00f5es de Jade"
+        }
+      ]
+    },
+    {
+      "id": "Basilisk_Isles",
+      "english": "Basilisk Isles",
+      "label": "Ilhas Basilisco",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-24.xhtml",
+        "matched": "Ilhas Basilisco"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-24.xhtml",
+          "matched": "Ilhas Basilisco"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-16.xhtml",
+          "matched": "Ilhas Basilisco"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Ilhas Basilisco"
+        }
+      ]
+    },
+    {
+      "id": "Isle_of_Toads",
+      "english": "Isle of Toads",
+      "label": "Ilha dos Sapos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_017.html",
+        "matched": "Ilha dos Sapos"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_017.html",
+          "matched": "Ilha dos Sapos"
+        }
+      ]
+    },
+    {
+      "id": "Isle_of_Tears",
+      "english": "Isle of Tears",
+      "label": "Ilha das L\u00e1grimas",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_124.html",
+        "matched": "Ilha das L\u00e1grimas"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_124.html",
+          "matched": "Ilha das L\u00e1grimas"
+        }
+      ]
+    },
+    {
+      "id": "Basilisk_Point",
+      "english": "Basilisk Point",
+      "label": "Ponta Basilisco",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_017.html",
+        "matched": "Ponta Basilisco"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_017.html",
+          "matched": "Ponta Basilisco"
+        }
+      ]
+    },
+    {
+      "id": "Naath",
+      "english": "Naath",
+      "label": "Naath",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+        "matched": "Naath"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-26.html",
+          "matched": "Naath"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-71.xhtml",
+          "matched": "Naath"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-16.xhtml",
+          "matched": "Naath"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Naath"
+        }
+      ]
+    },
+    {
+      "id": "Sothoryos",
+      "english": "Sothoryos",
+      "label": "Sothoryos",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ADWD-LEYA",
+        "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-61.xhtml",
+        "matched": "Sothoryos"
+      },
+      "occurrences": [
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-61.xhtml",
+          "matched": "Sothoryos"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Sothoryos"
+        }
+      ]
+    },
+    {
+      "id": "Lannisport",
+      "english": "Lannisport",
+      "label": "Lannisporto",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 129,
+        "matched": "Lannisporto"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 129,
+          "matched": "Lannisporto"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-45.html",
+          "matched": "Lannisporto"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Lannisporto"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Lannisporto"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Lannisporto"
+        }
+      ]
+    },
+    {
+      "id": "Hornwood_(forest)",
+      "english": "Hornwood",
+      "label": "Hornwood",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Iron_Islands",
+      "english": "Iron Islands",
+      "label": "Ilhas de Ferro",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 123,
+        "matched": "Ilhas de Ferro"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 123,
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-7.html",
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-25.xhtml",
+          "matched": "Ilhas de Ferro"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Ilhas de Ferro"
+        }
+      ]
+    },
+    {
+      "id": "Ironman%27s_Bay",
+      "english": "Ironman's Bay",
+      "label": "Ba\u00eda dos Homens de Ferro",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "TWOIAF-LEYA",
+        "epubMember": "index_split_065.html",
+        "matched": "Ba\u00eda dos Homens de Ferro"
+      },
+      "occurrences": [
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_065.html",
+          "matched": "Ba\u00eda dos Homens de Ferro"
+        }
+      ]
+    },
+    {
+      "id": "Great_Wyk",
+      "english": "Great Wyk",
+      "label": "Grande Wyk",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 188,
+        "matched": "Grande Wyk"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 188,
+          "matched": "Grande Wyk"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Grande Wyk"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-90.html",
+          "matched": "Grande Wyk"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+          "matched": "Grande Wyk"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-25.xhtml",
+          "matched": "Grande Wyk"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_055.html",
+          "matched": "Grande Wyk"
+        }
+      ]
+    },
+    {
+      "id": "Old_Wyk",
+      "english": "Old Wyk",
+      "label": "Velha Wyk",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 186,
+        "matched": "Velha Wyk"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 186,
+          "matched": "Velha Wyk"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Velha Wyk"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-70.html",
+          "matched": "Velha Wyk"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Velha Wyk"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-31.xhtml",
+          "matched": "Velha Wyk"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_010.html",
+          "matched": "Velha Wyk"
+        }
+      ]
+    },
+    {
+      "id": "Blacktyde",
+      "english": "Blacktyde",
+      "label": "Blacktyde",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Orkmont",
+      "english": "Orkmont",
+      "label": "Orkmont",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AFFC-LEYA",
+        "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+        "matched": "Orkmont"
+      },
+      "occurrences": [
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-21.xhtml",
+          "matched": "Orkmont"
+        }
+      ]
+    },
+    {
+      "id": "Harlaw",
+      "english": "Harlaw",
+      "label": "Harlaw",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 183,
+        "matched": "Harlaw"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 183,
+          "matched": "Harlaw"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-83.html",
+          "matched": "Harlaw"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-14.html",
+          "matched": "Harlaw"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-90.html",
+          "matched": "Harlaw"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Harlaw"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-31.xhtml",
+          "matched": "Harlaw"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_074.html",
+          "matched": "Harlaw"
+        }
+      ]
+    },
+    {
+      "id": "Saltcliffe",
+      "english": "Saltcliffe",
+      "label": "Saltcliffe",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Pyke_(island)",
+      "english": "Pyke",
+      "label": "Pyke",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 123,
+        "matched": "Pyke"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 123,
+          "matched": "Pyke"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html",
+          "matched": "Pyke"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Pyke"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-100.html",
+          "matched": "Pyke"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-14.xhtml",
+          "matched": "Pyke"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-12.xhtml",
+          "matched": "Pyke"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_004.html",
+          "matched": "Pyke"
+        }
+      ]
+    },
+    {
+      "id": "Cape_of_Eagles",
+      "english": "Cape of Eagles",
+      "label": "Cabo das \u00c1guias",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+        "matched": "Cabo das \u00c1guias"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+          "matched": "Cabo das \u00c1guias"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_074.html",
+          "matched": "Cabo das \u00c1guias"
+        }
+      ]
+    },
+    {
+      "id": "Hag%27s_Mire",
+      "english": "Hag's Mire",
+      "label": "Hag's Mire",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Vale_of_Arryn",
+      "english": "The Vale of Arryn",
+      "label": "Vale de Arryn",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 61,
+        "matched": "Vale de Arryn"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 61,
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html",
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-6.html",
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-22.html",
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-13.xhtml",
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-22.xhtml",
+          "matched": "Vale de Arryn"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Vale de Arryn"
+        }
+      ]
+    },
+    {
+      "id": "Whispering_Wood",
+      "english": "Whispering Wood",
+      "label": "Bosque dos Murm\u00farios",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 116,
+        "matched": "Bosque dos Murm\u00farios"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 116,
+          "matched": "Bosque dos Murm\u00farios"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-72.html",
+          "matched": "Bosque dos Murm\u00farios"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Bosque dos Murm\u00farios"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-14.html",
+          "matched": "Bosque dos Murm\u00farios"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-30.xhtml",
+          "matched": "Bosque dos Murm\u00farios"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-46.xhtml",
+          "matched": "Bosque dos Murm\u00farios"
+        }
+      ]
+    },
+    {
+      "id": "Crackclaw_Point",
+      "english": "Crackclaw Point",
+      "label": "Ponta da Garra Rachada",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 616,
+        "matched": "Ponta da Garra Rachada"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 616,
+          "matched": "Ponta da Garra Rachada"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-43.html",
+          "matched": "Ponta da Garra Rachada"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-77.html",
+          "matched": "Ponta da Garra Rachada"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-12.xhtml",
+          "matched": "Ponta da Garra Rachada"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Ponta da Garra Rachada"
+        }
+      ]
+    },
+    {
+      "id": "Trident",
+      "english": "The Trident",
+      "label": "Tridente",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 46,
+        "matched": "Tridente"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 46,
+          "matched": "Tridente"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html",
+          "matched": "Tridente"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Tridente"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-14.html",
+          "matched": "Tridente"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-11.xhtml",
+          "matched": "Tridente"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-11.xhtml",
+          "matched": "Tridente"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Tridente"
+        }
+      ]
+    },
+    {
+      "id": "Red_Fork",
+      "english": "Red Fork",
+      "label": "Ramo Vermelho",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 124,
+        "matched": "Ramo Vermelho"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 124,
+          "matched": "Ramo Vermelho"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-46.html",
+          "matched": "Ramo Vermelho"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Ramo Vermelho"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-14.html",
+          "matched": "Ramo Vermelho"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-36.xhtml",
+          "matched": "Ramo Vermelho"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_065.html",
+          "matched": "Ramo Vermelho"
+        }
+      ]
+    },
+    {
+      "id": "Blue_Fork",
+      "english": "Blue Fork",
+      "label": "Ramo Azul",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 1032,
+        "matched": "Ramo Azul"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 1032,
+          "matched": "Ramo Azul"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-66.html",
+          "matched": "Ramo Azul"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-80.html",
+          "matched": "Ramo Azul"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-48.html",
+          "matched": "Ramo Azul"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-58.xhtml",
+          "matched": "Ramo Azul"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_065.html",
+          "matched": "Ramo Azul"
+        }
+      ]
+    },
+    {
+      "id": "Green_Fork",
+      "english": "Green Fork",
+      "label": "Ramo Verde",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 58,
+        "matched": "Ramo Verde"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 58,
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html",
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-23.html",
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-45.xhtml",
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "Ramo Verde"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Ramo Verde"
+        }
+      ]
+    },
+    {
+      "id": "Tumblestone",
+      "english": "Tumblestone",
+      "label": "Pedra Ca\u00edda",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 804,
+        "matched": "Pedra Ca\u00edda"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 804,
+          "matched": "Pedra Ca\u00edda"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-54.html",
+          "matched": "Pedra Ca\u00edda"
+        }
+      ]
+    },
+    {
+      "id": "Gods_Eye",
+      "english": "Gods Eye",
+      "label": "Olho de Deus",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 91,
+        "matched": "Olho de Deus"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 91,
+          "matched": "Olho de Deus"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-69.html",
+          "matched": "Olho de Deus"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "Olho de Deus"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-25.html",
+          "matched": "Olho de Deus"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-25.xhtml",
+          "matched": "Olho de Deus"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_011.html",
+          "matched": "Olho de Deus"
+        }
+      ]
+    },
+    {
+      "id": "Isle_of_Faces",
+      "english": "Isle of Faces",
+      "label": "Ilha das Caras",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "AGOT-LEYA",
+        "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-5.html",
+        "matched": "Ilha das Caras"
+      },
+      "occurrences": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-5.html",
+          "matched": "Ilha das Caras"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-27.html",
+          "matched": "Ilha das Caras"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_016.html",
+          "matched": "Ilha das Caras"
+        }
+      ]
+    },
+    {
+      "id": "Blackwater_Rush",
+      "english": "Blackwater Rush",
+      "label": "Torrente da \u00c1gua Negra",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 20,
+        "matched": "Torrente da \u00c1gua Negra"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 20,
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html",
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-22.html",
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-31.xhtml",
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Torrente da \u00c1gua Negra"
+        },
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 20,
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html",
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-10.html",
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-13.html",
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-10.xhtml",
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-10.xhtml",
+          "matched": "\u00c1gua Negra"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_018.html",
+          "matched": "\u00c1gua Negra"
+        }
+      ]
+    },
+    {
+      "id": "Gold_Road",
+      "english": "Gold Road",
+      "label": "Estrada do Ouro",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ASOS-LEYA",
+        "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-17.html",
+        "matched": "Estrada do Ouro"
+      },
+      "occurrences": [
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-17.html",
+          "matched": "Estrada do Ouro"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_021.html",
+          "matched": "Estrada do Ouro"
+        }
+      ]
+    },
+    {
+      "id": "Kingsroad",
+      "english": "Kingsroad",
+      "label": "Estrada do Rei",
+      "status": "book-occurrence-needs-entity-review",
+      "selected": {
+        "book": "ACOK-SUMA",
+        "pdfPage": 43,
+        "matched": "Estrada do Rei"
+      },
+      "occurrences": [
+        {
+          "book": "ACOK-SUMA",
+          "pdfPage": 43,
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html",
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "ACOK-LEYA",
+          "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-12.html",
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "ASOS-LEYA",
+          "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-14.html",
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "AFFC-LEYA",
+          "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-30.xhtml",
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "ADWD-LEYA",
+          "epubMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-12.xhtml",
+          "matched": "Estrada do Rei"
+        },
+        {
+          "book": "TWOIAF-LEYA",
+          "epubMember": "index_split_029.html",
+          "matched": "Estrada do Rei"
+        }
+      ]
+    },
+    {
+      "id": "Roseroad",
+      "english": "Rose Road",
+      "label": "Rose Road",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    },
+    {
+      "id": "Ocean_Road",
+      "english": "Ocean Road",
+      "label": "Ocean Road",
+      "status": "unconfirmed-original-retained",
+      "selected": null,
+      "occurrences": []
+    }
+  ]
+}

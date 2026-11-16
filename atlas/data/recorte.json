@@ -1,0 +1,7 @@
+{
+  "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
+  "orientedDimensions": [21654, 16764],
+  "box": [0, 2336, 21654, 16764],
+  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "reason": "Remove only the blank upper scanner margin after 90-degree counterclockwise orientation. A narrow safety allowance preserves the slightly slanted printed frame; title, map and credits remain intact. Coordinates are integer pixels, right/bottom exclusive."
+}

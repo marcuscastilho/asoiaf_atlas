@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "atlas-inventario-v3",
+  "edition": {
+    "id": "AGOT-LEYA",
+    "filename": "01- A Guerra dos Tronos - George R. R. Martin.epub",
+    "publisher": "LeYa / Texto Editores",
+    "editionYear": 2010,
+    "translator": "Jorge Candeias",
+    "isbn": "9788580442786",
+    "copyrightMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-1.html",
+    "sha256": "72be668d777e87d1d2704c0ebf3cc07ea15e6e4c0301af53baa47f6f76e17e68"
+  },
+  "entries": [
+    {
+      "id": "Winterfell",
+      "label": "Winterfell",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-10.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-12.html"
+        }
+      ]
+    },
+    {
+      "id": "Castle_Black",
+      "label": "Castelo Negro",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-24.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-29.html"
+        }
+      ]
+    },
+    {
+      "id": "Dreadfort",
+      "label": "Forte do Pavor",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-58.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-78.html"
+        }
+      ]
+    },
+    {
+      "id": "White_Harbor",
+      "label": "Porto Branco",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        }
+      ]
+    },
+    {
+      "id": "Moat_Cailin",
+      "label": "Fosso Cailin",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-40.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-58.html"
+        }
+      ]
+    },
+    {
+      "id": "Barrowton",
+      "label": "Vila Acidentada",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Twins",
+      "label": "As G\u00eameas",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-62.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-66.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-72.html"
+        }
+      ]
+    },
+    {
+      "id": "Riverrun",
+      "label": "Correrrio",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html"
+        }
+      ]
+    },
+    {
+      "id": "Eyrie",
+      "label": "Ninho da \u00c1guia",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-28.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-30.html"
+        }
+      ]
+    },
+    {
+      "id": "Gulltown",
+      "label": "Vila Gaivota",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Harrenhal",
+      "label": "Harrenhal",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-31.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-34.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-58.html"
+        }
+      ]
+    },
+    {
+      "id": "King%27s_Landing",
+      "label": "Porto Real",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-13.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html"
+        }
+      ]
+    },
+    {
+      "id": "Dragonstone",
+      "label": "Pedra do Drag\u00e3o",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-14.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        }
+      ]
+    },
+    {
+      "id": "Highgarden",
+      "label": "Jardim de Cima",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-29.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-32.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-33.html"
+        }
+      ]
+    },
+    {
+      "id": "Oldtown",
+      "label": "Vilavelha",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-28.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html"
+        }
+      ]
+    },
+    {
+      "id": "Pyke",
+      "label": "Pyke",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-27.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-32.html"
+        }
+      ]
+    },
+    {
+      "id": "Casterly_Rock",
+      "label": "Rochedo Casterly",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-11.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-12.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html"
+        }
+      ]
+    },
+    {
+      "id": "Braavos",
+      "label": "Braavos",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Lorath",
+      "label": "Lorath",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        }
+      ]
+    },
+    {
+      "id": "Norvos",
+      "label": "Norvos",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        }
+      ]
+    },
+    {
+      "id": "Pentos",
+      "label": "Pentos",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-13.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-14.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html"
+        }
+      ]
+    },
+    {
+      "id": "Qohor",
+      "label": "Qohor",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-30.html"
+        }
+      ]
+    },
+    {
+      "id": "Ny_Sar",
+      "label": "Ny Sar",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Ar_Noy",
+      "label": "Ar Noy",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Myr",
+      "label": "Myr",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-13.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-25.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-32.html"
+        }
+      ]
+    },
+    {
+      "id": "Tyrosh",
+      "label": "Tyrosh",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        }
+      ]
+    },
+    {
+      "id": "Lys",
+      "label": "Lys",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        }
+      ]
+    },
+    {
+      "id": "Volantis",
+      "label": "Volantis",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-6.html"
+        }
+      ]
+    },
+    {
+      "id": "Vaes_Dothrak",
+      "label": "Vaes Dothrak",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-14.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-20.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        }
+      ]
+    },
+    {
+      "id": "Meereen",
+      "label": "Meereen",
+      "status": "term-occurrence-only",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-64.html"
+        }
+      ]
+    },
+    {
+      "id": "Yunkai",
+      "label": "Yunkai",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Astapor",
+      "label": "Astapor",
+      "status": "not-established-by-exact-search",
+      "locators": []
+    },
+    {
+      "id": "Ib_Nor",
+      "label": "Ib Nor",
+      "searchedTerm": "Ib Nor",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Port_of_Ibben",
+      "label": "Porto de Ibben",
+      "searchedTerm": "Porto de Ibben",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-21.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-48.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Ib_Sar",
+      "label": "Ib Sar",
+      "searchedTerm": "Ib Sar",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "New_Ibbish",
+      "label": "Nova Ibish",
+      "searchedTerm": "Nova Ibish",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Aresak",
+      "label": "Vaes Aresak (Ibish)",
+      "searchedTerm": "Vaes Aresak",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Morosh",
+      "label": "Morosh",
+      "searchedTerm": "Morosh",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Leisi",
+      "label": "Vaes Leisi",
+      "searchedTerm": "Vaes Leisi",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Graddakh",
+      "label": "Vaes Graddakh (Sarys)",
+      "searchedTerm": "Vaes Graddakh",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Saath",
+      "label": "Saath",
+      "searchedTerm": "Saath",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Athjikhari",
+      "label": "Vaes Athjikhari (Saliosh)",
+      "searchedTerm": "Vaes Athjikhari",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Leqse",
+      "label": "Vaes Leqse (Gornath)",
+      "searchedTerm": "Vaes Leqse",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Lannisport",
+      "label": "Lannisporto",
+      "searchedTerm": "Lannisporto",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-45.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-59.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Ghoyan_Drohe",
+      "label": "Ghoyan Drohe",
+      "searchedTerm": "Ghoyan Drohe",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Khadokh",
+      "label": "Vaes Khadokh (Essaria)",
+      "searchedTerm": "Vaes Khadokh",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vojjor_Samui",
+      "label": "Vojjor Samui (Kasath)",
+      "searchedTerm": "Vojjor Samui",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Khewo",
+      "label": "Vaes Khewo (Sarnath)",
+      "searchedTerm": "Vaes Khewo",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Yalli_Qamayi",
+      "label": "Yalli Qamayi (Sathar)",
+      "searchedTerm": "Yalli Qamayi",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Storm%27s_End",
+      "label": "Ponta Tempestade",
+      "searchedTerm": "Ponta Tempestade",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-15.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-18.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Vaes_Efe",
+      "label": "Vaes Efe",
+      "searchedTerm": "Vaes Efe",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Diaf",
+      "label": "Vaes Diaf (Hazdahn No)",
+      "searchedTerm": "Vaes Diaf",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Jini",
+      "label": "Vaes Jini (Yinishar)",
+      "searchedTerm": "Vaes Jini",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Sorrows",
+      "label": "Os Sofrimentos",
+      "searchedTerm": "Os Sofrimentos",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Mejhah",
+      "label": "Vaes Mejhah",
+      "searchedTerm": "Vaes Mejhah",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Krazaaj_Has",
+      "label": "Krazaaj Has (Ghardaq)",
+      "searchedTerm": "Krazaaj Has",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Adakhakileki",
+      "label": "Adakhakileki",
+      "searchedTerm": "Adakhakileki",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Selhorys",
+      "label": "Selhorys",
+      "searchedTerm": "Selhorys",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Hesh",
+      "label": "Hesh",
+      "searchedTerm": "Hesh",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Kosrak",
+      "label": "Kosrak",
+      "searchedTerm": "Kosrak",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Valysar",
+      "label": "Valysar",
+      "searchedTerm": "Valysar",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Sar_Mell",
+      "label": "Sar Mell",
+      "searchedTerm": "Sar Mell",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Mantarys",
+      "label": "Mantarys",
+      "searchedTerm": "Mantarys",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Volon_Therys",
+      "label": "Volon Therys",
+      "searchedTerm": "Volon Therys",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Sunspear",
+      "label": "Lan\u00e7assolar",
+      "searchedTerm": "Lan\u00e7assolar",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-84.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Tolos",
+      "label": "Tolos",
+      "searchedTerm": "Tolos",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-28.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-43.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-44.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Ghozai",
+      "label": "Ghozai",
+      "searchedTerm": "Ghozai",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Velos",
+      "label": "Velos",
+      "searchedTerm": "Velos",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Oros",
+      "label": "Oros",
+      "searchedTerm": "Oros",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Old_Ghis",
+      "label": "Velha Ghis",
+      "searchedTerm": "Velha Ghis",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Tyria",
+      "label": "Tyria",
+      "searchedTerm": "Tyria",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Kayakayanaya",
+      "label": "Kayakayanaya",
+      "searchedTerm": "Kayakayanaya",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Nefer",
+      "label": "Nefer",
+      "searchedTerm": "Nefer",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "K%27Dath",
+      "label": "K'Dath",
+      "searchedTerm": "K'Dath",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Trader_Town",
+      "label": "Vila do Comerciante",
+      "searchedTerm": "Vila do Comerciante",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Bonetown",
+      "label": "Bonetown",
+      "searchedTerm": "Bonetown",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Tiqui",
+      "label": "Tiqui",
+      "searchedTerm": "Tiqui",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Bayasabhad",
+      "label": "Bayasabhad",
+      "searchedTerm": "Bayasabhad",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-57.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "City_of_the_Winged_Men",
+      "label": "Cidade dos Homens Alados",
+      "searchedTerm": "Cidade dos Homens Alados",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Asabhad",
+      "label": "Asabhad",
+      "searchedTerm": "Asabhad",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Carcosa",
+      "label": "Carcosa",
+      "searchedTerm": "Carcosa",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Jinqi",
+      "label": "Jinqi",
+      "searchedTerm": "Jinqi",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Leng_Yi",
+      "label": "Leng Yi",
+      "searchedTerm": "Leng Yi",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Yin",
+      "label": "Yin",
+      "searchedTerm": "Yin",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Leng_Ma",
+      "label": "Leng Ma",
+      "searchedTerm": "Leng Ma",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Turrani",
+      "label": "Turrani",
+      "searchedTerm": "Turrani",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Port_Moraq",
+      "label": "Port Moraq",
+      "searchedTerm": "Port Moraq",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Stygai",
+      "label": "Stygai",
+      "searchedTerm": "Stygai",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "New_Ghis",
+      "label": "Nova Ghis",
+      "searchedTerm": "Nova Ghis",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Faros",
+      "label": "Faros",
+      "searchedTerm": "Faros",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Lotus_Port",
+      "label": "Porto de L\u00f3tus",
+      "searchedTerm": "Porto de L\u00f3tus",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vahar",
+      "label": "Vahar",
+      "searchedTerm": "Vahar",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Gorosh",
+      "label": "Gorosh",
+      "searchedTerm": "Gorosh",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Zamettar",
+      "label": "Zamettar",
+      "searchedTerm": "Zamettar",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Gogossos",
+      "label": "Gogossos",
+      "searchedTerm": "Gogossos",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Yeen",
+      "label": "Yeen",
+      "searchedTerm": "Yeen",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Zabhad",
+      "label": "Zabhad",
+      "searchedTerm": "Zabhad",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Asshai",
+      "label": "Asshai",
+      "searchedTerm": "Asshai",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-14.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-39.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Vaes_Tolorro",
+      "label": "Vaes Tolorro",
+      "searchedTerm": "Vaes Tolorro",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Shirosi",
+      "label": "Vaes Shirosi",
+      "searchedTerm": "Vaes Shirosi",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Orvik",
+      "label": "Vaes Orvik",
+      "searchedTerm": "Vaes Orvik",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Vaes_Qosar",
+      "label": "Vaes Qosar (Qolahn)",
+      "searchedTerm": "Vaes Qosar",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Qarkash",
+      "label": "Qarkash",
+      "searchedTerm": "Qarkash",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Port_Yhos",
+      "label": "Port Yhos",
+      "searchedTerm": "Port Yhos",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Qarth",
+      "label": "Qarth",
+      "searchedTerm": "Qarth",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-26.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-29.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-75.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Flint%27s_Finger",
+      "label": "Dedos de S\u00edlex",
+      "searchedTerm": "Dedos de S\u00edlex",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Greywater_Watch",
+      "label": "Atalaia da \u00c1gua Cinzenta",
+      "searchedTerm": "Atalaia da \u00c1gua Cinzenta",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-58.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Torrhen%27s_Square",
+      "label": "Pra\u00e7a de Torrhen",
+      "searchedTerm": "Pra\u00e7a de Torrhen",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Sisterton",
+      "label": "Vilirm\u00e3s",
+      "searchedTerm": "Vilirm\u00e3s",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Ramsgate",
+      "label": "Ariete",
+      "searchedTerm": "Ariete",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Craster%27s_Keep",
+      "label": "Fortaleza de Craster",
+      "searchedTerm": "Fortaleza de Craster",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Fist_of_the_First_Men",
+      "label": "Punho dos Primeiros Homens",
+      "searchedTerm": "Punho dos Primeiros Homens",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Shadow_Tower",
+      "label": "Torre Sombria",
+      "searchedTerm": "Torre Sombria",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-24.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-29.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    },
+    {
+      "id": "Queenscrown",
+      "label": "Coroadarrainha",
+      "searchedTerm": "Coroadarrainha",
+      "locators": [],
+      "status": "not-established-by-exact-search"
+    },
+    {
+      "id": "Karhold",
+      "label": "Karhold",
+      "searchedTerm": "Karhold",
+      "locators": [
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-74.html"
+        },
+        {
+          "book": "AGOT-LEYA",
+          "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-78.html"
+        }
+      ],
+      "status": "term-occurrence-only"
+    }
+  ],
+  "previousFrozenAuditSha256": "b8ec6951a172367b00a2f043f08fdeb6e1e31480ed611b52ad8f243ff53e6d21",
+  "policy": "Frozen v2 entries reused without recalculation. Only new named points searched, literal primary name, NFC/casefold/whitespace normalization, whole phrase, maximum three member locators. No book passages stored.",
+  "limitations": [
+    "Ocorrencia de um nome nao certifica entidade, coordenadas, caminho ou cronologia.",
+    "Este registro e exclusivo da edicao LeYa identificada; nao confirma a forma Suma.",
+    "Busca sem resultado nao prova ausencia no livro nem erro de traducao.",
+    "Nenhuma passagem dos livros foi copiada para este arquivo."
+  ]
+}

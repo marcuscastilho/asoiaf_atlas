@@ -1,0 +1,1869 @@
+{
+  "datasetId": "atlas-saga-v6",
+  "totals": {
+    "characters": 27,
+    "controlPoints": 240,
+    "segments": 133,
+    "positions": 157,
+    "bookCharacterRows": 135
+  },
+  "datasetSha256": "5677f7a5abaed8d0ad7bc724512c143d30a7d7489232294bd1dcb8ece33ee75d",
+  "builderSha256": "39eea06259ee4395ce0fe0e507bb8229f24233150f949f716e4b9793ef1dce2a",
+  "geometryReviewStatus": "lead-reviewed-native-corridors-v6",
+  "geometryReview": {
+    "reviewer": "lead",
+    "date": "2026-11-15",
+    "datasetSha256": "5677f7a5abaed8d0ad7bc724512c143d30a7d7489232294bd1dcb8ece33ee75d",
+    "method": "Inspecao dos corredores sobre tiles nativos. Curvas regionais aproximadas, nao levantamento de praias, portos, pontes, vaus ou datas.",
+    "evidenceDirectory": "atlas/test/evidencias",
+    "overlayPrefix": "v6-rotas-revisao-",
+    "overlayFrames": [
+      "norte-mar",
+      "pyke",
+      "febre",
+      "deepwood",
+      "norte-terra",
+      "arya",
+      "rosa",
+      "valiria",
+      "cedros",
+      "tempestade",
+      "mar-oeste",
+      "delta",
+      "degraus",
+      "foz",
+      "yaros",
+      "febre-detalhe"
+    ],
+    "additionalSourceImage": "v6-febre-hidrografia-fonte.png",
+    "limits": "Saidas portuarias nao calibradas ficam sem ligacao automatica ao simbolo urbano. A praia de desembarque da Companhia Dourada permanece uma lacuna. O leilao de Tyrion nao e posicionado dentro de Meereen."
+  },
+  "inputs": {
+    "atlas-inventario-v5.json": "e100756cbc9be874128db96ef6af540e8f6720312ff45df4086774e29e4d8999",
+    "percursos-v6-cenarios.json": "aa9ec0603c499d25c28927d2d6be7fe095d9217a773c7bda064f062a26c688b7",
+    "indice-livros-v4.json": "abc39c6ddc841d73ca43de9ed5f485ab04a4c36b0b21299eb99ec1491633aa1f",
+    "nomes-inventario-v5-evidencias.json": "7cdc011165eef536379ff4ac08e301c25fed79f73011c62d08b8310a8a729d52"
+  },
+  "events": [
+    {
+      "character": "jon",
+      "featureId": "jon-v6-86-0",
+      "chapter": 86,
+      "scenes": [
+        86
+      ],
+      "context": "Jon e Sam presentes na aldeia abandonada. A coluna volta a partir no mesmo capitulo; posicao limitada a cena 86.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "samwell",
+      "featureId": "samwell-v6-86-0",
+      "chapter": 86,
+      "scenes": [
+        86
+      ],
+      "context": "Jon e Sam presentes na aldeia abandonada. A coluna volta a partir no mesmo capitulo; posicao limitada a cena 86.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "jon",
+      "featureId": "jon-v6-96-1",
+      "chapter": 96,
+      "scenes": [
+        86,
+        96
+      ],
+      "context": "Substitui a ligacao antiga desde Castelo Negro, incorporando a escala literaria e o ponto de Brancarbor identificado em v5.",
+      "replacedFeatureIds": [
+        "jon-v4-96-2"
+      ]
+    },
+    {
+      "character": "samwell",
+      "featureId": "samwell-v6-96-1",
+      "chapter": 96,
+      "scenes": [
+        86,
+        96
+      ],
+      "context": "Substitui a ligacao antiga desde Castelo Negro, incorporando a escala literaria e o ponto de Brancarbor identificado em v5.",
+      "replacedFeatureIds": [
+        "samwell-v4-96-0"
+      ]
+    },
+    {
+      "character": "asha",
+      "featureId": "asha-v6-123-0",
+      "chapter": 123,
+      "scenes": [
+        97,
+        119,
+        123
+      ],
+      "context": "97 manda contornar Ponta do Dragao Marinho e desembarcar nas planicies de mare ao norte de Bosque Profundo. 119 ainda anuncia conquista futura; 123 confirma a ocupacao. Linha maritima comeca ao largo de Pyke; porto e praia exatos nao desenhados.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "asha",
+      "featureId": "asha-v6-129-1",
+      "chapter": 129,
+      "scenes": [
+        123,
+        129
+      ],
+      "context": "Asha visita Theon em Winterfell. Caminho pela Mata de Lobos aproximado; nao certifica trilhas intermediarias.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "victarion",
+      "featureId": "victarion-v6-123-0",
+      "chapter": 123,
+      "scenes": [
+        97,
+        119,
+        123
+      ],
+      "context": "Balon descreve navegacao pela Lanca de Sal e Rio Febre, seguida de marcha terrestre de menos de vinte milhas. Ocupacao confirmada em 123, nao na ordem de ataque em 97. Linha comeca ao largo de Pyke; porto exato nao desenhado.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "arya",
+      "featureId": "arya-v6-99-0",
+      "chapter": 99,
+      "scenes": [
+        74,
+        78,
+        82,
+        92,
+        99
+      ],
+      "context": "Yoren abandona a Estrada do Rei; Arya ve o lago a leste antes de ser levada a Harrenhal. Aldeias, prisao e travessias nao receberam coordenadas exatas.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "arya",
+      "featureId": "arya-v6-156-1",
+      "chapter": 156,
+      "scenes": [
+        137,
+        146,
+        156
+      ],
+      "context": "Fuga seguida de deslocamentos por terras devastadas ate a estalagem. Corredor regional, nao reconstrucao das estradas secundarias.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "arya",
+      "featureId": "arya-v6-217-2",
+      "chapter": 217,
+      "scenes": [
+        208,
+        217
+      ],
+      "context": "217 identifica a antiga estalagem de Masha e narra ferimentos, separacao e chegada a Salinas seis dias depois. O intento de ir ao Portao Sangrento em 208 nao e tratado como chegada.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "littlefinger",
+      "featureId": "littlefinger-v6-138-0",
+      "chapter": 138,
+      "scenes": [
+        109,
+        114,
+        138
+      ],
+      "context": "109 anuncia a missao; 114 confirma que partiu para Ponteamarga; 138 o mostra de volta e recompensado. Destino da missao, nao estancia ou chegada datada em Ponteamarga. Corredor liberado retrospectivamente, nao previsao em 109.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "littlefinger",
+      "featureId": "littlefinger-v6-138-1",
+      "chapter": 138,
+      "scenes": [
+        109,
+        114,
+        138
+      ],
+      "context": "Regresso da missao diplomatico-matrimonial. Curvas e travessias da Estrada da Rosa esquematicas; nao declara pontes, vaus ou data de chegada medidos.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "theon",
+      "featureId": "theon-v6-291-0",
+      "chapter": 291,
+      "scenes": [
+        283,
+        291
+      ],
+      "context": "Theon e enviado por Ramsay aos defensores do Fosso. Aproximacao final pelo norte e antiga estrada de troncos. Travessia do Faca Branca e desvios intermediarios esquematicos, sem ponte ou vau certificados.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "theon",
+      "featureId": "theon-v6-303-1",
+      "chapter": 303,
+      "scenes": [
+        291,
+        303
+      ],
+      "context": "Ultima referencia no Fosso seguida da presenca em Vila Acidentada. Corredor setentrional, sem atravessar o pantano ao sul como atalho.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "theon",
+      "featureId": "theon-v6-308-2",
+      "chapter": 308,
+      "scenes": [
+        303,
+        308
+      ],
+      "context": "Deslocamento com a hoste Bolton ate Winterfell; curvas regionais estimadas, nao marcha cronometrada.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "aegon",
+      "featureId": "aegon-v6-332-0",
+      "chapter": 332,
+      "scenes": [
+        295,
+        332
+      ],
+      "context": "A Companhia Dourada zarpa de Volon Therys. Canal proximo da cidade representado aproximadamente, sem ligar por terra o simbolo urbano ao rio. Passa ao largo de Volantis, sem escala portuaria afirmada. Frota dispersa; ponto final e aproximacao maritima, nao praia exata.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "aegon",
+      "featureId": "aegon-v6-332-1",
+      "chapter": 332,
+      "scenes": [
+        332
+      ],
+      "context": "O proprio Jovem Griff chega montado ao Poleiro quatro dias depois da tomada, ainda na cena 332. Ha lacuna explicita entre a aproximacao pelo mar e este corredor terrestre: praia nao localizada.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "tyrion",
+      "featureId": "tyrion-v6-311-0",
+      "chapter": 311,
+      "scenes": [
+        304,
+        311
+      ],
+      "context": "304 ja o situa sete dias depois da partida; 311 informa calmaria no Golfo da Magoa. Ponto final representa a regiao maritima, nao rastreamento continuo ou posicao exata da embarcacao.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "tyrion",
+      "featureId": "tyrion-v6-318-1",
+      "chapter": 318,
+      "scenes": [
+        311,
+        318
+      ],
+      "context": "A aproximacao termina nas aguas da foz; o leilao fica FORA das muralhas. Naufragio, captura, transferencia e desembarque nao foram localizados exatamente; nao ha pino de Tyrion em Meereen.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "victarion",
+      "featureId": "victarion-v6-334-1",
+      "chapter": 334,
+      "scenes": [
+        327,
+        334
+      ],
+      "context": "Seus navios passam por Volantis e contornam Valiria pelo sul; Lys pertence a destacamento separado. Escolhe explicitamente o estreito entre Yaros e o continente e depois segue para mar aberto. Ainda sem chegada a Meereen.",
+      "replacedFeatureIds": []
+    },
+    {
+      "character": "jon",
+      "featureId": "jon-v6-pos-86",
+      "chapter": 86,
+      "scenes": [
+        86
+      ],
+      "context": "A coluna parte de Brancarbor no mesmo capitulo; nenhum pino prolongado ate 95."
+    },
+    {
+      "character": "samwell",
+      "featureId": "samwell-v6-pos-86",
+      "chapter": 86,
+      "scenes": [
+        86
+      ],
+      "context": "A coluna parte de Brancarbor no mesmo capitulo; nenhum pino prolongado ate 95."
+    },
+    {
+      "character": "asha",
+      "featureId": "asha-v6-pos-123",
+      "chapter": 123,
+      "scenes": [
+        123
+      ],
+      "context": "Referencia indireta na cena de Theon em 123, nao o plano de 97; nenhum pino presumido em dias de caminho."
+    },
+    {
+      "character": "arianne",
+      "featureId": "arianne-v6-pos-238",
+      "chapter": 238,
+      "scenes": [
+        238
+      ],
+      "context": "Cena com Arys em Lancassolar; Pedramarela nao foi localizada."
+    },
+    {
+      "character": "aegon",
+      "featureId": "aegon-v6-pos-332",
+      "chapter": 332,
+      "scenes": [
+        332
+      ],
+      "context": "Jovem Griff chega pessoalmente, montado, quatro dias depois da tomada."
+    }
+  ],
+  "additionalSceneChecks": [
+    {
+      "character": "brienne",
+      "chapters": [
+        262
+      ],
+      "finding": "Cadaveres de saqueadores de Salinas na estrada nao provam que Brienne visitou a vila. Mantido corredor a noroeste da Ilha Quieta, sem acrescentar escala inventada em Salinas."
+    },
+    {
+      "character": "arianne",
+      "chapters": [
+        246,
+        265
+      ],
+      "finding": "Pedramarela e captura no Sangueverde; subir o Vaith e apenas plano frustrado. Retorno a Lancassolar em longa cavalgada seca, nao viagem fluvial presumida."
+    },
+    {
+      "character": "tyrion",
+      "chapters": [
+        337
+      ],
+      "finding": "Ultimo capitulo publicado de Tyrion ainda o situa no acampamento dos Segundos Filhos, nao dentro de Meereen."
+    }
+  ],
+  "bookCharacterCoverage": [
+    {
+      "character": "jon",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": []
+    },
+    {
+      "character": "jon",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        79,
+        86,
+        96,
+        107,
+        116
+      ]
+    },
+    {
+      "character": "jon",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        184,
+        191
+      ]
+    },
+    {
+      "character": "jon",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "jon",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        274,
+        340
+      ]
+    },
+    {
+      "character": "tyrion",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 10,
+      "positionReferencesInBook": 8,
+      "reviewedChapters": []
+    },
+    {
+      "character": "tyrion",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        76
+      ]
+    },
+    {
+      "character": "tyrion",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        220
+      ]
+    },
+    {
+      "character": "tyrion",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "tyrion",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 8,
+      "positionReferencesInBook": 6,
+      "reviewedChapters": [
+        272,
+        276,
+        279,
+        285,
+        289,
+        293,
+        298,
+        304,
+        311,
+        318,
+        337
+      ]
+    },
+    {
+      "character": "robb",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 4,
+      "positionReferencesInBook": 5,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robb",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        80,
+        128
+      ]
+    },
+    {
+      "character": "robb",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        145,
+        157,
+        188,
+        192,
+        194
+      ]
+    },
+    {
+      "character": "robb",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robb",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "catelyn",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 10,
+      "positionReferencesInBook": 7,
+      "reviewedChapters": []
+    },
+    {
+      "character": "catelyn",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        80,
+        95,
+        104,
+        106,
+        112
+      ]
+    },
+    {
+      "character": "catelyn",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        188,
+        192,
+        194
+      ]
+    },
+    {
+      "character": "catelyn",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "catelyn",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "eddard",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": []
+    },
+    {
+      "character": "eddard",
+      "bookId": "acok",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "eddard",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "eddard",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "eddard",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "arya",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": []
+    },
+    {
+      "character": "arya",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        74,
+        78,
+        82,
+        92,
+        99,
+        137
+      ]
+    },
+    {
+      "character": "arya",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 4,
+      "positionReferencesInBook": 6,
+      "reviewedChapters": [
+        146,
+        156,
+        165,
+        172,
+        190,
+        193,
+        208,
+        217
+      ]
+    },
+    {
+      "character": "arya",
+      "bookId": "affc",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        231,
+        259
+      ]
+    },
+    {
+      "character": "arya",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        316,
+        335
+      ]
+    },
+    {
+      "character": "sansa",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": []
+    },
+    {
+      "character": "sansa",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        75
+      ]
+    },
+    {
+      "character": "sansa",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        204,
+        223
+      ]
+    },
+    {
+      "character": "sansa",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        235,
+        266
+      ]
+    },
+    {
+      "character": "sansa",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "bran",
+      "bookId": "agot",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": []
+    },
+    {
+      "character": "bran",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        77,
+        142
+      ]
+    },
+    {
+      "character": "bran",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        183
+      ]
+    },
+    {
+      "character": "bran",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "bran",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "theon",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 4,
+      "positionReferencesInBook": 5,
+      "reviewedChapters": []
+    },
+    {
+      "character": "theon",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        84,
+        97,
+        119,
+        139
+      ]
+    },
+    {
+      "character": "theon",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "theon",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "theon",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        283,
+        291,
+        303,
+        308,
+        322
+      ]
+    },
+    {
+      "character": "daenerys",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": []
+    },
+    {
+      "character": "daenerys",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        85,
+        100
+      ]
+    },
+    {
+      "character": "daenerys",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        151,
+        166,
+        170,
+        185,
+        200,
+        214
+      ]
+    },
+    {
+      "character": "daenerys",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "daenerys",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        273,
+        323
+      ]
+    },
+    {
+      "character": "jaime",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 8,
+      "positionReferencesInBook": 5,
+      "reviewedChapters": []
+    },
+    {
+      "character": "jaime",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        118
+      ]
+    },
+    {
+      "character": "jaime",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        144,
+        154,
+        164,
+        174,
+        180,
+        187,
+        205
+      ]
+    },
+    {
+      "character": "jaime",
+      "bookId": "affc",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": [
+        233,
+        241,
+        252,
+        258,
+        263
+      ]
+    },
+    {
+      "character": "jaime",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        319
+      ]
+    },
+    {
+      "character": "cersei",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 4,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": []
+    },
+    {
+      "character": "cersei",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "cersei",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "cersei",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        228
+      ]
+    },
+    {
+      "character": "cersei",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        325,
+        336
+      ]
+    },
+    {
+      "character": "rickon",
+      "bookId": "agot",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        8
+      ]
+    },
+    {
+      "character": "rickon",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        108,
+        142
+      ]
+    },
+    {
+      "character": "rickon",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "rickon",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "rickon",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "aegon",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "aegon",
+      "bookId": "acok",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "aegon",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "aegon",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "aegon",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 6,
+      "positionReferencesInBook": 6,
+      "reviewedChapters": [
+        279,
+        285,
+        289,
+        293,
+        295,
+        332
+      ]
+    },
+    {
+      "character": "tywin",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "tywin",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        99,
+        111,
+        135
+      ]
+    },
+    {
+      "character": "tywin",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        220
+      ]
+    },
+    {
+      "character": "tywin",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "tywin",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "joffrey",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        4,
+        12,
+        15,
+        20
+      ]
+    },
+    {
+      "character": "joffrey",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "joffrey",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        203
+      ]
+    },
+    {
+      "character": "joffrey",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "joffrey",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "myrcella",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        4,
+        12,
+        15,
+        20
+      ]
+    },
+    {
+      "character": "myrcella",
+      "bookId": "acok",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        114
+      ]
+    },
+    {
+      "character": "myrcella",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "myrcella",
+      "bookId": "affc",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        227,
+        238,
+        246,
+        265
+      ]
+    },
+    {
+      "character": "myrcella",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robert",
+      "bookId": "agot",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": [
+        4,
+        12,
+        15,
+        20,
+        43,
+        47,
+        49
+      ]
+    },
+    {
+      "character": "robert",
+      "bookId": "acok",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robert",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robert",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "robert",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "stannis",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "stannis",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        73,
+        104,
+        115,
+        131
+      ]
+    },
+    {
+      "character": "stannis",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        148,
+        153,
+        216,
+        219
+      ]
+    },
+    {
+      "character": "stannis",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "stannis",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        288,
+        297,
+        313
+      ]
+    },
+    {
+      "character": "renly",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "renly",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        95,
+        104,
+        106
+      ]
+    },
+    {
+      "character": "renly",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "renly",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "renly",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "brienne",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "brienne",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": [
+        95,
+        104,
+        106,
+        112
+      ]
+    },
+    {
+      "character": "brienne",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        144,
+        154,
+        164,
+        174,
+        187,
+        205
+      ]
+    },
+    {
+      "character": "brienne",
+      "bookId": "affc",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 4,
+      "positionReferencesInBook": 6,
+      "reviewedChapters": [
+        229,
+        234,
+        239,
+        245,
+        250,
+        256,
+        262,
+        267
+      ]
+    },
+    {
+      "character": "brienne",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "davos",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "davos",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        83,
+        115,
+        131
+      ]
+    },
+    {
+      "character": "davos",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        148,
+        153
+      ]
+    },
+    {
+      "character": "davos",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "davos",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        280,
+        286,
+        300
+      ]
+    },
+    {
+      "character": "samwell",
+      "bookId": "agot",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        26
+      ]
+    },
+    {
+      "character": "samwell",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 4,
+      "reviewedChapters": [
+        79,
+        86,
+        96,
+        107
+      ]
+    },
+    {
+      "character": "samwell",
+      "bookId": "asos",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": [
+        143,
+        161,
+        176,
+        218
+      ]
+    },
+    {
+      "character": "samwell",
+      "bookId": "affc",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 3,
+      "positionReferencesInBook": 3,
+      "reviewedChapters": [
+        230,
+        240,
+        251,
+        260,
+        270
+      ]
+    },
+    {
+      "character": "samwell",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": []
+    },
+    {
+      "character": "asha",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "asha",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        97,
+        119,
+        123,
+        129
+      ]
+    },
+    {
+      "character": "asha",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "asha",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "asha",
+      "bookId": "adwd",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        297,
+        313
+      ]
+    },
+    {
+      "character": "victarion",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "victarion",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        97,
+        119,
+        123
+      ]
+    },
+    {
+      "character": "victarion",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "victarion",
+      "bookId": "affc",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "victarion",
+      "bookId": "adwd",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 1,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": [
+        327,
+        334
+      ]
+    },
+    {
+      "character": "arianne",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "arianne",
+      "bookId": "acok",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "arianne",
+      "bookId": "asos",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "arianne",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        238,
+        246,
+        265
+      ]
+    },
+    {
+      "character": "arianne",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "littlefinger",
+      "bookId": "agot",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    },
+    {
+      "character": "littlefinger",
+      "bookId": "acok",
+      "status": "partial-route",
+      "notice": "Revisao cartografica parcial deste livro; ha lacunas e curvas aproximadas.",
+      "segmentsStartingInBook": 2,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        98,
+        109,
+        114,
+        138
+      ]
+    },
+    {
+      "character": "littlefinger",
+      "bookId": "asos",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 2,
+      "reviewedChapters": [
+        223
+      ]
+    },
+    {
+      "character": "littlefinger",
+      "bookId": "affc",
+      "status": "positions-only",
+      "notice": "Apenas referencias de localidade disponiveis; percurso deste livro incompleto.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 1,
+      "reviewedChapters": [
+        266
+      ]
+    },
+    {
+      "character": "littlefinger",
+      "bookId": "adwd",
+      "status": "no-reviewed-records",
+      "notice": "Sem registros cartograficos revisados neste livro; isso nao significa ausencia de deslocamento.",
+      "segmentsStartingInBook": 0,
+      "positionReferencesInBook": 0,
+      "reviewedChapters": []
+    }
+  ],
+  "knownNarrativeGaps": {
+    "jon": "Passo de Qhorin, acampamentos selvagens e escalada sem pontos seguros.",
+    "tyrion": "Temporais, abordagem e acampamentos de escravos sem coordenadas exatas; nao entra em Meereen nos cinco livros.",
+    "robb": "Campanha ocidental, Oxcross e desvio por trilha de cabras sem calibracao suficiente.",
+    "catelyn": "Desvios intermediarios e itinerario da Senhora Coracao de Pedra nao reconstruidos.",
+    "eddard": "Itinerario parcial; deslocamentos internos de Porto Real nao modelados.",
+    "arya": "Aldeias, Alto Coracao e esconderijos sem centro seguro; intento de ir ao Portao Sangrento nao prova chegada.",
+    "sansa": "Desembarque nos Dedos e descida ao Portao da Lua sem calibracao pontual.",
+    "bran": "Torres, Forte Noite e caverna alem da Muralha sem calibracao suficiente.",
+    "theon": "Costa Pedregosa, fuga de Winterfell e aldeia dos pescadores sem caminho exato.",
+    "daenerys": "Acampamentos e voo final sem destino cartografico seguro; nao interpolados.",
+    "jaime": "Darry, Corvarbor e arvoredos intermediarios sem pontos calibrados; cerco nao significa presenca dentro do castelo.",
+    "cersei": "Localidades e corredores parciais; movimentos intraurbanos nao modelados.",
+    "rickon": "Refugios apos Winterfell nao posicionados por inferencia.",
+    "aegon": "Frota dispersa e praia de desembarque nao localizadas; nenhuma conquista futura presumida.",
+    "tywin": "Marchas, vaus do Tridente e encontro de exercitos nao completamente calibrados.",
+    "joffrey": "Referencias de localidade, nao rastreamento urbano continuo.",
+    "myrcella": "Pedramarela e intercepcao no Sangueverde sem ponto seguro; plano de subir o Vaith nao executado.",
+    "robert": "Cacada e deslocamentos internos sem ponto seguro; limite final preservado.",
+    "stannis": "Marcha apos Bosque Profundo e aldeia sem localizacao segura.",
+    "renly": "Viagem anterior a Ponteamarga e deslocamentos intermediarios nao reconstruidos.",
+    "brienne": "Sussurros, esconderijo da Irmandade e trajetos secundarios sem calibracao suficiente.",
+    "davos": "Separacao da frota, tormentas e etapas apos Porto Branco nao reconstruidas.",
+    "samwell": "Retirada entre acampamentos e Forte Noite nao completamente calibrada.",
+    "asha": "Dez Torres, assembleia e marcha apos Bosque Profundo sem pontos seguros.",
+    "victarion": "Assembleia, Escudos e local preciso das abordagens nao calibrados; nenhuma chegada a Meereen afirmada.",
+    "arianne": "Pedramarela nao calibrada; captura impede a viagem planejada rio acima.",
+    "littlefinger": "Dedos e transicao ao Vale sem corredor seguro; missao em Ponteamarga mostrada retrospectivamente."
+  },
+  "policy": "Counts describe records, not source-completeness percentages. Reviewed chapters include frozen v4 scene evidence plus selected v6 contexts, not a new complete reread. Legacy omittedSourceRecordIndices account for portal replay only, not uncovered narrative events.",
+  "chronologyCorrection": {
+    "character": "littlefinger",
+    "oldStart": 135,
+    "newStart": 138
+  }
+}

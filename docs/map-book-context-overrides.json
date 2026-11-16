@@ -1,0 +1,24 @@
+{
+  "policy": "Manual contextual evidence, not automatic word matching. These locators were read directly in the identified local books. Suma evidence is used where established; otherwise the identified LeYa reference is retained without Suma certification.",
+  "decisions": [
+    {"id":"Tumblestone","label":"Pedregoso","selected":{"book":"ACOK-SUMA","pdfPage":124,"matched":"Pedregoso"}},
+    {"id":"Saltspear","label":"Lan\u00e7a de Sal","selected":{"book":"ACOK-SUMA","pdfPage":418,"matched":"Lan\u00e7a de Sal"}},
+    {"id":"Paps","label":"Bossas","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_070.html","matched":"Bossas"}},
+    {"id":"Rills","label":"Regatos","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_055.html","matched":"Regatos"}},
+    {"id":"Fingers","label":"Dedos","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_016.html","matched":"Dedos"}},
+    {"id":"Axe","label":"Machado","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_016.html","matched":"Machado"}},
+    {"id":"Andalos","label":"\u00c2ndalos","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_016.html","matched":"\u00c2ndalos"}},
+    {"id":"Rhoyne","label":"Roine","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_013.html","matched":"Roine"}},
+    {"id":"Rainwood","label":"Mata de Chuva","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_095.html","matched":"mata de chuva"}},
+    {"id":"Cape_Kraken","label":"Cabo da Lula-Gigante","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_055.html","matched":"Cabo da Lula-Gigante"}},
+    {"id":"Blacktyde","label":"Pretamare","selected":{"book":"ACOK-SUMA","pdfPage":413,"matched":"Pretamare"}},
+    {"id":"Saltcliffe","label":"Sal\u00e9sia","selected":{"book":"ACOK-SUMA","pdfPage":413,"matched":"Sal\u00e9sia"}},
+    {"id":"Roseroad","label":"Estrada das Rosas","selected":{"book":"ACOK-SUMA","pdfPage":165,"matched":"estrada das rosas"}},
+    {"id":"Littlesister","label":"Pequenairm\u00e3","selected":{"book":"ADWD-LEYA","epubMember":"OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml","matched":"Pequenairm\u00e3"}},
+    {"id":"Longsister","label":"Longairm\u00e3","selected":{"book":"ADWD-LEYA","epubMember":"OEBPS/Text/9788580445763_a_danca_dos_dragoes-14.xhtml","matched":"Longairm\u00e3"}},
+    {"id":"Broken_Branch","label":"Ramo Partido","selected":{"book":"ADWD-LEYA","epubMember":"OEBPS/Text/9788580445763_a_danca_dos_dragoes-34.xhtml","matched":"Ramo Partido"}},
+    {"id":"Isle_of_Cedars","label":"Ilha de Cedros","selected":{"book":"ADWD-LEYA","epubMember":"OEBPS/Text/9788580445763_a_danca_dos_dragoes-21.xhtml","matched":"Ilha de Cedros"}},
+    {"id":"Khyzai_Pass","label":"Passo Khyzai","selected":{"book":"ADWD-LEYA","epubMember":"OEBPS/Text/9788580445763_a_danca_dos_dragoes-21.xhtml","matched":"Passo Khyzai"}},
+    {"id":"Ocean_Road","label":"Estrada do Mar","selected":{"book":"TWOIAF-LEYA","epubMember":"index_split_021.html","matched":"estrada do mar"}}
+  ]
+}

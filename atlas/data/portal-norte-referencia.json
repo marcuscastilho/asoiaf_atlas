@@ -1,0 +1,466 @@
+{
+  "sourceFiles": {
+    "assets/js/data.js": "4f2fca829ed90b2526d87ef2a5eb02664bd195e9897b3718eddb8fe3cef41079",
+    "assets/js/i18n-pt.js": "2a9c084ad7f651174e8f6585d9ed91a59a29360fdb015831d1bf30a561dd9fe3"
+  },
+  "locations": {
+    "Winterfell": {
+      "lat": 66.24916310923315,
+      "lng": -123.3251953125,
+      "label": "Winterfell",
+      "english": "Winterfell"
+    },
+    "Castle_Black": {
+      "lat": 76.26869465080624,
+      "lng": -106.69921875,
+      "title": "11: Castle Black",
+      "label": "Castelo Negro",
+      "english": "Castle Black"
+    },
+    "Dreadfort": {
+      "lat": 67.42436394630637,
+      "lng": -102.5830078125,
+      "label": "Forte do Pavor",
+      "english": "Dreadfort"
+    },
+    "White_Harbor": {
+      "lat": 56.68037378950136,
+      "lng": -114.0966796875,
+      "label": "Porto Branco",
+      "english": "White Harbor"
+    },
+    "Moat_Cailin": {
+      "lat": 53.87844040332883,
+      "lng": -122.3583984375,
+      "label": "Fosso Cailin",
+      "english": "Moat Cailin"
+    },
+    "Barrowton": {
+      "lat": 57.58655886615978,
+      "lng": -136.5966796875,
+      "label": "Vila Acidentada",
+      "english": "Barrowton"
+    }
+  },
+  "chapters": [
+    {
+      "index": 0,
+      "title": "A Guerra dos Tronos-0: Prólogo",
+      "originalTitle": "AGOT-0: Prologue"
+    },
+    {
+      "index": 1,
+      "title": "A Guerra dos Tronos-1: Bran I",
+      "originalTitle": "AGOT-1: Bran I"
+    },
+    {
+      "index": 2,
+      "title": "A Guerra dos Tronos-2: Catelyn I",
+      "originalTitle": "AGOT-2: Catelyn I"
+    },
+    {
+      "index": 3,
+      "title": "A Guerra dos Tronos-3: Daenerys I",
+      "originalTitle": "AGOT-3: Daenerys I"
+    },
+    {
+      "index": 4,
+      "title": "A Guerra dos Tronos-4: Eddard I",
+      "originalTitle": "AGOT-4: Eddard I"
+    },
+    {
+      "index": 5,
+      "title": "A Guerra dos Tronos-5: Jon I",
+      "originalTitle": "AGOT-5: Jon I"
+    },
+    {
+      "index": 6,
+      "title": "A Guerra dos Tronos-6: Catelyn II",
+      "originalTitle": "AGOT-6: Catelyn II"
+    },
+    {
+      "index": 7,
+      "title": "A Guerra dos Tronos-7: Arya I",
+      "originalTitle": "AGOT-7: Arya I"
+    },
+    {
+      "index": 8,
+      "title": "A Guerra dos Tronos-8: Bran II",
+      "originalTitle": "AGOT-8: Bran II"
+    },
+    {
+      "index": 9,
+      "title": "A Guerra dos Tronos-9: Tyrion I",
+      "originalTitle": "AGOT-9: Tyrion I"
+    },
+    {
+      "index": 10,
+      "title": "A Guerra dos Tronos-10: Jon II",
+      "originalTitle": "AGOT-10: Jon II"
+    },
+    {
+      "index": 11,
+      "title": "A Guerra dos Tronos-11: Daenerys II",
+      "originalTitle": "AGOT-11: Daenerys II"
+    },
+    {
+      "index": 12,
+      "title": "A Guerra dos Tronos-12: Eddard II",
+      "originalTitle": "AGOT-12: Eddard II"
+    },
+    {
+      "index": 13,
+      "title": "A Guerra dos Tronos-13: Tyrion II",
+      "originalTitle": "AGOT-13: Tyrion II"
+    },
+    {
+      "index": 14,
+      "title": "A Guerra dos Tronos-14: Catelyn III",
+      "originalTitle": "AGOT-14: Catelyn III"
+    },
+    {
+      "index": 15,
+      "title": "A Guerra dos Tronos-15: Sansa I",
+      "originalTitle": "AGOT-15: Sansa I"
+    },
+    {
+      "index": 16,
+      "title": "A Guerra dos Tronos-16: Eddard III",
+      "originalTitle": "AGOT-16: Eddard III"
+    },
+    {
+      "index": 17,
+      "title": "A Guerra dos Tronos-17: Bran III",
+      "originalTitle": "AGOT-17: Bran III"
+    },
+    {
+      "index": 18,
+      "title": "A Guerra dos Tronos-18: Catelyn IV",
+      "originalTitle": "AGOT-18: Catelyn IV"
+    },
+    {
+      "index": 19,
+      "title": "A Guerra dos Tronos-19: Jon III",
+      "originalTitle": "AGOT-19: Jon III"
+    },
+    {
+      "index": 20,
+      "title": "A Guerra dos Tronos-20: Eddard IV",
+      "originalTitle": "AGOT-20: Eddard IV"
+    },
+    {
+      "index": 21,
+      "title": "A Guerra dos Tronos-21: Tyrion III",
+      "originalTitle": "AGOT-21: Tyrion III"
+    },
+    {
+      "index": 22,
+      "title": "A Guerra dos Tronos-22: Arya II",
+      "originalTitle": "AGOT-22: Arya II"
+    },
+    {
+      "index": 23,
+      "title": "A Guerra dos Tronos-23: Daenerys III",
+      "originalTitle": "AGOT-23: Daenerys III"
+    },
+    {
+      "index": 24,
+      "title": "A Guerra dos Tronos-24: Bran IV",
+      "originalTitle": "AGOT-24: Bran IV"
+    },
+    {
+      "index": 25,
+      "title": "A Guerra dos Tronos-25: Eddard V",
+      "originalTitle": "AGOT-25: Eddard V"
+    },
+    {
+      "index": 26,
+      "title": "A Guerra dos Tronos-26: Jon IV",
+      "originalTitle": "AGOT-26: Jon IV"
+    },
+    {
+      "index": 27,
+      "title": "A Guerra dos Tronos-27: Eddard VI",
+      "originalTitle": "AGOT-27: Eddard VI"
+    },
+    {
+      "index": 28,
+      "title": "A Guerra dos Tronos-28: Catelyn V",
+      "originalTitle": "AGOT-28: Catelyn V"
+    },
+    {
+      "index": 29,
+      "title": "A Guerra dos Tronos-29: Sansa II",
+      "originalTitle": "AGOT-29: Sansa II"
+    },
+    {
+      "index": 30,
+      "title": "A Guerra dos Tronos-30: Eddard VII",
+      "originalTitle": "AGOT-30: Eddard VII"
+    },
+    {
+      "index": 31,
+      "title": "A Guerra dos Tronos-31: Tyrion IV",
+      "originalTitle": "AGOT-31: Tyrion IV"
+    },
+    {
+      "index": 32,
+      "title": "A Guerra dos Tronos-32: Arya III",
+      "originalTitle": "AGOT-32: Arya III"
+    },
+    {
+      "index": 33,
+      "title": "A Guerra dos Tronos-33: Eddard VIII",
+      "originalTitle": "AGOT-33: Eddard VIII"
+    },
+    {
+      "index": 34,
+      "title": "A Guerra dos Tronos-34: Catelyn VI",
+      "originalTitle": "AGOT-34: Catelyn VI"
+    },
+    {
+      "index": 35,
+      "title": "A Guerra dos Tronos-35: Eddard IX",
+      "originalTitle": "AGOT-35: Eddard IX"
+    },
+    {
+      "index": 36,
+      "title": "A Guerra dos Tronos-36: Daenerys IV",
+      "originalTitle": "AGOT-36: Daenerys IV"
+    },
+    {
+      "index": 37,
+      "title": "A Guerra dos Tronos-37: Bran V",
+      "originalTitle": "AGOT-37: Bran V"
+    },
+    {
+      "index": 38,
+      "title": "A Guerra dos Tronos-38: Tyrion V",
+      "originalTitle": "AGOT-38: Tyrion V"
+    },
+    {
+      "index": 39,
+      "title": "A Guerra dos Tronos-39: Eddard X",
+      "originalTitle": "AGOT-39: Eddard X"
+    },
+    {
+      "index": 40,
+      "title": "A Guerra dos Tronos-40: Catelyn VII",
+      "originalTitle": "AGOT-40: Catelyn VII"
+    },
+    {
+      "index": 41,
+      "title": "A Guerra dos Tronos-41: Jon V",
+      "originalTitle": "AGOT-41: Jon V"
+    },
+    {
+      "index": 42,
+      "title": "A Guerra dos Tronos-42: Tyrion VI",
+      "originalTitle": "AGOT-42: Tyrion VI"
+    },
+    {
+      "index": 43,
+      "title": "A Guerra dos Tronos-43: Eddard XI",
+      "originalTitle": "AGOT-43: Eddard XI"
+    },
+    {
+      "index": 44,
+      "title": "A Guerra dos Tronos-44: Sansa III",
+      "originalTitle": "AGOT-44: Sansa III"
+    },
+    {
+      "index": 45,
+      "title": "A Guerra dos Tronos-45: Eddard XII",
+      "originalTitle": "AGOT-45: Eddard XII"
+    },
+    {
+      "index": 46,
+      "title": "A Guerra dos Tronos-46: Daenerys V",
+      "originalTitle": "AGOT-46: Daenerys V"
+    },
+    {
+      "index": 47,
+      "title": "A Guerra dos Tronos-47: Eddard XIII",
+      "originalTitle": "AGOT-47: Eddard XIII"
+    },
+    {
+      "index": 48,
+      "title": "A Guerra dos Tronos-48: Jon VI",
+      "originalTitle": "AGOT-48: Jon VI"
+    },
+    {
+      "index": 49,
+      "title": "A Guerra dos Tronos-49: Eddard XIV",
+      "originalTitle": "AGOT-49: Eddard XIV"
+    },
+    {
+      "index": 50,
+      "title": "A Guerra dos Tronos-50: Arya IV",
+      "originalTitle": "AGOT-50: Arya IV"
+    },
+    {
+      "index": 51,
+      "title": "A Guerra dos Tronos-51: Sansa IV",
+      "originalTitle": "AGOT-51: Sansa IV"
+    },
+    {
+      "index": 52,
+      "title": "A Guerra dos Tronos-52: Jon VII",
+      "originalTitle": "AGOT-52: Jon VII"
+    },
+    {
+      "index": 53,
+      "title": "A Guerra dos Tronos-53: Bran VI",
+      "originalTitle": "AGOT-53: Bran VI"
+    },
+    {
+      "index": 54,
+      "title": "A Guerra dos Tronos-54: Daenerys VI",
+      "originalTitle": "AGOT-54: Daenerys VI"
+    },
+    {
+      "index": 55,
+      "title": "A Guerra dos Tronos-55: Catelyn VIII",
+      "originalTitle": "AGOT-55: Catelyn VIII"
+    },
+    {
+      "index": 56,
+      "title": "A Guerra dos Tronos-56: Tyrion VII",
+      "originalTitle": "AGOT-56: Tyrion VII"
+    },
+    {
+      "index": 57,
+      "title": "A Guerra dos Tronos-57: Sansa V",
+      "originalTitle": "AGOT-57: Sansa V"
+    },
+    {
+      "index": 58,
+      "title": "A Guerra dos Tronos-58: Eddard XV",
+      "originalTitle": "AGOT-58: Eddard XV"
+    },
+    {
+      "index": 59,
+      "title": "A Guerra dos Tronos-59: Catelyn IX",
+      "originalTitle": "AGOT-59: Catelyn IX"
+    },
+    {
+      "index": 60,
+      "title": "A Guerra dos Tronos-60: Jon VIII",
+      "originalTitle": "AGOT-60: Jon VIII"
+    },
+    {
+      "index": 61,
+      "title": "A Guerra dos Tronos-61: Daenerys VII",
+      "originalTitle": "AGOT-61: Daenerys VII"
+    },
+    {
+      "index": 62,
+      "title": "A Guerra dos Tronos-62: Tyrion VIII",
+      "originalTitle": "AGOT-62: Tyrion VIII"
+    },
+    {
+      "index": 63,
+      "title": "A Guerra dos Tronos-63: Catelyn X",
+      "originalTitle": "AGOT-63: Catelyn X"
+    },
+    {
+      "index": 64,
+      "title": "A Guerra dos Tronos-64: Daenerys VIII",
+      "originalTitle": "AGOT-64: Daenerys VIII"
+    },
+    {
+      "index": 65,
+      "title": "A Guerra dos Tronos-65: Arya V",
+      "originalTitle": "AGOT-65: Arya V"
+    },
+    {
+      "index": 66,
+      "title": "A Guerra dos Tronos-66: Bran VII",
+      "originalTitle": "AGOT-66: Bran VII"
+    },
+    {
+      "index": 67,
+      "title": "A Guerra dos Tronos-67: Sansa VI",
+      "originalTitle": "AGOT-67: Sansa VI"
+    },
+    {
+      "index": 68,
+      "title": "A Guerra dos Tronos-68: Daenerys IX",
+      "originalTitle": "AGOT-68: Daenerys IX"
+    },
+    {
+      "index": 69,
+      "title": "A Guerra dos Tronos-69: Tyrion IX",
+      "originalTitle": "AGOT-69: Tyrion IX"
+    },
+    {
+      "index": 70,
+      "title": "A Guerra dos Tronos-70: Jon IX",
+      "originalTitle": "AGOT-70: Jon IX"
+    },
+    {
+      "index": 71,
+      "title": "A Guerra dos Tronos-71: Catelyn XI",
+      "originalTitle": "AGOT-71: Catelyn XI"
+    },
+    {
+      "index": 72,
+      "title": "A Guerra dos Tronos-72: Daenerys X",
+      "originalTitle": "AGOT-72: Daenerys X"
+    }
+  ],
+  "jonRecords": [
+    {
+      "index": 0,
+      "record": {
+        "icon": "|J|808080",
+        "chapters": [
+          0,
+          0
+        ],
+        "key": "Winterfell"
+      }
+    },
+    {
+      "index": 3,
+      "record": {
+        "icon": "|J|808080",
+        "chapters": [
+          2,
+          18
+        ],
+        "key": "Winterfell"
+      }
+    },
+    {
+      "index": 4,
+      "record": {
+        "line": "#808080",
+        "chapters": 19,
+        "path": [
+          "Winterfell",
+          [
+            68.7204,
+            -121.1132
+          ],
+          [
+            72.9454,
+            -108.457
+          ],
+          "Castle_Black"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "record": {
+        "icon": "_sleft|J|808080",
+        "chapters": [
+          19,
+          85
+        ],
+        "key": "Castle_Black"
+      }
+    }
+  ]
+}

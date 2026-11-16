@@ -1,0 +1,1638 @@
+{
+  "source": "spec_labels",
+  "recipe": "dark-ink-2x-psm11",
+  "lines": [
+    {
+      "text": "Mole's Town\n\n",
+      "confidence": 77,
+      "quad": "NW",
+      "x0": 908,
+      "y0": 774,
+      "x1": 978,
+      "y1": 785
+    },
+    {
+      "text": "Tumbledown\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 665,
+      "y0": 1081,
+      "x1": 746,
+      "y1": 1093
+    },
+    {
+      "text": "Tower\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 683,
+      "y0": 1100,
+      "x1": 722,
+      "y1": 1110
+    },
+    {
+      "text": "Holdfast\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 744,
+      "y0": 1143,
+      "x1": 793,
+      "y1": 1153
+    },
+    {
+      "text": "Crafters” Village\n\n",
+      "confidence": 41,
+      "quad": "NW",
+      "x0": 615,
+      "y0": 1150,
+      "x1": 698,
+      "y1": 1164
+    },
+    {
+      "text": "Tower\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 938,
+      "y0": 1198,
+      "x1": 976,
+      "y1": 1209
+    },
+    {
+      "text": "Cerwyn\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 737,
+      "y0": 1204,
+      "x1": 776,
+      "y1": 1217
+    },
+    {
+      "text": "Horwood\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 1248,
+      "x1": 937,
+      "y1": 1259
+    },
+    {
+      "text": "Fishing\n\n",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 210,
+      "y0": 1256,
+      "x1": 251,
+      "y1": 1271
+    },
+    {
+      "text": "Village\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 208,
+      "y0": 1273,
+      "x1": 246,
+      "y1": 1287
+    },
+    {
+      "text": "Baelish\n\n",
+      "confidence": 77,
+      "quad": "NW",
+      "x0": 1280,
+      "y0": 1696,
+      "x1": 1319,
+      "y1": 1707
+    },
+    {
+      "text": "Keep\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1278,
+      "y0": 1713,
+      "x1": 1305,
+      "y1": 1726
+    },
+    {
+      "text": "Castle\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 348,
+      "y0": 1870,
+      "x1": 383,
+      "y1": 1882
+    },
+    {
+      "text": "Nagga's Ribs\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 260,
+      "y0": 1880,
+      "x1": 327,
+      "y1": 1895
+    },
+    {
+      "text": "Goodbrother\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 346,
+      "y0": 1887,
+      "x1": 421,
+      "y1": 1898
+    },
+    {
+      "text": "Hammerhorn\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 222,
+      "y0": 1904,
+      "x1": 299,
+      "y1": 1917
+    },
+    {
+      "text": "Pebbleton\n\n",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 361,
+      "y0": 1915,
+      "x1": 417,
+      "y1": 1927
+    },
+    {
+      "text": "Palisade\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 841,
+      "y0": 1908,
+      "x1": 887,
+      "y1": 1920
+    },
+    {
+      "text": "Village\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 839,
+      "y0": 1925,
+      "x1": 877,
+      "y1": 1939
+    },
+    {
+      "text": "2a\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 781,
+      "y0": 1982,
+      "x1": 795,
+      "y1": 1990
+    },
+    {
+      "text": "Crossroads\n\n",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 831,
+      "y0": 1971,
+      "x1": 895,
+      "y1": 1983
+    },
+    {
+      "text": "inn\n\n",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 1989,
+      "x1": 875,
+      "y1": 1999
+    },
+    {
+      "text": "Munr's Deep\n\n",
+      "confidence": 22,
+      "quad": "NW",
+      "x0": 459,
+      "y0": 2006,
+      "x1": 529,
+      "y1": 2020
+    },
+    {
+      "text": "24\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 721,
+      "y0": 2009,
+      "x1": 734,
+      "y1": 2018
+    },
+    {
+      "text": "22\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 823,
+      "y0": 2009,
+      "x1": 838,
+      "y1": 2017
+    },
+    {
+      "text": "23\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 695,
+      "y0": 2014,
+      "x1": 707,
+      "y1": 2023
+    },
+    {
+      "text": "26\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 686,
+      "y0": 2036,
+      "x1": 698,
+      "y1": 2046
+    },
+    {
+      "text": "25\n\n",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 714,
+      "y0": 2027,
+      "x1": 726,
+      "y1": 2036
+    },
+    {
+      "text": "Darry\n\n",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 2027,
+      "x1": 910,
+      "y1": 2041
+    },
+    {
+      "text": "Pendric Hills\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 440,
+      "y0": 2042,
+      "x1": 512,
+      "y1": 2054
+    },
+    {
+      "text": "27\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 713,
+      "y0": 2051,
+      "x1": 727,
+      "y1": 2060
+    },
+    {
+      "text": "29\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 757,
+      "y0": 2044,
+      "x1": 771,
+      "y1": 2054
+    },
+    {
+      "text": "Raventree\n\n",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 803,
+      "y0": 2048,
+      "x1": 853,
+      "y1": 2057
+    },
+    {
+      "text": "28\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 739,
+      "y0": 2057,
+      "x1": 753,
+      "y1": 2066
+    },
+    {
+      "text": "Hall\n\n",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 801,
+      "y0": 2062,
+      "x1": 821,
+      "y1": 2072
+    },
+    {
+      "text": "Wayfarer's\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 554,
+      "y0": 2068,
+      "x1": 611,
+      "y1": 2083
+    },
+    {
+      "text": "Rest\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 570,
+      "y0": 2086,
+      "x1": 592,
+      "y1": 2095
+    },
+    {
+      "text": "Stone\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 649,
+      "y0": 2080,
+      "x1": 681,
+      "y1": 2090
+    },
+    {
+      "text": "Castarere\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 365,
+      "y0": 2094,
+      "x1": 426,
+      "y1": 2105
+    },
+    {
+      "text": "Mill\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 647,
+      "y0": 2095,
+      "x1": 669,
+      "y1": 2105
+    },
+    {
+      "text": "Rushing\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 779,
+      "y0": 2107,
+      "x1": 824,
+      "y1": 2121
+    },
+    {
+      "text": "Falls\n\n",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 799,
+      "y0": 2123,
+      "x1": 823,
+      "y1": 2133
+    },
+    {
+      "text": "Wendish  Mummer's Ford\n\n",
+      "confidence": 54,
+      "quad": "NW",
+      "x0": 575,
+      "y0": 2131,
+      "x1": 729,
+      "y1": 2143
+    },
+    {
+      "text": "Town\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 582,
+      "y0": 2148,
+      "x1": 614,
+      "y1": 2157
+    },
+    {
+      "text": "Sherrer\n\n",
+      "confidence": 75,
+      "quad": "NW",
+      "x0": 631,
+      "y0": 2152,
+      "x1": 673,
+      "y1": 2163
+    },
+    {
+      "text": "Tumblers\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 741,
+      "y0": 2148,
+      "x1": 793,
+      "y1": 2159
+    },
+    {
+      "text": "Sept\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 690,
+      "y0": 2154,
+      "x1": 713,
+      "y1": 2166
+    },
+    {
+      "text": "Falls\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 739,
+      "y0": 2164,
+      "x1": 762,
+      "y1": 2174
+    },
+    {
+      "text": "Village\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 2154,
+      "x1": 913,
+      "y1": 2166
+    },
+    {
+      "text": "Hollow\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 643,
+      "y0": 2178,
+      "x1": 679,
+      "y1": 2190
+    },
+    {
+      "text": "Holdfas:\n\n",
+      "confidence": 20,
+      "quad": "NW",
+      "x0": 791,
+      "y0": 2171,
+      "x1": 832,
+      "y1": 2180
+    },
+    {
+      "text": "Oxcross\n\n",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 353,
+      "y0": 2191,
+      "x1": 398,
+      "y1": 2202
+    },
+    {
+      "text": "Ivy Im\n\n",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 2181,
+      "x1": 919,
+      "y1": 2194
+    },
+    {
+      "text": "Hill\n\n",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 658,
+      "y0": 2195,
+      "x1": 675,
+      "y1": 2206
+    },
+    {
+      "text": "Brindlewood\n\n",
+      "confidence": 44,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 2217,
+      "x1": 926,
+      "y1": 2228
+    },
+    {
+      "text": "Stokeworth\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 950,
+      "y0": 2225,
+      "x1": 1010,
+      "y1": 2236
+    },
+    {
+      "text": "30\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1026,
+      "y0": 2247,
+      "x1": 1041,
+      "y1": 2257
+    },
+    {
+      "text": "Hayford\n\n",
+      "confidence": 81,
+      "quad": "NW",
+      "x0": 896,
+      "y0": 2257,
+      "x1": 938,
+      "y1": 2271
+    },
+    {
+      "text": "Clegane Hall\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 424,
+      "y0": 2275,
+      "x1": 491,
+      "y1": 2290
+    },
+    {
+      "text": "Castle\n\n",
+      "confidence": 66,
+      "quad": "NW",
+      "x0": 898,
+      "y0": 2272,
+      "x1": 930,
+      "y1": 2282
+    },
+    {
+      "text": "Tarbeck Hall\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 273,
+      "y0": 2294,
+      "x1": 342,
+      "y1": 2305
+    },
+    {
+      "text": "Port of Ibben\n",
+      "confidence": 79,
+      "quad": "NE",
+      "x0": 2433,
+      "y0": 781,
+      "x1": 2508,
+      "y1": 793
+    },
+    {
+      "text": "Hayford\n\n",
+      "confidence": 67,
+      "quad": "SW",
+      "x0": 896,
+      "y0": 2257,
+      "x1": 938,
+      "y1": 2271
+    },
+    {
+      "text": "Clegane Hall\n\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 424,
+      "y0": 2275,
+      "x1": 491,
+      "y1": 2290
+    },
+    {
+      "text": "Castle\n\n",
+      "confidence": 66,
+      "quad": "SW",
+      "x0": 898,
+      "y0": 2272,
+      "x1": 930,
+      "y1": 2282
+    },
+    {
+      "text": "Tarbeck Hall\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 273,
+      "y0": 2294,
+      "x1": 342,
+      "y1": 2305
+    },
+    {
+      "text": "Parchments\n\n",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 1221,
+      "y0": 2413,
+      "x1": 1288,
+      "y1": 2425
+    },
+    {
+      "text": "Fawnton\n\n",
+      "confidence": 85,
+      "quad": "SW",
+      "x0": 871,
+      "y0": 2448,
+      "x1": 920,
+      "y1": 2458
+    },
+    {
+      "text": "Grandview\n\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 986,
+      "y0": 2538,
+      "x1": 1042,
+      "y1": 2549
+    },
+    {
+      "text": "a\n\n",
+      "confidence": 84,
+      "quad": "SW",
+      "x0": 388,
+      "y0": 2580,
+      "x1": 399,
+      "y1": 2590
+    },
+    {
+      "text": "Harvest Hall\n\n",
+      "confidence": 86,
+      "quad": "SW",
+      "x0": 768,
+      "y0": 2617,
+      "x1": 834,
+      "y1": 2628
+    },
+    {
+      "text": "Water Gardens\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1231,
+      "y0": 2918,
+      "x1": 1311,
+      "y1": 2929
+    },
+    {
+      "text": "Tall Trees Town\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 643,
+      "y0": 3748,
+      "x1": 743,
+      "y1": 3760
+    },
+    {
+      "text": "Vaes Dothrak\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3126,
+      "y0": 2527,
+      "x1": 3240,
+      "y1": 2543
+    },
+    {
+      "text": "Lhazarene Village\n\n",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 3663,
+      "y0": 2850,
+      "x1": 3762,
+      "y1": 2865
+    },
+    {
+      "text": "Vaes Tolorro\n\n",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 4125,
+      "y0": 3859,
+      "x1": 4213,
+      "y1": 3873
+    },
+    {
+      "text": "Dead City\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 4031,
+      "y0": 3900,
+      "x1": 4091,
+      "y1": 3915
+    },
+    {
+      "text": "Dead City\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3903,
+      "y0": 3954,
+      "x1": 3963,
+      "y1": 3969
+    },
+    {
+      "text": "Qarth\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 4374,
+      "y0": 4191,
+      "x1": 4431,
+      "y1": 4214
+    }
+  ],
+  "words": [
+    {
+      "text": "Mole's",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 908,
+      "y0": 774,
+      "x1": 943,
+      "y1": 785
+    },
+    {
+      "text": "Town",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 948,
+      "y0": 776,
+      "x1": 978,
+      "y1": 785
+    },
+    {
+      "text": "Tumbledown",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 665,
+      "y0": 1081,
+      "x1": 746,
+      "y1": 1093
+    },
+    {
+      "text": "Tower",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 683,
+      "y0": 1100,
+      "x1": 722,
+      "y1": 1110
+    },
+    {
+      "text": "Holdfast",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 744,
+      "y0": 1143,
+      "x1": 793,
+      "y1": 1153
+    },
+    {
+      "text": "Crafters”",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 615,
+      "y0": 1150,
+      "x1": 660,
+      "y1": 1161
+    },
+    {
+      "text": "Village",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 664,
+      "y0": 1150,
+      "x1": 698,
+      "y1": 1164
+    },
+    {
+      "text": "Tower",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 938,
+      "y0": 1198,
+      "x1": 976,
+      "y1": 1209
+    },
+    {
+      "text": "Cerwyn",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 737,
+      "y0": 1204,
+      "x1": 776,
+      "y1": 1217
+    },
+    {
+      "text": "Horwood",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 1248,
+      "x1": 937,
+      "y1": 1259
+    },
+    {
+      "text": "Fishing",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 210,
+      "y0": 1256,
+      "x1": 251,
+      "y1": 1271
+    },
+    {
+      "text": "Village",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 208,
+      "y0": 1273,
+      "x1": 246,
+      "y1": 1287
+    },
+    {
+      "text": "Baelish",
+      "confidence": 77,
+      "quad": "NW",
+      "x0": 1280,
+      "y0": 1696,
+      "x1": 1319,
+      "y1": 1707
+    },
+    {
+      "text": "Keep",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1278,
+      "y0": 1713,
+      "x1": 1305,
+      "y1": 1726
+    },
+    {
+      "text": "Castle",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 348,
+      "y0": 1870,
+      "x1": 383,
+      "y1": 1882
+    },
+    {
+      "text": "Nagga's",
+      "confidence": 81,
+      "quad": "NW",
+      "x0": 260,
+      "y0": 1881,
+      "x1": 300,
+      "y1": 1895
+    },
+    {
+      "text": "Ribs",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 305,
+      "y0": 1880,
+      "x1": 327,
+      "y1": 1892
+    },
+    {
+      "text": "Goodbrother",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 346,
+      "y0": 1887,
+      "x1": 421,
+      "y1": 1898
+    },
+    {
+      "text": "Hammerhorn",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 222,
+      "y0": 1904,
+      "x1": 299,
+      "y1": 1917
+    },
+    {
+      "text": "Pebbleton",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 361,
+      "y0": 1915,
+      "x1": 417,
+      "y1": 1927
+    },
+    {
+      "text": "Palisade",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 841,
+      "y0": 1908,
+      "x1": 887,
+      "y1": 1920
+    },
+    {
+      "text": "Village",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 839,
+      "y0": 1925,
+      "x1": 877,
+      "y1": 1939
+    },
+    {
+      "text": "2a",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 781,
+      "y0": 1982,
+      "x1": 795,
+      "y1": 1990
+    },
+    {
+      "text": "Crossroads",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 831,
+      "y0": 1971,
+      "x1": 895,
+      "y1": 1983
+    },
+    {
+      "text": "inn",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 1989,
+      "x1": 875,
+      "y1": 1999
+    },
+    {
+      "text": "Munr's",
+      "confidence": 8,
+      "quad": "NW",
+      "x0": 459,
+      "y0": 2006,
+      "x1": 496,
+      "y1": 2017
+    },
+    {
+      "text": "Deep",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 502,
+      "y0": 2007,
+      "x1": 529,
+      "y1": 2020
+    },
+    {
+      "text": "24",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 721,
+      "y0": 2009,
+      "x1": 734,
+      "y1": 2018
+    },
+    {
+      "text": "22",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 823,
+      "y0": 2009,
+      "x1": 838,
+      "y1": 2017
+    },
+    {
+      "text": "23",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 695,
+      "y0": 2014,
+      "x1": 707,
+      "y1": 2023
+    },
+    {
+      "text": "26",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 686,
+      "y0": 2036,
+      "x1": 698,
+      "y1": 2046
+    },
+    {
+      "text": "25",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 714,
+      "y0": 2027,
+      "x1": 726,
+      "y1": 2036
+    },
+    {
+      "text": "Darry",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 2027,
+      "x1": 910,
+      "y1": 2041
+    },
+    {
+      "text": "Pendric",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 440,
+      "y0": 2042,
+      "x1": 482,
+      "y1": 2054
+    },
+    {
+      "text": "Hills",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 488,
+      "y0": 2042,
+      "x1": 512,
+      "y1": 2054
+    },
+    {
+      "text": "27",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 713,
+      "y0": 2051,
+      "x1": 727,
+      "y1": 2060
+    },
+    {
+      "text": "29",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 757,
+      "y0": 2044,
+      "x1": 771,
+      "y1": 2054
+    },
+    {
+      "text": "Raventree",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 803,
+      "y0": 2048,
+      "x1": 853,
+      "y1": 2057
+    },
+    {
+      "text": "28",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 739,
+      "y0": 2057,
+      "x1": 753,
+      "y1": 2066
+    },
+    {
+      "text": "Hall",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 801,
+      "y0": 2062,
+      "x1": 821,
+      "y1": 2072
+    },
+    {
+      "text": "Wayfarer's",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 554,
+      "y0": 2068,
+      "x1": 611,
+      "y1": 2083
+    },
+    {
+      "text": "Rest",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 570,
+      "y0": 2086,
+      "x1": 592,
+      "y1": 2095
+    },
+    {
+      "text": "Stone",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 649,
+      "y0": 2080,
+      "x1": 681,
+      "y1": 2090
+    },
+    {
+      "text": "Castarere",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 365,
+      "y0": 2094,
+      "x1": 426,
+      "y1": 2105
+    },
+    {
+      "text": "Mill",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 647,
+      "y0": 2095,
+      "x1": 669,
+      "y1": 2105
+    },
+    {
+      "text": "Rushing",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 779,
+      "y0": 2107,
+      "x1": 824,
+      "y1": 2121
+    },
+    {
+      "text": "Falls",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 799,
+      "y0": 2123,
+      "x1": 823,
+      "y1": 2133
+    },
+    {
+      "text": "Wendish",
+      "confidence": 48,
+      "quad": "NW",
+      "x0": 575,
+      "y0": 2131,
+      "x1": 624,
+      "y1": 2142
+    },
+    {
+      "text": " Mummer's",
+      "confidence": 18,
+      "quad": "NW",
+      "x0": 642,
+      "y0": 2132,
+      "x1": 700,
+      "y1": 2143
+    },
+    {
+      "text": "Ford",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 705,
+      "y0": 2132,
+      "x1": 729,
+      "y1": 2143
+    },
+    {
+      "text": "Town",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 582,
+      "y0": 2148,
+      "x1": 614,
+      "y1": 2157
+    },
+    {
+      "text": "Sherrer",
+      "confidence": 75,
+      "quad": "NW",
+      "x0": 631,
+      "y0": 2152,
+      "x1": 673,
+      "y1": 2163
+    },
+    {
+      "text": "Tumblers",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 741,
+      "y0": 2148,
+      "x1": 793,
+      "y1": 2159
+    },
+    {
+      "text": "Sept",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 690,
+      "y0": 2154,
+      "x1": 713,
+      "y1": 2166
+    },
+    {
+      "text": "Falls",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 739,
+      "y0": 2164,
+      "x1": 762,
+      "y1": 2174
+    },
+    {
+      "text": "Village",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 2154,
+      "x1": 913,
+      "y1": 2166
+    },
+    {
+      "text": "Hollow",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 643,
+      "y0": 2178,
+      "x1": 679,
+      "y1": 2190
+    },
+    {
+      "text": "Holdfas:",
+      "confidence": 20,
+      "quad": "NW",
+      "x0": 791,
+      "y0": 2171,
+      "x1": 832,
+      "y1": 2180
+    },
+    {
+      "text": "Oxcross",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 353,
+      "y0": 2191,
+      "x1": 398,
+      "y1": 2202
+    },
+    {
+      "text": "Ivy",
+      "confidence": 37,
+      "quad": "NW",
+      "x0": 880,
+      "y0": 2181,
+      "x1": 896,
+      "y1": 2194
+    },
+    {
+      "text": "Im",
+      "confidence": 47,
+      "quad": "NW",
+      "x0": 901,
+      "y0": 2181,
+      "x1": 919,
+      "y1": 2191
+    },
+    {
+      "text": "Hill",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 658,
+      "y0": 2195,
+      "x1": 675,
+      "y1": 2206
+    },
+    {
+      "text": "Brindlewood",
+      "confidence": 44,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 2217,
+      "x1": 926,
+      "y1": 2228
+    },
+    {
+      "text": "Stokeworth",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 950,
+      "y0": 2225,
+      "x1": 1010,
+      "y1": 2236
+    },
+    {
+      "text": "30",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1026,
+      "y0": 2247,
+      "x1": 1041,
+      "y1": 2257
+    },
+    {
+      "text": "Hayford",
+      "confidence": 81,
+      "quad": "NW",
+      "x0": 896,
+      "y0": 2257,
+      "x1": 938,
+      "y1": 2271
+    },
+    {
+      "text": "Clegane",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 424,
+      "y0": 2275,
+      "x1": 465,
+      "y1": 2290
+    },
+    {
+      "text": "Hall",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 470,
+      "y0": 2275,
+      "x1": 491,
+      "y1": 2287
+    },
+    {
+      "text": "Castle",
+      "confidence": 66,
+      "quad": "NW",
+      "x0": 898,
+      "y0": 2272,
+      "x1": 930,
+      "y1": 2282
+    },
+    {
+      "text": "Tarbeck",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 273,
+      "y0": 2294,
+      "x1": 316,
+      "y1": 2305
+    },
+    {
+      "text": "Hall",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 321,
+      "y0": 2294,
+      "x1": 342,
+      "y1": 2305
+    },
+    {
+      "text": "Port",
+      "confidence": 95,
+      "quad": "NE",
+      "x0": 2433,
+      "y0": 782,
+      "x1": 2456,
+      "y1": 793
+    },
+    {
+      "text": "of",
+      "confidence": 92,
+      "quad": "NE",
+      "x0": 2461,
+      "y0": 781,
+      "x1": 2475,
+      "y1": 793
+    },
+    {
+      "text": "Ibben",
+      "confidence": 49,
+      "quad": "NE",
+      "x0": 2477,
+      "y0": 781,
+      "x1": 2508,
+      "y1": 793
+    },
+    {
+      "text": "Hayford",
+      "confidence": 67,
+      "quad": "SW",
+      "x0": 896,
+      "y0": 2257,
+      "x1": 938,
+      "y1": 2271
+    },
+    {
+      "text": "Clegane",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 424,
+      "y0": 2275,
+      "x1": 465,
+      "y1": 2290
+    },
+    {
+      "text": "Hall",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 470,
+      "y0": 2275,
+      "x1": 491,
+      "y1": 2287
+    },
+    {
+      "text": "Castle",
+      "confidence": 66,
+      "quad": "SW",
+      "x0": 898,
+      "y0": 2272,
+      "x1": 930,
+      "y1": 2282
+    },
+    {
+      "text": "Tarbeck",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 273,
+      "y0": 2294,
+      "x1": 316,
+      "y1": 2305
+    },
+    {
+      "text": "Hall",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 321,
+      "y0": 2294,
+      "x1": 342,
+      "y1": 2305
+    },
+    {
+      "text": "Parchments",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 1221,
+      "y0": 2413,
+      "x1": 1288,
+      "y1": 2425
+    },
+    {
+      "text": "Fawnton",
+      "confidence": 85,
+      "quad": "SW",
+      "x0": 871,
+      "y0": 2448,
+      "x1": 920,
+      "y1": 2458
+    },
+    {
+      "text": "Grandview",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 986,
+      "y0": 2538,
+      "x1": 1042,
+      "y1": 2549
+    },
+    {
+      "text": "a",
+      "confidence": 84,
+      "quad": "SW",
+      "x0": 388,
+      "y0": 2580,
+      "x1": 399,
+      "y1": 2590
+    },
+    {
+      "text": "Harvest",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 768,
+      "y0": 2618,
+      "x1": 808,
+      "y1": 2628
+    },
+    {
+      "text": "Hall",
+      "confidence": 85,
+      "quad": "SW",
+      "x0": 813,
+      "y0": 2617,
+      "x1": 834,
+      "y1": 2628
+    },
+    {
+      "text": "Water",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1231,
+      "y0": 2919,
+      "x1": 1264,
+      "y1": 2929
+    },
+    {
+      "text": "Gardens",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 1268,
+      "y0": 2918,
+      "x1": 1311,
+      "y1": 2929
+    },
+    {
+      "text": "Tall",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 643,
+      "y0": 3748,
+      "x1": 665,
+      "y1": 3760
+    },
+    {
+      "text": "Trees",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 671,
+      "y0": 3749,
+      "x1": 703,
+      "y1": 3760
+    },
+    {
+      "text": "Town",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 709,
+      "y0": 3749,
+      "x1": 743,
+      "y1": 3760
+    },
+    {
+      "text": "Vaes",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3126,
+      "y0": 2529,
+      "x1": 3164,
+      "y1": 2543
+    },
+    {
+      "text": "Dothrak",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3172,
+      "y0": 2527,
+      "x1": 3240,
+      "y1": 2543
+    },
+    {
+      "text": "Lhazarene",
+      "confidence": 80,
+      "quad": "SE",
+      "x0": 3663,
+      "y0": 2850,
+      "x1": 3720,
+      "y1": 2862
+    },
+    {
+      "text": "Village",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3725,
+      "y0": 2850,
+      "x1": 3762,
+      "y1": 2865
+    },
+    {
+      "text": "Vaes",
+      "confidence": 89,
+      "quad": "SE",
+      "x0": 4125,
+      "y0": 3861,
+      "x1": 4156,
+      "y1": 3873
+    },
+    {
+      "text": "Tolorro",
+      "confidence": 87,
+      "quad": "SE",
+      "x0": 4162,
+      "y0": 3859,
+      "x1": 4213,
+      "y1": 3873
+    },
+    {
+      "text": "Dead",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 4031,
+      "y0": 3900,
+      "x1": 4061,
+      "y1": 3912
+    },
+    {
+      "text": "City",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4067,
+      "y0": 3901,
+      "x1": 4091,
+      "y1": 3915
+    },
+    {
+      "text": "Dead",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3903,
+      "y0": 3954,
+      "x1": 3933,
+      "y1": 3966
+    },
+    {
+      "text": "City",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3939,
+      "y0": 3955,
+      "x1": 3963,
+      "y1": 3969
+    },
+    {
+      "text": "Qarth",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 4374,
+      "y0": 4191,
+      "x1": 4431,
+      "y1": 4214
+    }
+  ],
+  "text": "\n=== NW ===\nMole's Town\n\nTumbledown\n\nTower\n\nHoldfast\n\nCrafters” Village\n\nTower\n\nCerwyn\n\nHorwood\n\nFishing\n\nVillage\n\nBaelish\n\nKeep\n\nCastle\n\nNagga's Ribs\n\nGoodbrother\n\nHammerhorn\n\nPebbleton\n\nPalisade\n\nVillage\n\n2a\n\nCrossroads\n\ninn\n\nMunr's Deep\n\n24\n\n22\n\n23\n\n26\n\n25\n\nDarry\n\nPendric Hills\n\n27\n\n29\n\nRaventree\n\n28\n\nHall\n\nWayfarer's\n\nRest\n\nStone\n\nCastarere\n\nMill\n\nRushing\n\nFalls\n\nWendish  Mummer's Ford\n\nTown\n\nSherrer\n\nTumblers\n\nSept\n\nFalls\n\nVillage\n\nHollow\n\nHoldfas:\n\nOxcross\n\nIvy Im\n\nHill\n\nBrindlewood\n\nStokeworth\n\n30\n\nHayford\n\nClegane Hall\n\nCastle\n\nTarbeck Hall\n\n=== NE ===\nPort of Ibben\n\n=== SW ===\nHayford\n\nClegane Hall\n\nCastle\n\nTarbeck Hall\n\nParchments\n\nFawnton\n\nGrandview\n\na\n\nHarvest Hall\n\nWater Gardens\n\nTall Trees Town\n\n=== SE ===\nVaes Dothrak\n\nLhazarene Village\n\nVaes Tolorro\n\nDead City\n\nDead City\n\nQarth\n"
+}

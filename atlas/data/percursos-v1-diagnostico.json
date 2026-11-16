@@ -1,0 +1,666 @@
+{
+  "revision": "percursos-agot-v1",
+  "baselineSha256": "605192a25ce5c49864ddc16a6e6ebcefe4c4789b9042067285acc3571540186f",
+  "reviewedSegments": [
+    {
+      "characterId": "jon",
+      "sourceRecordIndex": 4,
+      "id": "jon-line-4",
+      "label": "Winterfell -> Castelo Negro: Estrada do Rei",
+      "startChapter": 19,
+      "vertices": 20
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 3,
+      "id": "tyrion-line-3",
+      "label": "Winterfell -> Castelo Negro: Estrada do Rei",
+      "startChapter": 19,
+      "vertices": 20
+    },
+    {
+      "characterId": "jon",
+      "sourceRecordIndex": 8,
+      "id": "jon-line-8",
+      "label": "Tentativa de partida e regresso a Castelo Negro",
+      "startChapter": 70,
+      "vertices": 9
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 1,
+      "id": "tyrion-line-1",
+      "label": "Porto Real -> Winterfell: comitiva real",
+      "startChapter": 4,
+      "vertices": 52
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": 1,
+      "id": "jaime-line-1",
+      "label": "Porto Real -> Winterfell: comitiva real",
+      "startChapter": 4,
+      "vertices": 52
+    },
+    {
+      "characterId": "cersei",
+      "sourceRecordIndex": 1,
+      "id": "cersei-line-1",
+      "label": "Porto Real -> Winterfell: comitiva real",
+      "startChapter": 4,
+      "vertices": 52
+    },
+    {
+      "characterId": "eddard",
+      "sourceRecordIndex": 4,
+      "id": "eddard-line-4",
+      "label": "Winterfell -> terras ao sul: Estrada do Rei",
+      "startChapter": 12,
+      "vertices": 13
+    },
+    {
+      "characterId": "eddard",
+      "sourceRecordIndex": 6,
+      "id": "eddard-line-6",
+      "label": "Gargalo -> Tridente: Estrada do Rei",
+      "startChapter": 15,
+      "vertices": 29
+    },
+    {
+      "characterId": "eddard",
+      "sourceRecordIndex": 8,
+      "id": "eddard-line-8",
+      "label": "Tridente -> Porto Real: Estrada do Rei",
+      "startChapter": 20,
+      "vertices": 12
+    },
+    {
+      "characterId": "arya",
+      "sourceRecordIndex": 1,
+      "id": "arya-line-1",
+      "label": "Winterfell -> terras ao sul: Estrada do Rei",
+      "startChapter": 12,
+      "vertices": 13
+    },
+    {
+      "characterId": "arya",
+      "sourceRecordIndex": 3,
+      "id": "arya-line-3",
+      "label": "Gargalo -> Tridente: Estrada do Rei",
+      "startChapter": 15,
+      "vertices": 29
+    },
+    {
+      "characterId": "arya",
+      "sourceRecordIndex": 6,
+      "id": "arya-line-6",
+      "label": "Tridente -> Porto Real: Estrada do Rei",
+      "startChapter": 20,
+      "vertices": 12
+    },
+    {
+      "characterId": "sansa",
+      "sourceRecordIndex": 1,
+      "id": "sansa-line-1",
+      "label": "Winterfell -> terras ao sul: Estrada do Rei",
+      "startChapter": 12,
+      "vertices": 13
+    },
+    {
+      "characterId": "sansa",
+      "sourceRecordIndex": 3,
+      "id": "sansa-line-3",
+      "label": "Gargalo -> Tridente: Estrada do Rei",
+      "startChapter": 15,
+      "vertices": 29
+    },
+    {
+      "characterId": "sansa",
+      "sourceRecordIndex": 5,
+      "id": "sansa-line-5",
+      "label": "Tridente -> Porto Real: Estrada do Rei",
+      "startChapter": 20,
+      "vertices": 12
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": null,
+      "id": "jaime-supplement-15",
+      "label": "Winterfell -> terras ao sul: comitiva real",
+      "startChapter": 12,
+      "vertices": 13
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": null,
+      "id": "jaime-supplement-16",
+      "label": "Gargalo -> Tridente: comitiva real",
+      "startChapter": 15,
+      "vertices": 29
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": null,
+      "id": "jaime-supplement-17",
+      "label": "Tridente -> Porto Real: comitiva real",
+      "startChapter": 20,
+      "vertices": 12
+    },
+    {
+      "characterId": "cersei",
+      "sourceRecordIndex": null,
+      "id": "cersei-supplement-18",
+      "label": "Winterfell -> terras ao sul: comitiva real",
+      "startChapter": 12,
+      "vertices": 13
+    },
+    {
+      "characterId": "cersei",
+      "sourceRecordIndex": null,
+      "id": "cersei-supplement-19",
+      "label": "Gargalo -> Tridente: comitiva real",
+      "startChapter": 15,
+      "vertices": 29
+    },
+    {
+      "characterId": "cersei",
+      "sourceRecordIndex": null,
+      "id": "cersei-supplement-20",
+      "label": "Tridente -> Porto Real: comitiva real",
+      "startChapter": 20,
+      "vertices": 12
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": null,
+      "id": "tyrion-supplement-21",
+      "label": "Castelo Negro -> Winterfell: regresso pelo Norte",
+      "startChapter": 24,
+      "vertices": 20
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": null,
+      "id": "tyrion-supplement-22",
+      "label": "Winterfell -> Estalagem no Entroncamento",
+      "startChapter": 28,
+      "vertices": 42
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 6,
+      "id": "tyrion-line-6",
+      "label": "Entroncamento -> montanhas da Lua",
+      "startChapter": 31,
+      "vertices": 7
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 8,
+      "id": "tyrion-line-8",
+      "label": "Passo Sangrento -> Ninho da Aguia",
+      "startChapter": 34,
+      "vertices": 6
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 8,
+      "id": "catelyn-line-8",
+      "label": "Entroncamento -> montanhas da Lua",
+      "startChapter": 31,
+      "vertices": 7
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 10,
+      "id": "catelyn-line-10",
+      "label": "Passo Sangrento -> Ninho da Aguia",
+      "startChapter": 34,
+      "vertices": 6
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": null,
+      "id": "tyrion-supplement-27",
+      "label": "Saida do Ninho da Aguia rumo as montanhas",
+      "startChapter": 42,
+      "vertices": 6
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": null,
+      "id": "tyrion-supplement-28",
+      "label": "Montanhas da Lua -> acampamento no Entroncamento",
+      "startChapter": 56,
+      "vertices": 7
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 11,
+      "id": "tyrion-line-11",
+      "label": "Entroncamento -> batalha do Ramo Verde",
+      "startChapter": 62,
+      "vertices": 8
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": null,
+      "id": "tyrion-supplement-30",
+      "label": "Ramo Verde -> regresso ao Entroncamento",
+      "startChapter": 69,
+      "vertices": 8
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 1,
+      "id": "catelyn-line-1",
+      "label": "Winterfell -> Porto Branco -> Porto Real",
+      "startChapter": 18,
+      "vertices": 28
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 3,
+      "id": "catelyn-line-3",
+      "label": "Porto Real -> estrada para o Tridente",
+      "startChapter": 22,
+      "vertices": 6
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 5,
+      "id": "catelyn-line-5",
+      "label": "Estrada do Rei -> Estalagem no Entroncamento",
+      "startChapter": 28,
+      "vertices": 6
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 12,
+      "id": "catelyn-line-12",
+      "label": "Ninho da Aguia -> Vila Gaivota -> Porto Branco",
+      "startChapter": 55,
+      "vertices": 24
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 4,
+      "id": "robb-line-4",
+      "label": "Winterfell -> Fosso Cailin",
+      "startChapter": 55,
+      "vertices": 18
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 6,
+      "id": "robb-line-6",
+      "label": "Fosso Cailin -> As Gemeas: passagem pelo Gargalo",
+      "startChapter": 59,
+      "vertices": 12
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 8,
+      "id": "robb-line-8",
+      "label": "As Gemeas -> Feirajusta -> Bosque dos Murmurios",
+      "startChapter": 63,
+      "vertices": 15
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 10,
+      "id": "robb-line-10",
+      "label": "Bosque dos Murmurios -> Correrrio",
+      "startChapter": 71,
+      "vertices": 3
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 4,
+      "id": "theon-line-4",
+      "label": "Winterfell -> Fosso Cailin",
+      "startChapter": 55,
+      "vertices": 18
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 6,
+      "id": "theon-line-6",
+      "label": "Fosso Cailin -> As Gemeas: passagem pelo Gargalo",
+      "startChapter": 59,
+      "vertices": 12
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 8,
+      "id": "theon-line-8",
+      "label": "As Gemeas -> Feirajusta -> Bosque dos Murmurios",
+      "startChapter": 63,
+      "vertices": 15
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 10,
+      "id": "theon-line-10",
+      "label": "Bosque dos Murmurios -> Correrrio",
+      "startChapter": 71,
+      "vertices": 3
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 13,
+      "id": "catelyn-line-13",
+      "label": "Porto Branco -> Fosso Cailin",
+      "startChapter": 55,
+      "vertices": 4
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 15,
+      "id": "catelyn-line-15",
+      "label": "Fosso Cailin -> As Gemeas: passagem pelo Gargalo",
+      "startChapter": 59,
+      "vertices": 12
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 17,
+      "id": "catelyn-line-17",
+      "label": "As Gemeas -> Feirajusta -> Bosque dos Murmurios",
+      "startChapter": 63,
+      "vertices": 15
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 20,
+      "id": "catelyn-line-20",
+      "label": "Bosque dos Murmurios -> Correrrio",
+      "startChapter": 71,
+      "vertices": 3
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": 6,
+      "id": "jaime-line-6",
+      "label": "Porto Real -> Rochedo Casterly: Estrada do Ouro",
+      "startChapter": 40,
+      "vertices": 15
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": 8,
+      "id": "jaime-line-8",
+      "label": "Rochedo Casterly -> Dente Dourado -> Correrrio",
+      "startChapter": 59,
+      "vertices": 13
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": 11,
+      "id": "jaime-line-11",
+      "label": "Correrrio -> Bosque dos Murmurios",
+      "startChapter": 63,
+      "vertices": 3
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": null,
+      "id": "jaime-supplement-50",
+      "label": "Regresso a Correrrio sob custodia",
+      "startChapter": 71,
+      "vertices": 3
+    },
+    {
+      "characterId": "daenerys",
+      "sourceRecordIndex": 3,
+      "id": "daenerys-line-3",
+      "label": "Pentos -> colinas de Norvos -> floresta de Qohor",
+      "startChapter": 23,
+      "vertices": 18
+    },
+    {
+      "characterId": "daenerys",
+      "sourceRecordIndex": 5,
+      "id": "daenerys-line-5",
+      "label": "Mar Dothraki -> Vaes Dothrak",
+      "startChapter": 36,
+      "vertices": 21
+    },
+    {
+      "characterId": "daenerys",
+      "sourceRecordIndex": 7,
+      "id": "daenerys-line-7",
+      "label": "Vaes Dothrak -> regiao de Lhazar",
+      "startChapter": 61,
+      "vertices": 16
+    }
+  ],
+  "chronologyCorrections": [
+    {
+      "originalStartChapter": 56,
+      "reviewedStartChapter": 62,
+      "reason": "O portal mostrava este movimento no capitulo 56. A marcha e batalha sao mostradas aqui apenas no 62; local do campo de batalha e aproximado.",
+      "characterId": "tyrion",
+      "sourceRecordIndex": 11
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 4,
+      "originalEndChapter": 27,
+      "reviewedEndChapter": 23,
+      "reason": "Bran IV, capitulo 24, atesta Tyrion em Winterfell; nao interpolacao.",
+      "evidence": [
+        {
+          "kind": "scan-corridor",
+          "label": "Corredor conferido no mapa-base; curvas aproximadas",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg; coordenadas nativas recortadas"
+        },
+        {
+          "kind": "journeys-reference",
+          "label": "Comparacao regional; nao copia de coordenadas ou de livros seguintes",
+          "locator": "mapas/jpeg/Viagens.jpg; mapas/jpeg/O Ocidente.jpg"
+        },
+        {
+          "kind": "legacy-record",
+          "label": "Registro original preservado para auditoria",
+          "locator": "portal-agot-v2-referencia.json; tyrion; registro 4"
+        },
+        {
+          "kind": "book-scene",
+          "label": "Contexto narrativo LeYa; nao certifica curvas nem distancias",
+          "locator": "AGOT-LEYA; capitulo global 24; OEBPS/Text/9788580442786_a_guerra_dos_tronos-27.html"
+        },
+        {
+          "kind": "spreadsheet",
+          "label": "Cronologia colaborativa; contexto, nao coordenadas",
+          "locator": "planilha-v3-referencia.json; gid=1740264601; linha 53"
+        }
+      ]
+    },
+    {
+      "originalStartChapter": 39,
+      "reviewedStartChapter": 40,
+      "reason": "A reuniao da hoste em Rochedo Casterly e informada no capitulo 40; o portal iniciava um trecho incompleto no 39.",
+      "characterId": "jaime",
+      "sourceRecordIndex": 6
+    },
+    {
+      "originalStartChapter": 55,
+      "reviewedStartChapter": 59,
+      "reason": "O cerco e conhecido no capitulo 59. O desvio por Wayfarer's Rest da fonte antiga nao foi transferido sem calibracao.",
+      "characterId": "jaime",
+      "sourceRecordIndex": 8
+    }
+  ],
+  "characters": [
+    {
+      "id": "jon",
+      "segments": 2,
+      "positions": 3,
+      "coverage": {
+        "sourceRecords": 9,
+        "positionRecords": 3,
+        "segmentRecords": 2,
+        "omittedRecords": 4,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "tyrion",
+      "segments": 10,
+      "positions": 8,
+      "coverage": {
+        "sourceRecords": 14,
+        "positionRecords": 6,
+        "segmentRecords": 5,
+        "omittedRecords": 3,
+        "supplementalSegments": 5,
+        "supplementalPositions": 2
+      }
+    },
+    {
+      "id": "robb",
+      "segments": 4,
+      "positions": 5,
+      "coverage": {
+        "sourceRecords": 12,
+        "positionRecords": 5,
+        "segmentRecords": 4,
+        "omittedRecords": 3,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "catelyn",
+      "segments": 10,
+      "positions": 7,
+      "coverage": {
+        "sourceRecords": 22,
+        "positionRecords": 7,
+        "segmentRecords": 10,
+        "omittedRecords": 5,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "eddard",
+      "segments": 3,
+      "positions": 3,
+      "coverage": {
+        "sourceRecords": 11,
+        "positionRecords": 3,
+        "segmentRecords": 3,
+        "omittedRecords": 5,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "arya",
+      "segments": 3,
+      "positions": 2,
+      "coverage": {
+        "sourceRecords": 8,
+        "positionRecords": 2,
+        "segmentRecords": 3,
+        "omittedRecords": 3,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "sansa",
+      "segments": 3,
+      "positions": 2,
+      "coverage": {
+        "sourceRecords": 7,
+        "positionRecords": 2,
+        "segmentRecords": 3,
+        "omittedRecords": 2,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "bran",
+      "segments": 0,
+      "positions": 2,
+      "coverage": {
+        "sourceRecords": 4,
+        "positionRecords": 2,
+        "segmentRecords": 0,
+        "omittedRecords": 2,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "theon",
+      "segments": 4,
+      "positions": 5,
+      "coverage": {
+        "sourceRecords": 12,
+        "positionRecords": 5,
+        "segmentRecords": 4,
+        "omittedRecords": 3,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "daenerys",
+      "segments": 3,
+      "positions": 2,
+      "coverage": {
+        "sourceRecords": 9,
+        "positionRecords": 2,
+        "segmentRecords": 3,
+        "omittedRecords": 4,
+        "supplementalSegments": 0,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "jaime",
+      "segments": 8,
+      "positions": 5,
+      "coverage": {
+        "sourceRecords": 14,
+        "positionRecords": 5,
+        "segmentRecords": 4,
+        "omittedRecords": 5,
+        "supplementalSegments": 4,
+        "supplementalPositions": 0
+      }
+    },
+    {
+      "id": "cersei",
+      "segments": 4,
+      "positions": 3,
+      "coverage": {
+        "sourceRecords": 6,
+        "positionRecords": 3,
+        "segmentRecords": 1,
+        "omittedRecords": 2,
+        "supplementalSegments": 3,
+        "supplementalPositions": 0
+      }
+    }
+  ],
+  "unresolved": [
+    "Execution site near Winterfell, Jon's oath grove and patrol endpoints not calibrated.",
+    "Local Darry/Hayford detours not measured; no new settlement identity guessed.",
+    "Whispering Wood, Green Fork battlefield and Lhazareen village only regional corridors.",
+    "No exact position inferred from route vertices, dates or sheet allocations."
+  ],
+  "preserved": [
+    "all 182 physical points and identities",
+    "chapters 0-72",
+    "frozen book-name audit",
+    "original portal",
+    "image masters and tiles"
+  ]
+}

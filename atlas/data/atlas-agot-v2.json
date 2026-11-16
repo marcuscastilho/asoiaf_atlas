@@ -1,0 +1,3988 @@
+{
+  "schemaVersion": 2,
+  "datasetId": "agot-atlas-v2",
+  "mapId": "o-mundo-conhecido",
+  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
+  "coordinateSystem": "cropped-native-pixels",
+  "mapWidth": 21654,
+  "mapHeight": 14428,
+  "cropBoxOriented": [
+    0,
+    2336,
+    21654,
+    16764
+  ],
+  "controlPoints": [
+    {
+      "id": "Winterfell",
+      "originalKey": "Winterfell",
+      "label": "Winterfell",
+      "english": "Winterfell",
+      "x": 3640,
+      "y": 3720,
+      "status": "manual-review",
+      "sourceLatLng": [
+        66.24916310923315,
+        -123.3251953125
+      ],
+      "oldPixel": [
+        730.7901204427084,
+        1168.9997558593748
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        },
+        {
+          "kind": "book-term",
+          "label": "AGOT-LEYA: ocorrencia do nome; nao confirma coordenadas nem edicao Suma",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-4.html"
+        }
+      ],
+      "note": "Centro aproximado do simbolo; pendente de revisao visual.",
+      "region": "norte"
+    },
+    {
+      "id": "Castle_Black",
+      "originalKey": "Castle_Black",
+      "label": "Castelo Negro",
+      "english": "Castle Black",
+      "x": 4260,
+      "y": 2370,
+      "status": "manual-review",
+      "sourceLatLng": [
+        76.26869465080624,
+        -106.69921875
+      ],
+      "oldPixel": [
+        945.1728515625,
+        757.0449218749992
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        },
+        {
+          "kind": "book-term",
+          "label": "AGOT-LEYA: ocorrencia do nome; nao confirma coordenadas nem edicao Suma",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-3.html"
+        }
+      ],
+      "note": "Centro aproximado do simbolo; pendente de revisao visual.",
+      "region": "norte"
+    },
+    {
+      "id": "Dreadfort",
+      "originalKey": "Dreadfort",
+      "label": "Forte do Pavor",
+      "english": "Dreadfort",
+      "x": 4540,
+      "y": 3580,
+      "status": "manual-review",
+      "sourceLatLng": [
+        67.42436394630637,
+        -102.5830078125
+      ],
+      "oldPixel": [
+        998.2491048177084,
+        1130.467529296875
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        },
+        {
+          "kind": "book-term",
+          "label": "AGOT-LEYA: ocorrencia do nome; nao confirma coordenadas nem edicao Suma",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html"
+        }
+      ],
+      "note": "Centro aproximado do simbolo; pendente de revisao visual.",
+      "region": "norte"
+    },
+    {
+      "id": "White_Harbor",
+      "originalKey": "White_Harbor",
+      "label": "Porto Branco",
+      "english": "White Harbor",
+      "x": 4100,
+      "y": 4590,
+      "status": "manual-review",
+      "sourceLatLng": [
+        56.68037378950136,
+        -114.0966796875
+      ],
+      "oldPixel": [
+        849.7867024739584,
+        1429.658935546875
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        },
+        {
+          "kind": "book-term",
+          "label": "AGOT-LEYA: ocorrencia do nome; nao confirma coordenadas nem edicao Suma",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html"
+        }
+      ],
+      "note": "Centro aproximado do simbolo; pendente de revisao visual.",
+      "region": "norte"
+    },
+    {
+      "id": "Moat_Cailin",
+      "originalKey": "Moat_Cailin",
+      "label": "Fosso Cailin",
+      "english": "Moat Cailin",
+      "x": 3680,
+      "y": 4780,
+      "status": "manual-review",
+      "sourceLatLng": [
+        53.87844040332883,
+        -122.3583984375
+      ],
+      "oldPixel": [
+        743.2564290364584,
+        1493.123779296875
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        },
+        {
+          "kind": "book-term",
+          "label": "AGOT-LEYA: ocorrencia do nome; nao confirma coordenadas nem edicao Suma",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"
+        }
+      ],
+      "note": "Centro aproximado do simbolo; pendente de revisao visual.",
+      "region": "norte"
+    },
+    {
+      "id": "Barrowton",
+      "originalKey": "Barrowton",
+      "label": "Vila Acidentada",
+      "english": "Barrowton",
+      "x": 3005,
+      "y": 4490,
+      "status": "manual-review",
+      "sourceLatLng": [
+        57.58655886615978,
+        -136.5966796875
+      ],
+      "oldPixel": [
+        559.6617024739583,
+        1408.1262207031248
+      ],
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Simbolo e nome impressos, inspecao manual",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Chave, coordenada antiga e dicionario pt-BR",
+          "locator": "assets/js/data.js + assets/js/i18n-pt.js"
+        }
+      ],
+      "note": "Centro aproximado; nome impresso e dicionario existente. Evidencia literaria pendente.",
+      "region": "norte"
+    },
+    {
+      "id": "Twins",
+      "originalKey": "Twins",
+      "label": "As G\u00eameas",
+      "english": "Twins",
+      "x": 3535,
+      "y": 5740,
+      "region": "westeros",
+      "sourceLatLng": [
+        38.59970036588819,
+        -128.73046875
+      ],
+      "oldPixel": [
+        661.0921223958334,
+        1780.6988525390625
+      ],
+      "status": "manual-review",
+      "note": "Referencia no centro do par de castelos impressos. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Riverrun",
+      "originalKey": "Riverrun",
+      "label": "Correrrio",
+      "english": "Riverrun",
+      "x": 3360,
+      "y": 6460,
+      "region": "westeros",
+      "sourceLatLng": [
+        22.28909641872304,
+        -128.291015625
+      ],
+      "oldPixel": [
+        666.7586263020834,
+        2026.0584716796875
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Eyrie",
+      "originalKey": "Eyrie",
+      "label": "Ninho da \u00c1guia",
+      "english": "Eyrie",
+      "x": 4595,
+      "y": 6050,
+      "region": "westeros",
+      "sourceLatLng": [
+        31.76553740948437,
+        -102.4951171875
+      ],
+      "oldPixel": [
+        999.3824055989584,
+        1888.645751953125
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Gulltown",
+      "originalKey": "Gulltown",
+      "label": "Vila Gaivota",
+      "english": "Gulltown",
+      "x": 5325,
+      "y": 6240,
+      "region": "westeros",
+      "sourceLatLng": [
+        29.42046034101313,
+        -84.2138671875
+      ],
+      "oldPixel": [
+        1235.1089680989583,
+        1923.778076171875
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Harrenhal",
+      "originalKey": "Harrenhal",
+      "label": "Harrenhal",
+      "english": "Harrenhal",
+      "x": 4050,
+      "y": 6670,
+      "region": "westeros",
+      "sourceLatLng": [
+        18.25021997706559,
+        -114.404296875
+      ],
+      "oldPixel": [
+        845.8201497395834,
+        2081.5902099609375
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "King%27s_Landing",
+      "originalKey": "King%27s_Landing",
+      "label": "Porto Real",
+      "english": "King's Landing",
+      "x": 4350,
+      "y": 7400,
+      "region": "westeros",
+      "sourceLatLng": [
+        1.318243056862013,
+        -105.99609375
+      ],
+      "oldPixel": [
+        954.2392578125,
+        2304.00048828125
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Dragonstone",
+      "originalKey": "Dragonstone",
+      "label": "Pedra do Drag\u00e3o",
+      "english": "Dragonstone",
+      "x": 5175,
+      "y": 6940,
+      "region": "westeros",
+      "sourceLatLng": [
+        13.19716452328198,
+        -85.5322265625
+      ],
+      "oldPixel": [
+        1218.1094563802083,
+        2149.304931640625
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Highgarden",
+      "originalKey": "Highgarden",
+      "label": "Jardim de Cima",
+      "english": "Highgarden",
+      "x": 2865,
+      "y": 8380,
+      "region": "westeros",
+      "sourceLatLng": [
+        -23.966175871265,
+        -138.3544921875
+      ],
+      "oldPixel": [
+        536.9956868489583,
+        2639.4575195312495
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Oldtown",
+      "originalKey": "Oldtown",
+      "label": "Vilavelha",
+      "english": "Oldtown",
+      "x": 2365,
+      "y": 8960,
+      "region": "westeros",
+      "sourceLatLng": [
+        -36.6331620955865,
+        -149.8681640625
+      ],
+      "oldPixel": [
+        388.5332845052083,
+        2829.285400390624
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Pyke",
+      "originalKey": "Pyke",
+      "label": "Pyke",
+      "english": "Pyke",
+      "x": 2400,
+      "y": 6160,
+      "region": "westeros",
+      "sourceLatLng": [
+        27.74188463250708,
+        -150.615234375
+      ],
+      "oldPixel": [
+        378.9002278645833,
+        1948.4273681640625
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Casterly_Rock",
+      "originalKey": "Casterly_Rock",
+      "label": "Rochedo Casterly",
+      "english": "Casterly Rock",
+      "x": 2360,
+      "y": 7060,
+      "region": "westeros",
+      "sourceLatLng": [
+        6.315298538330033,
+        -151.3623046875
+      ],
+      "oldPixel": [
+        369.2671712239583,
+        2239.40234375
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Braavos",
+      "originalKey": "Braavos",
+      "label": "Braavos",
+      "english": "Braavos",
+      "x": 6350,
+      "y": 5490,
+      "region": "essos",
+      "sourceLatLng": [
+        43.929549935614595,
+        -59.7802734375
+      ],
+      "oldPixel": [
+        1550.1665852864583,
+        1689.1848144531245
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Lorath",
+      "originalKey": "Lorath",
+      "label": "Lorath",
+      "english": "Lorath",
+      "x": 7210,
+      "y": 5710,
+      "region": "essos",
+      "sourceLatLng": [
+        39.774769485295494,
+        -39.3896484375
+      ],
+      "oldPixel": [
+        1813.0923665364583,
+        1761.1494140624995
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Norvos",
+      "originalKey": "Norvos",
+      "label": "Norvos",
+      "english": "Norvos",
+      "x": 7530,
+      "y": 6700,
+      "region": "essos",
+      "sourceLatLng": [
+        19.725342248057906,
+        -31.34765625
+      ],
+      "oldPixel": [
+        1916.7893880208333,
+        2061.4741210937495
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Pentos",
+      "originalKey": "Pentos",
+      "label": "Pentos",
+      "english": "Pentos",
+      "x": 6415,
+      "y": 7325,
+      "region": "essos",
+      "sourceLatLng": [
+        4.083452772038656,
+        -59.1650390625
+      ],
+      "oldPixel": [
+        1558.0996907552083,
+        2268.3015136718745
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Qohor",
+      "originalKey": "Qohor",
+      "label": "Qohor",
+      "english": "Qohor",
+      "x": 8575,
+      "y": 7325,
+      "region": "essos",
+      "sourceLatLng": [
+        4.477856485570624,
+        -5.5078125
+      ],
+      "oldPixel": [
+        2249.979817708333,
+        2263.2016601562495
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Ny_Sar",
+      "originalKey": "Ny_Sar",
+      "label": "Ny Sar",
+      "english": "Ny Sar",
+      "x": 7635,
+      "y": 7555,
+      "region": "essos",
+      "sourceLatLng": [
+        -1.054627942275836,
+        -29.7216796875
+      ],
+      "oldPixel": [
+        1937.7554524739583,
+        2334.5996093749995
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Ar_Noy",
+      "originalKey": "Ar_Noy",
+      "label": "Ar Noy",
+      "english": "Ar Noy",
+      "x": 8180,
+      "y": 7675,
+      "region": "essos",
+      "sourceLatLng": [
+        -3.864254615721357,
+        -16.845703125
+      ],
+      "oldPixel": [
+        2103.784016927083,
+        2370.8652343749995
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Myr",
+      "originalKey": "Myr",
+      "label": "Myr",
+      "english": "Myr",
+      "x": 6790,
+      "y": 8450,
+      "region": "essos",
+      "sourceLatLng": [
+        -23.28171917559998,
+        -49.189453125
+      ],
+      "oldPixel": [
+        1686.7293294270833,
+        2629.8244628906245
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Tyrosh",
+      "originalKey": "Tyrosh",
+      "label": "Tyrosh",
+      "english": "Tyrosh",
+      "x": 5930,
+      "y": 8610,
+      "region": "essos",
+      "sourceLatLng": [
+        -26.70635985763348,
+        -69.31640625
+      ],
+      "oldPixel": [
+        1427.2034505208333,
+        2678.556396484374
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Lys",
+      "originalKey": "Lys",
+      "label": "Lys",
+      "english": "Lys",
+      "x": 6460,
+      "y": 9470,
+      "region": "essos",
+      "sourceLatLng": [
+        -43.77109381775646,
+        -56.9677734375
+      ],
+      "oldPixel": [
+        1586.4322102864583,
+        2949.9819335937495
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Volantis",
+      "originalKey": "Volantis",
+      "label": "Volantis",
+      "english": "Volantis",
+      "x": 8340,
+      "y": 9530,
+      "region": "essos",
+      "sourceLatLng": [
+        -44.37098696297168,
+        -10.693359375
+      ],
+      "oldPixel": [
+        2183.115071614583,
+        2960.7482910156245
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Vaes_Dothrak",
+      "originalKey": "Vaes_Dothrak",
+      "label": "Vaes Dothrak",
+      "english": "Vaes Dothrak",
+      "x": 13845,
+      "y": 6830,
+      "region": "essos",
+      "sourceLatLng": [
+        -18.02052765785228,
+        71.8359375
+      ],
+      "oldPixel": [
+        3247.2845052083335,
+        2557.2932128906245
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Meereen",
+      "originalKey": "Meereen",
+      "label": "Meereen",
+      "english": "Meereen",
+      "x": 11765,
+      "y": 8980,
+      "region": "essos",
+      "sourceLatLng": [
+        -45.49094569262728,
+        80.44921875
+      ],
+      "oldPixel": [
+        3358.3479817708335,
+        2981.147705078124
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Yunkai",
+      "originalKey": "Yunkai",
+      "label": "Yunkai",
+      "english": "Yunkai",
+      "x": 11470,
+      "y": 9245,
+      "region": "essos",
+      "sourceLatLng": [
+        -49.78126405817831,
+        75.4833984375
+      ],
+      "oldPixel": [
+        3294.3164876302085,
+        3063.3120117187495
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    },
+    {
+      "id": "Astapor",
+      "originalKey": "Astapor",
+      "label": "Astapor",
+      "english": "Astapor",
+      "x": 11325,
+      "y": 9945,
+      "region": "essos",
+      "sourceLatLng": [
+        -58.69977573144003,
+        71.7919921875
+      ],
+      "oldPixel": [
+        3246.7178548177085,
+        3261.072998046874
+      ],
+      "status": "manual-review",
+      "note": "Centro aproximado do simbolo impresso; em revisao. Nome do dicionario existente; verificacao literaria independente pendente.",
+      "evidence": [
+        {
+          "kind": "scan",
+          "label": "Nome e simbolo impressos; inspecao manual aproximada",
+          "locator": "mapas/jpeg/O Mundo Conhecido.jpg"
+        },
+        {
+          "kind": "portal-dictionary",
+          "label": "Nome e identidade herdados, nao certificacao literaria",
+          "locator": "assets/js/i18n-pt.js + assets/js/data.js"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "index": 0,
+      "title": "A Guerra dos Tronos-0: Pr\u00f3logo",
+      "originalTitle": "AGOT-0: Prologue"
+    },
+    {
+      "index": 1,
+      "title": "A Guerra dos Tronos-1: Bran I",
+      "originalTitle": "AGOT-1: Bran I"
+    },
+    {
+      "index": 2,
+      "title": "A Guerra dos Tronos-2: Catelyn I",
+      "originalTitle": "AGOT-2: Catelyn I"
+    },
+    {
+      "index": 3,
+      "title": "A Guerra dos Tronos-3: Daenerys I",
+      "originalTitle": "AGOT-3: Daenerys I"
+    },
+    {
+      "index": 4,
+      "title": "A Guerra dos Tronos-4: Eddard I",
+      "originalTitle": "AGOT-4: Eddard I"
+    },
+    {
+      "index": 5,
+      "title": "A Guerra dos Tronos-5: Jon I",
+      "originalTitle": "AGOT-5: Jon I"
+    },
+    {
+      "index": 6,
+      "title": "A Guerra dos Tronos-6: Catelyn II",
+      "originalTitle": "AGOT-6: Catelyn II"
+    },
+    {
+      "index": 7,
+      "title": "A Guerra dos Tronos-7: Arya I",
+      "originalTitle": "AGOT-7: Arya I"
+    },
+    {
+      "index": 8,
+      "title": "A Guerra dos Tronos-8: Bran II",
+      "originalTitle": "AGOT-8: Bran II"
+    },
+    {
+      "index": 9,
+      "title": "A Guerra dos Tronos-9: Tyrion I",
+      "originalTitle": "AGOT-9: Tyrion I"
+    },
+    {
+      "index": 10,
+      "title": "A Guerra dos Tronos-10: Jon II",
+      "originalTitle": "AGOT-10: Jon II"
+    },
+    {
+      "index": 11,
+      "title": "A Guerra dos Tronos-11: Daenerys II",
+      "originalTitle": "AGOT-11: Daenerys II"
+    },
+    {
+      "index": 12,
+      "title": "A Guerra dos Tronos-12: Eddard II",
+      "originalTitle": "AGOT-12: Eddard II"
+    },
+    {
+      "index": 13,
+      "title": "A Guerra dos Tronos-13: Tyrion II",
+      "originalTitle": "AGOT-13: Tyrion II"
+    },
+    {
+      "index": 14,
+      "title": "A Guerra dos Tronos-14: Catelyn III",
+      "originalTitle": "AGOT-14: Catelyn III"
+    },
+    {
+      "index": 15,
+      "title": "A Guerra dos Tronos-15: Sansa I",
+      "originalTitle": "AGOT-15: Sansa I"
+    },
+    {
+      "index": 16,
+      "title": "A Guerra dos Tronos-16: Eddard III",
+      "originalTitle": "AGOT-16: Eddard III"
+    },
+    {
+      "index": 17,
+      "title": "A Guerra dos Tronos-17: Bran III",
+      "originalTitle": "AGOT-17: Bran III"
+    },
+    {
+      "index": 18,
+      "title": "A Guerra dos Tronos-18: Catelyn IV",
+      "originalTitle": "AGOT-18: Catelyn IV"
+    },
+    {
+      "index": 19,
+      "title": "A Guerra dos Tronos-19: Jon III",
+      "originalTitle": "AGOT-19: Jon III"
+    },
+    {
+      "index": 20,
+      "title": "A Guerra dos Tronos-20: Eddard IV",
+      "originalTitle": "AGOT-20: Eddard IV"
+    },
+    {
+      "index": 21,
+      "title": "A Guerra dos Tronos-21: Tyrion III",
+      "originalTitle": "AGOT-21: Tyrion III"
+    },
+    {
+      "index": 22,
+      "title": "A Guerra dos Tronos-22: Arya II",
+      "originalTitle": "AGOT-22: Arya II"
+    },
+    {
+      "index": 23,
+      "title": "A Guerra dos Tronos-23: Daenerys III",
+      "originalTitle": "AGOT-23: Daenerys III"
+    },
+    {
+      "index": 24,
+      "title": "A Guerra dos Tronos-24: Bran IV",
+      "originalTitle": "AGOT-24: Bran IV"
+    },
+    {
+      "index": 25,
+      "title": "A Guerra dos Tronos-25: Eddard V",
+      "originalTitle": "AGOT-25: Eddard V"
+    },
+    {
+      "index": 26,
+      "title": "A Guerra dos Tronos-26: Jon IV",
+      "originalTitle": "AGOT-26: Jon IV"
+    },
+    {
+      "index": 27,
+      "title": "A Guerra dos Tronos-27: Eddard VI",
+      "originalTitle": "AGOT-27: Eddard VI"
+    },
+    {
+      "index": 28,
+      "title": "A Guerra dos Tronos-28: Catelyn V",
+      "originalTitle": "AGOT-28: Catelyn V"
+    },
+    {
+      "index": 29,
+      "title": "A Guerra dos Tronos-29: Sansa II",
+      "originalTitle": "AGOT-29: Sansa II"
+    },
+    {
+      "index": 30,
+      "title": "A Guerra dos Tronos-30: Eddard VII",
+      "originalTitle": "AGOT-30: Eddard VII"
+    },
+    {
+      "index": 31,
+      "title": "A Guerra dos Tronos-31: Tyrion IV",
+      "originalTitle": "AGOT-31: Tyrion IV"
+    },
+    {
+      "index": 32,
+      "title": "A Guerra dos Tronos-32: Arya III",
+      "originalTitle": "AGOT-32: Arya III"
+    },
+    {
+      "index": 33,
+      "title": "A Guerra dos Tronos-33: Eddard VIII",
+      "originalTitle": "AGOT-33: Eddard VIII"
+    },
+    {
+      "index": 34,
+      "title": "A Guerra dos Tronos-34: Catelyn VI",
+      "originalTitle": "AGOT-34: Catelyn VI"
+    },
+    {
+      "index": 35,
+      "title": "A Guerra dos Tronos-35: Eddard IX",
+      "originalTitle": "AGOT-35: Eddard IX"
+    },
+    {
+      "index": 36,
+      "title": "A Guerra dos Tronos-36: Daenerys IV",
+      "originalTitle": "AGOT-36: Daenerys IV"
+    },
+    {
+      "index": 37,
+      "title": "A Guerra dos Tronos-37: Bran V",
+      "originalTitle": "AGOT-37: Bran V"
+    },
+    {
+      "index": 38,
+      "title": "A Guerra dos Tronos-38: Tyrion V",
+      "originalTitle": "AGOT-38: Tyrion V"
+    },
+    {
+      "index": 39,
+      "title": "A Guerra dos Tronos-39: Eddard X",
+      "originalTitle": "AGOT-39: Eddard X"
+    },
+    {
+      "index": 40,
+      "title": "A Guerra dos Tronos-40: Catelyn VII",
+      "originalTitle": "AGOT-40: Catelyn VII"
+    },
+    {
+      "index": 41,
+      "title": "A Guerra dos Tronos-41: Jon V",
+      "originalTitle": "AGOT-41: Jon V"
+    },
+    {
+      "index": 42,
+      "title": "A Guerra dos Tronos-42: Tyrion VI",
+      "originalTitle": "AGOT-42: Tyrion VI"
+    },
+    {
+      "index": 43,
+      "title": "A Guerra dos Tronos-43: Eddard XI",
+      "originalTitle": "AGOT-43: Eddard XI"
+    },
+    {
+      "index": 44,
+      "title": "A Guerra dos Tronos-44: Sansa III",
+      "originalTitle": "AGOT-44: Sansa III"
+    },
+    {
+      "index": 45,
+      "title": "A Guerra dos Tronos-45: Eddard XII",
+      "originalTitle": "AGOT-45: Eddard XII"
+    },
+    {
+      "index": 46,
+      "title": "A Guerra dos Tronos-46: Daenerys V",
+      "originalTitle": "AGOT-46: Daenerys V"
+    },
+    {
+      "index": 47,
+      "title": "A Guerra dos Tronos-47: Eddard XIII",
+      "originalTitle": "AGOT-47: Eddard XIII"
+    },
+    {
+      "index": 48,
+      "title": "A Guerra dos Tronos-48: Jon VI",
+      "originalTitle": "AGOT-48: Jon VI"
+    },
+    {
+      "index": 49,
+      "title": "A Guerra dos Tronos-49: Eddard XIV",
+      "originalTitle": "AGOT-49: Eddard XIV"
+    },
+    {
+      "index": 50,
+      "title": "A Guerra dos Tronos-50: Arya IV",
+      "originalTitle": "AGOT-50: Arya IV"
+    },
+    {
+      "index": 51,
+      "title": "A Guerra dos Tronos-51: Sansa IV",
+      "originalTitle": "AGOT-51: Sansa IV"
+    },
+    {
+      "index": 52,
+      "title": "A Guerra dos Tronos-52: Jon VII",
+      "originalTitle": "AGOT-52: Jon VII"
+    },
+    {
+      "index": 53,
+      "title": "A Guerra dos Tronos-53: Bran VI",
+      "originalTitle": "AGOT-53: Bran VI"
+    },
+    {
+      "index": 54,
+      "title": "A Guerra dos Tronos-54: Daenerys VI",
+      "originalTitle": "AGOT-54: Daenerys VI"
+    },
+    {
+      "index": 55,
+      "title": "A Guerra dos Tronos-55: Catelyn VIII",
+      "originalTitle": "AGOT-55: Catelyn VIII"
+    },
+    {
+      "index": 56,
+      "title": "A Guerra dos Tronos-56: Tyrion VII",
+      "originalTitle": "AGOT-56: Tyrion VII"
+    },
+    {
+      "index": 57,
+      "title": "A Guerra dos Tronos-57: Sansa V",
+      "originalTitle": "AGOT-57: Sansa V"
+    },
+    {
+      "index": 58,
+      "title": "A Guerra dos Tronos-58: Eddard XV",
+      "originalTitle": "AGOT-58: Eddard XV"
+    },
+    {
+      "index": 59,
+      "title": "A Guerra dos Tronos-59: Catelyn IX",
+      "originalTitle": "AGOT-59: Catelyn IX"
+    },
+    {
+      "index": 60,
+      "title": "A Guerra dos Tronos-60: Jon VIII",
+      "originalTitle": "AGOT-60: Jon VIII"
+    },
+    {
+      "index": 61,
+      "title": "A Guerra dos Tronos-61: Daenerys VII",
+      "originalTitle": "AGOT-61: Daenerys VII"
+    },
+    {
+      "index": 62,
+      "title": "A Guerra dos Tronos-62: Tyrion VIII",
+      "originalTitle": "AGOT-62: Tyrion VIII"
+    },
+    {
+      "index": 63,
+      "title": "A Guerra dos Tronos-63: Catelyn X",
+      "originalTitle": "AGOT-63: Catelyn X"
+    },
+    {
+      "index": 64,
+      "title": "A Guerra dos Tronos-64: Daenerys VIII",
+      "originalTitle": "AGOT-64: Daenerys VIII"
+    },
+    {
+      "index": 65,
+      "title": "A Guerra dos Tronos-65: Arya V",
+      "originalTitle": "AGOT-65: Arya V"
+    },
+    {
+      "index": 66,
+      "title": "A Guerra dos Tronos-66: Bran VII",
+      "originalTitle": "AGOT-66: Bran VII"
+    },
+    {
+      "index": 67,
+      "title": "A Guerra dos Tronos-67: Sansa VI",
+      "originalTitle": "AGOT-67: Sansa VI"
+    },
+    {
+      "index": 68,
+      "title": "A Guerra dos Tronos-68: Daenerys IX",
+      "originalTitle": "AGOT-68: Daenerys IX"
+    },
+    {
+      "index": 69,
+      "title": "A Guerra dos Tronos-69: Tyrion IX",
+      "originalTitle": "AGOT-69: Tyrion IX"
+    },
+    {
+      "index": 70,
+      "title": "A Guerra dos Tronos-70: Jon IX",
+      "originalTitle": "AGOT-70: Jon IX"
+    },
+    {
+      "index": 71,
+      "title": "A Guerra dos Tronos-71: Catelyn XI",
+      "originalTitle": "AGOT-71: Catelyn XI"
+    },
+    {
+      "index": 72,
+      "title": "A Guerra dos Tronos-72: Daenerys X",
+      "originalTitle": "AGOT-72: Daenerys X"
+    }
+  ],
+  "routes": [
+    {
+      "id": "jon",
+      "character": "Jon Snow",
+      "color": "#805d22",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 19,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jon-line-4",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3676.57,
+              3441.75
+            ],
+            [
+              4229.8,
+              2897.76
+            ],
+            [
+              4260,
+              2370
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                68.7204,
+                -121.1132
+              ],
+              "point": [
+                3676.57,
+                3441.75
+              ],
+              "method": "regional-affine-estimate"
+            },
+            {
+              "source": [
+                72.9454,
+                -108.457
+              ],
+              "point": [
+                4229.8,
+                2897.76
+              ],
+              "method": "regional-affine-estimate"
+            },
+            {
+              "source": "Castle_Black",
+              "point": [
+                4260,
+                2370
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 70,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jon-line-8",
+          "points": [
+            [
+              4260,
+              2370
+            ],
+            [
+              4378.36,
+              2511.63
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Castle_Black",
+              "point": [
+                4260,
+                2370
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                75.7589,
+                -106.6992
+              ],
+              "point": [
+                4378.36,
+                2511.63
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 0,
+          "status": "approximate",
+          "id": "jon-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 2,
+          "endChapter": 18,
+          "status": "approximate",
+          "id": "jon-position-3",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 19,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jon-position-5",
+          "locationId": "Castle_Black"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 1,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 1,
+          "endChapter": 1,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 48,
+          "endChapter": 72,
+          "reason": "Vertice fora do casco regional; extrapolacao recusada"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 52,
+          "endChapter": 72,
+          "reason": "Vertice fora do casco regional; extrapolacao recusada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.jon"
+        },
+        {
+          "kind": "book-context",
+          "label": "AGOT-LEYA, Jon I: contexto em Winterfell",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-8.html"
+        },
+        {
+          "kind": "book-context",
+          "label": "AGOT-LEYA, Tyrion II: viagem para o norte com Benjen e Jon pela estrada do rei",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html"
+        },
+        {
+          "kind": "book-context",
+          "label": "AGOT-LEYA, Jon III: contexto em Castelo Negro; nao confirma os vertices exatos do percurso",
+          "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"
+        },
+        {
+          "kind": "scan-reference",
+          "label": "Viagens: comparacao visual da cartografia e corredores; nao certifica sozinho personagem, geometria ou cronologia",
+          "locator": "mapas/jpeg/Viagens.jpg"
+        },
+        {
+          "kind": "portal",
+          "label": "Sequencia e ativacao por capitulo herdadas do portal existente; geometria em revisao",
+          "locator": "assets/js/data.js paths.jon[4]"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 9,
+        "positionRecords": 3,
+        "segmentRecords": 2,
+        "omittedRecords": 4
+      }
+    },
+    {
+      "id": "tyrion",
+      "character": "Tyrion Lannister",
+      "color": "#b04437",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 19,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "tyrion-line-3",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3676.57,
+              3441.75
+            ],
+            [
+              4229.8,
+              2897.76
+            ],
+            [
+              4260,
+              2370
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                68.7204,
+                -121.1132
+              ],
+              "point": [
+                3676.57,
+                3441.75
+              ],
+              "method": "regional-affine-estimate"
+            },
+            {
+              "source": [
+                72.9454,
+                -108.457
+              ],
+              "point": [
+                4229.8,
+                2897.76
+              ],
+              "method": "regional-affine-estimate"
+            },
+            {
+              "source": "Castle_Black",
+              "point": [
+                4260,
+                2370
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 34,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "tyrion-line-8",
+          "points": [
+            [
+              4412.45,
+              6269.52
+            ],
+            [
+              4470.7,
+              6232.23
+            ],
+            [
+              4595,
+              6050
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                27.4107,
+                -104.9121
+              ],
+              "point": [
+                4412.45,
+                6269.52
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                28.2656,
+                -103.5937
+              ],
+              "point": [
+                4470.7,
+                6232.23
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Eyrie",
+              "point": [
+                4595,
+                6050
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 11,
+          "startChapter": 56,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "tyrion-line-11",
+          "points": [
+            [
+              3730.45,
+              5985.81
+            ],
+            [
+              3649.56,
+              5981.97
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                32.6578,
+                -120.5419
+              ],
+              "point": [
+                3730.45,
+                5985.81
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                32.6578,
+                -122.3876
+              ],
+              "point": [
+                3649.56,
+                5981.97
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 3,
+          "status": "approximate",
+          "id": "tyrion-position-0",
+          "locationId": "King%27s_Landing"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 4,
+          "endChapter": 18,
+          "status": "approximate",
+          "id": "tyrion-position-2",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 19,
+          "endChapter": 27,
+          "status": "approximate",
+          "id": "tyrion-position-4",
+          "locationId": "Castle_Black"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 34,
+          "endChapter": 41,
+          "status": "approximate",
+          "id": "tyrion-position-9",
+          "locationId": "Eyrie"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 4,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Hayford"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 28,
+          "endChapter": 30,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 31,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 31,
+          "endChapter": 33,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 42,
+          "endChapter": 55,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 12,
+          "startChapter": 56,
+          "endChapter": 68,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 13,
+          "startChapter": 69,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.tyrion"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 14,
+        "positionRecords": 4,
+        "segmentRecords": 3,
+        "omittedRecords": 7
+      }
+    },
+    {
+      "id": "robb",
+      "character": "Robb Stark",
+      "color": "#426b70",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 55,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "robb-line-4",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3680,
+              4780
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 59,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "robb-line-6",
+          "points": [
+            [
+              3680,
+              4780
+            ],
+            [
+              3652.87,
+              5319.35
+            ],
+            [
+              3535,
+              5740
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                45.058,
+                -122.4902
+              ],
+              "point": [
+                3652.87,
+                5319.35
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Twins",
+              "point": [
+                3535,
+                5740
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "robb-line-10",
+          "points": [
+            [
+              3382.82,
+              6378.95
+            ],
+            [
+              3360,
+              6460
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                23.9661,
+                -128.3642
+              ],
+              "point": [
+                3382.82,
+                6378.95
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Riverrun",
+              "point": [
+                3360,
+                6460
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 0,
+          "status": "approximate",
+          "id": "robb-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 2,
+          "endChapter": 54,
+          "status": "approximate",
+          "id": "robb-position-3",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 55,
+          "endChapter": 58,
+          "status": "approximate",
+          "id": "robb-position-5",
+          "locationId": "Moat_Cailin"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 59,
+          "endChapter": 62,
+          "status": "approximate",
+          "id": "robb-position-7",
+          "locationId": "Twins"
+        },
+        {
+          "sourceRecordIndex": 11,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "robb-position-11",
+          "locationId": "Riverrun"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 1,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 1,
+          "endChapter": 1,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 63,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Fairmarket"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 63,
+          "endChapter": 70,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.robb"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 12,
+        "positionRecords": 5,
+        "segmentRecords": 3,
+        "omittedRecords": 4
+      }
+    },
+    {
+      "id": "catelyn",
+      "character": "Catelyn Stark",
+      "color": "#4267a0",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 22,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-line-3",
+          "points": [
+            [
+              4350,
+              7400
+            ],
+            [
+              4231.67,
+              6894.55
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "King%27s_Landing",
+              "point": [
+                4350,
+                7400
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                13.1115,
+                -108.8671
+              ],
+              "point": [
+                4231.67,
+                6894.55
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 34,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-line-10",
+          "points": [
+            [
+              4412.45,
+              6269.52
+            ],
+            [
+              4470.7,
+              6232.23
+            ],
+            [
+              4595,
+              6050
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                27.4107,
+                -104.9121
+              ],
+              "point": [
+                4412.45,
+                6269.52
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                28.2656,
+                -103.5937
+              ],
+              "point": [
+                4470.7,
+                6232.23
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Eyrie",
+              "point": [
+                4595,
+                6050
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 13,
+          "startChapter": 55,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-line-13",
+          "points": [
+            [
+              4100,
+              4590
+            ],
+            [
+              3680,
+              4780
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "White_Harbor",
+              "point": [
+                4100,
+                4590
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 15,
+          "startChapter": 59,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-line-15",
+          "points": [
+            [
+              3680,
+              4780
+            ],
+            [
+              3652.87,
+              5319.35
+            ],
+            [
+              3535,
+              5740
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                45.058,
+                -122.4902
+              ],
+              "point": [
+                3652.87,
+                5319.35
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Twins",
+              "point": [
+                3535,
+                5740
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 20,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-line-20",
+          "points": [
+            [
+              3382.82,
+              6378.95
+            ],
+            [
+              3360,
+              6460
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                23.9661,
+                -128.3642
+              ],
+              "point": [
+                3382.82,
+                6378.95
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Riverrun",
+              "point": [
+                3360,
+                6460
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 17,
+          "status": "approximate",
+          "id": "catelyn-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 18,
+          "endChapter": 21,
+          "status": "approximate",
+          "id": "catelyn-position-2",
+          "locationId": "King%27s_Landing"
+        },
+        {
+          "sourceRecordIndex": 11,
+          "startChapter": 34,
+          "endChapter": 54,
+          "status": "approximate",
+          "id": "catelyn-position-11",
+          "locationId": "Eyrie"
+        },
+        {
+          "sourceRecordIndex": 14,
+          "startChapter": 55,
+          "endChapter": 58,
+          "status": "approximate",
+          "id": "catelyn-position-14",
+          "locationId": "Moat_Cailin"
+        },
+        {
+          "sourceRecordIndex": 16,
+          "startChapter": 59,
+          "endChapter": 62,
+          "status": "approximate",
+          "id": "catelyn-position-16",
+          "locationId": "Twins"
+        },
+        {
+          "sourceRecordIndex": 21,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "catelyn-position-21",
+          "locationId": "Riverrun"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 18,
+          "endChapter": 72,
+          "reason": "Vertice fora do casco regional; extrapolacao recusada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 22,
+          "endChapter": 27,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 28,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 28,
+          "endChapter": 72,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 28,
+          "endChapter": 30,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 31,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Crossroads_Inn"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 31,
+          "endChapter": 33,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 12,
+          "startChapter": 55,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Ironoaks"
+        },
+        {
+          "sourceRecordIndex": 17,
+          "startChapter": 63,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Fairmarket"
+        },
+        {
+          "sourceRecordIndex": 18,
+          "startChapter": 63,
+          "endChapter": 72,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 19,
+          "startChapter": 63,
+          "endChapter": 70,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        17,
+        18,
+        19
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.catelyn"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 22,
+        "positionRecords": 6,
+        "segmentRecords": 5,
+        "omittedRecords": 11
+      }
+    },
+    {
+      "id": "eddard",
+      "character": "Eddard Stark",
+      "color": "#566353",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 12,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "eddard-line-4",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3565.96,
+              3864.06
+            ],
+            [
+              3666.95,
+              4451.51
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                64.6991,
+                -124.8632
+              ],
+              "point": [
+                3565.96,
+                3864.06
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 15,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "eddard-line-6",
+          "points": [
+            [
+              3666.95,
+              4451.51
+            ],
+            [
+              3656.4,
+              5346.84
+            ],
+            [
+              3734.93,
+              5550.86
+            ],
+            [
+              3666.41,
+              5806.15
+            ],
+            [
+              3688.14,
+              5923.71
+            ],
+            [
+              4007.49,
+              6295.77
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                44.5904,
+                -122.4023
+              ],
+              "point": [
+                3656.4,
+                5346.84
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                41.0462,
+                -120.5566
+              ],
+              "point": [
+                3734.93,
+                5550.86
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                36.1733,
+                -122.0507
+              ],
+              "point": [
+                3666.41,
+                5806.15
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                33.8704,
+                -121.5234
+              ],
+              "point": [
+                3688.14,
+                5923.71
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                26.4312,
+                -114.1406
+              ],
+              "point": [
+                4007.49,
+                6295.77
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 0,
+          "status": "approximate",
+          "id": "eddard-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 2,
+          "endChapter": 11,
+          "status": "approximate",
+          "id": "eddard-position-3",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 20,
+          "endChapter": 64,
+          "status": "approximate",
+          "id": "eddard-position-9",
+          "locationId": "King%27s_Landing"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 1,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 1,
+          "endChapter": 1,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 12,
+          "endChapter": 14,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 15,
+          "endChapter": 19,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 20,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Darry"
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 65,
+          "endChapter": 72,
+          "reason": "Evento especial nao importado neste piloto"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.eddard"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 11,
+        "positionRecords": 3,
+        "segmentRecords": 2,
+        "omittedRecords": 6
+      }
+    },
+    {
+      "id": "arya",
+      "character": "Arya Stark",
+      "color": "#9c512b",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 12,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "arya-line-1",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3565.96,
+              3864.06
+            ],
+            [
+              3666.95,
+              4451.51
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                64.6991,
+                -124.8632
+              ],
+              "point": [
+                3565.96,
+                3864.06
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 15,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "arya-line-3",
+          "points": [
+            [
+              3666.95,
+              4451.51
+            ],
+            [
+              3656.4,
+              5346.84
+            ],
+            [
+              3734.93,
+              5550.86
+            ],
+            [
+              3666.41,
+              5806.15
+            ],
+            [
+              3688.14,
+              5923.71
+            ],
+            [
+              4007.49,
+              6295.77
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                44.5904,
+                -122.4023
+              ],
+              "point": [
+                3656.4,
+                5346.84
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                41.0462,
+                -120.5566
+              ],
+              "point": [
+                3734.93,
+                5550.86
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                36.1733,
+                -122.0507
+              ],
+              "point": [
+                3666.41,
+                5806.15
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                33.8704,
+                -121.5234
+              ],
+              "point": [
+                3688.14,
+                5923.71
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                26.4312,
+                -114.1406
+              ],
+              "point": [
+                4007.49,
+                6295.77
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 11,
+          "status": "approximate",
+          "id": "arya-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 20,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "arya-position-7",
+          "locationId": "King%27s_Landing"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 12,
+          "endChapter": 14,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 15,
+          "endChapter": 72,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 15,
+          "endChapter": 19,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 20,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Darry"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.arya"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 8,
+        "positionRecords": 2,
+        "segmentRecords": 2,
+        "omittedRecords": 4
+      }
+    },
+    {
+      "id": "sansa",
+      "character": "Sansa Stark",
+      "color": "#a34868",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 12,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "sansa-line-1",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3565.96,
+              3864.06
+            ],
+            [
+              3666.95,
+              4451.51
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                64.6991,
+                -124.8632
+              ],
+              "point": [
+                3565.96,
+                3864.06
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 15,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "sansa-line-3",
+          "points": [
+            [
+              3666.95,
+              4451.51
+            ],
+            [
+              3656.4,
+              5346.84
+            ],
+            [
+              3734.93,
+              5550.86
+            ],
+            [
+              3666.41,
+              5806.15
+            ],
+            [
+              3688.14,
+              5923.71
+            ],
+            [
+              4007.49,
+              6295.77
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                57.9848,
+                -122.4023
+              ],
+              "point": [
+                3666.95,
+                4451.51
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                44.5904,
+                -122.4023
+              ],
+              "point": [
+                3656.4,
+                5346.84
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                41.0462,
+                -120.5566
+              ],
+              "point": [
+                3734.93,
+                5550.86
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                36.1733,
+                -122.0507
+              ],
+              "point": [
+                3666.41,
+                5806.15
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                33.8704,
+                -121.5234
+              ],
+              "point": [
+                3688.14,
+                5923.71
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                26.4312,
+                -114.1406
+              ],
+              "point": [
+                4007.49,
+                6295.77
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 11,
+          "status": "approximate",
+          "id": "sansa-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 20,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "sansa-position-6",
+          "locationId": "King%27s_Landing"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 12,
+          "endChapter": 14,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 15,
+          "endChapter": 19,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 20,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Darry"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        2,
+        4,
+        5
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.sansa"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 7,
+        "positionRecords": 2,
+        "segmentRecords": 2,
+        "omittedRecords": 3
+      }
+    },
+    {
+      "id": "bran",
+      "character": "Bran Stark",
+      "color": "#4c7442",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 0,
+          "status": "approximate",
+          "id": "bran-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 2,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "bran-position-3",
+          "locationId": "Winterfell"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 1,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 1,
+          "endChapter": 1,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.bran"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 4,
+        "positionRecords": 2,
+        "segmentRecords": 0,
+        "omittedRecords": 2
+      }
+    },
+    {
+      "id": "theon",
+      "character": "Theon Greyjoy",
+      "color": "#94731e",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 55,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "theon-line-4",
+          "points": [
+            [
+              3640,
+              3720
+            ],
+            [
+              3680,
+              4780
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Winterfell",
+              "point": [
+                3640,
+                3720
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 59,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "theon-line-6",
+          "points": [
+            [
+              3680,
+              4780
+            ],
+            [
+              3652.87,
+              5319.35
+            ],
+            [
+              3535,
+              5740
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Moat_Cailin",
+              "point": [
+                3680,
+                4780
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                45.058,
+                -122.4902
+              ],
+              "point": [
+                3652.87,
+                5319.35
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Twins",
+              "point": [
+                3535,
+                5740
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "theon-line-10",
+          "points": [
+            [
+              3382.82,
+              6378.95
+            ],
+            [
+              3360,
+              6460
+            ]
+          ],
+          "vertices": [
+            {
+              "source": [
+                23.9661,
+                -128.3642
+              ],
+              "point": [
+                3382.82,
+                6378.95
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": "Riverrun",
+              "point": [
+                3360,
+                6460
+              ],
+              "method": "manual-control-point"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 0,
+          "status": "approximate",
+          "id": "theon-position-0",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 2,
+          "endChapter": 54,
+          "status": "approximate",
+          "id": "theon-position-3",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 55,
+          "endChapter": 58,
+          "status": "approximate",
+          "id": "theon-position-5",
+          "locationId": "Moat_Cailin"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 59,
+          "endChapter": 62,
+          "status": "approximate",
+          "id": "theon-position-7",
+          "locationId": "Twins"
+        },
+        {
+          "sourceRecordIndex": 11,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "theon-position-11",
+          "locationId": "Riverrun"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 1,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 1,
+          "endChapter": 1,
+          "reason": "Localidade nao calibrada: Execution_Holdfast"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 63,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Fairmarket"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 63,
+          "endChapter": 70,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.theon"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 12,
+        "positionRecords": 5,
+        "segmentRecords": 3,
+        "omittedRecords": 4
+      }
+    },
+    {
+      "id": "daenerys",
+      "character": "Daenerys Targaryen",
+      "color": "#733a37",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 10,
+          "status": "approximate",
+          "id": "daenerys-position-0",
+          "locationId": "Pentos"
+        },
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 36,
+          "endChapter": 60,
+          "status": "approximate",
+          "id": "daenerys-position-6",
+          "locationId": "Vaes_Dothrak"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 11,
+          "endChapter": 72,
+          "reason": "Vertices diretos de Essos sem transformacao regional validada"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 11,
+          "endChapter": 22,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 23,
+          "endChapter": 72,
+          "reason": "Vertices diretos de Essos sem transformacao regional validada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 23,
+          "endChapter": 35,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 36,
+          "endChapter": 72,
+          "reason": "Vertices diretos de Essos sem transformacao regional validada"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 61,
+          "endChapter": 72,
+          "reason": "Vertices diretos de Essos sem transformacao regional validada"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 61,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Lhazar"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.daenerys"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 9,
+        "positionRecords": 2,
+        "segmentRecords": 0,
+        "omittedRecords": 7
+      }
+    },
+    {
+      "id": "jaime",
+      "character": "Jaime Lannister",
+      "color": "#906331",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [
+        {
+          "sourceRecordIndex": 6,
+          "startChapter": 39,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jaime-line-6",
+          "points": [
+            [
+              4350,
+              7400
+            ],
+            [
+              4235.96,
+              7402.75
+            ],
+            [
+              4037.04,
+              7276.76
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "King%27s_Landing",
+              "point": [
+                4350,
+                7400
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                0.9667,
+                -108.6328
+              ],
+              "point": [
+                4235.96,
+                7402.75
+              ],
+              "method": "westeros-affine-estimate"
+            },
+            {
+              "source": [
+                3.7765,
+                -113.2031
+              ],
+              "point": [
+                4037.04,
+                7276.76
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        },
+        {
+          "sourceRecordIndex": 11,
+          "startChapter": 63,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jaime-line-11",
+          "points": [
+            [
+              3360,
+              6460
+            ],
+            [
+              3382.82,
+              6378.95
+            ]
+          ],
+          "vertices": [
+            {
+              "source": "Riverrun",
+              "point": [
+                3360,
+                6460
+              ],
+              "method": "manual-control-point"
+            },
+            {
+              "source": [
+                23.9661,
+                -128.3642
+              ],
+              "point": [
+                3382.82,
+                6378.95
+              ],
+              "method": "westeros-affine-estimate"
+            }
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 3,
+          "status": "approximate",
+          "id": "jaime-position-0",
+          "locationId": "King%27s_Landing"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 4,
+          "endChapter": 11,
+          "status": "approximate",
+          "id": "jaime-position-2",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 20,
+          "endChapter": 38,
+          "status": "approximate",
+          "id": "jaime-position-5",
+          "locationId": "King%27s_Landing"
+        },
+        {
+          "sourceRecordIndex": 10,
+          "startChapter": 55,
+          "endChapter": 62,
+          "status": "approximate",
+          "id": "jaime-position-10",
+          "locationId": "Riverrun"
+        },
+        {
+          "sourceRecordIndex": 13,
+          "startChapter": 71,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "jaime-position-13",
+          "locationId": "Riverrun"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 4,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Hayford"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 12,
+          "endChapter": 14,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 15,
+          "endChapter": 19,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 7,
+          "startChapter": 39,
+          "endChapter": 54,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 8,
+          "startChapter": 55,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Deep_Den"
+        },
+        {
+          "sourceRecordIndex": 9,
+          "startChapter": 55,
+          "endChapter": 72,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 12,
+          "startChapter": 63,
+          "endChapter": 70,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.jaime"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 14,
+        "positionRecords": 5,
+        "segmentRecords": 2,
+        "omittedRecords": 7
+      }
+    },
+    {
+      "id": "cersei",
+      "character": "Cersei Lannister",
+      "color": "#8b4545",
+      "book": "A Guerra dos Tronos",
+      "status": "approximate",
+      "notice": "Importacao parcial do portal antigo. Linhas tracejadas aproximadas; lacunas nao indicam ausencia de movimento. Cronologia em revisao.",
+      "segments": [],
+      "positions": [
+        {
+          "sourceRecordIndex": 0,
+          "startChapter": 0,
+          "endChapter": 3,
+          "status": "approximate",
+          "id": "cersei-position-0",
+          "locationId": "King%27s_Landing"
+        },
+        {
+          "sourceRecordIndex": 2,
+          "startChapter": 4,
+          "endChapter": 11,
+          "status": "approximate",
+          "id": "cersei-position-2",
+          "locationId": "Winterfell"
+        },
+        {
+          "sourceRecordIndex": 5,
+          "startChapter": 20,
+          "endChapter": 72,
+          "status": "approximate",
+          "id": "cersei-position-5",
+          "locationId": "King%27s_Landing"
+        }
+      ],
+      "omittedRecords": [
+        {
+          "sourceRecordIndex": 1,
+          "startChapter": 4,
+          "endChapter": 72,
+          "reason": "Localidade nao calibrada: Hayford"
+        },
+        {
+          "sourceRecordIndex": 3,
+          "startChapter": 12,
+          "endChapter": 14,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        },
+        {
+          "sourceRecordIndex": 4,
+          "startChapter": 15,
+          "endChapter": 19,
+          "reason": "Marcador ou seta com coordenada avulsa; sem localidade calibrada"
+        }
+      ],
+      "omittedSourceRecordIndices": [
+        1,
+        3,
+        4
+      ],
+      "evidence": [
+        {
+          "kind": "portal",
+          "label": "Registros do primeiro livro; cronologia herdada",
+          "locator": "assets/js/data.js paths.cersei"
+        }
+      ],
+      "coverage": {
+        "sourceRecords": 6,
+        "positionRecords": 3,
+        "segmentRecords": 0,
+        "omittedRecords": 3
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "norte",
+      "label": "Norte",
+      "pointIds": [
+        "Winterfell",
+        "Castle_Black",
+        "Dreadfort",
+        "White_Harbor",
+        "Moat_Cailin",
+        "Barrowton"
+      ]
+    },
+    {
+      "id": "westeros",
+      "label": "Demais regioes de Westeros",
+      "pointIds": [
+        "Twins",
+        "Riverrun",
+        "Eyrie",
+        "Gulltown",
+        "Harrenhal",
+        "King%27s_Landing",
+        "Dragonstone",
+        "Highgarden",
+        "Oldtown",
+        "Pyke",
+        "Casterly_Rock"
+      ]
+    },
+    {
+      "id": "essos",
+      "label": "Essos",
+      "pointIds": [
+        "Braavos",
+        "Lorath",
+        "Norvos",
+        "Pentos",
+        "Qohor",
+        "Ny_Sar",
+        "Ar_Noy",
+        "Myr",
+        "Tyrosh",
+        "Lys",
+        "Volantis",
+        "Vaes_Dothrak",
+        "Meereen",
+        "Yunkai",
+        "Astapor"
+      ]
+    }
+  ],
+  "calibration": {
+    "method": "manual-anchors-with-conservative-regional-affine-route-estimates",
+    "notice": "Residuals describe fit disagreement, NOT ground-truth accuracy. Locality markers use manual anchors, never fitted positions. The Westeros model is not applied to Essos. Road geometry remains unreviewed.",
+    "westerosModel": {
+      "sourceOrigin": [
+        769.4778980928309,
+        1835.1806209788601
+      ],
+      "coefficients": [
+        [
+          3.3986822842767004,
+          -0.037832330202539705,
+          3741.470588235294
+        ],
+        [
+          0.1616423708810291,
+          3.211435825674125,
+          5858.235294117647
+        ]
+      ]
+    },
+    "westerosControlPointResiduals": [
+      {
+        "id": "Winterfell",
+        "pixels": 8.84
+      },
+      {
+        "id": "Castle_Black",
+        "pixels": 131.15
+      },
+      {
+        "id": "Dreadfort",
+        "pixels": 52.38
+      },
+      {
+        "id": "White_Harbor",
+        "pixels": 73.34
+      },
+      {
+        "id": "Moat_Cailin",
+        "pixels": 28.57
+      },
+      {
+        "id": "Barrowton",
+        "pixels": 54.24
+      },
+      {
+        "id": "Twins",
+        "pixels": 176.24
+      },
+      {
+        "id": "Riverrun",
+        "pixels": 25.71
+      },
+      {
+        "id": "Eyrie",
+        "pixels": 76.12
+      },
+      {
+        "id": "Gulltown",
+        "pixels": 22.4
+      },
+      {
+        "id": "Harrenhal",
+        "pixels": 58.95
+      },
+      {
+        "id": "King%27s_Landing",
+        "pixels": 6.53
+      },
+      {
+        "id": "Dragonstone",
+        "pixels": 79.34
+      },
+      {
+        "id": "Highgarden",
+        "pixels": 60.66
+      },
+      {
+        "id": "Oldtown",
+        "pixels": 52.91
+      },
+      {
+        "id": "Pyke",
+        "pixels": 9.81
+      },
+      {
+        "id": "Casterly_Rock",
+        "pixels": 32.24
+      }
+    ],
+    "sourceProjection": "Inverse of catalogLatLng in assets/js/app.js; 4642px Web Mercator artwork",
+    "preservedNorthernRoute": "piloto-norte.json route.segments[0], vertices copied without refitting"
+  },
+  "sourceFiles": {
+    "assets/js/data.js": "4f2fca829ed90b2526d87ef2a5eb02664bd195e9897b3718eddb8fe3cef41079",
+    "assets/js/i18n-pt.js": "2a9c084ad7f651174e8f6585d9ed91a59a29360fdb015831d1bf30a561dd9fe3"
+  },
+  "inputSha256": {
+    "calibracao-agot-v2.json": "bb254d03f5109d5a65c2a26b91684485507e12c4becffd069997c0ff0309b276",
+    "portal-agot-v2-referencia.json": "35b0d45cfa09db0e7d8d7f15a5cb3ac1e23a59938c0297c2f64e6b25d51686d1",
+    "piloto-norte.json": "f109e2cbc697027b439ab1db8321181b24feeabbcda332a3e16d01a30a5e80a3",
+    "mapa.json": "a131bd84cfff07d327d1d203f2e721425ebff929d1460314adeff4bf46d975ce"
+  },
+  "limitations": [
+    "Conjunto parcial de A Guerra dos Tronos (capitulos 0 a 72); nao inclui os demais livros.",
+    "Posicoes e ativacao por capitulo sao herdadas do portal antigo, sem nova certificacao integral da cronologia.",
+    "Linhas tracejadas sao estimativas cartograficas, nao estradas medidas nem percursos literarios confirmados.",
+    "As novas localidades foram conferidas contra nomes e simbolos impressos. Seus nomes interativos vem do dicionario existente; a verificacao literaria independente continua pendente.",
+    "Coordenadas avulsas de marcadores, setas e eventos especiais nao sao convertidos em localidades ficticias. Lacunas permanecem explicitas.",
+    "Vertices diretos em Westeros so sao transferidos dentro do casco dos pontos de controle; nenhum ponto e extrapolado.",
+    "Essos nao usa a transformacao de Westeros. Daenerys tem apenas as posicoes nomeadas calibradas; seus percursos intermediarios continuam pendentes.",
+    "Lhazar e uma regiao, nao uma cidade identificada no mapa; nao foi criada uma posicao artificial para ela.",
+    "Linhas com alguma localidade nao calibrada sao omitidas por inteiro; nao ha atalhos ligando os trechos restantes.",
+    "Fontes LeYa e Suma permanecem distintas; nome no dicionario nao equivale a evidencia literaria certificada.",
+    "Planilha nao consultada: aguardando autorizacao explicita de leitura ou exportacao."
+  ]
+}

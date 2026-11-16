@@ -1,0 +1,14 @@
+{
+  "dataset": "atlas-percursos-v6.json",
+  "datasetSha256": "5677f7a5abaed8d0ad7bc724512c143d30a7d7489232294bd1dcb8ece33ee75d",
+  "diagnosticSha256": "6a3bb7abfce891ce4baef78bdee4d10c92e72bf34a3cc27c721dc60d86c0b147",
+  "verdict": "pass",
+  "checks": [
+    "113 retained v5 segments byte-equivalent as JSON objects; only two replaced",
+    "20 new scene-gated segments; five scene-only positions; one corrected return boundary",
+    "all new scene locators match the anchored book index, with no future-scene evidence",
+    "135 inventory rows match actual publication-order ranges; no completeness percentage",
+    "explicit maritime/fluvial/terrestrial legs, landing gap and unsupported-city exclusions",
+    "frozen names, coordinates, books, legacy inputs and death cutoffs preserved"
+  ]
+}

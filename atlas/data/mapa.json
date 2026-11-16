@@ -1,0 +1,43 @@
+{
+  "id": "o-mundo-conhecido",
+  "title": "O Mundo Conhecido",
+  "width": 21654,
+  "height": 14428,
+  "tileSize": 512,
+  "minZoom": 0,
+  "maxNativeZoom": 6,
+  "maxZoom": 6,
+  "tileUrl": "tiles/o-mundo-conhecido-recorte-v1/{z}/{x}/{y}.webp",
+  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "previewUrl": "assets/o-mundo-conhecido-recorte-v1-preview.webp",
+  "uncroppedOrientedDimensions": [
+    21654,
+    16764
+  ],
+  "cropBoxOriented": [
+    0,
+    2336,
+    21654,
+    16764
+  ],
+  "displayToOrientedOffset": [
+    0,
+    2336
+  ],
+  "sourceFile": "../mapas/jpeg/O Mundo Conhecido.jpg",
+  "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
+  "rotationDegreesCounterclockwise": 90,
+  "dpi": [
+    600,
+    600
+  ],
+  "iccSha256": "7a9412aa7997e692e4adf8afc2b35cc69600ab93289bc49f8070748529920bf5",
+  "focusBounds": [
+    0,
+    0,
+    21654,
+    14428
+  ],
+  "nativePixelsValidated": true,
+  "notice": "Piloto local. Arte digitalizada com nomes impressos; sem trajetos impressos. Os percursos interativos herdados continuam em revisao."
+}

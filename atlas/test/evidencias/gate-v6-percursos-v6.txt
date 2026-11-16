@@ -1,0 +1,136 @@
+PASS v6: datasetId atlas-saga-v6 — atlas-saga-v6
+PASS v6: schemaVersion 2
+PASS v6: 240 pontos de controle — n=240
+PASS v6: 27 rotas — n=27
+PASS v6: 133 segmentos
+PASS v6: 157 posicoes
+PASS v6: 5 livros nos limites liquidados
+PASS v6: 344 capitulos
+PASS v6: 135 celulas bookCoverage (27x5) — n=135
+PASS v6: todas as 27 rotas tem bookCoverage
+PASS v6: 18 descritos + 5 membros de conjunto (herdados) — 18/5
+PASS fronteira: jon@86 tem 1 seg(s) -v6- no artefato — jon-v6-86-0
+PASS fronteira: jon@96 tem 1 seg(s) -v6- no artefato — jon-v6-96-1
+PASS fronteira: samwell@86 tem 1 seg(s) -v6- no artefato — samwell-v6-86-0
+PASS fronteira: samwell@96 tem 1 seg(s) -v6- no artefato — samwell-v6-96-1
+PASS fronteira: asha@123 tem 1 seg(s) -v6- no artefato — asha-v6-123-0
+PASS fronteira: asha@129 tem 1 seg(s) -v6- no artefato — asha-v6-129-1
+PASS fronteira: victarion@123 tem 1 seg(s) -v6- no artefato — victarion-v6-123-0
+PASS fronteira: victarion@334 tem 1 seg(s) -v6- no artefato — victarion-v6-334-1
+PASS fronteira: arya@99 tem 1 seg(s) -v6- no artefato — arya-v6-99-0
+PASS fronteira: arya@156 tem 1 seg(s) -v6- no artefato — arya-v6-156-1
+PASS fronteira: arya@217 tem 1 seg(s) -v6- no artefato — arya-v6-217-2
+PASS fronteira: littlefinger@138 tem 2 seg(s) -v6- no artefato — littlefinger-v6-138-0,littlefinger-v6-138-1
+PASS fronteira: theon@291 tem 1 seg(s) -v6- no artefato — theon-v6-291-0
+PASS fronteira: theon@303 tem 1 seg(s) -v6- no artefato — theon-v6-303-1
+PASS fronteira: theon@308 tem 1 seg(s) -v6- no artefato — theon-v6-308-2
+PASS fronteira: aegon@332 tem 2 seg(s) -v6- no artefato — aegon-v6-332-0,aegon-v6-332-1
+PASS fronteira: tyrion@311 tem 1 seg(s) -v6- no artefato — tyrion-v6-311-0
+PASS fronteira: tyrion@318 tem 1 seg(s) -v6- no artefato — tyrion-v6-318-1
+PASS arianne: rota sem segmentos (Vaith cancelado) — segs=0
+PASS dados: victarion@123 pernas mar/fluvial/terra
+PASS dados: aegon@332 misto fluvial+mar + terrestre com lacuna
+PASS dados: tyrion@311/318 pernas mar
+PASS UI: dataset v6 carregado — 240 referências — 240 referências calibradas manualmente (222 identificadas em
+PASS UI: 27 perfis selecionáveis
+PASS UI: 5 livros no seletor
+PASS UI: 27 rotulos de cobertura (um por rota)
+PASS UI: nota de cobertura nao-vazia, sem % nem completude
+PASS cobertura: notices exatos por personagem, livro agot — 27/27 exatos
+PASS cobertura: notices exatos por personagem, livro acok — 27/27 exatos
+PASS cobertura: notices exatos por personagem, livro asos — 27/27 exatos
+PASS cobertura: notices exatos por personagem, livro affc — 27/27 exatos
+PASS cobertura: notices exatos por personagem, livro adwd — 27/27 exatos
+PASS fronteira: jon@86 ausente em 85, presente em 86 — antes= depois=jon-v6-86-0
+PASS fronteira: jon@96 ausente em 95, presente em 96 — antes=jon-v6-86-0 depois=jon-v6-86-0,jon-v6-96-1
+PASS fronteira: samwell@86 ausente em 85, presente em 86 — antes= depois=samwell-v6-86-0
+PASS fronteira: samwell@96 ausente em 95, presente em 96 — antes=samwell-v6-86-0 depois=samwell-v6-86-0,samwell-v6-96-1
+PASS fronteira: asha@123 ausente em 122, presente em 123 — antes= depois=asha-v6-123-0
+PASS fronteira: asha@129 ausente em 128, presente em 129 — antes=asha-v6-123-0 depois=asha-v6-123-0,asha-v6-129-1
+PASS fronteira: victarion@123 ausente em 122, presente em 123 — antes= depois=victarion-v6-123-0
+PASS fronteira: victarion@334 ausente em 333, presente em 334 — antes=victarion-v6-123-0 depois=victarion-v6-123-0,victarion-v6-334-1
+PASS fronteira: arya@99 ausente em 98, presente em 99 — antes= depois=arya-v6-99-0
+PASS fronteira: arya@156 ausente em 155, presente em 156 — antes=arya-v6-99-0 depois=arya-v6-99-0,arya-v6-156-1
+PASS fronteira: arya@217 ausente em 216, presente em 217 — antes=arya-v6-99-0,arya-v6-156-1 depois=arya-v6-99-0,arya-v6-156-1,arya-v6-217-2
+PASS fronteira: littlefinger@138 ausente em 137, presente em 138 — antes= depois=littlefinger-v6-138-0,littlefinger-v6-138-1
+PASS fronteira: theon@291 ausente em 290, presente em 291 — antes= depois=theon-v6-291-0
+PASS fronteira: theon@303 ausente em 302, presente em 303 — antes=theon-v6-291-0 depois=theon-v6-291-0,theon-v6-303-1
+PASS fronteira: theon@308 ausente em 307, presente em 308 — antes=theon-v6-291-0,theon-v6-303-1 depois=theon-v6-291-0,theon-v6-303-1,theon-v6-308-2
+PASS fronteira: aegon@332 ausente em 331, presente em 332 — antes= depois=aegon-v6-332-0,aegon-v6-332-1
+PASS fronteira: tyrion@311 ausente em 310, presente em 311 — antes= depois=tyrion-v6-311-0
+PASS fronteira: tyrion@318 ausente em 317, presente em 318 — antes=tyrion-v6-311-0 depois=tyrion-v6-311-0,tyrion-v6-318-1
+PASS pos: jon@86 em Brancarbor, nada em 85/87
+PASS pos: samwell@86 em Brancarbor, nada em 85/87
+PASS pos: arianne@238 em Lancassolar, nada em 237/239
+PASS pos: LF retorno corrigido 138 (nada em 135-137)
+PASS pos: aegon@332 no Poleiro, nada em 333 (cena)
+PASS pos: tyrion NUNCA em Meereen (318/337/343)
+PASS pos: victarion@334 sem pino de cidade
+PASS pos: theon fora de Winterfell apos 321
+PASS pos: jon fora de Castelo Negro apos 339
+PASS corte: robb sem pino em 194
+PASS corte: catelyn sem pino em 194
+PASS corte: eddard sem pino em 65
+PASS corte: joffrey sem pino em 203
+PASS corte: tywin sem pino em 220
+PASS corte: robert sem pino em 49
+PASS corte: renly sem pino em 106
+PASS livros: ACOK limita 73..142 e salta ao inicio, nao ao fim — {"min":"73","max":"142","cap":"73"}
+PASS livros: 'Ver livro completo' para no fim do LIVRO (142)
+PASS livros: 'Ver livro completo' em ADWD vai a 343
+PASS livros: troca de livro preserva selecao (asha marcada)
+PASS asha@122: nenhuma linha de percurso nova ainda — linhas=0
+PASS asha@123: pino de cena em Bosque Profundo — Asha Greyjoy
+PASS asha@124: pino de cena some (sem presenca continua) — ok
+PASS asha@129: pino em Winterfell — Asha Greyjoy
+PASS asha@123: tooltip misto exibe 'mar + terra' — Asha Greyjoy — Pyke -> costa da Mata de Lobos -> Bosque Profundo (misto (mar + terra)) | Asha Greyjoy — Pyke -> costa da
+PASS asha@123: popup do trecho nao antecipa Winterfell — Asha GreyjoyPyke -> costa da Mata de Lobos -> Bosque ProfundoDisponível a partir do cap. 1
+PASS busca 'Griffin's Roost' resolve o ponto corrigido — ["scan-site-v4-300"]
+PASS busca 'Sinistres Gris' resolve Ghaston Grey — ["scan-site-v4-475"]
+PASS filtro: 18 descritos ocultos, 5 membros mantidos — visiveis=222
+PASS fontes: sidecar v6 nao carrega antes de abrir
+PASS fontes: sidecar v6 com 115 registros historicos — itens=115
+PASS fontes: sem nova certificacao de nomes — Auditoria de ocorrência exata de nomes na edição LeYa (AGOT-LEYA). A ocorrência 
+PASS nativo: victarion@123 renderiza as 3 pernas mar/fluvial/terra — 3 pernas ok
+PASS nativo: tooltip misto exibe 'mar + fluvial + terra' — Victarion Greyjoy — Pyke -> Lanca de Sal -> Rio Febre -> Fosso Cailin (misto (mar + fluvial + terra)) | Victarion Greyjoy — Pyke -
+PASS aegon@331: nenhum -v6- elegivel — aegon-v4-285-0,aegon-v4-289-1,aegon-v4-293-2,aegon-v4-295-3
+PASS nativo: aegon 331->332 adiciona exatamente as 3 pernas novas — 4 -> 7
+PASS nativo: aegon@332 renderiza fluvial+mar e a perna terrestre — pernas renderizadas=3/3
+PASS nativo: aegon@332 tooltip misto exibe 'fluvial + mar' — Jovem Griff — Ghoyan Drohe -> Ny Sar (fluvial) | Jovem Griff — Ny Sar -> Os Sofrimentos (fluvial) | Jovem Griff — Os Sofrimentos -
+PASS nativo: nenhuma linha automatica liga mar->terra (gapBefore)
+PASS tyrion@310: nenhum -v6- elegivel — tyrion-line-1,tyrion-line-3,tyrion-supplement-21,tyrion-supplement-22,tyrion-line-6,tyrion-line-8,tyrion-supplement-27,tyrion-supplement-28,tyrion-line-11,tyrion-supplement-30,tyrion-v4-272-10,tyrion-v4-279-11,tyrion-v4-285-12,tyrion-v4-289-13,tyrion-v4-293-14,tyrion-v4-298-15
+PASS nativo: tyrion@311 perna mar no Golfo renderizada — linhas=17
+PASS nativo: tyrion@318 perna mar ate a foz renderizada
+PASS tyrion@318: popup declara 'fora' de Meereen — Tyrion LannisterGolfo da Magoa -> foz do Skahazadhan (fora de Meereen)Disponível a partir 
+PASS tyrion@318: popup mantem incerteza (aproximado/nao exato) — Tyrion LannisterGolfo da Magoa -> foz do Skahazadhan (fora de Meereen)Disponível a partir 
+PASS mobile 390: sem overflow horizontal — overflow=0
+PASS mobile 390: livro-select acessivel apos expandir
+PASS mobile 390: 27 notas de cobertura presentes
+PASS mobile 390: ADWD vai ao cap. 271
+PASS mobile 320: sem overflow horizontal — overflow=0
+PASS mobile 320: livro-select acessivel apos expandir
+PASS mobile 320: 27 notas de cobertura presentes
+PASS mobile 320: ADWD vai ao cap. 271
+PASS v6 invalido: status indisponível/erro — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua 
+PASS v6 invalido: controles travados, livro oculto
+PASS v6 invalido: NUNCA requisita v5/v4/v3/v2/v1
+PASS v6 invalido: sem pageerror fatal
+PASS v6 HTTP 500: status indisponível/erro — Localidades e trajetos indisponíveis: data/atlas-percursos-v6.json HTTP 500. O m
+PASS v6 HTTP 500: controles travados, livro oculto
+PASS v6 HTTP 500: NUNCA requisita v5/v4/v3/v2/v1
+PASS v6 HTTP 500: sem pageerror fatal
+PASS v6 404: fallback carrega v5 real (240 referências) — 240 referências calibradas manualmente (222 identificadas em
+PASS v6 404: resposta foi 404 do v6 + 200 do v5 — 404 atlas-percursos-v6.json, 200 atlas-inventario-v5.json
+PASS v6 404: sem rotulos de cobertura no v5 (campo ausente)
+PASS v6 404: livro-select funciona no fallback
+PASS nenhuma requisição externa — ok
+PASS nenhum fetch de imagem mestre — ok
+PASS tiles realmente requisitados no nativo — n=17
+PASS todas respostas de tile HTTP 200 — ok
+PASS nenhuma requisição falha — ok
+PASS sem pageerrors
+PASS portal raiz responde 200 — status=200
+PASS portal raiz: titulo preservado
+PASS portal raiz: sem pageerrors
+
+134 checagens, 0 falhas

@@ -1,0 +1,190 @@
+{
+  "reviewedOn": "2026-11-01",
+  "scope": "Fichas tecnicas e buscas dirigidas de nomes. Nao e uma revisao integral de todos os livros ou certificacao de todos os rotulos do mapa.",
+  "privacy": "Os livros permanecem fora do projeto. Este registro guarda apenas metadados, termos e localizadores; nao inclui o texto integral.",
+  "locatorPolicy": "pdfPage indica a pagina do arquivo, contando a primeira como 1, nao a paginacao impressa. epubMember indica o arquivo interno do EPUB.",
+  "precedence": "Apendice Suma indicado pelo usuario e evidencia direta da edicao Suma prevalecem. Variantes LeYa recebem identificacao propria, sem serem apresentadas como confirmacoes da Suma.",
+  "books": {
+    "ACOK-SUMA": {
+      "filename": "As crônicas de gelo e fogo - 02 - A Furia dos Reis - George R. R. Martin.pdf",
+      "publisher": "Suma / Editora Schwarcz S.A.",
+      "isbn": "9788554514020",
+      "copyrightPdfPage": 1050,
+      "catalogYear": 2019,
+      "catalogSource": "https://livrosdigitais.martinsfontespaulista.com.br/library/publication/a-furia-dos-reis",
+      "editionEvidence": "O ISBN e a Editora Schwarcz constam na ficha; o catalogo identifica o mesmo ISBN como Suma, lancamento em abril de 2019."
+    },
+    "AGOT-LEYA": {
+      "filename": "01- A Guerra dos Tronos - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2010,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580442786",
+      "copyrightMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-1.html"
+    },
+    "ACOK-LEYA": {
+      "filename": "02 - A Fúria dos Reis - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2011,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580442793",
+      "copyrightMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-1.html"
+    },
+    "ASOS-LEYA": {
+      "filename": "03 - A Tormenta de Espadas - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2011,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580444650",
+      "copyrightMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-1.html"
+    },
+    "AFFC-LEYA": {
+      "filename": "04 - O Festim dos Corvos - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2012,
+      "translator": "Jorge Candeias",
+      "isbn": "9788580445053",
+      "copyrightMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-1.xhtml"
+    },
+    "ADWD-LEYA": {
+      "filename": "05 - A Dança dos Dragões - George R. R. Martin.epub",
+      "publisher": "LeYa / Texto Editores",
+      "editionYear": 2012,
+      "translator": "Marcia Blasques",
+      "isbn": "9788580445763",
+      "copyrightMember": "OEBPS/Text/9788580445763_a_danca_dos_dragoes-1.xhtml"
+    },
+    "TWOIAF-LEYA": {
+      "filename": "O Mundo de Gelo e Fogo - George R.R. Martin.epub",
+      "publisher": "Casa da Palavra / LeYa",
+      "editionYear": 2017,
+      "edition": "2",
+      "translator": "Márcia Blasques",
+      "isbn": "9788544106310",
+      "copyrightMember": "index_split_002.html",
+      "duplicateEditionNote": "O EPUB O Mundo de Gelo e Fogo - A Historia tambem apresenta a ficha de 2017 com esse ISBN; nao constitui uma segunda edicao independente."
+    }
+  },
+  "editorialCautions": [
+    {
+      "filename": "As crônicas de gelo e fogo - 04 - O Festim dos Corvos - George R. R. Martin.pdf",
+      "pdfPage": 3,
+      "finding": "Agradecimentos identificam uma equipe de traducao de fas; nao usar como prova da nomenclatura editorial LeYa ou Suma."
+    },
+    {
+      "filename": "Os Ventos do Inverno - George R. R. Matin.epub",
+      "epubMember": "OEBPS/Text/index_split_014.html",
+      "finding": "Aviso de traducao para entretenimento de leitores/fas. Metadado publisher LeYa nao basta para confirmar edicao oficial; nao certificar termos editoriais a partir dele."
+    },
+    {
+      "filename": "As crônicas de gelo e fogo - 03 - A Tormenta de Espadas - George R. R. Martin.pdf",
+      "finding": "As paginas iniciais e os metadados consultados nao identificaram uma ficha editorial utilizavel. Preferir o EPUB com ficha identificada."
+    }
+  ],
+  "decisions": [
+    {
+      "key": "Griffin%27s_Roost",
+      "preferred": "Poleiro do Grifo",
+      "aliasesToAdd": ["Ninho do Grifo"],
+      "authority": "Suma confirmada no arquivo fornecido",
+      "references": [
+        {"book": "ACOK-SUMA", "pdfPage": 951, "context": "Ronnet Vermelho do Poleiro do Grifo"},
+        {"book": "ACOK-LEYA", "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-66.html"}
+      ]
+    },
+    {
+      "key": "Deep_Den",
+      "preferred": "Toca Funda",
+      "aliasesToAdd": ["Toca Profunda"],
+      "authority": "Suma confirmada no arquivo fornecido",
+      "references": [{"book": "ACOK-SUMA", "pdfPage": 1038, "context": "LEWIS LYDDEN, Senhor de Toca Funda"}]
+    },
+    {
+      "key": "The_Crag",
+      "preferred": "Despenhadeiro",
+      "aliasesToAdd": ["Penhasco"],
+      "authority": "Suma confirmada no arquivo fornecido",
+      "references": [{"book": "ACOK-SUMA", "pdfPage": 1038, "context": "GAWEN WESTERLING, Senhor do Despenhadeiro"}]
+    },
+    {
+      "key": "Starfall",
+      "preferred": "Tombastela",
+      "aliasesToAdd": ["Queda da Estrela"],
+      "authority": "Suma confirmada no arquivo fornecido",
+      "references": [{"book": "ACOK-SUMA", "pdfPage": 1040, "context": "EDRIC DAYNE, Senhor de Tombastela"}]
+    },
+    {
+      "key": "Sharp_Point",
+      "preferred": "Ponta Afiada",
+      "aliasesToAdd": ["Ponta Aguda"],
+      "authority": "Suma confirmada no arquivo fornecido",
+      "references": [{"book": "ACOK-SUMA", "pdfPage": 1016, "context": "DURAM BAR EMMON, Senhor de Ponta Afiada"}]
+    },
+    {
+      "key": "Acorn_Hall",
+      "preferred": "Solar de Bolotas",
+      "aliasesToAdd": ["Solar de Bolota"],
+      "authority": "LeYa confirmada nos EPUBs; nao certificada para Suma nesta revisao",
+      "references": [
+        {"book": "ASOS-LEYA", "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-101.html", "context": "Solar de Bolotas, a sede da Casa Smallwood"},
+        {"book": "AFFC-LEYA", "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-63.xhtml"}
+      ]
+    },
+    {
+      "key": "Nightsong",
+      "preferred": "Nocticantiga",
+      "aliasesToAdd": ["Canto Noturno"],
+      "authority": "LeYa confirmada nos EPUBs; nao certificada para Suma nesta revisao",
+      "references": [
+        {"book": "ASOS-LEYA", "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-39.html", "context": "o Bastardo de Nocticantiga"},
+        {"book": "AFFC-LEYA", "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-17.xhtml"}
+      ]
+    },
+    {
+      "key": "Sunflower_Hall",
+      "preferred": "Solar de Girassol",
+      "aliasesToAdd": ["Casasolar"],
+      "authority": "LeYa direta prevalece sobre Casasolar, forma secundaria sem confirmacao Suma. A edicao Suma continua prioritaria quando houver evidencia.",
+      "references": [{"book": "AFFC-LEYA", "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-59.xhtml", "context": "BRANSTON CUY, Senhor de Solar de Girassol"}]
+    },
+    {
+      "key": "Quiet_Isle",
+      "preferred": "Ilha Quieta",
+      "aliasesToAdd": ["Ilha Silenciosa"],
+      "authority": "Duas formas encontradas no mesmo EPUB LeYa; preservar a forma atual e aceitar a variante",
+      "references": [
+        {"book": "AFFC-LEYA", "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-28.xhtml", "matched": "Ilha Silenciosa"},
+        {"book": "AFFC-LEYA", "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-34.xhtml", "matched": "Ilha Quieta"}
+      ]
+    },
+    {
+      "key": "Torches",
+      "preferred": "Archotes",
+      "aliasesToAdd": [],
+      "authority": "LeYa confirmada na lista de castelos de O Mundo de Gelo e Fogo, nao em ocorrencias genericas da palavra archotes",
+      "references": [{"book": "TWOIAF-LEYA", "epubMember": "index_split_062.html", "context": "Portão da Geada Monte Longo Archotes Guardaverde"}]
+    },
+    {
+      "key": "Hollow_Hill",
+      "preferred": "Monte Oco",
+      "aliasesToAdd": [],
+      "authority": "LeYa confirmada na narrativa de Arya",
+      "references": [{"book": "ASOS-LEYA", "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-37.html", "matched": "monte oco"}]
+    }
+  ],
+  "glossaryConflict": {
+    "english": "Kingswood",
+    "preferred": "Mata de Rei",
+    "variant": "Mataderrei",
+    "policy": "Nao substituir a forma Suma pelo termo LeYa.",
+    "references": [
+      {"book": "ACOK-SUMA", "pdfPage": 251, "matched": "Mata de Rei"},
+      {"book": "AGOT-LEYA", "epubMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-42.html", "matched": "Mataderrei"}
+    ]
+  },
+  "notEstablishedByThisReview": [
+    "A ausencia de uma frase em buscas exatas nao prova que a traducao esteja errada.",
+    "Torre dos Prantos continua com evidencia literaria secundaria online. Casasolar fica apenas como alias; Solar de Girassol possui evidencia LeYa direta, sem confirmacao da forma Suma.",
+    "Nao se afirma que todos os nomes do mapa foram certificados por edicoes impressas."
+  ]
+}

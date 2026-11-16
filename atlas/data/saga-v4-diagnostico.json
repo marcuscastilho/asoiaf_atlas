@@ -1,0 +1,5017 @@
+{
+  "datasetId": "atlas-saga-v4",
+  "inventory": {
+    "entries": 242,
+    "namedEntries": 186,
+    "unidentifiedSymbols": 56,
+    "reviewedSectors": 36,
+    "coverageNotice": "36 setores revistos; novos simbolos escuros incluidos manualmente. Expansao auditavel, nao certificacao independente de exaustividade.",
+    "routeNotice": "27 perfis; parte tem apenas localidades verificadas, sem linha em lacunas. Todas as linhas sao corredores aproximados.",
+    "spreadsheetNotice": "Captura colaborativa anterior preservada; nao foi afirmada nova auditoria de todas as linhas da planilha para os livros seguintes.",
+    "bookAuditNotice": "Indice LeYa dos344 capitulos; cenas de novos suplementos conferidas separadamente. Auditoria de nomes conserva seus115 registros anteriores."
+  },
+  "characters": 27,
+  "segments": 115,
+  "positions": 152,
+  "newSegments": 61,
+  "events": [
+    {
+      "kind": "segment",
+      "character": "jon",
+      "id": "jon-v4-96-2",
+      "availableFrom": 96,
+      "chaptersRead": [
+        86,
+        96
+      ],
+      "note": "Passagem por Brancarbor sem novo ponto nomeado: identidade do pequeno simbolo nao foi fechada."
+    },
+    {
+      "kind": "segment",
+      "character": "jon",
+      "id": "jon-v4-107-3",
+      "availableFrom": 107,
+      "chaptersRead": [
+        96,
+        107
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-96-0",
+      "availableFrom": 96,
+      "chaptersRead": [
+        86,
+        96
+      ],
+      "note": "Passagem por Brancarbor sem novo ponto nomeado: identidade do pequeno simbolo nao foi fechada."
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-107-1",
+      "availableFrom": 107,
+      "chaptersRead": [
+        96,
+        107
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "jon",
+      "id": "jon-v4-191-4",
+      "availableFrom": 191,
+      "chaptersRead": [
+        184,
+        191
+      ],
+      "note": "Fuga e regresso; local exato dos ferimentos e desvios nao medidos."
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-176-2",
+      "availableFrom": 176,
+      "chaptersRead": [
+        161,
+        176
+      ],
+      "note": "Retirada pelo corredor regional; acampamentos intermediarios nao georreferenciados."
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-240-3",
+      "availableFrom": 240,
+      "chaptersRead": [
+        230,
+        240
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-251-4",
+      "availableFrom": 251,
+      "chaptersRead": [
+        240,
+        251
+      ],
+      "note": "A escala em Skagos nao tem porto calibrado; linha e corredor maritimo, nao rastro do navio."
+    },
+    {
+      "kind": "segment",
+      "character": "samwell",
+      "id": "samwell-v4-270-5",
+      "availableFrom": 270,
+      "chaptersRead": [
+        251,
+        260,
+        270
+      ],
+      "note": "Chegada em O Festim dos Corvos, Samwell V; nao em ADWD. Escalas nao equivalem a todos os portos."
+    },
+    {
+      "kind": "segment",
+      "character": "robert",
+      "id": "robert-v4-20-0",
+      "availableFrom": 20,
+      "chaptersRead": [
+        12,
+        15,
+        20
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "joffrey",
+      "id": "joffrey-v4-20-0",
+      "availableFrom": 20,
+      "chaptersRead": [
+        12,
+        15,
+        20
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "myrcella",
+      "id": "myrcella-v4-20-0",
+      "availableFrom": 20,
+      "chaptersRead": [
+        12,
+        15,
+        20
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "theon",
+      "id": "theon-v4-84-4",
+      "availableFrom": 84,
+      "chaptersRead": [
+        84
+      ],
+      "note": "Pyke e ancora da ilha; nao coordenada exata do desembarque em Porto dos Fidalgos."
+    },
+    {
+      "kind": "segment",
+      "character": "catelyn",
+      "id": "catelyn-v4-95-10",
+      "availableFrom": 95,
+      "chaptersRead": [
+        80,
+        95
+      ],
+      "note": "Acampamento de Renly perto da ponte, nao visita medida ao centro do castelo."
+    },
+    {
+      "kind": "segment",
+      "character": "catelyn",
+      "id": "catelyn-v4-104-11",
+      "availableFrom": 104,
+      "chaptersRead": [
+        95,
+        104
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-104-0",
+      "availableFrom": 104,
+      "chaptersRead": [
+        95,
+        104
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "renly",
+      "id": "renly-v4-104-0",
+      "availableFrom": 104,
+      "chaptersRead": [
+        95,
+        104
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "catelyn",
+      "id": "catelyn-v4-112-12",
+      "availableFrom": 112,
+      "chaptersRead": [
+        106,
+        112
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-112-1",
+      "availableFrom": 112,
+      "chaptersRead": [
+        106,
+        112
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "robb",
+      "id": "robb-v4-157-4",
+      "availableFrom": 157,
+      "chaptersRead": [
+        145,
+        157
+      ],
+      "note": "No capitulo145 Robb ainda e esperado; chegada mostrada em157. Passagens intermediarias aproximadas."
+    },
+    {
+      "kind": "segment",
+      "character": "catelyn",
+      "id": "catelyn-v4-192-13",
+      "availableFrom": 192,
+      "chaptersRead": [
+        188,
+        192
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "robb",
+      "id": "robb-v4-192-5",
+      "availableFrom": 192,
+      "chaptersRead": [
+        188,
+        192
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "jaime",
+      "id": "jaime-v4-154-8",
+      "availableFrom": 154,
+      "chaptersRead": [
+        144,
+        154
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "jaime",
+      "id": "jaime-v4-174-9",
+      "availableFrom": 174,
+      "chaptersRead": [
+        164,
+        174
+      ],
+      "note": "Captura e desvios intermediarios nao possuem centros seguros; corredor regional."
+    },
+    {
+      "kind": "segment",
+      "character": "jaime",
+      "id": "jaime-v4-205-10",
+      "availableFrom": 205,
+      "chaptersRead": [
+        187,
+        205
+      ],
+      "note": "Inclui retorno narrativo a Harrenhal antes da partida conjunta; episodio local do urso nao medido."
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-154-2",
+      "availableFrom": 154,
+      "chaptersRead": [
+        144,
+        154
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-174-3",
+      "availableFrom": 174,
+      "chaptersRead": [
+        164,
+        174
+      ],
+      "note": "Captura e desvios intermediarios nao possuem centros seguros; corredor regional."
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-205-4",
+      "availableFrom": 205,
+      "chaptersRead": [
+        187,
+        205
+      ],
+      "note": "Inclui retorno narrativo a Harrenhal antes da partida conjunta; episodio local do urso nao medido."
+    },
+    {
+      "kind": "segment",
+      "character": "jaime",
+      "id": "jaime-v4-252-11",
+      "availableFrom": 252,
+      "chaptersRead": [
+        241,
+        252
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-234-5",
+      "availableFrom": 234,
+      "chaptersRead": [
+        229,
+        234
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-239-6",
+      "availableFrom": 239,
+      "chaptersRead": [
+        234,
+        239
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-256-7",
+      "availableFrom": 256,
+      "chaptersRead": [
+        250,
+        256
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "brienne",
+      "id": "brienne-v4-262-8",
+      "availableFrom": 262,
+      "chaptersRead": [
+        256,
+        262
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "arya",
+      "id": "arya-v4-172-3",
+      "availableFrom": 172,
+      "chaptersRead": [
+        165,
+        172
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "arya",
+      "id": "arya-v4-193-4",
+      "availableFrom": 193,
+      "chaptersRead": [
+        190,
+        193
+      ],
+      "note": "Travessias e desvios com Sandor sao aproximados; nao implica passagem pelo castelo do Passo Sangrento."
+    },
+    {
+      "kind": "segment",
+      "character": "arya",
+      "id": "arya-v4-231-5",
+      "availableFrom": 231,
+      "chaptersRead": [
+        217,
+        231
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "daenerys",
+      "id": "daenerys-v4-85-3",
+      "availableFrom": 85,
+      "chaptersRead": [
+        85
+      ],
+      "note": "Inicio em ancora regional de Lhazar, nao aldeia identificada."
+    },
+    {
+      "kind": "segment",
+      "character": "daenerys",
+      "id": "daenerys-v4-100-4",
+      "availableFrom": 100,
+      "chaptersRead": [
+        85,
+        100
+      ],
+      "note": "O portal ativava a segunda viagem em85; a chegada a Qarth so e mostrada em100."
+    },
+    {
+      "kind": "segment",
+      "character": "daenerys",
+      "id": "daenerys-v4-166-5",
+      "availableFrom": 166,
+      "chaptersRead": [
+        151,
+        166
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "daenerys",
+      "id": "daenerys-v4-185-6",
+      "availableFrom": 185,
+      "chaptersRead": [
+        170,
+        185
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "daenerys",
+      "id": "daenerys-v4-200-7",
+      "availableFrom": 200,
+      "chaptersRead": [
+        185,
+        200
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-272-10",
+      "availableFrom": 272,
+      "chaptersRead": [
+        220,
+        272
+      ],
+      "note": "ADWD0 e prologo de Varamyr; a chegada de Tyrion e conhecida em ADWD1, indice272."
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-279-11",
+      "availableFrom": 279,
+      "chaptersRead": [
+        276,
+        279
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-285-12",
+      "availableFrom": 285,
+      "chaptersRead": [
+        279,
+        285
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-289-13",
+      "availableFrom": 289,
+      "chaptersRead": [
+        285,
+        289
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-293-14",
+      "availableFrom": 293,
+      "chaptersRead": [
+        289,
+        293
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "aegon",
+      "id": "aegon-v4-285-0",
+      "availableFrom": 285,
+      "chaptersRead": [
+        279,
+        285
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "aegon",
+      "id": "aegon-v4-289-1",
+      "availableFrom": 289,
+      "chaptersRead": [
+        285,
+        289
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "aegon",
+      "id": "aegon-v4-293-2",
+      "availableFrom": 293,
+      "chaptersRead": [
+        289,
+        293
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "tyrion",
+      "id": "tyrion-v4-298-15",
+      "availableFrom": 298,
+      "chaptersRead": [
+        293,
+        298
+      ],
+      "note": "Sem afirmar desembarques em todas as cidades por onde passa o Roine."
+    },
+    {
+      "kind": "segment",
+      "character": "aegon",
+      "id": "aegon-v4-295-3",
+      "availableFrom": 295,
+      "chaptersRead": [
+        293,
+        295
+      ],
+      "note": "O acampamento da Companhia Dourada fica fora da cidade e nao recebeu posicao inventada."
+    },
+    {
+      "kind": "segment",
+      "character": "myrcella",
+      "id": "myrcella-v4-227-1",
+      "availableFrom": 227,
+      "chaptersRead": [
+        114,
+        227
+      ],
+      "note": "Disponivel quando o destino e confirmado. A viagem por Braavos anunciada como disfarce nao foi tratada como visita real."
+    },
+    {
+      "kind": "segment",
+      "character": "stannis",
+      "id": "stannis-v4-104-0",
+      "availableFrom": 104,
+      "chaptersRead": [
+        73,
+        104
+      ],
+      "note": ""
+    },
+    {
+      "kind": "segment",
+      "character": "davos",
+      "id": "davos-v4-115-0",
+      "availableFrom": 115,
+      "chaptersRead": [
+        83,
+        115
+      ],
+      "note": "Sem desenhar o giro de recrutamento do portal como itinerario integral certificado."
+    },
+    {
+      "kind": "segment",
+      "character": "stannis",
+      "id": "stannis-v4-131-1",
+      "availableFrom": 131,
+      "chaptersRead": [
+        115,
+        131
+      ],
+      "note": "Termina na baia, nao afirma entrada de Stannis na cidade."
+    },
+    {
+      "kind": "segment",
+      "character": "stannis",
+      "id": "stannis-v4-153-2",
+      "availableFrom": 153,
+      "chaptersRead": [
+        148,
+        153
+      ],
+      "note": "Resgate de Davos e retirada nao possuem rastro exato conhecido."
+    },
+    {
+      "kind": "segment",
+      "character": "davos",
+      "id": "davos-v4-131-1",
+      "availableFrom": 131,
+      "chaptersRead": [
+        115,
+        131
+      ],
+      "note": "Termina na baia, nao afirma entrada de Stannis na cidade."
+    },
+    {
+      "kind": "segment",
+      "character": "davos",
+      "id": "davos-v4-153-2",
+      "availableFrom": 153,
+      "chaptersRead": [
+        148,
+        153
+      ],
+      "note": "Resgate de Davos e retirada nao possuem rastro exato conhecido."
+    },
+    {
+      "kind": "segment",
+      "character": "stannis",
+      "id": "stannis-v4-219-3",
+      "availableFrom": 219,
+      "chaptersRead": [
+        216,
+        219
+      ],
+      "note": "Corredor norte da Muralha e regresso apos a batalha; nao desenho tatico do combate."
+    },
+    {
+      "kind": "segment",
+      "character": "stannis",
+      "id": "stannis-v4-297-4",
+      "availableFrom": 297,
+      "chaptersRead": [
+        288,
+        297
+      ],
+      "note": "Segue a alternativa pelos clas, nao uma marcha ao Forte do Pavor. Trilhas internas estimadas."
+    },
+    {
+      "kind": "segment",
+      "character": "davos",
+      "id": "davos-v4-286-3",
+      "availableFrom": 286,
+      "chaptersRead": [
+        280,
+        286
+      ],
+      "note": "Relato de execucao em AFFC nao foi convertido em morte real nem usado para antecipar ADWD."
+    },
+    {
+      "kind": "position",
+      "character": "jon",
+      "id": "jon-v4-pos-73-3",
+      "window": [
+        73,
+        79
+      ],
+      "chaptersRead": [
+        79
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jon",
+      "id": "jon-v4-pos-96-4",
+      "window": [
+        96,
+        106
+      ],
+      "chaptersRead": [
+        96
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jon",
+      "id": "jon-v4-pos-107-5",
+      "window": [
+        107,
+        116
+      ],
+      "chaptersRead": [
+        107,
+        116
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jon",
+      "id": "jon-v4-pos-184-6",
+      "window": [
+        184,
+        184
+      ],
+      "chaptersRead": [
+        184
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jon",
+      "id": "jon-v4-pos-191-7",
+      "window": [
+        191,
+        339
+      ],
+      "chaptersRead": [
+        191,
+        274,
+        340
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-76-8",
+      "window": [
+        76,
+        219
+      ],
+      "chaptersRead": [
+        76,
+        220
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-272-9",
+      "window": [
+        272,
+        275
+      ],
+      "chaptersRead": [
+        272
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-279-10",
+      "window": [
+        279,
+        284
+      ],
+      "chaptersRead": [
+        279
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-285-11",
+      "window": [
+        285,
+        288
+      ],
+      "chaptersRead": [
+        285
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-289-12",
+      "window": [
+        289,
+        292
+      ],
+      "chaptersRead": [
+        289
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-293-13",
+      "window": [
+        293,
+        297
+      ],
+      "chaptersRead": [
+        293
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tyrion",
+      "id": "tyrion-v4-pos-298-14",
+      "window": [
+        298,
+        303
+      ],
+      "chaptersRead": [
+        298,
+        304
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robb",
+      "id": "robb-v4-pos-73-5",
+      "window": [
+        73,
+        98
+      ],
+      "chaptersRead": [
+        80
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robb",
+      "id": "robb-v4-pos-128-6",
+      "window": [
+        128,
+        128
+      ],
+      "chaptersRead": [
+        128,
+        145
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robb",
+      "id": "robb-v4-pos-157-7",
+      "window": [
+        157,
+        187
+      ],
+      "chaptersRead": [
+        157,
+        188
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robb",
+      "id": "robb-v4-pos-192-8",
+      "window": [
+        192,
+        193
+      ],
+      "chaptersRead": [
+        192,
+        194
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "catelyn",
+      "id": "catelyn-v4-pos-73-7",
+      "window": [
+        73,
+        94
+      ],
+      "chaptersRead": [
+        80
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "catelyn",
+      "id": "catelyn-v4-pos-95-8",
+      "window": [
+        95,
+        103
+      ],
+      "chaptersRead": [
+        95
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "catelyn",
+      "id": "catelyn-v4-pos-104-9",
+      "window": [
+        104,
+        105
+      ],
+      "chaptersRead": [
+        104,
+        106
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "catelyn",
+      "id": "catelyn-v4-pos-112-10",
+      "window": [
+        112,
+        187
+      ],
+      "chaptersRead": [
+        112,
+        188
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "catelyn",
+      "id": "catelyn-v4-pos-192-11",
+      "window": [
+        192,
+        193
+      ],
+      "chaptersRead": [
+        192,
+        194
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-99-2",
+      "window": [
+        99,
+        136
+      ],
+      "chaptersRead": [
+        99,
+        137
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-156-3",
+      "window": [
+        156,
+        156
+      ],
+      "chaptersRead": [
+        156
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-165-4",
+      "window": [
+        165,
+        171
+      ],
+      "chaptersRead": [
+        165
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-172-5",
+      "window": [
+        172,
+        176
+      ],
+      "chaptersRead": [
+        172
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-190-6",
+      "window": [
+        190,
+        190
+      ],
+      "chaptersRead": [
+        190
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-193-7",
+      "window": [
+        193,
+        193
+      ],
+      "chaptersRead": [
+        193
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-217-8",
+      "window": [
+        217,
+        217
+      ],
+      "chaptersRead": [
+        217
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arya",
+      "id": "arya-v4-pos-231-9",
+      "window": [
+        231,
+        343
+      ],
+      "chaptersRead": [
+        231,
+        259,
+        316,
+        335
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "sansa",
+      "id": "sansa-v4-pos-73-2",
+      "window": [
+        73,
+        203
+      ],
+      "chaptersRead": [
+        75,
+        204
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "sansa",
+      "id": "sansa-v4-pos-223-3",
+      "window": [
+        223,
+        265
+      ],
+      "chaptersRead": [
+        223,
+        235,
+        266
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "bran",
+      "id": "bran-v4-pos-73-2",
+      "window": [
+        73,
+        141
+      ],
+      "chaptersRead": [
+        77,
+        142
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "bran",
+      "id": "bran-v4-pos-183-3",
+      "window": [
+        183,
+        183
+      ],
+      "chaptersRead": [
+        183
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-84-5",
+      "window": [
+        84,
+        109
+      ],
+      "chaptersRead": [
+        84,
+        97
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-119-6",
+      "window": [
+        119,
+        138
+      ],
+      "chaptersRead": [
+        119,
+        139
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-283-7",
+      "window": [
+        283,
+        290
+      ],
+      "chaptersRead": [
+        283
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-291-8",
+      "window": [
+        291,
+        291
+      ],
+      "chaptersRead": [
+        291
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-303-9",
+      "window": [
+        303,
+        307
+      ],
+      "chaptersRead": [
+        303,
+        308
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "theon",
+      "id": "theon-v4-pos-308-10",
+      "window": [
+        308,
+        321
+      ],
+      "chaptersRead": [
+        308,
+        322
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "daenerys",
+      "id": "daenerys-v4-pos-85-2",
+      "window": [
+        85,
+        99
+      ],
+      "chaptersRead": [
+        85
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "daenerys",
+      "id": "daenerys-v4-pos-100-3",
+      "window": [
+        100,
+        150
+      ],
+      "chaptersRead": [
+        100,
+        151
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "daenerys",
+      "id": "daenerys-v4-pos-166-4",
+      "window": [
+        166,
+        184
+      ],
+      "chaptersRead": [
+        166,
+        170
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "daenerys",
+      "id": "daenerys-v4-pos-185-5",
+      "window": [
+        185,
+        199
+      ],
+      "chaptersRead": [
+        185
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "daenerys",
+      "id": "daenerys-v4-pos-200-6",
+      "window": [
+        200,
+        322
+      ],
+      "chaptersRead": [
+        200,
+        214,
+        273,
+        323
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-73-5",
+      "window": [
+        73,
+        143
+      ],
+      "chaptersRead": [
+        118,
+        144
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-154-6",
+      "window": [
+        154,
+        163
+      ],
+      "chaptersRead": [
+        154,
+        164
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-174-7",
+      "window": [
+        174,
+        186
+      ],
+      "chaptersRead": [
+        174,
+        180,
+        187
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-205-8",
+      "window": [
+        205,
+        251
+      ],
+      "chaptersRead": [
+        205,
+        233,
+        241
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-252-9",
+      "window": [
+        252,
+        254
+      ],
+      "chaptersRead": [
+        252
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "jaime",
+      "id": "jaime-v4-pos-258-10",
+      "window": [
+        258,
+        318
+      ],
+      "chaptersRead": [
+        258,
+        263,
+        319
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "cersei",
+      "id": "cersei-v4-pos-73-3",
+      "window": [
+        73,
+        343
+      ],
+      "chaptersRead": [
+        228,
+        325,
+        336
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "rickon",
+      "id": "rickon-v4-pos-8-0",
+      "window": [
+        8,
+        141
+      ],
+      "chaptersRead": [
+        8,
+        108,
+        142
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "aegon",
+      "id": "aegon-v4-pos-279-0",
+      "window": [
+        279,
+        284
+      ],
+      "chaptersRead": [
+        279
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "aegon",
+      "id": "aegon-v4-pos-285-1",
+      "window": [
+        285,
+        288
+      ],
+      "chaptersRead": [
+        285
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "aegon",
+      "id": "aegon-v4-pos-289-2",
+      "window": [
+        289,
+        292
+      ],
+      "chaptersRead": [
+        289
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "aegon",
+      "id": "aegon-v4-pos-293-3",
+      "window": [
+        293,
+        294
+      ],
+      "chaptersRead": [
+        293
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "aegon",
+      "id": "aegon-v4-pos-295-4",
+      "window": [
+        295,
+        295
+      ],
+      "chaptersRead": [
+        295
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tywin",
+      "id": "tywin-v4-pos-99-0",
+      "window": [
+        99,
+        110
+      ],
+      "chaptersRead": [
+        99,
+        111
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "tywin",
+      "id": "tywin-v4-pos-135-1",
+      "window": [
+        135,
+        219
+      ],
+      "chaptersRead": [
+        135,
+        220
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "joffrey",
+      "id": "joffrey-v4-pos-4-0",
+      "window": [
+        4,
+        11
+      ],
+      "chaptersRead": [
+        4,
+        12
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "joffrey",
+      "id": "joffrey-v4-pos-20-1",
+      "window": [
+        20,
+        202
+      ],
+      "chaptersRead": [
+        20,
+        203
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "myrcella",
+      "id": "myrcella-v4-pos-4-0",
+      "window": [
+        4,
+        11
+      ],
+      "chaptersRead": [
+        4,
+        12
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "myrcella",
+      "id": "myrcella-v4-pos-20-1",
+      "window": [
+        20,
+        113
+      ],
+      "chaptersRead": [
+        20,
+        114
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "myrcella",
+      "id": "myrcella-v4-pos-227-2",
+      "window": [
+        227,
+        245
+      ],
+      "chaptersRead": [
+        227,
+        238,
+        246
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "myrcella",
+      "id": "myrcella-v4-pos-265-3",
+      "window": [
+        265,
+        265
+      ],
+      "chaptersRead": [
+        265
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robert",
+      "id": "robert-v4-pos-4-0",
+      "window": [
+        4,
+        11
+      ],
+      "chaptersRead": [
+        4,
+        12
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robert",
+      "id": "robert-v4-pos-20-1",
+      "window": [
+        20,
+        42
+      ],
+      "chaptersRead": [
+        20,
+        43
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "robert",
+      "id": "robert-v4-pos-47-2",
+      "window": [
+        47,
+        48
+      ],
+      "chaptersRead": [
+        47,
+        49
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "stannis",
+      "id": "stannis-v4-pos-73-0",
+      "window": [
+        73,
+        94
+      ],
+      "chaptersRead": [
+        73
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "stannis",
+      "id": "stannis-v4-pos-104-1",
+      "window": [
+        104,
+        130
+      ],
+      "chaptersRead": [
+        104,
+        115
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "stannis",
+      "id": "stannis-v4-pos-153-2",
+      "window": [
+        153,
+        215
+      ],
+      "chaptersRead": [
+        153
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "stannis",
+      "id": "stannis-v4-pos-219-3",
+      "window": [
+        219,
+        296
+      ],
+      "chaptersRead": [
+        219,
+        288
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "stannis",
+      "id": "stannis-v4-pos-297-4",
+      "window": [
+        297,
+        312
+      ],
+      "chaptersRead": [
+        297,
+        313
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "renly",
+      "id": "renly-v4-pos-95-0",
+      "window": [
+        95,
+        103
+      ],
+      "chaptersRead": [
+        95
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "renly",
+      "id": "renly-v4-pos-104-1",
+      "window": [
+        104,
+        105
+      ],
+      "chaptersRead": [
+        104,
+        106
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-95-0",
+      "window": [
+        95,
+        103
+      ],
+      "chaptersRead": [
+        95
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-104-1",
+      "window": [
+        104,
+        105
+      ],
+      "chaptersRead": [
+        104,
+        106
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-112-2",
+      "window": [
+        112,
+        143
+      ],
+      "chaptersRead": [
+        112,
+        144
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-154-3",
+      "window": [
+        154,
+        163
+      ],
+      "chaptersRead": [
+        154
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-174-4",
+      "window": [
+        174,
+        186
+      ],
+      "chaptersRead": [
+        174,
+        187
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-205-5",
+      "window": [
+        205,
+        228
+      ],
+      "chaptersRead": [
+        205,
+        229
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-234-6",
+      "window": [
+        234,
+        238
+      ],
+      "chaptersRead": [
+        234
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-239-7",
+      "window": [
+        239,
+        244
+      ],
+      "chaptersRead": [
+        239,
+        245
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-250-8",
+      "window": [
+        250,
+        255
+      ],
+      "chaptersRead": [
+        250
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-256-9",
+      "window": [
+        256,
+        261
+      ],
+      "chaptersRead": [
+        256
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "brienne",
+      "id": "brienne-v4-pos-262-10",
+      "window": [
+        262,
+        266
+      ],
+      "chaptersRead": [
+        262,
+        267
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "davos",
+      "id": "davos-v4-pos-83-0",
+      "window": [
+        83,
+        94
+      ],
+      "chaptersRead": [
+        83
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "davos",
+      "id": "davos-v4-pos-115-1",
+      "window": [
+        115,
+        130
+      ],
+      "chaptersRead": [
+        115,
+        131
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "davos",
+      "id": "davos-v4-pos-153-2",
+      "window": [
+        153,
+        215
+      ],
+      "chaptersRead": [
+        153
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "davos",
+      "id": "davos-v4-pos-280-3",
+      "window": [
+        280,
+        285
+      ],
+      "chaptersRead": [
+        280
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "davos",
+      "id": "davos-v4-pos-286-4",
+      "window": [
+        286,
+        300
+      ],
+      "chaptersRead": [
+        286,
+        300
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-26-0",
+      "window": [
+        26,
+        79
+      ],
+      "chaptersRead": [
+        26,
+        79
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-96-1",
+      "window": [
+        96,
+        106
+      ],
+      "chaptersRead": [
+        96
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-107-2",
+      "window": [
+        107,
+        143
+      ],
+      "chaptersRead": [
+        107,
+        143,
+        161
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-176-3",
+      "window": [
+        176,
+        176
+      ],
+      "chaptersRead": [
+        176
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-218-4",
+      "window": [
+        218,
+        239
+      ],
+      "chaptersRead": [
+        218,
+        230
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-251-5",
+      "window": [
+        251,
+        259
+      ],
+      "chaptersRead": [
+        251
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "samwell",
+      "id": "samwell-v4-pos-270-6",
+      "window": [
+        270,
+        343
+      ],
+      "chaptersRead": [
+        270
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "asha",
+      "id": "asha-v4-pos-129-0",
+      "window": [
+        129,
+        129
+      ],
+      "chaptersRead": [
+        129
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "asha",
+      "id": "asha-v4-pos-297-1",
+      "window": [
+        297,
+        312
+      ],
+      "chaptersRead": [
+        297,
+        313
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "victarion",
+      "id": "victarion-v4-pos-123-0",
+      "window": [
+        123,
+        123
+      ],
+      "chaptersRead": [
+        123
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "arianne",
+      "id": "arianne-v4-pos-265-0",
+      "window": [
+        265,
+        265
+      ],
+      "chaptersRead": [
+        265
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "littlefinger",
+      "id": "littlefinger-v4-pos-98-0",
+      "window": [
+        98,
+        108
+      ],
+      "chaptersRead": [
+        98,
+        109
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "littlefinger",
+      "id": "littlefinger-v4-pos-135-1",
+      "window": [
+        135,
+        161
+      ],
+      "chaptersRead": [
+        135,
+        162
+      ],
+      "note": ""
+    },
+    {
+      "kind": "position",
+      "character": "littlefinger",
+      "id": "littlefinger-v4-pos-223-2",
+      "window": [
+        223,
+        265
+      ],
+      "chaptersRead": [
+        223,
+        266
+      ],
+      "note": ""
+    }
+  ],
+  "sourceLedger": [
+    {
+      "character": "jon",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 4,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jon",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 2,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 4,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 9,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 11,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 13,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 32,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 33,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 34,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tyrion",
+      "sourceRecordIndex": 35,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 4,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 7,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 10,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 11,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robb",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 2,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 7,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 10,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 11,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 12,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 13,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 14,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 15,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 16,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 17,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 20,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 21,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 32,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 33,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 34,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 35,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 36,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 37,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 38,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "catelyn",
+      "sourceRecordIndex": 39,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 4,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 9,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "eddard",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 7,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 32,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 33,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 34,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 35,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 36,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 37,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 38,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 39,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 40,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 41,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 42,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 43,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 44,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 45,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 46,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 47,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 48,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arya",
+      "sourceRecordIndex": 49,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "sansa",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "bran",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 4,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 7,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 10,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 11,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "theon",
+      "sourceRecordIndex": 29,
+      "disposition": "unpublished-preview-excluded"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 3,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 7,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "daenerys",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 2,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 6,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 8,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 10,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 11,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 13,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 32,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 33,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 34,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 35,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "jaime",
+      "sourceRecordIndex": 36,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 0,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 1,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 2,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "cersei",
+      "sourceRecordIndex": 5,
+      "disposition": "inherited-v3"
+    },
+    {
+      "character": "rickon",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "rickon",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "rickon",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "rickon",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "rickon",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "aegon",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "tywin",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "joffrey",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "myrcella",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "robert",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "stannis",
+      "sourceRecordIndex": 16,
+      "disposition": "unpublished-preview-excluded"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "renly",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 32,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 33,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 34,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 35,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 36,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "brienne",
+      "sourceRecordIndex": 37,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "davos",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 13,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 14,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 15,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 16,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 17,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 18,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 19,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 20,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 21,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 22,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 23,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 24,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 25,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 26,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 27,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 28,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 29,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 30,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "samwell",
+      "sourceRecordIndex": 31,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 11,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "asha",
+      "sourceRecordIndex": 12,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "victarion",
+      "sourceRecordIndex": 10,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arianne",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arianne",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arianne",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arianne",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "arianne",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 0,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 1,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 2,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 3,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 4,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 5,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 6,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 7,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 8,
+      "disposition": "not-directly-replayed"
+    },
+    {
+      "character": "littlefinger",
+      "sourceRecordIndex": 9,
+      "disposition": "not-directly-replayed"
+    }
+  ],
+  "policy": "Every frozen original record is accounted once. Narrative supplements are separate. Book scene locators establish context, not exact geometry or continuous tracking.",
+  "chaptersRead": [
+    4,
+    8,
+    12,
+    15,
+    20,
+    26,
+    43,
+    47,
+    49,
+    73,
+    75,
+    76,
+    77,
+    79,
+    80,
+    83,
+    84,
+    85,
+    86,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    104,
+    106,
+    107,
+    108,
+    109,
+    111,
+    112,
+    114,
+    115,
+    116,
+    118,
+    119,
+    123,
+    128,
+    129,
+    131,
+    135,
+    137,
+    139,
+    142,
+    143,
+    144,
+    145,
+    148,
+    151,
+    153,
+    154,
+    156,
+    157,
+    161,
+    162,
+    164,
+    165,
+    166,
+    170,
+    172,
+    174,
+    176,
+    180,
+    183,
+    184,
+    185,
+    187,
+    188,
+    190,
+    191,
+    192,
+    193,
+    194,
+    200,
+    203,
+    204,
+    205,
+    214,
+    216,
+    217,
+    218,
+    219,
+    220,
+    223,
+    227,
+    228,
+    229,
+    230,
+    231,
+    233,
+    234,
+    235,
+    238,
+    239,
+    240,
+    241,
+    245,
+    246,
+    250,
+    251,
+    252,
+    256,
+    258,
+    259,
+    260,
+    262,
+    263,
+    265,
+    266,
+    267,
+    270,
+    272,
+    273,
+    274,
+    276,
+    279,
+    280,
+    283,
+    285,
+    286,
+    288,
+    289,
+    291,
+    293,
+    295,
+    297,
+    298,
+    300,
+    303,
+    304,
+    308,
+    313,
+    316,
+    319,
+    322,
+    323,
+    325,
+    335,
+    336,
+    340
+  ],
+  "chronologyCorrections": [
+    "Qarth100, not85; Tyrion Pentos272, notADWD prologue271.",
+    "Samwell Oldtown270 inAFFC, not281 inADWD.",
+    "Robb returns157, still expected145; no living marker afterRedWedding194.",
+    "Jaime andBrienne arriveKingsLanding205, not210.",
+    "Arya leavesHarrenhal137, BranQueenscrown183, Sansa leavesEyrie266.",
+    "Theon escapesWinterfell322; no continuing city marker thereafter.",
+    "Theon atBarrowton303, not a prolongedMoatCailin position; Brienne already outsideKingsLanding229.",
+    "Jon leavesFist after116; Sam atFist throughASOS prologue143, not continuously through160.",
+    "Daenerys departsMeereen323, not342; unknown flight endpoint not drawn.",
+    "Myrcella announcedBraavos decoy not asserted as actual stop; falseDavos execution not accepted.",
+    "Dead Robert49, Eddard65, Renly106, Robb/Catelyn194, Joffrey203, Tywin220 not prolonged as living markers."
+  ]
+}

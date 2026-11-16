@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed-expansion-not-a-proof-of-exhaustiveness",
+  "policy": "Lead visual review of all 36 sectors and the eight candidate sheets. Native closeups resolve partial glyphs. Coordinates are approximate printed-symbol centers. A sector overview is not proof that no faint symbol can remain. Do not turn terrain or lettering into settlements.",
+  "sectorReview": {
+    "rows": 6,
+    "columns": 6,
+    "imagePattern": "atlas/test/evidencias/v4-setor-{row}-{column}.png",
+    "extent": [0, 0, 21654, 14428],
+    "method": "Visual overview at quarter native resolution; contact-sheet review and native closeups for new glyphs and ambiguous components.",
+    "unresolved": "Further faint/dark symbols may still be found. This is an audited expansion, not an independently certified complete census."
+  },
+  "acceptedCandidateIds": [
+    293, 299, 300, 306, 328, 368, 375, 384, 393, 396, 412, 413,
+    414, 439, 456, 470, 475, 478, 492, 493, 494, 496, 511, 521,
+    528, 531, 549, 550, 580, 587, 592, 594, 602, 606, 608, 640,
+    649, 698, 699, 741, 747, 754, 766, 771, 794, 799, 828, 838, 855
+  ],
+  "coordinateCorrections": [
+    {"candidateId": 549, "x": 2926, "y": 9240, "reason": "Detector caught the lower-left component; center of the same castle is northeast, confirmed in v4-dorne-norte.png."}
+  ],
+  "newNamedCandidates": [
+    {"candidateId": 493, "id": "Bhorash", "label": "Bhorash", "english": "Bhorash", "kind": "ruin", "evidenceImage": "atlas/test/evidencias/v4-setor-3-3.png"},
+    {"candidateId": 594, "id": "Lhazosh", "label": "Lhazosh", "english": "Lhazosh", "kind": "city", "evidenceImage": "atlas/test/evidencias/v4-setor-3-3.png"},
+    {"candidateId": 640, "id": "Elyria", "label": "Eliria", "english": "Elyria", "kind": "city", "evidenceImage": "atlas/test/evidencias/v4-setor-4-2.png"}
+  ],
+  "resolvedNonAdditions": [
+    {"candidateId": 286, "decision": "letter-not-settlement", "evidenceImage": "atlas/test/evidencias/v4-partiais-detalhe.png"},
+    {"candidateId": 349, "decision": "off-center-fragment-existing-glyph", "evidenceImage": "atlas/test/evidencias/v4-partiais-detalhe.png"},
+    {"candidateId": 358, "decision": "off-center-fragment-existing-glyph", "evidenceImage": "atlas/test/evidencias/v4-partiais-detalhe.png"},
+    {"candidateId": 429, "decision": "fragment-near-414-456-not-independent-glyph", "evidenceImage": "atlas/test/evidencias/v4-dorne-norte.png"},
+    {"candidateId": 483, "decision": "fragment-of-existing-Monpreto-glyph", "evidenceImage": "atlas/test/evidencias/v4-partiais-detalhe.png"},
+    {"candidateId": 484, "decision": "existing-Oldtown", "evidenceImage": "atlas/test/evidencias/v4-setor-3-0.png"},
+    {"candidateId": 501, "decision": "fragment-of-511", "evidenceImage": "atlas/test/evidencias/v4-dorne-norte.png"}
+  ],
+  "manualSymbols": [
+    {"id": "Deepwood_Motte", "label": "Bosque Profundo", "english": "Deepwood Motte", "x": 2978, "y": 3408, "kind": "castle", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-norte-preto.png", "identityNotice": "Northern coastal forest castle west of Winterfell; regional correspondence with O Ocidente."},
+    {"id": "Last_Hearth", "label": "Ultima Lareira", "english": "Last Hearth", "x": 4346, "y": 2904, "kind": "castle", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-norte-preto.png", "identityNotice": "Castle north of the Last River and west of Karhold; regional correspondence with O Ocidente."},
+    {"id": "Widow%27s_Watch", "label": "Atalaia da Viuva", "english": "Widow's Watch", "x": 5270, "y": 4482, "kind": "castle", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-norte-preto.png", "identityNotice": "Southeastern northern coastal headland east of Ramsgate; regional correspondence with O Ocidente."},
+    {"id": "Eastwatch-by-the-Sea", "label": "Atalaialeste do Mar", "english": "Eastwatch-by-the-Sea", "x": 4574, "y": 2390, "kind": "castle", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-muralha-preto.png", "identityNotice": "Eastern terminus of the Wall on the coast."},
+    {"id": "scan-v4-white-tree-glyph", "label": "Simbolo sem nome junto a Muralha", "english": "Unidentified settlement symbol", "x": 4200, "y": 2300, "kind": "village", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-muralha-preto.png", "identityNotice": "Small dark hut north of the Wall; no secure individual identity assigned."},
+    {"id": "scan-v4-cape-castle", "label": "Castelo sem nome ao norte da Dentada", "english": "Unidentified castle", "x": 4268, "y": 4916, "kind": "castle", "region": "norte", "evidenceImage": "atlas/test/evidencias/v4-gargalo.png", "identityNotice": "Coastal castle north of the Three Sisters; no secure individual identity assigned."},
+    {"id": "scan-v4-summerhall-glyph", "label": "Ruina sem nome nas Marcas", "english": "Unidentified ruined castle", "x": 4250, "y": 8220, "kind": "ruin", "region": "westeros", "evidenceImage": "atlas/test/evidencias/v4-closeup-storm-limpo.png", "identityNotice": "Hollow castle glyph inland west of the stormlands; no secure individual identity assigned."},
+    {"id": "scan-v4-dorne-3988-9056", "label": "Castelo sem nome em Dorne", "english": "Unidentified castle", "x": 3988, "y": 9056, "kind": "castle", "region": "westeros", "evidenceImage": "atlas/test/evidencias/v4-dorne-leste.png", "identityNotice": "Western dark coastal castle on the northern shore of Dorne."},
+    {"id": "scan-v4-dorne-4574-9180", "label": "Castelo sem nome em Dorne", "english": "Unidentified castle", "x": 4574, "y": 9180, "kind": "castle", "region": "westeros", "evidenceImage": "atlas/test/evidencias/v4-dorne-leste.png", "identityNotice": "Central dark coastal castle on the northern shore of Dorne."},
+    {"id": "scan-v4-dorne-5170-9180", "label": "Castelo sem nome em Dorne", "english": "Unidentified castle", "x": 5170, "y": 9180, "kind": "castle", "region": "westeros", "evidenceImage": "atlas/test/evidencias/v4-dorne-leste.png", "identityNotice": "Eastern dark coastal castle north of Sunspear."},
+    {"id": "scan-v4-dorne-4264-9470", "label": "Castelo sem nome junto ao Vaith", "english": "Unidentified castle by the Vaith", "x": 4264, "y": 9470, "kind": "castle", "region": "westeros", "evidenceImage": "atlas/test/evidencias/v4-dorne-leste.png", "identityNotice": "Dark castle beside the Vaith river; river name alone is not an individual settlement identification."}
+  ],
+  "duplicateResolution": [[299,304],[375,370],[594,597],[640,641,644],[754,750,758],[766,769],[771,773]],
+  "closeupFindings": [
+    "414 and456 are two separate castles along the Prince's Pass, not two components of one glyph.",
+    "549 is a separate castle south of511;501 is only a fragment of511.",
+    "587 is a separate castle northwest of the existing Sunspear glyph.",
+    "The original Lotus_Port point matches its printed label;828 is a separate village southeast of it. Do not move Lotus_Port to rough earlier guesses.",
+    "The existing Tyria point matches its printed label.640 is Elyria, not Tyria. Do not rename or move the frozen Tyria point.",
+    "The Iron Islands closeup only resolved the already marked Pyke glyph; island names and stippling were not promoted to castles."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "https://www.sermountaingoat.co.uk/map/map.html",
+  "license": "Creative Commons BY-NC-SA (non-commercial fan projects) - same as map originals, see reference/NOTICE.md",
+  "fetched": "2026-11-01",
+  "size": "4642x4642",
+  "files": {
+    "labels.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/labels.png",
+      "bytes": 1202474,
+      "sha256": "a903ce965acfba15"
+    },
+    "spec_labels.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/spec_labels.png",
+      "bytes": 247061,
+      "sha256": "d53c7edf0faac433"
+    },
+    "locations.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/locations.png",
+      "bytes": 340649,
+      "sha256": "dbc1add0fee1224b"
+    },
+    "spec_locations.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/spec_locations.png",
+      "bytes": 148170,
+      "sha256": "1f81981b2514cde0"
+    },
+    "roads.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/roads.png",
+      "bytes": 184281,
+      "sha256": "6bbb0507bdd5c8a4"
+    },
+    "wall.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/wall.png",
+      "bytes": 96496,
+      "sha256": "7044afd71f2932f0"
+    },
+    "non_canon.png": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/non_canon.png",
+      "bytes": 99125,
+      "sha256": "e05bed591afd50f6"
+    },
+    "map.jpg": {
+      "url": "https://www.sermountaingoat.co.uk/map/images/map.jpg",
+      "bytes": 5285373,
+      "sha256": "eea58fc3031f2746"
+    },
+    "map.html": {
+      "url": "https://www.sermountaingoat.co.uk/map/map.html",
+      "note": "source page listing the layers"
+    },
+    "map.php": {
+      "url": "https://www.sermountaingoat.co.uk/map/map.php",
+      "note": "source page"
+    }
+  }
+}

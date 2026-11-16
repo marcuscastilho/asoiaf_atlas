@@ -1,0 +1,140 @@
+{
+  "datasetId": "atlas-inventario-v3",
+  "entries": 182,
+  "namedEntries": 115,
+  "unidentifiedSymbols": 67,
+  "coverageNotice": "Inventario ampliado, NAO exaustivo. Simbolos sem nome permanecem sem identidade. Candidatos de deteccao nao entram automaticamente.",
+  "routeNotice": "Corredores revistos: 19. Revisao cartografica nao certifica cada curva nem toda a cronologia.",
+  "spreadsheetNotice": "Planilha consultada e capturada; cronologia colaborativa, datas nao oficiais.",
+  "byRegion": {
+    "norte": 17,
+    "westeros": 80,
+    "essos": 59,
+    "oriente": 21,
+    "ilhas-verao": 1,
+    "sothoryos": 4
+  },
+  "byKind": {
+    "castle": 70,
+    "city": 55,
+    "ruin": 39,
+    "village": 16,
+    "settlement": 2
+  },
+  "routeChanges": [
+    {
+      "characterId": "jon",
+      "sourceRecordIndex": 4,
+      "corridor": "north",
+      "vertexCount": 20
+    },
+    {
+      "characterId": "tyrion",
+      "sourceRecordIndex": 3,
+      "corridor": "north",
+      "vertexCount": 20
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 4,
+      "corridor": "winterfell-moat",
+      "vertexCount": 18
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 6,
+      "corridor": "moat-twins",
+      "vertexCount": 12
+    },
+    {
+      "characterId": "robb",
+      "sourceRecordIndex": 10,
+      "corridor": "whisper-riverrun",
+      "vertexCount": 3
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 1,
+      "corridor": "cat-sea",
+      "vertexCount": 28
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 13,
+      "corridor": "whiteharbor-moat",
+      "vertexCount": 4
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 15,
+      "corridor": "moat-twins",
+      "vertexCount": 12
+    },
+    {
+      "characterId": "catelyn",
+      "sourceRecordIndex": 20,
+      "corridor": "whisper-riverrun",
+      "vertexCount": 3
+    },
+    {
+      "characterId": "eddard",
+      "sourceRecordIndex": 4,
+      "corridor": "royal-north",
+      "vertexCount": 13
+    },
+    {
+      "characterId": "eddard",
+      "sourceRecordIndex": 6,
+      "corridor": "royal-neck",
+      "vertexCount": 29
+    },
+    {
+      "characterId": "arya",
+      "sourceRecordIndex": 1,
+      "corridor": "royal-north",
+      "vertexCount": 13
+    },
+    {
+      "characterId": "arya",
+      "sourceRecordIndex": 3,
+      "corridor": "royal-neck",
+      "vertexCount": 29
+    },
+    {
+      "characterId": "sansa",
+      "sourceRecordIndex": 1,
+      "corridor": "royal-north",
+      "vertexCount": 13
+    },
+    {
+      "characterId": "sansa",
+      "sourceRecordIndex": 3,
+      "corridor": "royal-neck",
+      "vertexCount": 29
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 4,
+      "corridor": "winterfell-moat",
+      "vertexCount": 18
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 6,
+      "corridor": "moat-twins",
+      "vertexCount": 12
+    },
+    {
+      "characterId": "theon",
+      "sourceRecordIndex": 10,
+      "corridor": "whisper-riverrun",
+      "vertexCount": 3
+    },
+    {
+      "characterId": "jaime",
+      "sourceRecordIndex": 11,
+      "corridor": "whisper-riverrun",
+      "vertexCount": 3
+    }
+  ]
+}

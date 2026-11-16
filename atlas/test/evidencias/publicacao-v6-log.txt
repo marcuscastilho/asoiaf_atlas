@@ -1,0 +1,11 @@
+# Publicacao local v6 - 2026-11-15T23:31:04.618Z
+# origem: candidatos congelados pelo lead; temp atomico + rename
+nomes-percursos-v6-evidencias.json  8601f82315844a24fb80182472909f9b815684581d341de5272e00b8f0195991 OK
+percursos-v6-diagnostico.json      6a3bb7abfce891ce4baef78bdee4d10c92e72bf34a3cc27c721dc60d86c0b147 OK
+atlas-percursos-v6.json            5677f7a5abaed8d0ad7bc724512c143d30a7d7489232294bd1dcb8ece33ee75d OK
+
+# verificacao HTTP (127.0.0.1:8080)
+GET /atlas/data/nomes-percursos-v6-evidencias.json -> 200 sha256=8601f82315844a24fb80182472909f9b815684581d341de5272e00b8f0195991
+GET /atlas/data/percursos-v6-diagnostico.json -> 200 sha256=6a3bb7abfce891ce4baef78bdee4d10c92e72bf34a3cc27c721dc60d86c0b147
+GET /atlas/data/atlas-percursos-v6.json -> 200 sha256=5677f7a5abaed8d0ad7bc724512c143d30a7d7489232294bd1dcb8ece33ee75d
+GET /atlas/data/atlas-inventario-v5.json -> 200 sha256=e100756cbc9be874128db96ef6af540e8f6720312ff45df4086774e29e4d8999

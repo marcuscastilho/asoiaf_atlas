@@ -1,0 +1,40 @@
+{
+  "scope": "Local label-placement diagnostic, not total rendering time or FPS. Median of three placement calls after one warmup; milliseconds rounded to one decimal.",
+  "baseline": "reference/performance-baseline.json",
+  "after": "reference/performance-after.json",
+  "comparisons": [
+    {
+      "view": "westeros-z3",
+      "sameCameraAndSharedAnchors": true,
+      "sharedAnchorMaxDriftPx": 0,
+      "layoutItemsBefore": 237,
+      "layoutItemsAfter": 49,
+      "placementMedianMsBefore": 679.3,
+      "placementMedianMsAfter": 0.5,
+      "gestureLayoutCallsBefore": 5,
+      "gestureLayoutCallsAfter": 2
+    },
+    {
+      "view": "riverlands-z4",
+      "sameCameraAndSharedAnchors": true,
+      "sharedAnchorMaxDriftPx": 0,
+      "layoutItemsBefore": 157,
+      "layoutItemsAfter": 157,
+      "placementMedianMsBefore": 96,
+      "placementMedianMsAfter": 122,
+      "gestureLayoutCallsBefore": 4,
+      "gestureLayoutCallsAfter": 2,
+      "note": "Detailed placement algorithm is unchanged. No per-call speedup is claimed; redundant calls are reduced."
+    }
+  ],
+  "excludedComparison": {
+    "view": "world-z2",
+    "reason": "Settled projected anchors differed between captures (maximum shared-anchor drift 1166px). Do not treat its timings as a matched-camera before/after comparison."
+  },
+  "integrityAfterAllViews": {
+    "originalLocations": 245,
+    "catalogInstances": 208,
+    "searchEntries": 387,
+    "terrainDimensions": [4642, 4642]
+  }
+}

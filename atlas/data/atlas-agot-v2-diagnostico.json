@@ -1,0 +1,163 @@
+{
+  "datasetId": "agot-atlas-v2",
+  "manualLocalities": 32,
+  "characters": 12,
+  "chapters": 73,
+  "byCharacter": [
+    {
+      "id": "jon",
+      "sourceRecords": 9,
+      "positionRecords": 3,
+      "segmentRecords": 2,
+      "omittedRecords": 4
+    },
+    {
+      "id": "tyrion",
+      "sourceRecords": 14,
+      "positionRecords": 4,
+      "segmentRecords": 3,
+      "omittedRecords": 7
+    },
+    {
+      "id": "robb",
+      "sourceRecords": 12,
+      "positionRecords": 5,
+      "segmentRecords": 3,
+      "omittedRecords": 4
+    },
+    {
+      "id": "catelyn",
+      "sourceRecords": 22,
+      "positionRecords": 6,
+      "segmentRecords": 5,
+      "omittedRecords": 11
+    },
+    {
+      "id": "eddard",
+      "sourceRecords": 11,
+      "positionRecords": 3,
+      "segmentRecords": 2,
+      "omittedRecords": 6
+    },
+    {
+      "id": "arya",
+      "sourceRecords": 8,
+      "positionRecords": 2,
+      "segmentRecords": 2,
+      "omittedRecords": 4
+    },
+    {
+      "id": "sansa",
+      "sourceRecords": 7,
+      "positionRecords": 2,
+      "segmentRecords": 2,
+      "omittedRecords": 3
+    },
+    {
+      "id": "bran",
+      "sourceRecords": 4,
+      "positionRecords": 2,
+      "segmentRecords": 0,
+      "omittedRecords": 2
+    },
+    {
+      "id": "theon",
+      "sourceRecords": 12,
+      "positionRecords": 5,
+      "segmentRecords": 3,
+      "omittedRecords": 4
+    },
+    {
+      "id": "daenerys",
+      "sourceRecords": 9,
+      "positionRecords": 2,
+      "segmentRecords": 0,
+      "omittedRecords": 7
+    },
+    {
+      "id": "jaime",
+      "sourceRecords": 14,
+      "positionRecords": 5,
+      "segmentRecords": 2,
+      "omittedRecords": 7
+    },
+    {
+      "id": "cersei",
+      "sourceRecords": 6,
+      "positionRecords": 3,
+      "segmentRecords": 0,
+      "omittedRecords": 3
+    }
+  ],
+  "westerosFitResiduals": [
+    {
+      "id": "Winterfell",
+      "pixels": 8.84
+    },
+    {
+      "id": "Castle_Black",
+      "pixels": 131.15
+    },
+    {
+      "id": "Dreadfort",
+      "pixels": 52.38
+    },
+    {
+      "id": "White_Harbor",
+      "pixels": 73.34
+    },
+    {
+      "id": "Moat_Cailin",
+      "pixels": 28.57
+    },
+    {
+      "id": "Barrowton",
+      "pixels": 54.24
+    },
+    {
+      "id": "Twins",
+      "pixels": 176.24
+    },
+    {
+      "id": "Riverrun",
+      "pixels": 25.71
+    },
+    {
+      "id": "Eyrie",
+      "pixels": 76.12
+    },
+    {
+      "id": "Gulltown",
+      "pixels": 22.4
+    },
+    {
+      "id": "Harrenhal",
+      "pixels": 58.95
+    },
+    {
+      "id": "King%27s_Landing",
+      "pixels": 6.53
+    },
+    {
+      "id": "Dragonstone",
+      "pixels": 79.34
+    },
+    {
+      "id": "Highgarden",
+      "pixels": 60.66
+    },
+    {
+      "id": "Oldtown",
+      "pixels": 52.91
+    },
+    {
+      "id": "Pyke",
+      "pixels": 9.81
+    },
+    {
+      "id": "Casterly_Rock",
+      "pixels": 32.24
+    }
+  ],
+  "note": "Counts are import coverage, not verified literary completeness."
+}

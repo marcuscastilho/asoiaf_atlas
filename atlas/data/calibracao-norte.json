@@ -1,0 +1,28 @@
+{
+  "mapId": "o-mundo-conhecido",
+  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
+  "coordinateSystem": "cropped-native-pixels",
+  "positionPolicy": "Manually inspected centers of printed settlement symbols, not text centers. Approximate pilot references, pending user review; not surveyed coordinates.",
+  "controlPoints": [
+    {"id": "Winterfell", "x": 3640, "y": 3720, "bookMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-4.html"},
+    {"id": "Castle_Black", "x": 4260, "y": 2370, "bookMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-3.html"},
+    {"id": "Dreadfort", "x": 4540, "y": 3580, "bookMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-56.html"},
+    {"id": "White_Harbor", "x": 4100, "y": 4590, "bookMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-17.html"},
+    {"id": "Moat_Cailin", "x": 3680, "y": 4780, "bookMember": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-23.html"},
+    {"id": "Barrowton", "x": 3005, "y": 4490, "bookMember": null}
+  ],
+  "routeEvidence": [
+    {"kind": "book-context", "label": "AGOT-LEYA, Jon I: contexto em Winterfell", "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-8.html"},
+    {"kind": "book-context", "label": "AGOT-LEYA, Tyrion II: viagem para o norte com Benjen e Jon pela estrada do rei", "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-16.html"},
+    {"kind": "book-context", "label": "AGOT-LEYA, Jon III: contexto em Castelo Negro; nao confirma os vertices exatos do percurso", "locator": "OEBPS/Text/9788580442786_a_guerra_dos_tronos-22.html"},
+    {"kind": "scan-reference", "label": "Viagens: comparacao visual da cartografia e corredores; nao certifica sozinho personagem, geometria ou cronologia", "locator": "mapas/jpeg/Viagens.jpg"},
+    {"kind": "portal", "label": "Sequencia e ativacao por capitulo herdadas do portal existente; geometria em revisao", "locator": "assets/js/data.js paths.jon[4]"}
+  ],
+  "limitations": [
+    "A verificacao literaria confirma contextos e corredor geral, nao cada curva nem a posicao intermediaria em cada capitulo.",
+    "Ocorrencia de um nome na edicao LeYa nao certifica a edicao Suma nem todos os atributos da entidade.",
+    "Vila Acidentada usa o nome impresso no mapa e o dicionario existente; referencia literaria independente ainda pendente.",
+    "Planilha nao consultada: aguardando autorizacao explicita de leitura ou exportacao."
+  ]
+}

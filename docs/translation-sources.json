@@ -1,0 +1,924 @@
+{
+ "Westwatch-by-the-Bridge": {
+  "pt": "Atalaioeste da Ponta",
+  "en": "Westwatch-by-the-Bridge",
+  "article": "Atalaioeste da Ponta",
+  "evidence": "langlink [[en:Westwatch-by-the-Bridge]] in https://wiki.geloefogo.com/index.php/Atalaioeste_da_Ponta"
+ },
+ "Sentinel_Stand": {
+  "pt": "Bosque de Sentinelas",
+  "en": "Sentinel Stand",
+  "article": "Bosque de Sentinelas",
+  "evidence": "langlink [[en:Sentinel Stand]] in https://wiki.geloefogo.com/index.php/Bosque_de_Sentinelas"
+ },
+ "Greyguard": {
+  "pt": "Guardagris",
+  "en": "Greyguard",
+  "article": "Guardagris",
+  "evidence": "langlink [[en:Greyguard]] in https://wiki.geloefogo.com/index.php/Guardagris"
+ },
+ "Stonedoor": {
+  "pt": "Portapedra",
+  "en": "Stonedoor",
+  "article": "Portapedra",
+  "evidence": "langlink [[en:Stonedoor]] in https://wiki.geloefogo.com/index.php/Portapedra"
+ },
+ "Hoarfrost_Hill": {
+  "pt": "Colina de Geadalva",
+  "en": "Hoarfrost Hill",
+  "article": "Colina de Geadalva",
+  "evidence": "langlink [[en:Hoarfrost Hill]] in https://wiki.geloefogo.com/index.php/Colina_de_Geadalva"
+ },
+ "Icemark": {
+  "pt": "Marcagelo",
+  "en": "Icemark",
+  "article": "Marcagelo",
+  "evidence": "langlink [[en:Icemark]] in https://wiki.geloefogo.com/index.php/Marcagelo"
+ },
+ "Deep_Lake": {
+  "pt": "Lago Profundo",
+  "en": "Deep Lake",
+  "article": "Lago Profundo",
+  "evidence": "langlink [[en:Deep Lake]] in https://wiki.geloefogo.com/index.php/Lago_Profundo"
+ },
+ "Queensgate": {
+  "pt": "Portão da Rainha",
+  "en": "Queensgate",
+  "article": "Portão da Rainha",
+  "evidence": "langlink [[en:Queensgate]] in https://wiki.geloefogo.com/index.php/Portão_da_Rainha"
+ },
+ "Oakenshield_(Wall)": {
+  "pt": "Escudo de Carvalho",
+  "en": "Oakenshield (Wall)",
+  "article": "Escudo de Carvalho (Muralha)",
+  "evidence": "langlink [[en:Oakenshield (Wall)]] in https://wiki.geloefogo.com/index.php/Escudo_de_Carvalho_(Muralha)"
+ },
+ "Woodswatch-by-the-Pool": {
+  "pt": "Atalaiabosque da Lagoa",
+  "en": "Woodswatch-by-the-Pool",
+  "article": "Atalaiabosque da Lagoa",
+  "evidence": "langlink [[en:Woodswatch-by-the-Pool]] in https://wiki.geloefogo.com/index.php/Atalaiabosque_da_Lagoa"
+ },
+ "Sable_Hall": {
+  "pt": "Solar das Trevas",
+  "en": "Sable Hall",
+  "article": "Solar das Trevas",
+  "evidence": "langlink [[en:Sable Hall]] in https://wiki.geloefogo.com/index.php/Solar_das_Trevas"
+ },
+ "Rimegate": {
+  "pt": "Portão da Geada",
+  "en": "Rimegate",
+  "article": "Portão da Geada",
+  "evidence": "langlink [[en:Rimegate]] in https://wiki.geloefogo.com/index.php/Portão_da_Geada"
+ },
+ "Long_Barrow": {
+  "pt": "Monte Longo",
+  "en": "Long Barrow",
+  "article": "Monte Longo",
+  "evidence": "langlink [[en:Long Barrow]] in https://wiki.geloefogo.com/index.php/Monte_Longo"
+ },
+ "Greenguard": {
+  "pt": "Guardaverde",
+  "en": "Greenguard",
+  "article": "Guardaverde",
+  "evidence": "langlink [[en:Greenguard]] in https://wiki.geloefogo.com/index.php/Guardaverde"
+ },
+ "Lord_Harroway%27s_Town": {
+  "pt": "Vila de Lorde Harroway",
+  "en": "Lord Harroway's Town",
+  "article": "Vila de Lorde Harroway",
+  "evidence": "langlink [[en:Lord Harroway's Town]] in https://wiki.geloefogo.com/index.php/Vila_de_Lorde_Harroway"
+ },
+ "Sallydance": {
+  "pt": "Brotadança",
+  "en": "Sallydance",
+  "article": "Brotadança",
+  "evidence": "langlink [[en:Sallydance]] in https://wiki.geloefogo.com/index.php/Brotadança"
+ },
+ "Pennytree": {
+  "pt": "Centarbor",
+  "en": "Pennytree",
+  "article": "Centarbor",
+  "evidence": "langlink [[en:Pennytree]] in https://wiki.geloefogo.com/index.php/Centarbor"
+ },
+ "Old_Stone_Bridge": {
+  "pt": "Velha Ponte de Pedra",
+  "en": "Old Stone Bridge",
+  "article": "Velha Ponte de Pedra",
+  "evidence": "langlink [[en:Old Stone Bridge]] in https://wiki.geloefogo.com/index.php/Velha_Ponte_de_Pedra"
+ },
+ "Lord_Hewett%27s_Town": {
+  "pt": "Vila de Lorde Hewett",
+  "en": "Lord Hewett's Town",
+  "article": "Vila de Lorde Hewett",
+  "evidence": "langlink [[en:Lord Hewett's Town]] in https://wiki.geloefogo.com/index.php/Vila_de_Lorde_Hewett"
+ },
+ "Shandystone": {
+  "pt": "Pedramarela",
+  "en": "Shandystone",
+  "article": "Pedramarela",
+  "evidence": "langlink [[en:Shandystone]] in https://wiki.geloefogo.com/index.php/Pedramarela"
+ },
+ "Whitetree": {
+  "pt": "Brancarbor",
+  "en": "Whitetree",
+  "article": "Brancarbor",
+  "evidence": "langlink [[en:Whitetree]] in https://wiki.geloefogo.com/index.php/Brancarbor"
+ },
+ "Tumbledown_Tower": {
+  "pt": "Torre Arruinada",
+  "en": "Tumbledown Tower",
+  "article": "Torre Arruinada",
+  "evidence": "langlink [[en:Tumbledown Tower]] in https://wiki.geloefogo.com/index.php/Torre_Arruinada"
+ },
+ "Castle_Cerwyn": {
+  "pt": "Castelo Cerwyn",
+  "en": "Castle Cerwyn",
+  "article": "Castelo Cerwyn",
+  "evidence": "langlink [[en:Castle Cerwyn]] in https://wiki.geloefogo.com/index.php/Castelo_Cerwyn"
+ },
+ "Stony_Shore": {
+  "pt": "Costa Pedregosa",
+  "en": "Stony Shore",
+  "article": "Costa Pedregosa",
+  "evidence": "langlink [[en:Stony Shore]] in https://wiki.geloefogo.com/index.php/Costa_Pedregosa"
+ },
+ "Ramsgate": {
+  "pt": "Aríete",
+  "en": "Ramsgate",
+  "article": "Aríete",
+  "evidence": "langlink [[en:Ramsgate]] in https://wiki.geloefogo.com/index.php/Aríete"
+ },
+ "Oldcastle": {
+  "pt": "Castelovelho",
+  "en": "Oldcastle",
+  "article": "Castelovelho",
+  "evidence": "langlink [[en:Oldcastle]] in https://wiki.geloefogo.com/index.php/Castelovelho"
+ },
+ "Flint%27s_Finger": {
+  "pt": "Dedo de Pederneira",
+  "en": "Flint's Finger",
+  "article": "Dedo de Pederneira",
+  "evidence": "langlink [[en:Flint's Finger]] in https://wiki.geloefogo.com/index.php/Dedo_de_Pederneira"
+ },
+ "Crofters%27_village": {
+  "pt": "Vila de Arrendatários",
+  "en": "Crofters' village",
+  "article": "Vila de Arrendatários",
+  "evidence": "langlink [[en:Crofters' village]] in https://wiki.geloefogo.com/index.php/Vila_de_Arrendatários"
+ },
+ "Sisterton": {
+  "pt": "Vilirmã",
+  "en": "Sisterton",
+  "article": "Vilirmã",
+  "evidence": "langlink [[en:Sisterton]] in https://wiki.geloefogo.com/index.php/Vilirmã"
+ },
+ "Coldwater_Burn": {
+  "pt": "Regato da Águafria",
+  "en": "Coldwater Burn",
+  "article": "Regato da Águafria",
+  "evidence": "langlink [[en:Coldwater Burn]] in https://wiki.geloefogo.com/index.php/Regato_da_Águafria"
+ },
+ "Snakewood": {
+  "pt": "Mata de Cobras",
+  "en": "Snakewood",
+  "article": "Mata de Cobras",
+  "evidence": "langlink [[en:Snakewood]] in https://wiki.geloefogo.com/index.php/Mata_de_Cobras"
+ },
+ "Longbow_Hall": {
+  "pt": "Solar de Longarco",
+  "en": "Longbow Hall",
+  "article": "Solar de Longarco",
+  "evidence": "langlink [[en:Longbow Hall]] in https://wiki.geloefogo.com/index.php/Solar_de_Longarco"
+ },
+ "Heart%27s_Home": {
+  "pt": "Lar do Coração",
+  "en": "Heart's Home",
+  "article": "Lar do Coração",
+  "evidence": "langlink [[en:Heart's Home]] in https://wiki.geloefogo.com/index.php/Lar_do_Coração"
+ },
+ "Strongsong": {
+  "pt": "Cantoforte",
+  "en": "Strongsong",
+  "article": "Cantoforte",
+  "evidence": "langlink [[en:Strongsong]] in https://wiki.geloefogo.com/index.php/Cantoforte"
+ },
+ "Old_Anchor": {
+  "pt": "Âncora Velha",
+  "en": "Old Anchor",
+  "article": "Âncora Velha",
+  "evidence": "langlink [[en:Old Anchor]] in https://wiki.geloefogo.com/index.php/Âncora_Velha"
+ },
+ "Ironoaks": {
+  "pt": "Ferrobles",
+  "en": "Ironoaks",
+  "article": "Ferrobles",
+  "evidence": "langlink [[en:Ironoaks]] in https://wiki.geloefogo.com/index.php/Ferrobles"
+ },
+ "Runestone": {
+  "pt": "Pedrarruna",
+  "en": "Runestone",
+  "article": "Pedrarruna",
+  "evidence": "langlink [[en:Runestone]] in https://wiki.geloefogo.com/index.php/Pedrarruna"
+ },
+ "Redfort": {
+  "pt": "Forte Vermelho",
+  "en": "Redfort",
+  "article": "Forte Vermelho",
+  "evidence": "langlink [[en:Redfort]] in https://wiki.geloefogo.com/index.php/Forte_Vermelho"
+ },
+ "Gulltown": {
+  "pt": "Vila Gaivota",
+  "en": "Gulltown",
+  "article": "Vila Gaivota",
+  "evidence": "langlink [[en:Gulltown]] in https://wiki.geloefogo.com/index.php/Vila_Gaivota"
+ },
+ "Wickenden": {
+  "pt": "Tocalar",
+  "en": "Wickenden",
+  "article": "Tocalar",
+  "evidence": "langlink [[en:Wickenden]] in https://wiki.geloefogo.com/index.php/Tocalar"
+ },
+ "Ten_Towers": {
+  "pt": "Dez Torres",
+  "en": "Ten Towers",
+  "article": "Dez Torres",
+  "evidence": "langlink [[en:Ten Towers]] in https://wiki.geloefogo.com/index.php/Dez_Torres"
+ },
+ "Hammerhorn": {
+  "pt": "Cornartelo",
+  "en": "Hammerhorn",
+  "article": "Cornartelo",
+  "evidence": "langlink [[en:Hammerhorn]] in https://wiki.geloefogo.com/index.php/Cornartelo"
+ },
+ "Pebbleton": {
+  "pt": "Seixeira",
+  "en": "Pebbleton",
+  "article": "Seixeira",
+  "evidence": "langlink [[en:Pebbleton]] in https://wiki.geloefogo.com/index.php/Seixeira"
+ },
+ "Fairmarket": {
+  "pt": "Feirajusta",
+  "en": "Fairmarket",
+  "article": "Feirajusta",
+  "evidence": "langlink [[en:Fairmarket]] in https://wiki.geloefogo.com/index.php/Feirajusta"
+ },
+ "Stone_Hedge": {
+  "pt": "Barreira de Pedra",
+  "en": "Stone Hedge",
+  "article": "Barreira de Pedra",
+  "evidence": "langlink [[en:Stone Hedge]] in https://wiki.geloefogo.com/index.php/Barreira_de_Pedra"
+ },
+ "Rushing_Falls": {
+  "pt": "Cataratas Impetuosas",
+  "en": "Rushing Falls",
+  "article": "Cataratas Impetuosas",
+  "evidence": "langlink [[en:Rushing Falls]] in https://wiki.geloefogo.com/index.php/Cataratas_Impetuosas"
+ },
+ "Pinkmaiden_Castle": {
+  "pt": "Donzelarrosa",
+  "en": "Pinkmaiden Castle",
+  "article": "Donzelarrosa",
+  "evidence": "langlink [[en:Pinkmaiden Castle]] in https://wiki.geloefogo.com/index.php/Donzelarrosa"
+ },
+ "Wayfarer%27s_Rest": {
+  "pt": "Pouso do Viajante",
+  "en": "Wayfarer's Rest",
+  "article": "Pouso do Viajante",
+  "evidence": "langlink [[en:Wayfarer's Rest]] in https://wiki.geloefogo.com/index.php/Pouso_do_Viajante"
+ },
+ "Wendish_Town": {
+  "pt": "Vila Vêneda",
+  "en": "Wendish Town",
+  "article": "Vila Vêneda",
+  "evidence": "langlink [[en:Wendish Town]] in https://wiki.geloefogo.com/index.php/Vila_Vêneda"
+ },
+ "Mummer%27s_Ford": {
+  "pt": "Vau do Saltimbanco",
+  "en": "Mummer's Ford",
+  "article": "Vau do Saltimbanco",
+  "evidence": "langlink [[en:Mummer's Ford]] in https://wiki.geloefogo.com/index.php/Vau_do_Saltimbanco"
+ },
+ "Tumbler%27s_Falls": {
+  "pt": "Cascata do Acrobata",
+  "en": "Tumbler's Falls",
+  "article": "Cascata do Acrobata",
+  "evidence": "langlink [[en:Tumbler's Falls]] in https://wiki.geloefogo.com/index.php/Cascata_do_Acrobata"
+ },
+ "Nunn%27s_Deep": {
+  "pt": "Abismos de Nunn",
+  "en": "Nunn's Deep",
+  "article": "Abismos de Nunn",
+  "evidence": "langlink [[en:Nunn's Deep]] in https://wiki.geloefogo.com/index.php/Abismos_de_Nunn"
+ },
+ "Pendric_Hills": {
+  "pt": "Montes Pendric",
+  "en": "Pendric Hills",
+  "article": "Montes Pendric",
+  "evidence": "langlink [[en:Pendric Hills]] in https://wiki.geloefogo.com/index.php/Montes_Pendric"
+ },
+ "Ashemark": {
+  "pt": "Cinzamarca",
+  "en": "Ashemark",
+  "article": "Cinzamarca",
+  "evidence": "langlink [[en:Ashemark]] in https://wiki.geloefogo.com/index.php/Cinzamarca"
+ },
+ "Faircastle": {
+  "pt": "Belcastro",
+  "en": "Faircastle",
+  "article": "Belcastro",
+  "evidence": "langlink [[en:Faircastle]] in https://wiki.geloefogo.com/index.php/Belcastro"
+ },
+ "Oxcross": {
+  "pt": "Cruzaboi",
+  "en": "Oxcross",
+  "article": "Cruzaboi",
+  "evidence": "langlink [[en:Oxcross]] in https://wiki.geloefogo.com/index.php/Cruzaboi"
+ },
+ "Hornvale": {
+  "pt": "Valecorno",
+  "en": "Hornvale",
+  "article": "Valecorno",
+  "evidence": "langlink [[en:Hornvale]] in https://wiki.geloefogo.com/index.php/Valecorno"
+ },
+ "Feastfires": {
+  "pt": "Fogofestivo",
+  "en": "Feastfires",
+  "article": "Fogofestivo",
+  "evidence": "langlink [[en:Feastfires]] in https://wiki.geloefogo.com/index.php/Fogofestivo"
+ },
+ "Tarbeck_Hall": {
+  "pt": "Salão Tarbeck",
+  "en": "Tarbeck Hall",
+  "article": "Salão Tarbeck",
+  "evidence": "langlink [[en:Tarbeck Hall]] in https://wiki.geloefogo.com/index.php/Salão_Tarbeck"
+ },
+ "Clegane%27s_Keep": {
+  "pt": "Fortaleza Clegane",
+  "en": "Clegane's Keep",
+  "article": "Fortaleza Clegane",
+  "evidence": "langlink [[en:Clegane's Keep]] in https://wiki.geloefogo.com/index.php/Fortaleza_Clegane"
+ },
+ "Cornfield": {
+  "pt": "Campodemilho",
+  "en": "Cornfield",
+  "article": "Campodemilho",
+  "evidence": "langlink [[en:Cornfield]] in https://wiki.geloefogo.com/index.php/Campodemilho"
+ },
+ "Crakehall": {
+  "pt": "Paço de Codorniz",
+  "en": "Crakehall",
+  "article": "Paço de Codorniz",
+  "evidence": "langlink [[en:Crakehall]] in https://wiki.geloefogo.com/index.php/Paço_de_Codorniz"
+ },
+ "Dyre_Den": {
+  "pt": "Antro Terrível",
+  "en": "Dyre Den",
+  "article": "Antro Terrível",
+  "evidence": "langlink [[en:Dyre Den]] in https://wiki.geloefogo.com/index.php/Antro_Terrível"
+ },
+ "Whispers": {
+  "pt": "Murmúrios",
+  "en": "Whispers",
+  "article": "Murmúrios",
+  "evidence": "langlink [[en:Whispers]] in https://wiki.geloefogo.com/index.php/Murmúrios"
+ },
+ "Rook%27s_Rest": {
+  "pt": "Pouso de Gralhas",
+  "en": "Rook's Rest",
+  "article": "Pouso de Gralhas",
+  "evidence": "langlink [[en:Rook's Rest]] in https://wiki.geloefogo.com/index.php/Pouso_de_Gralhas"
+ },
+ "Antlers": {
+  "pt": "Hastes",
+  "en": "Antlers",
+  "article": "Hastes",
+  "evidence": "langlink [[en:Antlers]] in https://wiki.geloefogo.com/index.php/Hastes"
+ },
+ "Sow%27s_Horn": {
+  "pt": "Berrante de Porca",
+  "en": "Sow's Horn",
+  "article": "Berrante de Porca",
+  "evidence": "langlink [[en:Sow's Horn]] in https://wiki.geloefogo.com/index.php/Berrante_de_Porca"
+ },
+ "Duskendale": {
+  "pt": "Valdocaso",
+  "en": "Duskendale",
+  "article": "Valdocaso",
+  "evidence": "langlink [[en:Duskendale]] in https://wiki.geloefogo.com/index.php/Valdocaso"
+ },
+ "Brindlewood": {
+  "pt": "Bosque Malhado",
+  "en": "Brindlewood",
+  "article": "Bosque Malhado",
+  "evidence": "langlink [[en:Brindlewood]] in https://wiki.geloefogo.com/index.php/Bosque_Malhado"
+ },
+ "Stonedance": {
+  "pt": "Bailepedra",
+  "en": "Stonedance",
+  "article": "Bailepedra",
+  "evidence": "langlink [[en:Stonedance]] in https://wiki.geloefogo.com/index.php/Bailepedra"
+ },
+ "Sharp_Point": {
+  "pt": "Ponta Afiada",
+  "en": "Sharp Point",
+  "article": "Ponta Aguda",
+  "evidence": "langlink [[en:Sharp Point]] in https://wiki.geloefogo.com/index.php/Ponta_Aguda",
+  "oldOnlineLabel": "Ponta Aguda",
+  "sourceKind": "online+localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Suma confirmada no arquivo fornecido",
+   "references": [
+    {
+     "book": "ACOK-SUMA",
+     "pdfPage": 1016,
+     "context": "DURAM BAR EMMON, Senhor de Ponta Afiada"
+    }
+   ]
+  }
+ },
+ "Longtable": {
+  "pt": "Mesalonga",
+  "en": "Longtable",
+  "article": "Mesalonga",
+  "evidence": "langlink [[en:Longtable]] in https://wiki.geloefogo.com/index.php/Mesalonga"
+ },
+ "Grassy_Vale": {
+  "pt": "Vale d'Erva",
+  "en": "Grassy Vale",
+  "article": "Vale d'Erva",
+  "evidence": "langlink [[en:Grassy Vale]] in https://wiki.geloefogo.com/index.php/Vale_d'Erva"
+ },
+ "Cider_Hall": {
+  "pt": "Solar de Sidra",
+  "en": "Cider Hall",
+  "article": "Solar de Sidra",
+  "evidence": "langlink [[en:Cider Hall]] in https://wiki.geloefogo.com/index.php/Solar_de_Sidra"
+ },
+ "Honeyholt": {
+  "pt": "Bosquemel",
+  "en": "Honeyholt",
+  "article": "Bosquemel",
+  "evidence": "langlink [[en:Honeyholt]] in https://wiki.geloefogo.com/index.php/Bosquemel"
+ },
+ "Blackcrown": {
+  "pt": "Coroanegra",
+  "en": "Blackcrown",
+  "article": "Coroanegra",
+  "evidence": "langlink [[en:Blackcrown]] in https://wiki.geloefogo.com/index.php/Coroanegra"
+ },
+ "Uplands": {
+  "pt": "Terraltas",
+  "en": "Uplands",
+  "article": "Terraltas",
+  "evidence": "langlink [[en:Uplands]] in https://wiki.geloefogo.com/index.php/Terraltas"
+ },
+ "Three_Towers": {
+  "pt": "Três Torres",
+  "en": "Three Towers",
+  "article": "Três Torres",
+  "evidence": "langlink [[en:Three Towers]] in https://wiki.geloefogo.com/index.php/Três_Torres"
+ },
+ "Haystack_Hall": {
+  "pt": "Solar de Montefeno",
+  "en": "Haystack Hall",
+  "article": "Solar de Montefeno",
+  "evidence": "langlink [[en:Haystack Hall]] in https://wiki.geloefogo.com/index.php/Solar_de_Montefeno"
+ },
+ "Parchments": {
+  "pt": "Pergaminhos",
+  "en": "Parchments",
+  "article": "Pergaminhos",
+  "evidence": "langlink [[en:Parchments]] in https://wiki.geloefogo.com/index.php/Pergaminhos"
+ },
+ "Bronzegate": {
+  "pt": "Portabrônzea",
+  "en": "Bronzegate",
+  "article": "Portabrônzea",
+  "evidence": "langlink [[en:Bronzegate]] in https://wiki.geloefogo.com/index.php/Portabrônzea"
+ },
+ "Felwood": {
+  "pt": "Bosque Cortado",
+  "en": "Felwood",
+  "article": "Bosque Cortado",
+  "evidence": "langlink [[en:Felwood]] in https://wiki.geloefogo.com/index.php/Bosque_Cortado"
+ },
+ "Evenfall_Hall": {
+  "pt": "Solar do Entardecer",
+  "en": "Evenfall Hall",
+  "article": "Solar do Entardecer",
+  "evidence": "langlink [[en:Evenfall Hall]] in https://wiki.geloefogo.com/index.php/Solar_do_Entardecer"
+ },
+ "Grandview": {
+  "pt": "Belavista",
+  "en": "Grandview",
+  "article": "Belavista",
+  "evidence": "langlink [[en:Grandview]] in https://wiki.geloefogo.com/index.php/Belavista"
+ },
+ "Rain_House": {
+  "pt": "Casais de Chuva",
+  "en": "Rain House",
+  "article": "Casais de Chuva",
+  "evidence": "langlink [[en:Rain House]] in https://wiki.geloefogo.com/index.php/Casais_de_Chuva"
+ },
+ "Crow%27s_Nest": {
+  "pt": "Ninho de Corvo",
+  "en": "Crow's Nest",
+  "article": "Ninho de Corvo",
+  "evidence": "langlink [[en:Crow's Nest]] in https://wiki.geloefogo.com/index.php/Ninho_de_Corvo"
+ },
+ "Harvest_Hall": {
+  "pt": "Solar de Colheitas",
+  "en": "Harvest Hall",
+  "article": "Solar de Colheitas",
+  "evidence": "langlink [[en:Harvest Hall]] in https://wiki.geloefogo.com/index.php/Solar_de_Colheitas"
+ },
+ "Blackhaven": {
+  "pt": "Portonegro",
+  "en": "Blackhaven",
+  "article": "Portonegro",
+  "evidence": "langlink [[en:Blackhaven]] in https://wiki.geloefogo.com/index.php/Portonegro"
+ },
+ "Stonehelm": {
+  "pt": "Pedrelmo",
+  "en": "Stonehelm",
+  "article": "Pedrelmo",
+  "evidence": "langlink [[en:Stonehelm]] in https://wiki.geloefogo.com/index.php/Pedrelmo"
+ },
+ "Mistwood": {
+  "pt": "Matabruma",
+  "en": "Mistwood",
+  "article": "Matabruma",
+  "evidence": "langlink [[en:Mistwood]] in https://wiki.geloefogo.com/index.php/Matabruma"
+ },
+ "Greenstone": {
+  "pt": "Pedraverde",
+  "en": "Greenstone",
+  "article": "Pedraverde",
+  "evidence": "langlink [[en:Greenstone]] in https://wiki.geloefogo.com/index.php/Pedraverde"
+ },
+ "Vulture%27s_Roost": {
+  "pt": "Pouso do Abutre",
+  "en": "Vulture's Roost",
+  "article": "Pouso do Abutre",
+  "evidence": "langlink [[en:Vulture's Roost]] in https://wiki.geloefogo.com/index.php/Pouso_do_Abutre"
+ },
+ "High_Hermitage": {
+  "pt": "Alto Ermitério",
+  "en": "High Hermitage",
+  "article": "Alto Ermitério",
+  "evidence": "langlink [[en:High Hermitage]] in https://wiki.geloefogo.com/index.php/Alto_Ermitério"
+ },
+ "Yronwood": {
+  "pt": "Paloferro",
+  "en": "Yronwood",
+  "article": "Paloferro",
+  "evidence": "langlink [[en:Yronwood]] in https://wiki.geloefogo.com/index.php/Paloferro"
+ },
+ "Ghaston_Grey": {
+  "pt": "Sinistres Gris",
+  "en": "Ghaston Grey",
+  "article": "Sinistres Gris",
+  "evidence": "langlink [[en:Ghaston Grey]] in https://wiki.geloefogo.com/index.php/Sinistres_Gris"
+ },
+ "Tor": {
+  "pt": "Penha",
+  "en": "Tor",
+  "article": "Penha",
+  "evidence": "langlink [[en:Tor]] in https://wiki.geloefogo.com/index.php/Penha"
+ },
+ "Salt_Shore": {
+  "pt": "Costa do Sal",
+  "en": "Salt Shore",
+  "article": "Costa do Sal",
+  "evidence": "langlink [[en:Salt Shore]] in https://wiki.geloefogo.com/index.php/Costa_do_Sal"
+ },
+ "Godsgrace": {
+  "pt": "Graçadivina",
+  "en": "Godsgrace",
+  "article": "Graçadivina",
+  "evidence": "langlink [[en:Godsgrace]] in https://wiki.geloefogo.com/index.php/Graçadivina"
+ },
+ "Elyria": {
+  "pt": "Elíria",
+  "en": "Elyria",
+  "article": "Elíria",
+  "evidence": "langlink [[en:Elyria]] in https://wiki.geloefogo.com/index.php/Elíria"
+ },
+ "Gods_Eye_Village": {
+  "pt": "Vila do Olho de Deus",
+  "en": "Gods Eye Village",
+  "article": "Vila do Olho de Deus",
+  "evidence": "langlink [[en:Gods Eye town]]"
+ },
+ "Nagga%27s_Hill": {
+  "pt": "Monte de Nagga",
+  "en": "Nagga's Hill",
+  "article": "Monte de Nagga",
+  "evidence": "langlink [[en:Nagga's hill]]"
+ },
+ "Tall_Trees_Town": {
+  "pt": "Vila das Árvores Altas",
+  "en": "Tall Trees Town",
+  "article": "Vila das Árvores Altas",
+  "evidence": "langlink [[en:Tall Trees Town]]"
+ },
+ "BWB_Hideout": {
+  "pt": "Esconderijo da Irmandade sem Bandeiras",
+  "en": "BWB Hideout",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "They_Lay_With_Lions": {
+  "pt": "Estalagem (Eles se deitam com leões)",
+  "en": "They Lay With Lions",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Unnamed_Village": {
+  "pt": "Vilarejo sem nome",
+  "en": "Unnamed Village",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Lychester_Keep": {
+  "pt": "Fortaleza de Lorde Lychester",
+  "en": "Lychester Keep",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Lady_of_the_Leaves": {
+  "pt": "A Senhora das Folhas",
+  "en": "Lady of the Leaves",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Goodbrook_Village": {
+  "pt": "Vila de Lorde Goodbrook",
+  "en": "Goodbrook Village",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Execution_Holdfast": {
+  "pt": "Fortaleza da execução",
+  "en": "Execution Holdfast",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Palisade_Village": {
+  "pt": "Vila da Paliçada",
+  "en": "Palisade Village",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Castle_Goodbrother": {
+  "pt": "Castelo Goodbrother",
+  "en": "Castle Goodbrother",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "House_Baelish": {
+  "pt": "Casa Baelish",
+  "en": "House Baelish",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Ivy_Inn": {
+  "pt": "Estalagem da Hera",
+  "en": "Ivy Inn",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Gods_Eye_Holdfast": {
+  "pt": "Fortaleza do Olho de Deus",
+  "en": "Gods Eye Holdfast",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Robbed_Sept": {
+  "pt": "Septo saqueado",
+  "en": "Robbed Sept",
+  "article": null,
+  "evidence": "descriptive label translated (not an official toponym)"
+ },
+ "Torches": {
+  "pt": "Archotes",
+  "en": "Torches",
+  "article": "Archotes",
+  "evidence": "langlink [[en:Torches]] in https://wiki.geloefogo.com/index.php?title=Archotes&oldid=88392 (abandoned Wall castle between Monte Longo and Guardaverde; cites the ASOS map beyond the Wall)",
+  "sourceKind": "online+localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "LeYa confirmada na lista de castelos de O Mundo de Gelo e Fogo, nao em ocorrencias genericas da palavra archotes",
+   "references": [
+    {
+     "book": "TWOIAF-LEYA",
+     "epubMember": "index_split_062.html",
+     "context": "Portão da Geada Monte Longo Archotes Guardaverde"
+    }
+   ]
+  }
+ },
+ "Hollow_Hill": {
+  "pt": "Monte Oco",
+  "en": "Hollow hill",
+  "article": "Monte Oco",
+  "evidence": "langlink [[en:Hollow hill]] in https://wiki.geloefogo.com/index.php?title=Monte_Oco&oldid=85560 (Irmandade cave; cites ASOS ch.34). Alias 'Colina Oca' comes from descriptive prose in https://wiki.geloefogo.com/index.php/Arya_Stark ('esconderijo deles, situado em uma colina oca'), not the Monte Oco article title. Data key Hollow_Hill matched case-insensitively.",
+  "sourceKind": "online+localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "LeYa confirmada na narrativa de Arya",
+   "references": [
+    {
+     "book": "ASOS-LEYA",
+     "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-37.html",
+     "matched": "monte oco"
+    }
+   ]
+  }
+ },
+ "Sunflower_Hall": {
+  "pt": "Solar de Girassol",
+  "en": "Sunhouse",
+  "article": "Casasolar",
+  "evidence": "alias-chain, not a direct langlink: langlink [[en:Sunhouse]] in https://wiki.geloefogo.com/index.php?title=Casasolar&oldid=92513 (seat of Casa Cuy; cites the five-book maps); https://awoiaf.westeros.org/index.php/Sunflower_Hall redirects to Sunhouse ('Sunhouse, also called Sunflower Hall ... seat of House Cuy'; retrieved via web search). Alternate spellings 'Casassolar'/'Cassolar' accepted as search aliases. Not Suma-edition verified.",
+  "sourceKind": "online+localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Solar de Girassol confirmado na LeYa; Casasolar fica como alias secundario nao confirmado na Suma.",
+   "references": [
+    {
+     "book": "AFFC-LEYA",
+     "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-59.xhtml",
+     "context": "BRANSTON CUY, Senhor de Solar de Girassol"
+    }
+   ]
+  }
+ },
+ "Weeping_Tower": {
+  "pt": "Torre dos Prantos",
+  "en": "Weeping Tower",
+  "article": "Vila Chorosa",
+  "evidence": "https://wiki.geloefogo.com/index.php?title=Vila_Chorosa&oldid=89467 lists '|places=[[Torre dos Prantos]]' and 'no seu interior, encontramos a [[Torre dos Prantos]] uma fortaleza cuja Casa regente é desconhecida' (cites TWOW Arianne II); https://wiki.geloefogo.com/index.php?title=Torre_dos_Prantos&oldid=89468 redirects to Vila Chorosa; https://awoiaf.westeros.org/index.php/Weeping_Town (web search) says the town 'contains a seat, possibly known as the Weeping Tower'. Ambiguity kept: tower name uncertain and tower != town; no house assigned. The map's legacy point is preserved as-is."
+ },
+ "Wyl_(Dorne)": {
+  "pt": "Wyl",
+  "en": "Wyl (castle)",
+  "article": "Wyl (Castelo)",
+  "evidence": "langlink [[en:Wyl (castle)]] in https://wiki.geloefogo.com/index.php?title=Wyl_(Castelo)&oldid=91315 (seat of Casa Wyl in Dorne). Verified unchanged proper name, not an unresolved term."
+ },
+ "Donella_Manderly": {
+  "pt": "Donella Manderly",
+  "en": "Donella Manderly",
+  "article": "Donella Hornwood",
+  "evidence": "https://wiki.geloefogo.com/index.php?title=Donella_Hornwood&oldid=89957 intro: 'Donella Hornwood, nascida Donella Manderly' (cites ACOK ch.16). Born name kept as the display name (original map label), married name accepted as search alias; verified proper name, not an unresolved term."
+ },
+ "_meta": {
+  "note": "town toponyms verified via wiki.geloefogo.com interlanguage links; evidence strings reference the pt article + its [[en:]] link. Chapter epithets verified via geloefogo chapter infoboxes (field |título). The six 2026-11-01 additions use mixed source kinds (direct langlink, alias-chain via awoiaf, infobox/redirect) and are secondary-source verified only — not Suma-edition certified; wikitext snapshot in reference/translation-research-2026-11-01.json.",
+  "localBookAudit": "docs/local-book-reference.json - user-supplied local editions audited 2026-11-01 (direct Suma PDF evidence + LeYa EPUB evidence marked per term; precedence: appendix + Suma direct over LeYa variants)."
+ },
+ "Griffin%27s_Roost": {
+  "pt": "Poleiro do Grifo",
+  "en": "Griffin's Roost",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Suma confirmada no arquivo fornecido",
+   "references": [
+    {
+     "book": "ACOK-SUMA",
+     "pdfPage": 951,
+     "context": "Ronnet Vermelho do Poleiro do Grifo"
+    },
+    {
+     "book": "ACOK-LEYA",
+     "epubMember": "OEBPS/Text/9788580442793_a_furia_dos_reis_cronicas_de_gelo_e_fogo-66.html"
+    }
+   ]
+  }
+ },
+ "Deep_Den": {
+  "pt": "Toca Funda",
+  "en": "Deep Den",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Suma confirmada no arquivo fornecido",
+   "references": [
+    {
+     "book": "ACOK-SUMA",
+     "pdfPage": 1038,
+     "context": "LEWIS LYDDEN, Senhor de Toca Funda"
+    }
+   ]
+  }
+ },
+ "The_Crag": {
+  "pt": "Despenhadeiro",
+  "en": "The Crag",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Suma confirmada no arquivo fornecido",
+   "references": [
+    {
+     "book": "ACOK-SUMA",
+     "pdfPage": 1038,
+     "context": "GAWEN WESTERLING, Senhor do Despenhadeiro"
+    }
+   ]
+  }
+ },
+ "Starfall": {
+  "pt": "Tombastela",
+  "en": "Starfall",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Suma confirmada no arquivo fornecido",
+   "references": [
+    {
+     "book": "ACOK-SUMA",
+     "pdfPage": 1040,
+     "context": "EDRIC DAYNE, Senhor de Tombastela"
+    }
+   ]
+  }
+ },
+ "Acorn_Hall": {
+  "pt": "Solar de Bolotas",
+  "en": "Acorn Hall",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "LeYa confirmada nos EPUBs; nao certificada para Suma nesta revisao",
+   "references": [
+    {
+     "book": "ASOS-LEYA",
+     "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-101.html",
+     "context": "Solar de Bolotas, a sede da Casa Smallwood"
+    },
+    {
+     "book": "AFFC-LEYA",
+     "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-63.xhtml"
+    }
+   ]
+  }
+ },
+ "Nightsong": {
+  "pt": "Nocticantiga",
+  "en": "Nightsong",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "LeYa confirmada nos EPUBs; nao certificada para Suma nesta revisao",
+   "references": [
+    {
+     "book": "ASOS-LEYA",
+     "epubMember": "OEBPS/Text/9788580444650_a_tormenta_de_espadas-39.html",
+     "context": "o Bastardo de Nocticantiga"
+    },
+    {
+     "book": "AFFC-LEYA",
+     "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-17.xhtml"
+    }
+   ]
+  }
+ },
+ "Quiet_Isle": {
+  "pt": "Ilha Quieta",
+  "en": "Quiet Isle",
+  "article": null,
+  "evidence": "local book evidence only (docs/local-book-reference.json)",
+  "sourceKind": "localbook",
+  "localBookEvidence": {
+   "auditFile": "docs/local-book-reference.json",
+   "authority": "Duas formas encontradas no mesmo EPUB LeYa; preservar a forma atual e aceitar a variante",
+   "references": [
+    {
+     "book": "AFFC-LEYA",
+     "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-28.xhtml",
+     "matched": "Ilha Silenciosa"
+    },
+    {
+     "book": "AFFC-LEYA",
+     "epubMember": "OEBPS/Text/9788580445053_o_festim_dos_corvos_as_cronicas_de_gelo_e_fogo_vol4-34.xhtml",
+     "matched": "Ilha Quieta"
+    }
+   ]
+  }
+ }
+}

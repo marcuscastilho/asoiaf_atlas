@@ -1,0 +1,2570 @@
+{
+  "datasetId": "agot-atlas-v2",
+  "sourceFiles": {
+    "assets/js/data.js": "4f2fca829ed90b2526d87ef2a5eb02664bd195e9897b3718eddb8fe3cef41079",
+    "assets/js/i18n-pt.js": "2a9c084ad7f651174e8f6585d9ed91a59a29360fdb015831d1bf30a561dd9fe3"
+  },
+  "locations": {
+    "Winterfell": {
+      "lat": 66.24916310923315,
+      "lng": -123.3251953125,
+      "label": "Winterfell",
+      "english": "Winterfell"
+    },
+    "Castle_Black": {
+      "lat": 76.26869465080624,
+      "lng": -106.69921875,
+      "label": "Castelo Negro",
+      "english": "Castle Black"
+    },
+    "Dreadfort": {
+      "lat": 67.42436394630637,
+      "lng": -102.5830078125,
+      "label": "Forte do Pavor",
+      "english": "Dreadfort"
+    },
+    "White_Harbor": {
+      "lat": 56.68037378950136,
+      "lng": -114.0966796875,
+      "label": "Porto Branco",
+      "english": "White Harbor"
+    },
+    "Moat_Cailin": {
+      "lat": 53.87844040332883,
+      "lng": -122.3583984375,
+      "label": "Fosso Cailin",
+      "english": "Moat Cailin"
+    },
+    "Barrowton": {
+      "lat": 57.58655886615978,
+      "lng": -136.5966796875,
+      "label": "Vila Acidentada",
+      "english": "Barrowton"
+    },
+    "Twins": {
+      "lat": 38.59970036588819,
+      "lng": -128.73046875,
+      "label": "As Gêmeas",
+      "english": "Twins"
+    },
+    "Riverrun": {
+      "lat": 22.28909641872304,
+      "lng": -128.291015625,
+      "label": "Correrrio",
+      "english": "Riverrun"
+    },
+    "Eyrie": {
+      "lat": 31.76553740948437,
+      "lng": -102.4951171875,
+      "label": "Ninho da Águia",
+      "english": "Eyrie"
+    },
+    "Gulltown": {
+      "lat": 29.42046034101313,
+      "lng": -84.2138671875,
+      "label": "Vila Gaivota",
+      "english": "Gulltown"
+    },
+    "Harrenhal": {
+      "lat": 18.25021997706559,
+      "lng": -114.404296875,
+      "label": "Harrenhal",
+      "english": "Harrenhal"
+    },
+    "King%27s_Landing": {
+      "lat": 1.318243056862013,
+      "lng": -105.99609375,
+      "label": "Porto Real",
+      "english": "King's Landing"
+    },
+    "Dragonstone": {
+      "lat": 13.19716452328198,
+      "lng": -85.5322265625,
+      "label": "Pedra do Dragão",
+      "english": "Dragonstone"
+    },
+    "Highgarden": {
+      "lat": -23.966175871265,
+      "lng": -138.3544921875,
+      "label": "Jardim de Cima",
+      "english": "Highgarden"
+    },
+    "Oldtown": {
+      "lat": -36.6331620955865,
+      "lng": -149.8681640625,
+      "label": "Vilavelha",
+      "english": "Oldtown"
+    },
+    "Pyke": {
+      "lat": 27.74188463250708,
+      "lng": -150.615234375,
+      "label": "Pyke",
+      "english": "Pyke"
+    },
+    "Casterly_Rock": {
+      "lat": 6.315298538330033,
+      "lng": -151.3623046875,
+      "label": "Rochedo Casterly",
+      "english": "Casterly Rock"
+    },
+    "Braavos": {
+      "lat": 43.929549935614595,
+      "lng": -59.7802734375,
+      "label": "Braavos",
+      "english": "Braavos"
+    },
+    "Lorath": {
+      "lat": 39.774769485295494,
+      "lng": -39.3896484375,
+      "label": "Lorath",
+      "english": "Lorath"
+    },
+    "Norvos": {
+      "lat": 19.725342248057906,
+      "lng": -31.34765625,
+      "label": "Norvos",
+      "english": "Norvos"
+    },
+    "Pentos": {
+      "lat": 4.083452772038656,
+      "lng": -59.1650390625,
+      "label": "Pentos",
+      "english": "Pentos"
+    },
+    "Qohor": {
+      "lat": 4.477856485570624,
+      "lng": -5.5078125,
+      "label": "Qohor",
+      "english": "Qohor"
+    },
+    "Ny_Sar": {
+      "lat": -1.054627942275836,
+      "lng": -29.7216796875,
+      "label": "Ny Sar",
+      "english": "Ny Sar"
+    },
+    "Ar_Noy": {
+      "lat": -3.864254615721357,
+      "lng": -16.845703125,
+      "label": "Ar Noy",
+      "english": "Ar Noy"
+    },
+    "Myr": {
+      "lat": -23.28171917559998,
+      "lng": -49.189453125,
+      "label": "Myr",
+      "english": "Myr"
+    },
+    "Tyrosh": {
+      "lat": -26.70635985763348,
+      "lng": -69.31640625,
+      "label": "Tyrosh",
+      "english": "Tyrosh"
+    },
+    "Lys": {
+      "lat": -43.77109381775646,
+      "lng": -56.9677734375,
+      "label": "Lys",
+      "english": "Lys"
+    },
+    "Volantis": {
+      "lat": -44.37098696297168,
+      "lng": -10.693359375,
+      "label": "Volantis",
+      "english": "Volantis"
+    },
+    "Vaes_Dothrak": {
+      "lat": -18.02052765785228,
+      "lng": 71.8359375,
+      "label": "Vaes Dothrak",
+      "english": "Vaes Dothrak"
+    },
+    "Meereen": {
+      "lat": -45.49094569262728,
+      "lng": 80.44921875,
+      "label": "Meereen",
+      "english": "Meereen"
+    },
+    "Yunkai": {
+      "lat": -49.78126405817831,
+      "lng": 75.4833984375,
+      "label": "Yunkai",
+      "english": "Yunkai"
+    },
+    "Astapor": {
+      "lat": -58.69977573144003,
+      "lng": 71.7919921875,
+      "label": "Astapor",
+      "english": "Astapor"
+    }
+  },
+  "chapters": [
+    {
+      "index": 0,
+      "title": "A Guerra dos Tronos-0: Prólogo",
+      "originalTitle": "AGOT-0: Prologue"
+    },
+    {
+      "index": 1,
+      "title": "A Guerra dos Tronos-1: Bran I",
+      "originalTitle": "AGOT-1: Bran I"
+    },
+    {
+      "index": 2,
+      "title": "A Guerra dos Tronos-2: Catelyn I",
+      "originalTitle": "AGOT-2: Catelyn I"
+    },
+    {
+      "index": 3,
+      "title": "A Guerra dos Tronos-3: Daenerys I",
+      "originalTitle": "AGOT-3: Daenerys I"
+    },
+    {
+      "index": 4,
+      "title": "A Guerra dos Tronos-4: Eddard I",
+      "originalTitle": "AGOT-4: Eddard I"
+    },
+    {
+      "index": 5,
+      "title": "A Guerra dos Tronos-5: Jon I",
+      "originalTitle": "AGOT-5: Jon I"
+    },
+    {
+      "index": 6,
+      "title": "A Guerra dos Tronos-6: Catelyn II",
+      "originalTitle": "AGOT-6: Catelyn II"
+    },
+    {
+      "index": 7,
+      "title": "A Guerra dos Tronos-7: Arya I",
+      "originalTitle": "AGOT-7: Arya I"
+    },
+    {
+      "index": 8,
+      "title": "A Guerra dos Tronos-8: Bran II",
+      "originalTitle": "AGOT-8: Bran II"
+    },
+    {
+      "index": 9,
+      "title": "A Guerra dos Tronos-9: Tyrion I",
+      "originalTitle": "AGOT-9: Tyrion I"
+    },
+    {
+      "index": 10,
+      "title": "A Guerra dos Tronos-10: Jon II",
+      "originalTitle": "AGOT-10: Jon II"
+    },
+    {
+      "index": 11,
+      "title": "A Guerra dos Tronos-11: Daenerys II",
+      "originalTitle": "AGOT-11: Daenerys II"
+    },
+    {
+      "index": 12,
+      "title": "A Guerra dos Tronos-12: Eddard II",
+      "originalTitle": "AGOT-12: Eddard II"
+    },
+    {
+      "index": 13,
+      "title": "A Guerra dos Tronos-13: Tyrion II",
+      "originalTitle": "AGOT-13: Tyrion II"
+    },
+    {
+      "index": 14,
+      "title": "A Guerra dos Tronos-14: Catelyn III",
+      "originalTitle": "AGOT-14: Catelyn III"
+    },
+    {
+      "index": 15,
+      "title": "A Guerra dos Tronos-15: Sansa I",
+      "originalTitle": "AGOT-15: Sansa I"
+    },
+    {
+      "index": 16,
+      "title": "A Guerra dos Tronos-16: Eddard III",
+      "originalTitle": "AGOT-16: Eddard III"
+    },
+    {
+      "index": 17,
+      "title": "A Guerra dos Tronos-17: Bran III",
+      "originalTitle": "AGOT-17: Bran III"
+    },
+    {
+      "index": 18,
+      "title": "A Guerra dos Tronos-18: Catelyn IV",
+      "originalTitle": "AGOT-18: Catelyn IV"
+    },
+    {
+      "index": 19,
+      "title": "A Guerra dos Tronos-19: Jon III",
+      "originalTitle": "AGOT-19: Jon III"
+    },
+    {
+      "index": 20,
+      "title": "A Guerra dos Tronos-20: Eddard IV",
+      "originalTitle": "AGOT-20: Eddard IV"
+    },
+    {
+      "index": 21,
+      "title": "A Guerra dos Tronos-21: Tyrion III",
+      "originalTitle": "AGOT-21: Tyrion III"
+    },
+    {
+      "index": 22,
+      "title": "A Guerra dos Tronos-22: Arya II",
+      "originalTitle": "AGOT-22: Arya II"
+    },
+    {
+      "index": 23,
+      "title": "A Guerra dos Tronos-23: Daenerys III",
+      "originalTitle": "AGOT-23: Daenerys III"
+    },
+    {
+      "index": 24,
+      "title": "A Guerra dos Tronos-24: Bran IV",
+      "originalTitle": "AGOT-24: Bran IV"
+    },
+    {
+      "index": 25,
+      "title": "A Guerra dos Tronos-25: Eddard V",
+      "originalTitle": "AGOT-25: Eddard V"
+    },
+    {
+      "index": 26,
+      "title": "A Guerra dos Tronos-26: Jon IV",
+      "originalTitle": "AGOT-26: Jon IV"
+    },
+    {
+      "index": 27,
+      "title": "A Guerra dos Tronos-27: Eddard VI",
+      "originalTitle": "AGOT-27: Eddard VI"
+    },
+    {
+      "index": 28,
+      "title": "A Guerra dos Tronos-28: Catelyn V",
+      "originalTitle": "AGOT-28: Catelyn V"
+    },
+    {
+      "index": 29,
+      "title": "A Guerra dos Tronos-29: Sansa II",
+      "originalTitle": "AGOT-29: Sansa II"
+    },
+    {
+      "index": 30,
+      "title": "A Guerra dos Tronos-30: Eddard VII",
+      "originalTitle": "AGOT-30: Eddard VII"
+    },
+    {
+      "index": 31,
+      "title": "A Guerra dos Tronos-31: Tyrion IV",
+      "originalTitle": "AGOT-31: Tyrion IV"
+    },
+    {
+      "index": 32,
+      "title": "A Guerra dos Tronos-32: Arya III",
+      "originalTitle": "AGOT-32: Arya III"
+    },
+    {
+      "index": 33,
+      "title": "A Guerra dos Tronos-33: Eddard VIII",
+      "originalTitle": "AGOT-33: Eddard VIII"
+    },
+    {
+      "index": 34,
+      "title": "A Guerra dos Tronos-34: Catelyn VI",
+      "originalTitle": "AGOT-34: Catelyn VI"
+    },
+    {
+      "index": 35,
+      "title": "A Guerra dos Tronos-35: Eddard IX",
+      "originalTitle": "AGOT-35: Eddard IX"
+    },
+    {
+      "index": 36,
+      "title": "A Guerra dos Tronos-36: Daenerys IV",
+      "originalTitle": "AGOT-36: Daenerys IV"
+    },
+    {
+      "index": 37,
+      "title": "A Guerra dos Tronos-37: Bran V",
+      "originalTitle": "AGOT-37: Bran V"
+    },
+    {
+      "index": 38,
+      "title": "A Guerra dos Tronos-38: Tyrion V",
+      "originalTitle": "AGOT-38: Tyrion V"
+    },
+    {
+      "index": 39,
+      "title": "A Guerra dos Tronos-39: Eddard X",
+      "originalTitle": "AGOT-39: Eddard X"
+    },
+    {
+      "index": 40,
+      "title": "A Guerra dos Tronos-40: Catelyn VII",
+      "originalTitle": "AGOT-40: Catelyn VII"
+    },
+    {
+      "index": 41,
+      "title": "A Guerra dos Tronos-41: Jon V",
+      "originalTitle": "AGOT-41: Jon V"
+    },
+    {
+      "index": 42,
+      "title": "A Guerra dos Tronos-42: Tyrion VI",
+      "originalTitle": "AGOT-42: Tyrion VI"
+    },
+    {
+      "index": 43,
+      "title": "A Guerra dos Tronos-43: Eddard XI",
+      "originalTitle": "AGOT-43: Eddard XI"
+    },
+    {
+      "index": 44,
+      "title": "A Guerra dos Tronos-44: Sansa III",
+      "originalTitle": "AGOT-44: Sansa III"
+    },
+    {
+      "index": 45,
+      "title": "A Guerra dos Tronos-45: Eddard XII",
+      "originalTitle": "AGOT-45: Eddard XII"
+    },
+    {
+      "index": 46,
+      "title": "A Guerra dos Tronos-46: Daenerys V",
+      "originalTitle": "AGOT-46: Daenerys V"
+    },
+    {
+      "index": 47,
+      "title": "A Guerra dos Tronos-47: Eddard XIII",
+      "originalTitle": "AGOT-47: Eddard XIII"
+    },
+    {
+      "index": 48,
+      "title": "A Guerra dos Tronos-48: Jon VI",
+      "originalTitle": "AGOT-48: Jon VI"
+    },
+    {
+      "index": 49,
+      "title": "A Guerra dos Tronos-49: Eddard XIV",
+      "originalTitle": "AGOT-49: Eddard XIV"
+    },
+    {
+      "index": 50,
+      "title": "A Guerra dos Tronos-50: Arya IV",
+      "originalTitle": "AGOT-50: Arya IV"
+    },
+    {
+      "index": 51,
+      "title": "A Guerra dos Tronos-51: Sansa IV",
+      "originalTitle": "AGOT-51: Sansa IV"
+    },
+    {
+      "index": 52,
+      "title": "A Guerra dos Tronos-52: Jon VII",
+      "originalTitle": "AGOT-52: Jon VII"
+    },
+    {
+      "index": 53,
+      "title": "A Guerra dos Tronos-53: Bran VI",
+      "originalTitle": "AGOT-53: Bran VI"
+    },
+    {
+      "index": 54,
+      "title": "A Guerra dos Tronos-54: Daenerys VI",
+      "originalTitle": "AGOT-54: Daenerys VI"
+    },
+    {
+      "index": 55,
+      "title": "A Guerra dos Tronos-55: Catelyn VIII",
+      "originalTitle": "AGOT-55: Catelyn VIII"
+    },
+    {
+      "index": 56,
+      "title": "A Guerra dos Tronos-56: Tyrion VII",
+      "originalTitle": "AGOT-56: Tyrion VII"
+    },
+    {
+      "index": 57,
+      "title": "A Guerra dos Tronos-57: Sansa V",
+      "originalTitle": "AGOT-57: Sansa V"
+    },
+    {
+      "index": 58,
+      "title": "A Guerra dos Tronos-58: Eddard XV",
+      "originalTitle": "AGOT-58: Eddard XV"
+    },
+    {
+      "index": 59,
+      "title": "A Guerra dos Tronos-59: Catelyn IX",
+      "originalTitle": "AGOT-59: Catelyn IX"
+    },
+    {
+      "index": 60,
+      "title": "A Guerra dos Tronos-60: Jon VIII",
+      "originalTitle": "AGOT-60: Jon VIII"
+    },
+    {
+      "index": 61,
+      "title": "A Guerra dos Tronos-61: Daenerys VII",
+      "originalTitle": "AGOT-61: Daenerys VII"
+    },
+    {
+      "index": 62,
+      "title": "A Guerra dos Tronos-62: Tyrion VIII",
+      "originalTitle": "AGOT-62: Tyrion VIII"
+    },
+    {
+      "index": 63,
+      "title": "A Guerra dos Tronos-63: Catelyn X",
+      "originalTitle": "AGOT-63: Catelyn X"
+    },
+    {
+      "index": 64,
+      "title": "A Guerra dos Tronos-64: Daenerys VIII",
+      "originalTitle": "AGOT-64: Daenerys VIII"
+    },
+    {
+      "index": 65,
+      "title": "A Guerra dos Tronos-65: Arya V",
+      "originalTitle": "AGOT-65: Arya V"
+    },
+    {
+      "index": 66,
+      "title": "A Guerra dos Tronos-66: Bran VII",
+      "originalTitle": "AGOT-66: Bran VII"
+    },
+    {
+      "index": 67,
+      "title": "A Guerra dos Tronos-67: Sansa VI",
+      "originalTitle": "AGOT-67: Sansa VI"
+    },
+    {
+      "index": 68,
+      "title": "A Guerra dos Tronos-68: Daenerys IX",
+      "originalTitle": "AGOT-68: Daenerys IX"
+    },
+    {
+      "index": 69,
+      "title": "A Guerra dos Tronos-69: Tyrion IX",
+      "originalTitle": "AGOT-69: Tyrion IX"
+    },
+    {
+      "index": 70,
+      "title": "A Guerra dos Tronos-70: Jon IX",
+      "originalTitle": "AGOT-70: Jon IX"
+    },
+    {
+      "index": 71,
+      "title": "A Guerra dos Tronos-71: Catelyn XI",
+      "originalTitle": "AGOT-71: Catelyn XI"
+    },
+    {
+      "index": 72,
+      "title": "A Guerra dos Tronos-72: Daenerys X",
+      "originalTitle": "AGOT-72: Daenerys X"
+    }
+  ],
+  "characters": [
+    {
+      "id": "jon",
+      "character": "Jon Snow",
+      "color": "#805d22",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|J|808080",
+            "chapters": [
+              0,
+              0
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 1,
+            "path": [
+              "Winterfell",
+              "Execution_Holdfast"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|J|808080",
+            "chapters": [
+              1,
+              1
+            ],
+            "key": "Execution_Holdfast"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "|J|808080",
+            "chapters": [
+              2,
+              18
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "line": "#808080",
+            "chapters": 19,
+            "path": [
+              "Winterfell",
+              [
+                68.7204,
+                -121.1132
+              ],
+              [
+                72.9454,
+                -108.457
+              ],
+              "Castle_Black"
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "_sleft|J|808080",
+            "chapters": [
+              19,
+              85
+            ],
+            "key": "Castle_Black"
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#808080",
+            "chapters": 48,
+            "path": [
+              "Castle_Black",
+              [
+                76.6189,
+                -106.6113
+              ]
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "line": "#808080",
+            "chapters": 52,
+            "path": [
+              "Castle_Black",
+              [
+                76.7202,
+                -105.205
+              ]
+            ]
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#808080",
+            "chapters": 70,
+            "path": [
+              "Castle_Black",
+              [
+                75.7589,
+                -106.6992
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tyrion",
+      "character": "Tyrion Lannister",
+      "color": "#b04437",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|T|FF0000",
+            "chapters": [
+              0,
+              3
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 4,
+            "path": [
+              "King%27s_Landing",
+              "Hayford",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Darry",
+              [
+                26.4312,
+                -114.1406
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                64.6991,
+                -124.86328125
+              ],
+              "Winterfell"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "_sleft|T|FF0000",
+            "chapters": [
+              4,
+              18
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 19,
+            "path": [
+              "Winterfell",
+              [
+                68.7204,
+                -121.1132
+              ],
+              [
+                72.9454,
+                -108.457
+              ],
+              "Castle_Black"
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              19,
+              27
+            ],
+            "key": "Castle_Black"
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              28,
+              30
+            ],
+            "key": "Crossroads_Inn"
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 31,
+            "path": [
+              "Crossroads_Inn",
+              [
+                25.1651,
+                -110.2294
+              ],
+              [
+                25.2446,
+                -106.0107
+              ],
+              [
+                27.4107,
+                -104.9121
+              ]
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              31,
+              33
+            ],
+            "coord": [
+              27.4107,
+              -104.9121
+            ]
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 34,
+            "path": [
+              [
+                27.4107,
+                -104.9121
+              ],
+              [
+                28.2656,
+                -103.5937
+              ],
+              "Eyrie"
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              34,
+              41
+            ],
+            "key": "Eyrie"
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "icon": "|T|FF0000",
+            "chapters": [
+              42,
+              55
+            ],
+            "coord": [
+              27.4107,
+              -104.9121
+            ]
+          }
+        },
+        {
+          "index": 11,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 56,
+            "path": [
+              [
+                32.6578,
+                -120.5419
+              ],
+              [
+                32.6578,
+                -122.3876
+              ]
+            ]
+          }
+        },
+        {
+          "index": 12,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              56,
+              68
+            ],
+            "coord": [
+              32.6578,
+              -122.3876
+            ]
+          }
+        },
+        {
+          "index": 13,
+          "record": {
+            "icon": "_sright|T|FF0000",
+            "chapters": [
+              69,
+              79
+            ],
+            "key": "Crossroads_Inn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "robb",
+      "character": "Robb Stark",
+      "color": "#426b70",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|R|808080",
+            "chapters": [
+              0,
+              0
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 1,
+            "path": [
+              "Winterfell",
+              "Execution_Holdfast"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "_sright|R|808080",
+            "chapters": [
+              1,
+              1
+            ],
+            "key": "Execution_Holdfast"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "|R|808080",
+            "chapters": [
+              2,
+              54
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "line": "#808080",
+            "chapters": 55,
+            "path": [
+              "Winterfell",
+              "Moat_Cailin"
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "_sleft|R|808080",
+            "chapters": [
+              55,
+              58
+            ],
+            "key": "Moat_Cailin"
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#808080",
+            "chapters": 59,
+            "path": [
+              "Moat_Cailin",
+              [
+                45.058,
+                -122.4902
+              ],
+              "Twins"
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "_sleft|R|808080",
+            "chapters": [
+              59,
+              62
+            ],
+            "key": "Twins"
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#808080",
+            "chapters": 63,
+            "path": [
+              "Twins",
+              [
+                34.7777,
+                -125.3906
+              ],
+              "Fairmarket",
+              [
+                23.9661,
+                -128.3642
+              ]
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "icon": "_sleft|R|808080",
+            "chapters": [
+              63,
+              70
+            ],
+            "coord": [
+              23.9661,
+              -128.3642
+            ]
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "line": "#808080",
+            "chapters": 71,
+            "path": [
+              [
+                23.9661,
+                -128.3642
+              ],
+              "Riverrun"
+            ]
+          }
+        },
+        {
+          "index": 11,
+          "record": {
+            "icon": "_sleft|R|808080",
+            "chapters": [
+              71,
+              105
+            ],
+            "key": "Riverrun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "catelyn",
+      "character": "Catelyn Stark",
+      "color": "#4267a0",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "_sright|C|808080",
+            "chapters": [
+              0,
+              17
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 18,
+            "path": [
+              "Winterfell",
+              [
+                64.1489,
+                -117.041
+              ],
+              "White_Harbor",
+              [
+                50.0359,
+                -110.7128
+              ],
+              [
+                49.2964,
+                -78.9843
+              ],
+              [
+                20.6739,
+                -77.666
+              ],
+              [
+                10.7901,
+                -94.3652
+              ],
+              [
+                1.3621,
+                -97.3535
+              ],
+              "King%27s_Landing"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|C|808080",
+            "chapters": [
+              18,
+              21
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "line": "#808080",
+            "chapters": 22,
+            "path": [
+              "King%27s_Landing",
+              [
+                13.1115,
+                -108.8671
+              ]
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "|C|808080",
+            "chapters": [
+              22,
+              27
+            ],
+            "coord": [
+              13.1115,
+              -108.8671
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "line": "#808080",
+            "chapters": 28,
+            "path": [
+              [
+                13.1115,
+                -108.8671
+              ],
+              "Crossroads_Inn"
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "arrow": "#808080",
+            "chapters": 28,
+            "coord": [
+              21.4531,
+              -111.8848
+            ],
+            "heading": 340
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "_sleft|C|808080",
+            "chapters": [
+              28,
+              30
+            ],
+            "key": "Crossroads_Inn"
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#808080",
+            "chapters": 31,
+            "path": [
+              "Crossroads_Inn",
+              [
+                25.1651,
+                -110.2294
+              ],
+              [
+                25.2446,
+                -106.0107
+              ],
+              [
+                27.4107,
+                -104.9121
+              ]
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "icon": "_sleft|C|808080",
+            "chapters": [
+              31,
+              33
+            ],
+            "coord": [
+              27.4107,
+              -104.9121
+            ]
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "line": "#808080",
+            "chapters": 34,
+            "path": [
+              [
+                27.4107,
+                -104.9121
+              ],
+              [
+                28.2656,
+                -103.5937
+              ],
+              "Eyrie"
+            ]
+          }
+        },
+        {
+          "index": 11,
+          "record": {
+            "icon": "_sleft|C|808080",
+            "chapters": [
+              34,
+              54
+            ],
+            "key": "Eyrie"
+          }
+        },
+        {
+          "index": 12,
+          "record": {
+            "line": "#808080",
+            "chapters": 55,
+            "path": [
+              "Eyrie",
+              [
+                33.578,
+                -95.3613
+              ],
+              "Ironoaks",
+              [
+                30.6001,
+                -90.5273
+              ],
+              "Gulltown",
+              [
+                27.3718,
+                -84.1553
+              ],
+              [
+                27.7224,
+                -78.1787
+              ]
+            ]
+          }
+        },
+        {
+          "index": 13,
+          "record": {
+            "line": "#808080",
+            "chapters": 55,
+            "path": [
+              "White_Harbor",
+              "Moat_Cailin"
+            ]
+          }
+        },
+        {
+          "index": 14,
+          "record": {
+            "icon": "_sright|C|808080",
+            "chapters": [
+              55,
+              58
+            ],
+            "key": "Moat_Cailin"
+          }
+        },
+        {
+          "index": 15,
+          "record": {
+            "line": "#808080",
+            "chapters": 59,
+            "path": [
+              "Moat_Cailin",
+              [
+                45.058,
+                -122.4902
+              ],
+              "Twins"
+            ]
+          }
+        },
+        {
+          "index": 16,
+          "record": {
+            "icon": "_sright|C|808080",
+            "chapters": [
+              59,
+              62
+            ],
+            "key": "Twins"
+          }
+        },
+        {
+          "index": 17,
+          "record": {
+            "line": "#808080",
+            "chapters": 63,
+            "path": [
+              "Twins",
+              [
+                34.7777,
+                -125.3906
+              ],
+              "Fairmarket",
+              [
+                23.9661,
+                -128.3642
+              ]
+            ]
+          }
+        },
+        {
+          "index": 18,
+          "record": {
+            "arrow": "#808080",
+            "chapters": 63,
+            "coord": [
+              32.6488,
+              -124.3466
+            ],
+            "heading": 160
+          }
+        },
+        {
+          "index": 19,
+          "record": {
+            "icon": "|C|808080",
+            "chapters": [
+              63,
+              70
+            ],
+            "coord": [
+              23.9661,
+              -128.3642
+            ]
+          }
+        },
+        {
+          "index": 20,
+          "record": {
+            "line": "#808080",
+            "chapters": 71,
+            "path": [
+              [
+                23.9661,
+                -128.3642
+              ],
+              "Riverrun"
+            ]
+          }
+        },
+        {
+          "index": 21,
+          "record": {
+            "icon": "|C|808080",
+            "chapters": [
+              71,
+              94
+            ],
+            "key": "Riverrun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eddard",
+      "character": "Eddard Stark",
+      "color": "#566353",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              0,
+              0
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 1,
+            "path": [
+              "Winterfell",
+              "Execution_Holdfast"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              1,
+              1
+            ],
+            "key": "Execution_Holdfast"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              2,
+              11
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "line": "#808080",
+            "chapters": 12,
+            "path": [
+              "Winterfell",
+              [
+                64.6991,
+                -124.8632
+              ],
+              [
+                57.9848,
+                -122.4023
+              ]
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              12,
+              14
+            ],
+            "coord": [
+              57.9848,
+              -122.4023
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#808080",
+            "chapters": 15,
+            "path": [
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                26.4312,
+                -114.1406
+              ]
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              15,
+              19
+            ],
+            "coord": [
+              26.4312,
+              -114.1406
+            ]
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#808080",
+            "chapters": [
+              20
+            ],
+            "path": [
+              [
+                26.4312,
+                -114.1406
+              ],
+              "Darry",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Hayford",
+              "King%27s_Landing"
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "icon": "_sleft|E|808080",
+            "chapters": [
+              20,
+              64
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "icon": "skull",
+            "chapters": 65,
+            "key": "King%27s_Landing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "arya",
+      "character": "Arya Stark",
+      "color": "#9c512b",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|A|808080",
+            "chapters": [
+              0,
+              11
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 12,
+            "path": [
+              "Winterfell",
+              [
+                64.6991,
+                -124.8632
+              ],
+              [
+                57.9848,
+                -122.4023
+              ]
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|A|808080",
+            "chapters": [
+              12,
+              14
+            ],
+            "coord": [
+              57.9848,
+              -122.4023
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "line": "#808080",
+            "chapters": 15,
+            "path": [
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                26.4312,
+                -114.1406
+              ]
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "arrow": "#808080",
+            "chapters": 15,
+            "coord": [
+              38.7499,
+              -121.3027
+            ],
+            "heading": 200
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "|A|808080",
+            "chapters": [
+              15,
+              19
+            ],
+            "coord": [
+              26.4312,
+              -114.1406
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#808080",
+            "chapters": 20,
+            "path": [
+              [
+                26.4312,
+                -114.1406
+              ],
+              "Darry",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Hayford",
+              "King%27s_Landing"
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "|A|808080",
+            "chapters": [
+              20,
+              73
+            ],
+            "key": "King%27s_Landing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sansa",
+      "character": "Sansa Stark",
+      "color": "#a34868",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|S|808080",
+            "chapters": [
+              0,
+              11
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 12,
+            "path": [
+              "Winterfell",
+              [
+                64.6991,
+                -124.8632
+              ],
+              [
+                57.9848,
+                -122.4023
+              ]
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|S|808080",
+            "chapters": [
+              12,
+              14
+            ],
+            "coord": [
+              57.9848,
+              -122.4023
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "line": "#808080",
+            "chapters": 15,
+            "path": [
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                26.4312,
+                -114.1406
+              ]
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "|S|808080",
+            "chapters": [
+              15,
+              19
+            ],
+            "coord": [
+              26.4312,
+              -114.1406
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "line": "#808080",
+            "chapters": 20,
+            "path": [
+              [
+                26.4312,
+                -114.1406
+              ],
+              "Darry",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Hayford",
+              "King%27s_Landing"
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "icon": "|S|808080",
+            "chapters": [
+              20,
+              203
+            ],
+            "key": "King%27s_Landing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bran",
+      "character": "Bran Stark",
+      "color": "#4c7442",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|B|808080",
+            "chapters": [
+              0,
+              0
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#808080",
+            "chapters": 1,
+            "path": [
+              "Winterfell",
+              "Execution_Holdfast"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|B|808080",
+            "chapters": [
+              1,
+              1
+            ],
+            "key": "Execution_Holdfast"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "_sleft|B|808080",
+            "chapters": [
+              2,
+              122
+            ],
+            "key": "Winterfell"
+          }
+        }
+      ]
+    },
+    {
+      "id": "theon",
+      "character": "Theon Greyjoy",
+      "color": "#94731e",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              0,
+              0
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#FF9700",
+            "chapters": 1,
+            "path": [
+              "Winterfell",
+              "Execution_Holdfast"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              1,
+              1
+            ],
+            "key": "Execution_Holdfast"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "_sright|T|FF9700",
+            "chapters": [
+              2,
+              54
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "line": "#FF9700",
+            "chapters": 55,
+            "path": [
+              "Winterfell",
+              "Moat_Cailin"
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              55,
+              58
+            ],
+            "key": "Moat_Cailin"
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#FF9700",
+            "chapters": 59,
+            "path": [
+              "Moat_Cailin",
+              [
+                45.058,
+                -122.4902
+              ],
+              "Twins"
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              59,
+              62
+            ],
+            "key": "Twins"
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#FF9700",
+            "chapters": 63,
+            "path": [
+              "Twins",
+              [
+                34.7777,
+                -125.3906
+              ],
+              "Fairmarket",
+              [
+                23.9661,
+                -128.3642
+              ]
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              63,
+              70
+            ],
+            "coord": [
+              23.9661,
+              -128.3642
+            ]
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "line": "#FF9700",
+            "chapters": 71,
+            "path": [
+              [
+                23.9661,
+                -128.3642
+              ],
+              "Riverrun"
+            ]
+          }
+        },
+        {
+          "index": 11,
+          "record": {
+            "icon": "|T|FF9700",
+            "chapters": [
+              71,
+              83
+            ],
+            "key": "Riverrun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "daenerys",
+      "character": "Daenerys Targaryen",
+      "color": "#733a37",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|D|000000|FFFFFF",
+            "chapters": [
+              0,
+              10
+            ],
+            "key": "Pentos"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#000000",
+            "chapters": 11,
+            "path": [
+              "Pentos",
+              [
+                3.4256,
+                -58.0078
+              ]
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|D|000000|FFFFFF",
+            "chapters": [
+              11,
+              22
+            ],
+            "coord": [
+              3.4256,
+              -58.0078
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "line": "#000000",
+            "chapters": 23,
+            "path": [
+              [
+                3.4256,
+                -58.0078
+              ],
+              [
+                -0.1757,
+                -41.1328
+              ],
+              [
+                1.1425,
+                -37.0019
+              ],
+              [
+                -2.021,
+                -30.7617
+              ],
+              "Ny_Sar",
+              "Ar_Noy",
+              [
+                -12.1252,
+                -7.3828
+              ],
+              [
+                -13.1543,
+                0.1757
+              ]
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "|D|000000|FFFFFF",
+            "chapters": [
+              23,
+              35
+            ],
+            "coord": [
+              -13.1543,
+              0.1757
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "line": "#000000",
+            "chapters": 36,
+            "path": [
+              [
+                -13.1543,
+                0.1757
+              ],
+              "Vaes_Dothrak"
+            ]
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "icon": "|D|000000|FFFFFF",
+            "chapters": [
+              36,
+              60
+            ],
+            "key": "Vaes_Dothrak"
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "line": "#000000",
+            "chapters": 61,
+            "path": [
+              "Vaes_Dothrak",
+              [
+                -30.297,
+                101.0742
+              ],
+              "Lhazar"
+            ]
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "icon": "|D|000000|FFFFFF",
+            "chapters": [
+              61,
+              84
+            ],
+            "key": "Lhazar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaime",
+      "character": "Jaime Lannister",
+      "color": "#906331",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "_sright|J|FF0000",
+            "chapters": [
+              0,
+              3
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 4,
+            "path": [
+              "King%27s_Landing",
+              "Hayford",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Darry",
+              [
+                26.4312,
+                -114.1406
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                64.6991,
+                -124.86328125
+              ],
+              "Winterfell"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              4,
+              11
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              12,
+              14
+            ],
+            "coord": [
+              57.9848,
+              -122.4023
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              15,
+              19
+            ],
+            "coord": [
+              26.4312,
+              -114.1406
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              20,
+              38
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 6,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 39,
+            "path": [
+              "King%27s_Landing",
+              [
+                0.9667,
+                -108.6328
+              ],
+              [
+                3.7765,
+                -113.2031
+              ]
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              39,
+              54
+            ],
+            "coord": [
+              3.7765,
+              -113.2031
+            ]
+          }
+        },
+        {
+          "index": 8,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 55,
+            "path": [
+              [
+                3.7765,
+                -113.2031
+              ],
+              [
+                5.3535,
+                -116.2792
+              ],
+              [
+                1.9332,
+                -127.6171
+              ],
+              "Deep_Den",
+              [
+                7.4496,
+                -141.9433
+              ],
+              "Sarsfield",
+              "Golden_Tooth",
+              "Wayfarer%27s_Rest",
+              "Riverrun"
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "record": {
+            "arrow": "#ff0000",
+            "chapters": 55,
+            "coord": [
+              19.2915,
+              -131.2112
+            ],
+            "heading": 45
+          }
+        },
+        {
+          "index": 10,
+          "record": {
+            "icon": "|J|FF0000",
+            "chapters": [
+              55,
+              62
+            ],
+            "key": "Riverrun"
+          }
+        },
+        {
+          "index": 11,
+          "record": {
+            "line": "#ff0000",
+            "chapters": 63,
+            "path": [
+              "Riverrun",
+              [
+                23.9661,
+                -128.3642
+              ]
+            ]
+          }
+        },
+        {
+          "index": 12,
+          "record": {
+            "icon": "_sright|J|FF0000",
+            "chapters": [
+              63,
+              70
+            ],
+            "coord": [
+              23.9661,
+              -128.3642
+            ]
+          }
+        },
+        {
+          "index": 13,
+          "record": {
+            "icon": "_sright|J|FF0000",
+            "chapters": [
+              71,
+              143
+            ],
+            "key": "Riverrun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cersei",
+      "character": "Cersei Lannister",
+      "color": "#8b4545",
+      "records": [
+        {
+          "index": 0,
+          "record": {
+            "icon": "|C|FF0000",
+            "chapters": [
+              0,
+              3
+            ],
+            "key": "King%27s_Landing"
+          }
+        },
+        {
+          "index": 1,
+          "record": {
+            "line": "#FF0000",
+            "chapters": 4,
+            "path": [
+              "King%27s_Landing",
+              "Hayford",
+              [
+                16.0669,
+                -109.5263
+              ],
+              "Darry",
+              [
+                26.4312,
+                -114.1406
+              ],
+              [
+                33.8704,
+                -121.5234
+              ],
+              [
+                36.1733,
+                -122.0507
+              ],
+              [
+                41.0462,
+                -120.5566
+              ],
+              [
+                44.5904,
+                -122.4023
+              ],
+              [
+                57.9848,
+                -122.4023
+              ],
+              [
+                64.6991,
+                -124.86328125
+              ],
+              "Winterfell"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "record": {
+            "icon": "|C|FF0000",
+            "chapters": [
+              4,
+              11
+            ],
+            "key": "Winterfell"
+          }
+        },
+        {
+          "index": 3,
+          "record": {
+            "icon": "|C|FF0000",
+            "chapters": [
+              12,
+              14
+            ],
+            "coord": [
+              57.9848,
+              -122.4023
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "record": {
+            "icon": "|C|FF0000",
+            "chapters": [
+              15,
+              19
+            ],
+            "coord": [
+              26.4312,
+              -114.1406
+            ]
+          }
+        },
+        {
+          "index": 5,
+          "record": {
+            "icon": "_sleft|C|FF0000",
+            "chapters": [
+              20,
+              999
+            ],
+            "key": "King%27s_Landing"
+          }
+        }
+      ]
+    }
+  ]
+}

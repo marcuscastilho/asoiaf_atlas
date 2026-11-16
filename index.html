@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mapa de As Crônicas de Gelo e Fogo com controle de spoilers</title>
+    <meta
+      name="description"
+      content="Um mapa de Westeros e do restante do mundo conhecido de As Crônicas de Gelo e Fogo. Marque até qual capítulo dos livros você já leu para evitar spoilers. Veja o trajeto dos principais personagens ao longo da história."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/vendor/jquery-mobile/jquery.mobile-1.3.0.min.css" />
+    <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="assets/css/app-default.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/app-handheld.css"
+      media="only screen and (max-width:600px)"
+    />
+    <script src="config.js"></script>
+    <script src="assets/vendor/jquery-1.9.1.min.js"></script>
+    <script>
+      // Our hash format (#@Key | #@lat,lng) is not jQuery Mobile navigation;
+      // disable jQM's hash/link interception before it initializes (fixes the
+      // original site's "unrecognized expression" crash on unknown hashes).
+      $(document).on('mobileinit', function () {
+        $.mobile.hashListeningEnabled = false;
+        $.mobile.pushStateEnabled = false;
+        $.mobile.ajaxEnabled = false;
+        $.mobile.linkBindingEnabled = false;
+      });
+    </script>
+    <script src="assets/vendor/jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+    <script src="assets/vendor/leaflet/leaflet.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/i18n-pt.js"></script>
+    <script src="assets/heraldry/manifest.js"></script>
+    <script src="assets/js/label-layout.js"></script>
+    <script src="assets/js/map-engine.js"></script>
+    <script src="assets/js/cartography.js"></script>
+    <script src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="page">
+      <div data-role="header" id="header"></div>
+      <div data-role="content" id="content">
+        <button
+          type="button"
+          id="menuButton"
+          data-role="none"
+          aria-label="Abrir ou fechar o menu"
+        ></button>
+        <div id="shade" style="width: 100%; height: 100%;"></div>
+        <div id="lightbox">
+          <button type="button" id="closeButton" data-role="none" aria-label="Fechar">x</button>
+          <div
+            id="handheldCloseButton"
+            data-role="button"
+            data-icon="back"
+            data-theme="e"
+          >
+            Voltar ao menu
+          </div>
+          <h1>Mapa de As Crônicas de Gelo e Fogo</h1>
+          <div id="subtitle">com controle de spoilers por capítulo</div>
+          <p>
+            Este é um mapa do mundo descrito na série literária
+            <a
+              target="_blank" rel="noopener"
+              href="https://www.georgerrmartin.com/bibliography.html"
+              >As Crônicas de Gelo e Fogo</a
+            >. O site exibe informações úteis sobre a camada do mapa e liga a
+            detalhes adicionais na
+            <a target="_blank" rel="noopener" href="https://awoiaf.westeros.org"
+              >wiki Westeros.org</a
+            >
+            (em inglês). Escopo exclusivamente literário: nenhum conteúdo
+            derivado da adaptação televisiva.
+          </p>
+          <p>
+            Se você ainda não terminou os livros, pode ocultar detalhes que
+            estragariam a trama. Basta arrastar o controle no canto superior
+            direito até o último capítulo concluído. Os botões de seta animam
+            o trajeto dos personagens. Atenção: o controle vale apenas para
+            este mapa;
+            <span style="font-style: italic;"
+              >qualquer página aberta na wiki pode conter spoilers</span
+            >.
+          </p>
+          <p>
+            Para compartilhar este mapa apontando um local específico, segure
+            Ctrl e clique no mapa — você recebe uma URL que centraliza o mapa
+            naquele ponto (ex.:
+            <a id="lightboxLink" href="#@Winterfell">Winterfell</a>).
+          </p>
+          <p>
+            Versão em português (pt-BR), feita por fãs e sem fins lucrativos, do
+            mapa interativo
+            <a target="_blank" rel="noopener" href="https://quartermaester.info/"
+              >Quartermaester</a
+            >. Os nomes seguem, sempre que possível, a tradução da
+            <b>editora Suma (2019)</b>, verificada em parte em edições locais
+            fornecidas pelo usuário; termos apenas verificados na edição LeYa
+            ou em wikis literárias ficam marcados como fonte secundária.
+            Termos sem tradução verificada permanecem em inglês.
+          </p>
+          <p>
+            A arte do mapa foi desenhada por
+            <a target="_blank" rel="noopener" href="https://www.sermountaingoat.co.uk/map"
+              >theMountainGoat</a
+            >
+            com base no trabalho anterior de
+            <a
+              target="_blank" rel="noopener"
+              href="https://www.cartographersguild.com/finished-maps/6683-westeros-fan-project.html"
+              >Tear, do Cartographer's Guild</a
+            >, e é distribuída sob licença Creative Commons para uso
+            <b>não comercial</b>. O desenho é <b>especulativo</b> e pode divergir
+            dos mapas oficiais de
+            <i>The Lands of Ice and Fire</i>. Os dados de trajetos e brasões
+            cobrem os cinco livros publicados mais o capítulo de amostra
+            <i>Theon I</i> de <i>Os Ventos do Inverno</i> — somente material
+            literário. A propriedade
+            intelectual de
+            <span style="font-style: italic;">As Crônicas de Gelo e Fogo</span>,
+            deste mapa e de todas as localidades pertence a
+            <a target="_blank" rel="noopener" href="https://www.georgerrmartin.com"
+              >George R.R. Martin</a
+            >.
+          </p>
+          <p>
+            O mapa é renderizado por padrão com
+            <a target="_blank" rel="noopener" href="https://leafletjs.com/">Leaflet</a>
+            (sem necessidade de chave). Para usar o Google Maps, defina sua
+            própria chave em <code>config.js</code>. Links para a wiki e outras
+            fontes abrem sites externos — que podem conter spoilers além do
+            ponto marcado no controle.
+          </p>
+        </div>
+        <div id="map_canvas" style="width: 100%; height: 100%;">
+          Se o mapa não aparecer em alguns segundos, o JavaScript pode estar
+          desativado. Este site usa JavaScript para exibir informações ao
+          clicar numa localidade.
+        </div>
+        <div id="engineStatus"></div>
+        <button
+          type="button"
+          id="legendToggle"
+          data-role="none"
+          aria-label="Abrir ou fechar a legenda do mapa"
+          aria-expanded="false"
+          aria-controls="mapLegend"
+          >Legenda</button
+        >
+        <div id="mapLegend" role="region" aria-label="Legenda do mapa">
+          <button
+            type="button"
+            id="legendClose"
+            data-role="none"
+            aria-label="Fechar a legenda"
+            >&times;</button
+          >
+          <h5 class="legend-title">Legenda do mapa</h5>
+          <h5>Símbolos (arte original)</h5>
+          <div class="legend-cols">
+            <div class="legend-col">
+              <h6>Confirmado no mapa</h6>
+              <ul>
+                <li><img src="assets/img/map-symbols/city.png" alt="" /><span>Cidade</span></li>
+                <li><img src="assets/img/map-symbols/town.png" alt="" /><span>Vila</span></li>
+                <li><img src="assets/img/map-symbols/castle.png" alt="" /><span>Castelo</span></li>
+                <li><img src="assets/img/map-symbols/ruin.png" alt="" /><span>Ruína</span></li>
+                <li><img src="assets/img/map-symbols/other.png" alt="" /><span>Outro</span></li>
+              </ul>
+            </div>
+            <div class="legend-col">
+              <h6>Posição especulativa</h6>
+              <ul>
+                <li><img src="assets/img/map-symbols/city-spec.png" alt="" /><span>Cidade</span></li>
+                <li><img src="assets/img/map-symbols/town-spec.png" alt="" /><span>Vila</span></li>
+                <li><img src="assets/img/map-symbols/castle-spec.png" alt="" /><span>Castelo</span></li>
+                <li><img src="assets/img/map-symbols/ruin-spec.png" alt="" /><span>Ruína</span></li>
+                <li><img src="assets/img/map-symbols/other-spec.png" alt="" /><span>Outro</span></li>
+              </ul>
+            </div>
+          </div>
+          <ul>
+            <li><i class="gate-glyph" aria-hidden="true"></i><span>Portão <em class="local-add">(adição local)</em></span></li>
+          </ul>
+          <h5>Rótulos</h5>
+          <ul>
+            <li><i class="swatch" style="background:#692323"></i><span>Localidade</span></li>
+            <li><i class="swatch" style="background:#283519"></i><span>Floresta</span></li>
+            <li><i class="swatch" style="background:#829aa4"></i><span>Mar / ilha / costa</span></li>
+            <li><i class="swatch" style="background:#20221a"></i><span>Montanha / relevo</span></li>
+            <li><i class="swatch" style="background:#483824"></i><span>Região</span></li>
+          </ul>
+          <p class="legend-note">
+            Os cinco símbolos e as cores seguem a arte original de
+            <a target="_blank" rel="noopener" href="https://www.sermountaingoat.co.uk/map">theMountainGoat</a>
+            (CC BY-NC-SA, uso não comercial): símbolos cheios = posição
+            marcada na arte, vazados = posição especulativa do desenho — não
+            informação da série. “Portão” é adição local a pedido do usuário.
+            Os nomes menores aparecem ao aproximar o mapa.
+          </p>
+        </div>
+        <div id="filter" title="Arraste o controle até o último capítulo lido. Detalhes posteriores ficam ocultos nesta página. Links podem levar a spoilers em outros sites.">
+          <button
+            type="button"
+            id="infoLink"
+            data-role="none"
+            title="Clique para saber mais sobre o mapa"
+            aria-label="Sobre este mapa"
+          ></button>
+          <h4>Spoilers até:</h4>
+          <button
+            type="button"
+            id="slideUp"
+            data-role="none"
+            aria-label="Próximo capítulo"
+          ></button>
+          <button
+            type="button"
+            id="slideDown"
+            data-role="none"
+            aria-label="Capítulo anterior"
+          ></button>
+
+          <div id="chapGroup">
+            <label for="chapSlider" id="chapTitle"></label>
+            <input
+              type="range"
+              name="chapSlider"
+              id="chapSlider"
+              value="0"
+              min="0"
+              max="344"
+              data-highlight="true"
+            />
+          </div>
+
+          <ul
+            id="townSelector"
+            data-role="listview"
+            data-inset="true"
+            data-filter="true"
+            data-filter-reveal="true"
+            data-filter-placeholder="Buscar localidades..."
+          ></ul>
+
+          <div id="toggles">
+            <h4>Exibir regiões:</h4>
+            <input
+              type="checkbox"
+              id="toggle_nobility"
+              name="toggle_nobility"
+              data-role="none"
+            />
+            <label
+              for="toggle_nobility"
+              title="Casas sem castelos conhecidos são posicionadas aleatoriamente nas terras de seu suserano."
+              >Nobreza de Westeros</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              id="toggle_regions"
+              name="toggle_regions"
+              data-role="none"
+            />
+            <label for="toggle_regions">Regiões de Westeros</label>
+            <table id="legend">
+              <tr id="gift">
+                <td></td>
+                <td>A Dádiva (Patrulha da Noite)</td>
+              </tr>
+              <tr id="north">
+                <td></td>
+                <td>O Norte (Casa Stark)</td>
+              </tr>
+              <tr id="rivers">
+                <td></td>
+                <td>Terras Fluviais (Casa Tully)</td>
+              </tr>
+              <tr id="vale">
+                <td></td>
+                <td>Vale de Arryn (Casa Arryn)</td>
+              </tr>
+              <tr id="islands">
+                <td></td>
+                <td>Ilhas de Ferro (Casa Greyjoy)</td>
+              </tr>
+              <tr id="west">
+                <td></td>
+                <td>Terras Ocidentais (C. Lannister)</td>
+              </tr>
+              <tr id="crown">
+                <td></td>
+                <td>Terras da Coroa (C. Baratheon)</td>
+              </tr>
+              <tr id="reach">
+                <td></td>
+                <td>Campina (Casa Tyrell)</td>
+              </tr>
+              <tr id="storm">
+                <td></td>
+                <td>Terras da Tempestade (C. Baratheon)</td>
+              </tr>
+              <tr id="dorne">
+                <td></td>
+                <td>Dorne (Casa Martell)</td>
+              </tr>
+            </table>
+
+            <h4>Exibir trajetos dos personagens:</h4>
+            <p id="textToggles">
+              <button
+                type="button"
+                class="textToggle"
+                data-role="none"
+                id="allCharacters"
+                >selecionar todos</button
+              >
+              |
+              <button
+                type="button"
+                class="textToggle"
+                data-role="none"
+                id="pathDisplay"
+                >somente posições atuais</button
+              >
+            </p>
+            <label for="showMarkerOnly" style="display: none">somente posições atuais</label>
+            <input type="checkbox" id="showMarkerOnly" />
+            <ul id="characters-asoiaf">
+              <li>
+                <input
+                  type="checkbox"
+                  class="pathToggle"
+                  data-role="none"
+                  id="toggle_eddard"
+                  disabled
+                />
+                <a
+                  class="icon stark"
+                  title="Casa Stark"
+                  target="_blank" rel="noopener"
+                  href="https://awoiaf.westeros.org/index.php/Stark"
+                ></a>
+                <label for="toggle_eddard"><a
+                    target="_blank" rel="noopener"
+                    href="https://awoiaf.westeros.org/index.php/Eddard_Stark"
+                    >Eddard Stark</a
+                  ></label
+                >
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_catelyn" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_catelyn"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Catelyn_Stark">Catelyn Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_robb" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_robb"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Robb_Stark">Robb Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_sansa" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_sansa"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Sansa_Stark">Sansa Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_bran" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_bran"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Bran_Stark">Bran Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_arya" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_arya"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Arya_Stark">Arya Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_rickon" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_rickon"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Rickon_Stark">Rickon Stark</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_jon" disabled />
+                <a class="icon stark" title="Casa Stark" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stark"></a>
+                <label for="toggle_jon"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Jon_Snow">Jon Snow</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_daenerys" disabled />
+                <a class="icon targaryen" title="Casa Targaryen" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Targaryen"></a>
+                <label for="toggle_daenerys"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Daenerys_Targaryen">Daenerys Targaryen</a></label>
+              </li>
+              <li class="aegonListItem">
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_aegon" disabled />
+                <a class="icon targaryen" title="Casa Targaryen" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Targaryen"></a>
+                <label for="toggle_aegon"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Aegon_Targaryen">Aegon Targaryen</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_tywin" disabled />
+                <a class="icon lannister" title="Casa Lannister" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Lannister"></a>
+                <label for="toggle_tywin"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Tywin_Lannister">Tywin Lannister</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_jaime" disabled />
+                <a class="icon lannister" title="Casa Lannister" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Lannister"></a>
+                <label for="toggle_jaime"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Jaime_Lannister">Jaime Lannister</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_cersei" disabled />
+                <a class="icon lannister" title="Casa Lannister" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Lannister"></a>
+                <label for="toggle_cersei"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Cersei_Lannister">Cersei Lannister</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_tyrion" disabled />
+                <a class="icon lannister" title="Casa Lannister" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Lannister"></a>
+                <label for="toggle_tyrion"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Tyrion_Lannister">Tyrion Lannister</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_joffrey" disabled />
+                <a class="icon baratheonokl" title="Casa Baratheon" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baratheon"></a>
+                <label for="toggle_joffrey"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Joffrey_Baratheon">Joffrey Baratheon</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_myrcella" disabled />
+                <a class="icon baratheonokl" title="Casa Baratheon" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baratheon"></a>
+                <label for="toggle_myrcella"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Myrcella_Baratheon">Myrcella Baratheon</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_robert" disabled />
+                <a class="icon baratheon" title="Casa Baratheon" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baratheon"></a>
+                <label for="toggle_robert"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Robert_Baratheon">Robert Baratheon</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_stannis" disabled />
+                <a class="icon baratheonod" title="Casa Baratheon de Pedra do Dragão" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baratheon"></a>
+                <label for="toggle_stannis"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Stannis_Baratheon">Stannis Baratheon</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_renly" disabled />
+                <a class="icon baratheon" title="Casa Baratheon" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baratheon"></a>
+                <label for="toggle_renly"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Renly_Baratheon">Renly Baratheon</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_theon" disabled />
+                <a class="icon greyjoy" title="Casa Greyjoy" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Greyjoy"></a>
+                <label for="toggle_theon"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Theon_Greyjoy">Theon Greyjoy</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_asha" disabled />
+                <a class="icon greyjoy" title="Casa Greyjoy" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Greyjoy"></a>
+                <label for="toggle_asha"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Asha_Greyjoy">Asha Greyjoy</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_victarion" disabled />
+                <a class="icon greyjoy" title="Casa Greyjoy" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Greyjoy"></a>
+                <label for="toggle_victarion"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Victarion_Greyjoy">Victarion Greyjoy</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_brienne" disabled />
+                <a class="icon tarth" title="Casa Tarth" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Tarth"></a>
+                <label for="toggle_brienne"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Brienne_of_Tarth">Brienne de Tarth</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_davos" disabled />
+                <a class="icon seaworth" title="Casa Seaworth" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Seaworth"></a>
+                <label for="toggle_davos"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Davos">Davos Seaworth</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_samwell" disabled />
+                <a class="icon nightswatch" title="Patrulha da Noite" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Night%27s_Watch"></a>
+                <label for="toggle_samwell"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Samwell_Tarly">Samwell Tarly</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_arianne" disabled />
+                <a class="icon martell" title="Casa Martell" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Martell"></a>
+                <label for="toggle_arianne"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Arianne_Martell">Arianne Martell</a></label>
+              </li>
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_littlefinger" disabled />
+                <a class="icon baelish" title="Casa Baelish de Harrenhal" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/House_Baelish_of_Harrenhal"></a>
+                <label for="toggle_littlefinger"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Petyr_Baelish">Petyr Baelish (Mindinho)</a></label>
+              </li>
+            </ul>
+            <ul id="characters-novellas">
+              <li>
+                <input type="checkbox" class="pathToggle" data-role="none" id="toggle_duncan" disabled />
+                <a class="icon duncan" target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Dunk"></a>
+                <label for="toggle_duncan"><a target="_blank" rel="noopener" href="https://awoiaf.westeros.org/index.php/Dunk">Duncan, o Alto</a></label>
+              </li>
+            </ul>
+          </div>
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="check"
+            id="htRegions"
+            for="toggle_regions"
+            >Exibir regiões</label
+          >
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="check"
+            id="htNobility"
+            for="toggle_nobility"
+            >Exibir brasões</label
+          >
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="arrow-r"
+            id="showCharacterPaths"
+            >Exibir trajetos</label
+          >
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="arrow-r"
+            id="htLegend"
+            aria-expanded="false"
+            aria-controls="mapLegend"
+            >Legenda</label
+          >
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="arrow-r"
+            id="aboutThisSite"
+            >Sobre este site</label
+          >
+          <label
+            class="handheldMenu"
+            data-role="button"
+            data-icon="back"
+            id="returnToMap"
+            data-theme="e"
+            >Voltar ao mapa</label
+          >
+        </div>
+        <div id="handheldToggles">
+          <ul>
+            <li
+              data-role="button"
+              data-icon="back"
+              data-theme="e"
+              id="closeCharList"
+            >
+              Voltar ao menu
+            </li>
+            <li><label data-role="button" data-icon="check" for="toggle_eddard">Eddard Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_catelyn">Catelyn Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_robb">Robb Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_sansa">Sansa Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_bran">Bran Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_arya">Arya Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_rickon">Rickon Stark</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_jon">Jon Snow</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_daenerys">Daenerys Targaryen</label></li>
+            <li class="aegonListItem"><label data-role="button" data-icon="check" for="toggle_aegon">Aegon Targaryen</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_tywin">Tywin Lannister</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_jaime">Jaime Lannister</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_cersei">Cersei Lannister</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_tyrion">Tyrion Lannister</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_joffrey">Joffrey Baratheon</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_myrcella">Myrcella Baratheon</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_robert">Robert Baratheon</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_stannis">Stannis Baratheon</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_renly">Renly Baratheon</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_theon">Theon Greyjoy</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_asha">Asha Greyjoy</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_victarion">Victarion Greyjoy</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_brienne">Brienne de Tarth</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_davos">Davos Seaworth</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_samwell">Samwell Tarly</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_arianne">Arianne Martell</label></li>
+            <li><label data-role="button" data-icon="check" for="toggle_littlefinger" title="Mindinho">Petyr Baelish</label></li>
+            <li id="hhSelectAll" data-role="button" data-icon="check">selecionar todos</li>
+            <li id="hhPathDisplay" data-role="button" data-icon="check">somente posições atuais</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

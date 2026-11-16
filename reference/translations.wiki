@@ -1,0 +1,166 @@
+Esta página vista listar '''termos com traduções conflitantes''' de ambas as publicações brasileiras de ''[[As Crônicas de Gelo e Fogo]]'', o termo original em inglês, e a tradução das dublagens brasileiras das séries de TV ''[[Game of Thrones]]'', ''[[House of the Dragon]]'' e outras [[Séries sucessoras de Game of Thrones|séries sucessoras]]. É recomendável ler [[Game of Thrones Wiki:Traduções|nossas políticas de traduções]] antes de editar ou sugerir alguma mudança nesta lista.
+
+Vale lembrar que na [[Game of Thrones Wiki|''Game of Thrones'' Wiki]], priorizamos a tradução dos livros de [[George R.R. Martin]] publicados pela editora Suma em 2019, devido a uma falta de cuidado e atenção quanto a tradução da dublagem da série de TV de 2011. A tradução da editora LeYa de 2011 é válida, mas não deve ser priorizada.
+
+Ao se criar uma página, o título dela deve provir dos livros da Suma de 2019, mas caso tenha outras traduções nos livros publicados pela editora LeYa, ou vindo da dublagem da série de TV, deve-se criar [[Especial:Lista de redirecionamentos|redirecionamentos]]. Por exemplo, ao se criar o equivalente brasileiro da página americana "[[w:c:gameofthrones:Kingswood|Kingswood]]", deve-se priorizar a tradução vindo dos livros da editora Suma, ou seja, "[[Mata de Rei]]". Em seguida, deve-se criar redirecionamentos da tradução da editora LeYa, "[[Mataderrei]]", e do(s) termo(s) usado(s) pela dublagem brasileira, nesse exemplo sendo "[[Floresta do Rei]]".
+
+==Lista de termos==
+<center>
+{| class="wikitable" cellpadding="4" cellspacing="0"
+! Termo original<br>(A até Z) !! Editora Suma<br>(correto) !! Editora LeYa<br>(redirecionamento) !! Dublagem<br>(redirecionamento)
+|-
+| '''Casterly Rock'''
+| [[Rochedo Casterly]]<ref name="Apêndice Suma">''[[A Guerra dos Tronos]]'' - Apêndice. Editora Suma (2019)</ref>
+| Rochedo Casterly<ref name="Apêndice LeYa">''[[A Guerra dos Tronos]]'' - Apêndice. Editora LeYa (2011)</ref>
+| [[Casterly Rock]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Cersei Lannister]]: ''"Tínhamos sete anos quando pulou do penhasco de '''Casterly Rock'''."''</ref>
+|-
+| '''Castle Black'''
+| [[Castelo Negro]]
+| Castelo Negro
+| [[Castelo Black]]
+|-
+| '''Direwolf'''
+| [[Lobo gigante]]<ref name="AGDT 1">''[[A Guerra dos Tronos]]'', Capítulo 1. Bran I.</ref>
+| Lobo gigante<ref name="AGDT 1"/>
+| [[Lobo assassino]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Eddard Stark]]: ''"É um '''lobo assassino'''."''</ref><br>[[Lobos medonhos]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Benjen Stark]]: ''"'''Lobos medonhos''' ao sul da Muralha, os Vagantes Brancos, e meu irmão pode ser o próximo Conselheiro do Rei."''</ref>
+|-
+| '''Doom of Valyria'''
+| [[Destruição de Valíria]]<ref name="F&S">''[[Fogo & Sangue]]''</ref>
+| [[Perdição de Valíria]]
+| ?
+|-
+| '''Dornish sand steed'''
+| [[Corcel de areia de Dorne]]<ref>''[[A Tormenta de Espadas]]'', Capítulo 38. Tyrion V.</ref>
+| ???
+| ???
+|-
+| '''Dusk rose'''
+| [[Rosa-penumbrosa]]
+| ???
+| [[Rosa do crepúsculo]]
+|-
+| '''Eyrie'''
+| [[Ninho da Águia]]<ref name="Apêndice Suma"/>
+| Ninho da Águia<ref name="Apêndice LeYa"/>
+| [[Eyrie]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Catelyn Stark]]: ''"Isso foi enviado do '''Eyrie'''. O que [[Lysa Arryn|ela]] tá fazendo lá?"''</ref>
+|-
+| '''Harpy's gold'''
+| [[Ouro de harpia]]
+| ???
+| [[Ouro da harpia]]
+|-
+| '''Ironborn'''
+| [[Homens de ferro]]<ref>''[[A Guerra dos Tronos]]'' - Apêndice. Editora Suma (2019)</ref><br>[[Nascidos no ferro]]
+| Homens de ferro<ref name="Apêndice LeYa"/><br>[[Nascidos do ferro]]
+| [[Nascido de ferro]]<ref>''[[Game of Thrones]]'' - [[Sexta Temporada (Game of Thrones)|Sexta Temporada]], Episódio 05 "[[The Door]]". [[Theon Greyjoy]]: ''"[[Yara Greyjoy|Ela]] é uma ceifadora. Ela é uma guerreira. Ela é '''nascida de ferro'''."''</ref>
+|-
+| '''Hand of the King'''
+| [[Mão do Rei]]<ref name="AGDT 4">''[[A Guerra dos Tronos]]'', Capítulo 4. Eddard I.</ref>
+| Mão do Rei<ref name="AGDT 4"/>
+| [[Conselheiro do Rei]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". Rei [[Robert I Baratheon]]: ''"Lorde [[Eddard Stark]], eu o nomeio '''Conselheiro do Rei'''."''</ref>
+|-
+| '''Lady's Lace'''
+| [[Renda-de-senhora]]
+| ???
+| [[Ame o maior]]
+|-
+| '''King's Landing'''
+| [[Porto Real]]<ref name="Apêndice Suma"/>
+| Porto Real<ref name="Apêndice LeYa"/>
+| [[King's Landing]]
+|-
+| '''Kingswood'''
+| [[Mata de Rei]]<ref name="Apêndice Suma"/>
+| [[Mataderrei]]<ref name="Apêndice LeYa"/>
+| [[Floresta do Rei]]<ref>''[[Game of Thrones]]'' - [[Segunda Temporada (Game of Thrones)|Segunda Temporada]], Episódio 09 "[[Blackwater]]". [[Tommen Baratheon]]: ''"Na '''Floresta do Rei'''?"''<br>[[Cersei Lannister]]: ''"É, meu amor. Na Floresta do Rei vivia uma leoa e seu filhote."''</ref>
+|-
+| '''Long Night'''
+| [[Longa Noite]]
+| Longa Noite
+| [[Noite Longa]]
+|-
+| '''Night's Watch'''
+| [[Patrulha da Noite]]
+| Patrulha da Noite
+| [[Guardiões da Noite]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". Sor [[Rodrik Cassel]]: ''"Os soldados chegaram das colinas. Capturaram um desertor dos '''Guardiões da Noite'''."''</ref><br>[[Guarda da Noite]]
+|-
+| '''Old Gods of the Forest'''
+| [[Deuses Antigos da Floresta]]<ref name="AGDT 53">''[[A Guerra dos Tronos]]'', Capítulo 53. Bran VI.</ref><br>[[Antigos Deuses da Floresta|Antigos deuses]]<ref name="ATDE 43">''[[A Tormenta de Espadas]]'', Capítulo 43. Arya VIII.</ref><br>[[Velhos Deuses da Floresta|Velhos deuses]]<ref name="ATDE 13">''[[A Tormenta de Espadas]]'', Capítulo 13. Arya II.</ref>
+| ???
+| ???
+|-
+| '''Red Keep'''
+| [[Fortaleza Vermelha]]
+| Fortaleza Vermelha
+| [[Red Keep]]
+|-
+| '''Tower of the Hand'''
+| [[Torre da Mão]]<ref name="AGDT 32">''[[A Guerra dos Tronos]]'', Capítulo 32. Arya III.</ref>
+| Torre da Mão<ref name="AGDT 32/>
+| [[Torre do Conselheiro]]<ref>''[[Game of Thrones]]'' - [[Quarta Temporada (Game of Thrones)|Quarta Temporada]], Episódio 02 "[[The Lion and the Rose]]". [[Tywin Lannister|Tywin]]: ''"Leve-a para a '''Torre do Conselheiro''' antes do casamento."''</ref>
+|-
+| '''White Walkers'''
+| [[Caminhantes Brancos]]
+| Caminhantes Brancos
+| [[Vagantes Brancos]]<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Will]]: ''"Sei que quebrei meu juramento, e sei que sou um desertor. Eu devia ter voltado pra Muralha e avisado eles mas... eu sei o que eu vi. Vi os '''Vagantes Brancos'''."''</ref>
+|}
+</center>
+
+===Lemas de Casas===
+<center>
+{| class="wikitable" cellpadding="4" cellspacing="0"
+! Termo original<br>(A até Z) !! Editora Suma<br>(correto) !! Editora LeYa !! Dublagem
+|-
+| '''Unbowed, Unbent, Unbroken'''<br>[[Casa Martell]]
+| Insubmissos, Imbatíveis, Inquebráveis<ref name="Apêndice Suma 2">''[[A Fúria dos Reis]]'' - Apêndice. Editora Suma (2019)</ref>
+| Insubmissos, Não Curvados, Não Quebrados<ref name="Apêndice LeYA 2">''[[A Fúria dos Reis]]'' - Apêndice. Editora LeYa (2011)</ref>
+| Desatado, Livre e Intacto<ref>''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 05 "[[The Wolf and the Lion]]". [[Brandon I Stark|Bran Stark]]: "'''Desatado, Livre e Intacto.'''"</ref>
+|}
+</center>
+
+===Títulos===
+<center>
+{| class="wikitable" cellpadding="4" cellspacing="0"
+! Termo original<br>(A até Z) !! Editora Suma<br>(correto) !! Editora LeYa !! Dublagem
+|-
+| '''First of His Name'''
+| Primeiro de Seu Nome<ref name="AGDT 1"/>
+| Primeiro de Seu Nome<ref name="AGDT 1"/>
+| Primeiro de Sua Linhagem<ref name="Eddard Sentença"/><ref name="Illyrio">''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Illyrio Mopatis]]: "Quero apresentar meus honrados hóspedes, Viserys, da [[Casa Targaryen]], o '''Terceiro de Sua Linhagem''', o legítimo '''Rei de Andals e dos Primeiros Homens'''..."</ref>
+|-
+| '''King of the Andals and the First Men'''
+| [[Rei dos Ândalos, dos Roinares e dos Primeiros Homens]]<ref name="AGDT 1" />
+| Rei dos Ândalos, dos Roinares e dos Primeiros Homens<ref name="AGDT 1"/>
+| [[Rei dos Andals e dos Primeiros Homens]]<ref name="Eddard Sentença">''[[Game of Thrones]]'' - [[Primeira Temporada (Game of Thrones)|Primeira Temporada]], Episódio 01 "[[Winter Is Coming]]". [[Eddard Stark]]: "Em nome de Robert, da [[Casa Baratheon]], o '''Primeiro de Sua Linhagem''', '''Rei dos Andals e dos Primeiros Homens''', '''Senhor dos Sete Reinos''' e '''Protetor do Império''', eu, Eddard, da [[Casa Stark]], '''Lorde de Winterfell''' e '''Guardião do Norte''', o condeno a morte."</ref><br>[[Rei de Andals e dos Primeiros Homens]]<ref name="Illyrio"/>
+|-
+| '''Protector of the Realm'''
+| [[Protetor do Território]]<ref name="AGDT 1"/>
+| Protetor do Território<ref name="AGDT 1"/>
+| [[Protetor do Império]]<ref name="Eddard Sentença"/>
+|}
+</center>
+
+==Títulos de séries==
+Em 2022, em preparação para o lançamento de ''[[House of the Dragon|Game of Thrones: House of the Dragon]]'', a HBO Max Brasil optou por traduzir tanto ''[[Game of Thrones]]'', quanto ''House of the Dragon'' no título desta última, se tornando ''A Guerra dos Tronos: A Casa do Dragão'' o título completo da série. Vale-se observar que a própria série ''Game of Thrones'' não recebeu tradução direta no título mesmo após a tradução em ''House of the Dragon'', nem durante sua transmissão no Brasil de 2011 a 2019 (em Portugal no entanto, ela já era traduzida como ''A Guerra dos Tronos'' desde 2011). A ''Game of Thrones'' Wiki opta por não traduzir títulos de séries, filmes e jogos, de forma semelhante como a Wikipédia brasileira faz com algumas dessas mídias em seus artigos (deixando o título original e adicionado tanto na infobox, quanto na introdução, os nomes traduzidos em português brasileiro e europeu, veja o exemplo [[wikipedia:pt:The Dark Knight|aqui]]). Dessa forma, deve-se manter o título original do artigo, "[[Game of Thrones]]" por exemplo, e criar redirecionamentos para os títulos traduzidos em português brasileiro e europeu, nesse exemplo, "[[A Guerra dos Tronos (série)]]".
+
+Os livros de George R.R. Martin, por conterem tradução fixa tanto em português brasileiro, quanto europeu, podem ter os títulos em português (priorizando o brasileiro, mas usando o europeu em necessidade) caso haja um. Se não houver, deve-se usar o título original. De qualquer maneira, um redirecionamento é necessário com o título original e com o título em português europeu. Por exemplo, "[[A Guerra dos Tronos]]" (livro) recebe os redirecionamentos "[[A Game of Thrones]]" e "[[A Muralha de Gelo]]" (segundo volume do livro em Portugal).
+<center>
+{| class="wikitable" cellpadding="4" cellspacing="0"
+! Título original<br>(A até Z) !! Português brasileiro<br>(2011-2021) !! Português brasileiro<br>(2022) !! Português europeu
+|-
+| ''[[Game of Thrones]]''
+| ''[[Game of Thrones]]''
+| ''[[A Guerra dos Tronos (série)|A Guerra dos Tronos]]''<ref name="ACDD">[https://www.youtube.com/watch?v=XjEe-P9tHuk A Casa do Dragão - Teaser Trailer - HBO Max (YouTube)]</ref>
+| ''[[A Guerra dos Tronos (série)|A Guerra dos Tronos]]''
+|-
+| ''[[House of the Dragon]]''
+| ''[[House of the Dragon]]''<ref>[https://www.youtube.com/watch?v=JH45HA1Ekqg&t=1s House Of The Dragon - Teaser Oficial - HBO Brasil (YouTube)]</ref>
+| ''[[A Casa do Dragão]]''<ref name="ACDD"/>
+| ----
+|}
+</center>
+
+==Notas e referências==
+{{Reflist}}
+
+[[categoria:Política]]

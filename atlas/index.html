@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O Mundo Conhecido — Atlas (piloto local)</title>
+  <meta name="description" content="Piloto local de atlas naveg&aacute;vel do mapa O Mundo Conhecido: localidades com calibra&ccedil;&atilde;o manual em revis&atilde;o e trajetos aproximados." />
+  <link rel="stylesheet" href="../assets/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="assets/atlas.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-texto">
+      <h1>O Mundo Conhecido</h1>
+      <p class="badges">
+        <span class="badge badge-piloto">Piloto local</span>
+        <span class="badge badge-previa" id="badge-estado">Pr&eacute;via de navega&ccedil;&atilde;o</span>
+      </p>
+    </div>
+    <nav class="topo-links" aria-label="Navega&ccedil;&atilde;o principal">
+      <a class="botao" href="../">Mapa principal</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <div class="aviso" id="aviso" role="note">
+      <strong>Estado do piloto:</strong>
+      <span id="aviso-texto">Pr&eacute;via leve. Carregue os tiles para ver os
+      detalhes. Marca&ccedil;&otilde;es e trajetos em revis&atilde;o.</span>
+    </div>
+
+    <div class="layout">
+      <div class="col-mapa">
+        <div class="barra-controles" role="toolbar" aria-label="Controles do mapa">
+          <button type="button" id="btn-tela-cheia" class="botao">Tela cheia</button>
+          <button type="button" id="btn-ajuda" class="botao" aria-expanded="false" aria-controls="painel-ajuda">Ajuda</button>
+          <button type="button" id="btn-tiles" class="botao botao-secundario">Carregar tiles</button>
+          <button type="button" id="btn-link" class="botao">Copiar link</button>
+          <button type="button" id="btn-reset" class="botao">Reiniciar piloto</button>
+        </div>
+        <input type="text" id="link-saida" class="link-saida" hidden readonly
+        aria-label="Link do estado atual" />
+
+        <p id="mapa-status" class="status" role="status" aria-live="polite"></p>
+
+        <div id="mapa-quadro" class="mapa-quadro">
+          <div id="mapa" class="mapa" aria-label="Mapa O Mundo Conhecido, pr&eacute;via naveg&aacute;vel"></div>
+
+          <aside id="lateral" class="painel lateral" aria-label="Painel do atlas">
+            <div class="lateral-topo">
+              <h2 class="lateral-titulo">Explorar Atlas</h2>
+              <button type="button" id="btn-painel" class="botao"
+              aria-expanded="true" aria-controls="lateral-corpo">Recolher painel</button>
+            </div>
+            <div id="lateral-corpo" class="lateral-corpo">
+              <p id="localidades-nota" class="painel-nota">Refer&ecirc;ncias calibradas
+              manualmente e personagens com registros parciais &mdash; em
+              revis&atilde;o, n&atilde;o s&atilde;o rotas confirmadas.</p>
+              <p id="localidades-status" class="status" role="status" aria-live="polite"></p>
+
+              <details class="sec" id="sec-localidades" open>
+                <summary>Localidades</summary>
+                <div class="loc-controles">
+                  <label class="loc-toggle"><input type="checkbox" id="loc-mostrar" checked />
+                  Mostrar localidades</label>
+                  <label class="loc-toggle"><input type="checkbox" id="loc-rotulos" />
+                  R&oacute;tulos</label>
+                </div>
+                <div class="loc-controles">
+                  <input type="search" id="loc-busca" placeholder="Buscar localidade&hellip;"
+                  aria-label="Buscar localidade" />
+                  <select id="filtro-regiao" aria-label="Filtrar por regi&atilde;o"></select>
+                </div>
+                <div class="loc-controles">
+                  <select id="filtro-tipo" aria-label="Filtrar por tipo">
+                    <option value="todas">Todos os tipos</option>
+                    <option value="castle">Castelos</option>
+                    <option value="city">Cidades</option>
+                    <option value="village">Vilarejos</option>
+                    <option value="ruin">Ru&iacute;nas</option>
+                    <option value="settlement">Localidades</option>
+                    <option value="sem-identificacao">S&iacute;mbolos sem identifica&ccedil;&atilde;o</option>
+                  </select>
+                  <label class="loc-toggle"><input type="checkbox" id="loc-identificados" />
+                  Somente identificados</label>
+                </div>
+                <p id="loc-contagem" class="loc-contagem"></p>
+                <ul id="loc-lista" class="loc-lista"></ul>
+              </details>
+
+              <details class="sec" id="sec-personagens" open>
+                <summary>Personagens e trajetos</summary>
+                <p class="sel-linha"><span id="sel-count">Nenhum selecionado</span>
+                <button type="button" id="btn-limpar-sel" class="botao" disabled>Limpar sele&ccedil;&atilde;o</button>
+                <button type="button" id="btn-focus-pers" class="botao" disabled>Focar posi&ccedil;&otilde;es</button></p>
+                <div id="lista-personagens" class="pers-lista" role="group"
+                aria-label="Personagens"></div>
+
+                <div class="loc-trajeto">
+                  <p id="trajeto-nota" class="painel-nota"></p>
+                  <select id="livro-select" aria-label="Livro" hidden></select>
+                  <p id="livro-nota" class="painel-nota" hidden></p>
+                  <div class="cap-linha">
+                    <button type="button" id="cap-ant" class="botao">&#8249; Anterior</button>
+                    <input type="range" id="cap-slider" min="0" max="72" step="1" value="0"
+                    aria-label="Cap&iacute;tulo" />
+                    <button type="button" id="cap-prox" class="botao">Pr&oacute;ximo &#8250;</button>
+                  </div>
+                  <select id="cap-select" aria-label="Ir para cap&iacute;tulo"></select>
+                  <p id="cap-titulo" class="cap-titulo">&mdash;</p>
+                  <label class="loc-toggle"><input type="checkbox" id="cap-somente" />
+                  Somente posi&ccedil;&otilde;es atuais</label>
+                  <div class="trajeto-acoes">
+                    <button type="button" id="btn-ver-percurso" class="botao" disabled>Ver percurso</button>
+                    <button type="button" id="btn-livro-completo" class="botao" disabled>Ver livro completo (spoilers)</button>
+                  </div>
+                  <p id="trajeto-spoiler" class="painel-nota">&quot;Ver livro
+                  completo&quot; revela os trajetos at&eacute; o fim do livro
+                  selecionado &mdash; spoiler expl&iacute;cito.</p>
+                  <div id="status-personagens" class="pers-status-lista"></div>
+                  <ol id="roteiro-personagens" class="roteiro"></ol>
+                  <p id="cap-nota" class="painel-nota" role="status" aria-live="polite"></p>
+                </div>
+              </details>
+
+              <details class="sec" id="sec-fontes">
+                <summary>Fontes e limites (pode conter spoilers)</summary>
+                <div id="fontes-lista" class="fontes"></div>
+                <div id="fontes-evidencias" class="fontes-evidencias"></div>
+              </details>
+            </div>
+          </aside>
+        </div>
+
+        <div id="mapa-erro" class="erro" hidden>
+          <strong>N&atilde;o foi poss&iacute;vel carregar a imagem de pr&eacute;via.</strong>
+          Verifique se o arquivo
+          <code>atlas/assets/o-mundo-conhecido-recorte-v1-preview.webp</code>
+          existe e se o servidor est&aacute; servindo a raiz do projeto.
+        </div>
+
+        <section id="painel-ajuda" class="painel" hidden>
+          <h2>Sobre este piloto</h2>
+          <ul>
+            <li><strong>Zoom:</strong> use os bot&otilde;es + e &minus; do mapa, a roda do
+            mouse ou dois dedos na tela de toque. A imagem inicia preenchendo
+            o quadro; afaste o zoom ou arraste para ve-la inteira.</li>
+            <li><strong>Painel:</strong> o quadro "Explorar Atlas" flutua sobre o
+            mapa; recolha-o pelo bot&atilde;o para ver a imagem inteira.</li>
+            <li><strong>Tela cheia:</strong> quando o navegador n&atilde;o suporta o modo,
+            um aviso &eacute; mostrado em vez de falhar.</li>
+            <li><strong>Imagem:</strong> c&oacute;pia reduzida usada apenas para
+            an&aacute;lise; n&atilde;o &eacute; o arquivo mestre. Os nomes vis&iacute;veis
+            fazem parte do pr&oacute;prio mapa escaneado.</li>
+            <li><strong>Tiles nativos:</strong> quando o manifesto
+            <code>data/mapa.json</code> existir e estiver validado, o bot&atilde;o
+            "Carregar tiles" ativa a camada de resolu&ccedil;&atilde;o completa. At&eacute;
+            l&aacute;, nada externo &eacute; baixado.</li>
+            <li><strong>Trajetos:</strong> linhas tracejadas aproximadas transferidas
+            de registros parciais; n&atilde;o h&aacute; infer&ecirc;ncia em lacunas e
+            nada &eacute; rota confirmada. Percurso acumulado at&eacute; o
+            cap&iacute;tulo escolhido. Linha = corredor aproximado;
+            n&atilde;o &eacute; posi&ccedil;&atilde;o em tempo real. Com mais de
+            um livro, o seletor de livro delimita os cap&iacute;tulos
+            naveg&aacute;veis; a ordem de leitura segue a publica&ccedil;&atilde;o
+            (&quot;O Festim dos Corvos&quot; antes de &quot;A Dan&ccedil;a dos
+            Drag&otilde;es&quot;).</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <noscript>
+      <p class="erro">Este piloto precisa de JavaScript para exibir o mapa
+      naveg&aacute;vel.</p>
+    </noscript>
+  </main>
+
+  <footer class="rodape">
+    <a href="../">Voltar ao portal</a>
+    <span aria-hidden="true"> &middot; </span>
+    <span>Atlas local, sem rede externa.</span>
+  </footer>
+
+  <script src="../assets/vendor/leaflet/leaflet.js"></script>
+  <script src="../assets/js/core.js"></script>
+  <script src="assets/overlays.js"></script>
+  <script src="assets/atlas.js"></script>
+</body>
+</html>

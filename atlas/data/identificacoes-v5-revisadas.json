@@ -1,0 +1,79 @@
+{
+  "revision": "nomes-v5",
+  "baseDatasetSha256": "1ce80c8a9024709381d4ca4b8cc352925453b01b6e8f81fe2e552e7a036b334b",
+  "policy": "Lead-reviewed symbols, coastlines, roads, rivers and neighboring features. Registration only located inspection windows. Portuguese dictionary variants are not literary certification. Descriptions and collective Five Forts labels are not invented individual proper names.",
+  "referenceMaps": [
+    {"id":"ocidente","file":"mapas/jpeg/O Ocidente.jpg","sha256":"4d5dfa437e8b63a706f7311d78d71d915cc8baebfa2612c4f9d1b6dbb9f34619"},
+    {"id":"oriente","file":"mapas/jpeg/O Oriente.jpg","sha256":"8372aa4de7c53f13f88589c455c8bc51319f1e1a67b13a79debcb3c99ec808d5"},
+    {"id":"essos-central","file":"mapas/jpeg/Essos Central.jpg","sha256":"22cc0a40a95b5a5ad68d001f5cef4ed09bb69a02d675e6b05a164f7f467b2aae"}
+  ],
+  "properIdentifications": [
+    {"id":"scan-site-v4-293","key":"Longtable"},
+    {"id":"scan-site-v4-299","key":"Cider_Hall","label":"Solar da Sidra"},
+    {"id":"scan-site-v4-300","key":"Griffin%27s_Roost","coordinateCorrection":[4806,8216],"proofImage":"nomes-v5-grifo-nativo.png","reason":"The old center was on a mountain. The actual coastal castle immediately east is matched to Poleiro do Grifo by the bay and neighboring heights."},
+    {"id":"scan-site-v4-328","key":"Rain_House"},
+    {"id":"scan-site-v4-375","key":"Blackhaven"},
+    {"id":"scan-site-v4-384","key":"Bandallon"},
+    {"id":"scan-site-v4-393","key":"Greenstone"},
+    {"id":"scan-site-v4-396","key":"Wyl","label":"Wyl","english":"Wyl"},
+    {"id":"scan-site-v4-412","key":"Weeping_Tower"},
+    {"id":"scan-site-v4-414","key":"Tower_of_Joy"},
+    {"id":"scan-site-v4-439","key":"Honeyholt"},
+    {"id":"scan-site-v4-456","key":"Kingsgrave"},
+    {"id":"scan-site-v4-475","key":"Ghaston_Grey","label":"Ghaston Grey"},
+    {"id":"scan-site-v4-492","key":"Skyreach"},
+    {"id":"scan-site-v4-496","key":"Blackcrown"},
+    {"id":"scan-site-v4-511","key":"High_Hermitage"},
+    {"id":"scan-site-v4-528","key":"Three_Towers"},
+    {"id":"scan-site-v4-549","key":"Starfall"},
+    {"id":"scan-site-v4-580","key":"Godsgrace","label":"Gra\u00e7a dos Deuses"},
+    {"id":"scan-site-v4-587","key":"Water_Gardens"},
+    {"id":"scan-site-v4-602","key":"Hellholt"},
+    {"id":"scan-site-v4-608","key":"Sunhouse","label":"Casasolar","english":"Sunhouse"},
+    {"id":"scan-v4-white-tree-glyph","key":"White_Tree","label":"Brancarbor","english":"White Tree"},
+    {"id":"scan-v4-cape-castle","key":"Oldcastle","aliases":["Castelo Velho"]},
+    {"id":"scan-v4-summerhall-glyph","key":"Summerhall"},
+    {"id":"scan-v4-dorne-3988-9056","key":"Yronwood"},
+    {"id":"scan-v4-dorne-4574-9180","key":"Tor"},
+    {"id":"scan-v4-dorne-5170-9180","key":"Ghost_Hill","aliases":["Colina Fantasma"]},
+    {"id":"scan-v4-dorne-4264-9470","key":"Vaith"},
+    {"id":"scan-site-v4-368","key":"Samyriana","label":"Samyriana","english":"Samyriana"},
+    {"id":"scan-site-v4-771","key":"Valyria"}
+  ],
+  "geographicDescriptions": [
+    {"id":"scan-site-2870-2880","label":"Castelo na Ilha dos Ursos","english":"Castle on Bear Island","context":"Ilha dos Ursos"},
+    {"id":"scan-site-1990-9564","label":"Vilarejo na costa nordeste do Arbor","english":"Village on the northeastern Arbor coast","context":"Arbor"},
+    {"id":"scan-site-2058-9636","label":"Vilarejo na costa sudeste do Arbor","english":"Village on the southeastern Arbor coast","context":"Arbor"},
+    {"id":"scan-site-v4-606","label":"Castelo do Arbor","english":"Castle on the Arbor","context":"Arbor; o nome e da ilha, nao do edificio"},
+    {"id":"scan-site-v4-550","label":"Ru\u00ednas na Estrada do Dem\u00f4nio","english":"Ruins on the Demon Road","context":"Estrada do Demonio, a oeste de Mantarys"},
+    {"id":"scan-site-v4-592","label":"Cidade costeira a leste de Volantis","english":"Coastal city east of Volantis","context":"Estrada do Demonio; costa a leste de Volantis"},
+    {"id":"scan-site-v4-649","label":"Ru\u00ednas na ilha ao sul de Volantis","english":"Ruins on the island south of Volantis","context":"Ilhota ao sul de Volantis"},
+    {"id":"scan-site-v4-698","label":"Ru\u00ednas no noroeste de Val\u00edria","english":"Ruins in northwestern Valyria","context":"Peninsula valiriana; noroeste da antiga capital"},
+    {"id":"scan-site-v4-699","label":"Ru\u00ednas a oeste da Ilha de Cedros","english":"Ruins west of the Isle of Cedars","context":"Ilhota a oeste da Ilha de Cedros; nao e Ghozai nem Velos"},
+    {"id":"scan-site-v4-741","label":"Vilarejo na costa noroeste de Qal","english":"Village on the northwestern Qal coast","context":"Ilha Qal, costa noroeste"},
+    {"id":"scan-site-v4-747","label":"Vilarejo na costa sudeste de Qal","english":"Village on the southeastern Qal coast","context":"Ilha Qal, costa sudeste"},
+    {"id":"scan-site-v4-754","label":"Ru\u00ednas na costa oeste de Val\u00edria","english":"Ruins on the western Valyrian coast","context":"Costa oeste da peninsula valiriana; nao e Tyria"},
+    {"id":"scan-site-v4-766","label":"Ru\u00ednas na costa leste de Val\u00edria","english":"Ruins on the eastern Valyrian coast","context":"Costa leste da peninsula valiriana"},
+    {"id":"scan-site-v4-794","label":"Ru\u00ednas no sul de Val\u00edria","english":"Ruins in southern Valyria","context":"Sul da peninsula valiriana; nao e a capital nomeada"},
+    {"id":"scan-site-v4-799","label":"Vilarejo no noroeste de Walano","english":"Village in northwestern Walano","context":"Ilha Walano, extremo noroeste"},
+    {"id":"scan-site-v4-828","label":"Vilarejo no sudeste de Walano","english":"Village in southeastern Walano","context":"Ilha Walano, setor sudeste; nao e Porto de Lotus"},
+    {"id":"scan-site-v4-838","label":"Ru\u00ednas no noroeste de Ulthos","english":"Ruins in northwestern Ulthos","context":"Ulthos, costa noroeste"},
+    {"id":"scan-site-v4-855","label":"Vilarejo na foz do Rio Doce","english":"Village at the Sweet River mouth","context":"Foz do Rio Doce, Ilhas do Verao"}
+  ],
+  "fiveForts": {
+    "policy":"Cinco Fortes is the printed name of the group. Directional suffixes are editorial location descriptions, not individual canonical names or official numbers.",
+    "proofImage":"nomes-v5-cinco-fortes-nativo.png",
+    "members":[
+      {"id":"scan-site-v4-470","label":"Cinco Fortes - noroeste","english":"Five Forts - northwest"},
+      {"id":"scan-site-v4-494","label":"Cinco Fortes - centro-noroeste","english":"Five Forts - central northwest"},
+      {"id":"Five_Forts_Central","label":"Cinco Fortes - central","english":"Five Forts - central","newPoint":[19586,9116]},
+      {"id":"scan-site-v4-521","label":"Cinco Fortes - centro-sudeste","english":"Five Forts - central southeast"},
+      {"id":"scan-site-v4-531","label":"Cinco Fortes - sudeste","english":"Five Forts - southeast"}
+    ]
+  },
+  "rejectedNonSymbols":[
+    {"id":"scan-site-v4-306","reason":"Mountain slope and shading southwest of the actual Griffin's Roost castle, not a ruin glyph.","proofImage":"nomes-v5-grifo-nativo.png"},
+    {"id":"scan-site-v4-478","reason":"Mountain peak north of the Dornish coast, not a castle. O Ocidente locates Yronwood at the separately preserved point3988,9056.","proofImage":"nomes-v5-ocidente-12.png"},
+    {"id":"scan-site-v4-413","reason":"Terrain shading beside the Dry Deep/Planalto da Seca near the map edge, no castle glyph.","proofImage":"nomes-v5-outros-00.png"}
+  ]
+}

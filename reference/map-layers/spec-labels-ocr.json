@@ -1,0 +1,1174 @@
+{
+ "source": "reference/map-layers/spec_labels.png",
+ "imageSize": 4642,
+ "quadrants": [
+  {
+   "name": "NW",
+   "ox": 0,
+   "oy": 0,
+   "w": 2385,
+   "h": 2385,
+   "blockCount": 13
+  },
+  {
+   "name": "NE",
+   "ox": 2257,
+   "oy": 0,
+   "w": 2385,
+   "h": 2385,
+   "blockCount": 1
+  },
+  {
+   "name": "SW",
+   "ox": 0,
+   "oy": 2257,
+   "w": 2385,
+   "h": 2385,
+   "blockCount": 5
+  },
+  {
+   "name": "SE",
+   "ox": 2257,
+   "oy": 2257,
+   "w": 2385,
+   "h": 2385,
+   "blockCount": 5
+  }
+ ],
+ "words": [
+  {
+   "text": "Hale's",
+   "confidence": 25,
+   "quad": "NW",
+   "x0": 903,
+   "y0": 769,
+   "x1": 945,
+   "y1": 795
+  },
+  {
+   "text": "Toro.",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 950,
+   "y0": 769,
+   "x1": 984,
+   "y1": 795
+  },
+  {
+   "text": "Croley",
+   "confidence": 8,
+   "quad": "NW",
+   "x0": 610,
+   "y0": 1138,
+   "x1": 657,
+   "y1": 1169
+  },
+  {
+   "text": "Vile",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 666,
+   "y0": 1138,
+   "x1": 719,
+   "y1": 1169
+  },
+  {
+   "text": "Hold",
+   "confidence": 5,
+   "quad": "NW",
+   "x0": 744,
+   "y0": 1138,
+   "x1": 794,
+   "y1": 1169
+  },
+  {
+   "text": "Nos",
+   "confidence": 14,
+   "quad": "NW",
+   "x0": 259,
+   "y0": 1879,
+   "x1": 422,
+   "y1": 1899
+  },
+  {
+   "text": "B80",
+   "confidence": 33,
+   "quad": "NW",
+   "x0": 308,
+   "y0": 1875,
+   "x1": 332,
+   "y1": 1909
+  },
+  {
+   "text": "Gooiresher",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 348,
+   "y0": 1879,
+   "x1": 422,
+   "y1": 1899
+  },
+  {
+   "text": "Mus",
+   "confidence": 46,
+   "quad": "NW",
+   "x0": 454,
+   "y0": 1994,
+   "x1": 497,
+   "y1": 2028
+  },
+  {
+   "text": "Dec",
+   "confidence": 16,
+   "quad": "NW",
+   "x0": 505,
+   "y0": 1994,
+   "x1": 530,
+   "y1": 2028
+  },
+  {
+   "text": "-",
+   "confidence": 39,
+   "quad": "NW",
+   "x0": 694,
+   "y0": 2013,
+   "x1": 708,
+   "y1": 2024
+  },
+  {
+   "text": "Pendrie",
+   "confidence": 23,
+   "quad": "NW",
+   "x0": 435,
+   "y0": 2036,
+   "x1": 480,
+   "y1": 2064
+  },
+  {
+   "text": "Hills",
+   "confidence": 80,
+   "quad": "NW",
+   "x0": 488,
+   "y0": 2036,
+   "x1": 517,
+   "y1": 2064
+  },
+  {
+   "text": "7%",
+   "confidence": 24,
+   "quad": "NW",
+   "x0": 712,
+   "y0": 2043,
+   "x1": 772,
+   "y1": 2067
+  },
+  {
+   "text": "Werder’",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 574,
+   "y0": 2130,
+   "x1": 730,
+   "y1": 2144
+  },
+  {
+   "text": "Ford",
+   "confidence": 48,
+   "quad": "NW",
+   "x0": 706,
+   "y0": 2126,
+   "x1": 733,
+   "y1": 2152
+  },
+  {
+   "text": "Tow",
+   "confidence": 3,
+   "quad": "NW",
+   "x0": 577,
+   "y0": 2143,
+   "x1": 611,
+   "y1": 2172
+  },
+  {
+   "text": "hover",
+   "confidence": 57,
+   "quad": "NW",
+   "x0": 630,
+   "y0": 2147,
+   "x1": 714,
+   "y1": 2167
+  },
+  {
+   "text": "Sept",
+   "confidence": 48,
+   "quad": "NW",
+   "x0": 688,
+   "y0": 2143,
+   "x1": 718,
+   "y1": 2172
+  },
+  {
+   "text": "bey",
+   "confidence": 40,
+   "quad": "NW",
+   "x0": 875,
+   "y0": 2170,
+   "x1": 897,
+   "y1": 2202
+  },
+  {
+   "text": "bem",
+   "confidence": 61,
+   "quad": "NW",
+   "x0": 901,
+   "y0": 2170,
+   "x1": 920,
+   "y1": 2202
+  },
+  {
+   "text": "Brindlowood",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 852,
+   "y0": 2212,
+   "x1": 927,
+   "y1": 2242
+  },
+  {
+   "text": "od",
+   "confidence": 10,
+   "quad": "NW",
+   "x0": 944,
+   "y0": 2212,
+   "x1": 1011,
+   "y1": 2242
+  },
+  {
+   "text": "Turback",
+   "confidence": 32,
+   "quad": "NW",
+   "x0": 268,
+   "y0": 2289,
+   "x1": 316,
+   "y1": 2315
+  },
+  {
+   "text": "Hall",
+   "confidence": 89,
+   "quad": "NW",
+   "x0": 322,
+   "y0": 2289,
+   "x1": 346,
+   "y1": 2315
+  },
+  {
+   "text": "Clagane",
+   "confidence": 31,
+   "quad": "NW",
+   "x0": 419,
+   "y0": 2269,
+   "x1": 464,
+   "y1": 2297
+  },
+  {
+   "text": "Hall",
+   "confidence": 75,
+   "quad": "NW",
+   "x0": 470,
+   "y0": 2269,
+   "x1": 496,
+   "y1": 2297
+  },
+  {
+   "text": "Port",
+   "confidence": 85,
+   "quad": "NE",
+   "x0": 2432,
+   "y0": 780,
+   "x1": 2509,
+   "y1": 794
+  },
+  {
+   "text": "of",
+   "confidence": 91,
+   "quad": "NE",
+   "x0": 2463,
+   "y0": 775,
+   "x1": 2475,
+   "y1": 803
+  },
+  {
+   "text": "lhben",
+   "confidence": 0,
+   "quad": "NE",
+   "x0": 2479,
+   "y0": 780,
+   "x1": 2509,
+   "y1": 794
+  },
+  {
+   "text": "Clagane",
+   "confidence": 31,
+   "quad": "SW",
+   "x0": 419,
+   "y0": 2269,
+   "x1": 464,
+   "y1": 2297
+  },
+  {
+   "text": "Hall",
+   "confidence": 75,
+   "quad": "SW",
+   "x0": 470,
+   "y0": 2269,
+   "x1": 496,
+   "y1": 2297
+  },
+  {
+   "text": "Turback",
+   "confidence": 32,
+   "quad": "SW",
+   "x0": 268,
+   "y0": 2289,
+   "x1": 316,
+   "y1": 2315
+  },
+  {
+   "text": "Hall",
+   "confidence": 89,
+   "quad": "SW",
+   "x0": 322,
+   "y0": 2289,
+   "x1": 346,
+   "y1": 2315
+  },
+  {
+   "text": "Harvest",
+   "confidence": 26,
+   "quad": "SW",
+   "x0": 763,
+   "y0": 2612,
+   "x1": 806,
+   "y1": 2639
+  },
+  {
+   "text": "Hall",
+   "confidence": 94,
+   "quad": "SW",
+   "x0": 814,
+   "y0": 2612,
+   "x1": 838,
+   "y1": 2639
+  },
+  {
+   "text": "“toss",
+   "confidence": 29,
+   "quad": "SW",
+   "x0": 1226,
+   "y0": 2913,
+   "x1": 1260,
+   "y1": 2938
+  },
+  {
+   "text": "Giardia",
+   "confidence": 0,
+   "quad": "SW",
+   "x0": 1269,
+   "y0": 2913,
+   "x1": 1316,
+   "y1": 2938
+  },
+  {
+   "text": "Tall",
+   "confidence": 82,
+   "quad": "SW",
+   "x0": 638,
+   "y0": 3743,
+   "x1": 668,
+   "y1": 3770
+  },
+  {
+   "text": "Trees",
+   "confidence": 70,
+   "quad": "SW",
+   "x0": 674,
+   "y0": 3743,
+   "x1": 706,
+   "y1": 3770
+  },
+  {
+   "text": "Town",
+   "confidence": 82,
+   "quad": "SW",
+   "x0": 712,
+   "y0": 3743,
+   "x1": 749,
+   "y1": 3770
+  },
+  {
+   "text": "Vaes",
+   "confidence": 92,
+   "quad": "SE",
+   "x0": 3121,
+   "y0": 2522,
+   "x1": 3164,
+   "y1": 2554
+  },
+  {
+   "text": "Dothrak",
+   "confidence": 33,
+   "quad": "SE",
+   "x0": 3171,
+   "y0": 2522,
+   "x1": 3244,
+   "y1": 2554
+  },
+  {
+   "text": "Losers",
+   "confidence": 6,
+   "quad": "SE",
+   "x0": 3658,
+   "y0": 2839,
+   "x1": 3721,
+   "y1": 2873
+  },
+  {
+   "text": "Villga",
+   "confidence": 18,
+   "quad": "SE",
+   "x0": 3726,
+   "y0": 2839,
+   "x1": 3766,
+   "y1": 2873
+  },
+  {
+   "text": "Vass",
+   "confidence": 91,
+   "quad": "SE",
+   "x0": 4120,
+   "y0": 3854,
+   "x1": 4155,
+   "y1": 3884
+  },
+  {
+   "text": "Tolorro",
+   "confidence": 82,
+   "quad": "SE",
+   "x0": 4162,
+   "y0": 3854,
+   "x1": 4218,
+   "y1": 3884
+  },
+  {
+   "text": "Dead",
+   "confidence": 44,
+   "quad": "SE",
+   "x0": 4026,
+   "y0": 3889,
+   "x1": 4060,
+   "y1": 3923
+  },
+  {
+   "text": "CO",
+   "confidence": 0,
+   "quad": "SE",
+   "x0": 4068,
+   "y0": 3889,
+   "x1": 4092,
+   "y1": 3923
+  },
+  {
+   "text": "Dead",
+   "confidence": 44,
+   "quad": "SE",
+   "x0": 3898,
+   "y0": 3943,
+   "x1": 3932,
+   "y1": 3977
+  },
+  {
+   "text": "CO",
+   "confidence": 0,
+   "quad": "SE",
+   "x0": 3940,
+   "y0": 3943,
+   "x1": 3964,
+   "y1": 3977
+  }
+ ],
+ "lines": [
+  {
+   "text": "Hale's Toro.\n\n",
+   "confidence": 9,
+   "quad": "NW",
+   "x0": 907,
+   "y0": 773,
+   "x1": 979,
+   "y1": 787,
+   "words": [
+    {
+     "text": "Hale's",
+     "confidence": 25,
+     "x0": 903,
+     "y0": 769,
+     "x1": 945,
+     "y1": 795
+    },
+    {
+     "text": "Toro.",
+     "confidence": 0,
+     "x0": 950,
+     "y0": 769,
+     "x1": 984,
+     "y1": 795
+    }
+   ]
+  },
+  {
+   "text": "Croley Vile Hold\n\n",
+   "confidence": 0,
+   "quad": "NW",
+   "x0": 614,
+   "y0": 1142,
+   "x1": 794,
+   "y1": 1165,
+   "words": [
+    {
+     "text": "Croley",
+     "confidence": 8,
+     "x0": 610,
+     "y0": 1138,
+     "x1": 657,
+     "y1": 1169
+    },
+    {
+     "text": "Vile",
+     "confidence": 0,
+     "x0": 666,
+     "y0": 1138,
+     "x1": 719,
+     "y1": 1169
+    },
+    {
+     "text": "Hold",
+     "confidence": 5,
+     "x0": 744,
+     "y0": 1138,
+     "x1": 794,
+     "y1": 1169
+    }
+   ]
+  },
+  {
+   "text": "Nos B80 Gooiresher\n\n",
+   "confidence": 11,
+   "quad": "NW",
+   "x0": 259,
+   "y0": 1879,
+   "x1": 422,
+   "y1": 1899,
+   "words": [
+    {
+     "text": "Nos",
+     "confidence": 14,
+     "x0": 259,
+     "y0": 1879,
+     "x1": 422,
+     "y1": 1899
+    },
+    {
+     "text": "B80",
+     "confidence": 33,
+     "x0": 308,
+     "y0": 1875,
+     "x1": 332,
+     "y1": 1909
+    },
+    {
+     "text": "Gooiresher",
+     "confidence": 0,
+     "x0": 348,
+     "y0": 1879,
+     "x1": 422,
+     "y1": 1899
+    }
+   ]
+  },
+  {
+   "text": "Mus Dec\n\n",
+   "confidence": 31,
+   "quad": "NW",
+   "x0": 458,
+   "y0": 2005,
+   "x1": 530,
+   "y1": 2021,
+   "words": [
+    {
+     "text": "Mus",
+     "confidence": 46,
+     "x0": 454,
+     "y0": 1994,
+     "x1": 497,
+     "y1": 2028
+    },
+    {
+     "text": "Dec",
+     "confidence": 16,
+     "x0": 505,
+     "y0": 1994,
+     "x1": 530,
+     "y1": 2028
+    }
+   ]
+  },
+  {
+   "text": "-\n\n",
+   "confidence": 39,
+   "quad": "NW",
+   "x0": 694,
+   "y0": 2008,
+   "x1": 735,
+   "y1": 2024,
+   "words": [
+    {
+     "text": "-",
+     "confidence": 39,
+     "x0": 694,
+     "y0": 2013,
+     "x1": 708,
+     "y1": 2024
+    }
+   ]
+  },
+  {
+   "text": "Pendrie Hills\n\n",
+   "confidence": 51,
+   "quad": "NW",
+   "x0": 439,
+   "y0": 2041,
+   "x1": 513,
+   "y1": 2055,
+   "words": [
+    {
+     "text": "Pendrie",
+     "confidence": 23,
+     "x0": 435,
+     "y0": 2036,
+     "x1": 480,
+     "y1": 2064
+    },
+    {
+     "text": "Hills",
+     "confidence": 80,
+     "x0": 488,
+     "y0": 2036,
+     "x1": 517,
+     "y1": 2064
+    }
+   ]
+  },
+  {
+   "text": "7%\n\n",
+   "confidence": 24,
+   "quad": "NW",
+   "x0": 712,
+   "y0": 2043,
+   "x1": 772,
+   "y1": 2067,
+   "words": [
+    {
+     "text": "7%",
+     "confidence": 24,
+     "x0": 712,
+     "y0": 2043,
+     "x1": 772,
+     "y1": 2067
+    }
+   ]
+  },
+  {
+   "text": "Werder’ Ford\n\n",
+   "confidence": 21,
+   "quad": "NW",
+   "x0": 574,
+   "y0": 2130,
+   "x1": 730,
+   "y1": 2144,
+   "words": [
+    {
+     "text": "Werder’",
+     "confidence": 0,
+     "x0": 574,
+     "y0": 2130,
+     "x1": 730,
+     "y1": 2144
+    },
+    {
+     "text": "Ford",
+     "confidence": 48,
+     "x0": 706,
+     "y0": 2126,
+     "x1": 733,
+     "y1": 2152
+    }
+   ]
+  },
+  {
+   "text": "Tow hover Sept\n\n",
+   "confidence": 36,
+   "quad": "NW",
+   "x0": 581,
+   "y0": 2147,
+   "x1": 714,
+   "y1": 2167,
+   "words": [
+    {
+     "text": "Tow",
+     "confidence": 3,
+     "x0": 577,
+     "y0": 2143,
+     "x1": 611,
+     "y1": 2172
+    },
+    {
+     "text": "hover",
+     "confidence": 57,
+     "x0": 630,
+     "y0": 2147,
+     "x1": 714,
+     "y1": 2167
+    },
+    {
+     "text": "Sept",
+     "confidence": 48,
+     "x0": 688,
+     "y0": 2143,
+     "x1": 718,
+     "y1": 2172
+    }
+   ]
+  },
+  {
+   "text": "bey bem\n\n",
+   "confidence": 50,
+   "quad": "NW",
+   "x0": 879,
+   "y0": 2180,
+   "x1": 920,
+   "y1": 2195,
+   "words": [
+    {
+     "text": "bey",
+     "confidence": 40,
+     "x0": 875,
+     "y0": 2170,
+     "x1": 897,
+     "y1": 2202
+    },
+    {
+     "text": "bem",
+     "confidence": 61,
+     "x0": 901,
+     "y0": 2170,
+     "x1": 920,
+     "y1": 2202
+    }
+   ]
+  },
+  {
+   "text": "Brindlowood od\n\n",
+   "confidence": 5,
+   "quad": "NW",
+   "x0": 856,
+   "y0": 2216,
+   "x1": 1011,
+   "y1": 2238,
+   "words": [
+    {
+     "text": "Brindlowood",
+     "confidence": 0,
+     "x0": 852,
+     "y0": 2212,
+     "x1": 927,
+     "y1": 2242
+    },
+    {
+     "text": "od",
+     "confidence": 10,
+     "x0": 944,
+     "y0": 2212,
+     "x1": 1011,
+     "y1": 2242
+    }
+   ]
+  },
+  {
+   "text": "Turback Hall\n\n",
+   "confidence": 61,
+   "quad": "NW",
+   "x0": 272,
+   "y0": 2293,
+   "x1": 343,
+   "y1": 2306,
+   "words": [
+    {
+     "text": "Turback",
+     "confidence": 32,
+     "x0": 268,
+     "y0": 2289,
+     "x1": 316,
+     "y1": 2315
+    },
+    {
+     "text": "Hall",
+     "confidence": 89,
+     "x0": 322,
+     "y0": 2289,
+     "x1": 346,
+     "y1": 2315
+    }
+   ]
+  },
+  {
+   "text": "Clagane Hall\n",
+   "confidence": 53,
+   "quad": "NW",
+   "x0": 423,
+   "y0": 2274,
+   "x1": 492,
+   "y1": 2291,
+   "words": [
+    {
+     "text": "Clagane",
+     "confidence": 31,
+     "x0": 419,
+     "y0": 2269,
+     "x1": 464,
+     "y1": 2297
+    },
+    {
+     "text": "Hall",
+     "confidence": 75,
+     "x0": 470,
+     "y0": 2269,
+     "x1": 496,
+     "y1": 2297
+    }
+   ]
+  },
+  {
+   "text": "Port of lhben\n",
+   "confidence": 56,
+   "quad": "NE",
+   "x0": 2432,
+   "y0": 780,
+   "x1": 2509,
+   "y1": 794,
+   "words": [
+    {
+     "text": "Port",
+     "confidence": 85,
+     "x0": 2432,
+     "y0": 780,
+     "x1": 2509,
+     "y1": 794
+    },
+    {
+     "text": "of",
+     "confidence": 91,
+     "x0": 2463,
+     "y0": 775,
+     "x1": 2475,
+     "y1": 803
+    },
+    {
+     "text": "lhben",
+     "confidence": 0,
+     "x0": 2479,
+     "y0": 780,
+     "x1": 2509,
+     "y1": 794
+    }
+   ]
+  },
+  {
+   "text": "Clagane Hall\n\n",
+   "confidence": 53,
+   "quad": "SW",
+   "x0": 423,
+   "y0": 2274,
+   "x1": 492,
+   "y1": 2291,
+   "words": [
+    {
+     "text": "Clagane",
+     "confidence": 31,
+     "x0": 419,
+     "y0": 2269,
+     "x1": 464,
+     "y1": 2297
+    },
+    {
+     "text": "Hall",
+     "confidence": 75,
+     "x0": 470,
+     "y0": 2269,
+     "x1": 496,
+     "y1": 2297
+    }
+   ]
+  },
+  {
+   "text": "Turback Hall\n\n",
+   "confidence": 61,
+   "quad": "SW",
+   "x0": 272,
+   "y0": 2293,
+   "x1": 343,
+   "y1": 2306,
+   "words": [
+    {
+     "text": "Turback",
+     "confidence": 32,
+     "x0": 268,
+     "y0": 2289,
+     "x1": 316,
+     "y1": 2315
+    },
+    {
+     "text": "Hall",
+     "confidence": 89,
+     "x0": 322,
+     "y0": 2289,
+     "x1": 346,
+     "y1": 2315
+    }
+   ]
+  },
+  {
+   "text": "Harvest Hall\n\n",
+   "confidence": 60,
+   "quad": "SW",
+   "x0": 767,
+   "y0": 2616,
+   "x1": 835,
+   "y1": 2629,
+   "words": [
+    {
+     "text": "Harvest",
+     "confidence": 26,
+     "x0": 763,
+     "y0": 2612,
+     "x1": 806,
+     "y1": 2639
+    },
+    {
+     "text": "Hall",
+     "confidence": 94,
+     "x0": 814,
+     "y0": 2612,
+     "x1": 838,
+     "y1": 2639
+    }
+   ]
+  },
+  {
+   "text": "“toss Giardia\n\n",
+   "confidence": 6,
+   "quad": "SW",
+   "x0": 1230,
+   "y0": 2917,
+   "x1": 1312,
+   "y1": 2930,
+   "words": [
+    {
+     "text": "“toss",
+     "confidence": 29,
+     "x0": 1226,
+     "y0": 2913,
+     "x1": 1260,
+     "y1": 2938
+    },
+    {
+     "text": "Giardia",
+     "confidence": 0,
+     "x0": 1269,
+     "y0": 2913,
+     "x1": 1316,
+     "y1": 2938
+    }
+   ]
+  },
+  {
+   "text": "Tall Trees Town\n",
+   "confidence": 78,
+   "quad": "SW",
+   "x0": 642,
+   "y0": 3747,
+   "x1": 744,
+   "y1": 3761,
+   "words": [
+    {
+     "text": "Tall",
+     "confidence": 82,
+     "x0": 638,
+     "y0": 3743,
+     "x1": 668,
+     "y1": 3770
+    },
+    {
+     "text": "Trees",
+     "confidence": 70,
+     "x0": 674,
+     "y0": 3743,
+     "x1": 706,
+     "y1": 3770
+    },
+    {
+     "text": "Town",
+     "confidence": 82,
+     "x0": 712,
+     "y0": 3743,
+     "x1": 749,
+     "y1": 3770
+    }
+   ]
+  },
+  {
+   "text": "Vaes Dothrak\n\n",
+   "confidence": 62,
+   "quad": "SE",
+   "x0": 3125,
+   "y0": 2526,
+   "x1": 3241,
+   "y1": 2544,
+   "words": [
+    {
+     "text": "Vaes",
+     "confidence": 92,
+     "x0": 3121,
+     "y0": 2522,
+     "x1": 3164,
+     "y1": 2554
+    },
+    {
+     "text": "Dothrak",
+     "confidence": 33,
+     "x0": 3171,
+     "y0": 2522,
+     "x1": 3244,
+     "y1": 2554
+    }
+   ]
+  },
+  {
+   "text": "Losers Villga\n\n",
+   "confidence": 12,
+   "quad": "SE",
+   "x0": 3662,
+   "y0": 2849,
+   "x1": 3763,
+   "y1": 2866,
+   "words": [
+    {
+     "text": "Losers",
+     "confidence": 6,
+     "x0": 3658,
+     "y0": 2839,
+     "x1": 3721,
+     "y1": 2873
+    },
+    {
+     "text": "Villga",
+     "confidence": 18,
+     "x0": 3726,
+     "y0": 2839,
+     "x1": 3766,
+     "y1": 2873
+    }
+   ]
+  },
+  {
+   "text": "Vass Tolorro\n\n",
+   "confidence": 87,
+   "quad": "SE",
+   "x0": 4124,
+   "y0": 3858,
+   "x1": 4214,
+   "y1": 3874,
+   "words": [
+    {
+     "text": "Vass",
+     "confidence": 91,
+     "x0": 4120,
+     "y0": 3854,
+     "x1": 4155,
+     "y1": 3884
+    },
+    {
+     "text": "Tolorro",
+     "confidence": 82,
+     "x0": 4162,
+     "y0": 3854,
+     "x1": 4218,
+     "y1": 3884
+    }
+   ]
+  },
+  {
+   "text": "Dead CO\n\n",
+   "confidence": 13,
+   "quad": "SE",
+   "x0": 4030,
+   "y0": 3899,
+   "x1": 4092,
+   "y1": 3916,
+   "words": [
+    {
+     "text": "Dead",
+     "confidence": 44,
+     "x0": 4026,
+     "y0": 3889,
+     "x1": 4060,
+     "y1": 3923
+    },
+    {
+     "text": "CO",
+     "confidence": 0,
+     "x0": 4068,
+     "y0": 3889,
+     "x1": 4092,
+     "y1": 3923
+    }
+   ]
+  },
+  {
+   "text": "Dead CO\n",
+   "confidence": 13,
+   "quad": "SE",
+   "x0": 3902,
+   "y0": 3953,
+   "x1": 3964,
+   "y1": 3970,
+   "words": [
+    {
+     "text": "Dead",
+     "confidence": 44,
+     "x0": 3898,
+     "y0": 3943,
+     "x1": 3932,
+     "y1": 3977
+    },
+    {
+     "text": "CO",
+     "confidence": 0,
+     "x0": 3940,
+     "y0": 3943,
+     "x1": 3964,
+     "y1": 3977
+    }
+   ]
+  }
+ ],
+ "fullText": "\n===== NW (offset 0,0) =====\nHale's Toro.\n\nCroley Vile Hold\n\nNos B80 Gooiresher\n\nMus Dec\n\n-\n\nPendrie Hills\n\n7%\n\nWerder’ Ford\n\nTow hover Sept\n\nbey bem\n\nBrindlowood od\n\nTurback Hall\n\nClagane Hall\n\n===== NE (offset 2257,0) =====\nPort of lhben\n\n===== SW (offset 0,2257) =====\nClagane Hall\n\nTurback Hall\n\nHarvest Hall\n\n“toss Giardia\n\nTall Trees Town\n\n===== SE (offset 2257,2257) =====\nVaes Dothrak\n\nLosers Villga\n\nVass Tolorro\n\nDead CO\n\nDead CO\n"
+}

@@ -1,0 +1,36 @@
+— verificar-livros-v4 —
+PASS v4: seletor de livro visível
+PASS v4: 5 livros no seletor — n=5
+PASS v4: inicia em AGOT cap 0 — {"cap":0,"min":0,"max":72,"livro":"agot","livroOculto":false,"opcoesCap":73,"capPrim":0,"capUlt":72,"antOff":true,"proxOff":false}
+PASS v4: slider limitado a AGOT — min=0 max=72
+PASS v4: dropdown só capítulos de AGOT — n=73 0..72
+PASS v4: 'Anterior' desabilitado no início do livro
+PASS v4: nota de ordem de leitura presente
+PASS ACOK: salta para o primeiro capítulo (73) — cap=73
+PASS ACOK: slider 73..142 — min=73 max=142
+PASS ACOK: dropdown tem 70 opções globais 73..142 — n=70
+PASS ACOK: 'Anterior' travado no início
+PASS ACOK: reescolher o mesmo livro não move o capítulo — cap=100
+PASS ACOK: 'Ver livro completo' para em 142, não 343 — cap=142
+PASS ACOK: 'Próximo' travado no fim do livro
+PASS ACOK: 'Próximo' nunca passa de 142
+PASS storage: persiste cap global (livro derivável) — cap=142
+PASS hash cap=290: ADWD derivado, limites 271..343 — {"cap":290,"min":271,"max":343,"livro":"adwd","livroOculto":false,"opcoesCap":73,"capPrim":271,"capUlt":343,"antOff":false,"proxOff":false}
+PASS hash cap=290: dropdown ADWD 271..343
+PASS popup de trecho abre no cap 290 — Personagem ATrecho ADWDDisponível a partir do cap. 280 · vis
+PASS recuar o capítulo fecha o popup de trecho futuro
+PASS ADWD: 'Ver livro completo' para em 343 — cap=343
+PASS ADWD: 'Próximo' nunca passa de 343
+PASS v4 corrompido: falha fechado — Localidades e trajetos indisponíveis: capítulos não contíguos. O mapa continua n
+PASS v4 corrompido: NUNCA requisita v3/v2/v1
+PASS v4 corrompido: seletor de livro fica oculto
+PASS 404->v3: seletor de livro oculto (sem books[])
+PASS 404->v3: slider legado 0..72 — min=0 max=72
+PASS 404->v3: dropdown com os 73 capítulos
+PASS 404->v3: inventário v3 carregado — 182 referências calibradas manualmente (179 identificadas em
+PASS mobile 390: sem overflow horizontal — overflow=0
+PASS mobile 390: livro-select visível e dentro — {"overflow":0,"selVisivel":true,"selDentro":true}
+PASS mobile 320: sem overflow horizontal — overflow=0
+PASS mobile 320: livro-select visível e dentro — {"overflow":0,"selVisivel":true,"selDentro":true}
+PASS sem pageerrors
+0 falhas — 34 checagens

@@ -1,0 +1,8433 @@
+{
+  "source": "labels",
+  "recipe": "dark-ink-2x-psm11",
+  "lines": [
+    {
+      "text": "T €Lang Of Alay\n\n",
+      "confidence": 56,
+      "quad": "NW",
+      "x0": 145,
+      "y0": 228,
+      "x1": 290,
+      "y1": 271
+    },
+    {
+      "text": "Winta\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 297,
+      "y0": 260,
+      "x1": 339,
+      "y1": 280
+    },
+    {
+      "text": "Thent\n\n",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 631,
+      "y0": 471,
+      "x1": 679,
+      "y1": 492
+    },
+    {
+      "text": "The Shivering Sea\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1017,
+      "y0": 472,
+      "x1": 1307,
+      "y1": 507
+    },
+    {
+      "text": "Yostfang,\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 622,
+      "y0": 559,
+      "x1": 692,
+      "y1": 583
+    },
+    {
+      "text": "Sterrold’s\n\n",
+      "confidence": 41,
+      "quad": "NW",
+      "x0": 1049,
+      "y0": 581,
+      "x1": 1132,
+      "y1": 597
+    },
+    {
+      "text": "Hardhome\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 989,
+      "y0": 600,
+      "x1": 1054,
+      "y1": 613
+    },
+    {
+      "text": "Point\n\n",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 1089,
+      "y0": 602,
+      "x1": 1134,
+      "y1": 616
+    },
+    {
+      "text": "Antler\n\n",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 923,
+      "y0": 623,
+      "x1": 961,
+      "y1": 637
+    },
+    {
+      "text": "oft SG\n\n",
+      "confidence": 21,
+      "quad": "NW",
+      "x0": 650,
+      "y0": 642,
+      "x1": 724.5,
+      "y1": 675
+    },
+    {
+      "text": "Craster's Keep yr —\n\n",
+      "confidence": 37,
+      "quad": "NW",
+      "x0": 839,
+      "y0": 666,
+      "x1": 1030,
+      "y1": 686
+    },
+    {
+      "text": "Skane Skages\n\n",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 1125,
+      "y0": 648,
+      "x1": 1245,
+      "y1": 681
+    },
+    {
+      "text": "{Farm\n\n",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 970,
+      "y0": 691,
+      "x1": 1009,
+      "y1": 704
+    },
+    {
+      "text": "Whitetree\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 711,
+      "x1": 935,
+      "y1": 722
+    },
+    {
+      "text": "Castle Black\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 932,
+      "y0": 730,
+      "x1": 1010,
+      "y1": 744
+    },
+    {
+      "text": "Fastwatch\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1047,
+      "y0": 746,
+      "x1": 1105,
+      "y1": 758
+    },
+    {
+      "text": "e rose 8 bop\n\n",
+      "confidence": 41,
+      "quad": "NW",
+      "x0": 429,
+      "y0": 732,
+      "x1": 536,
+      "y1": 780
+    },
+    {
+      "text": "Shadow? 455 78910 12131415157,\n\n",
+      "confidence": 63,
+      "quad": "NW",
+      "x0": 783,
+      "y0": 747,
+      "x1": 1037,
+      "y1": 782
+    },
+    {
+      "text": "by-the-Sea\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 1045,
+      "y0": 763,
+      "x1": 1105,
+      "y1": 778
+    },
+    {
+      "text": "Tower\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 786,
+      "y0": 778,
+      "x1": 828,
+      "y1": 789
+    },
+    {
+      "text": "Queenscrown\n\n",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 859,
+      "y0": 814,
+      "x1": 937,
+      "y1": 828
+    },
+    {
+      "text": "Bay of lce\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 535,
+      "y0": 812,
+      "x1": 661,
+      "y1": 839
+    },
+    {
+      "text": "Baar Toland\n\n",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 480,
+      "y0": 851,
+      "x1": 569,
+      "y1": 865
+    },
+    {
+      "text": "1bben\n\n",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 2279,
+      "y0": 829,
+      "x1": 2346,
+      "y1": 850
+    },
+    {
+      "text": "Bay of Seals\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 1088,
+      "y0": 870,
+      "x1": 1240,
+      "y1": 897
+    },
+    {
+      "text": "Last Hearth\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 984,
+      "y0": 925,
+      "x1": 1061,
+      "y1": 938
+    },
+    {
+      "text": "Sen Dragon\n\n",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 320,
+      "y0": 941,
+      "x1": 415,
+      "y1": 959
+    },
+    {
+      "text": "4\n\n",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 956,
+      "y0": 979,
+      "x1": 966,
+      "y1": 993
+    },
+    {
+      "text": "“ey,\n\n",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 966,
+      "y0": 987.5,
+      "x1": 1001,
+      "y1": 1020
+    },
+    {
+      "text": "Karhold\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1157,
+      "y0": 1000,
+      "x1": 1206,
+      "y1": 1013
+    },
+    {
+      "text": "I]\n\n",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 1253,
+      "y0": 1002,
+      "x1": 1263,
+      "y1": 1011
+    },
+    {
+      "text": "Deepwaod\n\n",
+      "confidence": 84,
+      "quad": "NW",
+      "x0": 548,
+      "y0": 1020,
+      "x1": 616,
+      "y1": 1036
+    },
+    {
+      "text": "Motte\n\n",
+      "confidence": 72,
+      "quad": "NW",
+      "x0": 545,
+      "y0": 1039,
+      "x1": 583,
+      "y1": 1050
+    },
+    {
+      "text": "“,\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1015,
+      "y0": 1024,
+      "x1": 1037,
+      "y1": 1045
+    },
+    {
+      "text": "The Dreadfort |\n\n",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 953,
+      "y0": 1105,
+      "x1": 1079.5,
+      "y1": 1142
+    },
+    {
+      "text": "Winterfell\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 741,
+      "y0": 1164,
+      "x1": 813,
+      "y1": 1178
+    },
+    {
+      "text": "soe?\n\n",
+      "confidence": 48,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 1164,
+      "x1": 912,
+      "y1": 1182
+    },
+    {
+      "text": "We “5\n\n",
+      "confidence": 28,
+      "quad": "NW",
+      "x0": 936,
+      "y0": 1139,
+      "x1": 1017,
+      "y1": 1178
+    },
+    {
+      "text": "goed\n\n",
+      "confidence": 38,
+      "quad": "NW",
+      "x0": 841,
+      "y0": 1181,
+      "x1": 873,
+      "y1": 1199
+    },
+    {
+      "text": "“\n\n",
+      "confidence": 34,
+      "quad": "NW",
+      "x0": 1016,
+      "y0": 1170,
+      "x1": 1041,
+      "y1": 1194
+    },
+    {
+      "text": "Hisrummad\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 929,
+      "y0": 1224,
+      "x1": 994,
+      "y1": 1238
+    },
+    {
+      "text": "Torrhen\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 591,
+      "y0": 1245,
+      "x1": 642,
+      "y1": 1257
+    },
+    {
+      "text": "Square\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 608,
+      "y0": 1264,
+      "x1": 652,
+      "y1": 1278
+    },
+    {
+      "text": "By rq\n\n",
+      "confidence": 21,
+      "quad": "NW",
+      "x0": 594,
+      "y0": 1336,
+      "x1": 645,
+      "y1": 1365
+    },
+    {
+      "text": "lang,\n\n",
+      "confidence": 75,
+      "quad": "NW",
+      "x0": 661,
+      "y0": 1363,
+      "x1": 707,
+      "y1": 1390
+    },
+    {
+      "text": "Ramsgate\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 996,
+      "y0": 1370,
+      "x1": 1049,
+      "y1": 1386
+    },
+    {
+      "text": "Ni\n\n",
+      "confidence": 51,
+      "quad": "NW",
+      "x0": 391,
+      "y0": 1381,
+      "x1": 410,
+      "y1": 1399
+    },
+    {
+      "text": "&\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 379,
+      "y0": 1397,
+      "x1": 398,
+      "y1": 1414
+    },
+    {
+      "text": "Barrowton\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 572,
+      "y0": 1401,
+      "x1": 644,
+      "y1": 1414
+    },
+    {
+      "text": "White Harbor\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 862,
+      "y0": 1423,
+      "x1": 966,
+      "y1": 1439
+    },
+    {
+      "text": "Widow's Watch\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1171,
+      "y0": 1414,
+      "x1": 1272,
+      "y1": 1428
+    },
+    {
+      "text": "&\n\n",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 355,
+      "y0": 1417,
+      "x1": 381,
+      "y1": 1442
+    },
+    {
+      "text": "Moat Cailin\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 752,
+      "y0": 1484,
+      "x1": 822,
+      "y1": 1497
+    },
+    {
+      "text": "Blazewater\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 281,
+      "y0": 1511,
+      "x1": 407,
+      "y1": 1531
+    },
+    {
+      "text": "Oldcastle\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 878,
+      "y0": 1516,
+      "x1": 933,
+      "y1": 1528
+    },
+    {
+      "text": "Bay\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 324,
+      "y0": 1539,
+      "x1": 364,
+      "y1": 1562
+    },
+    {
+      "text": "The Shivering Sea\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1387,
+      "y0": 1531,
+      "x1": 1677,
+      "y1": 1566
+    },
+    {
+      "text": "Cape\n\n",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 242,
+      "y0": 1553,
+      "x1": 284,
+      "y1": 1572
+    },
+    {
+      "text": "Flint's Finger\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 414,
+      "y0": 1567,
+      "x1": 499,
+      "y1": 1584
+    },
+    {
+      "text": "The Threa Sisters\n\n",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 867,
+      "y0": 1557,
+      "x1": 1015,
+      "y1": 1572
+    },
+    {
+      "text": "Kraken\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 224,
+      "y0": 1571,
+      "x1": 284,
+      "y1": 1587
+    },
+    {
+      "text": "Sweatsister\n\n",
+      "confidence": 7,
+      "quad": "NW",
+      "x0": 832,
+      "y0": 1577,
+      "x1": 924,
+      "y1": 1591
+    },
+    {
+      "text": "Sisterton\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 950,
+      "y0": 1577,
+      "x1": 1010,
+      "y1": 1589
+    },
+    {
+      "text": "Pebble\n\n",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 1060,
+      "y0": 1586,
+      "x1": 1110,
+      "y1": 1601
+    },
+    {
+      "text": "The Pope\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 1193,
+      "y0": 1576,
+      "x1": 1259,
+      "y1": 1594
+    },
+    {
+      "text": "W\n\n",
+      "confidence": 13,
+      "quad": "NW",
+      "x0": 653,
+      "y0": 1603,
+      "x1": 662,
+      "y1": 1610
+    },
+    {
+      "text": "fy\n\n",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 640,
+      "y0": 1621,
+      "x1": 654,
+      "y1": 1632
+    },
+    {
+      "text": "Ld\n\n",
+      "confidence": 55,
+      "quad": "NW",
+      "x0": 645,
+      "y0": 1613,
+      "x1": 659,
+      "y1": 1622
+    },
+    {
+      "text": "Greywater\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 675,
+      "y0": 1605,
+      "x1": 746,
+      "y1": 1621
+    },
+    {
+      "text": "Littlesiotar\n\n",
+      "confidence": 22,
+      "quad": "NW",
+      "x0": 940,
+      "y0": 1605,
+      "x1": 1024,
+      "y1": 1620
+    },
+    {
+      "text": "Watch\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 688,
+      "y0": 1622,
+      "x1": 731,
+      "y1": 1635
+    },
+    {
+      "text": "Lengsister\n\n",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 1626,
+      "x1": 936,
+      "y1": 1643
+    },
+    {
+      "text": "cis\n\n",
+      "confidence": 24,
+      "quad": "NW",
+      "x0": 402,
+      "y0": 1631,
+      "x1": 447,
+      "y1": 1650
+    },
+    {
+      "text": "The unt\n\n",
+      "confidence": 46,
+      "quad": "NW",
+      "x0": 324,
+      "y0": 1643,
+      "x1": 397,
+      "y1": 1670
+    },
+    {
+      "text": "The Bite\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 773,
+      "y0": 1652,
+      "x1": 870,
+      "y1": 1672
+    },
+    {
+      "text": "Coldwater\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1029,
+      "y0": 1659,
+      "x1": 1086,
+      "y1": 1671
+    },
+    {
+      "text": "The Flugens\n\n",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 1230,
+      "y0": 1671,
+      "x1": 1325,
+      "y1": 1690
+    },
+    {
+      "text": "Braavos\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1450,
+      "y0": 1672,
+      "x1": 1531,
+      "y1": 1690
+    },
+    {
+      "text": "Snakewood\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1130,
+      "y0": 1710,
+      "x1": 1196,
+      "y1": 1722
+    },
+    {
+      "text": "Lorath\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1747,
+      "y0": 1728,
+      "x1": 1809,
+      "y1": 1748
+    },
+    {
+      "text": "The Twins\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 670,
+      "y0": 1759,
+      "x1": 734,
+      "y1": 1772
+    },
+    {
+      "text": "Longbow Hall\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 1161,
+      "y0": 1748,
+      "x1": 1241,
+      "y1": 1763
+    },
+    {
+      "text": "ds\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 365,
+      "y0": 1778,
+      "x1": 400,
+      "y1": 1807
+    },
+    {
+      "text": "Strongsong\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 888,
+      "y0": 1785,
+      "x1": 956,
+      "y1": 1799
+    },
+    {
+      "text": "Heart's Homa\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1001,
+      "y0": 1789,
+      "x1": 1082,
+      "y1": 1800
+    },
+    {
+      "text": "wm\n\n",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 495,
+      "y0": 1782,
+      "x1": 557,
+      "y1": 1816
+    },
+    {
+      "text": "s\\a®\n\n",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 299,
+      "y0": 1794,
+      "x1": 363,
+      "y1": 1826
+    },
+    {
+      "text": "Seagard\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 624,
+      "y0": 1812,
+      "x1": 671,
+      "y1": 1827
+    },
+    {
+      "text": "ok\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1111,
+      "y0": 1809,
+      "x1": 1140,
+      "y1": 1829
+    },
+    {
+      "text": "Lorath\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1757,
+      "y0": 1815,
+      "x1": 1826,
+      "y1": 1833
+    },
+    {
+      "text": "The Axe\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 2175,
+      "y0": 1819,
+      "x1": 2267,
+      "y1": 1839
+    },
+    {
+      "text": "eo? \\\n\n",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 202,
+      "y0": 1805,
+      "x1": 297,
+      "y1": 1852
+    },
+    {
+      "text": "OH oriment\n\n",
+      "confidence": 5,
+      "quad": "NW",
+      "x0": 323,
+      "y0": 1833,
+      "x1": 422.5,
+      "y1": 1862
+    },
+    {
+      "text": "Hags\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 677,
+      "y0": 1844,
+      "x1": 702,
+      "y1": 1857
+    },
+    {
+      "text": "OM Anchor\n\n",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 1165,
+      "y0": 1841,
+      "x1": 1232,
+      "y1": 1853
+    },
+    {
+      "text": "Mire\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 674,
+      "y0": 1859,
+      "x1": 699,
+      "y1": 1868
+    },
+    {
+      "text": "&®\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1073,
+      "y0": 1842,
+      "x1": 1091,
+      "y1": 1858
+    },
+    {
+      "text": "Ironoaks\n\n",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 1108,
+      "y0": 1858,
+      "x1": 1158,
+      "y1": 1871
+    },
+    {
+      "text": "Great Wyk\n\n",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 209,
+      "y0": 1856,
+      "x1": 289,
+      "y1": 1875
+    },
+    {
+      "text": "Ironman's\n\n",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 514,
+      "y0": 1868,
+      "x1": 637,
+      "y1": 1888
+    },
+    {
+      "text": "%\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 763,
+      "y0": 1855,
+      "x1": 784,
+      "y1": 1882
+    },
+    {
+      "text": "The Eyrie 0°\n\n",
+      "confidence": 66,
+      "quad": "NW",
+      "x0": 973,
+      "y0": 1863,
+      "x1": 1059,
+      "y1": 1883
+    },
+    {
+      "text": "Oidstones\n\n",
+      "confidence": 51,
+      "quad": "NW",
+      "x0": 698,
+      "y0": 1887,
+      "x1": 751,
+      "y1": 1899
+    },
+    {
+      "text": "Rurestone\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 1254,
+      "y0": 1885,
+      "x1": 1318,
+      "y1": 1896
+    },
+    {
+      "text": "Ten Towers Bay\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 462,
+      "y0": 1894,
+      "x1": 597,
+      "y1": 1922
+    },
+    {
+      "text": "The Bloody\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 914,
+      "y0": 1904,
+      "x1": 985,
+      "y1": 1920
+    },
+    {
+      "text": "Harvlew\n\n",
+      "confidence": 20,
+      "quad": "NW",
+      "x0": 440,
+      "y0": 1919,
+      "x1": 494,
+      "y1": 1934
+    },
+    {
+      "text": "Gate\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 932,
+      "y0": 1923,
+      "x1": 960,
+      "y1": 1933
+    },
+    {
+      "text": "Gulltown\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1249,
+      "y0": 1916,
+      "x1": 1319,
+      "y1": 1931
+    },
+    {
+      "text": "Braavosian\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1441,
+      "y0": 1910,
+      "x1": 1524,
+      "y1": 1924
+    },
+    {
+      "text": "Fairmarket\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 681,
+      "y0": 1933,
+      "x1": 747,
+      "y1": 1946
+    },
+    {
+      "text": "LY\n\n",
+      "confidence": 16,
+      "quad": "NW",
+      "x0": 775,
+      "y0": 1928,
+      "x1": 795,
+      "y1": 1949
+    },
+    {
+      "text": "Redfort\n\n",
+      "confidence": 85,
+      "quad": "NW",
+      "x0": 1064,
+      "y0": 1928,
+      "x1": 1106,
+      "y1": 1940
+    },
+    {
+      "text": "Coastlands\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1438,
+      "y0": 1931,
+      "x1": 1522,
+      "y1": 1946
+    },
+    {
+      "text": "Pyke\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 390,
+      "y0": 1940,
+      "x1": 418,
+      "y1": 1955
+    },
+    {
+      "text": "ils of\n\n",
+      "confidence": 74,
+      "quad": "NW",
+      "x0": 1867,
+      "y0": 1936,
+      "x1": 1922,
+      "y1": 1969
+    },
+    {
+      "text": "Norvos\n\n",
+      "confidence": 39,
+      "quad": "NW",
+      "x0": 1929,
+      "y0": 1926,
+      "x1": 2003,
+      "y1": 1955
+    },
+    {
+      "text": "Salteliffe Pyke\n\n",
+      "confidence": 41,
+      "quad": "NW",
+      "x0": 250,
+      "y0": 1956,
+      "x1": 383,
+      "y1": 1975
+    },
+    {
+      "text": "Bay of\n\n",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 1197,
+      "y0": 1955,
+      "x1": 1251,
+      "y1": 1974
+    },
+    {
+      "text": "Banefort\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 358,
+      "y0": 1985,
+      "x1": 408,
+      "y1": 1997
+    },
+    {
+      "text": "we\n\n",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 696,
+      "y0": 1958,
+      "x1": 794,
+      "y1": 1987
+    },
+    {
+      "text": "High Road\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 904,
+      "y0": 1984,
+      "x1": 959,
+      "y1": 1999
+    },
+    {
+      "text": "Crabs\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1199,
+      "y0": 1973,
+      "x1": 1247,
+      "y1": 1988
+    },
+    {
+      "text": "2 Bg\n\n",
+      "confidence": 50,
+      "quad": "NW",
+      "x0": 736,
+      "y0": 1994,
+      "x1": 787,
+      "y1": 2013
+    },
+    {
+      "text": "Stone\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 770,
+      "y0": 2018,
+      "x1": 798,
+      "y1": 2026
+    },
+    {
+      "text": "Andalos\n\n",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 1547,
+      "y0": 1991,
+      "x1": 1627,
+      "y1": 2026
+    },
+    {
+      "text": "Hedge\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 769,
+      "y0": 2031,
+      "x1": 799,
+      "y1": 2042
+    },
+    {
+      "text": "Saltpans\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 931,
+      "y0": 2028,
+      "x1": 978,
+      "y1": 2043
+    },
+    {
+      "text": "Wickenden\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1047,
+      "y0": 2022,
+      "x1": 1112,
+      "y1": 2035
+    },
+    {
+      "text": "Dyre Den\n\n",
+      "confidence": 77,
+      "quad": "NW",
+      "x0": 1155,
+      "y0": 2018,
+      "x1": 1232,
+      "y1": 2034
+    },
+    {
+      "text": "nd\n\n",
+      "confidence": 25,
+      "quad": "NW",
+      "x0": 1214,
+      "y0": 2033,
+      "x1": 1228,
+      "y1": 2044
+    },
+    {
+      "text": "rg Riverrun\n\n",
+      "confidence": 67,
+      "quad": "NW",
+      "x0": 528,
+      "y0": 2020,
+      "x1": 660,
+      "y1": 2053
+    },
+    {
+      "text": "3°\n\n",
+      "confidence": 24,
+      "quad": "NW",
+      "x0": 1201,
+      "y0": 2043,
+      "x1": 1218,
+      "y1": 2058
+    },
+    {
+      "text": "Claw\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1263,
+      "y0": 2036,
+      "x1": 1303,
+      "y1": 2051
+    },
+    {
+      "text": "Norvos\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1931,
+      "y0": 2042,
+      "x1": 2004,
+      "y1": 2060
+    },
+    {
+      "text": "The Crag\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 350,
+      "y0": 2049,
+      "x1": 408,
+      "y1": 2066
+    },
+    {
+      "text": "Quiet Isle\n\n",
+      "confidence": 65,
+      "quad": "NW",
+      "x0": 933,
+      "y0": 2057,
+      "x1": 985,
+      "y1": 2072
+    },
+    {
+      "text": "sla\n\n",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 1268,
+      "y0": 2054,
+      "x1": 1297,
+      "y1": 2069
+    },
+    {
+      "text": "Pair\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 313,
+      "y0": 2083,
+      "x1": 346,
+      "y1": 2096
+    },
+    {
+      "text": "Ashemark\n\n",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 433,
+      "y0": 2076,
+      "x1": 488,
+      "y1": 2087
+    },
+    {
+      "text": "J\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 625,
+      "y0": 2075,
+      "x1": 639,
+      "y1": 2097
+    },
+    {
+      "text": "High Heart\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 723,
+      "y0": 2073,
+      "x1": 789,
+      "y1": 2088
+    },
+    {
+      "text": "Harrenhal\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 2073,
+      "x1": 917,
+      "y1": 2086
+    },
+    {
+      "text": "Isle\n\n",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 315,
+      "y0": 2099,
+      "x1": 344,
+      "y1": 2113
+    },
+    {
+      "text": "Acorn Hall\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 712,
+      "y0": 2093,
+      "x1": 778,
+      "y1": 2105
+    },
+    {
+      "text": "Maidenpaol\n\n",
+      "confidence": 56,
+      "quad": "NW",
+      "x0": 1014,
+      "y0": 2091,
+      "x1": 1087,
+      "y1": 2107
+    },
+    {
+      "text": "<¥\n\n",
+      "confidence": 67,
+      "quad": "NW",
+      "x0": 1158,
+      "y0": 2093,
+      "x1": 1171,
+      "y1": 2107
+    },
+    {
+      "text": "The Whispers\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1231,
+      "y0": 2085,
+      "x1": 1316,
+      "y1": 2101
+    },
+    {
+      "text": "Pinkmaiden\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 661,
+      "y0": 2113,
+      "x1": 733,
+      "y1": 2125
+    },
+    {
+      "text": "LT\"\n\n",
+      "confidence": 33,
+      "quad": "NW",
+      "x0": 830,
+      "y0": 2099,
+      "x1": 876,
+      "y1": 2122
+    },
+    {
+      "text": "Antlers\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 959,
+      "y0": 2110,
+      "x1": 1004,
+      "y1": 2124
+    },
+    {
+      "text": "Rook's\n\n",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 1069,
+      "y0": 2114,
+      "x1": 1108,
+      "y1": 2126
+    },
+    {
+      "text": "Faircastle\n\n",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 279,
+      "y0": 2123,
+      "x1": 339,
+      "y1": 2137
+    },
+    {
+      "text": "Golden Tooth\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 444,
+      "y0": 2122,
+      "x1": 526,
+      "y1": 2134
+    },
+    {
+      "text": "ih af\n\n",
+      "confidence": 25,
+      "quad": "NW",
+      "x0": 832,
+      "y0": 2124,
+      "x1": 870,
+      "y1": 2138
+    },
+    {
+      "text": "Rest\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1067,
+      "y0": 2132,
+      "x1": 1093,
+      "y1": 2142
+    },
+    {
+      "text": "Dragonstone\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1178,
+      "y0": 2125,
+      "x1": 1253,
+      "y1": 2139
+    },
+    {
+      "text": "ss\n\n",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 834,
+      "y0": 2142,
+      "x1": 866,
+      "y1": 2154
+    },
+    {
+      "text": "Driftmark\n\n",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 1135,
+      "y0": 2145,
+      "x1": 1201,
+      "y1": 2157
+    },
+    {
+      "text": "Sow's Horn\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 955,
+      "y0": 2173,
+      "x1": 1023,
+      "y1": 2185
+    },
+    {
+      "text": "Sarsfield\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 428,
+      "y0": 2187,
+      "x1": 481,
+      "y1": 2201
+    },
+    {
+      "text": "Hornvale\n\n",
+      "confidence": 21,
+      "quad": "NW",
+      "x0": 564,
+      "y0": 2194,
+      "x1": 619,
+      "y1": 2207
+    },
+    {
+      "text": "Stoney Sept\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 711,
+      "y0": 2189,
+      "x1": 781,
+      "y1": 2203
+    },
+    {
+      "text": "Tha Gullat\n\n",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 1143,
+      "y0": 2184,
+      "x1": 1225,
+      "y1": 2199
+    },
+    {
+      "text": "Kayce\n\n",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 259,
+      "y0": 2206,
+      "x1": 294,
+      "y1": 2221
+    },
+    {
+      "text": "Duskendale\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 968,
+      "y0": 2200,
+      "x1": 1036,
+      "y1": 2213
+    },
+    {
+      "text": "Sharp Paint\n\n",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1202,
+      "y0": 2205,
+      "x1": 1278,
+      "y1": 2221
+    },
+    {
+      "text": "“iy\n\n",
+      "confidence": 40,
+      "quad": "NW",
+      "x0": 1678,
+      "y0": 2188,
+      "x1": 1708,
+      "y1": 2212
+    },
+    {
+      "text": "Casterly\n\n",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 320,
+      "y0": 2211,
+      "x1": 367,
+      "y1": 2227
+    },
+    {
+      "text": "Rock\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 327,
+      "y0": 2229,
+      "x1": 354,
+      "y1": 2240
+    },
+    {
+      "text": "Deep Den\n\n",
+      "confidence": 80,
+      "quad": "NW",
+      "x0": 576,
+      "y0": 2241,
+      "x1": 637,
+      "y1": 2255
+    },
+    {
+      "text": "Pentos\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1535,
+      "y0": 2231,
+      "x1": 1602,
+      "y1": 2249
+    },
+    {
+      "text": "Ghayan\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1734,
+      "y0": 2229,
+      "x1": 1785,
+      "y1": 2247
+    },
+    {
+      "text": "Feastfires\n\n",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 241,
+      "y0": 2259,
+      "x1": 299,
+      "y1": 2272
+    },
+    {
+      "text": "Lannisport\n\n",
+      "confidence": 43,
+      "quad": "NW",
+      "x0": 342,
+      "y0": 2253,
+      "x1": 410,
+      "y1": 2269
+    },
+    {
+      "text": "Blackwater\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 1056,
+      "y0": 2252,
+      "x1": 1178,
+      "y1": 2271
+    },
+    {
+      "text": "Stonedance\n\n",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1222,
+      "y0": 2245,
+      "x1": 1295,
+      "y1": 2258
+    },
+    {
+      "text": "Drohe\n\n",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1737,
+      "y0": 2249,
+      "x1": 1778,
+      "y1": 2262
+    },
+    {
+      "text": "a\n\n",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 751,
+      "y0": 2244,
+      "x1": 774.5,
+      "y1": 2279
+    },
+    {
+      "text": "obo?\n\n",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 694,
+      "y0": 2273,
+      "x1": 746,
+      "y1": 2302
+    },
+    {
+      "text": "Rosby\n\n",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 987,
+      "y0": 2276,
+      "x1": 1021,
+      "y1": 2291
+    },
+    {
+      "text": "Bay\n\n",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1097,
+      "y0": 2279,
+      "x1": 1136,
+      "y1": 2301
+    },
+    {
+      "text": "Qohor\n\n",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 2242,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2305
+    },
+    {
+      "text": "King's Landing\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 824,
+      "y0": 2293,
+      "x1": 937,
+      "y1": 2313
+    },
+    {
+      "text": "ag\n\n",
+      "confidence": 7,
+      "quad": "NW",
+      "x0": 1204,
+      "y0": 2278,
+      "x1": 1273,
+      "y1": 2309
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1326,
+      "y0": 2286,
+      "x1": 1404,
+      "y1": 2321
+    },
+    {
+      "text": "Silverhill\n\n",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 548,
+      "y0": 2311,
+      "x1": 602,
+      "y1": 2324
+    },
+    {
+      "text": "Cornfield\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 401,
+      "y0": 2332,
+      "x1": 456,
+      "y1": 2344
+    },
+    {
+      "text": "The Flatlands\n\n",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 1619,
+      "y0": 2330,
+      "x1": 1763,
+      "y1": 2351
+    },
+    {
+      "text": "Ny Sar\n\n",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1950,
+      "y0": 2329,
+      "x1": 1993,
+      "y1": 2344
+    },
+    {
+      "text": "Narrow\n\n",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1287,
+      "y0": 2337,
+      "x1": 1444,
+      "y1": 2369
+    },
+    {
+      "text": "Crakehali\n\n",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 261,
+      "y0": 2367,
+      "x1": 322,
+      "y1": 2380
+    },
+    {
+      "text": "Tumbleton\n\n",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 766,
+      "y0": 2368,
+      "x1": 832,
+      "y1": 2380
+    },
+    {
+      "text": "yr,\n\n",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 1084,
+      "y0": 2366,
+      "x1": 1103,
+      "y1": 2385
+    },
+    {
+      "text": "FYE TI\n",
+      "confidence": 35,
+      "quad": "NW",
+      "x0": 2108,
+      "y0": 2380,
+      "x1": 2144,
+      "y1": 2385
+    },
+    {
+      "text": "1bben\n\n",
+      "confidence": 58,
+      "quad": "NE",
+      "x0": 2279,
+      "y0": 829,
+      "x1": 2346,
+      "y1": 850
+    },
+    {
+      "text": "Forest off Qolber\n\n",
+      "confidence": 53,
+      "quad": "NE",
+      "x0": 2371,
+      "y0": 2197,
+      "x1": 2502,
+      "y1": 2219
+    },
+    {
+      "text": "ohor\n",
+      "confidence": 90,
+      "quad": "NE",
+      "x0": 2257,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2299
+    },
+    {
+      "text": "RE\n\n",
+      "confidence": 21,
+      "quad": "SW",
+      "x0": 1231,
+      "y0": 2257,
+      "x1": 1294,
+      "y1": 2258
+    },
+    {
+      "text": "Feastfires\n\n",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 241,
+      "y0": 2259,
+      "x1": 299,
+      "y1": 2272
+    },
+    {
+      "text": "LATHNSPNTL\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 342,
+      "y0": 2257,
+      "x1": 410,
+      "y1": 2269
+    },
+    {
+      "text": "BlacKkwate\n\n",
+      "confidence": 13,
+      "quad": "SW",
+      "x0": 1056,
+      "y0": 2257,
+      "x1": 1167,
+      "y1": 2271
+    },
+    {
+      "text": "Lib ht Lad\n\n",
+      "confidence": 41,
+      "quad": "SW",
+      "x0": 1737,
+      "y0": 2257,
+      "x1": 1778,
+      "y1": 2262
+    },
+    {
+      "text": "L\n\n",
+      "confidence": 28,
+      "quad": "SW",
+      "x0": 803,
+      "y0": 2260,
+      "x1": 829,
+      "y1": 2277
+    },
+    {
+      "text": "obo?\n\n",
+      "confidence": 32,
+      "quad": "SW",
+      "x0": 694,
+      "y0": 2273,
+      "x1": 746,
+      "y1": 2302
+    },
+    {
+      "text": "Rosby\n\n",
+      "confidence": 73,
+      "quad": "SW",
+      "x0": 987,
+      "y0": 2276,
+      "x1": 1021,
+      "y1": 2291
+    },
+    {
+      "text": "Massey's\n\n",
+      "confidence": 76,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2278,
+      "x1": 1273,
+      "y1": 2295
+    },
+    {
+      "text": "Qohor\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 2242,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2305
+    },
+    {
+      "text": "King's Landing\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 824,
+      "y0": 2293,
+      "x1": 937,
+      "y1": 2313
+    },
+    {
+      "text": "Hook\n\n",
+      "confidence": 46,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2295,
+      "x1": 1245,
+      "y1": 2309
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1326,
+      "y0": 2286,
+      "x1": 1404,
+      "y1": 2321
+    },
+    {
+      "text": "Silverhill\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 548,
+      "y0": 2311,
+      "x1": 602,
+      "y1": 2324
+    },
+    {
+      "text": "Cornfield\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 401,
+      "y0": 2332,
+      "x1": 456,
+      "y1": 2344
+    },
+    {
+      "text": "The Flatlands\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1619,
+      "y0": 2330,
+      "x1": 1763,
+      "y1": 2351
+    },
+    {
+      "text": "Ny Sar\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1950,
+      "y0": 2329,
+      "x1": 1993,
+      "y1": 2344
+    },
+    {
+      "text": "Narrow\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1287,
+      "y0": 2337,
+      "x1": 1444,
+      "y1": 2369
+    },
+    {
+      "text": "Crakehali\n\n",
+      "confidence": 58,
+      "quad": "SW",
+      "x0": 261,
+      "y0": 2367,
+      "x1": 322,
+      "y1": 2380
+    },
+    {
+      "text": "Tumbleton\n\n",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 766,
+      "y0": 2368,
+      "x1": 832,
+      "y1": 2380
+    },
+    {
+      "text": "Ar Noy\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 2105,
+      "y0": 2380,
+      "x1": 2153,
+      "y1": 2395
+    },
+    {
+      "text": "Ringmowsd 7 Haystack Hall\n\n",
+      "confidence": 53,
+      "quad": "SW",
+      "x0": 949,
+      "y0": 2366,
+      "x1": 1192,
+      "y1": 2417
+    },
+    {
+      "text": "Sea\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1330,
+      "y0": 2386,
+      "x1": 1399,
+      "y1": 2417
+    },
+    {
+      "text": "Red Lake\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 451,
+      "y0": 2419,
+      "x1": 503,
+      "y1": 2431
+    },
+    {
+      "text": "»w*\n\n",
+      "confidence": 20,
+      "quad": "SW",
+      "x0": 716,
+      "y0": 2416,
+      "x1": 755,
+      "y1": 2442
+    },
+    {
+      "text": ".\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 407,
+      "y0": 2437,
+      "x1": 452,
+      "y1": 2458
+    },
+    {
+      "text": "Bronzegate\n\n",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 1073,
+      "y0": 2443,
+      "x1": 1137,
+      "y1": 2457
+    },
+    {
+      "text": "Beraits\n\n",
+      "confidence": 32,
+      "quad": "SW",
+      "x0": 1179,
+      "y0": 2451,
+      "x1": 1221,
+      "y1": 2462
+    },
+    {
+      "text": "Twrth\n\n",
+      "confidence": 23,
+      "quad": "SW",
+      "x0": 1270,
+      "y0": 2436,
+      "x1": 1310,
+      "y1": 2451
+    },
+    {
+      "text": "Goldengrove\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 552,
+      "y0": 2457,
+      "x1": 625,
+      "y1": 2472
+    },
+    {
+      "text": "Bitterbridge\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 729,
+      "y0": 2467,
+      "x1": 795,
+      "y1": 2482
+    },
+    {
+      "text": "of\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1194,
+      "y0": 2464,
+      "x1": 1208,
+      "y1": 2476
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1973,
+      "y0": 2466,
+      "x1": 2004,
+      "y1": 2482
+    },
+    {
+      "text": "Tarth\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1182,
+      "y0": 2478,
+      "x1": 1217,
+      "y1": 2489
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 136,
+      "y0": 2466,
+      "x1": 218,
+      "y1": 2502
+    },
+    {
+      "text": "ose”\n\n",
+      "confidence": 5,
+      "quad": "SW",
+      "x0": 627,
+      "y0": 2493,
+      "x1": 666,
+      "y1": 2513
+    },
+    {
+      "text": "Felwood\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1042,
+      "y0": 2487,
+      "x1": 1090,
+      "y1": 2499
+    },
+    {
+      "text": "Evenfall Hall\n\n",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 1220,
+      "y0": 2495,
+      "x1": 1284,
+      "y1": 2506
+    },
+    {
+      "text": "Golden\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1963,
+      "y0": 2489,
+      "x1": 2022,
+      "y1": 2505
+    },
+    {
+      "text": "Old Oak\n\n",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 379,
+      "y0": 2503,
+      "x1": 431,
+      "y1": 2515
+    },
+    {
+      "text": "Hales Grassy Vale\n\n",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 755,
+      "y0": 2490,
+      "x1": 892,
+      "y1": 2518.5
+    },
+    {
+      "text": "Fields\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1967,
+      "y0": 2512,
+      "x1": 2013,
+      "y1": 2528
+    },
+    {
+      "text": "Longtable\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 695,
+      "y0": 2519,
+      "x1": 750,
+      "y1": 2534
+    },
+    {
+      "text": "Storm's End\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1147,
+      "y0": 2519,
+      "x1": 1222,
+      "y1": 2531
+    },
+    {
+      "text": "Sunset\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 103,
+      "y0": 2520,
+      "x1": 253,
+      "y1": 2552
+    },
+    {
+      "text": "Cider Hall\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 659,
+      "y0": 2556,
+      "x1": 723,
+      "y1": 2569
+    },
+    {
+      "text": "Summerhal\n\n",
+      "confidence": 29,
+      "quad": "SW",
+      "x0": 889,
+      "y0": 2562,
+      "x1": 964,
+      "y1": 2574
+    },
+    {
+      "text": "Grifiin's Roost\n\n",
+      "confidence": 54,
+      "quad": "SW",
+      "x0": 1102,
+      "y0": 2562,
+      "x1": 1177,
+      "y1": 2573
+    },
+    {
+      "text": "Shipbreaker Bay\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1154,
+      "y0": 2539,
+      "x1": 1331,
+      "y1": 2563
+    },
+    {
+      "text": "Ram Hoose\n\n",
+      "confidence": 56,
+      "quad": "SW",
+      "x0": 1217,
+      "y0": 2578,
+      "x1": 1278,
+      "y1": 2588
+    },
+    {
+      "text": "Sea\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 141,
+      "y0": 2570,
+      "x1": 212,
+      "y1": 2602
+    },
+    {
+      "text": "Shield\n\n",
+      "confidence": 40,
+      "quad": "SW",
+      "x0": 302,
+      "y0": 2579,
+      "x1": 353,
+      "y1": 2595
+    },
+    {
+      "text": "Oli, Ashford\n\n",
+      "confidence": 51,
+      "quad": "SW",
+      "x0": 645,
+      "y0": 2574,
+      "x1": 796,
+      "y1": 2599
+    },
+    {
+      "text": "Crow's Nast\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 1020,
+      "y0": 2590,
+      "x1": 1090,
+      "y1": 2601
+    },
+    {
+      "text": "The Sorrows\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 2037,
+      "y0": 2591,
+      "x1": 2123,
+      "y1": 2604
+    },
+    {
+      "text": "Islands\n\n",
+      "confidence": 30,
+      "quad": "SW",
+      "x0": 298,
+      "y0": 2598,
+      "x1": 357,
+      "y1": 2614
+    },
+    {
+      "text": "Sea of Myrth\n\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 1498,
+      "y0": 2593,
+      "x1": 1648,
+      "y1": 2619
+    },
+    {
+      "text": "Blackhaven\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 864,
+      "y0": 2618,
+      "x1": 930,
+      "y1": 2630
+    },
+    {
+      "text": "Cape Wrath\n\n",
+      "confidence": 86,
+      "quad": "SW",
+      "x0": 1272,
+      "y0": 2624,
+      "x1": 1362,
+      "y1": 2642
+    },
+    {
+      "text": "{Chroyane)\n\n",
+      "confidence": 61,
+      "quad": "SW",
+      "x0": 2040,
+      "y0": 2610,
+      "x1": 2115,
+      "y1": 2628
+    },
+    {
+      "text": "Highgarden\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 548,
+      "y0": 2632,
+      "x1": 621,
+      "y1": 2648
+    },
+    {
+      "text": "Reimvead\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1115,
+      "y0": 2627,
+      "x1": 1181,
+      "y1": 2643
+    },
+    {
+      "text": "Myr\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1704,
+      "y0": 2621,
+      "x1": 1746,
+      "y1": 2644
+    },
+    {
+      "text": "Stonehelm\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1013,
+      "y0": 2655,
+      "x1": 1077,
+      "y1": 2668
+    },
+    {
+      "text": "at ch es\n\n",
+      "confidence": 76,
+      "quad": "SW",
+      "x0": 845,
+      "y0": 2658,
+      "x1": 898,
+      "y1": 2680
+    },
+    {
+      "text": "Mistwood\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1120,
+      "y0": 2666,
+      "x1": 1177,
+      "y1": 2678
+    },
+    {
+      "text": "Brightwater\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 363,
+      "y0": 2688,
+      "x1": 433,
+      "y1": 2703
+    },
+    {
+      "text": "Nightsong\n\n",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 651,
+      "y0": 2690,
+      "x1": 707,
+      "y1": 2705
+    },
+    {
+      "text": "persis?\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 750,
+      "y0": 2677,
+      "x1": 820,
+      "y1": 2705
+    },
+    {
+      "text": "Estarment\n\n",
+      "confidence": 2,
+      "quad": "SW",
+      "x0": 1265,
+      "y0": 2677,
+      "x1": 1334,
+      "y1": 2692
+    },
+    {
+      "text": "Keep\n\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 384,
+      "y0": 2706,
+      "x1": 413,
+      "y1": 2719
+    },
+    {
+      "text": "Horn Hill\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 511,
+      "y0": 2700,
+      "x1": 568,
+      "y1": 2712
+    },
+    {
+      "text": "Greenstona\n\n",
+      "confidence": 86,
+      "quad": "SW",
+      "x0": 1247,
+      "y0": 2710,
+      "x1": 1313,
+      "y1": 2721
+    },
+    {
+      "text": "Tyrosh\n\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1381,
+      "y0": 2687,
+      "x1": 1449,
+      "y1": 2714
+    },
+    {
+      "text": "Vulture's\n\n",
+      "confidence": 60,
+      "quad": "SW",
+      "x0": 738,
+      "y0": 2715,
+      "x1": 793,
+      "y1": 2727
+    },
+    {
+      "text": "wyl\n\n",
+      "confidence": 76,
+      "quad": "SW",
+      "x0": 900,
+      "y0": 2708,
+      "x1": 922,
+      "y1": 2723
+    },
+    {
+      "text": "Bandallon\n\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 304,
+      "y0": 2728,
+      "x1": 359,
+      "y1": 2740
+    },
+    {
+      "text": "Raost\n\n",
+      "confidence": 38,
+      "quad": "SW",
+      "x0": 756,
+      "y0": 2734,
+      "x1": 790,
+      "y1": 2744
+    },
+    {
+      "text": "Weeping Tower\n\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1128,
+      "y0": 2740,
+      "x1": 1217,
+      "y1": 2754
+    },
+    {
+      "text": "Heodstone\n\n",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1258,
+      "y0": 2735,
+      "x1": 1330,
+      "y1": 2747
+    },
+    {
+      "text": "The Disputed Lands\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1509,
+      "y0": 2727,
+      "x1": 1720,
+      "y1": 2754
+    },
+    {
+      "text": "Heneyholt\n\n",
+      "confidence": 81,
+      "quad": "SW",
+      "x0": 420,
+      "y0": 2765,
+      "x1": 482,
+      "y1": 2781
+    },
+    {
+      "text": "Tower of Joy\n\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 717,
+      "y0": 2762,
+      "x1": 792,
+      "y1": 2777
+    },
+    {
+      "text": "Selhorys\n\n",
+      "confidence": 71,
+      "quad": "SW",
+      "x0": 2074,
+      "y0": 2761,
+      "x1": 2127,
+      "y1": 2778
+    },
+    {
+      "text": "Sea of Dorne\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 998,
+      "y0": 2770,
+      "x1": 1137,
+      "y1": 2790
+    },
+    {
+      "text": "7\n\n",
+      "confidence": 31,
+      "quad": "SW",
+      "x0": 671,
+      "y0": 2768,
+      "x1": 700,
+      "y1": 2817
+    },
+    {
+      "text": "Kingsgrave\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 729,
+      "y0": 2796,
+      "x1": 791,
+      "y1": 2810
+    },
+    {
+      "text": "Ghastan Grey\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 889,
+      "y0": 2790,
+      "x1": 962,
+      "y1": 2804
+    },
+    {
+      "text": "Oldtown\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 312,
+      "y0": 2815,
+      "x1": 375,
+      "y1": 2830
+    },
+    {
+      "text": "Blackmont\n\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 620,
+      "y0": 2824,
+      "x1": 679,
+      "y1": 2836
+    },
+    {
+      "text": "Arm\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1296,
+      "y0": 2831,
+      "x1": 1329,
+      "y1": 2845
+    },
+    {
+      "text": "Blackcrown\n\n",
+      "confidence": 85,
+      "quad": "SW",
+      "x0": 281,
+      "y0": 2839,
+      "x1": 351,
+      "y1": 2852
+    },
+    {
+      "text": "Uplands\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 442,
+      "y0": 2842,
+      "x1": 489,
+      "y1": 2857
+    },
+    {
+      "text": "Yronwood\n\n",
+      "confidence": 7,
+      "quad": "SW",
+      "x0": 856,
+      "y0": 2839,
+      "x1": 912,
+      "y1": 2851
+    },
+    {
+      "text": "The Tor\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1025,
+      "y0": 2840,
+      "x1": 1071,
+      "y1": 2852
+    },
+    {
+      "text": "High\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 621,
+      "y0": 2853,
+      "x1": 648,
+      "y1": 2868
+    },
+    {
+      "text": "Skyreach\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 720,
+      "y0": 2857,
+      "x1": 772,
+      "y1": 2872
+    },
+    {
+      "text": "Ghost\n\n",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2859,
+      "x1": 1241,
+      "y1": 2871
+    },
+    {
+      "text": "wo\n\n",
+      "confidence": 15,
+      "quad": "SW",
+      "x0": 2069,
+      "y0": 2827,
+      "x1": 2100,
+      "y1": 2872
+    },
+    {
+      "text": "Whispering\n\n",
+      "confidence": 84,
+      "quad": "SW",
+      "x0": 260,
+      "y0": 2874,
+      "x1": 350,
+      "y1": 2892
+    },
+    {
+      "text": "/\n\n",
+      "confidence": 56,
+      "quad": "SW",
+      "x0": 561,
+      "y0": 2843,
+      "x1": 599,
+      "y1": 2891
+    },
+    {
+      "text": "Hermitage\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 619,
+      "y0": 2871,
+      "x1": 679,
+      "y1": 2885
+    },
+    {
+      "text": "Hill\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1202,
+      "y0": 2877,
+      "x1": 1223,
+      "y1": 2888
+    },
+    {
+      "text": "Sar Mell\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 2123,
+      "y0": 2884,
+      "x1": 2178,
+      "y1": 2898
+    },
+    {
+      "text": "Sennd\n\n",
+      "confidence": 57,
+      "quad": "SW",
+      "x0": 281,
+      "y0": 2892,
+      "x1": 329,
+      "y1": 2907
+    },
+    {
+      "text": "Three Towers\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 360,
+      "y0": 2896,
+      "x1": 445,
+      "y1": 2909
+    },
+    {
+      "text": "a,\n\n",
+      "confidence": 41,
+      "quad": "SW",
+      "x0": 940,
+      "y0": 2882,
+      "x1": 957,
+      "y1": 2900
+    },
+    {
+      "text": "rd\n\n",
+      "confidence": 54,
+      "quad": "SW",
+      "x0": 2216,
+      "y0": 2875,
+      "x1": 2255,
+      "y1": 2909
+    },
+    {
+      "text": "Starfall\n\n",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 577,
+      "y0": 2912,
+      "x1": 620,
+      "y1": 2926
+    },
+    {
+      "text": "~\n\n",
+      "confidence": 53,
+      "quad": "SW",
+      "x0": 957,
+      "y0": 2895,
+      "x1": 993,
+      "y1": 2922
+    },
+    {
+      "text": "Gadsgrace\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 1051,
+      "y0": 2905,
+      "x1": 1110,
+      "y1": 2920
+    },
+    {
+      "text": "Ze\n\n",
+      "confidence": 24,
+      "quad": "SW",
+      "x0": 1923,
+      "y0": 2900,
+      "x1": 1945,
+      "y1": 2923
+    },
+    {
+      "text": "Planky\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1171,
+      "y0": 2917,
+      "x1": 1211,
+      "y1": 2933
+    },
+    {
+      "text": "Town\n\n",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1173,
+      "y0": 2936,
+      "x1": 1207,
+      "y1": 2946
+    },
+    {
+      "text": "Lys\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1591,
+      "y0": 2917,
+      "x1": 1625,
+      "y1": 2941
+    },
+    {
+      "text": "Volon\n\n",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 2062,
+      "y0": 2920,
+      "x1": 2102,
+      "y1": 2933
+    },
+    {
+      "text": "Surlower\n\n",
+      "confidence": 39,
+      "quad": "SW",
+      "x0": 426,
+      "y0": 2945,
+      "x1": 490,
+      "y1": 2958
+    },
+    {
+      "text": "ED Pa\n\n",
+      "confidence": 34,
+      "quad": "SW",
+      "x0": 989,
+      "y0": 2929,
+      "x1": 1139,
+      "y1": 2958
+    },
+    {
+      "text": "Therys\n\n",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 2059,
+      "y0": 2940,
+      "x1": 2106,
+      "y1": 2957
+    },
+    {
+      "text": "Hail\n\n",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 444,
+      "y0": 2963,
+      "x1": 469,
+      "y1": 2975
+    },
+    {
+      "text": "Helihalt\n\n",
+      "confidence": 61,
+      "quad": "SW",
+      "x0": 822,
+      "y0": 2951,
+      "x1": 867,
+      "y1": 2963
+    },
+    {
+      "text": "Vaith\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 1032,
+      "y0": 2958,
+      "x1": 1064,
+      "y1": 2971
+    },
+    {
+      "text": "Sunspear\n\n",
+      "confidence": 60,
+      "quad": "SW",
+      "x0": 1236,
+      "y0": 2952,
+      "x1": 1296,
+      "y1": 2967
+    },
+    {
+      "text": "Posy\n\n",
+      "confidence": 10,
+      "quad": "SW",
+      "x0": 1975,
+      "y0": 2940,
+      "x1": 2021,
+      "y1": 2969
+    },
+    {
+      "text": "Redwyn\n\n",
+      "confidence": 62,
+      "quad": "SW",
+      "x0": 315,
+      "y0": 2971,
+      "x1": 374,
+      "y1": 2989
+    },
+    {
+      "text": "Essog\n\n",
+      "confidence": 74,
+      "quad": "SW",
+      "x0": 1682,
+      "y0": 2943,
+      "x1": 1798,
+      "y1": 2992
+    },
+    {
+      "text": "Lemonwood\n\n",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 1205,
+      "y0": 2985,
+      "x1": 1278,
+      "y1": 2997
+    },
+    {
+      "text": "Volantis\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 2179,
+      "y0": 2974,
+      "x1": 2268,
+      "y1": 2996
+    },
+    {
+      "text": "Sandstone \\\n\n",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 688,
+      "y0": 2972,
+      "x1": 822,
+      "y1": 3018
+    },
+    {
+      "text": "Salt Shore\n\n",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1042,
+      "y0": 3015,
+      "x1": 1102,
+      "y1": 3027
+    },
+    {
+      "text": "The Arbor\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 262,
+      "y0": 3068,
+      "x1": 363,
+      "y1": 3086
+    },
+    {
+      "text": "Westeros\n\n",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 790,
+      "y0": 3056,
+      "x1": 997,
+      "y1": 3089
+    },
+    {
+      "text": "Summer Sea\n\n",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 615,
+      "y0": 3253,
+      "x1": 892,
+      "y1": 3285
+    },
+    {
+      "text": "Summer Islands\n",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 470,
+      "y0": 3538,
+      "x1": 708,
+      "y1": 3564
+    },
+    {
+      "text": "ohor\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2257,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2299
+    },
+    {
+      "text": "Mother of Mountains\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3295,
+      "y0": 2547,
+      "x1": 3454,
+      "y1": 2562
+    },
+    {
+      "text": "Womb of the Werld\n\n",
+      "confidence": 60,
+      "quad": "SE",
+      "x0": 3187,
+      "y0": 2580,
+      "x1": 3308,
+      "y1": 2594
+    },
+    {
+      "text": "The Dothraki Sea\n\n",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 2622,
+      "y0": 2579,
+      "x1": 2924,
+      "y1": 2612
+    },
+    {
+      "text": "Lhazar\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3705,
+      "y0": 2794,
+      "x1": 3769,
+      "y1": 2814
+    },
+    {
+      "text": "opal Pinos\n\n",
+      "confidence": 21,
+      "quad": "SE",
+      "x0": 3439,
+      "y0": 2908,
+      "x1": 3518,
+      "y1": 2927
+    },
+    {
+      "text": "%\n\n",
+      "confidence": 84,
+      "quad": "SE",
+      "x0": 2430,
+      "y0": 2954,
+      "x1": 2449,
+      "y1": 2978
+    },
+    {
+      "text": "Meereen\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3308,
+      "y0": 2947,
+      "x1": 3387,
+      "y1": 2964
+    },
+    {
+      "text": "s\n\n",
+      "confidence": 26,
+      "quad": "SE",
+      "x0": 2258,
+      "y0": 2983,
+      "x1": 2268,
+      "y1": 2996
+    },
+    {
+      "text": "Bhorash\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3090,
+      "y0": 2985,
+      "x1": 3140,
+      "y1": 2998
+    },
+    {
+      "text": "2,\n\n",
+      "confidence": 58,
+      "quad": "SE",
+      "x0": 2457,
+      "y0": 2988,
+      "x1": 2485,
+      "y1": 3016
+    },
+    {
+      "text": "Mantarys\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 2766,
+      "y0": 3050,
+      "x1": 2853,
+      "y1": 3071
+    },
+    {
+      "text": "&\n\n",
+      "confidence": 16,
+      "quad": "SE",
+      "x0": 3013,
+      "y0": 3066,
+      "x1": 3026,
+      "y1": 3082
+    },
+    {
+      "text": "oe\n\n",
+      "confidence": 14,
+      "quad": "SE",
+      "x0": 3026,
+      "y0": 3038,
+      "x1": 3054,
+      "y1": 3068
+    },
+    {
+      "text": "oF\n\n",
+      "confidence": 19,
+      "quad": "SE",
+      "x0": 2995,
+      "y0": 3079,
+      "x1": 3015,
+      "y1": 3096
+    },
+    {
+      "text": "Yunkai\n\n",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 3305,
+      "y0": 3073,
+      "x1": 3362,
+      "y1": 3091
+    },
+    {
+      "text": "Yaros\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3206,
+      "y0": 3112,
+      "x1": 3261,
+      "y1": 3129
+    },
+    {
+      "text": "Slaver's\n\n",
+      "confidence": 86,
+      "quad": "SE",
+      "x0": 3078,
+      "y0": 3117,
+      "x1": 3171,
+      "y1": 3138
+    },
+    {
+      "text": "Bay\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3104,
+      "y0": 3146,
+      "x1": 3146,
+      "y1": 3171
+    },
+    {
+      "text": "Tolos\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 2972,
+      "y0": 3161,
+      "x1": 3021,
+      "y1": 3180
+    },
+    {
+      "text": "Elyria\n\n",
+      "confidence": 94,
+      "quad": "SE",
+      "x0": 2899,
+      "y0": 3195,
+      "x1": 2951,
+      "y1": 3219
+    },
+    {
+      "text": "Isle\n\n",
+      "confidence": 70,
+      "quad": "SE",
+      "x0": 2983,
+      "y0": 3204,
+      "x1": 3019,
+      "y1": 3223
+    },
+    {
+      "text": "Cedars\n\n",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 2981,
+      "y0": 3227,
+      "x1": 3052,
+      "y1": 3246
+    },
+    {
+      "text": "Astapor\n\n",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 3184,
+      "y0": 3228,
+      "x1": 3261,
+      "y1": 3250
+    },
+    {
+      "text": "Ghozai\n\n",
+      "confidence": 67,
+      "quad": "SE",
+      "x0": 2983,
+      "y0": 3264,
+      "x1": 3026,
+      "y1": 3277
+    },
+    {
+      "text": "The Lands\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 2727,
+      "y0": 3302,
+      "x1": 2792,
+      "y1": 3314
+    },
+    {
+      "text": "Worm Rw\n\n",
+      "confidence": 52,
+      "quad": "SE",
+      "x0": 3273,
+      "y0": 3292,
+      "x1": 3352,
+      "y1": 3306
+    },
+    {
+      "text": "of the Long\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2724,
+      "y0": 3320,
+      "x1": 2798,
+      "y1": 3336
+    },
+    {
+      "text": "Surnmer\n\n",
+      "confidence": 61,
+      "quad": "SE",
+      "x0": 2732,
+      "y0": 3339,
+      "x1": 2785,
+      "y1": 3350
+    },
+    {
+      "text": "Velos\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3011,
+      "y0": 3360,
+      "x1": 3046,
+      "y1": 3374
+    },
+    {
+      "text": "Bi,\n\n",
+      "confidence": 60,
+      "quad": "SE",
+      "x0": 3292,
+      "y0": 3428,
+      "x1": 3331,
+      "y1": 3460
+    },
+    {
+      "text": "The Smoking Sea\n\n",
+      "confidence": 70,
+      "quad": "SE",
+      "x0": 2594,
+      "y0": 3401,
+      "x1": 2836,
+      "y1": 3471.5
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3064,
+      "y0": 3457,
+      "x1": 3117,
+      "y1": 3481
+    },
+    {
+      "text": "Tyria\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2779,
+      "y0": 3487,
+      "x1": 2811,
+      "y1": 3502
+    },
+    {
+      "text": "Gulf of\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3040,
+      "y0": 3488,
+      "x1": 3146,
+      "y1": 3513
+    },
+    {
+      "text": "Old Ghis\n\n",
+      "confidence": 82,
+      "quad": "SE",
+      "x0": 3301,
+      "y0": 3489,
+      "x1": 3359,
+      "y1": 3502
+    },
+    {
+      "text": "Red Waste\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3980,
+      "y0": 3469,
+      "x1": 4163,
+      "y1": 3504
+    },
+    {
+      "text": "Grief\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3055,
+      "y0": 3520,
+      "x1": 3132,
+      "y1": 3544
+    },
+    {
+      "text": "Gay,\n\n",
+      "confidence": 65,
+      "quad": "SE",
+      "x0": 3305,
+      "y0": 3539,
+      "x1": 3347,
+      "y1": 3578
+    },
+    {
+      "text": "fr\n\n",
+      "confidence": 1,
+      "quad": "SE",
+      "x0": 3364,
+      "y0": 3581,
+      "x1": 3402,
+      "y1": 3607
+    },
+    {
+      "text": "Vabria\n\n",
+      "confidence": 15,
+      "quad": "SE",
+      "x0": 2749,
+      "y0": 3618,
+      "x1": 2790,
+      "y1": 3633
+    },
+    {
+      "text": "Pos\n\n",
+      "confidence": 21,
+      "quad": "SE",
+      "x0": 3398,
+      "y0": 3600,
+      "x1": 3438,
+      "y1": 3633
+    },
+    {
+      "text": "Ghaen\n\n",
+      "confidence": 89,
+      "quad": "SE",
+      "x0": 3252,
+      "y0": 3652,
+      "x1": 3315,
+      "y1": 3671
+    },
+    {
+      "text": "New Ghis\n\n",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3326,
+      "y0": 3692,
+      "x1": 3408,
+      "y1": 3709
+    },
+    {
+      "text": "Ax ale\n\n",
+      "confidence": 50,
+      "quad": "SE",
+      "x0": 3366,
+      "y0": 3946,
+      "x1": 3433,
+      "y1": 3964
+    },
+    {
+      "text": "Basilisk Isles\n\n",
+      "confidence": 82,
+      "quad": "SE",
+      "x0": 2993,
+      "y0": 3964,
+      "x1": 3139,
+      "y1": 3984
+    },
+    {
+      "text": "Zamettar\n\n",
+      "confidence": 58,
+      "quad": "SE",
+      "x0": 3233,
+      "y0": 4038,
+      "x1": 3286,
+      "y1": 4048
+    },
+    {
+      "text": "The\n\n",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 4485,
+      "y0": 4050,
+      "x1": 4567,
+      "y1": 4087
+    },
+    {
+      "text": "sla of Toads\n\n",
+      "confidence": 44,
+      "quad": "SE",
+      "x0": 3076,
+      "y0": 4077,
+      "x1": 3173,
+      "y1": 4091
+    },
+    {
+      "text": "lals of Taare\n\n",
+      "confidence": 55,
+      "quad": "SE",
+      "x0": 3014,
+      "y0": 4111,
+      "x1": 3104,
+      "y1": 4125
+    },
+    {
+      "text": "Jade\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4478,
+      "y0": 4100,
+      "x1": 4572,
+      "y1": 4147
+    },
+    {
+      "text": "Naath\n\n",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2569,
+      "y0": 4153,
+      "x1": 2629,
+      "y1": 4172
+    },
+    {
+      "text": "Basilisk Point\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 2790,
+      "y0": 4170,
+      "x1": 2939,
+      "y1": 4189
+    },
+    {
+      "text": "Gogossos\n\n",
+      "confidence": 87,
+      "quad": "SE",
+      "x0": 3069,
+      "y0": 4190,
+      "x1": 3125,
+      "y1": 4204
+    },
+    {
+      "text": "Yeen\n\n",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 3298,
+      "y0": 4196,
+      "x1": 3327,
+      "y1": 4207
+    },
+    {
+      "text": "Sea\n\n",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4490,
+      "y0": 4154,
+      "x1": 4561,
+      "y1": 4187
+    },
+    {
+      "text": "The Jade\n\n",
+      "confidence": 94,
+      "quad": "SE",
+      "x0": 4457,
+      "y0": 4213,
+      "x1": 4539,
+      "y1": 4233
+    },
+    {
+      "text": "Straits of Qarth\n\n",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 4205,
+      "y0": 4217,
+      "x1": 4360,
+      "y1": 4239
+    },
+    {
+      "text": "|\n\n",
+      "confidence": 64,
+      "quad": "SE",
+      "x0": 4516,
+      "y0": 4240,
+      "x1": 4524,
+      "y1": 4251
+    },
+    {
+      "text": "Sop, og\n",
+      "confidence": 43,
+      "quad": "SE",
+      "x0": 3625,
+      "y0": 4175,
+      "x1": 3840.5,
+      "y1": 4260
+    }
+  ],
+  "words": [
+    {
+      "text": "T",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 145,
+      "y0": 228,
+      "x1": 155,
+      "y1": 241
+    },
+    {
+      "text": "€Lang",
+      "confidence": 59,
+      "quad": "NW",
+      "x0": 165,
+      "y0": 233,
+      "x1": 214,
+      "y1": 257
+    },
+    {
+      "text": "Of",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 219,
+      "y0": 247,
+      "x1": 235.5,
+      "y1": 258
+    },
+    {
+      "text": "Alay",
+      "confidence": 2,
+      "quad": "NW",
+      "x0": 243,
+      "y0": 249,
+      "x1": 290,
+      "y1": 271
+    },
+    {
+      "text": "Winta",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 297,
+      "y0": 260,
+      "x1": 339,
+      "y1": 280
+    },
+    {
+      "text": "Thent",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 631,
+      "y0": 471,
+      "x1": 679,
+      "y1": 492
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1017,
+      "y0": 472,
+      "x1": 1075,
+      "y1": 499
+    },
+    {
+      "text": "Shivering",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1090,
+      "y0": 472,
+      "x1": 1240,
+      "y1": 507
+    },
+    {
+      "text": "Sea",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1256,
+      "y0": 475,
+      "x1": 1307,
+      "y1": 500
+    },
+    {
+      "text": "Yostfang,",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 622,
+      "y0": 559,
+      "x1": 692,
+      "y1": 583
+    },
+    {
+      "text": "Sterrold’s",
+      "confidence": 41,
+      "quad": "NW",
+      "x0": 1049,
+      "y0": 581,
+      "x1": 1132,
+      "y1": 597
+    },
+    {
+      "text": "Hardhome",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 989,
+      "y0": 600,
+      "x1": 1054,
+      "y1": 613
+    },
+    {
+      "text": "Point",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 1089,
+      "y0": 602,
+      "x1": 1134,
+      "y1": 616
+    },
+    {
+      "text": "Antler",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 923,
+      "y0": 623,
+      "x1": 961,
+      "y1": 637
+    },
+    {
+      "text": "oft",
+      "confidence": 4,
+      "quad": "NW",
+      "x0": 650,
+      "y0": 642,
+      "x1": 672,
+      "y1": 675
+    },
+    {
+      "text": "SG",
+      "confidence": 38,
+      "quad": "NW",
+      "x0": 683,
+      "y0": 642,
+      "x1": 724.5,
+      "y1": 675
+    },
+    {
+      "text": "Craster's",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 839,
+      "y0": 666,
+      "x1": 893,
+      "y1": 677
+    },
+    {
+      "text": "Keep",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 898,
+      "y0": 667,
+      "x1": 928,
+      "y1": 681
+    },
+    {
+      "text": "yr",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 948,
+      "y0": 672,
+      "x1": 988,
+      "y1": 686
+    },
+    {
+      "text": "—",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1010,
+      "y0": 672,
+      "x1": 1030,
+      "y1": 686
+    },
+    {
+      "text": "Skane",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 1125,
+      "y0": 648,
+      "x1": 1171,
+      "y1": 664
+    },
+    {
+      "text": "Skages",
+      "confidence": 55,
+      "quad": "NW",
+      "x0": 1185,
+      "y0": 656,
+      "x1": 1245,
+      "y1": 681
+    },
+    {
+      "text": "{Farm",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 970,
+      "y0": 691,
+      "x1": 1009,
+      "y1": 704
+    },
+    {
+      "text": "Whitetree",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 711,
+      "x1": 935,
+      "y1": 722
+    },
+    {
+      "text": "Castle",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 932,
+      "y0": 730,
+      "x1": 970,
+      "y1": 744
+    },
+    {
+      "text": "Black",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 977,
+      "y0": 730,
+      "x1": 1010,
+      "y1": 744
+    },
+    {
+      "text": "Fastwatch",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1047,
+      "y0": 746,
+      "x1": 1105,
+      "y1": 758
+    },
+    {
+      "text": "e",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 429,
+      "y0": 732,
+      "x1": 437,
+      "y1": 740
+    },
+    {
+      "text": "rose",
+      "confidence": 25,
+      "quad": "NW",
+      "x0": 440,
+      "y0": 732,
+      "x1": 490,
+      "y1": 762
+    },
+    {
+      "text": "8",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 493,
+      "y0": 755,
+      "x1": 504,
+      "y1": 767
+    },
+    {
+      "text": "bop",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 503,
+      "y0": 758,
+      "x1": 536,
+      "y1": 780
+    },
+    {
+      "text": "Shadow?",
+      "confidence": 74,
+      "quad": "NW",
+      "x0": 783,
+      "y0": 747,
+      "x1": 844,
+      "y1": 771
+    },
+    {
+      "text": "455",
+      "confidence": 51,
+      "quad": "NW",
+      "x0": 854,
+      "y0": 754,
+      "x1": 885,
+      "y1": 766
+    },
+    {
+      "text": "78910",
+      "confidence": 68,
+      "quad": "NW",
+      "x0": 893,
+      "y0": 757,
+      "x1": 934,
+      "y1": 770
+    },
+    {
+      "text": "12131415157,",
+      "confidence": 60,
+      "quad": "NW",
+      "x0": 951,
+      "y0": 765,
+      "x1": 1037,
+      "y1": 782
+    },
+    {
+      "text": "by-the-Sea",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 1045,
+      "y0": 763,
+      "x1": 1105,
+      "y1": 778
+    },
+    {
+      "text": "Tower",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 786,
+      "y0": 778,
+      "x1": 828,
+      "y1": 789
+    },
+    {
+      "text": "Queenscrown",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 859,
+      "y0": 814,
+      "x1": 937,
+      "y1": 828
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 535,
+      "y0": 814,
+      "x1": 578,
+      "y1": 839
+    },
+    {
+      "text": "of",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 590,
+      "y0": 812,
+      "x1": 617,
+      "y1": 833
+    },
+    {
+      "text": "lce",
+      "confidence": 81,
+      "quad": "NW",
+      "x0": 626,
+      "y0": 814,
+      "x1": 661,
+      "y1": 833
+    },
+    {
+      "text": "Baar",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 480,
+      "y0": 852,
+      "x1": 515,
+      "y1": 865
+    },
+    {
+      "text": "Toland",
+      "confidence": 43,
+      "quad": "NW",
+      "x0": 522,
+      "y0": 851,
+      "x1": 569,
+      "y1": 865
+    },
+    {
+      "text": "1bben",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 2279,
+      "y0": 829,
+      "x1": 2346,
+      "y1": 850
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1088,
+      "y0": 872,
+      "x1": 1131,
+      "y1": 897
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1143,
+      "y0": 870,
+      "x1": 1169,
+      "y1": 891
+    },
+    {
+      "text": "Seals",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 1178,
+      "y0": 870,
+      "x1": 1240,
+      "y1": 891
+    },
+    {
+      "text": "Last",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 984,
+      "y0": 927,
+      "x1": 1011,
+      "y1": 938
+    },
+    {
+      "text": "Hearth",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1016,
+      "y0": 925,
+      "x1": 1061,
+      "y1": 938
+    },
+    {
+      "text": "Sen",
+      "confidence": 59,
+      "quad": "NW",
+      "x0": 318,
+      "y0": 939,
+      "x1": 347.5,
+      "y1": 961
+    },
+    {
+      "text": "Dragon",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 358,
+      "y0": 939,
+      "x1": 417,
+      "y1": 961
+    },
+    {
+      "text": "4",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 956,
+      "y0": 979,
+      "x1": 966,
+      "y1": 993
+    },
+    {
+      "text": "“ey,",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 966,
+      "y0": 987.5,
+      "x1": 1001,
+      "y1": 1020
+    },
+    {
+      "text": "Karhold",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1157,
+      "y0": 1000,
+      "x1": 1206,
+      "y1": 1013
+    },
+    {
+      "text": "I]",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 1253,
+      "y0": 1002,
+      "x1": 1263,
+      "y1": 1011
+    },
+    {
+      "text": "Deepwaod",
+      "confidence": 84,
+      "quad": "NW",
+      "x0": 548,
+      "y0": 1020,
+      "x1": 616,
+      "y1": 1036
+    },
+    {
+      "text": "Motte",
+      "confidence": 72,
+      "quad": "NW",
+      "x0": 545,
+      "y0": 1039,
+      "x1": 583,
+      "y1": 1050
+    },
+    {
+      "text": "“,",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1015,
+      "y0": 1024,
+      "x1": 1037,
+      "y1": 1045
+    },
+    {
+      "text": "The",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 953,
+      "y0": 1107,
+      "x1": 977,
+      "y1": 1120
+    },
+    {
+      "text": "Dreadfort",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 983,
+      "y0": 1107,
+      "x1": 1046,
+      "y1": 1120
+    },
+    {
+      "text": "|",
+      "confidence": 27,
+      "quad": "NW",
+      "x0": 1073,
+      "y0": 1105,
+      "x1": 1079.5,
+      "y1": 1142
+    },
+    {
+      "text": "Winterfell",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 741,
+      "y0": 1164,
+      "x1": 813,
+      "y1": 1178
+    },
+    {
+      "text": "soe?",
+      "confidence": 48,
+      "quad": "NW",
+      "x0": 882,
+      "y0": 1164,
+      "x1": 912,
+      "y1": 1182
+    },
+    {
+      "text": "We",
+      "confidence": 72,
+      "quad": "NW",
+      "x0": 936,
+      "y0": 1144,
+      "x1": 957,
+      "y1": 1159
+    },
+    {
+      "text": "“5",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 981,
+      "y0": 1139,
+      "x1": 1017,
+      "y1": 1178
+    },
+    {
+      "text": "goed",
+      "confidence": 38,
+      "quad": "NW",
+      "x0": 841,
+      "y0": 1181,
+      "x1": 873,
+      "y1": 1199
+    },
+    {
+      "text": "“",
+      "confidence": 34,
+      "quad": "NW",
+      "x0": 1016,
+      "y0": 1170,
+      "x1": 1041,
+      "y1": 1194
+    },
+    {
+      "text": "Hisrummad",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 929,
+      "y0": 1224,
+      "x1": 994,
+      "y1": 1238
+    },
+    {
+      "text": "Torrhen",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 591,
+      "y0": 1245,
+      "x1": 642,
+      "y1": 1257
+    },
+    {
+      "text": "Square",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 608,
+      "y0": 1264,
+      "x1": 652,
+      "y1": 1278
+    },
+    {
+      "text": "By",
+      "confidence": 47,
+      "quad": "NW",
+      "x0": 594,
+      "y0": 1336,
+      "x1": 616,
+      "y1": 1354
+    },
+    {
+      "text": "rq",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 618,
+      "y0": 1349,
+      "x1": 645,
+      "y1": 1365
+    },
+    {
+      "text": "lang,",
+      "confidence": 75,
+      "quad": "NW",
+      "x0": 661,
+      "y0": 1363,
+      "x1": 707,
+      "y1": 1390
+    },
+    {
+      "text": "Ramsgate",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 996,
+      "y0": 1370,
+      "x1": 1049,
+      "y1": 1386
+    },
+    {
+      "text": "Ni",
+      "confidence": 51,
+      "quad": "NW",
+      "x0": 391,
+      "y0": 1381,
+      "x1": 410,
+      "y1": 1399
+    },
+    {
+      "text": "&",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 379,
+      "y0": 1397,
+      "x1": 398,
+      "y1": 1414
+    },
+    {
+      "text": "Barrowton",
+      "confidence": 86,
+      "quad": "NW",
+      "x0": 572,
+      "y0": 1401,
+      "x1": 644,
+      "y1": 1414
+    },
+    {
+      "text": "White",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 862,
+      "y0": 1423,
+      "x1": 906,
+      "y1": 1439
+    },
+    {
+      "text": "Harbor",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 913,
+      "y0": 1423,
+      "x1": 966,
+      "y1": 1439
+    },
+    {
+      "text": "Widow's",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 1171,
+      "y0": 1414,
+      "x1": 1225,
+      "y1": 1428
+    },
+    {
+      "text": "Watch",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1231,
+      "y0": 1414,
+      "x1": 1272,
+      "y1": 1427
+    },
+    {
+      "text": "&",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 355,
+      "y0": 1417,
+      "x1": 381,
+      "y1": 1442
+    },
+    {
+      "text": "Moat",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 752,
+      "y0": 1485,
+      "x1": 783,
+      "y1": 1497
+    },
+    {
+      "text": "Cailin",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 788,
+      "y0": 1484,
+      "x1": 822,
+      "y1": 1497
+    },
+    {
+      "text": "Blazewater",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 281,
+      "y0": 1511,
+      "x1": 407,
+      "y1": 1531
+    },
+    {
+      "text": "Oldcastle",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 878,
+      "y0": 1516,
+      "x1": 933,
+      "y1": 1528
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 324,
+      "y0": 1539,
+      "x1": 364,
+      "y1": 1562
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1387,
+      "y0": 1531,
+      "x1": 1445,
+      "y1": 1558
+    },
+    {
+      "text": "Shivering",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1460,
+      "y0": 1531,
+      "x1": 1610,
+      "y1": 1566
+    },
+    {
+      "text": "Sea",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1626,
+      "y0": 1534,
+      "x1": 1677,
+      "y1": 1559
+    },
+    {
+      "text": "Cape",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 242,
+      "y0": 1553,
+      "x1": 284,
+      "y1": 1572
+    },
+    {
+      "text": "Flint's",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 414,
+      "y0": 1567,
+      "x1": 452,
+      "y1": 1580
+    },
+    {
+      "text": "Finger",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 458,
+      "y0": 1569,
+      "x1": 499,
+      "y1": 1584
+    },
+    {
+      "text": "The",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 865,
+      "y0": 1555,
+      "x1": 898,
+      "y1": 1577
+    },
+    {
+      "text": "Threa",
+      "confidence": 75,
+      "quad": "NW",
+      "x0": 907,
+      "y0": 1555,
+      "x1": 951.5,
+      "y1": 1577
+    },
+    {
+      "text": "Sisters",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 960,
+      "y0": 1555,
+      "x1": 1017.5,
+      "y1": 1577
+    },
+    {
+      "text": "Kraken",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 224,
+      "y0": 1571,
+      "x1": 284,
+      "y1": 1587
+    },
+    {
+      "text": "Sweatsister",
+      "confidence": 7,
+      "quad": "NW",
+      "x0": 832,
+      "y0": 1577,
+      "x1": 924,
+      "y1": 1591
+    },
+    {
+      "text": "Sisterton",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 950,
+      "y0": 1577,
+      "x1": 1010,
+      "y1": 1589
+    },
+    {
+      "text": "Pebble",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 1060,
+      "y0": 1586,
+      "x1": 1110,
+      "y1": 1601
+    },
+    {
+      "text": "The",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 1191,
+      "y0": 1574,
+      "x1": 1220,
+      "y1": 1597
+    },
+    {
+      "text": "Pope",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 1227,
+      "y0": 1574,
+      "x1": 1260,
+      "y1": 1597
+    },
+    {
+      "text": "W",
+      "confidence": 13,
+      "quad": "NW",
+      "x0": 653,
+      "y0": 1603,
+      "x1": 662,
+      "y1": 1610
+    },
+    {
+      "text": "fy",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 640,
+      "y0": 1621,
+      "x1": 654,
+      "y1": 1632
+    },
+    {
+      "text": "Ld",
+      "confidence": 55,
+      "quad": "NW",
+      "x0": 645,
+      "y0": 1613,
+      "x1": 659,
+      "y1": 1622
+    },
+    {
+      "text": "Greywater",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 675,
+      "y0": 1605,
+      "x1": 746,
+      "y1": 1621
+    },
+    {
+      "text": "Littlesiotar",
+      "confidence": 22,
+      "quad": "NW",
+      "x0": 940,
+      "y0": 1605,
+      "x1": 1024,
+      "y1": 1620
+    },
+    {
+      "text": "Watch",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 688,
+      "y0": 1622,
+      "x1": 731,
+      "y1": 1635
+    },
+    {
+      "text": "Lengsister",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 1626,
+      "x1": 936,
+      "y1": 1643
+    },
+    {
+      "text": "cis",
+      "confidence": 24,
+      "quad": "NW",
+      "x0": 402,
+      "y0": 1631,
+      "x1": 447,
+      "y1": 1650
+    },
+    {
+      "text": "The",
+      "confidence": 44,
+      "quad": "NW",
+      "x0": 324,
+      "y0": 1656,
+      "x1": 353,
+      "y1": 1670
+    },
+    {
+      "text": "unt",
+      "confidence": 47,
+      "quad": "NW",
+      "x0": 359,
+      "y0": 1643,
+      "x1": 397,
+      "y1": 1662
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 773,
+      "y0": 1652,
+      "x1": 815,
+      "y1": 1672
+    },
+    {
+      "text": "Bite",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 825,
+      "y0": 1654,
+      "x1": 870,
+      "y1": 1672
+    },
+    {
+      "text": "Coldwater",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1029,
+      "y0": 1659,
+      "x1": 1086,
+      "y1": 1671
+    },
+    {
+      "text": "The",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 1228,
+      "y0": 1669,
+      "x1": 1259,
+      "y1": 1692
+    },
+    {
+      "text": "Flugens",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 1268,
+      "y0": 1669,
+      "x1": 1326,
+      "y1": 1692
+    },
+    {
+      "text": "Braavos",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1450,
+      "y0": 1672,
+      "x1": 1531,
+      "y1": 1690
+    },
+    {
+      "text": "Snakewood",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1130,
+      "y0": 1710,
+      "x1": 1196,
+      "y1": 1722
+    },
+    {
+      "text": "Lorath",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1747,
+      "y0": 1728,
+      "x1": 1809,
+      "y1": 1748
+    },
+    {
+      "text": "The",
+      "confidence": 81,
+      "quad": "NW",
+      "x0": 670,
+      "y0": 1759,
+      "x1": 692,
+      "y1": 1771
+    },
+    {
+      "text": "Twins",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 698,
+      "y0": 1761,
+      "x1": 734,
+      "y1": 1772
+    },
+    {
+      "text": "Longbow",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 1161,
+      "y0": 1748,
+      "x1": 1214,
+      "y1": 1763
+    },
+    {
+      "text": "Hall",
+      "confidence": 85,
+      "quad": "NW",
+      "x0": 1218,
+      "y0": 1748,
+      "x1": 1241,
+      "y1": 1760
+    },
+    {
+      "text": "ds",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 365,
+      "y0": 1778,
+      "x1": 400,
+      "y1": 1807
+    },
+    {
+      "text": "Strongsong",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 888,
+      "y0": 1785,
+      "x1": 956,
+      "y1": 1799
+    },
+    {
+      "text": "Heart's",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 1001,
+      "y0": 1789,
+      "x1": 1042,
+      "y1": 1800
+    },
+    {
+      "text": "Homa",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1047,
+      "y0": 1790,
+      "x1": 1082,
+      "y1": 1800
+    },
+    {
+      "text": "wm",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 495,
+      "y0": 1782,
+      "x1": 557,
+      "y1": 1816
+    },
+    {
+      "text": "s\\a®",
+      "confidence": 64,
+      "quad": "NW",
+      "x0": 299,
+      "y0": 1794,
+      "x1": 363,
+      "y1": 1826
+    },
+    {
+      "text": "Seagard",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 624,
+      "y0": 1812,
+      "x1": 671,
+      "y1": 1827
+    },
+    {
+      "text": "ok",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1111,
+      "y0": 1809,
+      "x1": 1140,
+      "y1": 1829
+    },
+    {
+      "text": "Lorath",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1757,
+      "y0": 1815,
+      "x1": 1826,
+      "y1": 1833
+    },
+    {
+      "text": "The",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 2175,
+      "y0": 1819,
+      "x1": 2217,
+      "y1": 1839
+    },
+    {
+      "text": "Axe",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 2227,
+      "y0": 1821,
+      "x1": 2267,
+      "y1": 1839
+    },
+    {
+      "text": "eo?",
+      "confidence": 40,
+      "quad": "NW",
+      "x0": 202,
+      "y0": 1820,
+      "x1": 271.5,
+      "y1": 1852
+    },
+    {
+      "text": "\\",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 283,
+      "y0": 1805,
+      "x1": 297,
+      "y1": 1829
+    },
+    {
+      "text": "OH",
+      "confidence": 61,
+      "quad": "NW",
+      "x0": 323,
+      "y0": 1833,
+      "x1": 347.5,
+      "y1": 1862
+    },
+    {
+      "text": "oriment",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 356.5,
+      "y0": 1833,
+      "x1": 422.5,
+      "y1": 1862
+    },
+    {
+      "text": "Hags",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 677,
+      "y0": 1844,
+      "x1": 702,
+      "y1": 1857
+    },
+    {
+      "text": "OM",
+      "confidence": 68,
+      "quad": "NW",
+      "x0": 1165,
+      "y0": 1841,
+      "x1": 1186,
+      "y1": 1853
+    },
+    {
+      "text": "Anchor",
+      "confidence": 83,
+      "quad": "NW",
+      "x0": 1189,
+      "y0": 1841,
+      "x1": 1232,
+      "y1": 1853
+    },
+    {
+      "text": "Mire",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 674,
+      "y0": 1859,
+      "x1": 699,
+      "y1": 1868
+    },
+    {
+      "text": "&®",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 1073,
+      "y0": 1842,
+      "x1": 1091,
+      "y1": 1858
+    },
+    {
+      "text": "Ironoaks",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 1108,
+      "y0": 1858,
+      "x1": 1158,
+      "y1": 1871
+    },
+    {
+      "text": "Great",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 207,
+      "y0": 1854,
+      "x1": 251.5,
+      "y1": 1883.5
+    },
+    {
+      "text": "Wyk",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 261,
+      "y0": 1854,
+      "x1": 291,
+      "y1": 1883.5
+    },
+    {
+      "text": "Ironman's",
+      "confidence": 12,
+      "quad": "NW",
+      "x0": 514,
+      "y0": 1868,
+      "x1": 637,
+      "y1": 1888
+    },
+    {
+      "text": "%",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 763,
+      "y0": 1855,
+      "x1": 784,
+      "y1": 1882
+    },
+    {
+      "text": "The",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 973,
+      "y0": 1863,
+      "x1": 994,
+      "y1": 1875
+    },
+    {
+      "text": "Eyrie",
+      "confidence": 84,
+      "quad": "NW",
+      "x0": 1000,
+      "y0": 1865,
+      "x1": 1027,
+      "y1": 1878
+    },
+    {
+      "text": "0°",
+      "confidence": 22,
+      "quad": "NW",
+      "x0": 1033,
+      "y0": 1865,
+      "x1": 1059,
+      "y1": 1883
+    },
+    {
+      "text": "Oidstones",
+      "confidence": 51,
+      "quad": "NW",
+      "x0": 698,
+      "y0": 1887,
+      "x1": 751,
+      "y1": 1899
+    },
+    {
+      "text": "Rurestone",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 1254,
+      "y0": 1885,
+      "x1": 1318,
+      "y1": 1896
+    },
+    {
+      "text": "Ten",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 462,
+      "y0": 1899,
+      "x1": 484,
+      "y1": 1910
+    },
+    {
+      "text": "Towers",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 489,
+      "y0": 1899,
+      "x1": 532,
+      "y1": 1910
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 552,
+      "y0": 1894,
+      "x1": 597,
+      "y1": 1922
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 914,
+      "y0": 1904,
+      "x1": 937,
+      "y1": 1916
+    },
+    {
+      "text": "Bloody",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 943,
+      "y0": 1904,
+      "x1": 985,
+      "y1": 1920
+    },
+    {
+      "text": "Harvlew",
+      "confidence": 20,
+      "quad": "NW",
+      "x0": 440,
+      "y0": 1919,
+      "x1": 494,
+      "y1": 1934
+    },
+    {
+      "text": "Gate",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 932,
+      "y0": 1923,
+      "x1": 960,
+      "y1": 1933
+    },
+    {
+      "text": "Gulltown",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1249,
+      "y0": 1916,
+      "x1": 1319,
+      "y1": 1931
+    },
+    {
+      "text": "Braavosian",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1441,
+      "y0": 1910,
+      "x1": 1524,
+      "y1": 1924
+    },
+    {
+      "text": "Fairmarket",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 681,
+      "y0": 1933,
+      "x1": 747,
+      "y1": 1946
+    },
+    {
+      "text": "LY",
+      "confidence": 16,
+      "quad": "NW",
+      "x0": 775,
+      "y0": 1928,
+      "x1": 795,
+      "y1": 1949
+    },
+    {
+      "text": "Redfort",
+      "confidence": 85,
+      "quad": "NW",
+      "x0": 1064,
+      "y0": 1928,
+      "x1": 1106,
+      "y1": 1940
+    },
+    {
+      "text": "Coastlands",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1438,
+      "y0": 1931,
+      "x1": 1522,
+      "y1": 1946
+    },
+    {
+      "text": "Pyke",
+      "confidence": 93,
+      "quad": "NW",
+      "x0": 390,
+      "y0": 1940,
+      "x1": 418,
+      "y1": 1955
+    },
+    {
+      "text": "ils",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 1867,
+      "y0": 1946,
+      "x1": 1891,
+      "y1": 1969
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1900,
+      "y0": 1936,
+      "x1": 1922,
+      "y1": 1961
+    },
+    {
+      "text": "Norvos",
+      "confidence": 39,
+      "quad": "NW",
+      "x0": 1929,
+      "y0": 1926,
+      "x1": 2003,
+      "y1": 1955
+    },
+    {
+      "text": "Salteliffe",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 250,
+      "y0": 1956,
+      "x1": 320,
+      "y1": 1971
+    },
+    {
+      "text": "Pyke",
+      "confidence": 57,
+      "quad": "NW",
+      "x0": 348,
+      "y0": 1957,
+      "x1": 383,
+      "y1": 1975
+    },
+    {
+      "text": "Bay",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1195,
+      "y0": 1953,
+      "x1": 1224,
+      "y1": 1976
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1231,
+      "y0": 1953,
+      "x1": 1251,
+      "y1": 1976
+    },
+    {
+      "text": "Banefort",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 358,
+      "y0": 1985,
+      "x1": 408,
+      "y1": 1997
+    },
+    {
+      "text": "we",
+      "confidence": 49,
+      "quad": "NW",
+      "x0": 696,
+      "y0": 1958,
+      "x1": 794,
+      "y1": 1987
+    },
+    {
+      "text": "High",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 904,
+      "y0": 1984,
+      "x1": 928,
+      "y1": 1999
+    },
+    {
+      "text": "Road",
+      "confidence": 85,
+      "quad": "NW",
+      "x0": 933,
+      "y0": 1984,
+      "x1": 959,
+      "y1": 1996
+    },
+    {
+      "text": "Crabs",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1199,
+      "y0": 1973,
+      "x1": 1247,
+      "y1": 1988
+    },
+    {
+      "text": "2",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 736,
+      "y0": 1994,
+      "x1": 748,
+      "y1": 2002
+    },
+    {
+      "text": "Bg",
+      "confidence": 13,
+      "quad": "NW",
+      "x0": 754,
+      "y0": 1994,
+      "x1": 787,
+      "y1": 2013
+    },
+    {
+      "text": "Stone",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 770,
+      "y0": 2018,
+      "x1": 798,
+      "y1": 2026
+    },
+    {
+      "text": "Andalos",
+      "confidence": 36,
+      "quad": "NW",
+      "x0": 1547,
+      "y0": 1991,
+      "x1": 1627,
+      "y1": 2026
+    },
+    {
+      "text": "Hedge",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 769,
+      "y0": 2031,
+      "x1": 799,
+      "y1": 2042
+    },
+    {
+      "text": "Saltpans",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 931,
+      "y0": 2028,
+      "x1": 978,
+      "y1": 2043
+    },
+    {
+      "text": "Wickenden",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1047,
+      "y0": 2022,
+      "x1": 1112,
+      "y1": 2035
+    },
+    {
+      "text": "Dyre",
+      "confidence": 85,
+      "quad": "NW",
+      "x0": 1155,
+      "y0": 2018,
+      "x1": 1185,
+      "y1": 2033
+    },
+    {
+      "text": "Den",
+      "confidence": 68,
+      "quad": "NW",
+      "x0": 1191,
+      "y0": 2018,
+      "x1": 1216,
+      "y1": 2029
+    },
+    {
+      "text": "nd",
+      "confidence": 25,
+      "quad": "NW",
+      "x0": 1214,
+      "y0": 2033,
+      "x1": 1228,
+      "y1": 2044
+    },
+    {
+      "text": "rg",
+      "confidence": 45,
+      "quad": "NW",
+      "x0": 528,
+      "y0": 2020,
+      "x1": 595,
+      "y1": 2053
+    },
+    {
+      "text": "Riverrun",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 608,
+      "y0": 2025,
+      "x1": 660,
+      "y1": 2044
+    },
+    {
+      "text": "3°",
+      "confidence": 24,
+      "quad": "NW",
+      "x0": 1201,
+      "y0": 2043,
+      "x1": 1218,
+      "y1": 2058
+    },
+    {
+      "text": "Claw",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1263,
+      "y0": 2036,
+      "x1": 1303,
+      "y1": 2051
+    },
+    {
+      "text": "Norvos",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 1931,
+      "y0": 2042,
+      "x1": 2004,
+      "y1": 2060
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 350,
+      "y0": 2049,
+      "x1": 373,
+      "y1": 2062
+    },
+    {
+      "text": "Crag",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 379,
+      "y0": 2051,
+      "x1": 408,
+      "y1": 2066
+    },
+    {
+      "text": "Quiet",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 933,
+      "y0": 2058,
+      "x1": 963,
+      "y1": 2072
+    },
+    {
+      "text": "Isle",
+      "confidence": 35,
+      "quad": "NW",
+      "x0": 968,
+      "y0": 2057,
+      "x1": 985,
+      "y1": 2069
+    },
+    {
+      "text": "sla",
+      "confidence": 52,
+      "quad": "NW",
+      "x0": 1268,
+      "y0": 2054,
+      "x1": 1297,
+      "y1": 2069
+    },
+    {
+      "text": "Pair",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 313,
+      "y0": 2083,
+      "x1": 346,
+      "y1": 2096
+    },
+    {
+      "text": "Ashemark",
+      "confidence": 71,
+      "quad": "NW",
+      "x0": 433,
+      "y0": 2076,
+      "x1": 488,
+      "y1": 2087
+    },
+    {
+      "text": "J",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 625,
+      "y0": 2075,
+      "x1": 639,
+      "y1": 2097
+    },
+    {
+      "text": "High",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 723,
+      "y0": 2073,
+      "x1": 750,
+      "y1": 2088
+    },
+    {
+      "text": "Heart",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 756,
+      "y0": 2074,
+      "x1": 789,
+      "y1": 2085
+    },
+    {
+      "text": "Harrenhal",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 857,
+      "y0": 2073,
+      "x1": 917,
+      "y1": 2086
+    },
+    {
+      "text": "Isle",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 315,
+      "y0": 2099,
+      "x1": 344,
+      "y1": 2113
+    },
+    {
+      "text": "Acorn",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 712,
+      "y0": 2094,
+      "x1": 748,
+      "y1": 2105
+    },
+    {
+      "text": "Hall",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 754,
+      "y0": 2093,
+      "x1": 778,
+      "y1": 2105
+    },
+    {
+      "text": "Maidenpaol",
+      "confidence": 56,
+      "quad": "NW",
+      "x0": 1014,
+      "y0": 2091,
+      "x1": 1087,
+      "y1": 2107
+    },
+    {
+      "text": "<¥",
+      "confidence": 67,
+      "quad": "NW",
+      "x0": 1158,
+      "y0": 2093,
+      "x1": 1171,
+      "y1": 2107
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1231,
+      "y0": 2085,
+      "x1": 1254,
+      "y1": 2097
+    },
+    {
+      "text": "Whispers",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1259,
+      "y0": 2085,
+      "x1": 1316,
+      "y1": 2101
+    },
+    {
+      "text": "Pinkmaiden",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 661,
+      "y0": 2113,
+      "x1": 733,
+      "y1": 2125
+    },
+    {
+      "text": "LT\"",
+      "confidence": 33,
+      "quad": "NW",
+      "x0": 830,
+      "y0": 2099,
+      "x1": 876,
+      "y1": 2122
+    },
+    {
+      "text": "Antlers",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 959,
+      "y0": 2110,
+      "x1": 1004,
+      "y1": 2124
+    },
+    {
+      "text": "Rook's",
+      "confidence": 82,
+      "quad": "NW",
+      "x0": 1069,
+      "y0": 2114,
+      "x1": 1108,
+      "y1": 2126
+    },
+    {
+      "text": "Faircastle",
+      "confidence": 69,
+      "quad": "NW",
+      "x0": 279,
+      "y0": 2123,
+      "x1": 339,
+      "y1": 2137
+    },
+    {
+      "text": "Golden",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 444,
+      "y0": 2122,
+      "x1": 485,
+      "y1": 2134
+    },
+    {
+      "text": "Tooth",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 491,
+      "y0": 2122,
+      "x1": 526,
+      "y1": 2134
+    },
+    {
+      "text": "ih",
+      "confidence": 17,
+      "quad": "NW",
+      "x0": 832,
+      "y0": 2124,
+      "x1": 870,
+      "y1": 2138
+    },
+    {
+      "text": "af",
+      "confidence": 33,
+      "quad": "NW",
+      "x0": 857.5,
+      "y0": 2122,
+      "x1": 872.5,
+      "y1": 2144
+    },
+    {
+      "text": "Rest",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1067,
+      "y0": 2132,
+      "x1": 1093,
+      "y1": 2142
+    },
+    {
+      "text": "Dragonstone",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 1178,
+      "y0": 2125,
+      "x1": 1253,
+      "y1": 2139
+    },
+    {
+      "text": "ss",
+      "confidence": 53,
+      "quad": "NW",
+      "x0": 834,
+      "y0": 2142,
+      "x1": 866,
+      "y1": 2154
+    },
+    {
+      "text": "Driftmark",
+      "confidence": 42,
+      "quad": "NW",
+      "x0": 1135,
+      "y0": 2145,
+      "x1": 1201,
+      "y1": 2157
+    },
+    {
+      "text": "Sow's",
+      "confidence": 80,
+      "quad": "NW",
+      "x0": 955,
+      "y0": 2173,
+      "x1": 988,
+      "y1": 2185
+    },
+    {
+      "text": "Horn",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 993,
+      "y0": 2174,
+      "x1": 1023,
+      "y1": 2185
+    },
+    {
+      "text": "Sarsfield",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 428,
+      "y0": 2187,
+      "x1": 481,
+      "y1": 2201
+    },
+    {
+      "text": "Hornvale",
+      "confidence": 21,
+      "quad": "NW",
+      "x0": 564,
+      "y0": 2194,
+      "x1": 619,
+      "y1": 2207
+    },
+    {
+      "text": "Stoney",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 711,
+      "y0": 2189,
+      "x1": 751,
+      "y1": 2203
+    },
+    {
+      "text": "Sept",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 755,
+      "y0": 2189,
+      "x1": 781,
+      "y1": 2203
+    },
+    {
+      "text": "Tha",
+      "confidence": 66,
+      "quad": "NW",
+      "x0": 1143,
+      "y0": 2184,
+      "x1": 1171,
+      "y1": 2198
+    },
+    {
+      "text": "Gullat",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 1178,
+      "y0": 2184,
+      "x1": 1225,
+      "y1": 2199
+    },
+    {
+      "text": "Kayce",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 259,
+      "y0": 2206,
+      "x1": 294,
+      "y1": 2221
+    },
+    {
+      "text": "Duskendale",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 968,
+      "y0": 2200,
+      "x1": 1036,
+      "y1": 2213
+    },
+    {
+      "text": "Sharp",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1202,
+      "y0": 2205,
+      "x1": 1239,
+      "y1": 2221
+    },
+    {
+      "text": "Paint",
+      "confidence": 76,
+      "quad": "NW",
+      "x0": 1245,
+      "y0": 2206,
+      "x1": 1278,
+      "y1": 2217
+    },
+    {
+      "text": "“iy",
+      "confidence": 40,
+      "quad": "NW",
+      "x0": 1678,
+      "y0": 2188,
+      "x1": 1708,
+      "y1": 2212
+    },
+    {
+      "text": "Casterly",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 320,
+      "y0": 2211,
+      "x1": 367,
+      "y1": 2227
+    },
+    {
+      "text": "Rock",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 327,
+      "y0": 2229,
+      "x1": 354,
+      "y1": 2240
+    },
+    {
+      "text": "Deep",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 576,
+      "y0": 2241,
+      "x1": 607,
+      "y1": 2255
+    },
+    {
+      "text": "Den",
+      "confidence": 70,
+      "quad": "NW",
+      "x0": 613,
+      "y0": 2241,
+      "x1": 637,
+      "y1": 2252
+    },
+    {
+      "text": "Pentos",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1535,
+      "y0": 2231,
+      "x1": 1602,
+      "y1": 2249
+    },
+    {
+      "text": "Ghayan",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1734,
+      "y0": 2229,
+      "x1": 1785,
+      "y1": 2247
+    },
+    {
+      "text": "Feastfires",
+      "confidence": 87,
+      "quad": "NW",
+      "x0": 241,
+      "y0": 2259,
+      "x1": 299,
+      "y1": 2272
+    },
+    {
+      "text": "Lannisport",
+      "confidence": 43,
+      "quad": "NW",
+      "x0": 342,
+      "y0": 2253,
+      "x1": 410,
+      "y1": 2269
+    },
+    {
+      "text": "Blackwater",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 1056,
+      "y0": 2252,
+      "x1": 1178,
+      "y1": 2271
+    },
+    {
+      "text": "Stonedance",
+      "confidence": 91,
+      "quad": "NW",
+      "x0": 1222,
+      "y0": 2245,
+      "x1": 1295,
+      "y1": 2258
+    },
+    {
+      "text": "Drohe",
+      "confidence": 90,
+      "quad": "NW",
+      "x0": 1737,
+      "y0": 2249,
+      "x1": 1778,
+      "y1": 2262
+    },
+    {
+      "text": "a",
+      "confidence": 26,
+      "quad": "NW",
+      "x0": 751,
+      "y0": 2244,
+      "x1": 774.5,
+      "y1": 2279
+    },
+    {
+      "text": "obo?",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 694,
+      "y0": 2273,
+      "x1": 746,
+      "y1": 2302
+    },
+    {
+      "text": "Rosby",
+      "confidence": 73,
+      "quad": "NW",
+      "x0": 987,
+      "y0": 2276,
+      "x1": 1021,
+      "y1": 2291
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1097,
+      "y0": 2279,
+      "x1": 1136,
+      "y1": 2301
+    },
+    {
+      "text": "Qohor",
+      "confidence": 89,
+      "quad": "NW",
+      "x0": 2242,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2305
+    },
+    {
+      "text": "King's",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 824,
+      "y0": 2294,
+      "x1": 869,
+      "y1": 2313
+    },
+    {
+      "text": "Landing",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 876,
+      "y0": 2293,
+      "x1": 937,
+      "y1": 2313
+    },
+    {
+      "text": "ag",
+      "confidence": 7,
+      "quad": "NW",
+      "x0": 1204,
+      "y0": 2278,
+      "x1": 1273,
+      "y1": 2309
+    },
+    {
+      "text": "The",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1326,
+      "y0": 2286,
+      "x1": 1404,
+      "y1": 2321
+    },
+    {
+      "text": "Silverhill",
+      "confidence": 0,
+      "quad": "NW",
+      "x0": 548,
+      "y0": 2311,
+      "x1": 602,
+      "y1": 2324
+    },
+    {
+      "text": "Cornfield",
+      "confidence": 92,
+      "quad": "NW",
+      "x0": 401,
+      "y0": 2332,
+      "x1": 456,
+      "y1": 2344
+    },
+    {
+      "text": "The",
+      "confidence": 94,
+      "quad": "NW",
+      "x0": 1619,
+      "y0": 2330,
+      "x1": 1659,
+      "y1": 2351
+    },
+    {
+      "text": "Flatlands",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1669,
+      "y0": 2330,
+      "x1": 1763,
+      "y1": 2351
+    },
+    {
+      "text": "Ny",
+      "confidence": 88,
+      "quad": "NW",
+      "x0": 1950,
+      "y0": 2329,
+      "x1": 1967,
+      "y1": 2344
+    },
+    {
+      "text": "Sar",
+      "confidence": 96,
+      "quad": "NW",
+      "x0": 1972,
+      "y0": 2329,
+      "x1": 1993,
+      "y1": 2340
+    },
+    {
+      "text": "Narrow",
+      "confidence": 95,
+      "quad": "NW",
+      "x0": 1287,
+      "y0": 2337,
+      "x1": 1444,
+      "y1": 2369
+    },
+    {
+      "text": "Crakehali",
+      "confidence": 58,
+      "quad": "NW",
+      "x0": 261,
+      "y0": 2367,
+      "x1": 322,
+      "y1": 2380
+    },
+    {
+      "text": "Tumbleton",
+      "confidence": 79,
+      "quad": "NW",
+      "x0": 766,
+      "y0": 2368,
+      "x1": 832,
+      "y1": 2380
+    },
+    {
+      "text": "yr,",
+      "confidence": 32,
+      "quad": "NW",
+      "x0": 1084,
+      "y0": 2366,
+      "x1": 1103,
+      "y1": 2385
+    },
+    {
+      "text": "FYE",
+      "confidence": 43,
+      "quad": "NW",
+      "x0": 2108,
+      "y0": 2380,
+      "x1": 2122,
+      "y1": 2385
+    },
+    {
+      "text": "TI",
+      "confidence": 27,
+      "quad": "NW",
+      "x0": 2128,
+      "y0": 2380,
+      "x1": 2144,
+      "y1": 2385
+    },
+    {
+      "text": "1bben",
+      "confidence": 58,
+      "quad": "NE",
+      "x0": 2279,
+      "y0": 829,
+      "x1": 2346,
+      "y1": 850
+    },
+    {
+      "text": "Forest",
+      "confidence": 63,
+      "quad": "NE",
+      "x0": 2371,
+      "y0": 2197,
+      "x1": 2502,
+      "y1": 2219
+    },
+    {
+      "text": "off",
+      "confidence": 61,
+      "quad": "NE",
+      "x0": 2427,
+      "y0": 2195,
+      "x1": 2447,
+      "y1": 2221
+    },
+    {
+      "text": "Qolber",
+      "confidence": 34,
+      "quad": "NE",
+      "x0": 2453,
+      "y0": 2197,
+      "x1": 2502,
+      "y1": 2219
+    },
+    {
+      "text": "ohor",
+      "confidence": 90,
+      "quad": "NE",
+      "x0": 2257,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2299
+    },
+    {
+      "text": "RE",
+      "confidence": 21,
+      "quad": "SW",
+      "x0": 1231,
+      "y0": 2257,
+      "x1": 1294,
+      "y1": 2258
+    },
+    {
+      "text": "Feastfires",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 241,
+      "y0": 2259,
+      "x1": 299,
+      "y1": 2272
+    },
+    {
+      "text": "LATHNSPNTL",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 342,
+      "y0": 2257,
+      "x1": 410,
+      "y1": 2269
+    },
+    {
+      "text": "BlacKkwate",
+      "confidence": 13,
+      "quad": "SW",
+      "x0": 1056,
+      "y0": 2257,
+      "x1": 1167,
+      "y1": 2271
+    },
+    {
+      "text": "Lib",
+      "confidence": 29,
+      "quad": "SW",
+      "x0": 1737,
+      "y0": 2257,
+      "x1": 1751,
+      "y1": 2262
+    },
+    {
+      "text": "ht",
+      "confidence": 44,
+      "quad": "SW",
+      "x0": 1754,
+      "y0": 2257,
+      "x1": 1766,
+      "y1": 2262
+    },
+    {
+      "text": "Lad",
+      "confidence": 51,
+      "quad": "SW",
+      "x0": 1768,
+      "y0": 2257,
+      "x1": 1778,
+      "y1": 2262
+    },
+    {
+      "text": "L",
+      "confidence": 28,
+      "quad": "SW",
+      "x0": 801,
+      "y0": 2258,
+      "x1": 809,
+      "y1": 2282
+    },
+    {
+      "text": "obo?",
+      "confidence": 32,
+      "quad": "SW",
+      "x0": 694,
+      "y0": 2273,
+      "x1": 746,
+      "y1": 2302
+    },
+    {
+      "text": "Rosby",
+      "confidence": 73,
+      "quad": "SW",
+      "x0": 987,
+      "y0": 2276,
+      "x1": 1021,
+      "y1": 2291
+    },
+    {
+      "text": "Massey's",
+      "confidence": 76,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2278,
+      "x1": 1273,
+      "y1": 2295
+    },
+    {
+      "text": "Qohor",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 2242,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2305
+    },
+    {
+      "text": "King's",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 824,
+      "y0": 2294,
+      "x1": 869,
+      "y1": 2313
+    },
+    {
+      "text": "Landing",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 876,
+      "y0": 2293,
+      "x1": 937,
+      "y1": 2313
+    },
+    {
+      "text": "Hook",
+      "confidence": 46,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2295,
+      "x1": 1245,
+      "y1": 2309
+    },
+    {
+      "text": "The",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1326,
+      "y0": 2286,
+      "x1": 1404,
+      "y1": 2321
+    },
+    {
+      "text": "Silverhill",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 548,
+      "y0": 2311,
+      "x1": 602,
+      "y1": 2324
+    },
+    {
+      "text": "Cornfield",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 401,
+      "y0": 2332,
+      "x1": 456,
+      "y1": 2344
+    },
+    {
+      "text": "The",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1619,
+      "y0": 2330,
+      "x1": 1659,
+      "y1": 2351
+    },
+    {
+      "text": "Flatlands",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1669,
+      "y0": 2330,
+      "x1": 1763,
+      "y1": 2351
+    },
+    {
+      "text": "Ny",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 1950,
+      "y0": 2329,
+      "x1": 1967,
+      "y1": 2344
+    },
+    {
+      "text": "Sar",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1972,
+      "y0": 2329,
+      "x1": 1993,
+      "y1": 2340
+    },
+    {
+      "text": "Narrow",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1287,
+      "y0": 2337,
+      "x1": 1444,
+      "y1": 2369
+    },
+    {
+      "text": "Crakehali",
+      "confidence": 58,
+      "quad": "SW",
+      "x0": 261,
+      "y0": 2367,
+      "x1": 322,
+      "y1": 2380
+    },
+    {
+      "text": "Tumbleton",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 766,
+      "y0": 2368,
+      "x1": 832,
+      "y1": 2380
+    },
+    {
+      "text": "Ar",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 2105,
+      "y0": 2380,
+      "x1": 2122,
+      "y1": 2391
+    },
+    {
+      "text": "Noy",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 2127,
+      "y0": 2380,
+      "x1": 2153,
+      "y1": 2395
+    },
+    {
+      "text": "Ringmowsd",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 949,
+      "y0": 2391,
+      "x1": 1018.5,
+      "y1": 2417
+    },
+    {
+      "text": "7",
+      "confidence": 68,
+      "quad": "SW",
+      "x0": 1062,
+      "y0": 2366,
+      "x1": 1103,
+      "y1": 2412
+    },
+    {
+      "text": "Haystack",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1114,
+      "y0": 2400,
+      "x1": 1165,
+      "y1": 2415
+    },
+    {
+      "text": "Hall",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1170,
+      "y0": 2400,
+      "x1": 1192,
+      "y1": 2412
+    },
+    {
+      "text": "Sea",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1330,
+      "y0": 2386,
+      "x1": 1399,
+      "y1": 2417
+    },
+    {
+      "text": "Red",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 451,
+      "y0": 2419,
+      "x1": 472,
+      "y1": 2431
+    },
+    {
+      "text": "Lake",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 477,
+      "y0": 2419,
+      "x1": 503,
+      "y1": 2431
+    },
+    {
+      "text": "»w*",
+      "confidence": 20,
+      "quad": "SW",
+      "x0": 716,
+      "y0": 2416,
+      "x1": 755,
+      "y1": 2442
+    },
+    {
+      "text": ".",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 407,
+      "y0": 2437,
+      "x1": 452,
+      "y1": 2458
+    },
+    {
+      "text": "Bronzegate",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 1073,
+      "y0": 2443,
+      "x1": 1137,
+      "y1": 2457
+    },
+    {
+      "text": "Beraits",
+      "confidence": 32,
+      "quad": "SW",
+      "x0": 1179,
+      "y0": 2451,
+      "x1": 1221,
+      "y1": 2462
+    },
+    {
+      "text": "Twrth",
+      "confidence": 23,
+      "quad": "SW",
+      "x0": 1270,
+      "y0": 2436,
+      "x1": 1310,
+      "y1": 2451
+    },
+    {
+      "text": "Goldengrove",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 552,
+      "y0": 2457,
+      "x1": 625,
+      "y1": 2472
+    },
+    {
+      "text": "Bitterbridge",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 729,
+      "y0": 2467,
+      "x1": 795,
+      "y1": 2482
+    },
+    {
+      "text": "of",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1194,
+      "y0": 2464,
+      "x1": 1208,
+      "y1": 2476
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1973,
+      "y0": 2466,
+      "x1": 2004,
+      "y1": 2482
+    },
+    {
+      "text": "Tarth",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1182,
+      "y0": 2478,
+      "x1": 1217,
+      "y1": 2489
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 136,
+      "y0": 2466,
+      "x1": 218,
+      "y1": 2502
+    },
+    {
+      "text": "ose”",
+      "confidence": 5,
+      "quad": "SW",
+      "x0": 627,
+      "y0": 2493,
+      "x1": 666,
+      "y1": 2513
+    },
+    {
+      "text": "Felwood",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1042,
+      "y0": 2487,
+      "x1": 1090,
+      "y1": 2499
+    },
+    {
+      "text": "Evenfall",
+      "confidence": 83,
+      "quad": "SW",
+      "x0": 1220,
+      "y0": 2495,
+      "x1": 1260,
+      "y1": 2506
+    },
+    {
+      "text": "Hall",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1264,
+      "y0": 2495,
+      "x1": 1284,
+      "y1": 2506
+    },
+    {
+      "text": "Golden",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1963,
+      "y0": 2489,
+      "x1": 2022,
+      "y1": 2505
+    },
+    {
+      "text": "Old",
+      "confidence": 73,
+      "quad": "SW",
+      "x0": 379,
+      "y0": 2503,
+      "x1": 401,
+      "y1": 2515
+    },
+    {
+      "text": "Oak",
+      "confidence": 80,
+      "quad": "SW",
+      "x0": 406,
+      "y0": 2503,
+      "x1": 431,
+      "y1": 2515
+    },
+    {
+      "text": "Hales",
+      "confidence": 39,
+      "quad": "SW",
+      "x0": 755,
+      "y0": 2490,
+      "x1": 805,
+      "y1": 2518.5
+    },
+    {
+      "text": "Grassy",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 826,
+      "y0": 2500,
+      "x1": 864,
+      "y1": 2515
+    },
+    {
+      "text": "Vale",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 868,
+      "y0": 2499,
+      "x1": 892,
+      "y1": 2512
+    },
+    {
+      "text": "Fields",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1967,
+      "y0": 2512,
+      "x1": 2013,
+      "y1": 2528
+    },
+    {
+      "text": "Longtable",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 695,
+      "y0": 2519,
+      "x1": 750,
+      "y1": 2534
+    },
+    {
+      "text": "Storm's",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1147,
+      "y0": 2520,
+      "x1": 1193,
+      "y1": 2531
+    },
+    {
+      "text": "End",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1199,
+      "y0": 2519,
+      "x1": 1222,
+      "y1": 2531
+    },
+    {
+      "text": "Sunset",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 103,
+      "y0": 2520,
+      "x1": 253,
+      "y1": 2552
+    },
+    {
+      "text": "Cider",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 659,
+      "y0": 2556,
+      "x1": 693,
+      "y1": 2569
+    },
+    {
+      "text": "Hall",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 698,
+      "y0": 2556,
+      "x1": 723,
+      "y1": 2569
+    },
+    {
+      "text": "Summerhal",
+      "confidence": 29,
+      "quad": "SW",
+      "x0": 889,
+      "y0": 2562,
+      "x1": 964,
+      "y1": 2574
+    },
+    {
+      "text": "Grifiin's",
+      "confidence": 22,
+      "quad": "SW",
+      "x0": 1102,
+      "y0": 2562,
+      "x1": 1143,
+      "y1": 2573
+    },
+    {
+      "text": "Roost",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 1148,
+      "y0": 2563,
+      "x1": 1177,
+      "y1": 2573
+    },
+    {
+      "text": "Shipbreaker",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1154,
+      "y0": 2539,
+      "x1": 1284,
+      "y1": 2563
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1293,
+      "y0": 2541,
+      "x1": 1331,
+      "y1": 2563
+    },
+    {
+      "text": "Ram",
+      "confidence": 78,
+      "quad": "SW",
+      "x0": 1217,
+      "y0": 2578,
+      "x1": 1240,
+      "y1": 2588
+    },
+    {
+      "text": "Hoose",
+      "confidence": 35,
+      "quad": "SW",
+      "x0": 1245,
+      "y0": 2578,
+      "x1": 1278,
+      "y1": 2588
+    },
+    {
+      "text": "Sea",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 141,
+      "y0": 2570,
+      "x1": 212,
+      "y1": 2602
+    },
+    {
+      "text": "Shield",
+      "confidence": 40,
+      "quad": "SW",
+      "x0": 302,
+      "y0": 2579,
+      "x1": 353,
+      "y1": 2595
+    },
+    {
+      "text": "Oli,",
+      "confidence": 37,
+      "quad": "SW",
+      "x0": 645,
+      "y0": 2578,
+      "x1": 713,
+      "y1": 2599
+    },
+    {
+      "text": "Ashford",
+      "confidence": 64,
+      "quad": "SW",
+      "x0": 743,
+      "y0": 2574,
+      "x1": 796,
+      "y1": 2587
+    },
+    {
+      "text": "Crow's",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1020,
+      "y0": 2590,
+      "x1": 1059,
+      "y1": 2601
+    },
+    {
+      "text": "Nast",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 1064,
+      "y0": 2591,
+      "x1": 1090,
+      "y1": 2601
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 2037,
+      "y0": 2591,
+      "x1": 2062,
+      "y1": 2604
+    },
+    {
+      "text": "Sorrows",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 2068,
+      "y0": 2592,
+      "x1": 2123,
+      "y1": 2604
+    },
+    {
+      "text": "Islands",
+      "confidence": 30,
+      "quad": "SW",
+      "x0": 298,
+      "y0": 2598,
+      "x1": 357,
+      "y1": 2614
+    },
+    {
+      "text": "Sea",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1498,
+      "y0": 2595,
+      "x1": 1535,
+      "y1": 2614
+    },
+    {
+      "text": "of",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1547,
+      "y0": 2593,
+      "x1": 1572,
+      "y1": 2614
+    },
+    {
+      "text": "Myrth",
+      "confidence": 81,
+      "quad": "SW",
+      "x0": 1580,
+      "y0": 2593,
+      "x1": 1648,
+      "y1": 2619
+    },
+    {
+      "text": "Blackhaven",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 864,
+      "y0": 2618,
+      "x1": 930,
+      "y1": 2630
+    },
+    {
+      "text": "Cape",
+      "confidence": 81,
+      "quad": "SW",
+      "x0": 1270,
+      "y0": 2622,
+      "x1": 1310.5,
+      "y1": 2644
+    },
+    {
+      "text": "Wrath",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1319.5,
+      "y0": 2622,
+      "x1": 1363.5,
+      "y1": 2644
+    },
+    {
+      "text": "{Chroyane)",
+      "confidence": 61,
+      "quad": "SW",
+      "x0": 2040,
+      "y0": 2610,
+      "x1": 2115,
+      "y1": 2628
+    },
+    {
+      "text": "Highgarden",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 548,
+      "y0": 2632,
+      "x1": 621,
+      "y1": 2648
+    },
+    {
+      "text": "Reimvead",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1115,
+      "y0": 2627,
+      "x1": 1181,
+      "y1": 2643
+    },
+    {
+      "text": "Myr",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1704,
+      "y0": 2621,
+      "x1": 1746,
+      "y1": 2644
+    },
+    {
+      "text": "Stonehelm",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1013,
+      "y0": 2655,
+      "x1": 1077,
+      "y1": 2668
+    },
+    {
+      "text": "at",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 845,
+      "y0": 2667,
+      "x1": 861,
+      "y1": 2680
+    },
+    {
+      "text": "ch",
+      "confidence": 87,
+      "quad": "SW",
+      "x0": 863,
+      "y0": 2660,
+      "x1": 881,
+      "y1": 2674
+    },
+    {
+      "text": "es",
+      "confidence": 51,
+      "quad": "SW",
+      "x0": 883,
+      "y0": 2658,
+      "x1": 898,
+      "y1": 2669
+    },
+    {
+      "text": "Mistwood",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1120,
+      "y0": 2666,
+      "x1": 1177,
+      "y1": 2678
+    },
+    {
+      "text": "Brightwater",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 363,
+      "y0": 2688,
+      "x1": 433,
+      "y1": 2703
+    },
+    {
+      "text": "Nightsong",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 651,
+      "y0": 2690,
+      "x1": 707,
+      "y1": 2705
+    },
+    {
+      "text": "persis?",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 750,
+      "y0": 2677,
+      "x1": 820,
+      "y1": 2705
+    },
+    {
+      "text": "Estarment",
+      "confidence": 2,
+      "quad": "SW",
+      "x0": 1265,
+      "y0": 2677,
+      "x1": 1334,
+      "y1": 2692
+    },
+    {
+      "text": "Keep",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 384,
+      "y0": 2706,
+      "x1": 413,
+      "y1": 2719
+    },
+    {
+      "text": "Horn",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 511,
+      "y0": 2702,
+      "x1": 541,
+      "y1": 2712
+    },
+    {
+      "text": "Hill",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 547,
+      "y0": 2700,
+      "x1": 568,
+      "y1": 2712
+    },
+    {
+      "text": "Greenstona",
+      "confidence": 86,
+      "quad": "SW",
+      "x0": 1247,
+      "y0": 2710,
+      "x1": 1313,
+      "y1": 2721
+    },
+    {
+      "text": "Tyrosh",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1381,
+      "y0": 2687,
+      "x1": 1449,
+      "y1": 2714
+    },
+    {
+      "text": "Vulture's",
+      "confidence": 60,
+      "quad": "SW",
+      "x0": 738,
+      "y0": 2715,
+      "x1": 793,
+      "y1": 2727
+    },
+    {
+      "text": "wyl",
+      "confidence": 76,
+      "quad": "SW",
+      "x0": 900,
+      "y0": 2708,
+      "x1": 922,
+      "y1": 2723
+    },
+    {
+      "text": "Bandallon",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 304,
+      "y0": 2728,
+      "x1": 359,
+      "y1": 2740
+    },
+    {
+      "text": "Raost",
+      "confidence": 38,
+      "quad": "SW",
+      "x0": 756,
+      "y0": 2734,
+      "x1": 790,
+      "y1": 2744
+    },
+    {
+      "text": "Weeping",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 1128,
+      "y0": 2740,
+      "x1": 1177,
+      "y1": 2754
+    },
+    {
+      "text": "Tower",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1182,
+      "y0": 2740,
+      "x1": 1217,
+      "y1": 2751
+    },
+    {
+      "text": "Heodstone",
+      "confidence": 0,
+      "quad": "SW",
+      "x0": 1258,
+      "y0": 2735,
+      "x1": 1330,
+      "y1": 2747
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1509,
+      "y0": 2727,
+      "x1": 1547,
+      "y1": 2748
+    },
+    {
+      "text": "Disputed",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1558,
+      "y0": 2727,
+      "x1": 1651,
+      "y1": 2754
+    },
+    {
+      "text": "Lands",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1660,
+      "y0": 2727,
+      "x1": 1720,
+      "y1": 2748
+    },
+    {
+      "text": "Heneyholt",
+      "confidence": 81,
+      "quad": "SW",
+      "x0": 420,
+      "y0": 2765,
+      "x1": 482,
+      "y1": 2781
+    },
+    {
+      "text": "Tower",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 717,
+      "y0": 2764,
+      "x1": 754,
+      "y1": 2774
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 759,
+      "y0": 2762,
+      "x1": 772,
+      "y1": 2774
+    },
+    {
+      "text": "Joy",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 773,
+      "y0": 2763,
+      "x1": 792,
+      "y1": 2777
+    },
+    {
+      "text": "Selhorys",
+      "confidence": 71,
+      "quad": "SW",
+      "x0": 2074,
+      "y0": 2761,
+      "x1": 2127,
+      "y1": 2778
+    },
+    {
+      "text": "Sea",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 998,
+      "y0": 2772,
+      "x1": 1032,
+      "y1": 2790
+    },
+    {
+      "text": "of",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1042,
+      "y0": 2770,
+      "x1": 1066,
+      "y1": 2789
+    },
+    {
+      "text": "Dorne",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 1073,
+      "y0": 2772,
+      "x1": 1137,
+      "y1": 2789
+    },
+    {
+      "text": "7",
+      "confidence": 31,
+      "quad": "SW",
+      "x0": 671,
+      "y0": 2768,
+      "x1": 700,
+      "y1": 2817
+    },
+    {
+      "text": "Kingsgrave",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 729,
+      "y0": 2796,
+      "x1": 791,
+      "y1": 2810
+    },
+    {
+      "text": "Ghastan",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 889,
+      "y0": 2790,
+      "x1": 932,
+      "y1": 2801
+    },
+    {
+      "text": "Grey",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 937,
+      "y0": 2791,
+      "x1": 962,
+      "y1": 2804
+    },
+    {
+      "text": "Oldtown",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 312,
+      "y0": 2815,
+      "x1": 375,
+      "y1": 2830
+    },
+    {
+      "text": "Blackmont",
+      "confidence": 90,
+      "quad": "SW",
+      "x0": 620,
+      "y0": 2824,
+      "x1": 679,
+      "y1": 2836
+    },
+    {
+      "text": "Arm",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1296,
+      "y0": 2831,
+      "x1": 1329,
+      "y1": 2845
+    },
+    {
+      "text": "Blackcrown",
+      "confidence": 85,
+      "quad": "SW",
+      "x0": 281,
+      "y0": 2839,
+      "x1": 351,
+      "y1": 2852
+    },
+    {
+      "text": "Uplands",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 442,
+      "y0": 2842,
+      "x1": 489,
+      "y1": 2857
+    },
+    {
+      "text": "Yronwood",
+      "confidence": 7,
+      "quad": "SW",
+      "x0": 856,
+      "y0": 2839,
+      "x1": 912,
+      "y1": 2851
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1025,
+      "y0": 2840,
+      "x1": 1045,
+      "y1": 2852
+    },
+    {
+      "text": "Tor",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1051,
+      "y0": 2842,
+      "x1": 1071,
+      "y1": 2852
+    },
+    {
+      "text": "High",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 621,
+      "y0": 2853,
+      "x1": 648,
+      "y1": 2868
+    },
+    {
+      "text": "Skyreach",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 720,
+      "y0": 2857,
+      "x1": 772,
+      "y1": 2872
+    },
+    {
+      "text": "Ghost",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 1204,
+      "y0": 2859,
+      "x1": 1241,
+      "y1": 2871
+    },
+    {
+      "text": "wo",
+      "confidence": 15,
+      "quad": "SW",
+      "x0": 2000,
+      "y0": 2848,
+      "x1": 2050,
+      "y1": 2866
+    },
+    {
+      "text": "Whispering",
+      "confidence": 84,
+      "quad": "SW",
+      "x0": 260,
+      "y0": 2874,
+      "x1": 350,
+      "y1": 2892
+    },
+    {
+      "text": "/",
+      "confidence": 56,
+      "quad": "SW",
+      "x0": 561,
+      "y0": 2843,
+      "x1": 599,
+      "y1": 2891
+    },
+    {
+      "text": "Hermitage",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 619,
+      "y0": 2871,
+      "x1": 679,
+      "y1": 2885
+    },
+    {
+      "text": "Hill",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1202,
+      "y0": 2877,
+      "x1": 1223,
+      "y1": 2888
+    },
+    {
+      "text": "Sar",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 2123,
+      "y0": 2885,
+      "x1": 2145,
+      "y1": 2898
+    },
+    {
+      "text": "Mell",
+      "confidence": 82,
+      "quad": "SW",
+      "x0": 2149,
+      "y0": 2884,
+      "x1": 2178,
+      "y1": 2898
+    },
+    {
+      "text": "Sennd",
+      "confidence": 57,
+      "quad": "SW",
+      "x0": 281,
+      "y0": 2892,
+      "x1": 329,
+      "y1": 2907
+    },
+    {
+      "text": "Three",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 360,
+      "y0": 2896,
+      "x1": 395,
+      "y1": 2909
+    },
+    {
+      "text": "Towers",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 401,
+      "y0": 2898,
+      "x1": 445,
+      "y1": 2909
+    },
+    {
+      "text": "a,",
+      "confidence": 41,
+      "quad": "SW",
+      "x0": 940,
+      "y0": 2882,
+      "x1": 957,
+      "y1": 2900
+    },
+    {
+      "text": "rd",
+      "confidence": 54,
+      "quad": "SW",
+      "x0": 2216,
+      "y0": 2875,
+      "x1": 2255,
+      "y1": 2909
+    },
+    {
+      "text": "Starfall",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 577,
+      "y0": 2912,
+      "x1": 620,
+      "y1": 2926
+    },
+    {
+      "text": "~",
+      "confidence": 53,
+      "quad": "SW",
+      "x0": 957,
+      "y0": 2895,
+      "x1": 993,
+      "y1": 2922
+    },
+    {
+      "text": "Gadsgrace",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 1051,
+      "y0": 2905,
+      "x1": 1110,
+      "y1": 2920
+    },
+    {
+      "text": "Ze",
+      "confidence": 24,
+      "quad": "SW",
+      "x0": 1923,
+      "y0": 2900,
+      "x1": 1945,
+      "y1": 2923
+    },
+    {
+      "text": "Planky",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 1171,
+      "y0": 2917,
+      "x1": 1211,
+      "y1": 2933
+    },
+    {
+      "text": "Town",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 1173,
+      "y0": 2936,
+      "x1": 1207,
+      "y1": 2946
+    },
+    {
+      "text": "Lys",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1591,
+      "y0": 2917,
+      "x1": 1625,
+      "y1": 2941
+    },
+    {
+      "text": "Volon",
+      "confidence": 88,
+      "quad": "SW",
+      "x0": 2062,
+      "y0": 2920,
+      "x1": 2102,
+      "y1": 2933
+    },
+    {
+      "text": "Surlower",
+      "confidence": 39,
+      "quad": "SW",
+      "x0": 426,
+      "y0": 2945,
+      "x1": 490,
+      "y1": 2958
+    },
+    {
+      "text": "ED",
+      "confidence": 21,
+      "quad": "SW",
+      "x0": 989,
+      "y0": 2929,
+      "x1": 1039,
+      "y1": 2958
+    },
+    {
+      "text": "Pa",
+      "confidence": 47,
+      "quad": "SW",
+      "x0": 1088,
+      "y0": 2939,
+      "x1": 1139,
+      "y1": 2953
+    },
+    {
+      "text": "Therys",
+      "confidence": 89,
+      "quad": "SW",
+      "x0": 2059,
+      "y0": 2940,
+      "x1": 2106,
+      "y1": 2957
+    },
+    {
+      "text": "Hail",
+      "confidence": 79,
+      "quad": "SW",
+      "x0": 444,
+      "y0": 2963,
+      "x1": 469,
+      "y1": 2975
+    },
+    {
+      "text": "Helihalt",
+      "confidence": 61,
+      "quad": "SW",
+      "x0": 822,
+      "y0": 2951,
+      "x1": 867,
+      "y1": 2963
+    },
+    {
+      "text": "Vaith",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 1032,
+      "y0": 2958,
+      "x1": 1064,
+      "y1": 2971
+    },
+    {
+      "text": "Sunspear",
+      "confidence": 60,
+      "quad": "SW",
+      "x0": 1236,
+      "y0": 2952,
+      "x1": 1296,
+      "y1": 2967
+    },
+    {
+      "text": "Posy",
+      "confidence": 10,
+      "quad": "SW",
+      "x0": 1975,
+      "y0": 2940,
+      "x1": 2021,
+      "y1": 2969
+    },
+    {
+      "text": "Redwyn",
+      "confidence": 62,
+      "quad": "SW",
+      "x0": 315,
+      "y0": 2971,
+      "x1": 374,
+      "y1": 2989
+    },
+    {
+      "text": "Essog",
+      "confidence": 74,
+      "quad": "SW",
+      "x0": 1682,
+      "y0": 2943,
+      "x1": 1798,
+      "y1": 2992
+    },
+    {
+      "text": "Lemonwood",
+      "confidence": 77,
+      "quad": "SW",
+      "x0": 1205,
+      "y0": 2985,
+      "x1": 1278,
+      "y1": 2997
+    },
+    {
+      "text": "Volantis",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 2179,
+      "y0": 2974,
+      "x1": 2268,
+      "y1": 2996
+    },
+    {
+      "text": "Sandstone",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 688,
+      "y0": 2972,
+      "x1": 749,
+      "y1": 2997
+    },
+    {
+      "text": "\\",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 792,
+      "y0": 2974,
+      "x1": 822,
+      "y1": 3018
+    },
+    {
+      "text": "Salt",
+      "confidence": 95,
+      "quad": "SW",
+      "x0": 1042,
+      "y0": 3015,
+      "x1": 1063,
+      "y1": 3027
+    },
+    {
+      "text": "Shore",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 1068,
+      "y0": 3015,
+      "x1": 1102,
+      "y1": 3027
+    },
+    {
+      "text": "The",
+      "confidence": 93,
+      "quad": "SW",
+      "x0": 262,
+      "y0": 3068,
+      "x1": 298,
+      "y1": 3086
+    },
+    {
+      "text": "Arbor",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 306,
+      "y0": 3068,
+      "x1": 363,
+      "y1": 3086
+    },
+    {
+      "text": "Westeros",
+      "confidence": 91,
+      "quad": "SW",
+      "x0": 790,
+      "y0": 3056,
+      "x1": 997,
+      "y1": 3089
+    },
+    {
+      "text": "Summer",
+      "confidence": 92,
+      "quad": "SW",
+      "x0": 615,
+      "y0": 3253,
+      "x1": 798,
+      "y1": 3285
+    },
+    {
+      "text": "Sea",
+      "confidence": 96,
+      "quad": "SW",
+      "x0": 821,
+      "y0": 3253,
+      "x1": 892,
+      "y1": 3285
+    },
+    {
+      "text": "Summer",
+      "confidence": 94,
+      "quad": "SW",
+      "x0": 470,
+      "y0": 3539,
+      "x1": 590,
+      "y1": 3564
+    },
+    {
+      "text": "Islands",
+      "confidence": 86,
+      "quad": "SW",
+      "x0": 604,
+      "y0": 3538,
+      "x1": 708,
+      "y1": 3564
+    },
+    {
+      "text": "ohor",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2257,
+      "y0": 2279,
+      "x1": 2309,
+      "y1": 2299
+    },
+    {
+      "text": "Mother",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3295,
+      "y0": 2547,
+      "x1": 3350,
+      "y1": 2562
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3356,
+      "y0": 2547,
+      "x1": 3373,
+      "y1": 2562
+    },
+    {
+      "text": "Mountains",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3376,
+      "y0": 2548,
+      "x1": 3454,
+      "y1": 2562
+    },
+    {
+      "text": "Womb",
+      "confidence": 65,
+      "quad": "SE",
+      "x0": 3187,
+      "y0": 2580,
+      "x1": 3308,
+      "y1": 2594
+    },
+    {
+      "text": "of",
+      "confidence": 94,
+      "quad": "SE",
+      "x0": 3231,
+      "y0": 2578,
+      "x1": 3244.5,
+      "y1": 2601
+    },
+    {
+      "text": "the",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 3248,
+      "y0": 2578,
+      "x1": 3267.5,
+      "y1": 2601
+    },
+    {
+      "text": "Werld",
+      "confidence": 0,
+      "quad": "SE",
+      "x0": 3275,
+      "y0": 2580,
+      "x1": 3308,
+      "y1": 2594
+    },
+    {
+      "text": "The",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 2622,
+      "y0": 2579,
+      "x1": 2685,
+      "y1": 2612
+    },
+    {
+      "text": "Dothraki",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 2702,
+      "y0": 2579,
+      "x1": 2853,
+      "y1": 2612
+    },
+    {
+      "text": "Sea",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2867,
+      "y0": 2583,
+      "x1": 2924,
+      "y1": 2612
+    },
+    {
+      "text": "Lhazar",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3705,
+      "y0": 2794,
+      "x1": 3769,
+      "y1": 2814
+    },
+    {
+      "text": "opal",
+      "confidence": 3,
+      "quad": "SE",
+      "x0": 3437,
+      "y0": 2906,
+      "x1": 3483,
+      "y1": 2929
+    },
+    {
+      "text": "Pinos",
+      "confidence": 40,
+      "quad": "SE",
+      "x0": 3490.5,
+      "y0": 2906,
+      "x1": 3519.5,
+      "y1": 2929
+    },
+    {
+      "text": "%",
+      "confidence": 84,
+      "quad": "SE",
+      "x0": 2430,
+      "y0": 2954,
+      "x1": 2449,
+      "y1": 2978
+    },
+    {
+      "text": "Meereen",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3308,
+      "y0": 2947,
+      "x1": 3387,
+      "y1": 2964
+    },
+    {
+      "text": "s",
+      "confidence": 26,
+      "quad": "SE",
+      "x0": 2258,
+      "y0": 2983,
+      "x1": 2268,
+      "y1": 2996
+    },
+    {
+      "text": "Bhorash",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3090,
+      "y0": 2985,
+      "x1": 3140,
+      "y1": 2998
+    },
+    {
+      "text": "2,",
+      "confidence": 58,
+      "quad": "SE",
+      "x0": 2457,
+      "y0": 2988,
+      "x1": 2485,
+      "y1": 3016
+    },
+    {
+      "text": "Mantarys",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 2766,
+      "y0": 3050,
+      "x1": 2853,
+      "y1": 3071
+    },
+    {
+      "text": "&",
+      "confidence": 16,
+      "quad": "SE",
+      "x0": 3013,
+      "y0": 3066,
+      "x1": 3026,
+      "y1": 3082
+    },
+    {
+      "text": "oe",
+      "confidence": 14,
+      "quad": "SE",
+      "x0": 3026,
+      "y0": 3038,
+      "x1": 3054,
+      "y1": 3068
+    },
+    {
+      "text": "oF",
+      "confidence": 19,
+      "quad": "SE",
+      "x0": 2995,
+      "y0": 3079,
+      "x1": 3015,
+      "y1": 3096
+    },
+    {
+      "text": "Yunkai",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 3305,
+      "y0": 3073,
+      "x1": 3362,
+      "y1": 3091
+    },
+    {
+      "text": "Yaros",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 3206,
+      "y0": 3112,
+      "x1": 3261,
+      "y1": 3129
+    },
+    {
+      "text": "Slaver's",
+      "confidence": 86,
+      "quad": "SE",
+      "x0": 3078,
+      "y0": 3117,
+      "x1": 3171,
+      "y1": 3138
+    },
+    {
+      "text": "Bay",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3104,
+      "y0": 3146,
+      "x1": 3146,
+      "y1": 3171
+    },
+    {
+      "text": "Tolos",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 2972,
+      "y0": 3161,
+      "x1": 3021,
+      "y1": 3180
+    },
+    {
+      "text": "Elyria",
+      "confidence": 94,
+      "quad": "SE",
+      "x0": 2899,
+      "y0": 3195,
+      "x1": 2951,
+      "y1": 3219
+    },
+    {
+      "text": "Isle",
+      "confidence": 70,
+      "quad": "SE",
+      "x0": 2983,
+      "y0": 3204,
+      "x1": 3019,
+      "y1": 3223
+    },
+    {
+      "text": "Cedars",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 2981,
+      "y0": 3227,
+      "x1": 3052,
+      "y1": 3246
+    },
+    {
+      "text": "Astapor",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 3184,
+      "y0": 3228,
+      "x1": 3261,
+      "y1": 3250
+    },
+    {
+      "text": "Ghozai",
+      "confidence": 67,
+      "quad": "SE",
+      "x0": 2983,
+      "y0": 3264,
+      "x1": 3026,
+      "y1": 3277
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2727,
+      "y0": 3302,
+      "x1": 2750,
+      "y1": 3314
+    },
+    {
+      "text": "Lands",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 2756,
+      "y0": 3302,
+      "x1": 2792,
+      "y1": 3314
+    },
+    {
+      "text": "Worm",
+      "confidence": 58,
+      "quad": "SE",
+      "x0": 3271,
+      "y0": 3290,
+      "x1": 3311.5,
+      "y1": 3311
+    },
+    {
+      "text": "Rw",
+      "confidence": 46,
+      "quad": "SE",
+      "x0": 3321.5,
+      "y0": 3290,
+      "x1": 3352,
+      "y1": 3311
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2724,
+      "y0": 3320,
+      "x1": 2739,
+      "y1": 3332
+    },
+    {
+      "text": "the",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2742,
+      "y0": 3320,
+      "x1": 2761,
+      "y1": 3332
+    },
+    {
+      "text": "Long",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2767,
+      "y0": 3321,
+      "x1": 2798,
+      "y1": 3336
+    },
+    {
+      "text": "Surnmer",
+      "confidence": 61,
+      "quad": "SE",
+      "x0": 2732,
+      "y0": 3339,
+      "x1": 2785,
+      "y1": 3350
+    },
+    {
+      "text": "Velos",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3011,
+      "y0": 3360,
+      "x1": 3046,
+      "y1": 3374
+    },
+    {
+      "text": "Bi,",
+      "confidence": 60,
+      "quad": "SE",
+      "x0": 3292,
+      "y0": 3428,
+      "x1": 3331,
+      "y1": 3460
+    },
+    {
+      "text": "The",
+      "confidence": 59,
+      "quad": "SE",
+      "x0": 2594,
+      "y0": 3401,
+      "x1": 2632,
+      "y1": 3466
+    },
+    {
+      "text": "Smoking",
+      "confidence": 70,
+      "quad": "SE",
+      "x0": 2642,
+      "y0": 3415,
+      "x1": 2733.5,
+      "y1": 3466
+    },
+    {
+      "text": "Sea",
+      "confidence": 80,
+      "quad": "SE",
+      "x0": 2743,
+      "y0": 3442,
+      "x1": 2779,
+      "y1": 3471.5
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3064,
+      "y0": 3457,
+      "x1": 3117,
+      "y1": 3481
+    },
+    {
+      "text": "Tyria",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2779,
+      "y0": 3487,
+      "x1": 2811,
+      "y1": 3502
+    },
+    {
+      "text": "Gulf",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3040,
+      "y0": 3488,
+      "x1": 3105,
+      "y1": 3513
+    },
+    {
+      "text": "of",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3115,
+      "y0": 3488,
+      "x1": 3146,
+      "y1": 3512
+    },
+    {
+      "text": "Old",
+      "confidence": 71,
+      "quad": "SE",
+      "x0": 3301,
+      "y0": 3489,
+      "x1": 3324,
+      "y1": 3502
+    },
+    {
+      "text": "Ghis",
+      "confidence": 92,
+      "quad": "SE",
+      "x0": 3330,
+      "y0": 3489,
+      "x1": 3359,
+      "y1": 3502
+    },
+    {
+      "text": "Red",
+      "confidence": 87,
+      "quad": "SE",
+      "x0": 3978,
+      "y0": 3467,
+      "x1": 4045,
+      "y1": 3517
+    },
+    {
+      "text": "Waste",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 4069.5,
+      "y0": 3467,
+      "x1": 4165.5,
+      "y1": 3517
+    },
+    {
+      "text": "Grief",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3055,
+      "y0": 3520,
+      "x1": 3132,
+      "y1": 3544
+    },
+    {
+      "text": "Gay,",
+      "confidence": 65,
+      "quad": "SE",
+      "x0": 3305,
+      "y0": 3539,
+      "x1": 3347,
+      "y1": 3578
+    },
+    {
+      "text": "fr",
+      "confidence": 1,
+      "quad": "SE",
+      "x0": 3364,
+      "y0": 3581,
+      "x1": 3402,
+      "y1": 3607
+    },
+    {
+      "text": "Vabria",
+      "confidence": 15,
+      "quad": "SE",
+      "x0": 2749,
+      "y0": 3618,
+      "x1": 2790,
+      "y1": 3633
+    },
+    {
+      "text": "Pos",
+      "confidence": 21,
+      "quad": "SE",
+      "x0": 3398,
+      "y0": 3600,
+      "x1": 3438,
+      "y1": 3633
+    },
+    {
+      "text": "Ghaen",
+      "confidence": 89,
+      "quad": "SE",
+      "x0": 3252,
+      "y0": 3652,
+      "x1": 3315,
+      "y1": 3671
+    },
+    {
+      "text": "New",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 3326,
+      "y0": 3694,
+      "x1": 3362,
+      "y1": 3709
+    },
+    {
+      "text": "Ghis",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 3371,
+      "y0": 3692,
+      "x1": 3408,
+      "y1": 3709
+    },
+    {
+      "text": "Ax",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3366,
+      "y0": 3946,
+      "x1": 3390,
+      "y1": 3963
+    },
+    {
+      "text": "ale",
+      "confidence": 4,
+      "quad": "SE",
+      "x0": 3399,
+      "y0": 3946,
+      "x1": 3433,
+      "y1": 3964
+    },
+    {
+      "text": "Basilisk",
+      "confidence": 91,
+      "quad": "SE",
+      "x0": 2993,
+      "y0": 3964,
+      "x1": 3079,
+      "y1": 3984
+    },
+    {
+      "text": "Isles",
+      "confidence": 72,
+      "quad": "SE",
+      "x0": 3089,
+      "y0": 3964,
+      "x1": 3139,
+      "y1": 3984
+    },
+    {
+      "text": "Zamettar",
+      "confidence": 58,
+      "quad": "SE",
+      "x0": 3233,
+      "y0": 4038,
+      "x1": 3286,
+      "y1": 4048
+    },
+    {
+      "text": "The",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 4485,
+      "y0": 4050,
+      "x1": 4567,
+      "y1": 4087
+    },
+    {
+      "text": "sla",
+      "confidence": 0,
+      "quad": "SE",
+      "x0": 3076,
+      "y0": 4077,
+      "x1": 3173,
+      "y1": 4091
+    },
+    {
+      "text": "of",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 3108.5,
+      "y0": 4075,
+      "x1": 3124,
+      "y1": 4098
+    },
+    {
+      "text": "Toads",
+      "confidence": 52,
+      "quad": "SE",
+      "x0": 3131.5,
+      "y0": 4077,
+      "x1": 3173,
+      "y1": 4091
+    },
+    {
+      "text": "lals",
+      "confidence": 16,
+      "quad": "SE",
+      "x0": 3014,
+      "y0": 4111,
+      "x1": 3039,
+      "y1": 4125
+    },
+    {
+      "text": "of",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 3045,
+      "y0": 4109,
+      "x1": 3059.5,
+      "y1": 4130
+    },
+    {
+      "text": "Taare",
+      "confidence": 52,
+      "quad": "SE",
+      "x0": 3065,
+      "y0": 4111,
+      "x1": 3104,
+      "y1": 4125
+    },
+    {
+      "text": "Jade",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4478,
+      "y0": 4100,
+      "x1": 4572,
+      "y1": 4147
+    },
+    {
+      "text": "Naath",
+      "confidence": 90,
+      "quad": "SE",
+      "x0": 2569,
+      "y0": 4153,
+      "x1": 2629,
+      "y1": 4172
+    },
+    {
+      "text": "Basilisk",
+      "confidence": 96,
+      "quad": "SE",
+      "x0": 2790,
+      "y0": 4170,
+      "x1": 2872,
+      "y1": 4189
+    },
+    {
+      "text": "Point",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 2882,
+      "y0": 4172,
+      "x1": 2939,
+      "y1": 4189
+    },
+    {
+      "text": "Gogossos",
+      "confidence": 87,
+      "quad": "SE",
+      "x0": 3069,
+      "y0": 4190,
+      "x1": 3125,
+      "y1": 4204
+    },
+    {
+      "text": "Yeen",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 3298,
+      "y0": 4196,
+      "x1": 3327,
+      "y1": 4207
+    },
+    {
+      "text": "Sea",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4490,
+      "y0": 4154,
+      "x1": 4561,
+      "y1": 4187
+    },
+    {
+      "text": "The",
+      "confidence": 95,
+      "quad": "SE",
+      "x0": 4457,
+      "y0": 4213,
+      "x1": 4492,
+      "y1": 4230
+    },
+    {
+      "text": "Jade",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 4499,
+      "y0": 4213,
+      "x1": 4539,
+      "y1": 4233
+    },
+    {
+      "text": "Straits",
+      "confidence": 83,
+      "quad": "SE",
+      "x0": 4205,
+      "y0": 4218,
+      "x1": 4269,
+      "y1": 4235
+    },
+    {
+      "text": "of",
+      "confidence": 93,
+      "quad": "SE",
+      "x0": 4277,
+      "y0": 4217,
+      "x1": 4299,
+      "y1": 4235
+    },
+    {
+      "text": "Qarth",
+      "confidence": 88,
+      "quad": "SE",
+      "x0": 4305,
+      "y0": 4217,
+      "x1": 4360,
+      "y1": 4239
+    },
+    {
+      "text": "|",
+      "confidence": 64,
+      "quad": "SE",
+      "x0": 4516,
+      "y0": 4240,
+      "x1": 4524,
+      "y1": 4251
+    },
+    {
+      "text": "Sop,",
+      "confidence": 11,
+      "quad": "SE",
+      "x0": 3625,
+      "y0": 4175,
+      "x1": 3772.5,
+      "y1": 4240
+    },
+    {
+      "text": "og",
+      "confidence": 74,
+      "quad": "SE",
+      "x0": 3798,
+      "y0": 4232,
+      "x1": 3840.5,
+      "y1": 4260
+    }
+  ],
+  "text": "\n=== NW ===\nT €Lang Of Alay\n\nWinta\n\nThent\n\nThe Shivering Sea\n\nYostfang,\n\nSterrold’s\n\nHardhome\n\nPoint\n\nAntler\n\noft SG\n\nCraster's Keep yr —\n\nSkane Skages\n\n{Farm\n\nWhitetree\n\nCastle Black\n\nFastwatch\n\ne rose 8 bop\n\nShadow? 455 78910 12131415157,\n\nby-the-Sea\n\nTower\n\nQueenscrown\n\nBay of lce\n\nBaar Toland\n\n1bben\n\nBay of Seals\n\nLast Hearth\n\nSen Dragon\n\n4\n\n“ey,\n\nKarhold\n\nI]\n\nDeepwaod\n\nMotte\n\n“,\n\nThe Dreadfort |\n\nWinterfell\n\nsoe?\n\nWe “5\n\ngoed\n\n“\n\nHisrummad\n\nTorrhen\n\nSquare\n\nBy rq\n\nlang,\n\nRamsgate\n\nNi\n\n&\n\nBarrowton\n\nWhite Harbor\n\nWidow's Watch\n\n&\n\nMoat Cailin\n\nBlazewater\n\nOldcastle\n\nBay\n\nThe Shivering Sea\n\nCape\n\nFlint's Finger\n\nThe Threa Sisters\n\nKraken\n\nSweatsister\n\nSisterton\n\nPebble\n\nThe Pope\n\nW\n\nfy\n\nLd\n\nGreywater\n\nLittlesiotar\n\nWatch\n\nLengsister\n\ncis\n\nThe unt\n\nThe Bite\n\nColdwater\n\nThe Flugens\n\nBraavos\n\nSnakewood\n\nLorath\n\nThe Twins\n\nLongbow Hall\n\nds\n\nStrongsong\n\nHeart's Homa\n\nwm\n\ns\\a®\n\nSeagard\n\nok\n\nLorath\n\nThe Axe\n\neo? \\\n\nOH oriment\n\nHags\n\nOM Anchor\n\nMire\n\n&®\n\nIronoaks\n\nGreat Wyk\n\nIronman's\n\n%\n\nThe Eyrie 0°\n\nOidstones\n\nRurestone\n\nTen Towers Bay\n\nThe Bloody\n\nHarvlew\n\nGate\n\nGulltown\n\nBraavosian\n\nFairmarket\n\nLY\n\nRedfort\n\nCoastlands\n\nPyke\n\nils of\n\nNorvos\n\nSalteliffe Pyke\n\nBay of\n\nBanefort\n\nwe\n\nHigh Road\n\nCrabs\n\n2 Bg\n\nStone\n\nAndalos\n\nHedge\n\nSaltpans\n\nWickenden\n\nDyre Den\n\nnd\n\nrg Riverrun\n\n3°\n\nClaw\n\nNorvos\n\nThe Crag\n\nQuiet Isle\n\nsla\n\nPair\n\nAshemark\n\nJ\n\nHigh Heart\n\nHarrenhal\n\nIsle\n\nAcorn Hall\n\nMaidenpaol\n\n<¥\n\nThe Whispers\n\nPinkmaiden\n\nLT\"\n\nAntlers\n\nRook's\n\nFaircastle\n\nGolden Tooth\n\nih af\n\nRest\n\nDragonstone\n\nss\n\nDriftmark\n\nSow's Horn\n\nSarsfield\n\nHornvale\n\nStoney Sept\n\nTha Gullat\n\nKayce\n\nDuskendale\n\nSharp Paint\n\n“iy\n\nCasterly\n\nRock\n\nDeep Den\n\nPentos\n\nGhayan\n\nFeastfires\n\nLannisport\n\nBlackwater\n\nStonedance\n\nDrohe\n\na\n\nobo?\n\nRosby\n\nBay\n\nQohor\n\nKing's Landing\n\nag\n\nThe\n\nSilverhill\n\nCornfield\n\nThe Flatlands\n\nNy Sar\n\nNarrow\n\nCrakehali\n\nTumbleton\n\nyr,\n\nFYE TI\n\n=== NE ===\n1bben\n\nForest off Qolber\n\nohor\n\n=== SW ===\nRE\n\nFeastfires\n\nLATHNSPNTL\n\nBlacKkwate\n\nLib ht Lad\n\nL\n\nobo?\n\nRosby\n\nMassey's\n\nQohor\n\nKing's Landing\n\nHook\n\nThe\n\nSilverhill\n\nCornfield\n\nThe Flatlands\n\nNy Sar\n\nNarrow\n\nCrakehali\n\nTumbleton\n\nAr Noy\n\nRingmowsd 7 Haystack Hall\n\nSea\n\nRed Lake\n\n»w*\n\n.\n\nBronzegate\n\nBeraits\n\nTwrth\n\nGoldengrove\n\nBitterbridge\n\nof\n\nThe\n\nTarth\n\nThe\n\nose”\n\nFelwood\n\nEvenfall Hall\n\nGolden\n\nOld Oak\n\nHales Grassy Vale\n\nFields\n\nLongtable\n\nStorm's End\n\nSunset\n\nCider Hall\n\nSummerhal\n\nGrifiin's Roost\n\nShipbreaker Bay\n\nRam Hoose\n\nSea\n\nShield\n\nOli, Ashford\n\nCrow's Nast\n\nThe Sorrows\n\nIslands\n\nSea of Myrth\n\nBlackhaven\n\nCape Wrath\n\n{Chroyane)\n\nHighgarden\n\nReimvead\n\nMyr\n\nStonehelm\n\nat ch es\n\nMistwood\n\nBrightwater\n\nNightsong\n\npersis?\n\nEstarment\n\nKeep\n\nHorn Hill\n\nGreenstona\n\nTyrosh\n\nVulture's\n\nwyl\n\nBandallon\n\nRaost\n\nWeeping Tower\n\nHeodstone\n\nThe Disputed Lands\n\nHeneyholt\n\nTower of Joy\n\nSelhorys\n\nSea of Dorne\n\n7\n\nKingsgrave\n\nGhastan Grey\n\nOldtown\n\nBlackmont\n\nArm\n\nBlackcrown\n\nUplands\n\nYronwood\n\nThe Tor\n\nHigh\n\nSkyreach\n\nGhost\n\nwo\n\nWhispering\n\n/\n\nHermitage\n\nHill\n\nSar Mell\n\nSennd\n\nThree Towers\n\na,\n\nrd\n\nStarfall\n\n~\n\nGadsgrace\n\nZe\n\nPlanky\n\nTown\n\nLys\n\nVolon\n\nSurlower\n\nED Pa\n\nTherys\n\nHail\n\nHelihalt\n\nVaith\n\nSunspear\n\nPosy\n\nRedwyn\n\nEssog\n\nLemonwood\n\nVolantis\n\nSandstone \\\n\nSalt Shore\n\nThe Arbor\n\nWesteros\n\nSummer Sea\n\nSummer Islands\n\n=== SE ===\nohor\n\nMother of Mountains\n\nWomb of the Werld\n\nThe Dothraki Sea\n\nLhazar\n\nopal Pinos\n\n%\n\nMeereen\n\ns\n\nBhorash\n\n2,\n\nMantarys\n\n&\n\noe\n\noF\n\nYunkai\n\nYaros\n\nSlaver's\n\nBay\n\nTolos\n\nElyria\n\nIsle\n\nCedars\n\nAstapor\n\nGhozai\n\nThe Lands\n\nWorm Rw\n\nof the Long\n\nSurnmer\n\nVelos\n\nBi,\n\nThe Smoking Sea\n\nThe\n\nTyria\n\nGulf of\n\nOld Ghis\n\nRed Waste\n\nGrief\n\nGay,\n\nfr\n\nVabria\n\nPos\n\nGhaen\n\nNew Ghis\n\nAx ale\n\nBasilisk Isles\n\nZamettar\n\nThe\n\nsla of Toads\n\nlals of Taare\n\nJade\n\nNaath\n\nBasilisk Point\n\nGogossos\n\nYeen\n\nSea\n\nThe Jade\n\nStraits of Qarth\n\n|\n\nSop, og\n"
+}

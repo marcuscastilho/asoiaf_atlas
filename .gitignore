@@ -1,0 +1,65 @@
+node_modules/
+.venv-book-audit/
+tools/.download-state.json
+docs/.missing-towns.txt
+docs/.towns-block.txt
+docs/.geloefogo-enmap.json
+docs/.geloefogo-chapters.json
+*.log
+
+# user-provided secrets must never be committed: keep your own Google Maps
+# key in a local-only copy. config.js ships the safe empty default.
+config.local.js
+
+# ---- publicacao v6: preparacao de empacotamento ----
+
+# ambientes/caches/junk
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# segredos e registros locais — nunca versionar
+.env
+.env.*
+*.keys
+*.key
+*.p12
+*.pfx
+*.pem
+eng.traineddata
+docs/cleanup-plan.local.json
+docs/cleanup-result.local.json
+
+# livros/fontes privadas do usuario — nunca versionar
+*.epub
+*.mobi
+*.pdf
+
+# masters JPEG ficam locais (fonte dos tiles, ~1.1GB)
+/mapas/jpeg/
+
+# piramide antiga SEM recorte (~1GB): a ativa e a recortada abaixo,
+# que fica INCLUIDA no repositorio
+/atlas/tiles/o-mundo-conhecido/
+
+# contem chave de API de terceiros congelada — nunca versionar
+/reference/index.html
+
+# evidencias de teste: locais por padrao; so provas finais duraveis
+# entram na lista branca abaixo
+atlas/test/evidencias/*
+!atlas/test/evidencias/v6-rotas-revisao-*.png
+!atlas/test/evidencias/v6-febre-hidrografia-fonte.png
+!atlas/test/evidencias/percursos-v6-tyrion318-foz-popup.png
+!atlas/test/evidencias/gate-v6-*.txt
+!atlas/test/evidencias/lead-verificacao-percursos-v6.json
+!atlas/test/evidencias/publicacao-v6-log.txt
+!atlas/test/evidencias/percursos-v6-resultados.txt

@@ -1,0 +1,6 @@
+# Os datasets congelados deste atlas sao verificados por SHA256 byte a byte
+# (ex.: atlas-inventario-v5.json e100756c..., atlas-percursos-v6.json
+# 5677f7a5...). Normalizacao de EOL pelo Git alteraria os bytes e quebraria
+# os hashes. Por isso: sem conversao de texto em checkout/commit para
+# nenhum arquivo — tudo permanece exatamente como esta no disco.
+* -text
