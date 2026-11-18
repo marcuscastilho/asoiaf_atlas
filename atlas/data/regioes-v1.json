@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 1,
+  "source": "Categorias \"Places in ...\" da AWOIAF (via Wayback, atlas/test/evidencias/wiki-categorias-v1.json) + posição no mapa para pontos sem artigo; nomes pt-BR das regiões de assets/js/i18n-pt.js",
+  "regions": [
+    {
+      "id": "alem-muralha",
+      "label": "Além da Muralha",
+      "group": "Westeros",
+      "pointIds": [
+        "Craster%27s_Keep",
+        "Fist_of_the_First_Men",
+        "scan-site-4738-1880",
+        "scan-v4-white-tree-glyph"
+      ]
+    },
+    {
+      "id": "muralha",
+      "label": "Muralha e Dádiva",
+      "group": "Westeros",
+      "pointIds": [
+        "Castle_Black",
+        "Shadow_Tower",
+        "Eastwatch-by-the-Sea",
+        "Queenscrown"
+      ]
+    },
+    {
+      "id": "norte",
+      "label": "Norte",
+      "group": "Westeros",
+      "pointIds": [
+        "Winterfell",
+        "Dreadfort",
+        "White_Harbor",
+        "Moat_Cailin",
+        "Barrowton",
+        "Flint%27s_Finger",
+        "Torrhen%27s_Square",
+        "Ramsgate",
+        "Karhold",
+        "Deepwood_Motte",
+        "Last_Hearth",
+        "Widow%27s_Watch",
+        "scan-v4-cape-castle",
+        "Greywater_Watch",
+        "scan-site-2870-2880"
+      ]
+    },
+    {
+      "id": "ilhas-ferro",
+      "label": "Ilhas de Ferro",
+      "group": "Westeros",
+      "pointIds": [
+        "Pyke"
+      ]
+    },
+    {
+      "id": "terras-fluviais",
+      "label": "Terras Fluviais",
+      "group": "Westeros",
+      "pointIds": [
+        "Twins",
+        "Riverrun",
+        "Harrenhal",
+        "scan-site-3306-6804",
+        "scan-site-3386-5862",
+        "scan-site-4584-6750",
+        "scan-site-4400-6552",
+        "scan-site-3514-6972",
+        "scan-site-3558-6710",
+        "scan-site-3724-6190",
+        "scan-site-4052-6476",
+        "scan-site-4440-6670",
+        "scan-site-4116-6426",
+        "scan-site-3610-6356",
+        "scan-site-3626-6042"
+      ]
+    },
+    {
+      "id": "vale",
+      "label": "Vale de Arryn",
+      "group": "Westeros",
+      "pointIds": [
+        "Eyrie",
+        "Gulltown",
+        "scan-site-5200-5774",
+        "scan-site-4906-5504",
+        "scan-site-5256-5974",
+        "scan-site-4826-6298",
+        "scan-site-5346-6150",
+        "scan-site-4542-6160",
+        "scan-site-4346-5798",
+        "scan-site-4734-5802",
+        "scan-site-4886-6590",
+        "Sisterton",
+        "scan-site-4896-5646",
+        "scan-site-4914-6130"
+      ]
+    },
+    {
+      "id": "terras-ocidentais",
+      "label": "Terras Ocidentais",
+      "group": "Westeros",
+      "pointIds": [
+        "Casterly_Rock",
+        "Lannisport",
+        "scan-site-2540-6306",
+        "scan-site-2922-6742",
+        "scan-site-2010-7100",
+        "scan-site-2516-6554",
+        "scan-site-2918-6938",
+        "scan-site-2936-7040",
+        "scan-site-2526-7474",
+        "scan-site-2888-7234",
+        "scan-site-2626-6870",
+        "scan-site-2150-7546",
+        "scan-site-2674-6698",
+        "scan-site-2282-6730",
+        "scan-site-2090-7054"
+      ]
+    },
+    {
+      "id": "terras-coroa",
+      "label": "Terras da Coroa",
+      "group": "Westeros",
+      "pointIds": [
+        "King%27s_Landing",
+        "Dragonstone",
+        "scan-site-4452-7282",
+        "scan-site-5130-7168",
+        "scan-site-5066-7024",
+        "scan-site-5198-7284",
+        "scan-site-4656-7094",
+        "scan-site-4840-6886",
+        "scan-site-4390-6926"
+      ]
+    },
+    {
+      "id": "campina",
+      "label": "Campina",
+      "group": "Westeros",
+      "pointIds": [
+        "Highgarden",
+        "Oldtown",
+        "scan-site-2302-7962",
+        "scan-site-2570-7696",
+        "scan-site-2910-7788",
+        "scan-site-3862-7940",
+        "scan-site-3508-8256",
+        "scan-site-3550-7818",
+        "scan-site-3928-7614",
+        "scan-site-2378-8638",
+        "scan-site-v4-293",
+        "scan-site-v4-299",
+        "scan-site-v4-384",
+        "scan-site-v4-439",
+        "scan-site-v4-496",
+        "scan-site-v4-528",
+        "scan-site-v4-608",
+        "comp-v1-ocidente-4189-12763",
+        "comp-v1-ocidente-4606-12213",
+        "scan-site-v4-606",
+        "scan-site-2058-9636",
+        "scan-site-1990-9564"
+      ]
+    },
+    {
+      "id": "terras-tempestade",
+      "label": "Terras da Tempestade",
+      "group": "Westeros",
+      "pointIds": [
+        "Bronzegate",
+        "scan-site-5322-8024",
+        "scan-site-3380-8600",
+        "Storm%27s_End",
+        "scan-site-4858-7802",
+        "scan-site-4676-8386",
+        "scan-site-4590-7954",
+        "scan-site-5012-8566",
+        "scan-site-4502-8514",
+        "scan-site-v4-300",
+        "scan-site-v4-328",
+        "scan-site-v4-375",
+        "scan-site-v4-393",
+        "scan-site-v4-412",
+        "scan-v4-summerhall-glyph"
+      ]
+    },
+    {
+      "id": "dorne",
+      "label": "Dorne",
+      "group": "Westeros",
+      "pointIds": [
+        "Sunspear",
+        "scan-site-4614-9634",
+        "scan-site-3312-9466",
+        "scan-site-3090-8950",
+        "scan-site-5106-9574",
+        "scan-site-v4-396",
+        "scan-site-v4-414",
+        "scan-site-v4-456",
+        "scan-site-v4-475",
+        "scan-site-v4-492",
+        "scan-site-v4-511",
+        "scan-site-v4-549",
+        "scan-site-v4-580",
+        "scan-site-v4-587",
+        "scan-site-v4-602",
+        "scan-v4-dorne-3988-9056",
+        "scan-v4-dorne-4574-9180",
+        "scan-v4-dorne-5170-9180",
+        "scan-v4-dorne-4264-9470",
+        "scan-v7-3704-8732"
+      ]
+    },
+    {
+      "id": "cidades-livres",
+      "label": "Cidades Livres",
+      "group": "Essos",
+      "pointIds": [
+        "Braavos",
+        "Lorath",
+        "Morosh",
+        "Norvos",
+        "Pentos",
+        "Qohor",
+        "Myr",
+        "Tyrosh",
+        "Lys",
+        "Volantis",
+        "Selhorys",
+        "Valysar",
+        "Volon_Therys",
+        "scan-site-v4-592",
+        "scan-site-v4-649"
+      ]
+    },
+    {
+      "id": "roine",
+      "label": "Vale do Roine",
+      "group": "Essos",
+      "pointIds": [
+        "Ny_Sar",
+        "Ar_Noy",
+        "Ghoyan_Drohe",
+        "Sar_Mell",
+        "Sorrows"
+      ]
+    },
+    {
+      "id": "mar-dothraki",
+      "label": "Mar Dothraki",
+      "group": "Essos",
+      "pointIds": [
+        "Vaes_Dothrak",
+        "Vaes_Leisi",
+        "Vaes_Athjikhari",
+        "Vaes_Leqse",
+        "Vaes_Khadokh",
+        "Vojjor_Samui",
+        "Vaes_Khewo",
+        "Yalli_Qamayi",
+        "Vaes_Efe",
+        "Vaes_Diaf",
+        "Vaes_Mejhah",
+        "Krazaaj_Has",
+        "Adakhakileki",
+        "Saath",
+        "Vaes_Graddakh"
+      ]
+    },
+    {
+      "id": "ibben",
+      "label": "Ibben",
+      "group": "Essos",
+      "pointIds": [
+        "Ib_Nor",
+        "Port_of_Ibben",
+        "Ib_Sar",
+        "New_Ibbish",
+        "Vaes_Aresak"
+      ]
+    },
+    {
+      "id": "baia-escravos",
+      "label": "Baía dos Escravos e Ghis",
+      "group": "Essos",
+      "pointIds": [
+        "Meereen",
+        "Yunkai",
+        "Astapor",
+        "Tolos",
+        "Ghozai",
+        "Velos",
+        "Old_Ghis",
+        "Bhorash",
+        "Elyria",
+        "New_Ghis"
+      ]
+    },
+    {
+      "id": "lhazar",
+      "label": "Lhazar",
+      "group": "Essos",
+      "pointIds": [
+        "Hesh",
+        "Kosrak",
+        "Lhazosh"
+      ]
+    },
+    {
+      "id": "valiria",
+      "label": "Valíria e Terras do Longo Verão",
+      "group": "Essos",
+      "pointIds": [
+        "scan-site-v4-771",
+        "Oros",
+        "Tyria",
+        "Mantarys",
+        "scan-site-v4-550",
+        "scan-site-v4-698",
+        "scan-site-v4-699",
+        "scan-site-v4-754",
+        "scan-site-v4-766",
+        "scan-site-v4-794"
+      ]
+    },
+    {
+      "id": "deserto-vermelho",
+      "label": "Deserto Vermelho e Qarth",
+      "group": "Essos",
+      "pointIds": [
+        "Vaes_Tolorro",
+        "Vaes_Shirosi",
+        "Vaes_Orvik",
+        "Vaes_Qosar",
+        "Qarkash",
+        "Port_Yhos",
+        "Qarth",
+        "scan-site-v4-741",
+        "scan-site-v4-747"
+      ]
+    },
+    {
+      "id": "hyrkoon",
+      "label": "Patrimônio de Hyrkoon",
+      "group": "Essos",
+      "pointIds": [
+        "Kayakayanaya",
+        "Bayasabhad",
+        "scan-site-v4-368",
+        "Vaes_Jini"
+      ]
+    },
+    {
+      "id": "yi-ti",
+      "label": "Yi Ti",
+      "group": "Essos",
+      "pointIds": [
+        "Trader_Town",
+        "Tiqui",
+        "Asabhad",
+        "Jinqi",
+        "Yin",
+        "scan-site-v4-470",
+        "scan-site-v4-494",
+        "Five_Forts_Central",
+        "scan-site-v4-521",
+        "scan-site-v4-531"
+      ]
+    },
+    {
+      "id": "mar-jade",
+      "label": "Leng e Mar de Jade",
+      "group": "Essos",
+      "pointIds": [
+        "Leng_Yi",
+        "Leng_Ma",
+        "Turrani",
+        "Port_Moraq",
+        "Zabhad",
+        "Faros",
+        "Vahar"
+      ]
+    },
+    {
+      "id": "asshai",
+      "label": "Asshai e Terras da Sombra",
+      "group": "Essos",
+      "pointIds": [
+        "Asshai",
+        "Stygai"
+      ]
+    },
+    {
+      "id": "extremo-oriente",
+      "label": "Extremo Oriente",
+      "group": "Essos",
+      "pointIds": [
+        "Nefer",
+        "K%27Dath",
+        "Bonetown",
+        "City_of_the_Winged_Men",
+        "Carcosa",
+        "scan-v7-20370-8930"
+      ]
+    },
+    {
+      "id": "ilhas-verao",
+      "label": "Ilhas do Verão",
+      "group": "Outros",
+      "pointIds": [
+        "Lotus_Port",
+        "scan-site-v4-799",
+        "scan-site-v4-828",
+        "scan-site-v4-855"
+      ]
+    },
+    {
+      "id": "sothoryos",
+      "label": "Sothoryos e Ilhas Basilisco",
+      "group": "Outros",
+      "pointIds": [
+        "Gorosh",
+        "Zamettar",
+        "Gogossos",
+        "Yeen"
+      ]
+    },
+    {
+      "id": "ulthos",
+      "label": "Ulthos",
+      "group": "Outros",
+      "pointIds": [
+        "scan-site-v4-838"
+      ]
+    }
+  ],
+  "subregions": [
+    {
+      "id": "presas-de-gelo",
+      "label": "Presas de Gelo",
+      "english": "Frostfangs",
+      "parent": "alem-muralha",
+      "center": [
+        3260,
+        1760
+      ],
+      "span": [
+        1100,
+        700
+      ]
+    },
+    {
+      "id": "floresta-assombrada",
+      "label": "Floresta Assombrada",
+      "english": "Haunted Forest",
+      "parent": "alem-muralha",
+      "center": [
+        4397,
+        2124
+      ],
+      "span": [
+        1100,
+        600
+      ]
+    },
+    {
+      "id": "costa-gelada",
+      "label": "Costa Gelada",
+      "english": "Frozen Shore",
+      "parent": "alem-muralha",
+      "center": [
+        2472,
+        2273
+      ],
+      "span": [
+        900,
+        600
+      ]
+    },
+    {
+      "id": "dadiva-brandon",
+      "label": "Dádiva de Brandon",
+      "english": "Brandon's Gift",
+      "parent": "muralha",
+      "center": [
+        4488,
+        2487
+      ],
+      "span": [
+        800,
+        350
+      ]
+    },
+    {
+      "id": "nova-dadiva",
+      "label": "Nova Dádiva",
+      "english": "New Gift",
+      "parent": "muralha",
+      "center": [
+        4587,
+        2664
+      ],
+      "span": [
+        800,
+        350
+      ]
+    },
+    {
+      "id": "skagos",
+      "label": "Skagos",
+      "english": "Skagos",
+      "parent": "norte",
+      "center": [
+        5310,
+        2091
+      ],
+      "span": [
+        500,
+        400
+      ]
+    },
+    {
+      "id": "ilha-dos-ursos",
+      "label": "Ilha dos Ursos",
+      "english": "Bear Island",
+      "parent": "norte",
+      "center": [
+        2722,
+        2647
+      ],
+      "span": [
+        450,
+        350
+      ]
+    },
+    {
+      "id": "mata-de-lobos",
+      "label": "Mata de Lobos",
+      "english": "Wolfswood",
+      "parent": "norte",
+      "center": [
+        3200,
+        3552
+      ],
+      "span": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "colinas-solitarias",
+      "label": "Colinas Solitárias",
+      "english": "Lonely Hills",
+      "parent": "norte",
+      "center": [
+        4351,
+        3177
+      ],
+      "span": [
+        700,
+        450
+      ]
+    },
+    {
+      "id": "terras-acidentadas",
+      "label": "Terras Acidentadas",
+      "english": "Barrowlands",
+      "parent": "norte",
+      "center": [
+        3364,
+        4308
+      ],
+      "span": [
+        800,
+        550
+      ]
+    },
+    {
+      "id": "regatos",
+      "label": "Regatos",
+      "english": "Rills",
+      "parent": "norte",
+      "center": [
+        2446,
+        4400
+      ],
+      "span": [
+        700,
+        500
+      ]
+    },
+    {
+      "id": "gargalo",
+      "label": "O Gargalo",
+      "english": "Neck",
+      "parent": "norte",
+      "center": [
+        3366,
+        5068
+      ],
+      "span": [
+        700,
+        550
+      ]
+    },
+    {
+      "id": "grande-wyk",
+      "label": "Grande Wyk",
+      "english": "Great Wyk",
+      "parent": "ilhas-ferro",
+      "center": [
+        1932,
+        5875
+      ],
+      "span": [
+        400,
+        300
+      ]
+    },
+    {
+      "id": "velha-wyk",
+      "label": "Velha Wyk",
+      "english": "Old Wyk",
+      "parent": "ilhas-ferro",
+      "center": [
+        2380,
+        5850
+      ],
+      "span": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": "montrasgo",
+      "label": "Montrasgo",
+      "english": "Orkmont",
+      "parent": "ilhas-ferro",
+      "center": [
+        2493,
+        5867
+      ],
+      "span": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": "harlaw",
+      "label": "Harlaw",
+      "english": "Harlaw",
+      "parent": "ilhas-ferro",
+      "center": [
+        2713,
+        6110
+      ],
+      "span": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": "salesia",
+      "label": "Salésia",
+      "english": "Saltcliffe",
+      "parent": "ilhas-ferro",
+      "center": [
+        2050,
+        6194
+      ],
+      "span": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": "olho-de-deus",
+      "label": "Olho de Deus e Ilha das Caras",
+      "english": "Gods Eye",
+      "parent": "terras-fluviais",
+      "center": [
+        3998,
+        6849
+      ],
+      "span": [
+        500,
+        450
+      ]
+    },
+    {
+      "id": "montanhas-da-lua",
+      "label": "Montanhas da Lua",
+      "english": "Mountains of the Moon",
+      "parent": "vale",
+      "center": [
+        4091,
+        6056
+      ],
+      "span": [
+        900,
+        700
+      ]
+    },
+    {
+      "id": "tres-irmas",
+      "label": "Três Irmãs",
+      "english": "Three Sisters",
+      "parent": "vale",
+      "center": [
+        4366,
+        5020
+      ],
+      "span": [
+        500,
+        300
+      ]
+    },
+    {
+      "id": "os-dedos",
+      "label": "Os Dedos",
+      "english": "Fingers",
+      "parent": "vale",
+      "center": [
+        5464,
+        5426
+      ],
+      "span": [
+        500,
+        400
+      ]
+    },
+    {
+      "id": "garra-rachada",
+      "label": "Ponta da Garra Rachada",
+      "english": "Crackclaw Point",
+      "parent": "terras-coroa",
+      "center": [
+        5262,
+        6572
+      ],
+      "span": [
+        500,
+        350
+      ]
+    },
+    {
+      "id": "ilha-da-garra",
+      "label": "Ilha da Garra",
+      "english": "Claw Isle",
+      "parent": "terras-coroa",
+      "center": [
+        5468,
+        6625
+      ],
+      "span": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": "gancho-de-massey",
+      "label": "Gancho de Massey",
+      "english": "Massey's Hook",
+      "parent": "terras-coroa",
+      "center": [
+        5292,
+        7378
+      ],
+      "span": [
+        500,
+        350
+      ]
+    },
+    {
+      "id": "mataderrei",
+      "label": "Mataderrei",
+      "english": "Kingswood",
+      "parent": "terras-coroa",
+      "center": [
+        4630,
+        7672
+      ],
+      "span": [
+        600,
+        400
+      ]
+    },
+    {
+      "id": "ilha-bela",
+      "label": "Ilha Bela",
+      "english": "Fair Isle",
+      "parent": "terras-ocidentais",
+      "center": [
+        2240,
+        6639
+      ],
+      "span": [
+        350,
+        300
+      ]
+    },
+    {
+      "id": "arvore",
+      "label": "Árvore",
+      "english": "Arbor",
+      "parent": "campina",
+      "center": [
+        2063,
+        9722
+      ],
+      "span": [
+        450,
+        400
+      ]
+    },
+    {
+      "id": "ilhas-escudo",
+      "label": "Ilhas Escudo",
+      "english": "Shield Islands",
+      "parent": "campina",
+      "center": [
+        2159,
+        8200
+      ],
+      "span": [
+        450,
+        350
+      ]
+    },
+    {
+      "id": "cabo-da-furia",
+      "label": "Cabo da Fúria",
+      "english": "Cape Wrath",
+      "parent": "terras-tempestade",
+      "center": [
+        5555,
+        8456
+      ],
+      "span": [
+        600,
+        400
+      ]
+    },
+    {
+      "id": "tarth",
+      "label": "Tarth",
+      "english": "Tarth",
+      "parent": "terras-tempestade",
+      "center": [
+        5479,
+        7858
+      ],
+      "span": [
+        350,
+        350
+      ]
+    },
+    {
+      "id": "estermonte",
+      "label": "Estermonte",
+      "english": "Estermont",
+      "parent": "terras-tempestade",
+      "center": [
+        5508,
+        8612
+      ],
+      "span": [
+        350,
+        300
+      ]
+    },
+    {
+      "id": "marca-de-dorne",
+      "label": "Marca de Dorne",
+      "english": "Dornish Marches",
+      "parent": "terras-tempestade",
+      "center": [
+        3747,
+        8555
+      ],
+      "span": [
+        1000,
+        500
+      ]
+    },
+    {
+      "id": "montanhas-vermelhas",
+      "label": "Montanhas Vermelhas",
+      "english": "Red Mountains",
+      "parent": "dorne",
+      "center": [
+        3475,
+        8811
+      ],
+      "span": [
+        1000,
+        500
+      ]
+    },
+    {
+      "id": "passo-do-principe",
+      "label": "Passo do Príncipe",
+      "english": "Prince's Pass",
+      "parent": "dorne",
+      "center": [
+        3475,
+        8901
+      ],
+      "span": [
+        350,
+        350
+      ]
+    },
+    {
+      "id": "caminho-do-espinhaco",
+      "label": "Caminho do Espinhaço",
+      "english": "Boneway",
+      "parent": "dorne",
+      "center": [
+        3945,
+        8831
+      ],
+      "span": [
+        400,
+        350
+      ]
+    },
+    {
+      "id": "sangueverde",
+      "label": "Sangueverde",
+      "english": "Greenblood",
+      "parent": "dorne",
+      "center": [
+        4671,
+        9387
+      ],
+      "span": [
+        900,
+        450
+      ]
+    },
+    {
+      "id": "braco-partido",
+      "label": "Braço Partido",
+      "english": "Broken Arm",
+      "parent": "dorne",
+      "center": [
+        5523,
+        9084
+      ],
+      "span": [
+        400,
+        300
+      ]
+    },
+    {
+      "id": "costa-braavosiana",
+      "label": "Costa Braavosiana",
+      "english": "Braavosian Coastlands",
+      "parent": "cidades-livres",
+      "center": [
+        6128,
+        6235
+      ],
+      "span": [
+        600,
+        700
+      ]
+    },
+    {
+      "id": "andalos",
+      "label": "Ândalos",
+      "english": "Andalos",
+      "parent": "cidades-livres",
+      "center": [
+        6471,
+        6500
+      ],
+      "span": [
+        900,
+        700
+      ]
+    },
+    {
+      "id": "colinas-de-norvos",
+      "label": "Colinas de Norvos",
+      "english": "Hills of Norvos",
+      "parent": "cidades-livres",
+      "center": [
+        7480,
+        6403
+      ],
+      "span": [
+        700,
+        500
+      ]
+    },
+    {
+      "id": "floresta-de-qohor",
+      "label": "Floresta de Qohor",
+      "english": "Forest of Qohor",
+      "parent": "cidades-livres",
+      "center": [
+        9184,
+        7169
+      ],
+      "span": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "o-machado",
+      "label": "O Machado",
+      "english": "Axe",
+      "parent": "cidades-livres",
+      "center": [
+        8506,
+        5963
+      ],
+      "span": [
+        350,
+        350
+      ]
+    },
+    {
+      "id": "terras-planas",
+      "label": "Terras Planas",
+      "english": "Flatlands",
+      "parent": "cidades-livres",
+      "center": [
+        6793,
+        7556
+      ],
+      "span": [
+        600,
+        400
+      ]
+    },
+    {
+      "id": "terras-disputadas",
+      "label": "Terras Disputadas",
+      "english": "Disputed Lands",
+      "parent": "cidades-livres",
+      "center": [
+        6530,
+        8808
+      ],
+      "span": [
+        800,
+        550
+      ]
+    },
+    {
+      "id": "degraus",
+      "label": "Degraus",
+      "english": "Stepstones",
+      "parent": "cidades-livres",
+      "center": [
+        5719,
+        9118
+      ],
+      "span": [
+        500,
+        400
+      ]
+    },
+    {
+      "id": "campos-dourados",
+      "label": "Campos Dourados",
+      "english": "Golden Fields",
+      "parent": "roine",
+      "center": [
+        7756,
+        8061
+      ],
+      "span": [
+        600,
+        450
+      ]
+    },
+    {
+      "id": "ilha-de-cedros",
+      "label": "Ilha de Cedros",
+      "english": "Isle of Cedars",
+      "parent": "valiria",
+      "center": [
+        10478,
+        10008
+      ],
+      "span": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "terras-longo-verao",
+      "label": "Terras do Longo Verão",
+      "english": "Lands of the Long Summer",
+      "parent": "valiria",
+      "center": [
+        9676,
+        10356
+      ],
+      "span": [
+        900,
+        700
+      ]
+    },
+    {
+      "id": "yaros",
+      "label": "Yaros",
+      "english": "Yaros",
+      "parent": "baia-escravos",
+      "center": [
+        11585,
+        9397
+      ],
+      "span": [
+        350,
+        300
+      ]
+    },
+    {
+      "id": "ghaen",
+      "label": "Ghaen",
+      "english": "Ghaen",
+      "parent": "baia-escravos",
+      "center": [
+        11109,
+        11172
+      ],
+      "span": [
+        400,
+        300
+      ]
+    },
+    {
+      "id": "ilhas-basilisco",
+      "label": "Ilhas Basilisco",
+      "english": "Basilisk Isles",
+      "parent": "sothoryos",
+      "center": [
+        10312,
+        12452
+      ],
+      "span": [
+        800,
+        500
+      ]
+    }
+  ],
+  "subregionsSource": "Nomes conforme impressos no mapa base O Mundo Conhecido (pt-BR), lidos nos recortes atlas/test/evidencias/subregioes-v1; centros projetados de docs/map-features.json (atlas/scripts/projetar-subregioes-v1.py); 'span' = meia-largura/altura aproximada para enquadramento."
+}

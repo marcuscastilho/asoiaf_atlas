@@ -1,5 +1,5 @@
 {
-  "name": "gotmap",
+  "name": "asoiaf_atlas",
   "version": "0.0.0",
   "private": true,
   "description": "pt-BR localized fan clone of Quartermaester (ASoIaF interactive map), using Editora Suma 2019 translations",

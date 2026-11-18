@@ -4,7 +4,7 @@ Entradas (read-only):
   atlas/data/atlas-percursos-v6.json   — pontos de controle, livros, geometria v6
   atlas/scripts/itinerarios_v7_fonte.py — paradas/modos/vias/death (autoria do lead)
   assets/js/data.js                  — lat/lng do portal para waypoints portalKey
-  atlas/tiles/o-mundo-conhecido-recorte-v1/4/{x}/{y}.webp — raster mar/terra
+  atlas/tiles/o-mundo-conhecido-recorte-v2/4/{x}/{y}.webp — raster mar/terra
 
 Saidas:
   atlas/data/atlas-percursos-v7.json
@@ -32,7 +32,9 @@ from skimage.graph import MCP_Geometric
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "atlas/data"
-TILES = ROOT / "atlas/tiles/o-mundo-conhecido-recorte-v1"
+REGIOES = ROOT / "atlas/data/regioes-v1.json"
+MANIFEST = ROOT / "atlas/data/mapa.json"
+TILES = ROOT / "atlas/tiles/o-mundo-conhecido-recorte-v2"
 FONTE = ROOT / "atlas/scripts/itinerarios_v7_fonte.py"
 PORTAL_JS = ROOT / "assets/js/data.js"
 
@@ -71,20 +73,19 @@ PORTAL_LATLNG = {
 # novos simbolos confirmados na auditoria v7 (ver
 # atlas/data/auditoria-simbolos-v7.json)
 NEW_POINTS = [
-    {"id": "scan-v7-3704-8732", "label": "Castelo nas Montanhas Vermelhas",
-     "english": "Castle in the Red Mountains", "x": 3704, "y": 8732,
-     "kind": "castle", "region": "westeros", "status": "manual-review",
-     "identificationStatus": "geographically-described",
-     "labelType": "geographic-description",
-     "summary": "Descricao geografica do simbolo: vertente norte das "
-                "Montanhas Vermelhas, na fronteira da Marca de Dorne. "
-                "Nao foi localizado nome proprio individual nas "
-                "referencias consultadas.",
-     "note": "O rotulo e uma descricao editorial de localizacao, nao um "
-             "nome canonico nem uma traducao nova."},
+    {"id": "scan-v7-3704-8732", "label": "Poleiro do Abutre",
+     "english": "Vulture's Roost", "x": 3704, "y": 8732,
+     "kind": "castle", "region": "dorne", "status": "manual-review",
+     "identificationStatus": "companion-map-review",
+     "labelType": "proper-name", "originalKey": "Vulture%27s_Roost",
+     "summary": "Castelo impresso no mapa companheiro O Ocidente nas "
+                "Montanhas Vermelhas, entre a Torre da Alegria e Wyl; "
+                "corresponde ao artigo AWOIAF Vulture's Roost.",
+     "note": "Nome impresso no mapa regional na posicao exata do "
+             "simbolo; nao e descricao editorial."},
     {"id": "scan-v7-20370-8930", "label": "Castelo a oeste de Bonetown",
      "english": "Castle west of Bonetown", "x": 20370, "y": 8930,
-     "kind": "castle", "region": "oriente", "status": "manual-review",
+     "kind": "castle", "region": "extremo-oriente", "status": "manual-review",
      "identificationStatus": "geographically-described",
      "labelType": "geographic-description",
      "summary": "Descricao geografica do simbolo: costa no extremo "
@@ -93,9 +94,30 @@ NEW_POINTS = [
                 "consultadas.",
      "note": "O rotulo e uma descricao editorial de localizacao, nao um "
              "nome canonico nem uma traducao nova."},
+    # projetados a partir de glifos do mapa companheiro O Ocidente sem
+    # ponto correspondente na varredura base (ver
+    # atlas/data/inventario-mapas-companheiros-v1.json)
+    {"id": "comp-v1-ocidente-4189-12763", "label": "Terraltas",
+     "english": "Uplands", "x": 2624, "y": 8944,
+     "kind": "castle", "region": "campina", "status": "manual-review",
+     "identificationStatus": "companion-map-projected",
+     "labelType": "proper-name", "originalKey": "Uplands",
+     "summary": "Castelo impresso no mapa companheiro O Ocidente no "
+                "Dominio, a leste de Bosquemel; corresponde ao artigo "
+                "AWOIAF Uplands, sede da Casa Mullendore.",
+     "note": "Nome impresso no mapa regional na posicao projetada do "
+             "simbolo; nao e descricao editorial."},
+    {"id": "comp-v1-ocidente-4606-12213", "label": "Monte Chifre",
+     "english": "Horn Hill", "x": 2874, "y": 8618,
+     "kind": "castle", "region": "campina", "status": "manual-review",
+     "identificationStatus": "companion-map-projected",
+     "labelType": "proper-name", "originalKey": "Horn_Hill",
+     "summary": "Castelo impresso no mapa companheiro O Ocidente no "
+                "Dominio, a sudeste de Jardim de Cima; corresponde ao "
+                "artigo AWOIAF Horn Hill, sede da Casa Tarly.",
+     "note": "Nome impresso no mapa regional na posicao projetada do "
+             "simbolo; nao e descricao editorial."},
 ]
-
-# renomeacoes v7: nome proprio documentado no mapa companheiro
 # (O Ocidente) + artigo AWOIAF; ver atlas/data/auditoria-simbolos-v7.json
 RENAMES = {
     "scan-site-v4-799": {
@@ -108,6 +130,68 @@ RENAMES = {
                    "AWOIAF Last Lament, assentamento de Walano.",
         "note": "Nome proprio documentado por posicao no mapa regional "
                 "e na wiki; nao e descricao editorial."},
+    "scan-site-v4-828": {
+        "label": "Vila das Árvores Altas", "english": "Tall Trees Town",
+        "originalKey": "Tall_Trees_Town",
+        "identificationStatus": "companion-map-review",
+        "labelType": "proper-name",
+        "summary": "Localidade impressa no mapa companheiro O Ocidente "
+                   "na ilha a sudeste de Walano; corresponde ao artigo "
+                   "AWOIAF Tall Trees Town, porto das Ilhas do Verao.",
+        "note": "Nome impresso no mapa regional na posicao do simbolo; "
+                "nao e descricao editorial."},
+    # Ortografia conforme o nome impresso no mapa oficial pt-BR O Ocidente
+    # (revisao manual dos recortes rotulos/occ); nome antigo vira alias.
+    "scan-v4-dorne-5170-9180": {
+        "label": "Colina Fantasma",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Monte Fantasma"]},
+    "scan-site-v4-328": {
+        "label": "Casa de Chuva",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Casais de Chuva"]},
+    "scan-v4-cape-castle": {
+        "label": "Castelo Velho",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Castelovelho"]},
+    "scan-site-4052-6476": {
+        "label": "Vila do Lorde Harroway",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Vila de Lorde Harroway"]},
+    "scan-site-2526-7474": {
+        "label": "Campodemilho",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Campo de Milho"]},
+    "scan-site-v4-580": {
+        "label": "Graça-dos-Deuses",
+        "identificationStatus": "companion-map-review",
+        "aliases": ["Graça dos Deuses", "Graçadivina"]},
+    # Errata of The Lands of Ice and Fire (AWOIAF): correcoes de
+    # impressao do mapa oficial; nome antigo vira alias.
+    "scan-site-2888-7234": {
+        "label": "Monte Prateado", "english": "Silverhill",
+        "originalKey": "Silverhill",
+        "aliases": ["Solardeprata"],
+        "errata": "AWOIAF Errata of The Lands of Ice and Fire: o mapa "
+                  "imprime 'Silverhall'; o nome correto e Silverhill."},
+    "scan-site-v4-414": {
+        "kind": "ruin",
+        "errata": "AWOIAF Errata of The Lands of Ice and Fire: torre "
+                  "em ruinas, nao castelo ativo."},
+    "Barrowton": {
+        "kind": "village",
+        "errata": "AWOIAF Errata of The Lands of Ice and Fire: vila "
+                  "(town), nao cidade."},
+    "Lotus_Port": {
+        "label": "Ponta de Lótus", "english": "Lotus Point",
+        "aliases": ["Porto de Lótus"],
+        "errata": "AWOIAF Errata of The Lands of Ice and Fire: o nome "
+                  "correto e Lotus Point (Ponta de Lotus)."},
+    "Vaes_Diaf": {
+        "label": "Vaes Diaf (Hazdahn Mo)",
+        "aliases": ["Vaes Diaf (Hazdahn No)"],
+        "errata": "AWOIAF Errata of The Lands of Ice and Fire: o nome "
+                  "antigo da cidade era Hazdahn Mo, nao Hazdahn No."},
 }
 
 WAYPOINT_FINAL = {
@@ -690,6 +774,10 @@ def main():
 
     out = {k: v for k, v in v6.items() if k != "routes"}
     out["datasetId"] = "atlas-saga-v7"
+    # tileset vem do manifesto (v2 = sRGB sem ICC); herdado do v6 ficaria
+    # preso no conjunto antigo e a validacao fail-closed rejeitaria
+    manifest = json.loads(MANIFEST.read_text("utf-8"))
+    out["tileSetId"] = manifest["tileSetId"]
     cplist = []
     for p in v6["controlPoints"]:
         p = dict(p)
@@ -698,6 +786,24 @@ def main():
         cplist.append(p)
     out["controlPoints"] = cplist + [dict(p) for p in NEW_POINTS]
     out["routes"] = out_routes
+
+    # ------------------------------------------------------------------
+    # regioes: o conjunto autoritativo em regioes-v1.json substitui o
+    # array herdado do v6; cada ponto ganha o id da unica regiao que o
+    # contem (arquivo do lead: 244 pontos atribuidos exatamente uma vez)
+    # ------------------------------------------------------------------
+    regioes_doc = json.loads(REGIOES.read_text("utf-8"))
+    regioes = regioes_doc["regions"]
+    out["regions"] = regioes
+    out["subregions"] = regioes_doc.get("subregions", [])
+    regiao_do = {}
+    for r in regioes:
+        for pid in r["pointIds"]:
+            regiao_do.setdefault(pid, []).append(r["id"])
+    for p in out["controlPoints"]:
+        hits = regiao_do.get(p["id"], [])
+        if len(hits) == 1:
+            p["region"] = hits[0]
 
     # ------------------------------------------------------------------
     # invariantes
@@ -758,6 +864,32 @@ def main():
             for v in s.get("via") or []:
                 if v not in cps:
                     erros.append("%s: via desconhecida %s" % (cid, v))
+
+    # regioes: cada ponto em exatamente uma regiao e o campo region
+    # bate com a unica regiao que o contem
+    regids = {r["id"] for r in regioes}
+    for p in out["controlPoints"]:
+        hits = regiao_do.get(p["id"], [])
+        if len(hits) != 1:
+            erros.append("ponto %s em %d regioes" % (p["id"], len(hits)))
+        elif p.get("region") not in regids or p["region"] != hits[0]:
+            erros.append("ponto %s: region %s != %s" %
+                         (p["id"], p.get("region"), hits[0]))
+
+    # sub-regioes: parent existe e centro dentro do mapa
+    subids = set()
+    for s in out["subregions"]:
+        if s["id"] in subids:
+            erros.append("subregiao duplicada %s" % s["id"])
+        subids.add(s["id"])
+        if s.get("parent") not in regids:
+            erros.append("subregiao %s: parent %s desconhecido" %
+                         (s["id"], s.get("parent")))
+        c = s.get("center")
+        if (not isinstance(c, list) or len(c) != 2 or
+                not (0 <= c[0] <= MAP_W and 0 <= c[1] <= MAP_H)):
+            erros.append("subregiao %s: center fora do mapa %s" %
+                         (s["id"], c))
 
     diag["invariantes"] = {"erros": erros,
                            "segments": sum(len(r["segments"])

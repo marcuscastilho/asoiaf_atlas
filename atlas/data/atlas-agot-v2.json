@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "datasetId": "agot-atlas-v2",
   "mapId": "o-mundo-conhecido",
-  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "tileSetId": "o-mundo-conhecido-recorte-v2",
   "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
   "coordinateSystem": "cropped-native-pixels",
   "mapWidth": 21654,
@@ -228,7 +228,7 @@
     {
       "id": "Twins",
       "originalKey": "Twins",
-      "label": "As G\u00eameas",
+      "label": "As Gêmeas",
       "english": "Twins",
       "x": 3535,
       "y": 5740,
@@ -290,7 +290,7 @@
     {
       "id": "Eyrie",
       "originalKey": "Eyrie",
-      "label": "Ninho da \u00c1guia",
+      "label": "Ninho da Águia",
       "english": "Eyrie",
       "x": 4595,
       "y": 6050,
@@ -414,7 +414,7 @@
     {
       "id": "Dragonstone",
       "originalKey": "Dragonstone",
-      "label": "Pedra do Drag\u00e3o",
+      "label": "Pedra do Dragão",
       "english": "Dragonstone",
       "x": 5175,
       "y": 6940,
@@ -1035,7 +1035,7 @@
   "chapters": [
     {
       "index": 0,
-      "title": "A Guerra dos Tronos-0: Pr\u00f3logo",
+      "title": "A Guerra dos Tronos-0: Prólogo",
       "originalTitle": "AGOT-0: Prologue"
     },
     {

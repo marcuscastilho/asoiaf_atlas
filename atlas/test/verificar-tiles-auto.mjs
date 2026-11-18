@@ -12,7 +12,7 @@ const OUT = join(fileURLToPath(new URL(".", import.meta.url)), "evidencias");
 mkdirSync(OUT, { recursive: true });
 
 const MANIFESTO_URL = "**/atlas/data/mapa.json";
-const PREVIEW_URL = "**/o-mundo-conhecido-recorte-v1-preview.webp";
+const PREVIEW_URL = "**/o-mundo-conhecido-recorte-v2-preview.webp";
 const TILES_URL = "**/atlas/tiles/**";
 /* casos em que tiles 404/abortados sao INTENCIONAIS — nao sujam a
    higiene global de respostas */

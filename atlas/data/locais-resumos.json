@@ -495,6 +495,14 @@
     "resumo": "Cidade em ruínas na costa norte de Sothoryos, no grande delta do rio Zamoyos, ao norte de Yeen.",
     "wiki": "Zamettar"
   },
+  "comp-v1-ocidente-4189-12763": {
+    "resumo": "Castelo do Domínio, sede da Casa Mullendore, nas colinas a leste de Bosquemel.",
+    "wiki": "Uplands"
+  },
+  "comp-v1-ocidente-4606-12213": {
+    "resumo": "Castelo do Domínio, sede da Casa Tarly, a sudeste de Jardim de Cima.",
+    "wiki": "Horn_Hill"
+  },
   "scan-site-1990-9564": {
     "resumo": "Vilarejo sem nome registrado na costa nordeste da ilha do Arbor, na Campina.",
     "wiki": null
@@ -916,20 +924,20 @@
     "wiki": null
   },
   "scan-site-v4-799": {
-    "wiki": "Last_Lament",
-    "resumo": "Assentamento na ponta noroeste de Walano, nas Ilhas do Verão."
+    "resumo": "Assentamento na ponta noroeste de Walano, nas Ilhas do Verão.",
+    "wiki": "Last_Lament"
   },
   "scan-site-v4-828": {
-    "wiki": null,
-    "resumo": "Vilarejo sem nome registrado na costa sudeste de Walano, nas Ilhas do Verão."
+    "resumo": "Porto da ilha das Árvores Altas, nas Ilhas do Verão, a sudeste de Walano.",
+    "wiki": "Tall_Trees_Town"
   },
   "scan-site-v4-838": {
     "resumo": "Ruínas sem nome registrado no noroeste do continente de Ulthos.",
     "wiki": null
   },
   "scan-site-v4-855": {
-    "wiki": null,
-    "resumo": "Vilarejo sem nome registrado na foz de um rio, nas Ilhas do Verão."
+    "resumo": "Vilarejo sem nome registrado na foz de um rio, nas Ilhas do Verão.",
+    "wiki": null
   },
   "scan-v4-cape-castle": {
     "resumo": "Sede da Casa Locke no Norte, na costa norte da Mordida, a sudeste de Porto Branco.",
@@ -959,12 +967,12 @@
     "resumo": "Pequena aldeia do povo livre a noroeste do Castelo Negro, para lá da Muralha, nomeada por seu gigantesco represeiro.",
     "wiki": "Whitetree"
   },
-  "scan-v7-3704-8732": {
-    "wiki": null,
-    "resumo": "Castelo na vertente norte das Montanhas Vermelhas, junto a fronteira da Marca de Dorne. Sem nome proprio identificado."
-  },
   "scan-v7-20370-8930": {
-    "wiki": null,
-    "resumo": "Castelo na costa do extremo leste de Essos, a oeste de Bonetown. Sem nome proprio identificado."
+    "resumo": "Castelo na costa do extremo leste de Essos, a oeste de Bonetown. Sem nome proprio identificado.",
+    "wiki": null
+  },
+  "scan-v7-3704-8732": {
+    "resumo": "Castelo dornês nas Montanhas Vermelhas, entre a Torre da Alegria e Wyl.",
+    "wiki": "Vulture%27s_Roost"
   }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "datasetId": "atlas-saga-v6",
   "mapId": "o-mundo-conhecido",
-  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "tileSetId": "o-mundo-conhecido-recorte-v2",
   "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
   "coordinateSystem": "cropped-native-pixels",
   "mapWidth": 21654,

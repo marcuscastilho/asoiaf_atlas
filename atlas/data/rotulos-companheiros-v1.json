@@ -1,0 +1,2379 @@
+{
+ "note": "Essos Central: projeção piecewise inválida — recortes caem fora do símbolo (ex.: 195 Vaes Dothrak mostra rótulo Vaes Leqqa/Gornath; 213 mostra Vaes Khewo). Transcrições desse mapa não produzidas.",
+ "rows": [
+  {
+   "pointId": "Winterfell",
+   "ourLabel": "Winterfell",
+   "printedName": "Winterfell",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Winterfell.png"
+  },
+  {
+   "pointId": "Castle_Black",
+   "ourLabel": "Castelo Negro",
+   "printedName": "Castelo Negro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Castle_Black.png"
+  },
+  {
+   "pointId": "Dreadfort",
+   "ourLabel": "Forte do Pavor",
+   "printedName": "Forte do Pavor",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Dreadfort.png"
+  },
+  {
+   "pointId": "White_Harbor",
+   "ourLabel": "Porto Branco",
+   "printedName": "PORTO BRANCO",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/White_Harbor.png"
+  },
+  {
+   "pointId": "Moat_Cailin",
+   "ourLabel": "Fosso Cailin",
+   "printedName": "Fosso Cailin",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Moat_Cailin.png"
+  },
+  {
+   "pointId": "Barrowton",
+   "ourLabel": "Vila Acidentada",
+   "printedName": "Vila Acidentada",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Barrowton.png"
+  },
+  {
+   "pointId": "Twins",
+   "ourLabel": "As Gêmeas",
+   "printedName": "As Gêmeas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Twins.png"
+  },
+  {
+   "pointId": "Riverrun",
+   "ourLabel": "Correrrio",
+   "printedName": "Correrrio",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Riverrun.png"
+  },
+  {
+   "pointId": "Eyrie",
+   "ourLabel": "Ninho da Águia",
+   "printedName": "Ninho da Águia",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Eyrie.png"
+  },
+  {
+   "pointId": "Gulltown",
+   "ourLabel": "Vila Gaivota",
+   "printedName": "Vila Gaivota",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Gulltown.png"
+  },
+  {
+   "pointId": "Harrenhal",
+   "ourLabel": "Harrenhal",
+   "printedName": "Harrenhal",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Harrenhal.png"
+  },
+  {
+   "pointId": "King%27s_Landing",
+   "ourLabel": "Porto Real",
+   "printedName": "Porto Real",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/King%27s_Landing.png"
+  },
+  {
+   "pointId": "Dragonstone",
+   "ourLabel": "Pedra do Dragão",
+   "printedName": "Pedra do Dragão",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Dragonstone.png"
+  },
+  {
+   "pointId": "Highgarden",
+   "ourLabel": "Jardim de Cima",
+   "printedName": "Jardim de Cima",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Highgarden.png"
+  },
+  {
+   "pointId": "Oldtown",
+   "ourLabel": "Vilavelha",
+   "printedName": "Vilavelha",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Oldtown.png"
+  },
+  {
+   "pointId": "Pyke",
+   "ourLabel": "Pyke",
+   "printedName": "Pyke",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Pyke.png"
+  },
+  {
+   "pointId": "Casterly_Rock",
+   "ourLabel": "Rochedo Casterly",
+   "printedName": "Rochedo Casterly",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Casterly_Rock.png"
+  },
+  {
+   "pointId": "Braavos",
+   "ourLabel": "Braavos",
+   "printedName": "Braavos",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Braavos.png"
+  },
+  {
+   "pointId": "Lorath",
+   "ourLabel": "Lorath",
+   "printedName": "Lorath",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Lorath.png"
+  },
+  {
+   "pointId": "Norvos",
+   "ourLabel": "Norvos",
+   "printedName": "Norvos",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Norvos.png"
+  },
+  {
+   "pointId": "Pentos",
+   "ourLabel": "Pentos",
+   "printedName": "Pentos",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Pentos.png"
+  },
+  {
+   "pointId": "Qohor",
+   "ourLabel": "Qohor",
+   "printedName": "Qohor",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Qohor.png"
+  },
+  {
+   "pointId": "Ny_Sar",
+   "ourLabel": "Ny Sar",
+   "printedName": "Ny Sar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Ny_Sar.png"
+  },
+  {
+   "pointId": "Ar_Noy",
+   "ourLabel": "Ar Noy",
+   "printedName": "Ar Noy",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Ar_Noy.png"
+  },
+  {
+   "pointId": "Myr",
+   "ourLabel": "Myr",
+   "printedName": "Myr",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Myr.png"
+  },
+  {
+   "pointId": "Tyrosh",
+   "ourLabel": "Tyrosh",
+   "printedName": "Tyrosh",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Tyrosh.png"
+  },
+  {
+   "pointId": "Lys",
+   "ourLabel": "Lys",
+   "printedName": "Lys",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Lys.png"
+  },
+  {
+   "pointId": "Volantis",
+   "ourLabel": "Volantis",
+   "printedName": "Volantis",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Volantis.png"
+  },
+  {
+   "pointId": "Lannisport",
+   "ourLabel": "Lannisporto",
+   "printedName": "Lannisporto",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Lannisport.png"
+  },
+  {
+   "pointId": "Ghoyan_Drohe",
+   "ourLabel": "Ghoyan Drohe",
+   "printedName": "Ghoyan Drohe",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Ghoyan_Drohe.png"
+  },
+  {
+   "pointId": "Bronzegate",
+   "ourLabel": "Portabrônzea",
+   "printedName": "Portabrônzea",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Bronzegate.png"
+  },
+  {
+   "pointId": "Sorrows",
+   "ourLabel": "Os Sofrimentos",
+   "printedName": "Os Sofrimentos",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Sorrows.png"
+  },
+  {
+   "pointId": "Selhorys",
+   "ourLabel": "Selhorys",
+   "printedName": "Selhorys",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Selhorys.png"
+  },
+  {
+   "pointId": "Valysar",
+   "ourLabel": "Valysar",
+   "printedName": "Valysar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Valysar.png"
+  },
+  {
+   "pointId": "Sar_Mell",
+   "ourLabel": "Sar Mell",
+   "printedName": "Sar Mell",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Sar_Mell.png"
+  },
+  {
+   "pointId": "Volon_Therys",
+   "ourLabel": "Volon Therys",
+   "printedName": "Volon Therys",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Volon_Therys.png"
+  },
+  {
+   "pointId": "Sunspear",
+   "ourLabel": "Lançassolar",
+   "printedName": "Lançassolar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Sunspear.png"
+  },
+  {
+   "pointId": "Lotus_Port",
+   "ourLabel": "Porto de Lótus",
+   "printedName": "Porto de Lótus",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Lotus_Port.png"
+  },
+  {
+   "pointId": "scan-site-4614-9634",
+   "ourLabel": "Costa do Sal",
+   "printedName": "Costa do Sal",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4614-9634.png"
+  },
+  {
+   "pointId": "scan-site-2540-6306",
+   "ourLabel": "Forte Desgraça",
+   "printedName": "Forte Desgraça",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2540-6306.png"
+  },
+  {
+   "pointId": "scan-site-3312-9466",
+   "ourLabel": "Arenito",
+   "printedName": "Arenito",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3312-9466.png"
+  },
+  {
+   "pointId": "scan-site-2922-6742",
+   "ourLabel": "Dente Dourado",
+   "printedName": "Dente Dourado",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2922-6742.png"
+  },
+  {
+   "pointId": "scan-site-2010-7100",
+   "ourLabel": "Fogofestivo",
+   "printedName": "Fogofestivo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2010-7100.png"
+  },
+  {
+   "pointId": "scan-site-2516-6554",
+   "ourLabel": "Despenhadeiro",
+   "printedName": "Despenhadeiro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2516-6554.png"
+  },
+  {
+   "pointId": "scan-site-2918-6938",
+   "ourLabel": "Valecorno",
+   "printedName": "Valecorno",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2918-6938.png"
+  },
+  {
+   "pointId": "scan-site-2936-7040",
+   "ourLabel": "Toca Funda",
+   "printedName": "Toca Funda",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2936-7040.png"
+  },
+  {
+   "pointId": "scan-site-2526-7474",
+   "ourLabel": "Campo de Milho",
+   "printedName": "Campodemilho",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2526-7474.png"
+  },
+  {
+   "pointId": "scan-site-3090-8950",
+   "ourLabel": "Monpreto",
+   "printedName": "Monpreto",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3090-8950.png"
+  },
+  {
+   "pointId": "scan-site-2302-7962",
+   "ourLabel": "Carvalho Velho",
+   "printedName": "Carvalho Velho",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2302-7962.png"
+  },
+  {
+   "pointId": "scan-site-2570-7696",
+   "ourLabel": "Lago Vermelho",
+   "printedName": "Lago Vermelho",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2570-7696.png"
+  },
+  {
+   "pointId": "scan-site-2888-7234",
+   "ourLabel": "Solardeprata",
+   "printedName": "Solardeprata",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2888-7234.png"
+  },
+  {
+   "pointId": "scan-site-5322-8024",
+   "ourLabel": "Solar do Entardecer",
+   "printedName": "Solar do Entardecer",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5322-8024.png"
+  },
+  {
+   "pointId": "scan-site-2626-6870",
+   "ourLabel": "Camposorgo",
+   "printedName": "Campossorgo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2626-6870.png"
+  },
+  {
+   "pointId": "Flint%27s_Finger",
+   "ourLabel": "Dedos de Sílex",
+   "printedName": "Dedos de Sílex",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Flint%27s_Finger.png"
+  },
+  {
+   "pointId": "scan-site-3380-8600",
+   "ourLabel": "Nocticantiga",
+   "printedName": "Nocticantiga",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3380-8600.png"
+  },
+  {
+   "pointId": "scan-site-3306-6804",
+   "ourLabel": "Donzelarrosa",
+   "printedName": "Donzelarrosa",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3306-6804.png"
+  },
+  {
+   "pointId": "scan-site-2150-7546",
+   "ourLabel": "Paço de Codorniz",
+   "printedName": "Paço de Codorniz",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2150-7546.png"
+  },
+  {
+   "pointId": "scan-site-3386-5862",
+   "ourLabel": "Guardamar",
+   "printedName": "Guardamar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3386-5862.png"
+  },
+  {
+   "pointId": "scan-site-2674-6698",
+   "ourLabel": "Cinzamarca",
+   "printedName": "Cinzamarca",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2674-6698.png"
+  },
+  {
+   "pointId": "Storm%27s_End",
+   "ourLabel": "Ponta Tempestade",
+   "printedName": "Ponta Tempestade",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Storm%27s_End.png"
+  },
+  {
+   "pointId": "scan-site-2910-7788",
+   "ourLabel": "Bosquedouro",
+   "printedName": "Bosquedouro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2910-7788.png"
+  },
+  {
+   "pointId": "scan-site-2282-6730",
+   "ourLabel": "Belcastro",
+   "printedName": "Belcastro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2282-6730.png"
+  },
+  {
+   "pointId": "scan-site-5106-9574",
+   "ourLabel": "Limoeiros",
+   "printedName": "Limoeiros",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5106-9574.png"
+  },
+  {
+   "pointId": "scan-site-5200-5774",
+   "ourLabel": "Solar de Longarco",
+   "printedName": "Solar de Longarco",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5200-5774.png"
+  },
+  {
+   "pointId": "scan-site-2090-7054",
+   "ourLabel": "Kayce",
+   "printedName": "Kayce",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2090-7054.png"
+  },
+  {
+   "pointId": "scan-site-4906-5504",
+   "ourLabel": "Águafria",
+   "printedName": "Águafria",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4906-5504.png"
+  },
+  {
+   "pointId": "scan-site-5256-5974",
+   "ourLabel": "Âncora Velha",
+   "printedName": "Âncora Velha",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5256-5974.png"
+  },
+  {
+   "pointId": "scan-site-4858-7802",
+   "ourLabel": "Solar de Montefeno",
+   "printedName": "Solar de Montefeno",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4858-7802.png"
+  },
+  {
+   "pointId": "scan-site-3862-7940",
+   "ourLabel": "Vale d'Erva",
+   "printedName": "Vale d'Erva",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3862-7940.png"
+  },
+  {
+   "pointId": "scan-site-4826-6298",
+   "ourLabel": "Forte Vermelho",
+   "printedName": "Forte Vermelho",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4826-6298.png"
+  },
+  {
+   "pointId": "scan-site-4452-7282",
+   "ourLabel": "Rosby",
+   "printedName": "Rosby",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4452-7282.png"
+  },
+  {
+   "pointId": "scan-site-5346-6150",
+   "ourLabel": "Pedrarruna",
+   "printedName": "Pedrarruna",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5346-6150.png"
+  },
+  {
+   "pointId": "scan-site-3508-8256",
+   "ourLabel": "Vaufreixo",
+   "printedName": "Vaufreixo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3508-8256.png"
+  },
+  {
+   "pointId": "scan-site-3550-7818",
+   "ourLabel": "Ponte Amarga",
+   "printedName": "Ponteamarga",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3550-7818.png"
+  },
+  {
+   "pointId": "scan-site-4542-6160",
+   "ourLabel": "Passo Sangrento",
+   "printedName": "Passo Sangrento",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4542-6160.png"
+  },
+  {
+   "pointId": "scan-site-4584-6750",
+   "ourLabel": "Lagoa da Donzela",
+   "printedName": "Lagoa da Donzela",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4584-6750.png"
+  },
+  {
+   "pointId": "scan-site-5130-7168",
+   "ourLabel": "Ponta Afiada",
+   "printedName": "Ponta Afiada",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5130-7168.png"
+  },
+  {
+   "pointId": "scan-site-2870-2880",
+   "ourLabel": "Castelo na Ilha dos Ursos",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2870-2880.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-4346-5798",
+   "ourLabel": "Cantoforte",
+   "printedName": "Cantoforte",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4346-5798.png"
+  },
+  {
+   "pointId": "scan-site-3928-7614",
+   "ourLabel": "Tumbleton",
+   "printedName": "Tumbleton",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3928-7614.png"
+  },
+  {
+   "pointId": "scan-site-4400-6552",
+   "ourLabel": "Salinas",
+   "printedName": "Salinas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4400-6552.png"
+  },
+  {
+   "pointId": "scan-site-3514-6972",
+   "ourLabel": "Septo de Pedra",
+   "printedName": "Septo de Pedra",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3514-6972.png"
+  },
+  {
+   "pointId": "scan-site-2058-9636",
+   "ourLabel": "Vilarejo na costa sudeste do Arbor",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2058-9636.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-3558-6710",
+   "ourLabel": "Solar de Bolotas",
+   "printedName": "Solar de Bolotas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3558-6710.png"
+  },
+  {
+   "pointId": "scan-site-4734-5802",
+   "ourLabel": "Lar do Coração",
+   "printedName": "Lar do Coração",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4734-5802.png"
+  },
+  {
+   "pointId": "scan-site-5066-7024",
+   "ourLabel": "Derivamarca",
+   "printedName": "Derivamarca",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5066-7024.png"
+  },
+  {
+   "pointId": "scan-site-4676-8386",
+   "ourLabel": "Ninho de Corvo",
+   "printedName": "Ninho de Corvo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4676-8386.png"
+  },
+  {
+   "pointId": "scan-site-3724-6190",
+   "ourLabel": "Feirajusta",
+   "printedName": "Feirajusta",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3724-6190.png"
+  },
+  {
+   "pointId": "scan-site-5198-7284",
+   "ourLabel": "Bailepedra",
+   "printedName": "Bailepedra",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5198-7284.png"
+  },
+  {
+   "pointId": "Greywater_Watch",
+   "ourLabel": "Atalaia da Água Cinzenta",
+   "printedName": "Atalaia da Água Cinzenta",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Greywater_Watch.png"
+  },
+  {
+   "pointId": "scan-site-4052-6476",
+   "ourLabel": "Vila de Lorde Harroway",
+   "printedName": "Vila do Lorde Harroway",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4052-6476.png"
+  },
+  {
+   "pointId": "scan-site-4656-7094",
+   "ourLabel": "Valdocaso",
+   "printedName": "Valdocaso",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4656-7094.png"
+  },
+  {
+   "pointId": "scan-site-1990-9564",
+   "ourLabel": "Vilarejo na costa nordeste do Arbor",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-1990-9564.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-4840-6886",
+   "ourLabel": "Pouso de Gralhas",
+   "printedName": "Pouso de Gralhas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4840-6886.png"
+  },
+  {
+   "pointId": "Torrhen%27s_Square",
+   "ourLabel": "Praça de Torrhen",
+   "printedName": "Praça de Torrhen",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Torrhen%27s_Square.png"
+  },
+  {
+   "pointId": "scan-site-4886-6590",
+   "ourLabel": "Toclar",
+   "printedName": "Tocalar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4886-6590.png"
+  },
+  {
+   "pointId": "scan-site-4440-6670",
+   "ourLabel": "Ilha Quieta",
+   "printedName": "Ilha Quieta",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4440-6670.png"
+  },
+  {
+   "pointId": "scan-site-4390-6926",
+   "ourLabel": "Hastes",
+   "printedName": "Hastes",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4390-6926.png"
+  },
+  {
+   "pointId": "Sisterton",
+   "ourLabel": "Vilirmãs",
+   "printedName": "Vilirmãs",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Sisterton.png"
+  },
+  {
+   "pointId": "scan-site-4896-5646",
+   "ourLabel": "Bosque Afundado",
+   "printedName": "Bosque Afundado",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4896-5646.png"
+  },
+  {
+   "pointId": "scan-site-4590-7954",
+   "ourLabel": "Matacaída",
+   "printedName": "Matacaída",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4590-7954.png"
+  },
+  {
+   "pointId": "scan-site-5012-8566",
+   "ourLabel": "Matabruma",
+   "printedName": "Matabruma",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-5012-8566.png"
+  },
+  {
+   "pointId": "scan-site-4738-1880",
+   "ourLabel": "Durolar",
+   "printedName": "Durolar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4738-1880.png"
+  },
+  {
+   "pointId": "Ramsgate",
+   "ourLabel": "Ariete",
+   "printedName": "Ariete",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Ramsgate.png"
+  },
+  {
+   "pointId": "scan-site-4914-6130",
+   "ourLabel": "Ferrobles",
+   "printedName": "Ferrobles",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4914-6130.png"
+  },
+  {
+   "pointId": "scan-site-4116-6426",
+   "ourLabel": "Estalagem no Entroncamento",
+   "printedName": "Estalagem no Entroncamento",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4116-6426.png"
+  },
+  {
+   "pointId": "scan-site-3610-6356",
+   "ourLabel": "Estalagem do Ajoelhado",
+   "printedName": "Estalagem do Ajoelhado",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3610-6356.png"
+  },
+  {
+   "pointId": "Craster%27s_Keep",
+   "ourLabel": "Fortaleza de Craster",
+   "printedName": "Fortaleza de Craster",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Craster%27s_Keep.png"
+  },
+  {
+   "pointId": "Fist_of_the_First_Men",
+   "ourLabel": "Punho dos Primeiros Homens",
+   "printedName": "Punho dos Primeiros Homens",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Fist_of_the_First_Men.png"
+  },
+  {
+   "pointId": "scan-site-3626-6042",
+   "ourLabel": "Pedravelhas",
+   "printedName": "Pedravelhas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-3626-6042.png"
+  },
+  {
+   "pointId": "Shadow_Tower",
+   "ourLabel": "Torre Sombria",
+   "printedName": "Torre Sombria",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Shadow_Tower.png"
+  },
+  {
+   "pointId": "scan-site-2378-8638",
+   "ourLabel": "Fortaleza de Águas Claras",
+   "printedName": "Fortaleza de Águas Claras",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-2378-8638.png"
+  },
+  {
+   "pointId": "Queenscrown",
+   "ourLabel": "Coroadarrainha",
+   "printedName": "Coroadarrainha",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Queenscrown.png"
+  },
+  {
+   "pointId": "Karhold",
+   "ourLabel": "Karhold",
+   "printedName": "Karhold",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Karhold.png"
+  },
+  {
+   "pointId": "scan-site-4502-8514",
+   "ourLabel": "Pedrelmo",
+   "printedName": "Pedrelmo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-4502-8514.png"
+  },
+  {
+   "pointId": "scan-site-v4-293",
+   "ourLabel": "Mesalonga",
+   "printedName": "Mesalonga",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-293.png"
+  },
+  {
+   "pointId": "scan-site-v4-299",
+   "ourLabel": "Solar da Sidra",
+   "printedName": "Solar da Sidra",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-299.png"
+  },
+  {
+   "pointId": "scan-site-v4-300",
+   "ourLabel": "Poleiro do Grifo",
+   "printedName": "Poleiro do Grifo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-300.png"
+  },
+  {
+   "pointId": "scan-site-v4-328",
+   "ourLabel": "Casais de Chuva",
+   "printedName": "Casa de Chuva",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-328.png"
+  },
+  {
+   "pointId": "scan-site-v4-375",
+   "ourLabel": "Portonegro",
+   "printedName": "Portonegro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-375.png"
+  },
+  {
+   "pointId": "scan-site-v4-384",
+   "ourLabel": "Bandallon",
+   "printedName": "Bandallon",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-384.png"
+  },
+  {
+   "pointId": "scan-site-v4-393",
+   "ourLabel": "Pedraverde",
+   "printedName": "Pedraverde",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-393.png"
+  },
+  {
+   "pointId": "scan-site-v4-396",
+   "ourLabel": "Wyl",
+   "printedName": "Wyl",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-396.png"
+  },
+  {
+   "pointId": "scan-site-v4-412",
+   "ourLabel": "Torre dos Prantos",
+   "printedName": "Weeping Tower",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-412.png",
+   "note": "divergência: mapa imprime em inglês"
+  },
+  {
+   "pointId": "scan-site-v4-414",
+   "ourLabel": "Torre da Alegria",
+   "printedName": "Torre da Alegria",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-414.png"
+  },
+  {
+   "pointId": "scan-site-v4-439",
+   "ourLabel": "Bosquemel",
+   "printedName": "Bosquemel",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-439.png"
+  },
+  {
+   "pointId": "scan-site-v4-456",
+   "ourLabel": "Tumbarreal",
+   "printedName": "Tumbarreal",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-456.png"
+  },
+  {
+   "pointId": "scan-site-v4-475",
+   "ourLabel": "Ghaston Grey",
+   "printedName": "Ghaston Grey",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-475.png"
+  },
+  {
+   "pointId": "scan-site-v4-492",
+   "ourLabel": "Alcanceleste",
+   "printedName": "Alcanceleste",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-492.png"
+  },
+  {
+   "pointId": "scan-site-v4-496",
+   "ourLabel": "Coroanegra",
+   "printedName": "Coroanegra",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-496.png"
+  },
+  {
+   "pointId": "scan-site-v4-511",
+   "ourLabel": "Alto Ermitério",
+   "printedName": "Alto Ermitério",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-511.png"
+  },
+  {
+   "pointId": "scan-site-v4-528",
+   "ourLabel": "Três Torres",
+   "printedName": "Três Torres",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-528.png"
+  },
+  {
+   "pointId": "scan-site-v4-549",
+   "ourLabel": "Tombastela",
+   "printedName": "Tombastela",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-549.png"
+  },
+  {
+   "pointId": "scan-site-v4-580",
+   "ourLabel": "Graça dos Deuses",
+   "printedName": "Graça-dos-Deuses",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-580.png"
+  },
+  {
+   "pointId": "scan-site-v4-587",
+   "ourLabel": "Jardins de Água",
+   "printedName": "Jardins de Água",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-587.png"
+  },
+  {
+   "pointId": "scan-site-v4-592",
+   "ourLabel": "Cidade costeira a leste de Volantis",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-592.png",
+   "note": "recorte sem glifo (projeção fora do símbolo)"
+  },
+  {
+   "pointId": "scan-site-v4-602",
+   "ourLabel": "Toca do Inferno",
+   "printedName": "Toca do Inferno",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-602.png"
+  },
+  {
+   "pointId": "scan-site-v4-606",
+   "ourLabel": "Castelo do Arbor",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-606.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-608",
+   "ourLabel": "Casasolar",
+   "printedName": "Casasolar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-608.png"
+  },
+  {
+   "pointId": "scan-site-v4-649",
+   "ourLabel": "Ruínas na ilha ao sul de Volantis",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-649.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-754",
+   "ourLabel": "Ruínas na costa oeste de Valíria",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-754.png",
+   "note": "recorte sem glifo (projeção fora do símbolo)"
+  },
+  {
+   "pointId": "scan-site-v4-799",
+   "ourLabel": "Último Lamento",
+   "printedName": "Último Lamento",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-799.png"
+  },
+  {
+   "pointId": "scan-site-v4-828",
+   "ourLabel": "Vila das Árvores Altas",
+   "printedName": "Vila das Árvores Altas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-828.png"
+  },
+  {
+   "pointId": "scan-site-v4-855",
+   "ourLabel": "Vilarejo na foz do Rio Doce",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-site-v4-855.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "Deepwood_Motte",
+   "ourLabel": "Bosque Profundo",
+   "printedName": "Bosque Profundo",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Deepwood_Motte.png"
+  },
+  {
+   "pointId": "Last_Hearth",
+   "ourLabel": "Última Lareira",
+   "printedName": "Última Lareira",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Last_Hearth.png"
+  },
+  {
+   "pointId": "Widow%27s_Watch",
+   "ourLabel": "Atalaia da Viúva",
+   "printedName": "Atalaia da Viúva",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Widow%27s_Watch.png"
+  },
+  {
+   "pointId": "Eastwatch-by-the-Sea",
+   "ourLabel": "Atalaialeste do Mar",
+   "printedName": "Atalaialeste do Mar",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/Eastwatch-by-the-Sea.png"
+  },
+  {
+   "pointId": "scan-v4-white-tree-glyph",
+   "ourLabel": "Brancarbor",
+   "printedName": "Brancarbor",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-white-tree-glyph.png"
+  },
+  {
+   "pointId": "scan-v4-cape-castle",
+   "ourLabel": "Castelovelho",
+   "printedName": "Castelo Velho",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-cape-castle.png"
+  },
+  {
+   "pointId": "scan-v4-summerhall-glyph",
+   "ourLabel": "Solarestival",
+   "printedName": "Solarestival",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-summerhall-glyph.png"
+  },
+  {
+   "pointId": "scan-v4-dorne-3988-9056",
+   "ourLabel": "Paloferro",
+   "printedName": "Paloferro",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-dorne-3988-9056.png"
+  },
+  {
+   "pointId": "scan-v4-dorne-4574-9180",
+   "ourLabel": "Penha",
+   "printedName": "Penha",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-dorne-4574-9180.png"
+  },
+  {
+   "pointId": "scan-v4-dorne-5170-9180",
+   "ourLabel": "Monte Fantasma",
+   "printedName": "Colina Fantasma",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-dorne-5170-9180.png"
+  },
+  {
+   "pointId": "scan-v4-dorne-4264-9470",
+   "ourLabel": "Vaith",
+   "printedName": "Vaith",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v4-dorne-4264-9470.png"
+  },
+  {
+   "pointId": "scan-v7-3704-8732",
+   "ourLabel": "Poleiro do Abutre",
+   "printedName": "Poleiro do Abutre",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/scan-v7-3704-8732.png"
+  },
+  {
+   "pointId": "comp-v1-ocidente-4189-12763",
+   "ourLabel": "Terraltas",
+   "printedName": "Terraltas",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/comp-v1-ocidente-4189-12763.png"
+  },
+  {
+   "pointId": "comp-v1-ocidente-4606-12213",
+   "ourLabel": "Monte Chifre",
+   "printedName": "Monte Chifre",
+   "transcribed": true,
+   "map": "O Ocidente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/occ/comp-v1-ocidente-4606-12213.png"
+  },
+  {
+   "pointId": "Vaes_Dothrak",
+   "ourLabel": "Vaes Dothrak",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Dothrak.png",
+   "note": "recorte sem glifo (projeção fora do símbolo)"
+  },
+  {
+   "pointId": "Ib_Nor",
+   "ourLabel": "Ib Nor",
+   "printedName": "Ib Nor",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Ib_Nor.png"
+  },
+  {
+   "pointId": "Port_of_Ibben",
+   "ourLabel": "Porto de Ibben",
+   "printedName": "Porto de Ibben",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Port_of_Ibben.png"
+  },
+  {
+   "pointId": "Ib_Sar",
+   "ourLabel": "Ib Sar",
+   "printedName": "Ib Sar",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Ib_Sar.png"
+  },
+  {
+   "pointId": "New_Ibbish",
+   "ourLabel": "Nova Ibish",
+   "printedName": "Nova Ibish",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/New_Ibbish.png"
+  },
+  {
+   "pointId": "Vaes_Aresak",
+   "ourLabel": "Vaes Aresak (Ibish)",
+   "printedName": "Vaes Aresak (Ibish)",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Aresak.png"
+  },
+  {
+   "pointId": "Vaes_Jini",
+   "ourLabel": "Vaes Jini (Yinishar)",
+   "printedName": "Vaes Jini (Yinishar)",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Jini.png"
+  },
+  {
+   "pointId": "Adakhakileki",
+   "ourLabel": "Adakhakileki",
+   "printedName": "Adakhakileki",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Adakhakileki.png"
+  },
+  {
+   "pointId": "Kayakayanaya",
+   "ourLabel": "Kayakayanaya",
+   "printedName": "Kayakayanaya",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Kayakayanaya.png"
+  },
+  {
+   "pointId": "Nefer",
+   "ourLabel": "Nefer",
+   "printedName": "Nefer",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Nefer.png"
+  },
+  {
+   "pointId": "K%27Dath",
+   "ourLabel": "K'Dath",
+   "printedName": "K'Dath",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/K%27Dath.png"
+  },
+  {
+   "pointId": "Trader_Town",
+   "ourLabel": "Vila do Comerciante",
+   "printedName": "Vila do Comerciante",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Trader_Town.png"
+  },
+  {
+   "pointId": "Bonetown",
+   "ourLabel": "Bonetown",
+   "printedName": "Bonetown",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Bonetown.png"
+  },
+  {
+   "pointId": "Tiqui",
+   "ourLabel": "Tiqui",
+   "printedName": "Tiqui",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Tiqui.png"
+  },
+  {
+   "pointId": "Bayasabhad",
+   "ourLabel": "Bayasabhad",
+   "printedName": "Bayasabhad",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Bayasabhad.png"
+  },
+  {
+   "pointId": "City_of_the_Winged_Men",
+   "ourLabel": "Cidade dos Homens Alados",
+   "printedName": "Cidade dos Homens Alados",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/City_of_the_Winged_Men.png"
+  },
+  {
+   "pointId": "Asabhad",
+   "ourLabel": "Asabhad",
+   "printedName": "Asabhad",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Asabhad.png"
+  },
+  {
+   "pointId": "Carcosa",
+   "ourLabel": "Carcosa",
+   "printedName": "Carcosa",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Carcosa.png"
+  },
+  {
+   "pointId": "Jinqi",
+   "ourLabel": "Jinqi",
+   "printedName": "Jinqi",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Jinqi.png"
+  },
+  {
+   "pointId": "Leng_Yi",
+   "ourLabel": "Leng Yi",
+   "printedName": "Leng Yi",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Leng_Yi.png"
+  },
+  {
+   "pointId": "Yin",
+   "ourLabel": "Yin",
+   "printedName": "Yin",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Yin.png"
+  },
+  {
+   "pointId": "Leng_Ma",
+   "ourLabel": "Leng Ma",
+   "printedName": "Leng Ma",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Leng_Ma.png"
+  },
+  {
+   "pointId": "Turrani",
+   "ourLabel": "Turrani",
+   "printedName": "Turrani",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Turrani.png"
+  },
+  {
+   "pointId": "Port_Moraq",
+   "ourLabel": "Port Moraq",
+   "printedName": "Port Moraq",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Port_Moraq.png"
+  },
+  {
+   "pointId": "Stygai",
+   "ourLabel": "Stygai",
+   "printedName": "Stygai",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Stygai.png"
+  },
+  {
+   "pointId": "Faros",
+   "ourLabel": "Faros",
+   "printedName": "Faros",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Faros.png"
+  },
+  {
+   "pointId": "Vahar",
+   "ourLabel": "Vahar",
+   "printedName": "Vahar",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vahar.png"
+  },
+  {
+   "pointId": "Zabhad",
+   "ourLabel": "Zabhad",
+   "printedName": "Zabhad",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Zabhad.png"
+  },
+  {
+   "pointId": "Asshai",
+   "ourLabel": "Asshai",
+   "printedName": "Asshai",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Asshai.png"
+  },
+  {
+   "pointId": "Vaes_Tolorro",
+   "ourLabel": "Vaes Tolorro",
+   "printedName": "Vaes Tolorro",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Tolorro.png"
+  },
+  {
+   "pointId": "Vaes_Shirosi",
+   "ourLabel": "Vaes Shirosi",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Shirosi.png",
+   "note": "recorte sem glifo (projeção fora do símbolo)"
+  },
+  {
+   "pointId": "Vaes_Qosar",
+   "ourLabel": "Vaes Qosar (Qolahn)",
+   "printedName": "Vaes Qosar (Qolahn)",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Vaes_Qosar.png"
+  },
+  {
+   "pointId": "Qarkash",
+   "ourLabel": "Qarkash",
+   "printedName": "Qarkash",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Qarkash.png"
+  },
+  {
+   "pointId": "Qarth",
+   "ourLabel": "Qarth",
+   "printedName": "Qarth",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Qarth.png"
+  },
+  {
+   "pointId": "scan-site-v4-368",
+   "ourLabel": "Samyriana",
+   "printedName": "Samyriana",
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-368.png"
+  },
+  {
+   "pointId": "scan-site-v4-470",
+   "ourLabel": "Cinco Fortes - noroeste",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-470.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-494",
+   "ourLabel": "Cinco Fortes - centro-noroeste",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-494.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-521",
+   "ourLabel": "Cinco Fortes - centro-sudeste",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-521.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-531",
+   "ourLabel": "Cinco Fortes - sudeste",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-531.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-741",
+   "ourLabel": "Vilarejo na costa noroeste de Qal",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-741.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-747",
+   "ourLabel": "Vilarejo na costa sudeste de Qal",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-747.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-site-v4-838",
+   "ourLabel": "Ruínas no noroeste de Ulthos",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-site-v4-838.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "Five_Forts_Central",
+   "ourLabel": "Cinco Fortes - central",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/Five_Forts_Central.png",
+   "note": "sem nome impresso"
+  },
+  {
+   "pointId": "scan-v7-20370-8930",
+   "ourLabel": "Castelo a oeste de Bonetown",
+   "printedName": null,
+   "transcribed": true,
+   "map": "O Oriente",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ori/scan-v7-20370-8930.png",
+   "note": "recorte sem glifo (projeção fora do símbolo)"
+  },
+  {
+   "pointId": "Qohor",
+   "ourLabel": "Qohor",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Qohor.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Ar_Noy",
+   "ourLabel": "Ar Noy",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Ar_Noy.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Lys",
+   "ourLabel": "Lys",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Lys.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Volantis",
+   "ourLabel": "Volantis",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Volantis.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Dothrak",
+   "ourLabel": "Vaes Dothrak",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Dothrak.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Meereen",
+   "ourLabel": "Meereen",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Meereen.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Yunkai",
+   "ourLabel": "Yunkai",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Yunkai.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Astapor",
+   "ourLabel": "Astapor",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Astapor.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Ib_Nor",
+   "ourLabel": "Ib Nor",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Ib_Nor.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Port_of_Ibben",
+   "ourLabel": "Porto de Ibben",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Port_of_Ibben.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Ib_Sar",
+   "ourLabel": "Ib Sar",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Ib_Sar.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "New_Ibbish",
+   "ourLabel": "Nova Ibish",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/New_Ibbish.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Aresak",
+   "ourLabel": "Vaes Aresak (Ibish)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Aresak.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Morosh",
+   "ourLabel": "Morosh",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Morosh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Leisi",
+   "ourLabel": "Vaes Leisi",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Leisi.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Graddakh",
+   "ourLabel": "Vaes Graddakh (Sarys)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Graddakh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Saath",
+   "ourLabel": "Saath",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Saath.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Athjikhari",
+   "ourLabel": "Vaes Athjikhari (Saliosh)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Athjikhari.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Leqse",
+   "ourLabel": "Vaes Leqse (Gornath)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Leqse.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Khadokh",
+   "ourLabel": "Vaes Khadokh (Essaria)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Khadokh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vojjor_Samui",
+   "ourLabel": "Vojjor Samui (Kasath)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vojjor_Samui.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Khewo",
+   "ourLabel": "Vaes Khewo (Sarnath)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Khewo.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Yalli_Qamayi",
+   "ourLabel": "Yalli Qamayi (Sathar)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Yalli_Qamayi.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Efe",
+   "ourLabel": "Vaes Efe",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Efe.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Diaf",
+   "ourLabel": "Vaes Diaf (Hazdahn No)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Diaf.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Jini",
+   "ourLabel": "Vaes Jini (Yinishar)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Jini.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Sorrows",
+   "ourLabel": "Os Sofrimentos",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Sorrows.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Mejhah",
+   "ourLabel": "Vaes Mejhah",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Mejhah.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Krazaaj_Has",
+   "ourLabel": "Krazaaj Has (Ghardaq)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Krazaaj_Has.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Adakhakileki",
+   "ourLabel": "Adakhakileki",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Adakhakileki.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Selhorys",
+   "ourLabel": "Selhorys",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Selhorys.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Hesh",
+   "ourLabel": "Hesh",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Hesh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Kosrak",
+   "ourLabel": "Kosrak",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Kosrak.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Valysar",
+   "ourLabel": "Valysar",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Valysar.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Sar_Mell",
+   "ourLabel": "Sar Mell",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Sar_Mell.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Mantarys",
+   "ourLabel": "Mantarys",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Mantarys.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Volon_Therys",
+   "ourLabel": "Volon Therys",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Volon_Therys.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Tolos",
+   "ourLabel": "Tolos",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Tolos.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Ghozai",
+   "ourLabel": "Ghozai",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Ghozai.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Velos",
+   "ourLabel": "Velos",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Velos.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Oros",
+   "ourLabel": "Oros",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Oros.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Old_Ghis",
+   "ourLabel": "Velha Ghis",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Old_Ghis.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Tyria",
+   "ourLabel": "Tyria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Tyria.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Kayakayanaya",
+   "ourLabel": "Kayakayanaya",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Kayakayanaya.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Nefer",
+   "ourLabel": "Nefer",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Nefer.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Trader_Town",
+   "ourLabel": "Vila do Comerciante",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Trader_Town.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Tiqui",
+   "ourLabel": "Tiqui",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Tiqui.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Bayasabhad",
+   "ourLabel": "Bayasabhad",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Bayasabhad.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Asabhad",
+   "ourLabel": "Asabhad",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Asabhad.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "New_Ghis",
+   "ourLabel": "Nova Ghis",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/New_Ghis.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Faros",
+   "ourLabel": "Faros",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Faros.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Lotus_Port",
+   "ourLabel": "Porto de Lótus",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Lotus_Port.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vahar",
+   "ourLabel": "Vahar",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vahar.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Gorosh",
+   "ourLabel": "Gorosh",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Gorosh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Zamettar",
+   "ourLabel": "Zamettar",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Zamettar.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Gogossos",
+   "ourLabel": "Gogossos",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Gogossos.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Yeen",
+   "ourLabel": "Yeen",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Yeen.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Tolorro",
+   "ourLabel": "Vaes Tolorro",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Tolorro.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Shirosi",
+   "ourLabel": "Vaes Shirosi",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Shirosi.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Orvik",
+   "ourLabel": "Vaes Orvik",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Orvik.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Vaes_Qosar",
+   "ourLabel": "Vaes Qosar (Qolahn)",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Vaes_Qosar.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Qarkash",
+   "ourLabel": "Qarkash",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Qarkash.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Port_Yhos",
+   "ourLabel": "Port Yhos",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Port_Yhos.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Qarth",
+   "ourLabel": "Qarth",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Qarth.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-368",
+   "ourLabel": "Samyriana",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-368.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Bhorash",
+   "ourLabel": "Bhorash",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Bhorash.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-550",
+   "ourLabel": "Ruínas na Estrada do Demônio",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-550.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-592",
+   "ourLabel": "Cidade costeira a leste de Volantis",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-592.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Lhazosh",
+   "ourLabel": "Lhazosh",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Lhazosh.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "Elyria",
+   "ourLabel": "Elíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/Elyria.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-649",
+   "ourLabel": "Ruínas na ilha ao sul de Volantis",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-649.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-698",
+   "ourLabel": "Ruínas no noroeste de Valíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-698.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-699",
+   "ourLabel": "Ruínas a oeste da Ilha de Cedros",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-699.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-741",
+   "ourLabel": "Vilarejo na costa noroeste de Qal",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-741.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-747",
+   "ourLabel": "Vilarejo na costa sudeste de Qal",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-747.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-754",
+   "ourLabel": "Ruínas na costa oeste de Valíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-754.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-766",
+   "ourLabel": "Ruínas na costa leste de Valíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-766.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-771",
+   "ourLabel": "Valíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-771.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-794",
+   "ourLabel": "Ruínas no sul de Valíria",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-794.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-799",
+   "ourLabel": "Último Lamento",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-799.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-828",
+   "ourLabel": "Vila das Árvores Altas",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-828.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  },
+  {
+   "pointId": "scan-site-v4-855",
+   "ourLabel": "Vilarejo na foz do Rio Doce",
+   "printedName": null,
+   "transcribed": false,
+   "map": "Essos Central",
+   "cropPath": "atlas/test/evidencias/companheiros-v1/rotulos/ess/scan-site-v4-855.png",
+   "note": "projeção piecewise de Essos Central inválida (recorte cai fora do símbolo); não transcrito"
+  }
+ ]
+}

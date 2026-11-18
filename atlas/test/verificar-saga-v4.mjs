@@ -258,7 +258,7 @@ const tywin = rotaDe(/tywin/i);
   check("UI: inventário v4 real carregado (sem fallback)",
     nLocs === 242, "n=" + nLocs);
   const nLivros = await page.locator("#livro-select option").count();
-  check("UI: 5 livros no seletor", nLivros === 5, "n=" + nLivros);
+  check("UI: 5 livros + Todos no seletor", nLivros === 6, "n=" + nLivros);
 
   const dims = await dimsImagem(page);
   check("UI: overlay de imagem disponível", !!dims);

@@ -1,5 +1,5 @@
 // Verificacao focada do recorte v1 em /atlas/ — previa cropped 1600x1066 e
-// tiles nativos recorte-v1. Uso: node atlas/test/verificar-recorte.mjs
+// tiles nativos recorte-v2. Uso: node atlas/test/verificar-recorte.mjs
 import { chromium } from "playwright";
 import { pausarTilesAutomaticos, liberarTilesAutomaticos }
   from "./lib-tiles-auto.mjs";
@@ -66,10 +66,10 @@ async function fluxo(tag, ctxOpts, shotOverview, shotNativo) {
   const badge = await page.locator("#badge-estado").textContent();
   check(tag + " badge indica nativa", /nativa/i.test(badge), badge.trim());
 
-  // todos os tiles pedidos devem ser do conjunto versionado recorte-v1
+  // todos os tiles pedidos devem ser do conjunto versionado recorte-v2
   const reqTiles = requests.filter((u) => u.includes("/tiles/"));
-  check(tag + " todos tiles do conjunto recorte-v1",
-    reqTiles.length > 0 && reqTiles.every((u) => u.includes("recorte-v1")),
+  check(tag + " todos tiles do conjunto recorte-v2",
+    reqTiles.length > 0 && reqTiles.every((u) => u.includes("recorte-v2")),
     reqTiles.length + " requisicoes");
 
   // zoom alem do enquadramento e retorno

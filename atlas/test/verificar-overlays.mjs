@@ -1,6 +1,6 @@
 // Verificacao focada das localidades + trajeto piloto em /atlas/.
 // Usa fixture sintetico minimo interceptando data/piloto-norte.json
-// (tileSetId/sourceSha256 reais do manifesto recorte-v1 para passar na
+// (tileSetId/sourceSha256 reais do manifesto recorte-v2 para passar na
 // validacao). Uso: node atlas/test/verificar-overlays.mjs
 import { chromium } from "playwright";
 import { pausarTilesAutomaticos, liberarTilesAutomaticos }
@@ -26,7 +26,7 @@ function fixture(sha) {
   return {
     schemaVersion: 1,
     mapId: "o-mundo-conhecido",
-    tileSetId: "o-mundo-conhecido-recorte-v1",
+    tileSetId: "o-mundo-conhecido-recorte-v2",
     sourceSha256: sha,
     coordinateSystem: "cropped-native-pixels",
     mapWidth: 21654,
@@ -263,8 +263,10 @@ async function ligarColetores(page, tag) {
     (await page.locator(".leaflet-overlay-pane path").count()) >= 1 &&
       (await page.locator(".loc-pin-jon").count()) === 1);
   const pinsNat = await page.locator(".loc-pin").count();
+  /* a vista preservada do switch pode enquadrar a imagem inteira:
+     ate 3 pinos de localidade + o pino de posicao do jon */
   check("pos-switch: marcadores de localidade mantidos",
-    pinsNat >= 1 && pinsNat <= 3, "pinos=" + pinsNat);
+    pinsNat >= 1 && pinsNat <= 4, "pinos=" + pinsNat);
   await page.evaluate(() =>
     window.__atlasMap.zoomOut(2, { animate: false }));
   await page.waitForTimeout(900);

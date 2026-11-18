@@ -217,8 +217,8 @@ async function limparBusca(page) {
   check("UI: 27 perfis selecionáveis",
     (await page.locator(
       "#lista-personagens input[type=checkbox]").count()) === 27);
-  check("UI: 5 livros no seletor",
-    (await page.locator("#livro-select option").count()) === 5);
+  check("UI: 5 livros + Todos no seletor",
+    (await page.locator("#livro-select option").count()) === 6);
 
   /* --- buscas que resolvem identidades --- */
   let ids = await buscar(page, "Poleiro do Grifo");
@@ -464,7 +464,7 @@ async function limparBusca(page) {
       body: JSON.stringify({
         schemaVersion: 2, datasetId: "atlas-saga-v5",
         mapId: "o-mundo-conhecido",
-        tileSetId: "o-mundo-conhecido-recorte-v1",
+        tileSetId: "o-mundo-conhecido-recorte-v2",
         sourceSha256: "0".repeat(64),
         coordinateSystem: "cropped-native-pixels",
         mapWidth: 21654, mapHeight: 14428,

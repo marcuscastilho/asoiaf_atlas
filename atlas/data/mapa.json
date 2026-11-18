@@ -7,9 +7,9 @@
   "minZoom": 0,
   "maxNativeZoom": 6,
   "maxZoom": 6,
-  "tileUrl": "tiles/o-mundo-conhecido-recorte-v1/{z}/{x}/{y}.webp",
-  "tileSetId": "o-mundo-conhecido-recorte-v1",
-  "previewUrl": "assets/o-mundo-conhecido-recorte-v1-preview.webp",
+  "tileUrl": "tiles/o-mundo-conhecido-recorte-v2/{z}/{x}/{y}.webp",
+  "tileSetId": "o-mundo-conhecido-recorte-v2",
+  "previewUrl": "assets/o-mundo-conhecido-recorte-v2-preview.webp",
   "uncroppedOrientedDimensions": [
     21654,
     16764
@@ -39,5 +39,6 @@
     14428
   ],
   "nativePixelsValidated": true,
-  "notice": "Piloto local. Arte digitalizada com nomes impressos; sem trajetos impressos. Os percursos interativos herdados continuam em revisao."
+  "notice": "Piloto local. Arte digitalizada com nomes impressos; sem trajetos impressos. Os percursos interativos herdados continuam em revisao.",
+  "tileRevision": "v2-srgb-sem-icc"
 }

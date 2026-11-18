@@ -60,8 +60,8 @@ const eq = (a, b) => !!a && !!b &&
 /* ---------- contrato do artefato (node, sem navegador) ------------- */
 check("v7: datasetId atlas-saga-v7",
   DATA.datasetId === "atlas-saga-v7", DATA.datasetId);
-check("v7: 242 pontos de controle (240 v6 + 2 auditoria)",
-  DATA.controlPoints.length === 242, "n=" + DATA.controlPoints.length);
+check("v7: 244 pontos de controle (240 v6 + 2 auditoria + 2 companheiro)",
+  DATA.controlPoints.length === 244, "n=" + DATA.controlPoints.length);
 check("v7: 27 rotas", DATA.routes.length === 27,
   "n=" + DATA.routes.length);
 check("v7: 344 capitulos", DATA.chapters.length === 344);
@@ -173,6 +173,45 @@ check("v7: posicoes de waypoint embutidas (x/y/label)",
 check("v7: diagnostico sem erros de invariante",
   (DIAG.invariantes && DIAG.invariantes.erros || []).length === 0,
   JSON.stringify((DIAG.invariantes || {}).erros || []).slice(0, 200));
+
+/* regioes (regioes-v1.json): cada ponto aparece em exatamente uma
+   region.pointIds e o campo region aponta para uma regiao existente */
+{
+  const regIds = new Set((DATA.regions || []).map((r) => r.id));
+  const contem = new Map();
+  (DATA.regions || []).forEach((r) => {
+    (r.pointIds || []).forEach((pid) => {
+      contem.set(pid, (contem.get(pid) || 0) + 1);
+    });
+  });
+  let regOk = true, umaOk = true;
+  DATA.controlPoints.forEach((p) => {
+    if (!regIds.has(p.region)) regOk = false;
+    if (contem.get(p.id) !== 1) umaOk = false;
+  });
+  check("v7: " + regIds.size + " regioes; todo ponto.region existe",
+    regOk && regIds.size === 27, "n=" + regIds.size);
+  check("v7: cada ponto em exatamente uma region.pointIds",
+    umaOk && contem.size === DATA.controlPoints.length,
+    "cobertos=" + contem.size);
+}
+
+/* sub-regioes: parent existe e centro dentro do mapa nativo */
+{
+  const regIds = new Set((DATA.regions || []).map((r) => r.id));
+  const subs = DATA.subregions || [];
+  let parOk = true, cenOk = true;
+  subs.forEach((s) => {
+    if (!regIds.has(s.parent)) parOk = false;
+    const c = s.center;
+    if (!Array.isArray(c) || c.length !== 2 ||
+        !(c[0] >= 0 && c[0] <= DATA.mapWidth &&
+          c[1] >= 0 && c[1] <= DATA.mapHeight)) cenOk = false;
+  });
+  check("v7: " + subs.length + " sub-regioes com parent valido",
+    parOk && subs.length === 51, "n=" + subs.length);
+  check("v7: centro de toda sub-regiao dentro do mapa", cenOk);
+}
 
 /* ---------- navegador --------------------------------------------- */
 let browser = null;

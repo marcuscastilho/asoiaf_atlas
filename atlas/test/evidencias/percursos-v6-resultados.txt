@@ -33,7 +33,7 @@ PASS dados: aegon@332 misto fluvial+mar + terrestre com lacuna
 PASS dados: tyrion@311/318 pernas mar
 PASS UI: dataset v6 carregado — 240 referências
 PASS UI: 27 perfis selecionáveis
-PASS UI: 5 livros no seletor
+PASS UI: 5 livros + Todos no seletor
 PASS UI: 27 itens de personagem (um por rota)
 PASS UI: linha 'Nome — lugar' do selecionado no cap. 0 — Tyrion Lannister — Porto Real
 PASS UI: linha some ao desmarcar
@@ -105,7 +105,7 @@ PASS mobile 320: sem overflow horizontal — overflow=0
 PASS mobile 320: livro-select acessivel apos expandir
 PASS mobile 320: 27 itens de personagem presentes
 PASS mobile 320: ADWD vai ao cap. 271
-PASS v7 invalido: status indisponível/erro — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua
+PASS v7 invalido: status indisponível/erro — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua 
 PASS v7 invalido: controles travados, livro oculto
 PASS v7 invalido: NUNCA requisita v6/v5/v4/v3/v2/v1
 PASS v7 invalido: sem pageerror fatal

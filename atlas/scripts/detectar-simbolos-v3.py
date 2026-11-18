@@ -15,7 +15,7 @@ def assemble():
     image = Image.new("RGB", (W, H))
     for x in range((W + 511) // 512):
         for y in range((H + 511) // 512):
-            p = ROOT / f"tiles/o-mundo-conhecido-recorte-v1/4/{x}/{y}.webp"
+            p = ROOT / f"tiles/o-mundo-conhecido-recorte-v2/4/{x}/{y}.webp"
             with Image.open(p) as tile:
                 image.paste(tile.convert("RGB"), (x * 512, y * 512))
     return image

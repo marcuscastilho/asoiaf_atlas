@@ -151,6 +151,16 @@ button.botao {
   color: #6b3d12;
 }
 
+/* "Mapa principal" (<a>) e "Recolher" (<button>) com caixas identicas */
+.lateral-topo .botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 30px;
+  line-height: 1.2;
+}
+
 .lateral-corpo {
   min-height: 0;
   overflow-y: auto;
@@ -282,9 +292,39 @@ button.botao {
 
 /* ---------- personagens ---------- */
 
-#livro-select {
-  width: 100%;
+.livro-linha {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin: 2px 0 8px;
+}
+
+.livro-label {
+  font-size: 0.85em;
+  color: #6b3d12;
+  white-space: nowrap;
+}
+
+#livro-select {
+  flex: 1;
+  min-width: 0;
+  padding: 5px 8px;
+  background: #fff;
+  border: 1px solid #a08c6a;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9em;
+  color: #483824;
+}
+
+/* ---------- regiao ---------- */
+
+.regiao-label {
+  display: block;
+}
+
+#regiao-select {
+  width: 100%;
   padding: 5px 8px;
   background: #fff;
   border: 1px solid #a08c6a;
@@ -389,13 +429,43 @@ button.botao {
 
 .pers-acoes {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px;
+  margin: 0 0 8px;
 }
 
 .pers-acoes .botao {
-  padding: 5px 10px;
-  font-size: 0.85em;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 5px 4px;
+  font-size: 0.82em;
+  line-height: 1.15;
+  justify-content: center;
+  text-align: center;
+  white-space: normal;
+}
+
+/* ---------- rodape do painel ---------- */
+
+.painel-rodape {
+  margin-top: 4px;
+  border-top: 1px solid #cbbc9a;
+  padding: 8px 0 2px;
+  font-size: 0.72em;
+  line-height: 1.35;
+  color: #8a6d4b;
+  overflow-wrap: break-word;
+}
+
+.painel-rodape a {
+  color: #6b3d12;
+}
+
+.rodape-github {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
 }
 
 /* ---------- popups e tooltip ---------- */

@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  var OVERVIEW_URL = "assets/o-mundo-conhecido-recorte-v1-preview.webp";
+  var OVERVIEW_URL = "assets/o-mundo-conhecido-recorte-v2-preview.webp";
   var MANIFEST_URL = "data/mapa.json";
 
   var mapEl = document.getElementById("mapa");
@@ -190,18 +190,44 @@
       zoomAlvo = map.getZoom() +
         Math.log2(probe.naturalWidth * Math.pow(2, m.maxNativeZoom) / m.width);
     }
-    var versao = m.sourceSha256 ? "?v=" + String(m.sourceSha256).slice(0, 12) : "";
+    /* cache-buster por revisao do tileset: troca de tiles exige URL
+       nova para navegadores/CDN nao servirem tiles velhos */
+    var rev = m.tileRevision || m.tileSetId ||
+      (m.sourceSha256 ? String(m.sourceSha256).slice(0, 12) : "");
+    var versao = rev ? "?v=" + encodeURIComponent(rev) : "";
+    /* A troca de sistema de coordenadas (latlng da previa -> nativo)
+       precisa suspender o clamp de maxBounds e todo zoom animado:
+       - qualquer 'moveend' intermediario dispara _panInsideMaxBounds,
+         que avalia estado invalido (zoom 0, centro da previa) e cria
+         panTos animados que roubam o centro ATE depois do setView;
+       - setMinZoom dispara setZoom animado, que agenda
+         _onZoomTransitionEnd por setTimeout — ~250ms depois ele
+         reescreve _zoom/_animateToZoom capturados (0), revertendo a
+         vista final. map.stop() nao cancela esse timeout.
+       Por isso: listener desligado, maxBounds null, animacoes mortas
+       e _animatingZoom zerado ANTES; min/max aplicados DIRETO nas
+       options (sem o setZoom colateral); restauracao sincrona so
+       depois da vista final posicionada */
+    map.off("moveend", map._panInsideMaxBounds);
+    map.options.maxBounds = null;
+    if (map.stop) map.stop();
+    map._animatingZoom = false;
     /* min/max zoom do manifesto ANTES do setView, para permitir
        alcancar o zoom nativo */
-    map.setMinZoom(m.minZoom);
-    map.setMaxZoom(m.maxZoom);
+    map.options.minZoom = m.minZoom;
+    map.options.maxZoom = m.maxZoom;
+    /* mobile (tela pequena ou ponteiro tosco): keepBuffer minimo e
+       updateWhenIdle — memoria e CPU escassos; desktop inalterado */
+    var ehMovel = window.matchMedia &&
+      (window.matchMedia("(max-width: 600px)").matches ||
+       window.matchMedia("(pointer: coarse)").matches);
     tilesLayer = L.tileLayer(m.tileUrl + versao, {
       tileSize: m.tileSize,
       minZoom: m.minZoom,
       maxNativeZoom: m.maxNativeZoom,
       maxZoom: m.maxZoom,
-      updateWhenIdle: true,
-      keepBuffer: 1,
+      updateWhenIdle: ehMovel,
+      keepBuffer: ehMovel ? 0 : 1,
       noWrap: true,
       bounds: bounds
     });
@@ -246,15 +272,19 @@
     if (overlayLayer) {
       overlayLayer.setBounds(bounds);
     }
-    map.setMaxBounds(bounds);
     if (centroAlvo && zoomAlvo !== null) {
       zoomAlvo = Math.min(m.maxZoom, Math.max(m.minZoom, zoomAlvo));
-      map.setView(centroAlvo, zoomAlvo);
+      map.setView(centroAlvo, zoomAlvo, { animate: false });
     } else {
       /* sem previa pronta: mesma cobertura inicial */
       map.setView(bounds.getCenter(),
         map.getBoundsZoom(bounds, true), { animate: false });
     }
+    /* limites restaurados (propriedade direta: sem clamp imediato do
+       setMaxBounds) e o listener religado so com a vista ja valida —
+       moveends tardios de animacoes mortas avaliam estado correto */
+    map.options.maxBounds = bounds;
+    map.on("moveend", map._panInsideMaxBounds);
     homeBounds = bounds;
     if (window.GOTATLAS) {
       window.GOTATLAS.setView({ mode: "native", manifest: m });

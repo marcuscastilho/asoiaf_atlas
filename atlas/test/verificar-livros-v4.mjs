@@ -43,7 +43,7 @@ function fixtureV4() {
   return {
     schemaVersion: 2, datasetId: "atlas-saga-v4",
     mapId: "o-mundo-conhecido",
-    tileSetId: "o-mundo-conhecido-recorte-v1",
+    tileSetId: "o-mundo-conhecido-recorte-v2",
     sourceSha256: SHA_REAL,
     coordinateSystem: "cropped-native-pixels",
     mapWidth: 21654, mapHeight: 14428,
@@ -209,7 +209,7 @@ async function setCap(page, n) {
   let st = await estado(page);
   check("v4: seletor de livro visível", st.livroOculto === false);
   const nLivros = await page.locator("#livro-select option").count();
-  check("v4: 5 livros no seletor", nLivros === 5, "n=" + nLivros);
+  check("v4: 5 livros + Todos no seletor", nLivros === 6, "n=" + nLivros);
   check("v4: inicia em AGOT cap 0",
     st.cap === 0 && st.livro === "agot", JSON.stringify(st));
   check("v4: slider limitado a AGOT",
@@ -329,7 +329,7 @@ async function setCap(page, n) {
       body: JSON.stringify({
         schemaVersion: 2, datasetId: "atlas-saga-v4",
         mapId: "o-mundo-conhecido",
-        tileSetId: "o-mundo-conhecido-recorte-v1",
+        tileSetId: "o-mundo-conhecido-recorte-v2",
         sourceSha256: SHA_REAL,
         coordinateSystem: "cropped-native-pixels",
         mapWidth: 21654, mapHeight: 14428,

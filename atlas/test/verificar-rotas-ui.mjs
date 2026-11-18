@@ -241,6 +241,22 @@ async function popupDentroDoMapa(page) {
   }
 
   // tooltip do ponteiro sobre a linha (mouseover no path)
+  /* com rotulos permanentes ligados por padrao, .leaflet-tooltip
+     sempre existe — le-se o tooltip do proprio path acionado */
+  const tooltipDoTrecho = () => page.evaluate(() => {
+    const map = window.__atlasMap;
+    let txt = null;
+    map.eachLayer((l) => {
+      if (txt === null && l instanceof L.Polyline &&
+          l.options.interactive && l.options.weight === 4 &&
+          l.getTooltip) {
+        const tip = l.getTooltip();
+        const el = tip && tip.getElement && tip.getElement();
+        if (el && el.isConnected) txt = el.textContent;
+      }
+    });
+    return txt;
+  });
   const dispararHover = () => page.evaluate(() => {
     const map = window.__atlasMap;
     let ok = false;
@@ -253,20 +269,18 @@ async function popupDentroDoMapa(page) {
     });
     return ok;
   });
-  let tipOk = false;
-  for (let tent = 0; tent < 3 && !tipOk; tent++) {
-    tipOk = await dispararHover();
-    try {
-      await page.waitForSelector(".leaflet-tooltip", { timeout: 1500 });
-      tipOk = true;
-    } catch (e) { tipOk = false; }
+  let tipTxt = null;
+  for (let tent = 0; tent < 3 && tipTxt === null; tent++) {
+    if (await dispararHover()) {
+      await page.waitForTimeout(150);
+      tipTxt = await tooltipDoTrecho();
+    }
   }
-  check("tooltip de trecho visivel no hover", tipOk &&
-    (await page.locator(".leaflet-tooltip").count()) >= 1);
-  if (await page.locator(".leaflet-tooltip").count()) {
-    const tt = await page.locator(".leaflet-tooltip").first().textContent();
+  check("tooltip de trecho visivel no hover", tipTxt !== null,
+    tipTxt === null ? "nenhum" : tipTxt.trim().slice(0, 60));
+  if (tipTxt !== null) {
     check("tooltip traz personagem",
-      /Jon Snow|Catelyn/.test(tt), tt.trim().slice(0, 60));
+      /Jon Snow|Catelyn/.test(tipTxt), tipTxt.trim().slice(0, 60));
   }
   await page.evaluate(() => {
     window.__atlasMap.eachLayer((l) => {

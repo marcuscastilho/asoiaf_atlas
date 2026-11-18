@@ -14,7 +14,7 @@ def render(box, output, zoom=4):
     icc = None
     for x in range(left // 512, (right - 1) // 512 + 1):
         for y in range(top // 512, (bottom - 1) // 512 + 1):
-            path = ROOT / f"tiles/o-mundo-conhecido-recorte-v1/{zoom}/{x}/{y}.webp"
+            path = ROOT / f"tiles/o-mundo-conhecido-recorte-v2/{zoom}/{x}/{y}.webp"
             with Image.open(path) as tile:
                 icc = tile.info.get("icc_profile")
                 view.paste(tile.convert("RGB"), (x * 512 - left, y * 512 - top))

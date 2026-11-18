@@ -18,7 +18,7 @@ O `-a 127.0.0.1` mantem o servidor acessivel apenas na propria maquina.
 
 ## Estado atual (honesto)
 
-- Exibe `assets/o-mundo-conhecido-recorte-v1-preview.webp`, uma **previa
+- Exibe `assets/o-mundo-conhecido-recorte-v2-preview.webp`, uma **previa
   reduzida** (1600x1066) do mapa "O Mundo Conhecido" ja recortada.
   Nao baixa o JPEG mestre.
 - A resolucao nativa (tiles WebP locais) e carregada **automaticamente**
@@ -91,10 +91,14 @@ O `-a 127.0.0.1` mantem o servidor acessivel apenas na propria maquina.
   imagem orientada: `cropBoxOriented = [0, 2336, 21654, 16764]`.
   Largura total, moldura, titulo e creditos na base permanecem intactos.
 - O JPEG mestre nao e tocado: tudo e derivado novo
-  (`tileSetId: o-mundo-conhecido-recorte-v1`). A piramide antiga sem
+  (`tileSetId: o-mundo-conhecido-recorte-v2`). A piramide antiga sem
   recorte continua **preservada localmente** em
   `atlas/tiles/o-mundo-conhecido/`, mas fica **fora do repositorio** —
   apenas a piramede recortada ativa e versionada.
+- O tileset v2 tem os pixels convertidos do ICC do scanner para **sRGB**
+  e sem perfil embutido (~190 KB de ICC por tile no v1): ~400 MB no
+  clone contra ~1 GB do v1, decisivo para o mapa renderizar em
+  navegadores moveis.
 - O manifesto publica `displayToOrientedOffset = [0, 2336]` para
   converter coordenadas da tela recortada de volta a imagem orientada —
   base da calibracao futura.

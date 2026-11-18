@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "datasetId": "atlas-inventario-v3",
   "mapId": "o-mundo-conhecido",
-  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "tileSetId": "o-mundo-conhecido-recorte-v2",
   "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
   "coordinateSystem": "cropped-native-pixels",
   "mapWidth": 21654,
@@ -260,7 +260,7 @@
     {
       "id": "Twins",
       "originalKey": "Twins",
-      "label": "As G\u00eameas",
+      "label": "As Gêmeas",
       "english": "Twins",
       "x": 3535,
       "y": 5740,
@@ -335,7 +335,7 @@
     {
       "id": "Eyrie",
       "originalKey": "Eyrie",
-      "label": "Ninho da \u00c1guia",
+      "label": "Ninho da Águia",
       "english": "Eyrie",
       "x": 4595,
       "y": 6050,
@@ -485,7 +485,7 @@
     {
       "id": "Dragonstone",
       "originalKey": "Dragonstone",
-      "label": "Pedra do Drag\u00e3o",
+      "label": "Pedra do Dragão",
       "english": "Dragonstone",
       "x": 5175,
       "y": 6940,
@@ -1578,7 +1578,7 @@
     },
     {
       "id": "Bronzegate",
-      "label": "Portabr\u00f4nzea",
+      "label": "Portabrônzea",
       "english": "Bronzegate",
       "originalKey": "Bronzegate",
       "x": 4818,
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "Sunspear",
-      "label": "Lan\u00e7assolar",
+      "label": "Lançassolar",
       "english": "Sunspear",
       "originalKey": "Sunspear",
       "x": 5350,
@@ -2726,7 +2726,7 @@
     },
     {
       "id": "Lotus_Port",
-      "label": "Porto de L\u00f3tus",
+      "label": "Porto de Lótus",
       "english": "Lotus Port",
       "originalKey": "Lotus_Port",
       "x": 5866,
@@ -3121,7 +3121,7 @@
     },
     {
       "id": "scan-site-2540-6306",
-      "label": "Forte Desgra\u00e7a",
+      "label": "Forte Desgraça",
       "english": "",
       "x": 2540,
       "y": 6306,
@@ -3723,7 +3723,7 @@
     },
     {
       "id": "Flint%27s_Finger",
-      "label": "Dedos de S\u00edlex",
+      "label": "Dedos de Sílex",
       "english": "Flint's Finger",
       "x": 2474,
       "y": 5058,
@@ -3838,7 +3838,7 @@
     },
     {
       "id": "scan-site-2150-7546",
-      "label": "Pa\u00e7o de Codorniz",
+      "label": "Paço de Codorniz",
       "english": "Crakehall",
       "x": 2150,
       "y": 7546,
@@ -4226,7 +4226,7 @@
     },
     {
       "id": "scan-site-4906-5504",
-      "label": "\u00c1guafria",
+      "label": "Águafria",
       "english": "Coldwater Burn",
       "x": 4906,
       "y": 5504,
@@ -4270,7 +4270,7 @@
     },
     {
       "id": "scan-site-5256-5974",
-      "label": "\u00c2ncora Velha",
+      "label": "Âncora Velha",
       "english": "Old Anchor",
       "x": 5256,
       "y": 5974,
@@ -5031,7 +5031,7 @@
     },
     {
       "id": "scan-site-4734-5802",
-      "label": "Lar do Cora\u00e7\u00e3o",
+      "label": "Lar do Coração",
       "english": "Heart's Home",
       "x": 4734,
       "y": 5802,
@@ -5248,7 +5248,7 @@
     },
     {
       "id": "Greywater_Watch",
-      "label": "Atalaia da \u00c1gua Cinzenta",
+      "label": "Atalaia da Água Cinzenta",
       "english": "Greywater Watch",
       "x": 3488,
       "y": 5330,
@@ -5445,7 +5445,7 @@
     },
     {
       "id": "Torrhen%27s_Square",
-      "label": "Pra\u00e7a de Torrhen",
+      "label": "Praça de Torrhen",
       "english": "Torrhen's Square",
       "x": 3106,
       "y": 4070,
@@ -5608,7 +5608,7 @@
     },
     {
       "id": "Sisterton",
-      "label": "Vilirm\u00e3s",
+      "label": "Vilirmãs",
       "english": "Sisterton",
       "x": 4422,
       "y": 5142,
@@ -5683,7 +5683,7 @@
     },
     {
       "id": "scan-site-4590-7954",
-      "label": "Mataca\u00edda",
+      "label": "Matacaída",
       "english": "Fellwood",
       "x": 4590,
       "y": 7954,
@@ -6103,7 +6103,7 @@
     },
     {
       "id": "scan-site-2378-8638",
-      "label": "Fortaleza de \u00c1guas Claras",
+      "label": "Fortaleza de Águas Claras",
       "english": "Brightwater Keep",
       "x": 2378,
       "y": 8638,
@@ -6249,7 +6249,7 @@
   "chapters": [
     {
       "index": 0,
-      "title": "A Guerra dos Tronos-0: Pr\u00f3logo",
+      "title": "A Guerra dos Tronos-0: Prólogo",
       "originalTitle": "AGOT-0: Prologue"
     },
     {

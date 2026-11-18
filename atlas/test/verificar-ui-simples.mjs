@@ -170,6 +170,206 @@ async function medidas(page) {
       [...document.querySelectorAll(".pers-atual-item")]
         .some((e) => /Tyrion Lannister — /.test(e.textContent))));
 
+  /* menu: rotulo "Livro" visivel na mesma linha do select */
+  check("menu: rotulo 'Livro' visivel junto ao select",
+    await page.evaluate(() => {
+      const l = document.querySelector(".livro-label");
+      const r = l ? l.getBoundingClientRect() : null;
+      return !!l && l.textContent.trim() === "Livro" && r.width > 0;
+    }));
+
+  /* "Todos os livros": slider varre os 344 capitulos globais e o
+     titulo ganha a sigla do livro */
+  await page.selectOption("#livro-select", "todos");
+  await page.waitForTimeout(300);
+  check("menu: 'Todos os livros' abrange os capitulos globais",
+    await page.evaluate(() =>
+      document.getElementById("cap-slider").max === "343"),
+    await page.evaluate(() => document.getElementById("cap-slider").max));
+  check("menu: titulo mostra sigla do livro no modo todos",
+    await page.evaluate(() =>
+      /\((AGOT|ACOK|ASOS|AFFC|ADWD)\)/.test(
+        document.getElementById("cap-titulo").textContent)),
+    await page.evaluate(() =>
+      document.getElementById("cap-titulo").textContent));
+
+  /* topo: 'Mapa principal' (<a>) e 'Recolher' (<button>) com
+     caixas identicas */
+  check("menu: 'Mapa principal' e 'Recolher' mesma altura",
+    await page.evaluate(() => {
+      const a = document.querySelector(".topo-link")
+        .getBoundingClientRect();
+      const b = document.getElementById("btn-painel")
+        .getBoundingClientRect();
+      return Math.abs(a.height - b.height) <= 1;
+    }));
+
+  /* ordem das secoes: Regiao vem antes de Personagens */
+  check("menu: secao Regiao antes de Personagens",
+    await page.evaluate(() =>
+      !!(document.getElementById("sec-regiao")
+        .compareDocumentPosition(
+          document.getElementById("sec-personagens")) &
+        Node.DOCUMENT_POSITION_FOLLOWING)));
+
+  /* acoes: 3 botoes de largura igual numa unica linha */
+  check("personagens: 3 botoes na mesma linha",
+    await page.evaluate(() => {
+      const bs = [...document.querySelectorAll(".pers-acoes .botao")];
+      return bs.length === 3 &&
+        new Set(bs.map((b) => b.offsetTop)).size === 1 &&
+        Math.abs(bs[0].offsetWidth - bs[2].offsetWidth) <= 1;
+    }));
+  check("personagens: botao 'Jornada (spoilers)'",
+    await page.evaluate(() =>
+      document.getElementById("btn-livro-completo")
+        .textContent.trim() === "Jornada (spoilers)"));
+
+  /* lista de personagens em ordem alfabetica pt-BR */
+  check("personagens: lista em ordem alfabetica pt-BR",
+    await page.evaluate(() => {
+      const nomes = [...document.querySelectorAll(
+        ".pers-item .pers-nome")].map((e) => e.textContent.trim());
+      const ord = [...nomes]
+        .sort((a, b) => a.localeCompare(b, "pt-BR"));
+      return nomes.join() === ord.join() && nomes.length === 27;
+    }));
+
+  /* rodape do painel com o credito e o link externo do mapa */
+  check("rodape: link 'As Terras de Gelo e Fogo' externo noopener",
+    await page.evaluate(() => {
+      const a = document.querySelector(".painel-rodape a");
+      return !!a && a.getAttribute("href") ===
+        "https://georgerrmartin.com/grrm_book/the-lands-of-ice-and-fire-map-set/" &&
+        a.target === "_blank" && a.rel === "noopener";
+    }));
+  check("rodape: link 'Código no GitHub' externo noopener",
+    await page.evaluate(() => {
+      const a = document.querySelector(".painel-rodape a.rodape-github");
+      return !!a && a.getAttribute("href") ===
+        "https://github.com/marcuscastilho/asoiaf_atlas" &&
+        a.target === "_blank" && a.rel === "noopener" &&
+        !!a.querySelector("svg");
+    }));
+
+  /* seletor de regiao agrupado por continente */
+  check("regiao: select presente com optgroups e opcoes",
+    await page.evaluate(() => {
+      const s = document.getElementById("regiao-select");
+      return !!s && !s.hidden &&
+        s.querySelectorAll("optgroup").length >= 1 &&
+        s.querySelectorAll("optgroup option").length > 0;
+    }));
+
+  /* 27 regioes + 51 sub-regioes em 3 optgroups
+     (Westeros 11, Essos 13, Outros 3) */
+  check("regiao: 27 regioes + 51 sub-regioes nos 3 optgroups",
+    await page.evaluate(() => {
+      const s = document.getElementById("regiao-select");
+      const gs = [...s.querySelectorAll("optgroup")];
+      return gs.length === 3 &&
+        gs.map((g) => g.label).join() === "Westeros,Essos,Outros" &&
+        s.querySelectorAll("optgroup option").length === 78 &&
+        s.querySelectorAll("optgroup option[value^='sub:']").length
+          === 51;
+    }), await page.evaluate(() => {
+      const s = document.getElementById("regiao-select");
+      return [...s.querySelectorAll("optgroup")]
+        .map((g) => g.label + ":" + g.children.length).join();
+    }));
+
+  /* selecionar regiao enquadra os pontos dela (flyToBounds animado;
+     pinos e rotulos so redesenham no moveend — esperar o centro
+     estabilizar, nao um tempo fixo) */
+  const esperaMapa = async () => {
+    let a = null, b = null, tent = 0;
+    do {
+      a = b;
+      await page.waitForTimeout(250);
+      b = await page.evaluate(() => {
+        const c = window.__atlasMap.getCenter();
+        return [c.lat, c.lng, window.__atlasMap.getZoom()].join();
+      });
+    } while (a !== b && ++tent < 24);
+    await page.waitForTimeout(350);
+  };
+  const pontoNaVista = (ids) => page.evaluate((ids) => {
+    const map = window.__atlasMap;
+    const b = map.getBounds();
+    const achado = {};
+    map.eachLayer((l) => {
+      if (l._ponto && ids.includes(l._ponto.id))
+        achado[l._ponto.id] = b.contains(l.getLatLng());
+    });
+    return ids.map((i) => achado[i] === true);
+  }, ids);
+  await page.selectOption("#regiao-select", "dorne");
+  await esperaMapa();
+  check("regiao: 'dorne' enquadra Lancassolar+Tombastela, sem Winterfell",
+    (await pontoNaVista(
+      ["Sunspear", "scan-site-v4-549", "Winterfell"]))
+      .join() === "true,true,false",
+    (await pontoNaVista(
+      ["Sunspear", "scan-site-v4-549", "Winterfell"])).join());
+  await page.selectOption("#regiao-select", "norte");
+  await esperaMapa();
+  check("regiao: 'norte' contem Winterfell",
+    (await pontoNaVista(["Winterfell"]))[0] === true);
+  /* regiao de um ponto: setView em vez de bounds degenerado */
+  await page.selectOption("#regiao-select", "ilhas-ferro");
+  await esperaMapa();
+  check("regiao: 'ilhas-ferro' (1 ponto) centra Pyke",
+    (await pontoNaVista(["Pyke"]))[0] === true);
+
+  /* sub-regioes: enquadram pela caixa center+-span */
+  await page.selectOption("#regiao-select", "sub:gargalo");
+  await esperaMapa();
+  check("regiao: 'sub:gargalo' mostra Fosso Cailin, sem Porto Real",
+    (await pontoNaVista(
+      ["Moat_Cailin", "King%27s_Landing"]))
+      .join() === "true,false",
+    (await pontoNaVista(
+      ["Moat_Cailin", "King%27s_Landing"])).join());
+  await page.selectOption("#regiao-select", "sub:arvore");
+  await esperaMapa();
+  check("regiao: 'sub:arvore' mostra Castelo do Arbor",
+    (await pontoNaVista(["scan-site-v4-606"]))[0] === true);
+
+  /* rotulos ligados por padrao: zoom maximo numa area densa (aglomerado
+     Rochedo Casterly/Lannisporto, Terras Ocidentais) mostra mais que o
+     antigo teto de 12 e rotula todos os pontos a vista. Os pinos sao
+     cullados fora da vista, entao primeiro navega para a regiao para o
+     marcador-ancora existir */
+  await page.selectOption("#regiao-select", "terras-ocidentais");
+  await esperaMapa();
+  const temAlvo = await page.evaluate(() => {
+    const map = window.__atlasMap;
+    let alvo = null;
+    map.eachLayer((l) => {
+      if (l._ponto && l._ponto.id === "scan-site-2918-6938") alvo = l;
+    });
+    if (!alvo) return false;
+    map.setView(alvo.getLatLng(), map.getMaxZoom());
+    return true;
+  });
+  await esperaMapa();
+  check("rotulos: ancora Valecorno encontrada para o zoom", temAlvo);
+  const vista = await page.evaluate(() => {
+    const map = window.__atlasMap, b = map.getBounds();
+    let n = 0;
+    map.eachLayer((l) => {
+      if (l._ponto && b.contains(l.getLatLng())) n++;
+    });
+    return { pontos: n, rotulos: document.querySelectorAll(".loc-label").length };
+  });
+  check("rotulos: visiveis por padrao, sem teto de 12",
+    vista.rotulos > 12, "n=" + vista.rotulos);
+  check("rotulos: todo ponto a vista ganha rotulo no zoom maximo",
+    vista.rotulos >= vista.pontos && vista.pontos > 0,
+    vista.rotulos + "/" + vista.pontos);
+  await page.screenshot(
+    { path: join(OUT, "ui-simples-desktop-rotulos.png") });
+
   await ctx.close();
 }
 

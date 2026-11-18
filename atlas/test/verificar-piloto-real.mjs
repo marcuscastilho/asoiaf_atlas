@@ -98,8 +98,17 @@ const browser = await chromium.launch();
   check("slider max = 72 do arquivo",
     (await page.locator("#cap-slider").getAttribute("max")) === "72");
   const titulo0 = await page.locator("#cap-titulo").textContent();
+  /* a UI normaliza "Livro-N: Título" -> "Título" (mesma regra de
+     tituloCapitulo em overlays.js); o conteudo vem do arquivo */
+  const esperado0 = (() => {
+    const t = DADOS.chapters[0].title || "";
+    const dois = t.indexOf(":");
+    return (dois >= 0 ? t.slice(dois + 1).trim() : t.trim()) ||
+      "Capítulo 0";
+  })();
   check("titulo do capitulo do arquivo congelado",
-    titulo0 === (DADOS.chapters[0].title || "Capítulo 0"), titulo0.trim());
+    titulo0.trim() === esperado0,
+    titulo0.trim() + " vs " + esperado0);
 
   await page.check("#chk-jon");
   await page.waitForTimeout(350);
@@ -310,8 +319,8 @@ check("nenhum fetch de imagem mestre", mestres.length === 0,
 /* /assets/tiles/nat/ do portal tambem contem "/tiles/" — so interessa
    o conjunto versionado do atlas */
 const reqTiles = requests.filter((u) => u.includes("/atlas/tiles/"));
-check("todos tiles do conjunto recorte-v1",
-  reqTiles.length > 0 && reqTiles.every((u) => u.includes("recorte-v1")),
+check("todos tiles do conjunto recorte-v2",
+  reqTiles.length > 0 && reqTiles.every((u) => u.includes("recorte-v2")),
   reqTiles.length + " requisicoes");
 const tilesRuins = tileResponses.filter((l) => !/ 200 /.test(l));
 check("todas respostas de tile HTTP 200", tilesRuins.length === 0,

@@ -1,6 +1,14 @@
-# gotmap — Mapa de As Crônicas de Gelo e Fogo (pt-BR)
+# asoiaf_atlas — Atlas de As Crônicas de Gelo e Fogo (pt-BR)
 
-Clone em português (pt-BR), feito por fãs e sem fins lucrativos, do site
+Projeto de fãs, sem fins comerciais, com dois mapas interligados:
+
+- **Atlas** (`/atlas/`): visor em alta resolução do mapa "O Mundo Conhecido"
+  de *As Terras de Gelo e Fogo*, com 244 localidades nomeadas em pt-BR,
+  cards com resumo e link para a [AWOIAF](https://awoiaf.westeros.org/),
+  27 regiões e 51 sub-regiões para navegação, percursos de 27 personagens
+  nos 5 livros com filtro de spoilers por capítulo (trechos deduzidos em
+  pontilhado amarelo) e rótulos automáticos.
+- **Mapa principal** (`/`): clone em português (pt-BR), feito por fãs e sem fins lucrativos, do site
 [Quartermaester](https://quartermaester.info/) — um mapa interativo de Westeros
 e Essos com controle de spoilers por capítulo — escopo exclusivamente
 literário, sem dados da série de TV.
@@ -22,21 +30,23 @@ npm run serve        # http://localhost:8080
 - `http://localhost:8080/` — portal original clonado (Quartermaester, pt-BR).
 - `http://localhost:8080/atlas/` — **Atlas local**: visor Leaflet
   (CRS.Simple) sobre o mapa escaneado "O Mundo Conhecido", com
-  localidades, trajetos e cobertura honesta por livro. Detalhes e
-  limites em `atlas/README.md` e `atlas/data/PERCURSOS-V6.md`.
+  localidades, regiões, percursos v7 (`atlas/data/atlas-percursos-v7.json`,
+  gerados por `atlas/scripts/preparar-percursos-v7.py` a partir de
+  `atlas/scripts/itinerarios_v7_fonte.py`). Detalhes em `atlas/README.md`.
 
 Não é necessária nenhuma chave: por padrão o mapa usa **Leaflet** com os tiles
 locais em `assets/tiles/`; o Atlas carrega automaticamente a prévia WebP em
 `atlas/assets/` e os **1698 tiles nativos incluídos** em
-`atlas/tiles/o-mundo-conhecido-recorte-v1/` (~1 GB no clone — é o mapa em
+`atlas/tiles/o-mundo-conhecido-recorte-v2/` (~400 MB no clone — é o mapa em
 alta resolução, nada precisa ser gerado). Não estão no repositório: os
 mestres JPEG (`mapas/jpeg/`), a pirâmide antiga sem recorte
 (`atlas/tiles/o-mundo-conhecido/`), arquivos locais e segredos — nada
 disso é necessário para rodar.
 
-O Atlas cobre os **5 livros publicados** (344 capítulos de leitura) com
-trajetos aproximados e parciais de 27 personagens — não itinerários
-auditados integralmente. O portal na raiz mantém o escopo original:
+O Atlas cobre os **5 livros publicados** (344 capítulos de leitura).
+Os percursos são contínuos por personagem; quando os livros não descrevem
+o caminho exato, o trecho aparece como deduzido (pontilhado amarelo), sem
+ser apresentado como rota confirmada. O portal na raiz mantém o escopo original:
 os 5 livros **+ o capítulo de amostra TWOW-?: Theon I**, distinção que
 permanece explícita nos dados do portal.
 
@@ -190,3 +200,7 @@ rede). Modo Google não verificado (depende de chave própria do usuário).
 - Leaflet © sua licença BSD-2 (`assets/vendor/leaflet/LICENSE`).
 - jQuery/jQuery Mobile © licença MIT.
 - Propriedade intelectual de *As Crônicas de Gelo e Fogo*: George R.R. Martin.
+
+## Créditos
+
+Ícone do favicon: "King" (trono), por Freepik — [Flaticon](https://www.flaticon.com/free-icon/king_15305679), licença gratuita com atribuição.

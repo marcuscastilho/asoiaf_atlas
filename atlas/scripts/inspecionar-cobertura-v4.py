@@ -22,7 +22,7 @@ def tiles_crop(box, zoom):
     im = Image.new("RGB", (right-left, bottom-top), "#eee5cb")
     for x in range(left//512, (right-1)//512+1):
         for y in range(top//512, (bottom-1)//512+1):
-            p = ROOT / f"tiles/o-mundo-conhecido-recorte-v1/{zoom}/{x}/{y}.webp"
+            p = ROOT / f"tiles/o-mundo-conhecido-recorte-v2/{zoom}/{x}/{y}.webp"
             if not p.exists():
                 continue
             with Image.open(p) as tile:

@@ -311,8 +311,8 @@ const pinosPos = (page) => page.evaluate(() => {
     (await page.locator("#loc-lista li").count()) === 240);
   check("UI: 27 perfis selecionáveis",
     await page.locator("#lista-personagens input").count() === 27);
-  check("UI: 5 livros no seletor",
-    await page.locator("#livro-select option").count() === 5);
+  check("UI: 5 livros + Todos no seletor",
+    await page.locator("#livro-select option").count() === 6);
   check("UI: 27 itens de personagem (um por rota)",
     await page.locator(".pers-item").count() === 27);
   /* linha curta por personagem SELECIONADO: "Nome — lugar atual" na
@@ -709,7 +709,7 @@ for (const [nome, fulfill] of [
   ["v7 invalido", { status: 200, contentType: "application/json",
     body: JSON.stringify({ schemaVersion: 2, datasetId: "atlas-saga-v7",
       mapId: "o-mundo-conhecido",
-      tileSetId: "o-mundo-conhecido-recorte-v1",
+      tileSetId: "o-mundo-conhecido-recorte-v2",
       sourceSha256: "0".repeat(64),
       coordinateSystem: "cropped-native-pixels",
       mapWidth: 21654, mapHeight: 14428,

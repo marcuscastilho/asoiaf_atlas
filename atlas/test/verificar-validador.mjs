@@ -20,7 +20,7 @@ const pure = windowStub.GOTATLAS.pure;
 
 const MAN = {
   id: "o-mundo-conhecido",
-  tileSetId: "o-mundo-conhecido-recorte-v1",
+  tileSetId: "o-mundo-conhecido-recorte-v2",
   sourceSha256: "abc",
   width: 21654,
   height: 14428,
@@ -32,7 +32,7 @@ function base() {
     schemaVersion: 2,
     datasetId: "agot-atlas-v2",
     mapId: "o-mundo-conhecido",
-    tileSetId: "o-mundo-conhecido-recorte-v1",
+    tileSetId: "o-mundo-conhecido-recorte-v2",
     sourceSha256: "abc",
     coordinateSystem: "cropped-native-pixels",
     mapWidth: 21654,

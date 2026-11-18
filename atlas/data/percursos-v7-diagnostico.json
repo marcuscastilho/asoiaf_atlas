@@ -513,8 +513,8 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 364,
-        "verts": 16,
+        "cells": 380,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
@@ -531,27 +531,27 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 111,
-        "verts": 7,
-        "waterRunPx": 16
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 127,
-        "verts": 10,
-        "waterRunPx": 12
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 211,
+        "cells": 244,
         "verts": 19,
-        "waterRunPx": 12
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
-        "cells": 148,
-        "verts": 9,
+        "cells": 243,
+        "verts": 17,
+        "waterRunPx": 24
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 135,
+        "verts": 13,
         "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 155,
+        "verts": 14,
+        "waterRunPx": 12
       },
       {
         "kind": "reuso-v6",
@@ -581,14 +581,14 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 89,
-        "verts": 4,
-        "waterRunPx": 4
+        "cells": 95,
+        "verts": 3,
+        "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
-        "cells": 181,
-        "verts": 11,
+        "cells": 190,
+        "verts": 16,
         "waterRunPx": 8
       },
       {
@@ -607,41 +607,41 @@
     "bran": [
       {
         "kind": "pathfinder",
-        "cells": 86,
-        "verts": 4,
+        "cells": 109,
+        "verts": 8,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
-        "cells": 396,
-        "verts": 26,
+        "cells": 465,
+        "verts": 31,
         "waterRunPx": 12
       },
       {
         "kind": "pathfinder",
-        "cells": 134,
-        "verts": 9,
-        "waterRunPx": 8
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 113,
-        "verts": 6,
+        "cells": 144,
+        "verts": 13,
         "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
-        "cells": 114,
-        "verts": 8,
-        "waterRunPx": 4
+        "cells": 162,
+        "verts": 14,
+        "waterRunPx": 24
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 191,
+        "verts": 15,
+        "waterRunPx": 20
       }
     ],
     "rickon": [
       {
         "kind": "pathfinder",
-        "cells": 795,
-        "verts": 38,
-        "waterRunPx": 864
+        "cells": 748,
+        "verts": 34,
+        "waterRunPx": 652
       }
     ],
     "robb": [
@@ -656,19 +656,19 @@
       {
         "kind": "pathfinder",
         "cells": 253,
-        "verts": 7,
-        "waterRunPx": 4
+        "verts": 10,
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
         "cells": 151,
         "verts": 9,
-        "waterRunPx": 4
+        "waterRunPx": 0
       },
       {
         "kind": "pathfinder",
         "cells": 34,
-        "verts": 4,
+        "verts": 2,
         "waterRunPx": 4
       },
       {
@@ -695,29 +695,29 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 108,
-        "verts": 6,
-        "waterRunPx": 0
+        "cells": 113,
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 79,
-        "verts": 6,
-        "waterRunPx": 8
+        "verts": 7,
+        "waterRunPx": 4
       }
     ],
     "catelyn": [
       {
         "kind": "pathfinder",
         "cells": 359,
-        "verts": 8,
-        "waterRunPx": 0
+        "verts": 13,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
-        "cells": 1122,
-        "verts": 51,
-        "waterRunPx": 480
+        "cells": 1063,
+        "verts": 32,
+        "waterRunPx": 1140
       },
       {
         "kind": "reuso-v6",
@@ -726,8 +726,8 @@
       {
         "kind": "pathfinder",
         "cells": 118,
-        "verts": 8,
-        "waterRunPx": 0
+        "verts": 7,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
@@ -743,9 +743,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 722,
-        "verts": 29,
-        "waterRunPx": 1084
+        "cells": 633,
+        "verts": 24,
+        "waterRunPx": 1008
       },
       {
         "kind": "reuso-rejeitado",
@@ -754,7 +754,7 @@
       {
         "kind": "pathfinder",
         "cells": 113,
-        "verts": 8,
+        "verts": 9,
         "waterRunPx": 0
       },
       {
@@ -764,19 +764,19 @@
       {
         "kind": "pathfinder",
         "cells": 253,
-        "verts": 7,
-        "waterRunPx": 4
+        "verts": 10,
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
         "cells": 151,
         "verts": 9,
-        "waterRunPx": 4
+        "waterRunPx": 0
       },
       {
         "kind": "pathfinder",
         "cells": 34,
-        "verts": 4,
+        "verts": 2,
         "waterRunPx": 4
       },
       {
@@ -800,66 +800,66 @@
       {
         "kind": "pathfinder",
         "cells": 577,
-        "verts": 24,
+        "verts": 30,
         "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
-        "cells": 108,
-        "verts": 6,
-        "waterRunPx": 0
+        "cells": 113,
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 79,
-        "verts": 6,
-        "waterRunPx": 8
+        "verts": 7,
+        "waterRunPx": 4
       }
     ],
     "eddard": [
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       }
     ],
     "sansa": [
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 87,
-        "verts": 5,
-        "waterRunPx": 76
+        "verts": 4,
+        "waterRunPx": 320
       },
       {
         "kind": "pathfinder",
-        "cells": 527,
+        "cells": 523,
         "verts": 17,
-        "waterRunPx": 608
+        "waterRunPx": 1216
       },
       {
         "kind": "pathfinder",
         "cells": 223,
-        "verts": 8,
-        "waterRunPx": 4
+        "verts": 7,
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
@@ -871,15 +871,15 @@
     "arya": [
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
@@ -895,9 +895,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 146,
-        "verts": 8,
-        "waterRunPx": 4
+        "cells": 41,
+        "verts": 4,
+        "waterRunPx": 12
       },
       {
         "ch": 92,
@@ -907,7 +907,7 @@
         "kind": "pathfinder",
         "cells": 62,
         "verts": 5,
-        "waterRunPx": 4
+        "waterRunPx": 8
       },
       {
         "kind": "reuso-v6",
@@ -953,9 +953,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 260,
-        "verts": 10,
-        "waterRunPx": 4
+        "cells": 265,
+        "verts": 13,
+        "waterRunPx": 12
       },
       {
         "kind": "pathfinder",
@@ -973,9 +973,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 546,
-        "verts": 27,
-        "waterRunPx": 628
+        "cells": 509,
+        "verts": 18,
+        "waterRunPx": 1308
       }
     ],
     "theon": [
@@ -990,50 +990,50 @@
       {
         "kind": "pathfinder",
         "cells": 253,
-        "verts": 7,
-        "waterRunPx": 4
+        "verts": 10,
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
         "cells": 151,
         "verts": 9,
-        "waterRunPx": 4
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 34,
-        "verts": 4,
-        "waterRunPx": 4
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 154,
-        "verts": 6,
         "waterRunPx": 0
       },
       {
         "kind": "pathfinder",
-        "cells": 247,
-        "verts": 14,
-        "waterRunPx": 284
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 643,
-        "verts": 11,
-        "waterRunPx": 1460
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 412,
-        "verts": 10,
+        "cells": 34,
+        "verts": 2,
         "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
-        "cells": 236,
+        "cells": 159,
         "verts": 9,
-        "waterRunPx": 8
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 247,
+        "verts": 12,
+        "waterRunPx": 468
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 558,
+        "verts": 22,
+        "waterRunPx": 1452
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 413,
+        "verts": 20,
+        "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 231,
+        "verts": 8,
+        "waterRunPx": 12
       },
       {
         "kind": "reuso-rejeitado",
@@ -1041,9 +1041,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 491,
-        "verts": 13,
-        "waterRunPx": 4
+        "cells": 490,
+        "verts": 20,
+        "waterRunPx": 16
       },
       {
         "kind": "reuso-v6",
@@ -1069,33 +1069,33 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 950,
-        "verts": 30,
-        "waterRunPx": 1112
+        "cells": 777,
+        "verts": 35,
+        "waterRunPx": 784
       },
       {
         "kind": "pathfinder",
         "cells": 53,
         "verts": 4,
-        "waterRunPx": 60
+        "waterRunPx": 80
       },
       {
         "kind": "pathfinder",
-        "cells": 946,
-        "verts": 23,
-        "waterRunPx": 2760
+        "cells": 742,
+        "verts": 28,
+        "waterRunPx": 1436
       },
       {
         "kind": "pathfinder",
-        "cells": 105,
-        "verts": 7,
+        "cells": 236,
+        "verts": 17,
         "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
-        "cells": 117,
-        "verts": 11,
-        "waterRunPx": 4
+        "cells": 140,
+        "verts": 12,
+        "waterRunPx": 12
       }
     ],
     "victarion": [
@@ -1105,47 +1105,47 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 340,
-        "verts": 11,
-        "waterRunPx": 516
+        "cells": 631,
+        "verts": 29,
+        "waterRunPx": 456
       },
       {
         "kind": "pathfinder",
-        "cells": 569,
-        "verts": 12,
-        "waterRunPx": 1328
+        "cells": 560,
+        "verts": 8,
+        "waterRunPx": 960
       },
       {
         "kind": "pathfinder",
-        "cells": 2497,
-        "verts": 42,
-        "waterRunPx": 5236
+        "cells": 2478,
+        "verts": 35,
+        "waterRunPx": 4752
       },
       {
         "kind": "pathfinder",
         "cells": 57,
-        "verts": 3,
-        "waterRunPx": 140
+        "verts": 4,
+        "waterRunPx": 172
       }
     ],
     "daenerys": [
       {
         "kind": "pathfinder",
         "cells": 584,
-        "verts": 11,
+        "verts": 15,
         "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 1593,
-        "verts": 11,
-        "waterRunPx": 0
+        "verts": 9,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 581,
         "verts": 7,
-        "waterRunPx": 0
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
@@ -1187,8 +1187,8 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 364,
-        "verts": 16,
+        "cells": 380,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
@@ -1197,9 +1197,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 364,
-        "verts": 18,
-        "waterRunPx": 8
+        "cells": 380,
+        "verts": 24,
+        "waterRunPx": 16
       },
       {
         "kind": "reuso-v6",
@@ -1208,8 +1208,8 @@
       {
         "kind": "pathfinder",
         "cells": 118,
-        "verts": 8,
-        "waterRunPx": 0
+        "verts": 7,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
@@ -1273,21 +1273,21 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 167,
-        "verts": 13,
-        "waterRunPx": 4
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 769,
-        "verts": 34,
-        "waterRunPx": 1136
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 592,
-        "verts": 12,
+        "cells": 162,
+        "verts": 11,
         "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 721,
+        "verts": 25,
+        "waterRunPx": 1284
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 599,
+        "verts": 13,
+        "waterRunPx": 24
       }
     ],
     "aegon": [
@@ -1305,21 +1305,21 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 126,
-        "verts": 7,
-        "waterRunPx": 24
+        "cells": 128,
+        "verts": 11,
+        "waterRunPx": 88
       },
       {
         "kind": "pathfinder",
-        "cells": 1125,
-        "verts": 39,
-        "waterRunPx": 1820
+        "cells": 1047,
+        "verts": 30,
+        "waterRunPx": 2736
       },
       {
         "kind": "pathfinder",
-        "cells": 44,
+        "cells": 47,
         "verts": 5,
-        "waterRunPx": 12
+        "waterRunPx": 8
       }
     ],
     "jaime": [
@@ -1329,15 +1329,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "reuso-rejeitado",
@@ -1345,9 +1345,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 499,
-        "verts": 15,
-        "waterRunPx": 4
+        "cells": 501,
+        "verts": 16,
+        "waterRunPx": 12
       },
       {
         "kind": "pathfinder",
@@ -1359,13 +1359,7 @@
         "kind": "pathfinder",
         "cells": 114,
         "verts": 5,
-        "waterRunPx": 0
-      },
-      {
-        "kind": "pathfinder",
-        "cells": 34,
-        "verts": 4,
-        "waterRunPx": 0
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
@@ -1374,14 +1368,20 @@
         "waterRunPx": 4
       },
       {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 2,
+        "waterRunPx": 4
+      },
+      {
         "kind": "reuso-v6",
         "ref": "jaime-v4-154-8"
       },
       {
         "kind": "pathfinder",
-        "cells": 17,
-        "verts": 2,
-        "waterRunPx": 0
+        "cells": 18,
+        "verts": 3,
+        "waterRunPx": 12
       },
       {
         "kind": "reuso-v6",
@@ -1405,7 +1405,7 @@
         "kind": "pathfinder",
         "cells": 194,
         "verts": 9,
-        "waterRunPx": 0
+        "waterRunPx": 12
       },
       {
         "kind": "pathfinder",
@@ -1423,7 +1423,7 @@
         "kind": "pathfinder",
         "cells": 112,
         "verts": 5,
-        "waterRunPx": 0
+        "waterRunPx": 4
       }
     ],
     "brienne": [
@@ -1444,7 +1444,7 @@
       {
         "kind": "pathfinder",
         "cells": 577,
-        "verts": 24,
+        "verts": 30,
         "waterRunPx": 4
       },
       {
@@ -1453,9 +1453,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 17,
-        "verts": 2,
-        "waterRunPx": 0
+        "cells": 18,
+        "verts": 3,
+        "waterRunPx": 12
       },
       {
         "kind": "reuso-v6",
@@ -1489,15 +1489,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 182,
-        "verts": 10,
-        "waterRunPx": 12
+        "cells": 180,
+        "verts": 12,
+        "waterRunPx": 28
       },
       {
         "kind": "pathfinder",
-        "cells": 182,
-        "verts": 12,
-        "waterRunPx": 8
+        "cells": 180,
+        "verts": 14,
+        "waterRunPx": 16
       },
       {
         "kind": "reuso-v6",
@@ -1509,8 +1509,8 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 35,
-        "verts": 3,
+        "cells": 51,
+        "verts": 5,
         "waterRunPx": 4
       },
       {
@@ -1527,15 +1527,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       }
     ],
     "joffrey": [
@@ -1545,15 +1545,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       }
     ],
     "myrcella": [
@@ -1563,15 +1563,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "reuso-v6",
@@ -1581,7 +1581,7 @@
         "kind": "pathfinder",
         "cells": 105,
         "verts": 7,
-        "waterRunPx": 0
+        "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
@@ -1593,7 +1593,7 @@
         "kind": "pathfinder",
         "cells": 295,
         "verts": 5,
-        "waterRunPx": 0
+        "waterRunPx": 4
       }
     ],
     "robert": [
@@ -1603,15 +1603,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       }
     ],
     "renly": [
@@ -1621,27 +1621,27 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 698,
-        "verts": 14,
+        "cells": 705,
+        "verts": 23,
         "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 224,
-        "verts": 7,
-        "waterRunPx": 0
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 432,
         "verts": 15,
-        "waterRunPx": 4
+        "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
         "cells": 201,
-        "verts": 10,
-        "waterRunPx": 0
+        "verts": 14,
+        "waterRunPx": 4
       },
       {
         "kind": "reuso-rejeitado",
@@ -1667,15 +1667,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 233,
-        "verts": 12,
-        "waterRunPx": 368
+        "cells": 210,
+        "verts": 9,
+        "waterRunPx": 464
       },
       {
         "kind": "pathfinder",
-        "cells": 1265,
-        "verts": 12,
-        "waterRunPx": 3348
+        "cells": 1259,
+        "verts": 13,
+        "waterRunPx": 4116
       },
       {
         "kind": "reuso-v6",
@@ -1687,15 +1687,15 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 105,
-        "verts": 7,
+        "cells": 236,
+        "verts": 17,
         "waterRunPx": 20
       },
       {
         "kind": "pathfinder",
-        "cells": 117,
-        "verts": 11,
-        "waterRunPx": 4
+        "cells": 140,
+        "verts": 12,
+        "waterRunPx": 12
       }
     ],
     "davos": [
@@ -1705,27 +1705,27 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 552,
-        "verts": 20,
-        "waterRunPx": 896
+        "cells": 414,
+        "verts": 9,
+        "waterRunPx": 1024
       },
       {
         "kind": "pathfinder",
         "cells": 129,
         "verts": 4,
-        "waterRunPx": 596
+        "waterRunPx": 0
       },
       {
         "kind": "pathfinder",
-        "cells": 1265,
-        "verts": 12,
-        "waterRunPx": 3348
+        "cells": 1259,
+        "verts": 13,
+        "waterRunPx": 4116
       },
       {
         "kind": "pathfinder",
-        "cells": 826,
-        "verts": 19,
-        "waterRunPx": 2104
+        "cells": 824,
+        "verts": 16,
+        "waterRunPx": 1468
       },
       {
         "kind": "reuso-v6",
@@ -1741,7 +1741,7 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 303,
+        "cells": 307,
         "verts": 18,
         "waterRunPx": 4
       },
@@ -1755,9 +1755,9 @@
       },
       {
         "kind": "pathfinder",
-        "cells": 72,
-        "verts": 6,
-        "waterRunPx": 0
+        "cells": 124,
+        "verts": 10,
+        "waterRunPx": 4
       },
       {
         "kind": "reuso-rejeitado",
@@ -1775,7 +1775,7 @@
         "kind": "pathfinder",
         "cells": 105,
         "verts": 7,
-        "waterRunPx": 0
+        "waterRunPx": 8
       },
       {
         "kind": "pathfinder",
@@ -1787,7 +1787,7 @@
         "kind": "pathfinder",
         "cells": 295,
         "verts": 5,
-        "waterRunPx": 0
+        "waterRunPx": 4
       }
     ],
     "littlefinger": [
@@ -1809,25 +1809,25 @@
         "kind": "pathfinder",
         "cells": 245,
         "verts": 9,
-        "waterRunPx": 0
+        "waterRunPx": 4
       },
       {
         "kind": "pathfinder",
         "cells": 87,
-        "verts": 5,
-        "waterRunPx": 76
+        "verts": 4,
+        "waterRunPx": 320
       },
       {
         "kind": "pathfinder",
-        "cells": 527,
+        "cells": 523,
         "verts": 17,
-        "waterRunPx": 608
+        "waterRunPx": 1216
       },
       {
         "kind": "pathfinder",
         "cells": 223,
-        "verts": 8,
-        "waterRunPx": 4
+        "verts": 7,
+        "waterRunPx": 20
       },
       {
         "kind": "pathfinder",

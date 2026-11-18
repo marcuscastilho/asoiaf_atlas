@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "atlas/data"
 OUT = ROOT / "atlas/test/evidencias"
-TILES = ROOT / "atlas/tiles/o-mundo-conhecido-recorte-v1"
+TILES = ROOT / "atlas/tiles/o-mundo-conhecido-recorte-v2"
 CELL = 4
 
 CORES = {}  # preenchido a partir do JSON (rt["color"])

@@ -22,10 +22,8 @@ window.GOTATLAS = (function () {
   var DATASET_FALLBACK_ID = "piloto-norte-v1";
   var STORAGE_PREFIX = "gotatlas-estado-";
   var CAP_MIN = 0;
-  var LIMITE_ROTULOS = 12;
   var ROTULO_W = 100;
   var ROTULO_H = 24;
-  var ZOOM_ROTULO_NATIVO = 3;
   var ZOOM_BUSCA_NATIVO = 4;
   var MARGEM_CULLING = 0.12;
 
@@ -49,7 +47,9 @@ window.GOTATLAS = (function () {
       "Descrição geográfica; nome próprio não informado",
     "named-group-member":
       "Identificação do conjunto; sem nome próprio individual",
-    "wiki-review": "Nome documentado por mapa regional e wiki"
+    "wiki-review": "Nome documentado por mapa regional e wiki",
+    "companion-map-projected":
+      "Localidade projetada do mapa companheiro"
   };
   /* singular honesto para simbolos cuja natureza o glifo indica sem
      nomear a localidade — 'unidentified' nao significa tipo incognito */
@@ -80,7 +80,11 @@ window.GOTATLAS = (function () {
     positionMarkers: [],
     /* estado de UI (persistido/restaurado) */
     locVisible: true,
-    labelsVisible: false,
+    labelsVisible: true,
+    /* livro explicitamente escolhido no seletor: id de livro ou
+       "todos" (slider varre os capitulos globais); null = deriva do
+       capitulo corrente (comportamento padrao) */
+    livroSel: null,
     selecionados: {},
     chapter: 0,
     markerOnly: false,
@@ -1023,10 +1027,19 @@ window.GOTATLAS = (function () {
 
   /* ---------- rotulos opcionais com evitamento de sobreposicao ---------- */
 
-  function limiarRotulos() {
-    if (state.mode === "native") return ZOOM_ROTULO_NATIVO;
-    var m = manifestAtivo();
-    return Math.log2(m.width / (state.naturalW * 8));
+  /* prioridade de rotulo: tipos mais importantes vencem as colisoes —
+     cidade > castelo > vilarejo/localidade > ruina > demais */
+  var ROTULO_PRIOR = {
+    city: 0,
+    castle: 1,
+    village: 2,
+    settlement: 2,
+    ruin: 3
+  };
+
+  function priorRotulo(p) {
+    var r = ROTULO_PRIOR[p && p.kind];
+    return r === undefined ? 4 : r;
   }
 
   function colide(a, b) {
@@ -1037,11 +1050,12 @@ window.GOTATLAS = (function () {
     state.featureMarkers.forEach(function (r) { r.m.unbindTooltip(); });
     state.positionMarkers.forEach(function (m) { m.unbindTooltip(); });
     if (!state.labelsVisible) return;
-    if (state.map.getZoom() < limiarRotulos()) return;
     var bounds = state.map.getBounds();
     var colocados = [];
-    state.featureMarkers.forEach(function (r) {
-      if (colocados.length >= LIMITE_ROTULOS) return;
+    var ordem = state.featureMarkers.slice().sort(function (a, b) {
+      return priorRotulo(a.p) - priorRotulo(b.p);
+    });
+    ordem.forEach(function (r) {
       var ll = r.m.getLatLng();
       if (!bounds.contains(ll)) return;
       var pt = state.map.latLngToContainerPoint(ll);
@@ -1310,7 +1324,10 @@ window.GOTATLAS = (function () {
      renderizam sozinhas ao marcar ou ao mudar o capitulo */
   function buildPersonagens() {
     els.listaPers.innerHTML = "";
-    (state.data.routes || []).forEach(function (rt) {
+    (state.data.routes || []).slice().sort(function (a, b) {
+      return (a.character || a.id)
+        .localeCompare(b.character || b.id, "pt-BR");
+    }).forEach(function (rt) {
       var cor = corSegura(rt.color);
       var label = document.createElement("label");
       label.className = "pers-item";
@@ -1364,6 +1381,14 @@ window.GOTATLAS = (function () {
     return max;
   }
 
+  function codigoLivroDoCapitulo(c) {
+    var ls = livros();
+    for (var i = 0; i < ls.length; i++) {
+      if (ls[i].id === c.bookId) return ls[i].code || ls[i].id;
+    }
+    return c.bookId || "";
+  }
+
   function tituloCapitulo(i) {
     var caps = (state.data && state.data.chapters) || [];
     for (var k = 0; k < caps.length; k++) {
@@ -1374,6 +1399,12 @@ window.GOTATLAS = (function () {
       var t = typeof c.title === "string" ? c.title : "";
       var dois = t.indexOf(":");
       var curto = dois >= 0 ? t.slice(dois + 1).trim() : t.trim();
+      /* modo "todos": numero global + sigla do livro */
+      if (state.livroSel === "todos") {
+        var cod = codigoLivroDoCapitulo(c);
+        return "Cap. " + (i + 1) + " · " + (curto || ("Capítulo " + i)) +
+               (cod ? " (" + cod + ")" : "");
+      }
       if (typeof c.localIndex === "number" && curto) {
         return "Cap. " + (c.localIndex + 1) + " · " + curto;
       }
@@ -1402,10 +1433,31 @@ window.GOTATLAS = (function () {
     return ls.length ? ls[0] : null;
   }
 
-  /* limites navegaveis: o livro selecionado quando ha books[],
-     senao todo o conjunto declarado (comportamento legado) */
+  /* livro explicitamente escolhido no seletor (null se "todos" ou
+     se nunca houve escolha) */
+  function livroEscolhido() {
+    if (!state.livroSel || state.livroSel === "todos") return null;
+    var ls = livros();
+    for (var i = 0; i < ls.length; i++) {
+      if (ls[i].id === state.livroSel) return ls[i];
+    }
+    return null;
+  }
+
+  function livroSelectValor() {
+    if (state.livroSel === "todos") return "todos";
+    var lv = livroEscolhido() || livroAtivo();
+    return lv ? lv.id : "";
+  }
+
+  /* limites navegaveis: "todos" varre o conjunto inteiro; um livro
+     escolhido restringe ao seu intervalo; sem escolha, o livro do
+     capitulo corrente (comportamento legado) */
   function limitesCapitulo() {
-    var lv = livroAtivo();
+    if (state.livroSel === "todos") {
+      return { ini: CAP_MIN, fim: ultimoCapitulo() };
+    }
+    var lv = livroEscolhido() || livroAtivo();
     if (lv) return { ini: lv.startChapter, fim: lv.endChapter };
     return { ini: CAP_MIN, fim: ultimoCapitulo() };
   }
@@ -1417,7 +1469,8 @@ window.GOTATLAS = (function () {
     els.prox.disabled = !state.dataReady || state.chapter >= lim.fim;
   }
 
-  /* seletor de livro: visivel so quando o conjunto declara books[] */
+  /* seletor de livro: visivel so quando o conjunto declara books[];
+     primeira opcao "Todos os livros" varre os capitulos globais */
   function buildLivroSelect() {
     if (!els.livroSelect) return;
     var ls = livros();
@@ -1425,14 +1478,17 @@ window.GOTATLAS = (function () {
     var tem = ls.length > 0;
     els.livroSelect.hidden = !tem;
     if (!tem) return;
+    var todos = document.createElement("option");
+    todos.value = "todos";
+    todos.textContent = "Todos os livros";
+    els.livroSelect.appendChild(todos);
     ls.forEach(function (lv) {
       var o = document.createElement("option");
       o.value = lv.id;
       o.textContent = lv.title || lv.id;
       els.livroSelect.appendChild(o);
     });
-    var ativo = livroAtivo();
-    els.livroSelect.value = ativo ? ativo.id : "";
+    els.livroSelect.value = livroSelectValor();
   }
 
   /* reaplica os limites do livro ativo ao slider/dropdown e fixa o
@@ -1446,14 +1502,115 @@ window.GOTATLAS = (function () {
     els.slider.setAttribute("aria-valuemax", String(lim.fim));
     setChapter(state.chapter, silencioso);
     if (els.livroSelect) {
-      var ativo = livroAtivo();
-      els.livroSelect.value = ativo ? ativo.id : "";
+      els.livroSelect.value = livroSelectValor();
     }
+  }
+
+  /* ---------- regiao (navegacao por conjunto de pontos) ---------- */
+
+  function regioes() {
+    return (state.data && state.data.regions) || [];
+  }
+
+  function subregioes() {
+    return (state.data && state.data.subregions) || [];
+  }
+
+  /* agrupa por `group` declarado; sem group cai em "Outros".
+     cada regiao e seguida das suas sub-regioes recuadas
+     (valor "sub:<id>" para nao colidir com ids de regiao) */
+  function buildRegiaoSelect() {
+    if (!els.regiaoSelect) return;
+    var regs = regioes();
+    els.regiaoSelect.innerHTML = "";
+    els.regiaoSelect.hidden = !regs.length;
+    if (!regs.length) return;
+    var ph = document.createElement("option");
+    ph.value = "";
+    ph.textContent = "Ir para região…";
+    ph.disabled = true;
+    ph.selected = true;
+    els.regiaoSelect.appendChild(ph);
+    var subsPorRegiao = {};
+    subregioes().forEach(function (s) {
+      (subsPorRegiao[s.parent] = subsPorRegiao[s.parent] || [])
+        .push(s);
+    });
+    var grupos = { Westeros: [], Essos: [], Outros: [] };
+    regs.forEach(function (r) {
+      var g = r.group === "Westeros" || r.group === "Essos"
+        ? r.group : "Outros";
+      grupos[g].push(r);
+    });
+    ["Westeros", "Essos", "Outros"].forEach(function (g) {
+      if (!grupos[g].length) return;
+      var og = document.createElement("optgroup");
+      og.label = g;
+      grupos[g].forEach(function (r) {
+        var o = document.createElement("option");
+        o.value = r.id;
+        o.textContent = r.label || r.id;
+        og.appendChild(o);
+        (subsPorRegiao[r.id] || []).forEach(function (s) {
+          var os = document.createElement("option");
+          os.value = "sub:" + s.id;
+          os.textContent = "  · " + (s.label || s.id);
+          og.appendChild(os);
+        });
+      });
+      els.regiaoSelect.appendChild(og);
+    });
+  }
+
+  /* enquadra a caixa dos pontos da regiao; em desktop o painel lateral
+     flutuante cobre a esquerda, entao o padding empurra o enquadramento */
+  function irParaRegiao(id) {
+    var lats = [];
+    if (id.indexOf("sub:") === 0) {
+      var sid = id.slice(4), sub = null;
+      subregioes().forEach(function (s) { if (s.id === sid) sub = s; });
+      if (!sub || !sub.center || !sub.span) return;
+      lats.push(pointToLatLng(sub.center[0] - sub.span[0],
+                              sub.center[1] - sub.span[1]));
+      lats.push(pointToLatLng(sub.center[0] + sub.span[0],
+                              sub.center[1] + sub.span[1]));
+    } else {
+      var reg = null;
+      regioes().forEach(function (r) { if (r.id === id) reg = r; });
+      if (!reg || !Array.isArray(reg.pointIds)) return;
+      reg.pointIds.forEach(function (pid) {
+        var p = cpById(pid);
+        if (p) lats.push(pointToLatLng(p.x, p.y));
+      });
+    }
+    if (!lats.length) return;
+    if (lats.length === 1) {
+      /* regiao de um ponto so (Ilhas de Ferro, Ulthos): bounds
+         degenerado; centra num zoom em que o entorno fica visivel */
+      state.map.setView(lats[0], Math.max(state.map.getZoom(), 3));
+      return;
+    }
+    var pad = { topLeft: [40, 40], bottomRight: [40, 40] };
+    if (els.lateral &&
+        !els.lateral.classList.contains("lateral-fechada") &&
+        window.innerWidth > 700) {
+      pad.topLeft = [els.lateral.offsetWidth + 40, 40];
+    }
+    state.map.flyToBounds(L.latLngBounds(lats), {
+      paddingTopLeft: pad.topLeft,
+      paddingBottomRight: pad.bottomRight
+    });
   }
 
   /* troca de livro: um capitulo fora do escolhido salta apenas para
      o INICIO dele — nunca para o fim automaticamente */
   function definirLivro(id) {
+    if (id === "todos") {
+      state.livroSel = "todos";
+      aplicarLivro(false);
+      salvarEstado();
+      return;
+    }
     var ls = livros();
     var alvo = null;
     for (var i = 0; i < ls.length; i++) {
@@ -1461,10 +1618,10 @@ window.GOTATLAS = (function () {
     }
     if (!alvo) {
       /* id desconhecido: ressincroniza o select com o livro real */
-      var real = livroAtivo();
-      els.livroSelect.value = real ? real.id : "";
+      els.livroSelect.value = livroSelectValor();
       return;
     }
+    state.livroSel = alvo.id;
     if (state.chapter < alvo.startChapter ||
         state.chapter > alvo.endChapter) {
       state.chapter = alvo.startChapter;
@@ -1499,6 +1656,7 @@ window.GOTATLAS = (function () {
         cap: state.chapter,
         personagens: idsSelecionadas(),
         rotulos: state.labelsVisible ? 1 : 0,
+        livro: state.livroSel,
         busca: state.query,
         local: state.focusLocalId,
         locais: state.locVisible ? 1 : 0
@@ -1561,6 +1719,14 @@ window.GOTATLAS = (function () {
     if (s.rotulos === 1 || s.rotulos === 0) {
       state.labelsVisible = s.rotulos === 1;
     }
+    if (s.livro === "todos") {
+      state.livroSel = "todos";
+    } else if (typeof s.livro === "string") {
+      var lvs = livros();
+      for (var li = 0; li < lvs.length; li++) {
+        if (lvs[li].id === s.livro) { state.livroSel = s.livro; break; }
+      }
+    }
     if (s.locais === 1 || s.locais === 0) {
       state.locVisible = s.locais === 1;
     }
@@ -1578,8 +1744,7 @@ window.GOTATLAS = (function () {
     els.busca.value = state.query;
     els.slider.value = String(state.chapter);
     if (els.livroSelect) {
-      var livroSync = livroAtivo();
-      els.livroSelect.value = livroSync ? livroSync.id : "";
+      els.livroSelect.value = livroSelectValor();
     }
     els.capTitulo.textContent = tituloCapitulo(state.chapter);
     (state.data.routes || []).forEach(function (rt) {
@@ -1670,7 +1835,9 @@ window.GOTATLAS = (function () {
       ["livroSelect", "livro-select"],
       ["ant", "cap-ant"], ["prox", "cap-prox"],
       ["capTitulo", "cap-titulo"],
-      ["livroCompleto", "btn-livro-completo"]
+      ["livroCompleto", "btn-livro-completo"],
+      ["regiaoSelect", "regiao-select"],
+      ["lateral", "lateral"]
     ].forEach(function (par) { els[par[0]] = qs(par[1]); });
 
     els.locMostrar.addEventListener("change", function () {
@@ -1701,6 +1868,12 @@ window.GOTATLAS = (function () {
     if (els.livroSelect) {
       els.livroSelect.addEventListener("change", function () {
         definirLivro(els.livroSelect.value);
+      });
+    }
+    if (els.regiaoSelect) {
+      els.regiaoSelect.addEventListener("change", function () {
+        irParaRegiao(els.regiaoSelect.value);
+        els.regiaoSelect.value = "";
       });
     }
     els.ant.addEventListener("click", function () {
@@ -1779,6 +1952,7 @@ window.GOTATLAS = (function () {
         buildLivroSelect();
         buildLista();
         buildPersonagens();
+        buildRegiaoSelect();
         /* fragmento tem prioridade sobre armazenamento; nunca ativa tiles */
         var focoLocal = aplicarEstado(lerEstado());
         /* o livro ativo deriva do capitulo global restaurado: primeiro

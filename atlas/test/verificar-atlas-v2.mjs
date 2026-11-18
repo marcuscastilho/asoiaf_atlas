@@ -359,7 +359,7 @@ const browser = await chromium.launch();
   const page = await ctx.newPage();
   ligarColetores(page, "hashlocal");
   await fixarV2(page);
-  await page.route("**/o-mundo-conhecido-recorte-v1-preview.webp", async (r) => {
+  await page.route("**/o-mundo-conhecido-recorte-v2-preview.webp", async (r) => {
     await new Promise((res) => setTimeout(res, 1500));
     await r.continue();
   });
@@ -520,8 +520,8 @@ const mestres = requests.filter((u) => /\/mapas\/(jpeg|png|webp\/reduzidos)\//.t
 check("nenhum fetch de imagem mestre", mestres.length === 0,
   mestres.join(", ") || "ok");
 const reqTiles = requests.filter((u) => u.includes("/atlas/tiles/"));
-check("todos tiles do conjunto recorte-v1",
-  reqTiles.length === 0 || reqTiles.every((u) => u.includes("recorte-v1")),
+check("todos tiles do conjunto recorte-v2",
+  reqTiles.length === 0 || reqTiles.every((u) => u.includes("recorte-v2")),
   reqTiles.length + " requisicoes");
 const tilesRuins = tileResponses.filter((l) => !/ 200 /.test(l));
 check("todas respostas de tile HTTP 200", tilesRuins.length === 0,

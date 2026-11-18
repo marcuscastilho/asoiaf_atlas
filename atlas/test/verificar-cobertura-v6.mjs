@@ -141,7 +141,7 @@ function fixtureV6(comCobertura) {
   return {
     schemaVersion: 2, datasetId: "atlas-saga-v6",
     mapId: "o-mundo-conhecido",
-    tileSetId: "o-mundo-conhecido-recorte-v1",
+    tileSetId: "o-mundo-conhecido-recorte-v2",
     sourceSha256: SHA_REAL,
     coordinateSystem: "cropped-native-pixels",
     mapWidth: 21654, mapHeight: 14428,

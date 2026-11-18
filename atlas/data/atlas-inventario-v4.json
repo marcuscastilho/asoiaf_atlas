@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "datasetId": "atlas-saga-v4",
   "mapId": "o-mundo-conhecido",
-  "tileSetId": "o-mundo-conhecido-recorte-v1",
+  "tileSetId": "o-mundo-conhecido-recorte-v2",
   "sourceSha256": "deafeff759278a8fbf1fcdcced58c5b7cf18e21fb3edec26b968bd96b6076e3d",
   "coordinateSystem": "cropped-native-pixels",
   "mapWidth": 21654,
@@ -260,7 +260,7 @@
     {
       "id": "Twins",
       "originalKey": "Twins",
-      "label": "As G\u00eameas",
+      "label": "As Gêmeas",
       "english": "Twins",
       "x": 3535,
       "y": 5740,
@@ -335,7 +335,7 @@
     {
       "id": "Eyrie",
       "originalKey": "Eyrie",
-      "label": "Ninho da \u00c1guia",
+      "label": "Ninho da Águia",
       "english": "Eyrie",
       "x": 4595,
       "y": 6050,
@@ -485,7 +485,7 @@
     {
       "id": "Dragonstone",
       "originalKey": "Dragonstone",
-      "label": "Pedra do Drag\u00e3o",
+      "label": "Pedra do Dragão",
       "english": "Dragonstone",
       "x": 5175,
       "y": 6940,
@@ -1578,7 +1578,7 @@
     },
     {
       "id": "Bronzegate",
-      "label": "Portabr\u00f4nzea",
+      "label": "Portabrônzea",
       "english": "Bronzegate",
       "originalKey": "Bronzegate",
       "x": 4818,
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "Sunspear",
-      "label": "Lan\u00e7assolar",
+      "label": "Lançassolar",
       "english": "Sunspear",
       "originalKey": "Sunspear",
       "x": 5350,
@@ -2726,7 +2726,7 @@
     },
     {
       "id": "Lotus_Port",
-      "label": "Porto de L\u00f3tus",
+      "label": "Porto de Lótus",
       "english": "Lotus Port",
       "originalKey": "Lotus_Port",
       "x": 5866,
@@ -3121,7 +3121,7 @@
     },
     {
       "id": "scan-site-2540-6306",
-      "label": "Forte Desgra\u00e7a",
+      "label": "Forte Desgraça",
       "english": "",
       "x": 2540,
       "y": 6306,
@@ -3723,7 +3723,7 @@
     },
     {
       "id": "Flint%27s_Finger",
-      "label": "Dedos de S\u00edlex",
+      "label": "Dedos de Sílex",
       "english": "Flint's Finger",
       "x": 2474,
       "y": 5058,
@@ -3838,7 +3838,7 @@
     },
     {
       "id": "scan-site-2150-7546",
-      "label": "Pa\u00e7o de Codorniz",
+      "label": "Paço de Codorniz",
       "english": "Crakehall",
       "x": 2150,
       "y": 7546,
@@ -4226,7 +4226,7 @@
     },
     {
       "id": "scan-site-4906-5504",
-      "label": "\u00c1guafria",
+      "label": "Águafria",
       "english": "Coldwater Burn",
       "x": 4906,
       "y": 5504,
@@ -4270,7 +4270,7 @@
     },
     {
       "id": "scan-site-5256-5974",
-      "label": "\u00c2ncora Velha",
+      "label": "Âncora Velha",
       "english": "Old Anchor",
       "x": 5256,
       "y": 5974,
@@ -5031,7 +5031,7 @@
     },
     {
       "id": "scan-site-4734-5802",
-      "label": "Lar do Cora\u00e7\u00e3o",
+      "label": "Lar do Coração",
       "english": "Heart's Home",
       "x": 4734,
       "y": 5802,
@@ -5248,7 +5248,7 @@
     },
     {
       "id": "Greywater_Watch",
-      "label": "Atalaia da \u00c1gua Cinzenta",
+      "label": "Atalaia da Água Cinzenta",
       "english": "Greywater Watch",
       "x": 3488,
       "y": 5330,
@@ -5445,7 +5445,7 @@
     },
     {
       "id": "Torrhen%27s_Square",
-      "label": "Pra\u00e7a de Torrhen",
+      "label": "Praça de Torrhen",
       "english": "Torrhen's Square",
       "x": 3106,
       "y": 4070,
@@ -5608,7 +5608,7 @@
     },
     {
       "id": "Sisterton",
-      "label": "Vilirm\u00e3s",
+      "label": "Vilirmãs",
       "english": "Sisterton",
       "x": 4422,
       "y": 5142,
@@ -5683,7 +5683,7 @@
     },
     {
       "id": "scan-site-4590-7954",
-      "label": "Mataca\u00edda",
+      "label": "Matacaída",
       "english": "Fellwood",
       "x": 4590,
       "y": 7954,
@@ -6103,7 +6103,7 @@
     },
     {
       "id": "scan-site-2378-8638",
-      "label": "Fortaleza de \u00c1guas Claras",
+      "label": "Fortaleza de Águas Claras",
       "english": "Brightwater Keep",
       "x": 2378,
       "y": 8638,
@@ -7237,7 +7237,7 @@
     },
     {
       "id": "Elyria",
-      "label": "El\u00edria",
+      "label": "Elíria",
       "english": "Elyria",
       "x": 10008,
       "y": 9646,
@@ -7665,7 +7665,7 @@
     },
     {
       "id": "Last_Hearth",
-      "label": "\u00daltima Lareira",
+      "label": "Última Lareira",
       "english": "Last Hearth",
       "x": 4346,
       "y": 2904,
@@ -7696,7 +7696,7 @@
     },
     {
       "id": "Widow%27s_Watch",
-      "label": "Atalaia da Vi\u00fava",
+      "label": "Atalaia da Viúva",
       "english": "Widow's Watch",
       "x": 5270,
       "y": 4482,
@@ -7944,7 +7944,7 @@
       "index": 0,
       "bookId": "agot",
       "localIndex": 0,
-      "title": "A Guerra dos Tronos-0: Pr\u00f3logo",
+      "title": "A Guerra dos Tronos-0: Prólogo",
       "originalTitle": "AGOT-0: Prologue"
     },
     {
@@ -8455,497 +8455,497 @@
       "index": 73,
       "bookId": "acok",
       "localIndex": 0,
-      "title": "A F\u00faria dos Reis-0: Pr\u00f3logo",
+      "title": "A Fúria dos Reis-0: Prólogo",
       "originalTitle": "ACOK-0: Prologue"
     },
     {
       "index": 74,
       "bookId": "acok",
       "localIndex": 1,
-      "title": "A F\u00faria dos Reis-1: Arya I",
+      "title": "A Fúria dos Reis-1: Arya I",
       "originalTitle": "ACOK-1: Arya I"
     },
     {
       "index": 75,
       "bookId": "acok",
       "localIndex": 2,
-      "title": "A F\u00faria dos Reis-2: Sansa I",
+      "title": "A Fúria dos Reis-2: Sansa I",
       "originalTitle": "ACOK-2: Sansa I"
     },
     {
       "index": 76,
       "bookId": "acok",
       "localIndex": 3,
-      "title": "A F\u00faria dos Reis-3: Tyrion I",
+      "title": "A Fúria dos Reis-3: Tyrion I",
       "originalTitle": "ACOK-3: Tyrion I"
     },
     {
       "index": 77,
       "bookId": "acok",
       "localIndex": 4,
-      "title": "A F\u00faria dos Reis-4: Bran I",
+      "title": "A Fúria dos Reis-4: Bran I",
       "originalTitle": "ACOK-4: Bran I"
     },
     {
       "index": 78,
       "bookId": "acok",
       "localIndex": 5,
-      "title": "A F\u00faria dos Reis-5: Arya II",
+      "title": "A Fúria dos Reis-5: Arya II",
       "originalTitle": "ACOK-5: Arya II"
     },
     {
       "index": 79,
       "bookId": "acok",
       "localIndex": 6,
-      "title": "A F\u00faria dos Reis-6: Jon I",
+      "title": "A Fúria dos Reis-6: Jon I",
       "originalTitle": "ACOK-6: Jon I"
     },
     {
       "index": 80,
       "bookId": "acok",
       "localIndex": 7,
-      "title": "A F\u00faria dos Reis-7: Catelyn I",
+      "title": "A Fúria dos Reis-7: Catelyn I",
       "originalTitle": "ACOK-7: Catelyn I"
     },
     {
       "index": 81,
       "bookId": "acok",
       "localIndex": 8,
-      "title": "A F\u00faria dos Reis-8: Tyrion II",
+      "title": "A Fúria dos Reis-8: Tyrion II",
       "originalTitle": "ACOK-8: Tyrion II"
     },
     {
       "index": 82,
       "bookId": "acok",
       "localIndex": 9,
-      "title": "A F\u00faria dos Reis-9: Arya III",
+      "title": "A Fúria dos Reis-9: Arya III",
       "originalTitle": "ACOK-9: Arya III"
     },
     {
       "index": 83,
       "bookId": "acok",
       "localIndex": 10,
-      "title": "A F\u00faria dos Reis-10: Davos I",
+      "title": "A Fúria dos Reis-10: Davos I",
       "originalTitle": "ACOK-10: Davos I"
     },
     {
       "index": 84,
       "bookId": "acok",
       "localIndex": 11,
-      "title": "A F\u00faria dos Reis-11: Theon I",
+      "title": "A Fúria dos Reis-11: Theon I",
       "originalTitle": "ACOK-11: Theon I"
     },
     {
       "index": 85,
       "bookId": "acok",
       "localIndex": 12,
-      "title": "A F\u00faria dos Reis-12: Daenerys I",
+      "title": "A Fúria dos Reis-12: Daenerys I",
       "originalTitle": "ACOK-12: Daenerys I"
     },
     {
       "index": 86,
       "bookId": "acok",
       "localIndex": 13,
-      "title": "A F\u00faria dos Reis-13: Jon II",
+      "title": "A Fúria dos Reis-13: Jon II",
       "originalTitle": "ACOK-13: Jon II"
     },
     {
       "index": 87,
       "bookId": "acok",
       "localIndex": 14,
-      "title": "A F\u00faria dos Reis-14: Arya IV",
+      "title": "A Fúria dos Reis-14: Arya IV",
       "originalTitle": "ACOK-14: Arya IV"
     },
     {
       "index": 88,
       "bookId": "acok",
       "localIndex": 15,
-      "title": "A F\u00faria dos Reis-15: Tyrion III",
+      "title": "A Fúria dos Reis-15: Tyrion III",
       "originalTitle": "ACOK-15: Tyrion III"
     },
     {
       "index": 89,
       "bookId": "acok",
       "localIndex": 16,
-      "title": "A F\u00faria dos Reis-16: Bran II",
+      "title": "A Fúria dos Reis-16: Bran II",
       "originalTitle": "ACOK-16: Bran II"
     },
     {
       "index": 90,
       "bookId": "acok",
       "localIndex": 17,
-      "title": "A F\u00faria dos Reis-17: Tyrion IV",
+      "title": "A Fúria dos Reis-17: Tyrion IV",
       "originalTitle": "ACOK-17: Tyrion IV"
     },
     {
       "index": 91,
       "bookId": "acok",
       "localIndex": 18,
-      "title": "A F\u00faria dos Reis-18: Sansa II",
+      "title": "A Fúria dos Reis-18: Sansa II",
       "originalTitle": "ACOK-18: Sansa II"
     },
     {
       "index": 92,
       "bookId": "acok",
       "localIndex": 19,
-      "title": "A F\u00faria dos Reis-19: Arya V",
+      "title": "A Fúria dos Reis-19: Arya V",
       "originalTitle": "ACOK-19: Arya V"
     },
     {
       "index": 93,
       "bookId": "acok",
       "localIndex": 20,
-      "title": "A F\u00faria dos Reis-20: Tyrion V",
+      "title": "A Fúria dos Reis-20: Tyrion V",
       "originalTitle": "ACOK-20: Tyrion V"
     },
     {
       "index": 94,
       "bookId": "acok",
       "localIndex": 21,
-      "title": "A F\u00faria dos Reis-21: Bran III",
+      "title": "A Fúria dos Reis-21: Bran III",
       "originalTitle": "ACOK-21: Bran III"
     },
     {
       "index": 95,
       "bookId": "acok",
       "localIndex": 22,
-      "title": "A F\u00faria dos Reis-22: Catelyn II",
+      "title": "A Fúria dos Reis-22: Catelyn II",
       "originalTitle": "ACOK-22: Catelyn II"
     },
     {
       "index": 96,
       "bookId": "acok",
       "localIndex": 23,
-      "title": "A F\u00faria dos Reis-23: Jon III",
+      "title": "A Fúria dos Reis-23: Jon III",
       "originalTitle": "ACOK-23: Jon III"
     },
     {
       "index": 97,
       "bookId": "acok",
       "localIndex": 24,
-      "title": "A F\u00faria dos Reis-24: Theon II",
+      "title": "A Fúria dos Reis-24: Theon II",
       "originalTitle": "ACOK-24: Theon II"
     },
     {
       "index": 98,
       "bookId": "acok",
       "localIndex": 25,
-      "title": "A F\u00faria dos Reis-25: Tyrion VI",
+      "title": "A Fúria dos Reis-25: Tyrion VI",
       "originalTitle": "ACOK-25: Tyrion VI"
     },
     {
       "index": 99,
       "bookId": "acok",
       "localIndex": 26,
-      "title": "A F\u00faria dos Reis-26: Arya VI",
+      "title": "A Fúria dos Reis-26: Arya VI",
       "originalTitle": "ACOK-26: Arya VI"
     },
     {
       "index": 100,
       "bookId": "acok",
       "localIndex": 27,
-      "title": "A F\u00faria dos Reis-27: Daenerys II",
+      "title": "A Fúria dos Reis-27: Daenerys II",
       "originalTitle": "ACOK-27: Daenerys II"
     },
     {
       "index": 101,
       "bookId": "acok",
       "localIndex": 28,
-      "title": "A F\u00faria dos Reis-28: Bran IV",
+      "title": "A Fúria dos Reis-28: Bran IV",
       "originalTitle": "ACOK-28: Bran IV"
     },
     {
       "index": 102,
       "bookId": "acok",
       "localIndex": 29,
-      "title": "A F\u00faria dos Reis-29: Tyrion VII",
+      "title": "A Fúria dos Reis-29: Tyrion VII",
       "originalTitle": "ACOK-29: Tyrion VII"
     },
     {
       "index": 103,
       "bookId": "acok",
       "localIndex": 30,
-      "title": "A F\u00faria dos Reis-30: Arya VII",
+      "title": "A Fúria dos Reis-30: Arya VII",
       "originalTitle": "ACOK-30: Arya VII"
     },
     {
       "index": 104,
       "bookId": "acok",
       "localIndex": 31,
-      "title": "A F\u00faria dos Reis-31: Catelyn III",
+      "title": "A Fúria dos Reis-31: Catelyn III",
       "originalTitle": "ACOK-31: Catelyn III"
     },
     {
       "index": 105,
       "bookId": "acok",
       "localIndex": 32,
-      "title": "A F\u00faria dos Reis-32: Sansa III",
+      "title": "A Fúria dos Reis-32: Sansa III",
       "originalTitle": "ACOK-32: Sansa III"
     },
     {
       "index": 106,
       "bookId": "acok",
       "localIndex": 33,
-      "title": "A F\u00faria dos Reis-33: Catelyn IV",
+      "title": "A Fúria dos Reis-33: Catelyn IV",
       "originalTitle": "ACOK-33: Catelyn IV"
     },
     {
       "index": 107,
       "bookId": "acok",
       "localIndex": 34,
-      "title": "A F\u00faria dos Reis-34: Jon IV",
+      "title": "A Fúria dos Reis-34: Jon IV",
       "originalTitle": "ACOK-34: Jon IV"
     },
     {
       "index": 108,
       "bookId": "acok",
       "localIndex": 35,
-      "title": "A F\u00faria dos Reis-35: Bran V",
+      "title": "A Fúria dos Reis-35: Bran V",
       "originalTitle": "ACOK-35: Bran V"
     },
     {
       "index": 109,
       "bookId": "acok",
       "localIndex": 36,
-      "title": "A F\u00faria dos Reis-36: Tyrion VIII",
+      "title": "A Fúria dos Reis-36: Tyrion VIII",
       "originalTitle": "ACOK-36: Tyrion VIII"
     },
     {
       "index": 110,
       "bookId": "acok",
       "localIndex": 37,
-      "title": "A F\u00faria dos Reis-37: Theon III",
+      "title": "A Fúria dos Reis-37: Theon III",
       "originalTitle": "ACOK-37: Theon III"
     },
     {
       "index": 111,
       "bookId": "acok",
       "localIndex": 38,
-      "title": "A F\u00faria dos Reis-38: Arya VIII",
+      "title": "A Fúria dos Reis-38: Arya VIII",
       "originalTitle": "ACOK-38: Arya VIII"
     },
     {
       "index": 112,
       "bookId": "acok",
       "localIndex": 39,
-      "title": "A F\u00faria dos Reis-39: Catelyn V",
+      "title": "A Fúria dos Reis-39: Catelyn V",
       "originalTitle": "ACOK-39: Catelyn V"
     },
     {
       "index": 113,
       "bookId": "acok",
       "localIndex": 40,
-      "title": "A F\u00faria dos Reis-40: Daenerys III",
+      "title": "A Fúria dos Reis-40: Daenerys III",
       "originalTitle": "ACOK-40: Daenerys III"
     },
     {
       "index": 114,
       "bookId": "acok",
       "localIndex": 41,
-      "title": "A F\u00faria dos Reis-41: Tyrion IX",
+      "title": "A Fúria dos Reis-41: Tyrion IX",
       "originalTitle": "ACOK-41: Tyrion IX"
     },
     {
       "index": 115,
       "bookId": "acok",
       "localIndex": 42,
-      "title": "A F\u00faria dos Reis-42: Davos II",
+      "title": "A Fúria dos Reis-42: Davos II",
       "originalTitle": "ACOK-42: Davos II"
     },
     {
       "index": 116,
       "bookId": "acok",
       "localIndex": 43,
-      "title": "A F\u00faria dos Reis-43: Jon V",
+      "title": "A Fúria dos Reis-43: Jon V",
       "originalTitle": "ACOK-43: Jon V"
     },
     {
       "index": 117,
       "bookId": "acok",
       "localIndex": 44,
-      "title": "A F\u00faria dos Reis-44: Tyrion X",
+      "title": "A Fúria dos Reis-44: Tyrion X",
       "originalTitle": "ACOK-44: Tyrion X"
     },
     {
       "index": 118,
       "bookId": "acok",
       "localIndex": 45,
-      "title": "A F\u00faria dos Reis-45: Catelyn VI",
+      "title": "A Fúria dos Reis-45: Catelyn VI",
       "originalTitle": "ACOK-45: Catelyn VI"
     },
     {
       "index": 119,
       "bookId": "acok",
       "localIndex": 46,
-      "title": "A F\u00faria dos Reis-46: Bran VI",
+      "title": "A Fúria dos Reis-46: Bran VI",
       "originalTitle": "ACOK-46: Bran VI"
     },
     {
       "index": 120,
       "bookId": "acok",
       "localIndex": 47,
-      "title": "A F\u00faria dos Reis-47: Arya IX",
+      "title": "A Fúria dos Reis-47: Arya IX",
       "originalTitle": "ACOK-47: Arya IX"
     },
     {
       "index": 121,
       "bookId": "acok",
       "localIndex": 48,
-      "title": "A F\u00faria dos Reis-48: Daenerys IV",
+      "title": "A Fúria dos Reis-48: Daenerys IV",
       "originalTitle": "ACOK-48: Daenerys IV"
     },
     {
       "index": 122,
       "bookId": "acok",
       "localIndex": 49,
-      "title": "A F\u00faria dos Reis-49: Tyrion XI",
+      "title": "A Fúria dos Reis-49: Tyrion XI",
       "originalTitle": "ACOK-49: Tyrion XI"
     },
     {
       "index": 123,
       "bookId": "acok",
       "localIndex": 50,
-      "title": "A F\u00faria dos Reis-50: Theon IV",
+      "title": "A Fúria dos Reis-50: Theon IV",
       "originalTitle": "ACOK-50: Theon IV"
     },
     {
       "index": 124,
       "bookId": "acok",
       "localIndex": 51,
-      "title": "A F\u00faria dos Reis-51: Jon VI",
+      "title": "A Fúria dos Reis-51: Jon VI",
       "originalTitle": "ACOK-51: Jon VI"
     },
     {
       "index": 125,
       "bookId": "acok",
       "localIndex": 52,
-      "title": "A F\u00faria dos Reis-52: Sansa IV",
+      "title": "A Fúria dos Reis-52: Sansa IV",
       "originalTitle": "ACOK-52: Sansa IV"
     },
     {
       "index": 126,
       "bookId": "acok",
       "localIndex": 53,
-      "title": "A F\u00faria dos Reis-53: Jon VII",
+      "title": "A Fúria dos Reis-53: Jon VII",
       "originalTitle": "ACOK-53: Jon VII"
     },
     {
       "index": 127,
       "bookId": "acok",
       "localIndex": 54,
-      "title": "A F\u00faria dos Reis-54: Tyrion XII",
+      "title": "A Fúria dos Reis-54: Tyrion XII",
       "originalTitle": "ACOK-54: Tyrion XII"
     },
     {
       "index": 128,
       "bookId": "acok",
       "localIndex": 55,
-      "title": "A F\u00faria dos Reis-55: Catelyn VII",
+      "title": "A Fúria dos Reis-55: Catelyn VII",
       "originalTitle": "ACOK-55: Catelyn VII"
     },
     {
       "index": 129,
       "bookId": "acok",
       "localIndex": 56,
-      "title": "A F\u00faria dos Reis-56: Theon V",
+      "title": "A Fúria dos Reis-56: Theon V",
       "originalTitle": "ACOK-56: Theon V"
     },
     {
       "index": 130,
       "bookId": "acok",
       "localIndex": 57,
-      "title": "A F\u00faria dos Reis-57: Sansa V",
+      "title": "A Fúria dos Reis-57: Sansa V",
       "originalTitle": "ACOK-57: Sansa V"
     },
     {
       "index": 131,
       "bookId": "acok",
       "localIndex": 58,
-      "title": "A F\u00faria dos Reis-58: Davos III",
+      "title": "A Fúria dos Reis-58: Davos III",
       "originalTitle": "ACOK-58: Davos III"
     },
     {
       "index": 132,
       "bookId": "acok",
       "localIndex": 59,
-      "title": "A F\u00faria dos Reis-59: Tyrion XIII",
+      "title": "A Fúria dos Reis-59: Tyrion XIII",
       "originalTitle": "ACOK-59: Tyrion XIII"
     },
     {
       "index": 133,
       "bookId": "acok",
       "localIndex": 60,
-      "title": "A F\u00faria dos Reis-60: Sansa VI",
+      "title": "A Fúria dos Reis-60: Sansa VI",
       "originalTitle": "ACOK-60: Sansa VI"
     },
     {
       "index": 134,
       "bookId": "acok",
       "localIndex": 61,
-      "title": "A F\u00faria dos Reis-61: Tyrion XIV",
+      "title": "A Fúria dos Reis-61: Tyrion XIV",
       "originalTitle": "ACOK-61: Tyrion XIV"
     },
     {
       "index": 135,
       "bookId": "acok",
       "localIndex": 62,
-      "title": "A F\u00faria dos Reis-62: Sansa VII",
+      "title": "A Fúria dos Reis-62: Sansa VII",
       "originalTitle": "ACOK-62: Sansa VII"
     },
     {
       "index": 136,
       "bookId": "acok",
       "localIndex": 63,
-      "title": "A F\u00faria dos Reis-63: Daenerys V",
+      "title": "A Fúria dos Reis-63: Daenerys V",
       "originalTitle": "ACOK-63: Daenerys V"
     },
     {
       "index": 137,
       "bookId": "acok",
       "localIndex": 64,
-      "title": "A F\u00faria dos Reis-64: Arya X",
+      "title": "A Fúria dos Reis-64: Arya X",
       "originalTitle": "ACOK-64: Arya X"
     },
     {
       "index": 138,
       "bookId": "acok",
       "localIndex": 65,
-      "title": "A F\u00faria dos Reis-65: Sansa VIII",
+      "title": "A Fúria dos Reis-65: Sansa VIII",
       "originalTitle": "ACOK-65: Sansa VIII"
     },
     {
       "index": 139,
       "bookId": "acok",
       "localIndex": 66,
-      "title": "A F\u00faria dos Reis-66: Theon VI",
+      "title": "A Fúria dos Reis-66: Theon VI",
       "originalTitle": "ACOK-66: Theon VI"
     },
     {
       "index": 140,
       "bookId": "acok",
       "localIndex": 67,
-      "title": "A F\u00faria dos Reis-67: Tyrion XV",
+      "title": "A Fúria dos Reis-67: Tyrion XV",
       "originalTitle": "ACOK-67: Tyrion XV"
     },
     {
       "index": 141,
       "bookId": "acok",
       "localIndex": 68,
-      "title": "A F\u00faria dos Reis-68: Jon VIII",
+      "title": "A Fúria dos Reis-68: Jon VIII",
       "originalTitle": "ACOK-68: Jon VIII"
     },
     {
       "index": 142,
       "bookId": "acok",
       "localIndex": 69,
-      "title": "A F\u00faria dos Reis-69: Bran VII",
+      "title": "A Fúria dos Reis-69: Bran VII",
       "originalTitle": "ACOK-69: Bran VII"
     },
     {
       "index": 143,
       "bookId": "asos",
       "localIndex": 0,
-      "title": "A Tormenta de Espadas-0: Pr\u00f3logo",
+      "title": "A Tormenta de Espadas-0: Prólogo",
       "originalTitle": "ASOS-0: Prologue"
     },
     {
@@ -9512,14 +9512,14 @@
       "index": 224,
       "bookId": "asos",
       "localIndex": 81,
-      "title": "A Tormenta de Espadas-81: Ep\u00edlogo",
+      "title": "A Tormenta de Espadas-81: Epílogo",
       "originalTitle": "ASOS-81: Epilogue"
     },
     {
       "index": 225,
       "bookId": "affc",
       "localIndex": 0,
-      "title": "O Festim dos Corvos-0: Pr\u00f3logo",
+      "title": "O Festim dos Corvos-0: Prólogo",
       "originalTitle": "AFFC-0: Prologue"
     },
     {
@@ -9533,7 +9533,7 @@
       "index": 227,
       "bookId": "affc",
       "localIndex": 2,
-      "title": "O Festim dos Corvos-2: O Capit\u00e3o dos Guardas",
+      "title": "O Festim dos Corvos-2: O Capitão dos Guardas",
       "originalTitle": "AFFC-2: The Captain Of Guards"
     },
     {
@@ -9645,7 +9645,7 @@
       "index": 243,
       "bookId": "affc",
       "localIndex": 18,
-      "title": "O Festim dos Corvos-18: O Capit\u00e3o de Ferro",
+      "title": "O Festim dos Corvos-18: O Capitão de Ferro",
       "originalTitle": "AFFC-18: The Iron Captain"
     },
     {
@@ -9841,511 +9841,511 @@
       "index": 271,
       "bookId": "adwd",
       "localIndex": 0,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-0: Pr\u00f3logo",
+      "title": "A Dança dos Dragões-0: Prólogo",
       "originalTitle": "ADWD-0: Prologue"
     },
     {
       "index": 272,
       "bookId": "adwd",
       "localIndex": 1,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-1: Tyrion I",
+      "title": "A Dança dos Dragões-1: Tyrion I",
       "originalTitle": "ADWD-1: Tyrion I"
     },
     {
       "index": 273,
       "bookId": "adwd",
       "localIndex": 2,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-2: Daenerys I",
+      "title": "A Dança dos Dragões-2: Daenerys I",
       "originalTitle": "ADWD-2: Daenerys I"
     },
     {
       "index": 274,
       "bookId": "adwd",
       "localIndex": 3,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-3: Jon I",
+      "title": "A Dança dos Dragões-3: Jon I",
       "originalTitle": "ADWD-3: Jon I"
     },
     {
       "index": 275,
       "bookId": "adwd",
       "localIndex": 4,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-4: Bran I",
+      "title": "A Dança dos Dragões-4: Bran I",
       "originalTitle": "ADWD-4: Bran I"
     },
     {
       "index": 276,
       "bookId": "adwd",
       "localIndex": 5,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-5: Tyrion II",
+      "title": "A Dança dos Dragões-5: Tyrion II",
       "originalTitle": "ADWD-5: Tyrion II"
     },
     {
       "index": 277,
       "bookId": "adwd",
       "localIndex": 6,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-6: O Homem do Mercador",
+      "title": "A Dança dos Dragões-6: O Homem do Mercador",
       "originalTitle": "ADWD-6: The Merchant's Man"
     },
     {
       "index": 278,
       "bookId": "adwd",
       "localIndex": 7,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-7: Jon II",
+      "title": "A Dança dos Dragões-7: Jon II",
       "originalTitle": "ADWD-7: Jon II"
     },
     {
       "index": 279,
       "bookId": "adwd",
       "localIndex": 8,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-8: Tyrion III",
+      "title": "A Dança dos Dragões-8: Tyrion III",
       "originalTitle": "ADWD-8: Tyrion III"
     },
     {
       "index": 280,
       "bookId": "adwd",
       "localIndex": 9,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-9: Davos I",
+      "title": "A Dança dos Dragões-9: Davos I",
       "originalTitle": "ADWD-9: Davos I"
     },
     {
       "index": 281,
       "bookId": "adwd",
       "localIndex": 10,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-10: Jon III",
+      "title": "A Dança dos Dragões-10: Jon III",
       "originalTitle": "ADWD-10: Jon III"
     },
     {
       "index": 282,
       "bookId": "adwd",
       "localIndex": 11,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-11: Daenerys II",
+      "title": "A Dança dos Dragões-11: Daenerys II",
       "originalTitle": "ADWD-11: Daenerys II"
     },
     {
       "index": 283,
       "bookId": "adwd",
       "localIndex": 12,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-12: Fedor I",
+      "title": "A Dança dos Dragões-12: Fedor I",
       "originalTitle": "ADWD-12: Reek I"
     },
     {
       "index": 284,
       "bookId": "adwd",
       "localIndex": 13,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-13: Bran II",
+      "title": "A Dança dos Dragões-13: Bran II",
       "originalTitle": "ADWD-13: Bran II"
     },
     {
       "index": 285,
       "bookId": "adwd",
       "localIndex": 14,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-14: Tyrion IV",
+      "title": "A Dança dos Dragões-14: Tyrion IV",
       "originalTitle": "ADWD-14: Tyrion IV"
     },
     {
       "index": 286,
       "bookId": "adwd",
       "localIndex": 15,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-15: Davos II",
+      "title": "A Dança dos Dragões-15: Davos II",
       "originalTitle": "ADWD-15: Davos II"
     },
     {
       "index": 287,
       "bookId": "adwd",
       "localIndex": 16,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-16: Daenerys III",
+      "title": "A Dança dos Dragões-16: Daenerys III",
       "originalTitle": "ADWD-16: Daenerys III"
     },
     {
       "index": 288,
       "bookId": "adwd",
       "localIndex": 17,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-17: Jon IV",
+      "title": "A Dança dos Dragões-17: Jon IV",
       "originalTitle": "ADWD-17: Jon IV"
     },
     {
       "index": 289,
       "bookId": "adwd",
       "localIndex": 18,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-18: Tyrion V",
+      "title": "A Dança dos Dragões-18: Tyrion V",
       "originalTitle": "ADWD-18: Tyrion V"
     },
     {
       "index": 290,
       "bookId": "adwd",
       "localIndex": 19,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-19: Davos III",
+      "title": "A Dança dos Dragões-19: Davos III",
       "originalTitle": "ADWD-19: Davos III"
     },
     {
       "index": 291,
       "bookId": "adwd",
       "localIndex": 20,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-20: Fedor II",
+      "title": "A Dança dos Dragões-20: Fedor II",
       "originalTitle": "ADWD-20: Reek II"
     },
     {
       "index": 292,
       "bookId": "adwd",
       "localIndex": 21,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-21: Jon V",
+      "title": "A Dança dos Dragões-21: Jon V",
       "originalTitle": "ADWD-21: Jon V"
     },
     {
       "index": 293,
       "bookId": "adwd",
       "localIndex": 22,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-22: Tyrion VI",
+      "title": "A Dança dos Dragões-22: Tyrion VI",
       "originalTitle": "ADWD-22: Tyrion VI"
     },
     {
       "index": 294,
       "bookId": "adwd",
       "localIndex": 23,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-23: Daenerys IV",
+      "title": "A Dança dos Dragões-23: Daenerys IV",
       "originalTitle": "ADWD-23: Daenerys IV"
     },
     {
       "index": 295,
       "bookId": "adwd",
       "localIndex": 24,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-24: O Senhor Perdido",
+      "title": "A Dança dos Dragões-24: O Senhor Perdido",
       "originalTitle": "ADWD-24: The Lost Lord"
     },
     {
       "index": 296,
       "bookId": "adwd",
       "localIndex": 25,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-25: O Soprado pelo Vento",
+      "title": "A Dança dos Dragões-25: O Soprado pelo Vento",
       "originalTitle": "ADWD-25: The Windblown"
     },
     {
       "index": 297,
       "bookId": "adwd",
       "localIndex": 26,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-26: A Noiva Rebelde",
+      "title": "A Dança dos Dragões-26: A Noiva Rebelde",
       "originalTitle": "ADWD-26: The Wayward Bride"
     },
     {
       "index": 298,
       "bookId": "adwd",
       "localIndex": 27,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-27: Tyrion VII",
+      "title": "A Dança dos Dragões-27: Tyrion VII",
       "originalTitle": "ADWD-27: Tyrion VII"
     },
     {
       "index": 299,
       "bookId": "adwd",
       "localIndex": 28,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-28: Jon VI",
+      "title": "A Dança dos Dragões-28: Jon VI",
       "originalTitle": "ADWD-28: Jon VI"
     },
     {
       "index": 300,
       "bookId": "adwd",
       "localIndex": 29,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-29: Davos IV",
+      "title": "A Dança dos Dragões-29: Davos IV",
       "originalTitle": "ADWD-29: Davos IV"
     },
     {
       "index": 301,
       "bookId": "adwd",
       "localIndex": 30,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-30: Daenerys V",
+      "title": "A Dança dos Dragões-30: Daenerys V",
       "originalTitle": "ADWD-30: Daenerys V"
     },
     {
       "index": 302,
       "bookId": "adwd",
       "localIndex": 31,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-31: Melisandre I",
+      "title": "A Dança dos Dragões-31: Melisandre I",
       "originalTitle": "ADWD-31: Melisandre I"
     },
     {
       "index": 303,
       "bookId": "adwd",
       "localIndex": 32,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-32: Fedor III",
+      "title": "A Dança dos Dragões-32: Fedor III",
       "originalTitle": "ADWD-32: Reek III"
     },
     {
       "index": 304,
       "bookId": "adwd",
       "localIndex": 33,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-33: Tyrion VIII",
+      "title": "A Dança dos Dragões-33: Tyrion VIII",
       "originalTitle": "ADWD-33: Tyrion VIII"
     },
     {
       "index": 305,
       "bookId": "adwd",
       "localIndex": 34,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-34: Bran III",
+      "title": "A Dança dos Dragões-34: Bran III",
       "originalTitle": "ADWD-34: Bran III"
     },
     {
       "index": 306,
       "bookId": "adwd",
       "localIndex": 35,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-35: Jon VII",
+      "title": "A Dança dos Dragões-35: Jon VII",
       "originalTitle": "ADWD-35: Jon VII"
     },
     {
       "index": 307,
       "bookId": "adwd",
       "localIndex": 36,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-36: Daenerys VI",
+      "title": "A Dança dos Dragões-36: Daenerys VI",
       "originalTitle": "ADWD-36: Daenerys VI"
     },
     {
       "index": 308,
       "bookId": "adwd",
       "localIndex": 37,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-37: O Pr\u00edncipe de Winterfell",
+      "title": "A Dança dos Dragões-37: O Príncipe de Winterfell",
       "originalTitle": "ADWD-37: Prince of Winterfell"
     },
     {
       "index": 309,
       "bookId": "adwd",
       "localIndex": 38,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-38: O Sentinela",
+      "title": "A Dança dos Dragões-38: O Sentinela",
       "originalTitle": "ADWD-38: The Watcher"
     },
     {
       "index": 310,
       "bookId": "adwd",
       "localIndex": 39,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-39: Jon VIII",
+      "title": "A Dança dos Dragões-39: Jon VIII",
       "originalTitle": "ADWD-39: Jon VIII"
     },
     {
       "index": 311,
       "bookId": "adwd",
       "localIndex": 40,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-40: Tyrion IX",
+      "title": "A Dança dos Dragões-40: Tyrion IX",
       "originalTitle": "ADWD-40: Tyrion IX"
     },
     {
       "index": 312,
       "bookId": "adwd",
       "localIndex": 41,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-41: O Vira-Casaca",
+      "title": "A Dança dos Dragões-41: O Vira-Casaca",
       "originalTitle": "ADWD-41: The Turncloak"
     },
     {
       "index": 313,
       "bookId": "adwd",
       "localIndex": 42,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-42: O Pr\u00eamio do Rei",
+      "title": "A Dança dos Dragões-42: O Prêmio do Rei",
       "originalTitle": "ADWD-42: The King's Prize"
     },
     {
       "index": 314,
       "bookId": "adwd",
       "localIndex": 43,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-43: Daenerys VII",
+      "title": "A Dança dos Dragões-43: Daenerys VII",
       "originalTitle": "ADWD-43: Daenerys VII"
     },
     {
       "index": 315,
       "bookId": "adwd",
       "localIndex": 44,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-44: Jon IX",
+      "title": "A Dança dos Dragões-44: Jon IX",
       "originalTitle": "ADWD-44: Jon IX"
     },
     {
       "index": 316,
       "bookId": "adwd",
       "localIndex": 45,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-45: A Garota Cega",
+      "title": "A Dança dos Dragões-45: A Garota Cega",
       "originalTitle": "ADWD-45: The Blind Girl"
     },
     {
       "index": 317,
       "bookId": "adwd",
       "localIndex": 46,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-46: Um Fantasma em Winterfell",
+      "title": "A Dança dos Dragões-46: Um Fantasma em Winterfell",
       "originalTitle": "ADWD-46: A Ghost In Winterfell"
     },
     {
       "index": 318,
       "bookId": "adwd",
       "localIndex": 47,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-47: Tyrion X",
+      "title": "A Dança dos Dragões-47: Tyrion X",
       "originalTitle": "ADWD-47: Tyrion X"
     },
     {
       "index": 319,
       "bookId": "adwd",
       "localIndex": 48,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-48: Jaime I",
+      "title": "A Dança dos Dragões-48: Jaime I",
       "originalTitle": "ADWD-48: Jaime I"
     },
     {
       "index": 320,
       "bookId": "adwd",
       "localIndex": 49,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-49: Jon X",
+      "title": "A Dança dos Dragões-49: Jon X",
       "originalTitle": "ADWD-49: Jon X"
     },
     {
       "index": 321,
       "bookId": "adwd",
       "localIndex": 50,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-50: Daenerys VIII",
+      "title": "A Dança dos Dragões-50: Daenerys VIII",
       "originalTitle": "ADWD-50: Daenerys VIII"
     },
     {
       "index": 322,
       "bookId": "adwd",
       "localIndex": 51,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-51: Theon I",
+      "title": "A Dança dos Dragões-51: Theon I",
       "originalTitle": "ADWD-51: Theon I"
     },
     {
       "index": 323,
       "bookId": "adwd",
       "localIndex": 52,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-52: Daenerys IX",
+      "title": "A Dança dos Dragões-52: Daenerys IX",
       "originalTitle": "ADWD-52: Daenerys IX"
     },
     {
       "index": 324,
       "bookId": "adwd",
       "localIndex": 53,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-53: Jon XI",
+      "title": "A Dança dos Dragões-53: Jon XI",
       "originalTitle": "ADWD-53: Jon XI"
     },
     {
       "index": 325,
       "bookId": "adwd",
       "localIndex": 54,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-54: Cersei I",
+      "title": "A Dança dos Dragões-54: Cersei I",
       "originalTitle": "ADWD-54: Cersei I"
     },
     {
       "index": 326,
       "bookId": "adwd",
       "localIndex": 55,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-55: O Guarda da Rainha",
+      "title": "A Dança dos Dragões-55: O Guarda da Rainha",
       "originalTitle": "ADWD-55: The Queensguard"
     },
     {
       "index": 327,
       "bookId": "adwd",
       "localIndex": 56,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-56: O Pretendente de Ferro",
+      "title": "A Dança dos Dragões-56: O Pretendente de Ferro",
       "originalTitle": "ADWD-56: The Iron Suitor"
     },
     {
       "index": 328,
       "bookId": "adwd",
       "localIndex": 57,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-57: Tyrion XI",
+      "title": "A Dança dos Dragões-57: Tyrion XI",
       "originalTitle": "ADWD-57: Tyrion XI"
     },
     {
       "index": 329,
       "bookId": "adwd",
       "localIndex": 58,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-58: Jon XII",
+      "title": "A Dança dos Dragões-58: Jon XII",
       "originalTitle": "ADWD-58: Jon XII"
     },
     {
       "index": 330,
       "bookId": "adwd",
       "localIndex": 59,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-59: O Cavaleiro Descartado",
+      "title": "A Dança dos Dragões-59: O Cavaleiro Descartado",
       "originalTitle": "ADWD-59: Discarded Knight"
     },
     {
       "index": 331,
       "bookId": "adwd",
       "localIndex": 60,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-60: O Pretendente Rejeitado",
+      "title": "A Dança dos Dragões-60: O Pretendente Rejeitado",
       "originalTitle": "ADWD-60: The Spurned Suitor"
     },
     {
       "index": 332,
       "bookId": "adwd",
       "localIndex": 61,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-61: O Grifo Renascido",
+      "title": "A Dança dos Dragões-61: O Grifo Renascido",
       "originalTitle": "ADWD-61: The Griffin Reborn"
     },
     {
       "index": 333,
       "bookId": "adwd",
       "localIndex": 62,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-62: O Sacrif\u00edcio",
+      "title": "A Dança dos Dragões-62: O Sacrifício",
       "originalTitle": "ADWD-62: The Sacrifice"
     },
     {
       "index": 334,
       "bookId": "adwd",
       "localIndex": 63,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-63: Victarion I",
+      "title": "A Dança dos Dragões-63: Victarion I",
       "originalTitle": "ADWD-63: Victarion I"
     },
     {
       "index": 335,
       "bookId": "adwd",
       "localIndex": 64,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-64: A Garotinha Feia",
+      "title": "A Dança dos Dragões-64: A Garotinha Feia",
       "originalTitle": "ADWD-64: The Ugly Little Girl"
     },
     {
       "index": 336,
       "bookId": "adwd",
       "localIndex": 65,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-65: Cersei II",
+      "title": "A Dança dos Dragões-65: Cersei II",
       "originalTitle": "ADWD-65: Cersei II"
     },
     {
       "index": 337,
       "bookId": "adwd",
       "localIndex": 66,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-66: Tyrion XII",
+      "title": "A Dança dos Dragões-66: Tyrion XII",
       "originalTitle": "ADWD-66: Tyrion XII"
     },
     {
       "index": 338,
       "bookId": "adwd",
       "localIndex": 67,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-67: O Derrubador de Reis",
+      "title": "A Dança dos Dragões-67: O Derrubador de Reis",
       "originalTitle": "ADWD-67: The Kingbreaker"
     },
     {
       "index": 339,
       "bookId": "adwd",
       "localIndex": 68,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-68: O Domador de Drag\u00f5es",
+      "title": "A Dança dos Dragões-68: O Domador de Dragões",
       "originalTitle": "ADWD-68: The Dragontamer"
     },
     {
       "index": 340,
       "bookId": "adwd",
       "localIndex": 69,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-69: Jon XIII",
+      "title": "A Dança dos Dragões-69: Jon XIII",
       "originalTitle": "ADWD-69: Jon XIII"
     },
     {
       "index": 341,
       "bookId": "adwd",
       "localIndex": 70,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-70: A M\u00e3o da Rainha",
+      "title": "A Dança dos Dragões-70: A Mão da Rainha",
       "originalTitle": "ADWD-70: The Queen's Hand"
     },
     {
       "index": 342,
       "bookId": "adwd",
       "localIndex": 71,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-71: Daenerys X",
+      "title": "A Dança dos Dragões-71: Daenerys X",
       "originalTitle": "ADWD-71: Daenerys X"
     },
     {
       "index": 343,
       "bookId": "adwd",
       "localIndex": 72,
-      "title": "A Dan\u00e7a dos Drag\u00f5es-72: Ep\u00edlogo",
+      "title": "A Dança dos Dragões-72: Epílogo",
       "originalTitle": "ADWD-72: Epilogue"
     }
   ],
@@ -39740,7 +39740,7 @@
     {
       "id": "acok",
       "code": "ACOK",
-      "title": "A F\u00faria dos Reis",
+      "title": "A Fúria dos Reis",
       "startChapter": 73,
       "endChapter": 142
     },
@@ -39761,7 +39761,7 @@
     {
       "id": "adwd",
       "code": "ADWD",
-      "title": "A Dan\u00e7a dos Drag\u00f5es",
+      "title": "A Dança dos Dragões",
       "startChapter": 271,
       "endChapter": 343
     }

@@ -1,0 +1,1089 @@
+[
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6212,
+   1797
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3948,
+   2386
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo proprio; apenas glifos existentes na Muralha"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6708,
+   1752
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4010,
+   2387
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo proprio; apenas glifos existentes na Muralha"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6947,
+   1524
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4069,
+   2402
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo proprio; apenas glifos existentes na Muralha"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7508,
+   1657
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4422,
+   2437
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo proprio; apenas glifos existentes na Muralha"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6434,
+   8585
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3846,
+   6343
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "POI do portal sem glifo impresso"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5705,
+   8921
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3508,
+   6543
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "POI do portal; Coração Alto e rotulo de colina sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6246,
+   8920
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3756,
+   6564
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo na posicao projetada"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3761,
+   11791
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2411,
+   8246
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre rotulo insular; sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   8182,
+   13401
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4933,
+   9422
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre mar/ilha; sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6195,
+   969
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3935,
+   2025
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "marcador circular de marco; ponto existente proximo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6987,
+   1668
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4379,
+   2471
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "nao impresso; projecao caiu sobre o glifo de Brancarbor (ponto existente)"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4839,
+   3305
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2974,
+   3241
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "glifo existente (Bosque Profundo)"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6002,
+   3447
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3572,
+   3549
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7293,
+   4342
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4383,
+   4014
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3127,
+   4437
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2023,
+   3981
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "regiao costeira, nao localidade"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7293,
+   4342
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4312,
+   3861
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "pessoa, nao localidade"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   8730,
+   6837
+  ],
+  "printedName": null,
+  "projectedXY": [
+   5464,
+   5515
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6936,
+   7949
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4103,
+   6226
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3917,
+   7823
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2289,
+   5953
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo na projecao"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3499,
+   7603
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2252,
+   5978
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4162,
+   7729
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2681,
+   5999
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo na projecao"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3499,
+   7603
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2167,
+   6018
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5733,
+   7376
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3375,
+   5666
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "glifo As Gemeas existente"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5833,
+   7873
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3473,
+   6058
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "glifo Pedravelhas existente"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5876,
+   8353
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3707,
+   6479
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "triangulo e o proprio simbolo da Estalagem do Ajoelhado"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6246,
+   8920
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3806,
+   6580
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Harrenhal"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6598,
+   8901
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3906,
+   6732
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Harrenhal"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5331,
+   9128
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3155,
+   6682
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Donzelarrosa"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6629,
+   9357
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3971,
+   6971
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6629,
+   9357
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4114,
+   6887
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4425,
+   8768
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2786,
+   6429
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Despenhadeiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4311,
+   8939
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2679,
+   6540
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Cinzamarca"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4247,
+   9270
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2493,
+   6979
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Campossorgo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4223,
+   10162
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2668,
+   7294
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Campo de Milho"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   8558,
+   8873
+  ],
+  "printedName": null,
+  "projectedXY": [
+   5187,
+   6589
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   8558,
+   8873
+  ],
+  "printedName": null,
+  "projectedXY": [
+   5297,
+   6712
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7155,
+   9349
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4263,
+   7018
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo de Hastes"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6927,
+   9768
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4287,
+   7136
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6251,
+   11044
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4018,
+   7979
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "glifo Vale d’Erva existente"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4606,
+   12213
+  ],
+  "printedName": "Monte Chifre",
+  "projectedXY": [
+   2933,
+   8672
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "new-point",
+  "reason": "",
+  "kind": "castle"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4189,
+   12763
+  ],
+  "printedName": "Terraltas",
+  "projectedXY": [
+   2777,
+   9047
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "new-point",
+  "reason": "",
+  "kind": "castle"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   8708,
+   11174
+  ],
+  "printedName": null,
+  "projectedXY": [
+   5234,
+   7836
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo do Solar do Entardecer"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7092,
+   10720
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4266,
+   7874
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo claro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   7600,
+   11827
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4549,
+   8222
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu sobre glifo do Ninho de Corvo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6266,
+   12014
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3895,
+   8357
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6942,
+   12119
+  ],
+  "printedName": null,
+  "projectedXY": [
+   4134,
+   8472
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": ""
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   13108,
+   11898
+  ],
+  "printedName": null,
+  "projectedXY": [
+   7986,
+   8502
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "glifo Sofrimentos existente"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   8113,
+   9983
+  ],
+  "printedName": null,
+  "projectedXY": [
+   13750,
+   8003
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "sem glifo"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   10570,
+   15069
+  ],
+  "printedName": null,
+  "projectedXY": [
+   13333,
+   10923
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao caiu no mar"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   5098,
+   17908
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3204,
+   11978
+  ],
+  "matchedPointId": null,
+  "distance": null,
+  "decision": "excluded",
+  "reason": "projecao portal imprecisa; glifo real e scan-site-v4-828 (renomeado)"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   4682,
+   2472
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2870,
+   2880
+  ],
+  "matchedPointId": "scan-site-2870-2880",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3115,
+   13772
+  ],
+  "printedName": null,
+  "projectedXY": [
+   2058,
+   9636
+  ],
+  "matchedPointId": "scan-site-2058-9636",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3115,
+   13772
+  ],
+  "printedName": null,
+  "projectedXY": [
+   1990,
+   9564
+  ],
+  "matchedPointId": "scan-site-1990-9564",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   3767,
+   12208
+  ],
+  "printedName": null,
+  "projectedXY": [
+   9392,
+   9288
+  ],
+  "matchedPointId": "scan-site-v4-550",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   3186,
+   12229
+  ],
+  "printedName": null,
+  "projectedXY": [
+   8886,
+   9430
+  ],
+  "matchedPointId": "scan-site-v4-592",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   3115,
+   13772
+  ],
+  "printedName": null,
+  "projectedXY": [
+   1906,
+   9474
+  ],
+  "matchedPointId": "scan-site-v4-606",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   2731,
+   12533
+  ],
+  "printedName": null,
+  "projectedXY": [
+   8270,
+   9710
+  ],
+  "matchedPointId": "scan-site-v4-649",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   3921,
+   13728
+  ],
+  "printedName": null,
+  "projectedXY": [
+   9150,
+   10150
+  ],
+  "matchedPointId": "scan-site-v4-698",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   6004,
+   13418
+  ],
+  "printedName": null,
+  "projectedXY": [
+   10532,
+   10152
+  ],
+  "matchedPointId": "scan-site-v4-699",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "oriente",
+  "glyphXY": [
+   2450,
+   14937
+  ],
+  "printedName": null,
+  "projectedXY": [
+   15108,
+   10742
+  ],
+  "matchedPointId": "scan-site-v4-741",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "oriente",
+  "glyphXY": [
+   2836,
+   15049
+  ],
+  "printedName": null,
+  "projectedXY": [
+   15340,
+   10824
+  ],
+  "matchedPointId": "scan-site-v4-747",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   4651,
+   14836
+  ],
+  "printedName": null,
+  "projectedXY": [
+   9010,
+   10922
+  ],
+  "matchedPointId": "scan-site-v4-754",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   6538,
+   15042
+  ],
+  "printedName": null,
+  "projectedXY": [
+   10024,
+   11120
+  ],
+  "matchedPointId": "scan-site-v4-766",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "essoscentral",
+  "glyphXY": [
+   5806,
+   15989
+  ],
+  "printedName": null,
+  "projectedXY": [
+   9308,
+   11580
+  ],
+  "matchedPointId": "scan-site-v4-794",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   10221,
+   18259
+  ],
+  "printedName": null,
+  "projectedXY": [
+   6268,
+   12172
+  ],
+  "matchedPointId": "scan-site-v4-828",
+  "decision": "renamed",
+  "reason": "rotulo Vila das Árvores Altas impresso junto ao glifo"
+ },
+ {
+  "map": "oriente",
+  "glyphXY": [
+   13924,
+   18760
+  ],
+  "printedName": null,
+  "projectedXY": [
+   21200,
+   12750
+  ],
+  "matchedPointId": "scan-site-v4-838",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   10257,
+   21068
+  ],
+  "printedName": null,
+  "projectedXY": [
+   6262,
+   13884
+  ],
+  "matchedPointId": "scan-site-v4-855",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ },
+ {
+  "map": "ocidente",
+  "glyphXY": [
+   6027,
+   12426
+  ],
+  "printedName": null,
+  "projectedXY": [
+   3704,
+   8732
+  ],
+  "matchedPointId": "scan-v7-3704-8732",
+  "decision": "renamed",
+  "reason": "rotulo Poleiro do Abutre impresso junto ao glifo"
+ },
+ {
+  "map": "oriente",
+  "glyphXY": [
+   12364,
+   11669
+  ],
+  "printedName": null,
+  "projectedXY": [
+   20370,
+   8930
+  ],
+  "matchedPointId": "scan-v7-20370-8930",
+  "decision": "unchanged-described",
+  "reason": "sem nome impresso no mapa companheiro"
+ }
+]
