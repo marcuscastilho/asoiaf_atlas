@@ -12,9 +12,6 @@
   var erroEl = document.getElementById("mapa-erro");
   var avisoTextoEl = document.getElementById("aviso-texto");
   var badgeEstadoEl = document.getElementById("badge-estado");
-  var btnTelaCheia = document.getElementById("btn-tela-cheia");
-  var btnAjuda = document.getElementById("btn-ajuda");
-  var painelAjuda = document.getElementById("painel-ajuda");
   var lateralEl = document.getElementById("lateral");
   var lateralCorpo = document.getElementById("lateral-corpo");
   var btnPainel = document.getElementById("btn-painel");
@@ -54,7 +51,7 @@
     lateralCorpo.hidden = !aberto;
     lateralEl.classList.toggle("lateral-fechada", !aberto);
     btnPainel.setAttribute("aria-expanded", aberto ? "true" : "false");
-    btnPainel.textContent = aberto ? "Recolher painel" : "Abrir painel";
+    btnPainel.textContent = aberto ? "Recolher" : "Expandir";
     /* nao recentraliza: apenas avisa o Leaflet do novo espaco util */
     map.invalidateSize({ pan: false });
   }
@@ -62,7 +59,7 @@
     definirPainel(lateralCorpo.hidden);
   });
   if (window.matchMedia &&
-      window.matchMedia("(max-width: 700px)").matches) {
+      window.matchMedia("(max-width: 600px)").matches) {
     definirPainel(false);
   }
 
@@ -83,6 +80,12 @@
   function apoioPrevia(bounds) {
     var l = L.imageOverlay(probe.src, bounds,
       { pane: "tilePane", zIndex: 0 }).addTo(map);
+    /* se o mapa ainda nao esta 'loaded', addTo apenas enfileira a
+       camada: setZIndex corre sem _image e _initImage pula zIndex
+       falsy=0 — garante o z inline tambem quando o layer montar */
+    l.on("add", function () {
+      if (l._image) { l._image.style.zIndex = "0"; }
+    });
     l.setZIndex(0);
     return l;
   }
@@ -130,54 +133,6 @@
     }
   };
   probe.src = OVERVIEW_URL;
-
-  /* ---------- controles ---------- */
-
-  btnTelaCheia.addEventListener("click", function () {
-    var saindo = document.fullscreenElement || document.webkitFullscreenElement;
-    if (saindo) {
-      var sair = document.exitFullscreen || document.webkitExitFullscreen;
-      try {
-        if (sair) sair.call(document);
-      } catch (e) {
-        /* noop: sair da tela cheia nao deve falhar */
-      }
-      return;
-    }
-    var el = document.documentElement;
-    var req = el.requestFullscreen || el.webkitRequestFullscreen;
-    if (!req) {
-      setStatus("Tela cheia n\u00e3o suportada neste navegador.");
-      return;
-    }
-    var promessa;
-    try {
-      /* webkitRequestFullscreen retorna void; resolve() normaliza */
-      promessa = Promise.resolve(req.call(el));
-    } catch (e) {
-      setStatus("Tela cheia n\u00e3o suportada neste navegador.");
-      return;
-    }
-    promessa.then(function () {
-      setStatus("Tela cheia ativa; pressione Esc para sair.");
-      setTimeout(function () { map.invalidateSize(); }, 120);
-    }).catch(function () {
-      setStatus("O navegador recusou o modo de tela cheia.");
-    });
-  });
-
-  function aoMudarFullscreen() {
-    map.invalidateSize();
-  }
-  document.addEventListener("fullscreenchange", aoMudarFullscreen);
-  document.addEventListener("webkitfullscreenchange", aoMudarFullscreen);
-
-  btnAjuda.addEventListener("click", function () {
-    var abrir = painelAjuda.hidden;
-    painelAjuda.hidden = !abrir;
-    btnAjuda.setAttribute("aria-expanded", abrir ? "true" : "false");
-    btnAjuda.textContent = abrir ? "Ocultar ajuda" : "Ajuda";
-  });
 
   /* ---------- tiles nativos (manifesto validado, carga automatica) ---------- */
 

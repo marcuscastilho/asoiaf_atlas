@@ -1,6 +1,9 @@
-// Cobertura de revisao por livro (seam v6) — FIXTURE SINTETICO.
+// Troca de livro (seam v6) — FIXTURE SINTETICO.
 // Serve um conjunto atlas-saga-v6 minimo via interceptacao; nenhum
-// dado real de percurso e exercitado. Uso:
+// dado real de percurso e exercitado. A UI nao exibe mais notas de
+// cobertura (.pers-cobertura foi removida); a suite agora verifica a
+// mecanica de troca de livro e a ausencia de rotulos/XSS renderizado.
+// Uso:
 //   node atlas/test/verificar-cobertura-v6.mjs
 import { chromium } from "playwright";
 import { writeFileSync, mkdirSync } from "node:fs";
@@ -167,6 +170,8 @@ async function novaPagina(fixture, url) {
     { viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   page.on("pageerror", (e) => pageErrors.push(String(e)));
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({
       status: 200, contentType: "application/json",
@@ -178,14 +183,6 @@ async function novaPagina(fixture, url) {
   return { ctx, page };
 }
 
-/* texto do rotulo de cobertura de uma rota, pelo id do checkbox */
-const coberturaDe = (page, rid) => page.evaluate((id) => {
-  const cb = document.getElementById("chk-" + id);
-  const sp = cb && cb.closest("label") &&
-    cb.closest("label").querySelector(".pers-cobertura");
-  return sp ? { texto: sp.textContent, oculto: !!sp.hidden } : null;
-}, rid);
-
 /* ---------- caminho feliz: fixture v6 com bookCoverage ---------- */
 {
   const { ctx, page } = await novaPagina(fixtureV6(true));
@@ -195,20 +192,8 @@ const coberturaDe = (page, rid) => page.evaluate((id) => {
       !document.querySelector("#livro-select").hidden));
   check("fixture v6: 4 checkboxes de personagem",
     await page.locator("#lista-personagens input").count() === 4);
-
-  let cob = await coberturaDe(page, "rota-coberta");
-  check("cobertura: rotulo existe na rota coberta", !!cob);
-  check("cobertura: nota do livro inicial (AGOT)",
-    cob && cob.texto === PARCIAL.agot.notice &&
-      cob.oculto === false,
-    cob ? cob.texto : "sem rotulo");
-  cob = await coberturaDe(page, "rota-mista");
-  check("cobertura: nota da rota mista no livro inicial",
-    cob && cob.texto === MISTA.agot.notice,
-    cob ? cob.texto : "sem rotulo");
-  cob = await coberturaDe(page, "rota-sem-cobertura");
-  check("cobertura: rota sem o campo nao tem rotulo",
-    cob === null);
+  check("cobertura: UI nao renderiza rotulos de cobertura",
+    await page.locator(".pers-cobertura").count() === 0);
 
   /* selecionar nao muda ao trocar de livro */
   await page.locator("#chk-rota-coberta").check();
@@ -217,17 +202,9 @@ const coberturaDe = (page, rid) => page.evaluate((id) => {
     [...document.querySelectorAll("#lista-personagens input")]
       .filter((c) => c.checked).map((c) => c.id));
 
-  /* troca de livro: notas seguem o livro ativo, sem mexer na
-     selecao nem saltar para o fim do livro */
+  /* troca de livro: vai ao inicio do livro, sem mexer na selecao */
   await page.selectOption("#livro-select", "acok");
   await page.waitForTimeout(400);
-
-  cob = await coberturaDe(page, "rota-coberta");
-  check("cobertura: nota atualiza para ACOK",
-    cob && cob.texto === PARCIAL.acok.notice, cob ? cob.texto : "vazio");
-  cob = await coberturaDe(page, "rota-mista");
-  check("cobertura: nota mista atualiza para ACOK",
-    cob && cob.texto === MISTA.acok.notice, cob ? cob.texto : "vazio");
 
   const depois = await page.evaluate(() =>
     [...document.querySelectorAll("#lista-personagens input")]
@@ -240,41 +217,28 @@ const coberturaDe = (page, rid) => page.evaluate((id) => {
   check("cobertura: livro vai ao inicio, nao ao fim — cap=73",
     cap === "73", "cap=" + cap);
 
-  /* textContent literal: a nota maliciosa vira texto, nao HTML */
-  cob = await coberturaDe(page, "rota-xss");
-  check("cobertura: nota maliciosa renderiza como texto literal",
-    cob && cob.texto === XSS.acok.notice &&
-      cob.texto.includes("<img"),
-    cob ? cob.texto.slice(0, 60) : "sem rotulo");
+  /* nota maliciosa nao e renderizada: nada de HTML injetado */
   check("cobertura: nenhum elemento HTML injetado",
     await page.evaluate(() =>
-      !document.querySelector(".pers-cobertura img") &&
-      !document.querySelector(".pers-cobertura script") &&
+      !document.querySelector(
+        "#lista-personagens img, #lista-personagens script") &&
       window.__xss === undefined));
-
-  /* nada de percentual/completude derivado — \b para nao pegar
-     "incompleto", que e uma negacao honesta e nao um selo */
-  check("cobertura: sem '%' ou selo de completude no texto",
-    await page.evaluate(() =>
-      ![...document.querySelectorAll(".pers-cobertura")]
-        .some((sp) => /%|\bcompleto\b|\bcompleta\b/i
-          .test(sp.textContent))));
 
   await ctx.close();
 }
 
-/* ---------- hash restaurado: nota segue o livro do capitulo -------- */
+/* ---------- hash restaurado: seletor segue o livro do capitulo ----- */
 {
   const { ctx, page } = await novaPagina(
     fixtureV6(true), BASE + "/atlas/#cap=280");
-  const cob = await coberturaDe(page, "rota-coberta");
-  check("hash #cap=280 (ADWD): nota do livro restaurado",
-    cob && cob.texto === PARCIAL.adwd.notice,
-    cob ? cob.texto : "vazio");
   const sel = await page.evaluate(() =>
     document.querySelector("#livro-select").value);
   check("hash #cap=280: seletor sincronizado em ADWD",
     sel === "adwd", "livro=" + sel);
+  const cap = await page.evaluate(() =>
+    document.querySelector("#cap-slider").value);
+  check("hash #cap=280: slider no capitulo restaurado",
+    cap === "280", "cap=" + cap);
   await ctx.close();
 }
 

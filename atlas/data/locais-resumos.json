@@ -1,0 +1,970 @@
+{
+  "Adakhakileki": {
+    "resumo": "Cidade em ruínas na borda norte do Deserto Vermelho, na margem do Mar Venenoso, perto da Estrada de Pedra. Pouco se sabe sobre sua história.",
+    "wiki": "Adakhakileki"
+  },
+  "Ar_Noy": {
+    "resumo": "Cidade em ruínas às margens do Qhoyne, perto de sua confluência com o Darkwash, a nordeste fica Qohor.",
+    "wiki": "Ar_Noy"
+  },
+  "Asabhad": {
+    "resumo": "Cidade na fronteira oeste de Yi Ti, às margens do Mar de Jade. Ponto de partida de caravanas para as Montanhas da Manhã.",
+    "wiki": "Asabhad"
+  },
+  "Asshai": {
+    "resumo": "Misteriosa cidade portuária no extremo sudeste da parte conhecida de Essos, onde o rio Ash encontra o Mar de Jade, na ponta das Terras das Sombras.",
+    "wiki": "Asshai"
+  },
+  "Astapor": {
+    "resumo": "Conhecida como a Cidade Vermelha, é a mais meridional das Cidades Escravocratas da Baía dos Escravos, famosa por treinar os Imaculados.",
+    "wiki": "Astapor"
+  },
+  "Barrowton": {
+    "resumo": "Vila proeminente do Norte nas Terras dos Túmulos, que abriga o Salão dos Túmulos, sede da Casa Dustin.",
+    "wiki": "Barrowton"
+  },
+  "Bayasabhad": {
+    "resumo": "Conhecida como a Cidade das Serpentes, é uma cidade fortificada na Estrada de Areia, nas Montanhas dos Ossos orientais, junto ao Grande Mar de Areia.",
+    "wiki": "Bayasabhad"
+  },
+  "Bhorash": {
+    "resumo": "Cidade em ruínas na costa norte da Baía dos Escravos, ao sul das Montanhas Pintadas, ligada por estrada valiriana a Mantarys.",
+    "wiki": "Bhorash"
+  },
+  "Bonetown": {
+    "resumo": "Cidade rumorosa no Extremo Oriente de Essos, de existência incerta.",
+    "wiki": "Bonetown"
+  },
+  "Braavos": {
+    "resumo": "A mais rica e provavelmente a mais poderosa das Cidades Livres, erguida sobre uma grande lagoa no noroeste de Essos.",
+    "wiki": "Braavos"
+  },
+  "Bronzegate": {
+    "resumo": "Sede da Casa Buckler nas Terras da Tempestade, na Estrada do Rei entre o Wendwater e Ponta Tempestade.",
+    "wiki": "Bronzegate"
+  },
+  "Carcosa": {
+    "resumo": "Cidade lendária no Extremo Oriente de Essos, na margem sudeste do Mar Oculto, dentro das Montanhas da Manhã.",
+    "wiki": "Carcosa"
+  },
+  "Casterly_Rock": {
+    "resumo": "Castelo e sede da Casa Lannister, capital das Terras Ocidentais, com vista para o porto de Lannisporto e o Mar do Poente.",
+    "wiki": "Casterly_Rock"
+  },
+  "Castle_Black": {
+    "resumo": "Principal fortaleza da Patrulha da Noite e sede de seu Senhor Comandante, no centro da Muralha, ao norte de Vila Toupeira.",
+    "wiki": "Castle_Black"
+  },
+  "City_of_the_Winged_Men": {
+    "resumo": "Cidade lendária no Extremo Oriente de Essos.",
+    "wiki": "City_of_the_Winged_Men"
+  },
+  "Craster%27s_Keep": {
+    "resumo": "Fortaleza e moradia de Craster, um selvagem para lá da Muralha que se diz amigo da Patrulha da Noite.",
+    "wiki": "Craster%27s_Keep"
+  },
+  "Deepwood_Motte": {
+    "resumo": "Sede da Casa Glover no Norte: uma fortaleza de madeira na Mata de Lobos, perto da costa.",
+    "wiki": "Deepwood_Motte"
+  },
+  "Dragonstone": {
+    "resumo": "Castelo na ilha homônima na entrada da Baía da Água Negra, sob o Monte do Dragão. Foi o posto mais ocidental do Domínio de Valíria e a primeira sede Targaryen em Westeros.",
+    "wiki": "Dragonstone"
+  },
+  "Dreadfort": {
+    "resumo": "Castelo no norte de Westeros e sede da Casa Bolton, na margem norte do rio Água Chorosa.",
+    "wiki": "Dreadfort"
+  },
+  "Eastwatch-by-the-Sea": {
+    "resumo": "O castelo mais oriental da Patrulha da Noite ao longo da Muralha, numa costa cinzenta e batida pelo vento.",
+    "wiki": "Eastwatch-by-the-Sea"
+  },
+  "Elyria": {
+    "resumo": "Cidade insular numa pequena ilha a leste da península de Valíria, ligada por estrada valiriana ao continente.",
+    "wiki": "Elyria"
+  },
+  "Eyrie": {
+    "resumo": "Castelo ancestral da Casa Arryn, erguido na encosta da Lança do Gigante, milhares de metros acima do Vale de Arryn.",
+    "wiki": "Eyrie"
+  },
+  "Faros": {
+    "resumo": "Cidade na foz de um rio na costa oeste de Grande Moraq. Seus habitantes adoram a Vaca de Pedra.",
+    "wiki": "Faros"
+  },
+  "Fist_of_the_First_Men": {
+    "resumo": "Colina em forma de punho na Floresta Assombrada, para lá da Muralha.",
+    "wiki": "Fist_of_the_First_Men"
+  },
+  "Five_Forts_Central": {
+    "resumo": "Uma das Cinco Fortes, colossais fortalezas na fronteira nordeste do Império Dourado de Yi Ti.",
+    "wiki": "Five_Forts"
+  },
+  "Flint%27s_Finger": {
+    "resumo": "Sede da Casa Flint de Dedo de Pederneira, no Norte, na margem sul da costa perto do Gargalo.",
+    "wiki": "Flint%27s_Finger"
+  },
+  "Ghoyan_Drohe": {
+    "resumo": "Cidade em ruínas nas Colinas de Veludo, a leste de Pentos, às margens do Pequeno Rhoyne.",
+    "wiki": "Ghoyan_Drohe"
+  },
+  "Ghozai": {
+    "resumo": "Cidade portuária escravocrata em ruínas na Ilha dos Cedros, na costa norte da ilha, de frente para a Baía dos Escravos.",
+    "wiki": "Ghozai"
+  },
+  "Gogossos": {
+    "resumo": "Cidade em ruínas na Ilha das Lágrimas, a maior das Ilhas Basilisco, de frente para o continente de Sothoryos. Antigamente chamada Gorgai.",
+    "wiki": "Gogossos"
+  },
+  "Gorosh": {
+    "resumo": "Cidade em ruínas na costa norte de Sothoryos.",
+    "wiki": "Gorosh"
+  },
+  "Greywater_Watch": {
+    "resumo": "Sede da Casa Reed no Norte, escondida nos pântanos do Gargalo; diz-se que muda de lugar.",
+    "wiki": "Greywater_Watch"
+  },
+  "Gulltown": {
+    "resumo": "Principal cidade portuária do Vale de Arryn, num porto natural na ponta norte da Baía dos Caranguejos.",
+    "wiki": "Gulltown"
+  },
+  "Harrenhal": {
+    "resumo": "O maior castelo dos Sete Reinos, na margem norte do Olho de Deus, nas Terras Fluviais. Está escurecido e parcialmente em ruínas desde a Conquista.",
+    "wiki": "Harrenhal"
+  },
+  "Hesh": {
+    "resumo": "Cidade na região de Lhazar, em Essos. Uma rota comercial sai de Hesh e atravessa a Passagem Khyzai até Meereen.",
+    "wiki": "Hesh"
+  },
+  "Highgarden": {
+    "resumo": "Sede da Casa Tyrell e capital regional da Campina, às margens do Mander, no cruzamento da Estrada do Oceano com a Estrada das Rosas.",
+    "wiki": "Highgarden"
+  },
+  "Ib_Nor": {
+    "resumo": "Cidade ibbenesa na costa norte da ilha de Ib.",
+    "wiki": "Ib_Nor"
+  },
+  "Ib_Sar": {
+    "resumo": "Única cidade ibbenesa em Ib Distante, originalmente um lugar de exílio e punição.",
+    "wiki": "Ib_Sar"
+  },
+  "Jinqi": {
+    "resumo": "Cidade de Yi Ti no sul de Essos, junto a um delta no Mar de Jade, ao norte de Leng.",
+    "wiki": "Jinqi"
+  },
+  "K%27Dath": {
+    "resumo": "Cidade semilendária supostamente situada numa planície do Extremo Oriente de Essos.",
+    "wiki": "K%27Dath"
+  },
+  "Karhold": {
+    "resumo": "Sede da Casa Karstark no Norte, junto a um rio florestado na metade leste da região.",
+    "wiki": "Karhold"
+  },
+  "Kayakayanaya": {
+    "resumo": "Cidade fortificada na Estrada de Aço, no lado leste das Krazaaj Zasqa, nas Montanhas dos Ossos. Uma das cidades-fortaleza do antigo Patrimônio de Hyrkoon.",
+    "wiki": "Kayakayanaya"
+  },
+  "King%27s_Landing": {
+    "resumo": "Capital dos Sete Reinos, nas Terras da Coroa, na foz do Água Negra. Sede do Trono de Ferro e da Fortaleza Vermelha.",
+    "wiki": "King%27s_Landing"
+  },
+  "Kosrak": {
+    "resumo": "Cidade na região de Lhazar, sobre um afluente do Skahazadhan, a leste de Hesh.",
+    "wiki": "Kosrak"
+  },
+  "Krazaaj_Has": {
+    "resumo": "Cidade em ruínas entre o Mar Dothraki e Lhazar, originalmente chamada Ghardaq. Foi arrasada pelos dothraki após a Destruição de Valíria.",
+    "wiki": "Krazaaj_Has"
+  },
+  "Lannisport": {
+    "resumo": "Cidade murada das Terras Ocidentais, a menos de uma milha do Rochedo Casterly. Um dos principais portos dos Sete Reinos, no encontro da Estrada do Rio, da Estrada do Ouro e da Estrada do Oceano.",
+    "wiki": "Lannisport"
+  },
+  "Last_Hearth": {
+    "resumo": "Sede da Casa Umber no Norte, perto da Última River, ao sul das terras dos gigantes.",
+    "wiki": "Last_Hearth"
+  },
+  "Leng_Ma": {
+    "resumo": "Cidade na costa oeste da ilha florestada de Leng, no Mar de Jade oriental, perto da foz de um rio.",
+    "wiki": "Leng_Ma"
+  },
+  "Leng_Yi": {
+    "resumo": "Cidade na costa norte da ilha florestada de Leng, no Mar de Jade oriental.",
+    "wiki": "Leng_Yi"
+  },
+  "Lhazosh": {
+    "resumo": "Cidade na região de Lhazar, em Essos, a sudeste de Hesh; uma rota comercial a liga a Meereen.",
+    "wiki": "Lhazosh"
+  },
+  "Lorath": {
+    "resumo": "Uma das nove Cidades Livres, num grupo de ilhas do Mar Tremeluzente, perto da costa norte de Essos.",
+    "wiki": "Lorath"
+  },
+  "Lotus_Port": {
+    "resumo": "Cidade das Ilhas de Verão, no sudoeste da ilha de Walano, ao norte da ilha Koj.",
+    "wiki": "Lotus_Port"
+  },
+  "Lys": {
+    "resumo": "Uma das nove Cidades Livres, uma pequena cidade sobre rochas cercadas por mar bravio, ao largo das Terras Disputadas.",
+    "wiki": "Lys"
+  },
+  "Mantarys": {
+    "resumo": "Cidade ao norte das Terras do Longo Verão, na ponta do Mar dos Suspiros, por onde passa a Estrada do Demônio. Tem reputação sinistra.",
+    "wiki": "Mantarys"
+  },
+  "Meereen": {
+    "resumo": "A maior das três grandes Cidades Escravocratas da Baía dos Escravos, governada pelos Grandes Mestres. Seu emblema é a harpia.",
+    "wiki": "Meereen"
+  },
+  "Moat_Cailin": {
+    "resumo": "Antiga fortaleza dos Primeiros Homens na borda norte do Gargalo. É um dos pontos estratégicos mais importantes do Norte.",
+    "wiki": "Moat_Cailin"
+  },
+  "Morosh": {
+    "resumo": "Cidade no norte de Essos, à beira do Mar Tremeluzente, colônia pesqueira e mineradora de Lorath na foz do rio Sarne.",
+    "wiki": "Morosh"
+  },
+  "Myr": {
+    "resumo": "Uma das Cidades Livres do oeste de Essos, na costa leste do Mar de Myrth.",
+    "wiki": "Myr"
+  },
+  "Nefer": {
+    "resumo": "Chamada de Cidade Secreta pelos viajantes, é a capital de N'ghai e a última cidade restante do reino.",
+    "wiki": "Nefer"
+  },
+  "New_Ghis": {
+    "resumo": "Cidade insular ao sul de Ghiscar e das ruínas de Velha Ghis. Port dependente de escravos, menor que Volantis.",
+    "wiki": "New_Ghis"
+  },
+  "New_Ibbish": {
+    "resumo": "Cidade ibbenesa no continente de Essos, numa península florestada ao norte do Reino de Ifequevron.",
+    "wiki": "New_Ibbish"
+  },
+  "Norvos": {
+    "resumo": "Uma das nove Cidades Livres, no interior de Essos, entre Pentos e Qohor.",
+    "wiki": "Norvos"
+  },
+  "Ny_Sar": {
+    "resumo": "Cidade em ruínas na confluência do Rhoyne com o Noyne. Abrigou o palácio da princesa Nymeria antes de ser destruída pelo Domínio de Valíria.",
+    "wiki": "Ny_Sar"
+  },
+  "Old_Ghis": {
+    "resumo": "Ruínas da antiga capital do Império de Ghis, no sudoeste de Ghiscar, uma das mais velhas civilizações conhecidas.",
+    "wiki": "Old_Ghis"
+  },
+  "Oldtown": {
+    "resumo": "Cidade da Campina construída em torno da Torre Alta, sede da Casa Hightower. Abriga a Cidadela dos meistres e o Septo Estrelado.",
+    "wiki": "Oldtown"
+  },
+  "Oros": {
+    "resumo": "Cidade em ruínas na costa norte do Mar Fumegante, tida como segunda apenas a Valíria em majestade antes da Destruição.",
+    "wiki": "Oros"
+  },
+  "Pentos": {
+    "resumo": "Uma das Cidades Livres do oeste de Essos, porto na costa leste da Baía de Pentos.",
+    "wiki": "Pentos"
+  },
+  "Port_Moraq": {
+    "resumo": "Cidade portuária na costa sul de Grande Moraq, perto do Estreito de Canela; escala frequente de mercadores do Mar de Jade.",
+    "wiki": "Port_Moraq"
+  },
+  "Port_Yhos": {
+    "resumo": "Vila na costa do Mar de Verão, a sudeste da Baía dos Escravos; o povoado mais ocidental controlado por Qarth.",
+    "wiki": "Port_Yhos"
+  },
+  "Port_of_Ibben": {
+    "resumo": "Principal cidade da ilha de Ib e a maior cidade de Ibben, na costa sul da ilha.",
+    "wiki": "Port_of_Ibben"
+  },
+  "Pyke": {
+    "resumo": "Castelo na ilha homônima, uma das principais Ilhas de Ferro, e sede da Casa Greyjoy.",
+    "wiki": "Pyke"
+  },
+  "Qarkash": {
+    "resumo": "Vila qartheena na costa do Mar de Verão, a leste da Baía dos Escravos e a oeste de Qarth.",
+    "wiki": "Qarkash"
+  },
+  "Qarth": {
+    "resumo": "Antiga cidade portuária na costa sul de Essos, conhecida como a Rainha das Cidades.",
+    "wiki": "Qarth"
+  },
+  "Qohor": {
+    "resumo": "Conhecida como a Cidade dos Feiticeiros, é a mais oriental das nove Cidades Livres do oeste de Essos.",
+    "wiki": "Qohor"
+  },
+  "Queenscrown": {
+    "resumo": "Torre e aldeia abandonadas na Nova Dádiva, a oeste da Estrada do Rei.",
+    "wiki": "Queenscrown"
+  },
+  "Ramsgate": {
+    "resumo": "Castelo no Norte, na foz do Braço Quebrado, possivelmente na costa nordeste.",
+    "wiki": "Ramsgate"
+  },
+  "Riverrun": {
+    "resumo": "Castelo ancestral da Casa Tully, senhores do Tridente, na confluência do Pedregoso com o Ramo Vermelho, nas Terras Fluviais.",
+    "wiki": "Riverrun"
+  },
+  "Saath": {
+    "resumo": "Cidade no norte de Essos, na ponta oeste do delta do Sarne, à beira do Mar Tremeluzente.",
+    "wiki": "Saath"
+  },
+  "Sar_Mell": {
+    "resumo": "Cidade ruinada dos roinares na margem leste do Rhoyne, ao norte de Volantis, em frente a Volon Therys.",
+    "wiki": "Sar_Mell"
+  },
+  "Selhorys": {
+    "resumo": "Cidade murada volantina na confluência do Selhoru com o baixo Rhoyne, a noroeste de Volantis.",
+    "wiki": "Selhorys"
+  },
+  "Shadow_Tower": {
+    "resumo": "Um dos três castelos da Muralha ainda ocupados pela Patrulha da Noite, na ponta oeste junto às montanhas.",
+    "wiki": "Shadow_Tower"
+  },
+  "Sisterton": {
+    "resumo": "Vila na ilha de Irmã Doce, uma das Três Irmãs, na Mordida; sede da Casa Borrell.",
+    "wiki": "Sisterton"
+  },
+  "Sorrows": {
+    "resumo": "Trecho do Rhoyne que vai do sul do Lago da Adaga até além das ruínas de Chroyane. Enevoado e habitado por homens de pedra acometidos de escamagris.",
+    "wiki": "Sorrows"
+  },
+  "Storm%27s_End": {
+    "resumo": "Sede da Casa Baratheon e uma das fortalezas mais fortes de Westeros, na costa das Terras da Tempestade, de frente para a Baía dos Naufrágios.",
+    "wiki": "Storm%27s_End"
+  },
+  "Stygai": {
+    "resumo": "Conhecida como a Cidade da Noite, é uma cidade em ruínas nas montanhosas Terras das Sombras, no leste de Essos.",
+    "wiki": "Stygai"
+  },
+  "Sunspear": {
+    "resumo": "Sede da Casa Martell e capital de Dorne, no Braço Quebrado, ao norte do Sangueverde, cercada pelo mar em três lados e pela Cidade Sombria.",
+    "wiki": "Sunspear"
+  },
+  "Tiqui": {
+    "resumo": "Cidade de Yi Ti, nas colinas ocidentais da região.",
+    "wiki": "Tiqui"
+  },
+  "Tolos": {
+    "resumo": "Cidade portuária no centro de Essos, na costa sudoeste da Baía dos Escravos.",
+    "wiki": "Tolos"
+  },
+  "Torrhen%27s_Square": {
+    "resumo": "Castelo no Norte, sede da Casa Tallhart, ao sul da Mata de Lobos.",
+    "wiki": "Torrhen%27s_Square"
+  },
+  "Trader_Town": {
+    "resumo": "Guarnição urbana do norte de Yi Ti, a leste do Grande Mar de Areia e ao sul das planícies dos Jogos Nhai.",
+    "wiki": "Trader_Town"
+  },
+  "Turrani": {
+    "resumo": "Cidade na costa sul da ilha de Leng, no Mar de Jade. Foi fundada pelos habitantes originais da ilha.",
+    "wiki": "Turrani"
+  },
+  "Twins": {
+    "resumo": "Sede da Casa Frey nas Terras Fluviais: dois castelos gêmeos unidos por uma ponte fortificada sobre o Ramo Verde do Tridente.",
+    "wiki": "Twins"
+  },
+  "Tyria": {
+    "resumo": "Cidade em ruínas do outro lado do Mar Fumegante em relação a Oros, ligada por estrada valiriana a Valíria.",
+    "wiki": "Tyria"
+  },
+  "Tyrosh": {
+    "resumo": "Cidade portuária e uma das Cidades Livres, numa ilha ao norte dos Degraus, junto às Terras Disputadas.",
+    "wiki": "Tyrosh"
+  },
+  "Vaes_Aresak": {
+    "resumo": "Cidade em ruínas no norte de Essos, às margens do Mar Tremeluzente. Foi a antiga Ibbish, colonia ibbenesa abandonada.",
+    "wiki": "Vaes_Aresak"
+  },
+  "Vaes_Athjikhari": {
+    "resumo": "Cidade em ruínas no leste do Reino de Sarnor, junto ao Mar Dothraki.",
+    "wiki": "Vaes_Athjikhari"
+  },
+  "Vaes_Diaf": {
+    "resumo": "Cidade em ruínas no Mar Dothraki, ao sul do Reino de Sarnor e ao norte de Meereen. Originalmente chamada Hazdahn Mo.",
+    "wiki": "Vaes_Diaf"
+  },
+  "Vaes_Dothrak": {
+    "resumo": "A única cidade do povo dothraki, no nordeste do Mar Dothraki, aos pés da Mãe das Montanhas. Não tem muralhas.",
+    "wiki": "Vaes_Dothrak"
+  },
+  "Vaes_Efe": {
+    "resumo": "Cidade ghiscari em ruínas no sudeste do Mar Dothraki, ao sul de Vaes Dothrak e ao norte do Skahazadhan.",
+    "wiki": "Vaes_Efe"
+  },
+  "Vaes_Graddakh": {
+    "resumo": "Cidade em ruínas no norte de Essos, na ponta leste do delta do Sarne. Originalmente chamada Sarys.",
+    "wiki": "Vaes_Graddakh"
+  },
+  "Vaes_Jini": {
+    "resumo": "Cidade em ruínas na Estrada de Pedra, nas colinas das Montanhas dos Ossos ocidentais. Originalmente chamada Yinishar.",
+    "wiki": "Vaes_Jini"
+  },
+  "Vaes_Khadokh": {
+    "resumo": "Cidade em ruínas a leste da Floresta de Qohor e ao norte das Montanhas Pintadas. Originalmente chamada Essaria, ligada por estradas valirianas a Qohor e Saath.",
+    "wiki": "Vaes_Khadokh"
+  },
+  "Vaes_Khewo": {
+    "resumo": "Cidade em ruínas sobre o Sarne, no sul do Reino de Sarnor. Originalmente chamada Sarnath das Altas Torres.",
+    "wiki": "Vaes_Khewo"
+  },
+  "Vaes_Leisi": {
+    "resumo": "Povoado em ruínas nas florestas do norte de Essos, numa pequena península do Reino de Ifequevron.",
+    "wiki": "Vaes_Leisi"
+  },
+  "Vaes_Leqse": {
+    "resumo": "Cidade em ruínas no leste do Reino de Sarnor, na borda do Mar Dothraki central.",
+    "wiki": "Vaes_Leqse"
+  },
+  "Vaes_Mejhah": {
+    "resumo": "Cidade ghiscari em ruínas entre o Mar Dothraki e Lhazar, num afluente do Skahazadhan oriental. Arruinada após a Destruição de Valíria.",
+    "wiki": "Vaes_Mejhah"
+  },
+  "Vaes_Orvik": {
+    "resumo": "Cidade em ruínas no sudoeste do Deserto Vermelho, ao norte de Porto Yhos.",
+    "wiki": "Vaes_Orvik"
+  },
+  "Vaes_Qosar": {
+    "resumo": "Cidade qaathi em ruínas no sudeste do Deserto Vermelho, a noroeste de Qarth. Originalmente chamada Qolahn.",
+    "wiki": "Vaes_Qosar"
+  },
+  "Vaes_Shirosi": {
+    "resumo": "Cidade qaathi em ruínas no sudoeste do Deserto Vermelho, ao norte de Qarkash. Destruída pelos dothraki durante o Século de Sangue.",
+    "wiki": "Vaes_Shirosi"
+  },
+  "Vaes_Tolorro": {
+    "resumo": "Cidade abandonada no Deserto Vermelho, além do Mar Dothraki; seu nome dothraki significa cidade dos ossos. O nome original é desconhecido.",
+    "wiki": "Vaes_Tolorro"
+  },
+  "Vahar": {
+    "resumo": "Cidade na ilha homônima do Mar de Verão oriental, entre Grande Moraq e Pequena Moraq. Enriqueceu com o comércio de especiarias.",
+    "wiki": "Vahar"
+  },
+  "Valysar": {
+    "resumo": "Cidade murada volantina na margem oeste do Rhoyne, entre Selhorys e Volon Therys.",
+    "wiki": "Valysar"
+  },
+  "Velos": {
+    "resumo": "Cidade em ruínas na ponta sul da Ilha dos Cedros.",
+    "wiki": "Velos"
+  },
+  "Vojjor_Samui": {
+    "resumo": "Cidade em ruínas no sudeste do Reino de Sarnor, junto ao Mar Dothraki. Originalmente chamada Kasath, a Cidade das Caravanas.",
+    "wiki": "Vojjor_Samui"
+  },
+  "Volantis": {
+    "resumo": "A mais antiga e orgulhosa das nove Cidades Livres, na foz do Rhoyne no Mar de Verão. Uma das maiores e mais ricas cidades-estado do mundo conhecido.",
+    "wiki": "Volantis"
+  },
+  "Volon_Therys": {
+    "resumo": "Cidade murada volantina na margem oeste do Rhoyne, em frente às ruínas roinares de Sar Mell.",
+    "wiki": "Volon_Therys"
+  },
+  "White_Harbor": {
+    "resumo": "Cidade portuária do Norte e principal porto comercial da região. Abriga o Castelo Novo, sede da Casa Manderly.",
+    "wiki": "White_Harbor"
+  },
+  "Widow%27s_Watch": {
+    "resumo": "Sede da Casa Flint da Atalaia da Viúva, no Norte, na ponta de uma península do Mar Tremeluzente.",
+    "wiki": "Widow%27s_Watch"
+  },
+  "Winterfell": {
+    "resumo": "Castelo ancestral e sede da Casa Stark, considerado a capital do Norte. Fica na Estrada do Rei, à margem leste da Mata de Lobos.",
+    "wiki": "Winterfell"
+  },
+  "Yalli_Qamayi": {
+    "resumo": "Cidade em ruínas no sudeste do Reino de Sarnor, na confluência de dois braços do Sarne. Originalmente chamada Sathar.",
+    "wiki": "Yalli_Qamayi"
+  },
+  "Yeen": {
+    "resumo": "Cidade em ruínas às margens do Zamoyos, no interior de Sothoryos, ao sul de Zamettar.",
+    "wiki": "Yeen"
+  },
+  "Yin": {
+    "resumo": "A grande cidade portuária de Yi Ti no Mar de Jade, antiga sede de dinastias do Império Dourado.",
+    "wiki": "Yin"
+  },
+  "Yunkai": {
+    "resumo": "Conhecida como a Cidade Amarela, é uma das Cidades Escravocratas na costa leste da Baía dos Escravos, governada pelos Sábios Mestres.",
+    "wiki": "Yunkai"
+  },
+  "Zabhad": {
+    "resumo": "Cidade na costa norte da Ilha dos Elefantes, no Mar de Jade; o principal porto da ilha.",
+    "wiki": "Zabhad"
+  },
+  "Zamettar": {
+    "resumo": "Cidade em ruínas na costa norte de Sothoryos, no grande delta do rio Zamoyos, ao norte de Yeen.",
+    "wiki": "Zamettar"
+  },
+  "scan-site-1990-9564": {
+    "resumo": "Vilarejo sem nome registrado na costa nordeste da ilha do Arbor, na Campina.",
+    "wiki": null
+  },
+  "scan-site-2010-7100": {
+    "resumo": "Sede da Casa Prester nas Terras Ocidentais, na ponta sudoeste de uma península do Mar do Poente, perto de Kayce.",
+    "wiki": "Feastfires"
+  },
+  "scan-site-2058-9636": {
+    "resumo": "Vilarejo sem nome registrado na costa sudeste da ilha do Arbor, na Campina.",
+    "wiki": null
+  },
+  "scan-site-2090-7054": {
+    "resumo": "Sede da Casa Kenning de Kayce nas Terras Ocidentais: castelo e vila murada numa península do Mar do Poente.",
+    "wiki": "Kayce"
+  },
+  "scan-site-2150-7546": {
+    "resumo": "Sede da Casa Crakehall no sudoeste das Terras Ocidentais, com vista para o Mar do Poente.",
+    "wiki": "Crakehall"
+  },
+  "scan-site-2282-6730": {
+    "resumo": "Sede da Casa Farman nas Terras Ocidentais, na Ilha Bela, ao largo da costa oeste.",
+    "wiki": "Faircastle"
+  },
+  "scan-site-2302-7962": {
+    "resumo": "Sede da Casa Oakheart no oeste da Campina, perto do Mar do Poente.",
+    "wiki": "Old_Oak"
+  },
+  "scan-site-2378-8638": {
+    "resumo": "Sede da Casa Florent na Campina, perto das nascentes do Mander.",
+    "wiki": "Brightwater_Keep"
+  },
+  "scan-site-2516-6554": {
+    "resumo": "Sede da Casa Westerling nas Terras Ocidentais, na costa do Mar do Poente, ao sul de Forte Desgraça.",
+    "wiki": "Crag"
+  },
+  "scan-site-2526-7474": {
+    "resumo": "Sede da Casa Swyft nas Terras Ocidentais, a sudeste do Rochedo Casterly.",
+    "wiki": "Cornfield"
+  },
+  "scan-site-2540-6306": {
+    "resumo": "Sede da Casa Banefort no noroeste das Terras Ocidentais, na costa do Mar do Poente, a dois dias de navegação de Pyke.",
+    "wiki": "Banefort"
+  },
+  "scan-site-2570-7696": {
+    "resumo": "Sede da Casa Crane na Campina, na margem nordeste do lago homônimo.",
+    "wiki": "Red_Lake"
+  },
+  "scan-site-2626-6870": {
+    "resumo": "Sede da Casa Sarsfield nas Terras Ocidentais, na Estrada do Rio, a nordeste do Rochedo Casterly.",
+    "wiki": "Sarsfield"
+  },
+  "scan-site-2674-6698": {
+    "resumo": "Castelo da Casa Marbrand nas Terras Ocidentais, em terreno montanhoso.",
+    "wiki": "Ashemark"
+  },
+  "scan-site-2870-2880": {
+    "resumo": "Ilha remota do Norte dentro da Baía de Gelo, lar da Casa Mormont. Seu castelo é a sede da casa.",
+    "wiki": "Bear_Island"
+  },
+  "scan-site-2888-7234": {
+    "resumo": "Sede da Casa Serrett nas Terras Ocidentais, em terreno de colinas ao sul da Toca Funda.",
+    "wiki": "Silverhill"
+  },
+  "scan-site-2910-7788": {
+    "resumo": "Sede da Casa Rowan na Campina setentrional, a leste do Lago Vermelho.",
+    "wiki": "Goldengrove"
+  },
+  "scan-site-2918-6938": {
+    "resumo": "Sede da Casa Brax nas Terras Ocidentais orientais, em terreno montanhoso.",
+    "wiki": "Hornvale"
+  },
+  "scan-site-2922-6742": {
+    "resumo": "Sede da Casa Lefford nas Terras Ocidentais, na Estrada do Rio, guardando a passagem entre o oeste e as Terras Fluviais.",
+    "wiki": "Golden_Tooth"
+  },
+  "scan-site-2936-7040": {
+    "resumo": "Sede da Casa Lydden nas Terras Ocidentais orientais, em terreno de colinas e montanhas.",
+    "wiki": "Deep_Den"
+  },
+  "scan-site-3090-8950": {
+    "resumo": "Sede da Casa Blackmont em Dorne, perto da confluência dos rios que formam o Torrentino.",
+    "wiki": "Blackmont"
+  },
+  "scan-site-3306-6804": {
+    "resumo": "Sede da Casa Piper no sudoeste das Terras Fluviais, no Ramo Vermelho ao sul de Correrrio.",
+    "wiki": "Pinkmaiden_Castle"
+  },
+  "scan-site-3312-9466": {
+    "resumo": "Sede da Casa Qorgyle, no deserto ocidental de Dorne, a oeste da Toca do Inferno e do Enxofre.",
+    "wiki": "Sandstone"
+  },
+  "scan-site-3380-8600": {
+    "resumo": "Sede da Casa Caron nas Terras da Tempestade, formidável castelo nas Marcas de Dorne.",
+    "wiki": "Nightsong"
+  },
+  "scan-site-3386-5862": {
+    "resumo": "Vila no norte das Terras Fluviais cujo castelo é a sede da Casa Mallister; guarda a costa contra incursões das Ilhas de Ferro.",
+    "wiki": "Seagard"
+  },
+  "scan-site-3508-8256": {
+    "resumo": "Sede da Casa Ashford na Campina: o castelo e sua vila às margens do rio Meles.",
+    "wiki": "Ashford"
+  },
+  "scan-site-3514-6972": {
+    "resumo": "Vila murada no sul das Terras Fluviais, conhecida pelo septo que lhe dá o nome.",
+    "wiki": "Stoney_Sept"
+  },
+  "scan-site-3550-7818": {
+    "resumo": "Sede da Casa Caswell na Campina, na Estrada das Rosas onde ela cruza o Mander. Antigamente chamada Ponte de Pedra.",
+    "wiki": "Bitterbridge"
+  },
+  "scan-site-3558-6710": {
+    "resumo": "Sede da Casa Smallwood nas Terras Fluviais, a sudeste de Correrrio.",
+    "wiki": "Acorn_Hall"
+  },
+  "scan-site-3610-6356": {
+    "resumo": "Estalagem nas Terras Fluviais, perto do local onde Torrhen Stark dobrou o joelho.",
+    "wiki": "Inn_of_the_Kneeling_Man"
+  },
+  "scan-site-3626-6042": {
+    "resumo": "Nome dado pelo povo a um castelo em ruínas no norte das Terras Fluviais, outrora sede de reis dos rios.",
+    "wiki": "Oldstones"
+  },
+  "scan-site-3724-6190": {
+    "resumo": "Vila mercante no norte das Terras Fluviais, sobre o Ramo Azul do Tridente.",
+    "wiki": "Fairmarket"
+  },
+  "scan-site-3862-7940": {
+    "resumo": "Vila sob influência da Casa Meadows na Campina, na margem norte do Blueburn.",
+    "wiki": "Grassy_Vale"
+  },
+  "scan-site-3928-7614": {
+    "resumo": "Vila mercante da Campina e sede da Casa Footly, no sudoeste da região.",
+    "wiki": "Tumbleton"
+  },
+  "scan-site-4052-6476": {
+    "resumo": "Vila nas Terras Fluviais, às margens do Tridente, rio acima do Vau dos Rubis.",
+    "wiki": "Lord_Harroway%27s_Town"
+  },
+  "scan-site-4116-6426": {
+    "resumo": "Estalagem no cruzamento da Estrada do Rei com a Estrada do Rio e a estrada alta do Vale.",
+    "wiki": "Inn_at_the_crossroads"
+  },
+  "scan-site-4346-5798": {
+    "resumo": "Sede da Casa Belmore no Vale de Arryn, junto a uma série de lagos nas Montanhas da Lua.",
+    "wiki": "Strongsong"
+  },
+  "scan-site-4390-6926": {
+    "resumo": "Sede da Casa Buckwell nas Terras da Coroa, a sudoeste de Ponta Afiada.",
+    "wiki": "Antlers"
+  },
+  "scan-site-4400-6552": {
+    "resumo": "Vila nas Terras Fluviais, às margens da Baía dos Caranguejos, sede da Casa Cox.",
+    "wiki": "Saltpans"
+  },
+  "scan-site-4440-6670": {
+    "resumo": "Ilha na foz do Tridente, onde ele deságua na Baía dos Caranguejos; abriga um septo isolado.",
+    "wiki": "Quiet_Isle"
+  },
+  "scan-site-4452-7282": {
+    "resumo": "Sede da Casa Rosby nas Terras da Coroa, a noroeste da Baía da Água Negra.",
+    "wiki": "Rosby"
+  },
+  "scan-site-4502-8514": {
+    "resumo": "Castelo nas Terras da Tempestade, antiga sede da Casa Swann, nas Marcas de Dorne.",
+    "wiki": "Stonehelm"
+  },
+  "scan-site-4542-6160": {
+    "resumo": "Série de ameias que guardam a estrada alta na entrada do Vale de Arryn, sob jurisdição dos Arryn.",
+    "wiki": "Bloody_Gate"
+  },
+  "scan-site-4584-6750": {
+    "resumo": "Vila no leste das Terras Fluviais, na margem sul da Baía dos Caranguejos; sede da Casa Mooton.",
+    "wiki": "Maidenpool"
+  },
+  "scan-site-4590-7954": {
+    "resumo": "Sede da Casa Fell nas Terras da Tempestade, a noroeste de Ponta Tempestade, na borda sul da Mata de Rei.",
+    "wiki": "Felwood"
+  },
+  "scan-site-4614-9634": {
+    "resumo": "Sede da Casa Gargalen em Dorne, na costa sul às margens do Mar de Verão.",
+    "wiki": "Salt_Shore"
+  },
+  "scan-site-4656-7094": {
+    "resumo": "Grande vila portuária na costa da Baía da Água Negra, nas Terras da Coroa; sede da Casa Darklyn.",
+    "wiki": "Duskendale"
+  },
+  "scan-site-4676-8386": {
+    "resumo": "Sede da Casa Morrigen nas Terras da Tempestade, em terreno montanhoso perto do Poleiro do Grifo.",
+    "wiki": "Crow%27s_Nest"
+  },
+  "scan-site-4734-5802": {
+    "resumo": "Castelo no Vale de Arryn, sede da Casa Corbray, vassala dos Arryn.",
+    "wiki": "Heart%27s_Home"
+  },
+  "scan-site-4738-1880": {
+    "resumo": "Povoado abandonado do povo livre ao norte da Muralha, na ponta de uma península do Mar Tremeluzente.",
+    "wiki": "Hardhome"
+  },
+  "scan-site-4826-6298": {
+    "resumo": "Antiga sede da Casa Redfort no Vale de Arryn, no sopé das Montanhas da Lua.",
+    "wiki": "Redfort"
+  },
+  "scan-site-4840-6886": {
+    "resumo": "Sede da Casa Staunton nas Terras da Coroa, na margem norte da Baía da Água Negra.",
+    "wiki": "Rook%27s_Rest"
+  },
+  "scan-site-4858-7802": {
+    "resumo": "Sede da Casa Errol nas Terras da Tempestade, a leste da Estrada do Rei.",
+    "wiki": "Haystack_Hall"
+  },
+  "scan-site-4886-6590": {
+    "resumo": "Sede da Casa Waxley no Vale de Arryn; a vila fica na margem norte da Baía dos Caranguejos.",
+    "wiki": "Wickenden"
+  },
+  "scan-site-4896-5646": {
+    "resumo": "Sede da Casa Lynderly no Vale de Arryn, no mais meridional dos Dedos.",
+    "wiki": "Snakewood"
+  },
+  "scan-site-4906-5504": {
+    "resumo": "Sede da Casa Águafria no Vale de Arryn, perto da foz de um rio na costa dos Dedos.",
+    "wiki": "Coldwater_Burn"
+  },
+  "scan-site-4914-6130": {
+    "resumo": "Sede da Casa Waynwood no Vale de Arryn, a oeste da estrada que leva ao Portão Sangrento.",
+    "wiki": "Ironoaks"
+  },
+  "scan-site-5012-8566": {
+    "resumo": "Sede da Casa Mertyns nas Terras da Tempestade, no sul da Mata de Chuva.",
+    "wiki": "Mistwood"
+  },
+  "scan-site-5066-7024": {
+    "resumo": "Ilha a oeste de Pedra do Dragão, na Baía da Água Negra; sede da Casa Velaryon nas Terras da Coroa.",
+    "wiki": "Driftmark"
+  },
+  "scan-site-5106-9574": {
+    "resumo": "Sede da Casa Dalt em Dorne, ao sul da foz do Sangueverde, perto da Vila Tabuleta.",
+    "wiki": "Lemonwood"
+  },
+  "scan-site-5130-7168": {
+    "resumo": "Sede da Casa Bar Emmon nas Terras da Coroa, na ponta norte do Cabo dos Ares.",
+    "wiki": "Sharp_Point"
+  },
+  "scan-site-5198-7284": {
+    "resumo": "Sede da Casa Massey nas Terras da Coroa, na costa leste do Gancho de Massey.",
+    "wiki": "Stonedance"
+  },
+  "scan-site-5200-5774": {
+    "resumo": "Sede da Casa Hunter no Vale de Arryn, ao sul dos Dedos.",
+    "wiki": "Longbow_Hall"
+  },
+  "scan-site-5256-5974": {
+    "resumo": "Sede da Casa Melcolm no Vale de Arryn, a leste de Ferrobles.",
+    "wiki": "Old_Anchor"
+  },
+  "scan-site-5322-8024": {
+    "resumo": "Sede da Casa Tarth nas Terras da Tempestade, na costa oeste da ilha de Tarth.",
+    "wiki": "Evenfall_Hall"
+  },
+  "scan-site-5346-6150": {
+    "resumo": "Sede da Casa Royce no Vale de Arryn, numa península ao norte da Baía dos Caranguejos, perto de Vila Gaivota.",
+    "wiki": "Runestone"
+  },
+  "scan-site-v4-293": {
+    "resumo": "Sede da Casa Merryweather na Campina, às margens do Mander, perto de sua confluência.",
+    "wiki": "Longtable"
+  },
+  "scan-site-v4-299": {
+    "resumo": "Sede da Casa Fossoway de Solar da Sidra na Campina, perto da confluência de dois rios.",
+    "wiki": "Cider_Hall"
+  },
+  "scan-site-v4-300": {
+    "resumo": "Sede da Casa Connington nas Terras da Tempestade, na costa do Cabo da Fúria.",
+    "wiki": "Griffin%27s_Roost"
+  },
+  "scan-site-v4-328": {
+    "resumo": "Sede da Casa Wylde nas Terras da Tempestade, na chuvosa costa leste do Cabo da Fúria.",
+    "wiki": "Rain_House"
+  },
+  "scan-site-v4-368": {
+    "resumo": "Cidade fortificada na Estrada de Pedra, nas Montanhas dos Ossos orientais, junto ao Grande Mar de Areia. Também chamada Shamyriana.",
+    "wiki": "Shamyriana"
+  },
+  "scan-site-v4-375": {
+    "resumo": "Sede da Casa Dondarrion nas Marcas de Dorne, no sudoeste das Terras da Tempestade.",
+    "wiki": "Blackhaven"
+  },
+  "scan-site-v4-384": {
+    "resumo": "Sede da Casa Blackbar na Campina, na costa do Mar do Poente.",
+    "wiki": "Bandallon"
+  },
+  "scan-site-v4-393": {
+    "resumo": "Sede da Casa Estermont, na ilha homônima das Terras da Tempestade.",
+    "wiki": "Greenstone"
+  },
+  "scan-site-v4-396": {
+    "resumo": "Sede da Casa Wyl em Dorne, a leste do Caminho dos Ossos, na foz do rio Wyl no Mar de Dorne.",
+    "wiki": "Wyl_(castle)"
+  },
+  "scan-site-v4-412": {
+    "resumo": "Vila mercante nas Terras da Tempestade, na costa sul do Cabo da Fúria, com um porto movimentado no Mar de Dorne.",
+    "wiki": "Weeping_Town"
+  },
+  "scan-site-v4-414": {
+    "resumo": "Torre circular no limite norte das Montanhas Vermelhas de Dorne, no extremo norte da Passagem do Príncipe.",
+    "wiki": "Tower_of_joy"
+  },
+  "scan-site-v4-439": {
+    "resumo": "Sede da Casa Beesbury na Campina, na margem leste do rio Mel.",
+    "wiki": "Honeyholt"
+  },
+  "scan-site-v4-456": {
+    "resumo": "Sede da Casa Manwoody em Dorne, nas Montanhas Vermelhas, aproximadamente na metade da Passagem do Príncipe.",
+    "wiki": "Kingsgrave"
+  },
+  "scan-site-v4-470": {
+    "resumo": "Uma das Cinco Fortes, colossais fortalezas na fronteira nordeste do Império Dourado de Yi Ti.",
+    "wiki": "Five_Forts"
+  },
+  "scan-site-v4-475": {
+    "resumo": "Prisão dornesa numa ilha árida do Mar de Dorne, usada pela Casa Martell para seus inimigos.",
+    "wiki": "Ghaston_Grey"
+  },
+  "scan-site-v4-492": {
+    "resumo": "Sede da Casa Fowler em Dorne, no extremo sul da Passagem do Príncipe.",
+    "wiki": "Skyreach"
+  },
+  "scan-site-v4-494": {
+    "resumo": "Uma das Cinco Fortes, colossais fortalezas na fronteira nordeste do Império Dourado de Yi Ti.",
+    "wiki": "Five_Forts"
+  },
+  "scan-site-v4-496": {
+    "resumo": "Sede da Casa Bulwer no sudoeste da Campina, na margem norte do Estreito dos Sussurros.",
+    "wiki": "Blackcrown"
+  },
+  "scan-site-v4-511": {
+    "resumo": "Sede da Casa Dayne de Alto Ermitério, ramo cadete dos Dayne, nas Montanhas Vermelhas de Dorne.",
+    "wiki": "High_Hermitage"
+  },
+  "scan-site-v4-521": {
+    "resumo": "Uma das Cinco Fortes, colossais fortalezas na fronteira nordeste do Império Dourado de Yi Ti.",
+    "wiki": "Five_Forts"
+  },
+  "scan-site-v4-528": {
+    "resumo": "Sede da Casa Costayne na Campina, num penhasco da costa sul do Estreito dos Sussurros.",
+    "wiki": "Three_Towers"
+  },
+  "scan-site-v4-531": {
+    "resumo": "Uma das Cinco Fortes, colossais fortalezas na fronteira nordeste do Império Dourado de Yi Ti.",
+    "wiki": "Five_Forts"
+  },
+  "scan-site-v4-549": {
+    "resumo": "Castelo ancestral da Casa Dayne em Dorne, às margens do Torrentino, junto ao Mar de Verão.",
+    "wiki": "Starfall"
+  },
+  "scan-site-v4-550": {
+    "resumo": "Ruínas sem nome registrado na Estrada do Demônio, entre Meereen e as terras de Mantarys.",
+    "wiki": null
+  },
+  "scan-site-v4-580": {
+    "resumo": "Sede da Casa Allyrion em Dorne, na margem norte do Sangueverde.",
+    "wiki": "Godsgrace"
+  },
+  "scan-site-v4-587": {
+    "resumo": "Palácio com jardins e obras hidráulicas que serve de refúgio privado da Casa Martell, a oeste de Lançassolar.",
+    "wiki": "Water_Gardens"
+  },
+  "scan-site-v4-592": {
+    "resumo": "Símbolo de cidade na costa a leste de Volantis, sem nome registrado no mapa.",
+    "wiki": null
+  },
+  "scan-site-v4-602": {
+    "resumo": "Sede da Casa Uller no sul de Dorne, junto às margens do Enxofre.",
+    "wiki": "Hellholt"
+  },
+  "scan-site-v4-606": {
+    "resumo": "Símbolo de castelo na ilha do Arbor, sem nome registrado no mapa.",
+    "wiki": null
+  },
+  "scan-site-v4-608": {
+    "resumo": "Sede da Casa Cuy na Campina, na costa sul da região, a leste de Vilavelha.",
+    "wiki": "Sunhouse"
+  },
+  "scan-site-v4-649": {
+    "resumo": "Ruínas sem nome registrado na ilha ao sul de Volantis, na foz do Rhoyne.",
+    "wiki": null
+  },
+  "scan-site-v4-698": {
+    "resumo": "Ruínas sem nome registrado no noroeste da península de Valíria.",
+    "wiki": null
+  },
+  "scan-site-v4-699": {
+    "resumo": "Ruínas sem nome registrado a oeste da Ilha dos Cedros, na Baía dos Escravos.",
+    "wiki": null
+  },
+  "scan-site-v4-741": {
+    "resumo": "Vilarejo sem nome registrado na costa noroeste da ilha de Qal, no Mar de Jade.",
+    "wiki": null
+  },
+  "scan-site-v4-747": {
+    "resumo": "Vilarejo sem nome registrado na costa sudeste da ilha de Qal, no Mar de Jade.",
+    "wiki": null
+  },
+  "scan-site-v4-754": {
+    "resumo": "Ruínas sem nome registrado na costa oeste da península de Valíria.",
+    "wiki": null
+  },
+  "scan-site-v4-766": {
+    "resumo": "Ruínas sem nome registrado na costa leste da península de Valíria, à beira do Mar Fumegante.",
+    "wiki": null
+  },
+  "scan-site-v4-771": {
+    "resumo": "A lendária capital do extinto Domínio de Valíria, arrasada pela Destruição. Hoje é uma península de ruínas à beira do Mar Fumegante.",
+    "wiki": "Valyria"
+  },
+  "scan-site-v4-794": {
+    "resumo": "Ruínas sem nome registrado no sul da península de Valíria.",
+    "wiki": null
+  },
+  "scan-site-v4-799": {
+    "wiki": "Last_Lament",
+    "resumo": "Assentamento na ponta noroeste de Walano, nas Ilhas do Verão."
+  },
+  "scan-site-v4-828": {
+    "wiki": null,
+    "resumo": "Vilarejo sem nome registrado na costa sudeste de Walano, nas Ilhas do Verão."
+  },
+  "scan-site-v4-838": {
+    "resumo": "Ruínas sem nome registrado no noroeste do continente de Ulthos.",
+    "wiki": null
+  },
+  "scan-site-v4-855": {
+    "wiki": null,
+    "resumo": "Vilarejo sem nome registrado na foz de um rio, nas Ilhas do Verão."
+  },
+  "scan-v4-cape-castle": {
+    "resumo": "Sede da Casa Locke no Norte, na costa norte da Mordida, a sudeste de Porto Branco.",
+    "wiki": "Oldcastle"
+  },
+  "scan-v4-dorne-3988-9056": {
+    "resumo": "Sede da Casa Yronwood no norte de Dorne, guardando a saída sul do Caminho dos Ossos.",
+    "wiki": "Yronwood"
+  },
+  "scan-v4-dorne-4264-9470": {
+    "resumo": "Sede da Casa Vaith em Dorne, onde o rio Vaith se une ao Escaldante para formar o Sangueverde.",
+    "wiki": "Vaith"
+  },
+  "scan-v4-dorne-4574-9180": {
+    "resumo": "Sede da Casa Jordayne em Dorne, na costa sul do Mar de Dorne, ao norte do Flagelo.",
+    "wiki": "Tor"
+  },
+  "scan-v4-dorne-5170-9180": {
+    "resumo": "Sede da Casa Toland em Dorne, na costa sul do Mar de Dorne, perto do Braço Quebrado.",
+    "wiki": "Ghost_Hill"
+  },
+  "scan-v4-summerhall-glyph": {
+    "resumo": "Castelo em ruínas nas Terras da Tempestade, nas Marcas de Dorne; foi um retiro de verão da Casa Targaryen.",
+    "wiki": "Summerhall"
+  },
+  "scan-v4-white-tree-glyph": {
+    "resumo": "Pequena aldeia do povo livre a noroeste do Castelo Negro, para lá da Muralha, nomeada por seu gigantesco represeiro.",
+    "wiki": "Whitetree"
+  },
+  "scan-v7-3704-8732": {
+    "wiki": null,
+    "resumo": "Castelo na vertente norte das Montanhas Vermelhas, junto a fronteira da Marca de Dorne. Sem nome proprio identificado."
+  },
+  "scan-v7-20370-8930": {
+    "wiki": null,
+    "resumo": "Castelo na costa do extremo leste de Essos, a oeste de Bonetown. Sem nome proprio identificado."
+  }
+}

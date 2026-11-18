@@ -31,16 +31,13 @@ PASS arianne: rota sem segmentos (Vaith cancelado) — segs=0
 PASS dados: victarion@123 pernas mar/fluvial/terra
 PASS dados: aegon@332 misto fluvial+mar + terrestre com lacuna
 PASS dados: tyrion@311/318 pernas mar
-PASS UI: dataset v6 carregado — 240 referências — 240 referências calibradas manualmente (222 identificadas em
+PASS UI: dataset v6 carregado — 240 referências
 PASS UI: 27 perfis selecionáveis
 PASS UI: 5 livros no seletor
-PASS UI: 27 rotulos de cobertura (um por rota)
-PASS UI: nota de cobertura nao-vazia, sem % nem completude
-PASS cobertura: notices exatos por personagem, livro agot — 27/27 exatos
-PASS cobertura: notices exatos por personagem, livro acok — 27/27 exatos
-PASS cobertura: notices exatos por personagem, livro asos — 27/27 exatos
-PASS cobertura: notices exatos por personagem, livro affc — 27/27 exatos
-PASS cobertura: notices exatos por personagem, livro adwd — 27/27 exatos
+PASS UI: 27 itens de personagem (um por rota)
+PASS UI: linha 'Nome — lugar' do selecionado no cap. 0 — Tyrion Lannister — Porto Real
+PASS UI: linha some ao desmarcar
+PASS UI: painel nao expoe cobertura/evidencia/roteiro
 PASS fronteira: jon@86 ausente em 85, presente em 86 — antes= depois=jon-v6-86-0
 PASS fronteira: jon@96 ausente em 95, presente em 96 — antes=jon-v6-86-0 depois=jon-v6-86-0,jon-v6-96-1
 PASS fronteira: samwell@86 ausente em 85, presente em 86 — antes= depois=samwell-v6-86-0
@@ -80,17 +77,14 @@ PASS livros: 'Ver livro completo' para no fim do LIVRO (142)
 PASS livros: 'Ver livro completo' em ADWD vai a 343
 PASS livros: troca de livro preserva selecao (asha marcada)
 PASS asha@122: nenhuma linha de percurso nova ainda — linhas=0
-PASS asha@123: pino de cena em Bosque Profundo — Asha Greyjoy
+PASS asha@123: pino de cena em Bosque Profundo — Asha Greyjoy — Bosque Profundo
 PASS asha@124: pino de cena some (sem presenca continua) — ok
-PASS asha@129: pino em Winterfell — Asha Greyjoy
+PASS asha@129: pino em Winterfell — Asha Greyjoy — Winterfell
 PASS asha@123: tooltip misto exibe 'mar + terra' — Asha Greyjoy — Pyke -> costa da Mata de Lobos -> Bosque Profundo (misto (mar + terra)) | Asha Greyjoy — Pyke -> costa da
-PASS asha@123: popup do trecho nao antecipa Winterfell — Asha GreyjoyPyke -> costa da Mata de Lobos -> Bosque ProfundoDisponível a partir do cap. 1
+PASS asha@123: popup do trecho nao antecipa Winterfell — Asha Greyjoy · Pyke → costa da Mata de Lobos → Bosque Profundomisto (mar + terra) · cap. 1
 PASS busca 'Griffin's Roost' resolve o ponto corrigido — ["scan-site-v4-300"]
 PASS busca 'Sinistres Gris' resolve Ghaston Grey — ["scan-site-v4-475"]
-PASS filtro: 18 descritos ocultos, 5 membros mantidos — visiveis=222
-PASS fontes: sidecar v6 nao carrega antes de abrir
-PASS fontes: sidecar v6 com 115 registros historicos — itens=115
-PASS fontes: sem nova certificacao de nomes — Auditoria de ocorrência exata de nomes na edição LeYa (AGOT-LEYA). A ocorrência 
+PASS fontes: nenhum fetch de evidencias na sessao
 PASS nativo: victarion@123 renderiza as 3 pernas mar/fluvial/terra — 3 pernas ok
 PASS nativo: tooltip misto exibe 'mar + fluvial + terra' — Victarion Greyjoy — Pyke -> Lanca de Sal -> Rio Febre -> Fosso Cailin (misto (mar + fluvial + terra)) | Victarion Greyjoy — Pyke -
 PASS aegon@331: nenhum -v6- elegivel — aegon-v4-285-0,aegon-v4-289-1,aegon-v4-293-2,aegon-v4-295-3
@@ -101,31 +95,31 @@ PASS nativo: nenhuma linha automatica liga mar->terra (gapBefore)
 PASS tyrion@310: nenhum -v6- elegivel — tyrion-line-1,tyrion-line-3,tyrion-supplement-21,tyrion-supplement-22,tyrion-line-6,tyrion-line-8,tyrion-supplement-27,tyrion-supplement-28,tyrion-line-11,tyrion-supplement-30,tyrion-v4-272-10,tyrion-v4-279-11,tyrion-v4-285-12,tyrion-v4-289-13,tyrion-v4-293-14,tyrion-v4-298-15
 PASS nativo: tyrion@311 perna mar no Golfo renderizada — linhas=17
 PASS nativo: tyrion@318 perna mar ate a foz renderizada
-PASS tyrion@318: popup declara 'fora' de Meereen — Tyrion LannisterGolfo da Magoa -> foz do Skahazadhan (fora de Meereen)Disponível a partir 
-PASS tyrion@318: popup mantem incerteza (aproximado/nao exato) — Tyrion LannisterGolfo da Magoa -> foz do Skahazadhan (fora de Meereen)Disponível a partir 
+PASS tyrion@318: popup declara 'fora' de Meereen — Tyrion Lannister · Golfo da Magoa → foz do Skahazadhan (fora de Meereen)mar · cap. 318–343
+PASS tyrion@318: popup compacto (modo + capitulo) — Tyrion Lannister · Golfo da Magoa → foz do Skahazadhan (fora de Meereen)mar · cap. 318–343
 PASS mobile 390: sem overflow horizontal — overflow=0
 PASS mobile 390: livro-select acessivel apos expandir
-PASS mobile 390: 27 notas de cobertura presentes
+PASS mobile 390: 27 itens de personagem presentes
 PASS mobile 390: ADWD vai ao cap. 271
 PASS mobile 320: sem overflow horizontal — overflow=0
 PASS mobile 320: livro-select acessivel apos expandir
-PASS mobile 320: 27 notas de cobertura presentes
+PASS mobile 320: 27 itens de personagem presentes
 PASS mobile 320: ADWD vai ao cap. 271
-PASS v6 invalido: status indisponível/erro — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua 
-PASS v6 invalido: controles travados, livro oculto
-PASS v6 invalido: NUNCA requisita v5/v4/v3/v2/v1
-PASS v6 invalido: sem pageerror fatal
-PASS v6 HTTP 500: status indisponível/erro — Localidades e trajetos indisponíveis: data/atlas-percursos-v6.json HTTP 500. O m
-PASS v6 HTTP 500: controles travados, livro oculto
-PASS v6 HTTP 500: NUNCA requisita v5/v4/v3/v2/v1
-PASS v6 HTTP 500: sem pageerror fatal
-PASS v6 404: fallback carrega v5 real (240 referências) — 240 referências calibradas manualmente (222 identificadas em
-PASS v6 404: resposta foi 404 do v6 + 200 do v5 — 404 atlas-percursos-v6.json, 200 atlas-inventario-v5.json
-PASS v6 404: sem rotulos de cobertura no v5 (campo ausente)
-PASS v6 404: livro-select funciona no fallback
+PASS v7 invalido: status indisponível/erro — Localidades e trajetos indisponíveis: hash da fonte divergente. O mapa continua
+PASS v7 invalido: controles travados, livro oculto
+PASS v7 invalido: NUNCA requisita v6/v5/v4/v3/v2/v1
+PASS v7 invalido: sem pageerror fatal
+PASS v7 HTTP 500: status indisponível/erro — Localidades e trajetos indisponíveis: data/atlas-percursos-v7.json HTTP 500. O m
+PASS v7 HTTP 500: controles travados, livro oculto
+PASS v7 HTTP 500: NUNCA requisita v6/v5/v4/v3/v2/v1
+PASS v7 HTTP 500: sem pageerror fatal
+PASS v7+v6 404: fallback carrega v5 real (240 referências)
+PASS v7+v6 404: respostas foram 404 de ambos + 200 do v5 — 404 atlas-percursos-v7.json, 404 atlas-percursos-v6.json, 200 atlas-inventario-v5.json
+PASS v7+v6 404: lista de personagens monta no fallback v5
+PASS v7+v6 404: livro-select funciona no fallback
 PASS nenhuma requisição externa — ok
 PASS nenhum fetch de imagem mestre — ok
-PASS tiles realmente requisitados no nativo — n=25
+PASS tiles realmente requisitados no nativo — n=46
 PASS todas respostas de tile HTTP 200 — ok
 PASS nenhuma requisição falha — ok
 PASS sem pageerrors

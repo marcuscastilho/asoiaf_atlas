@@ -109,6 +109,8 @@ async function novaPagina(largura, altura) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   page.on("pageerror", (e) => pageErrors.push(String(e)));
@@ -168,15 +170,11 @@ async function estado(page) {
   return page.evaluate(() => {
     const slider = document.querySelector("#cap-slider");
     const livro = document.querySelector("#livro-select");
-    const capSel = document.querySelector("#cap-select");
-    const opts = [...capSel.options].map((o) => Number(o.value));
     return {
       cap: Number(slider.value),
       min: Number(slider.min), max: Number(slider.max),
       livro: livro ? livro.value : null,
       livroOculto: livro ? livro.hidden : null,
-      opcoesCap: opts.length,
-      capPrim: opts[0], capUlt: opts[opts.length - 1],
       antOff: document.querySelector("#cap-ant").disabled,
       proxOff: document.querySelector("#cap-prox").disabled
     };
@@ -189,7 +187,10 @@ async function escolherLivro(page, id) {
 }
 
 async function setCap(page, n) {
-  await page.selectOption("#cap-select", String(n));
+  await page.locator("#cap-slider").evaluate((el, v) => {
+    el.value = String(v);
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+  }, n);
   await page.waitForTimeout(250);
 }
 
@@ -213,15 +214,10 @@ async function setCap(page, n) {
     st.cap === 0 && st.livro === "agot", JSON.stringify(st));
   check("v4: slider limitado a AGOT",
     st.min === 0 && st.max === 72, "min=" + st.min + " max=" + st.max);
-  check("v4: dropdown só capítulos de AGOT",
-    st.opcoesCap === 73 && st.capPrim === 0 && st.capUlt === 72,
-    "n=" + st.opcoesCap + " " + st.capPrim + ".." + st.capUlt);
   check("v4: 'Anterior' desabilitado no início do livro",
     st.antOff === true);
-  check("v4: nota de ordem de leitura presente", await page.evaluate(
-    () => !document.querySelector("#livro-nota").hidden &&
-      /Festim dos Corvos.*Dança dos Dragões/.test(
-        document.querySelector("#livro-nota").textContent)));
+  check("v4: sem nota de ordem de leitura na UI",
+    (await page.locator("#livro-nota").count()) === 0);
 
   /* escolher ACOK fora do capitulo atual: salta para o INICIO (73),
      nunca para o fim */
@@ -232,9 +228,6 @@ async function setCap(page, n) {
   check("ACOK: slider 73..142",
     st.min === 73 && st.max === 142,
     "min=" + st.min + " max=" + st.max);
-  check("ACOK: dropdown tem 70 opções globais 73..142",
-    st.opcoesCap === 70 && st.capPrim === 73 && st.capUlt === 142,
-    "n=" + st.opcoesCap);
   check("ACOK: 'Anterior' travado no início", st.antOff === true);
 
   /* capitulo dentro do livro: reescolher o MESMO livro nao salta */
@@ -288,8 +281,8 @@ async function setCap(page, n) {
   check("hash cap=290: ADWD derivado, limites 271..343",
     st.livro === "adwd" && st.min === 271 && st.max === 343,
     JSON.stringify(st));
-  check("hash cap=290: dropdown ADWD 271..343",
-    st.opcoesCap === 73 && st.capPrim === 271 && st.capUlt === 343);
+  check("hash cap=290: slider limitado a ADWD 271..343",
+    st.min === 271 && st.max === 343);
 
   /* trecho ADWD (280..300) visivel: clique real na linha abre o
      popup; recuar antes de 280 fecha (spoiler invertido) */
@@ -371,12 +364,8 @@ async function setCap(page, n) {
     st.livroOculto === true);
   check("404->v3: slider legado 0..72",
     st.min === 0 && st.max === 72, "min=" + st.min + " max=" + st.max);
-  check("404->v3: dropdown com os 73 capítulos",
-    st.opcoesCap === 73 && st.capUlt === 72);
-  const nota = await page.textContent("#localidades-nota");
   check("404->v3: inventário v3 carregado",
-    /referências calibradas/.test(nota || ""),
-    (nota || "").slice(0, 60));
+    await page.locator("#loc-lista li").count() > 0);
   await page.close();
 }
 

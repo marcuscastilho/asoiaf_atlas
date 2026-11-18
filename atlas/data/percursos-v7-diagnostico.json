@@ -1,0 +1,2918 @@
+{
+  "waypoints": [
+    {
+      "id": "w:darry",
+      "label": "Darry",
+      "origem": "portalKey-projetado",
+      "base": [
+        4078,
+        6508
+      ],
+      "final": [
+        4078,
+        6508
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:whispering-wood",
+      "label": "Bosque dos Murmúrios",
+      "origem": "approx-lead",
+      "base": [
+        3430,
+        6330
+      ],
+      "final": [
+        3430,
+        6330
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:skirling",
+      "label": "Passo dos Guinchos",
+      "origem": "approx-lead",
+      "base": [
+        3420,
+        1720
+      ],
+      "final": [
+        3420,
+        1720
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:mance-camp",
+      "label": "Acampamento de Mance (Guadeleite)",
+      "origem": "ajuste-manual",
+      "base": [
+        3560,
+        1960
+      ],
+      "final": [
+        3568,
+        1955
+      ],
+      "deltaPx": 9.4
+    },
+    {
+      "id": "w:wall-climb",
+      "label": "Escalada da Muralha",
+      "origem": "ajuste-manual",
+      "base": [
+        3960,
+        2440
+      ],
+      "final": [
+        3960,
+        2330
+      ],
+      "deltaPx": 110.0
+    },
+    {
+      "id": "w:nightfort",
+      "label": "Fortenoite",
+      "origem": "ajuste-manual",
+      "base": [
+        4254,
+        2407
+      ],
+      "final": [
+        3850,
+        2330
+      ],
+      "deltaPx": 411.7
+    },
+    {
+      "id": "w:haunted-forest",
+      "label": "Floresta Assombrada",
+      "origem": "approx-lead",
+      "base": [
+        4250,
+        1900
+      ],
+      "final": [
+        4250,
+        1900
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:cave",
+      "label": "Caverna do corvo de três olhos",
+      "origem": "approx-lead",
+      "base": [
+        4150,
+        1450
+      ],
+      "final": [
+        4150,
+        1450
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:skagos",
+      "label": "Skagos",
+      "origem": "ajuste-manual",
+      "base": [
+        5150,
+        2650
+      ],
+      "final": [
+        5230,
+        2590
+      ],
+      "deltaPx": 100.0
+    },
+    {
+      "id": "w:stony-shore",
+      "label": "Costa Pedregosa",
+      "origem": "portalKey-projetado",
+      "base": [
+        2023,
+        3981
+      ],
+      "final": [
+        2023,
+        3981
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:kingsroad-north",
+      "label": "Estrada do Rei, ao norte de Porto Real",
+      "origem": "approx-lead",
+      "base": [
+        4330,
+        7150
+      ],
+      "final": [
+        4330,
+        7150
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:godseye-south",
+      "label": "Ao sul do Olho de Deus",
+      "origem": "approx-lead",
+      "base": [
+        3990,
+        6960
+      ],
+      "final": [
+        3990,
+        6960
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:lake-village",
+      "label": "Aldeia à margem do Olho de Deus",
+      "origem": "approx-lead",
+      "base": [
+        3890,
+        6800
+      ],
+      "final": [
+        3890,
+        6800
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:high-heart",
+      "label": "Coração Alto",
+      "origem": "portalKey-projetado",
+      "base": [
+        3543,
+        6631
+      ],
+      "final": [
+        3543,
+        6631
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:hollow-hill",
+      "label": "Monte Oco",
+      "origem": "portalKey-projetado",
+      "base": [
+        3387,
+        6932
+      ],
+      "final": [
+        3387,
+        6932
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:moon-foothills",
+      "label": "Sopé das Montanhas da Lua",
+      "origem": "approx-lead",
+      "base": [
+        4330,
+        6250
+      ],
+      "final": [
+        4330,
+        6250
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:blackwater-bay",
+      "label": "Baía da Água Negra",
+      "origem": "ajuste-manual",
+      "base": [
+        4650,
+        7300
+      ],
+      "final": [
+        4660,
+        7290
+      ],
+      "deltaPx": 14.1
+    },
+    {
+      "id": "w:fingers",
+      "label": "Os Dedos",
+      "origem": "approx-lead",
+      "base": [
+        5480,
+        5560
+      ],
+      "final": [
+        5480,
+        5560
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:gates-moon",
+      "label": "Portões da Lua",
+      "origem": "approx-lead",
+      "base": [
+        4620,
+        6140
+      ],
+      "final": [
+        4620,
+        6140
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:green-fork",
+      "label": "Ramo Verde (batalha)",
+      "origem": "ajuste-manual",
+      "base": [
+        3800,
+        6250
+      ],
+      "final": [
+        3835,
+        6150
+      ],
+      "deltaPx": 105.9
+    },
+    {
+      "id": "w:red-fork",
+      "label": "Ramo Vermelho",
+      "origem": "ajuste-manual",
+      "base": [
+        3560,
+        6480
+      ],
+      "final": [
+        3546,
+        6358
+      ],
+      "deltaPx": 122.8
+    },
+    {
+      "id": "w:raventree",
+      "label": "Solar de Corvarbor",
+      "origem": "portalKey-projetado",
+      "base": [
+        3806,
+        6580
+      ],
+      "final": [
+        3806,
+        6580
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:whispers",
+      "label": "Murmúrios",
+      "origem": "portalKey-projetado",
+      "base": [
+        5297,
+        6712
+      ],
+      "final": [
+        5297,
+        6712
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:stoneheart",
+      "label": "Esconderijo da Irmandade",
+      "origem": "ajuste-manual",
+      "base": [
+        3980,
+        6380
+      ],
+      "final": [
+        3980,
+        6415
+      ],
+      "deltaPx": 35.0
+    },
+    {
+      "id": "w:lhazar-village",
+      "label": "Aldeia lhazarena",
+      "origem": "approx-lead",
+      "base": [
+        12600,
+        9150
+      ],
+      "final": [
+        12600,
+        9150
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:dothraki-hill",
+      "label": "Colina no Mar Dothraki",
+      "origem": "approx-lead",
+      "base": [
+        12000,
+        8550
+      ],
+      "final": [
+        12000,
+        8550
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:qohor-forest",
+      "label": "Floresta de Qohor",
+      "origem": "approx-lead",
+      "base": [
+        8700,
+        7000
+      ],
+      "final": [
+        8700,
+        7000
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:ten-towers",
+      "label": "Dez Torres",
+      "origem": "ajuste-manual",
+      "base": [
+        2681,
+        5999
+      ],
+      "final": [
+        2670,
+        5990
+      ],
+      "deltaPx": 14.4
+    },
+    {
+      "id": "w:old-wyk",
+      "label": "Velha Wyk",
+      "origem": "ajuste-manual",
+      "base": [
+        2560,
+        5940
+      ],
+      "final": [
+        2460,
+        5960
+      ],
+      "deltaPx": 102.0
+    },
+    {
+      "id": "w:shield-islands",
+      "label": "Ilhas Escudo",
+      "origem": "ajuste-manual",
+      "base": [
+        2230,
+        8150
+      ],
+      "final": [
+        2270,
+        8185
+      ],
+      "deltaPx": 53.2
+    },
+    {
+      "id": "w:cedars-strait",
+      "label": "Estreito da Ilha de Cedros",
+      "origem": "approx-lead",
+      "base": [
+        10850,
+        10150
+      ],
+      "final": [
+        10850,
+        10150
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:cape-wrath",
+      "label": "Cabo da Fúria (desembarque)",
+      "origem": "approx-lead",
+      "base": [
+        4900,
+        8300
+      ],
+      "final": [
+        4900,
+        8300
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:crofters",
+      "label": "Aldeia dos camponeses",
+      "origem": "approx-lead",
+      "base": [
+        3720,
+        3560
+      ],
+      "final": [
+        3720,
+        3560
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:wolfswood-march",
+      "label": "Mata de Lobos (marcha de Stannis)",
+      "origem": "approx-lead",
+      "base": [
+        3300,
+        3550
+      ],
+      "final": [
+        3300,
+        3550
+      ],
+      "deltaPx": 0.0
+    },
+    {
+      "id": "w:greenblood",
+      "label": "Sangueverde",
+      "origem": "ajuste-manual",
+      "base": [
+        4350,
+        9250
+      ],
+      "final": [
+        4350,
+        9020
+      ],
+      "deltaPx": 230.0
+    },
+    {
+      "id": "w:shandystone",
+      "label": "Pedramarela",
+      "origem": "portalKey-projetado",
+      "base": [
+        4933,
+        9422
+      ],
+      "final": [
+        4933,
+        9422
+      ],
+      "deltaPx": 0.0
+    }
+  ],
+  "routes": {
+    "jon": [
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "jon-line-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 16,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v6-86-0"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v6-96-1"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v4-107-3"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 111,
+        "verts": 7,
+        "waterRunPx": 16
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 127,
+        "verts": 10,
+        "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 211,
+        "verts": 19,
+        "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 148,
+        "verts": 9,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v4-191-4"
+      }
+    ],
+    "samwell": [
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v6-86-0"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v6-96-1"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v4-107-3"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v4-107-3"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jon-v6-96-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 89,
+        "verts": 4,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 181,
+        "verts": 11,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "samwell-v4-240-3"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "samwell-v4-251-4"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "samwell-v4-270-5"
+      }
+    ],
+    "bran": [
+      {
+        "kind": "pathfinder",
+        "cells": 86,
+        "verts": 4,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 396,
+        "verts": 26,
+        "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 134,
+        "verts": 9,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 113,
+        "verts": 6,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 114,
+        "verts": 8,
+        "waterRunPx": 4
+      }
+    ],
+    "rickon": [
+      {
+        "kind": "pathfinder",
+        "cells": 795,
+        "verts": 38,
+        "waterRunPx": 864
+      }
+    ],
+    "robb": [
+      {
+        "kind": "reuso-v6",
+        "ref": "robb-line-4"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "robb-line-6"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 253,
+        "verts": 7,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 151,
+        "verts": 9,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 4,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 114,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 109,
+        "verts": 5,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "robb-v4-157-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 212,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 108,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 79,
+        "verts": 6,
+        "waterRunPx": 8
+      }
+    ],
+    "catelyn": [
+      {
+        "kind": "pathfinder",
+        "cells": 359,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 1122,
+        "verts": 51,
+        "waterRunPx": 480
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "eddard-line-8"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 118,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 38,
+        "verts": 4,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 185,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 722,
+        "verts": 29,
+        "waterRunPx": 1084
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-line-13"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 113,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "robb-line-6"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 253,
+        "verts": 7,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 151,
+        "verts": 9,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 4,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "catelyn-v4-95-10"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-v4-104-11"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-v4-112-12"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 577,
+        "verts": 24,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 108,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 79,
+        "verts": 6,
+        "waterRunPx": 8
+      }
+    ],
+    "eddard": [
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      }
+    ],
+    "sansa": [
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 87,
+        "verts": 5,
+        "waterRunPx": 76
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 527,
+        "verts": 17,
+        "waterRunPx": 608
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 223,
+        "verts": 8,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 24,
+        "verts": 2,
+        "waterRunPx": 0
+      }
+    ],
+    "arya": [
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 66,
+        "verts": 4,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 101,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 146,
+        "verts": 8,
+        "waterRunPx": 4
+      },
+      {
+        "ch": 92,
+        "kind": "lead-fixed"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 62,
+        "verts": 5,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v6-156-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 77,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 22,
+        "verts": 3,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v4-172-3"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 33,
+        "verts": 3,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 77,
+        "verts": 5,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 129,
+        "verts": 10,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v4-193-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 260,
+        "verts": 10,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 88,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v6-217-2"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "arya-v4-231-5"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 546,
+        "verts": 27,
+        "waterRunPx": 628
+      }
+    ],
+    "theon": [
+      {
+        "kind": "reuso-v6",
+        "ref": "robb-line-4"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "robb-line-6"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 253,
+        "verts": 7,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 151,
+        "verts": 9,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 4,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 154,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 247,
+        "verts": 14,
+        "waterRunPx": 284
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 643,
+        "verts": 11,
+        "waterRunPx": 1460
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 412,
+        "verts": 10,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 236,
+        "verts": 9,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "theon-v6-291-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 491,
+        "verts": 13,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "theon-v6-303-1"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "theon-v6-308-2"
+      }
+    ],
+    "asha": [
+      {
+        "kind": "reuso-v6",
+        "ref": "asha-v6-123-0"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "asha-v6-129-1"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "asha-v6-129-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 950,
+        "verts": 30,
+        "waterRunPx": 1112
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 53,
+        "verts": 4,
+        "waterRunPx": 60
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 946,
+        "verts": 23,
+        "waterRunPx": 2760
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 105,
+        "verts": 7,
+        "waterRunPx": 20
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 117,
+        "verts": 11,
+        "waterRunPx": 4
+      }
+    ],
+    "victarion": [
+      {
+        "kind": "reuso-v6",
+        "ref": "victarion-v6-123-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 340,
+        "verts": 11,
+        "waterRunPx": 516
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 569,
+        "verts": 12,
+        "waterRunPx": 1328
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 2497,
+        "verts": 42,
+        "waterRunPx": 5236
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 57,
+        "verts": 3,
+        "waterRunPx": 140
+      }
+    ],
+    "daenerys": [
+      {
+        "kind": "pathfinder",
+        "cells": 584,
+        "verts": 11,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 1593,
+        "verts": 11,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 581,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 418,
+        "verts": 9,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "daenerys-v4-100-4"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "daenerys-v4-166-5"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "daenerys-v4-185-6"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "daenerys-v4-200-7"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 167,
+        "verts": 3,
+        "waterRunPx": 0
+      }
+    ],
+    "tyrion": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "jon-line-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 16,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "jon-line-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 18,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-supplement-22"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 118,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 38,
+        "verts": 4,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 38,
+        "verts": 5,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 118,
+        "verts": 9,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-11"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-11"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "eddard-line-8"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-272-10"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "tyrion-v4-279-11"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 168,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-285-12"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-289-13"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-293-14"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "tyrion-v4-298-15"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 167,
+        "verts": 13,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 769,
+        "verts": 34,
+        "waterRunPx": 1136
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 592,
+        "verts": 12,
+        "waterRunPx": 12
+      }
+    ],
+    "aegon": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-285-12"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-289-13"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-v4-293-14"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 126,
+        "verts": 7,
+        "waterRunPx": 24
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 1125,
+        "verts": 39,
+        "waterRunPx": 1820
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 44,
+        "verts": 5,
+        "waterRunPx": 12
+      }
+    ],
+    "jaime": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "jaime-line-6"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 499,
+        "verts": 15,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 145,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 114,
+        "verts": 5,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 4,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 34,
+        "verts": 4,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jaime-v4-154-8"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 17,
+        "verts": 2,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v6-156-1"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "arya-v6-99-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 11,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "arya-v6-99-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 9,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 48,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 180,
+        "verts": 9,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 112,
+        "verts": 5,
+        "waterRunPx": 0
+      }
+    ],
+    "brienne": [
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-v4-104-11"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-v4-112-12"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 577,
+        "verts": 24,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "jaime-v4-154-8"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 17,
+        "verts": 2,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "arya-v6-156-1"
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "arya-v6-99-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 11,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 31,
+        "verts": 2,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 53,
+        "verts": 3,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "brienne-v4-239-6"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 182,
+        "verts": 10,
+        "waterRunPx": 12
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 182,
+        "verts": 12,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "brienne-v4-256-7"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "brienne-v4-262-8"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 35,
+        "verts": 3,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 67,
+        "verts": 7,
+        "waterRunPx": 0
+      }
+    ],
+    "cersei": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      }
+    ],
+    "joffrey": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      }
+    ],
+    "myrcella": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "myrcella-v4-227-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 105,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 295,
+        "verts": 5,
+        "waterRunPx": 0
+      }
+    ],
+    "robert": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      }
+    ],
+    "renly": [
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-1"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 698,
+        "verts": 14,
+        "waterRunPx": 8
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 224,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 432,
+        "verts": 15,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 201,
+        "verts": 10,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "catelyn-v4-104-11"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 364,
+        "verts": 8,
+        "waterRunPx": 0
+      }
+    ],
+    "stannis": [
+      {
+        "kind": "reuso-v6",
+        "ref": "stannis-v4-104-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 301,
+        "verts": 16,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 233,
+        "verts": 12,
+        "waterRunPx": 368
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 1265,
+        "verts": 12,
+        "waterRunPx": 3348
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "samwell-v4-240-3"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "stannis-v4-297-4"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 105,
+        "verts": 7,
+        "waterRunPx": 20
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 117,
+        "verts": 11,
+        "waterRunPx": 4
+      }
+    ],
+    "davos": [
+      {
+        "kind": "reuso-v6",
+        "ref": "stannis-v4-104-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 552,
+        "verts": 20,
+        "waterRunPx": 896
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 129,
+        "verts": 4,
+        "waterRunPx": 596
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 1265,
+        "verts": 12,
+        "waterRunPx": 3348
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 826,
+        "verts": 19,
+        "waterRunPx": 2104
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "davos-v4-286-3"
+      }
+    ],
+    "tywin": [
+      {
+        "kind": "pathfinder",
+        "cells": 145,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 303,
+        "verts": 18,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-11"
+      },
+      {
+        "kind": "reuso-v6",
+        "ref": "tyrion-line-11"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 72,
+        "verts": 6,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "arya-v6-99-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 11,
+        "waterRunPx": 0
+      }
+    ],
+    "arianne": [
+      {
+        "kind": "pathfinder",
+        "cells": 105,
+        "verts": 7,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 194,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 295,
+        "verts": 5,
+        "waterRunPx": 0
+      }
+    ],
+    "littlefinger": [
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "littlefinger-v6-138-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 245,
+        "verts": 8,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "reuso-rejeitado",
+        "ref": "littlefinger-v6-138-0"
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 245,
+        "verts": 9,
+        "waterRunPx": 0
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 87,
+        "verts": 5,
+        "waterRunPx": 76
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 527,
+        "verts": 17,
+        "waterRunPx": 608
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 223,
+        "verts": 8,
+        "waterRunPx": 4
+      },
+      {
+        "kind": "pathfinder",
+        "cells": 24,
+        "verts": 2,
+        "waterRunPx": 0
+      }
+    ]
+  },
+  "fonte": {
+    "jon": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 19,
+          "at": "Castle_Black"
+        },
+        {
+          "ch": 86,
+          "at": "scan-v4-white-tree-glyph"
+        },
+        {
+          "ch": 96,
+          "at": "Craster%27s_Keep"
+        },
+        {
+          "ch": 107,
+          "at": "Fist_of_the_First_Men"
+        },
+        {
+          "ch": 124,
+          "at": "w:skirling"
+        },
+        {
+          "ch": 150,
+          "at": "w:mance-camp"
+        },
+        {
+          "ch": 169,
+          "at": "w:wall-climb"
+        },
+        {
+          "ch": 184,
+          "at": "Queenscrown"
+        },
+        {
+          "ch": 191,
+          "at": "Castle_Black"
+        }
+      ]
+    },
+    "samwell": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 26,
+          "at": "Castle_Black"
+        },
+        {
+          "ch": 86,
+          "at": "scan-v4-white-tree-glyph"
+        },
+        {
+          "ch": 96,
+          "at": "Craster%27s_Keep"
+        },
+        {
+          "ch": 107,
+          "at": "Fist_of_the_First_Men"
+        },
+        {
+          "ch": 176,
+          "at": "Craster%27s_Keep"
+        },
+        {
+          "ch": 189,
+          "at": "scan-v4-white-tree-glyph"
+        },
+        {
+          "ch": 199,
+          "at": "w:nightfort"
+        },
+        {
+          "ch": 218,
+          "at": "Castle_Black"
+        },
+        {
+          "ch": 240,
+          "at": "Eastwatch-by-the-Sea"
+        },
+        {
+          "ch": 251,
+          "at": "Braavos"
+        },
+        {
+          "ch": 270,
+          "at": "Oldtown"
+        }
+      ]
+    },
+    "bran": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 167,
+          "at": "w:wolfswood-march"
+        },
+        {
+          "ch": 183,
+          "at": "Queenscrown"
+        },
+        {
+          "ch": 199,
+          "at": "w:nightfort"
+        },
+        {
+          "ch": 275,
+          "at": "w:haunted-forest"
+        },
+        {
+          "ch": 284,
+          "at": "w:cave"
+        }
+      ]
+    },
+    "rickon": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 300,
+          "at": "w:skagos"
+        }
+      ]
+    },
+    "robb": {
+      "death": 194,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 55,
+          "at": "Moat_Cailin"
+        },
+        {
+          "ch": 59,
+          "at": "Twins"
+        },
+        {
+          "ch": 63,
+          "at": "w:whispering-wood"
+        },
+        {
+          "ch": 71,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 128,
+          "at": "scan-site-2516-6554"
+        },
+        {
+          "ch": 157,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 192,
+          "at": "scan-site-3626-6042"
+        },
+        {
+          "ch": 194,
+          "at": "Twins"
+        }
+      ]
+    },
+    "catelyn": {
+      "death": 194,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 18,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 28,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 34,
+          "at": "Eyrie"
+        },
+        {
+          "ch": 55,
+          "at": "Moat_Cailin"
+        },
+        {
+          "ch": 59,
+          "at": "Twins"
+        },
+        {
+          "ch": 63,
+          "at": "w:whispering-wood"
+        },
+        {
+          "ch": 71,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 95,
+          "at": "scan-site-3550-7818"
+        },
+        {
+          "ch": 104,
+          "at": "Storm%27s_End"
+        },
+        {
+          "ch": 112,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 192,
+          "at": "scan-site-3626-6042"
+        },
+        {
+          "ch": 194,
+          "at": "Twins"
+        }
+      ]
+    },
+    "eddard": {
+      "death": 65,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        }
+      ]
+    },
+    "sansa": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 204,
+          "at": "w:blackwater-bay"
+        },
+        {
+          "ch": 211,
+          "at": "w:fingers"
+        },
+        {
+          "ch": 223,
+          "at": "Eyrie"
+        },
+        {
+          "ch": 266,
+          "at": "w:gates-moon"
+        }
+      ]
+    },
+    "arya": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 74,
+          "at": "w:kingsroad-north"
+        },
+        {
+          "ch": 82,
+          "at": "w:godseye-south"
+        },
+        {
+          "ch": 92,
+          "at": "w:lake-village"
+        },
+        {
+          "ch": 99,
+          "at": "Harrenhal"
+        },
+        {
+          "ch": 156,
+          "at": "scan-site-3610-6356"
+        },
+        {
+          "ch": 165,
+          "at": "w:high-heart"
+        },
+        {
+          "ch": 165,
+          "at": "scan-site-3558-6710"
+        },
+        {
+          "ch": 172,
+          "at": "scan-site-3514-6972"
+        },
+        {
+          "ch": 177,
+          "at": "w:hollow-hill"
+        },
+        {
+          "ch": 186,
+          "at": "w:high-heart"
+        },
+        {
+          "ch": 190,
+          "at": "scan-site-4052-6476"
+        },
+        {
+          "ch": 193,
+          "at": "Twins"
+        },
+        {
+          "ch": 208,
+          "at": "w:moon-foothills"
+        },
+        {
+          "ch": 217,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 217,
+          "at": "scan-site-4400-6552"
+        },
+        {
+          "ch": 231,
+          "at": "Braavos"
+        }
+      ]
+    },
+    "theon": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 55,
+          "at": "Moat_Cailin"
+        },
+        {
+          "ch": 59,
+          "at": "Twins"
+        },
+        {
+          "ch": 63,
+          "at": "w:whispering-wood"
+        },
+        {
+          "ch": 71,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 84,
+          "at": "Pyke"
+        },
+        {
+          "ch": 110,
+          "at": "w:stony-shore"
+        },
+        {
+          "ch": 123,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 283,
+          "at": "Dreadfort"
+        },
+        {
+          "ch": 291,
+          "at": "Moat_Cailin"
+        },
+        {
+          "ch": 303,
+          "at": "Barrowton"
+        },
+        {
+          "ch": 308,
+          "at": "Winterfell"
+        }
+      ]
+    },
+    "asha": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 97,
+          "at": "Pyke"
+        },
+        {
+          "ch": 123,
+          "at": "Deepwood_Motte"
+        },
+        {
+          "ch": 129,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 139,
+          "at": "Deepwood_Motte"
+        },
+        {
+          "ch": 236,
+          "at": "w:ten-towers"
+        },
+        {
+          "ch": 244,
+          "at": "w:old-wyk"
+        },
+        {
+          "ch": 297,
+          "at": "Deepwood_Motte"
+        },
+        {
+          "ch": 313,
+          "at": "w:wolfswood-march"
+        },
+        {
+          "ch": 333,
+          "at": "w:crofters"
+        }
+      ]
+    },
+    "victarion": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 97,
+          "at": "Pyke"
+        },
+        {
+          "ch": 123,
+          "at": "Moat_Cailin"
+        },
+        {
+          "ch": 243,
+          "at": "w:old-wyk"
+        },
+        {
+          "ch": 254,
+          "at": "w:shield-islands"
+        },
+        {
+          "ch": 327,
+          "at": "Velos"
+        },
+        {
+          "ch": 334,
+          "at": "w:cedars-strait"
+        }
+      ]
+    },
+    "daenerys": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 3,
+          "at": "Pentos"
+        },
+        {
+          "ch": 23,
+          "at": "w:qohor-forest"
+        },
+        {
+          "ch": 36,
+          "at": "Vaes_Dothrak"
+        },
+        {
+          "ch": 61,
+          "at": "w:lhazar-village"
+        },
+        {
+          "ch": 85,
+          "at": "Vaes_Tolorro"
+        },
+        {
+          "ch": 100,
+          "at": "Qarth"
+        },
+        {
+          "ch": 166,
+          "at": "Astapor"
+        },
+        {
+          "ch": 185,
+          "at": "Yunkai"
+        },
+        {
+          "ch": 200,
+          "at": "Meereen"
+        },
+        {
+          "ch": 342,
+          "at": "w:dothraki-hill"
+        }
+      ]
+    },
+    "tyrion": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 19,
+          "at": "Castle_Black"
+        },
+        {
+          "ch": 24,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 28,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 34,
+          "at": "Eyrie"
+        },
+        {
+          "ch": 42,
+          "at": "scan-site-4542-6160"
+        },
+        {
+          "ch": 56,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 62,
+          "at": "w:green-fork"
+        },
+        {
+          "ch": 69,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 76,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 272,
+          "at": "Pentos"
+        },
+        {
+          "ch": 279,
+          "at": "Ghoyan_Drohe"
+        },
+        {
+          "ch": 285,
+          "at": "Ny_Sar"
+        },
+        {
+          "ch": 289,
+          "at": "Sorrows"
+        },
+        {
+          "ch": 293,
+          "at": "Selhorys"
+        },
+        {
+          "ch": 298,
+          "at": "Volantis"
+        },
+        {
+          "ch": 311,
+          "at": "Velos"
+        },
+        {
+          "ch": 318,
+          "at": "Meereen"
+        }
+      ]
+    },
+    "aegon": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 279,
+          "at": "Ghoyan_Drohe"
+        },
+        {
+          "ch": 285,
+          "at": "Ny_Sar"
+        },
+        {
+          "ch": 289,
+          "at": "Sorrows"
+        },
+        {
+          "ch": 293,
+          "at": "Selhorys"
+        },
+        {
+          "ch": 295,
+          "at": "Volon_Therys"
+        },
+        {
+          "ch": 332,
+          "at": "w:cape-wrath"
+        },
+        {
+          "ch": 332,
+          "at": "scan-site-v4-300"
+        }
+      ]
+    },
+    "jaime": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 40,
+          "at": "Casterly_Rock"
+        },
+        {
+          "ch": 55,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 63,
+          "at": "w:whispering-wood"
+        },
+        {
+          "ch": 71,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 144,
+          "at": "w:red-fork"
+        },
+        {
+          "ch": 154,
+          "at": "scan-site-3610-6356"
+        },
+        {
+          "ch": 174,
+          "at": "Harrenhal"
+        },
+        {
+          "ch": 205,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 252,
+          "at": "Harrenhal"
+        },
+        {
+          "ch": 255,
+          "at": "w:darry"
+        },
+        {
+          "ch": 258,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 319,
+          "at": "w:raventree"
+        }
+      ]
+    },
+    "brienne": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 95,
+          "at": "scan-site-3550-7818"
+        },
+        {
+          "ch": 104,
+          "at": "Storm%27s_End"
+        },
+        {
+          "ch": 112,
+          "at": "Riverrun"
+        },
+        {
+          "ch": 144,
+          "at": "w:red-fork"
+        },
+        {
+          "ch": 154,
+          "at": "scan-site-3610-6356"
+        },
+        {
+          "ch": 174,
+          "at": "Harrenhal"
+        },
+        {
+          "ch": 205,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 229,
+          "at": "scan-site-4452-7282"
+        },
+        {
+          "ch": 234,
+          "at": "scan-site-4656-7094"
+        },
+        {
+          "ch": 239,
+          "at": "scan-site-4584-6750"
+        },
+        {
+          "ch": 245,
+          "at": "w:whispers"
+        },
+        {
+          "ch": 250,
+          "at": "scan-site-4584-6750"
+        },
+        {
+          "ch": 256,
+          "at": "scan-site-4440-6670"
+        },
+        {
+          "ch": 262,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 267,
+          "at": "w:stoneheart"
+        },
+        {
+          "ch": 319,
+          "at": "w:raventree"
+        }
+      ]
+    },
+    "cersei": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        }
+      ]
+    },
+    "joffrey": {
+      "death": 203,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        }
+      ]
+    },
+    "myrcella": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 114,
+          "at": "Sunspear"
+        },
+        {
+          "ch": 238,
+          "at": "w:shandystone"
+        },
+        {
+          "ch": 246,
+          "at": "w:greenblood"
+        },
+        {
+          "ch": 265,
+          "at": "Sunspear"
+        }
+      ]
+    },
+    "robert": {
+      "death": 48,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        }
+      ]
+    },
+    "renly": {
+      "death": 106,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 4,
+          "at": "Winterfell"
+        },
+        {
+          "ch": 16,
+          "at": "w:darry"
+        },
+        {
+          "ch": 20,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 95,
+          "at": "scan-site-3550-7818"
+        },
+        {
+          "ch": 104,
+          "at": "Storm%27s_End"
+        }
+      ]
+    },
+    "stannis": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 73,
+          "at": "Dragonstone"
+        },
+        {
+          "ch": 104,
+          "at": "Storm%27s_End"
+        },
+        {
+          "ch": 131,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 153,
+          "at": "Dragonstone"
+        },
+        {
+          "ch": 219,
+          "at": "Castle_Black"
+        },
+        {
+          "ch": 297,
+          "at": "Deepwood_Motte"
+        },
+        {
+          "ch": 313,
+          "at": "w:wolfswood-march"
+        },
+        {
+          "ch": 333,
+          "at": "w:crofters"
+        }
+      ]
+    },
+    "davos": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 83,
+          "at": "Dragonstone"
+        },
+        {
+          "ch": 115,
+          "at": "Storm%27s_End"
+        },
+        {
+          "ch": 131,
+          "at": "w:blackwater-bay"
+        },
+        {
+          "ch": 153,
+          "at": "Dragonstone"
+        },
+        {
+          "ch": 219,
+          "at": "Eastwatch-by-the-Sea"
+        },
+        {
+          "ch": 280,
+          "at": "Sisterton"
+        },
+        {
+          "ch": 286,
+          "at": "White_Harbor"
+        }
+      ]
+    },
+    "tywin": {
+      "death": 220,
+      "stops": [
+        {
+          "ch": 0,
+          "at": "Casterly_Rock"
+        },
+        {
+          "ch": 56,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 62,
+          "at": "w:green-fork"
+        },
+        {
+          "ch": 69,
+          "at": "scan-site-4116-6426"
+        },
+        {
+          "ch": 99,
+          "at": "Harrenhal"
+        },
+        {
+          "ch": 135,
+          "at": "King%27s_Landing"
+        }
+      ]
+    },
+    "arianne": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 238,
+          "at": "Sunspear"
+        },
+        {
+          "ch": 238,
+          "at": "w:shandystone"
+        },
+        {
+          "ch": 246,
+          "at": "w:greenblood"
+        },
+        {
+          "ch": 265,
+          "at": "Sunspear"
+        }
+      ]
+    },
+    "littlefinger": {
+      "death": null,
+      "stops": [
+        {
+          "ch": 18,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 117,
+          "at": "scan-site-3550-7818"
+        },
+        {
+          "ch": 138,
+          "at": "King%27s_Landing"
+        },
+        {
+          "ch": 204,
+          "at": "w:blackwater-bay"
+        },
+        {
+          "ch": 211,
+          "at": "w:fingers"
+        },
+        {
+          "ch": 223,
+          "at": "Eyrie"
+        },
+        {
+          "ch": 266,
+          "at": "w:gates-moon"
+        }
+      ]
+    }
+  },
+  "invariantes": {
+    "erros": [],
+    "segments": 206,
+    "positions": 229,
+    "reuso": {
+      "reuso-v6": 63,
+      "pathfinder": 154
+    }
+  }
+}

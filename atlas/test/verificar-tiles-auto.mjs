@@ -119,9 +119,8 @@ try {
     check("A /atlas/ HTTP 200", rA.status() === 200);
     check("A nenhum #btn-tiles no DOM",
       (await page.locator("#btn-tiles").count()) === 0);
-    const barra = await page.locator(".barra-controles").textContent();
-    check("A toolbar sem acao manual de tiles",
-      !/Carregar tiles/i.test(barra || ""), (barra || "").trim().slice(0, 80));
+    check("A sem toolbar no DOM",
+      (await page.locator(".barra-controles").count()) === 0);
 
     await page.waitForSelector("img.leaflet-tile-loaded",
       { timeout: 30000 });
@@ -155,22 +154,9 @@ try {
     await page.waitForTimeout(300);
     check("A pan move o centro no nativo", cPan);
 
-    await page.click("#btn-ajuda");
-    check("A ajuda abre", await page.locator("#painel-ajuda").isVisible());
-    await page.click("#btn-ajuda");
-
-    await page.click("#btn-tela-cheia");
-    await page.waitForTimeout(600);
-    const fsOn = await page.evaluate(() => !!document.fullscreenElement);
-    const fsMsg = await page.locator("#mapa-status").textContent();
-    check("A tela cheia entra ou avisa sem falhar",
-      fsOn || /tela cheia/i.test(fsMsg || ""),
-      fsOn ? "fullscreen ativo" : (fsMsg || "").trim().slice(0, 60));
-    if (fsOn) {
-      await page.evaluate(() => document.exitFullscreen());
-      await page.waitForTimeout(300);
-    }
-
+    /* a interface simplificada nao tem mais ajuda nem tela cheia:
+       os unicos botoes sobre o mapa sao o zoom do Leaflet e o
+       alternador do painel */
     await page.screenshot({ path: join(OUT, "tiles-auto-desktop.png") });
     await ctx.close();
   }

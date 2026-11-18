@@ -187,6 +187,10 @@ async function novaPagina(vp, opts) {
       tileResponses.push(resp.status() + " " + resp.url());
     }
   });
+  /* fixture v6: o v7 publicado recebe 404 aqui para que a pagina caia
+     no v6 real — esta suite testa o contrato do dataset v6 */
+  await page.route("**/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   if (CANDIDATO) {
     /* somente as duas URLs v6 sao fixadas nos bytes congelados;
        todo o resto flui real (tiles, v5, portal) */
@@ -222,7 +226,11 @@ async function irPara(page, cap) {
       await page.waitForTimeout(250);
     }
   }
-  await page.selectOption("#cap-select", String(cap));
+  await page.evaluate((c) => {
+    const s = document.querySelector("#cap-slider");
+    s.value = String(c);
+    s.dispatchEvent(new Event("input"));
+  }, cap);
   await page.waitForTimeout(350);
 }
 
@@ -299,47 +307,36 @@ const pinosPos = (page) => page.evaluate(() => {
   const { ctx, page } = await novaPagina(
     { width: 1366, height: 900 });
 
-  const nota = await page.textContent("#localidades-nota");
   check("UI: dataset v6 carregado — 240 referências",
-    /240 referências/.test(nota || ""), (nota || "").slice(0, 60));
+    (await page.locator("#loc-lista li").count()) === 240);
   check("UI: 27 perfis selecionáveis",
     await page.locator("#lista-personagens input").count() === 27);
   check("UI: 5 livros no seletor",
     await page.locator("#livro-select option").count() === 5);
-  check("UI: 27 rotulos de cobertura (um por rota)",
-    await page.locator(".pers-cobertura").count() === 27);
-  check("UI: nota de cobertura nao-vazia, sem % nem completude",
+  check("UI: 27 itens de personagem (um por rota)",
+    await page.locator(".pers-item").count() === 27);
+  /* linha curta por personagem SELECIONADO: "Nome — lugar atual" na
+     janela do capitulo; tyrion@0 = Porto Real (posicao 0-3) */
+  await page.check("#chk-tyrion");
+  await page.waitForTimeout(300);
+  check("UI: linha 'Nome — lugar' do selecionado no cap. 0",
     await page.evaluate(() =>
-      [...document.querySelectorAll(".pers-cobertura")]
-        .every((sp) => sp.textContent.trim().length > 0 &&
-          !/%|\bcompleto\b|\bcompleta\b/i.test(sp.textContent))));
-
-  /* as 135 notas: cada rotulo pertence ao SEU personagem — le o
-     .pers-cobertura dentro do li de cada #chk-{rid} e compara com o
-     notice exato do livro selecionado; falha se o no nao existir */
-  for (const lv of DATA.books) {
-    await page.selectOption("#livro-select", lv.id);
-    await page.waitForTimeout(250);
-    let okLivro = true;
-    let det = "";
-    for (const rt of DATA.routes) {
-      const esperado = (rt.bookCoverage
-        .find((c) => c.bookId === lv.id) || {}).notice;
-      const atual = await page.evaluate((rid) => {
-        const cb = document.getElementById("chk-" + rid);
-        const li = cb && cb.closest(".pers-item");
-        const sp = li && li.querySelector(".pers-cobertura");
-        return sp ? sp.textContent.trim() : null;
-      }, rt.id);
-      if (atual === null || atual !== (esperado || "").trim()) {
-        okLivro = false;
-        det = rt.id + " => " + JSON.stringify(atual);
-        break;
-      }
-    }
-    check("cobertura: notices exatos por personagem, livro " + lv.id,
-      okLivro, det || "27/27 exatos");
-  }
+      [...document.querySelectorAll(".pers-atual-item")]
+        .some((e) => /Tyrion Lannister — Porto Real/.test(
+          e.textContent))),
+    (await page.locator("#pers-atual").textContent() || "")
+      .slice(0, 80));
+  await page.uncheck("#chk-tyrion");
+  await page.waitForTimeout(200);
+  check("UI: linha some ao desmarcar",
+    await page.evaluate(() =>
+      ![...document.querySelectorAll(".pers-atual-item")]
+        .some((e) => /Tyrion/.test(e.textContent))));
+  check("UI: painel nao expoe cobertura/evidencia/roteiro",
+    await page.evaluate(() =>
+      !document.querySelector(
+        ".pers-cobertura, #fontes, #roteiro-personagens, " +
+        "#trajeto-nota, #cap-nota, .evid-item")));
 
   /* fronteiras -v6- via filtro puro do app (mesma funcao do render) */
   for (const [cid, cap] of FRONTEIRAS) {
@@ -516,47 +513,10 @@ const pinosPos = (page) => page.evaluate(() => {
   await page.fill("#loc-busca", "");
   await page.waitForTimeout(300);
 
-  /* filtro identificados preservado */
-  const idsDesc = new Set(DATA.controlPoints
-    .filter((p) => p.identificationStatus === "geographically-described")
-    .map((p) => p.id));
-  const idsMemb = new Set(DATA.controlPoints
-    .filter((p) => p.identificationStatus === "named-group-member")
-    .map((p) => p.id));
-  await page.check("#loc-identificados");
-  await page.waitForTimeout(400);
-  const visIds = await page.evaluate(() =>
-    [...document.querySelectorAll("#loc-lista li:not([hidden])")]
-      .map((l) => l._ponto && l._ponto.id).filter(Boolean));
-  check("filtro: 18 descritos ocultos, 5 membros mantidos",
-    visIds.every((id) => !idsDesc.has(id)) &&
-      [...idsMemb].every((id) => visIds.includes(id)),
-    "visiveis=" + visIds.length);
-  await page.uncheck("#loc-identificados");
-  await page.waitForTimeout(300);
-
-  /* Fontes: sidecar v6 so sob demanda, 115 registros historicos */
-  const pediuEvid = () =>
-    requests.some((u) => u.includes("percursos-v6-evidencias"));
-  check("fontes: sidecar v6 nao carrega antes de abrir",
-    !pediuEvid());
-  await page.evaluate(() => {
-    document.getElementById("sec-fontes").open = true;
-    document.getElementById("sec-fontes")
-      .dispatchEvent(new Event("toggle"));
-  });
-  await page.waitForFunction(() =>
-    document.querySelectorAll(".evid-item").length > 0 ||
-      /indispon/i.test(
-        document.querySelector("#fontes-evidencias").textContent),
-    null, { timeout: 15000 }).catch(() => {});
-  const nEvid = await page.locator(".evid-item").count();
-  check("fontes: sidecar v6 com 115 registros historicos",
-    pediuEvid() && nEvid === 115, "itens=" + nEvid);
-  const evTxt = await page.locator("#fontes-evidencias").textContent();
-  check("fontes: sem nova certificacao de nomes",
-    /não amplia|históric|LeYa|não certifica/i.test(evTxt || ""),
-    (evTxt || "").slice(0, 80));
+  /* Fontes/evidencias foram removidas da UI: a pagina NUNCA busca o
+     sidecar historico (arquivo continua congelado em data/) */
+  check("fontes: nenhum fetch de evidencias na sessao",
+    !requests.some((u) => u.includes("evidencias")));
 
   await page.screenshot(
     { path: join(OUT, "percursos-v6-desktop.png") });
@@ -697,8 +657,9 @@ const pinosPos = (page) => page.evaluate(() => {
       .textContent().catch(() => "");
     check("tyrion@318: popup declara 'fora' de Meereen",
       /fora/i.test(tp || ""), (tp || "").slice(0, 90));
-    check("tyrion@318: popup mantem incerteza (aproximado/nao exato)",
-      /aproximad|não é posição exata|medida/i.test(tp || ""),
+    check("tyrion@318: popup compacto (modo + capitulo)",
+      /Tyrion Lannister/.test(tp || "") && /cap\./.test(tp || "") &&
+        !/evid|revis|proveni/i.test(tp || ""),
       (tp || "").slice(0, 90));
     await page.locator(".leaflet-popup-close-button")
       .click({ timeout: 2500 }).catch(() => {});
@@ -729,8 +690,8 @@ for (const largura of [390, 320]) {
       return s && !s.hidden &&
         s.getBoundingClientRect().width > 0;
     }));
-  check("mobile " + largura + ": 27 notas de cobertura presentes",
-    await page.locator(".pers-cobertura").count() === 27);
+  check("mobile " + largura + ": 27 itens de personagem presentes",
+    await page.locator(".pers-item").count() === 27);
   await page.selectOption("#livro-select", "adwd");
   await page.waitForTimeout(300);
   check("mobile " + largura + ": ADWD vai ao cap. 271",
@@ -742,10 +703,11 @@ for (const largura of [390, 320]) {
   await ctx.close();
 }
 
-/* ---------- v6 PRESENTE invalido/500: falha fechado ---------------- */
+/* ---------- v7 PRESENTE invalido/500: falha fechado ----------------
+   com v7 publicado, o topo da cascata e ele: quebrado, nada de v6 */
 for (const [nome, fulfill] of [
-  ["v6 invalido", { status: 200, contentType: "application/json",
-    body: JSON.stringify({ schemaVersion: 2, datasetId: "atlas-saga-v6",
+  ["v7 invalido", { status: 200, contentType: "application/json",
+    body: JSON.stringify({ schemaVersion: 2, datasetId: "atlas-saga-v7",
       mapId: "o-mundo-conhecido",
       tileSetId: "o-mundo-conhecido-recorte-v1",
       sourceSha256: "0".repeat(64),
@@ -754,7 +716,7 @@ for (const [nome, fulfill] of [
       cropBoxOriented: [0, 2336, 21654, 16764],
       chapters: [{ index: 0 }, { index: 9 }],
       controlPoints: [{ id: "x", x: 1, y: 1 }] }) }],
-  ["v6 HTTP 500", { status: 500, body: "erro" }]
+  ["v7 HTTP 500", { status: 500, body: "erro" }]
 ]) {
   const ctx = await browser.newContext(
     { viewport: { width: 1366, height: 900 } });
@@ -763,12 +725,12 @@ for (const [nome, fulfill] of [
   page.on("pageerror", (e) => errs.push(e.message));
   let pediuAntigo = false;
   page.on("request", (r) => {
-    if (/inventario-v5|inventario-v4|inventario-v3|atlas-agot-v2|piloto-norte/
+    if (/percursos-v6|inventario-v5|inventario-v4|inventario-v3|atlas-agot-v2|piloto-norte/
         .test(r.url())) {
       pediuAntigo = true;
     }
   });
-  await page.route("**/data/atlas-percursos-v6.json", (route) =>
+  await page.route("**/data/atlas-percursos-v7.json", (route) =>
     route.fulfill(fulfill));
   await page.goto(BASE + "/atlas/");
   let st = "";
@@ -786,14 +748,14 @@ for (const [nome, fulfill] of [
     await page.evaluate(() =>
       document.querySelector("#loc-busca").disabled &&
       document.querySelector("#livro-select").hidden));
-  check(nome + ": NUNCA requisita v5/v4/v3/v2/v1",
+  check(nome + ": NUNCA requisita v6/v5/v4/v3/v2/v1",
     pediuAntigo === false);
   check(nome + ": sem pageerror fatal",
     errs.length === 0, errs.slice(0, 1).join(" | "));
   await ctx.close();
 }
 
-/* ---------- v6 404 explicito: cai para o v5 real ------------------- */
+/* ---------- v7+v6 404 explicitos: cai para o v5 real --------------- */
 {
   const ctx = await browser.newContext(
     { viewport: { width: 1366, height: 900 } });
@@ -805,21 +767,23 @@ for (const [nome, fulfill] of [
       invResps.push(r.status() + " " + r.url().split("/").pop());
     }
   });
+  await page.route("**/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#lista-personagens input[type=checkbox]",
     { state: "attached", timeout: 45000 });
-  const nota = await page.textContent("#localidades-nota");
-  check("v6 404: fallback carrega v5 real (240 referências)",
-    /240 referências/.test(nota || ""), (nota || "").slice(0, 60));
-  check("v6 404: resposta foi 404 do v6 + 200 do v5",
-    invResps.some((s) => /^404 atlas-percursos-v6/.test(s)) &&
+  check("v7+v6 404: fallback carrega v5 real (240 referências)",
+    (await page.locator("#loc-lista li").count()) === 240);
+  check("v7+v6 404: respostas foram 404 de ambos + 200 do v5",
+    invResps.some((s) => /^404 atlas-percursos-v7/.test(s)) &&
+      invResps.some((s) => /^404 atlas-percursos-v6/.test(s)) &&
       invResps.some((s) => /^200 atlas-inventario-v5/.test(s)),
     invResps.join(", "));
-  check("v6 404: sem rotulos de cobertura no v5 (campo ausente)",
-    await page.locator(".pers-cobertura").count() === 0);
-  check("v6 404: livro-select funciona no fallback",
+  check("v7+v6 404: lista de personagens monta no fallback v5",
+    await page.locator(".pers-item").count() > 0);
+  check("v7+v6 404: livro-select funciona no fallback",
     await page.evaluate(() =>
       !document.querySelector("#livro-select").hidden));
   await ctx.close();

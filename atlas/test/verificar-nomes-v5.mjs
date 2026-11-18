@@ -158,6 +158,8 @@ async function novaPagina(vp) {
   });
   /* fixa o salto mais novo: quando o v6 for publicado, esta suite
      continuaria testando o v5 real so com 404 explicito */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.goto(BASE + "/atlas/");
@@ -210,9 +212,8 @@ async function limparBusca(page) {
       /atlas-inventario-v5\.json$/.test(invResps[0]) &&
       invResps[0].startsWith("200"),
     invResps.join(", ") || "nenhum");
-  const nota = await page.textContent("#localidades-nota");
-  check("UI: nota mostra 240 referências",
-    /240 referências/.test(nota || ""), (nota || "").slice(0, 60));
+  check("UI: 240 itens na lista de localidades",
+    (await page.locator("#loc-lista li").count()) === 240);
   check("UI: 27 perfis selecionáveis",
     (await page.locator(
       "#lista-personagens input[type=checkbox]").count()) === 27);
@@ -264,19 +265,15 @@ async function limparBusca(page) {
     "itens=" + todosNomes.length + " " +
       (todosNomes.find((t) => /^s[íi]mbolo sem nome/i.test(t)) || "ok"));
 
-  /* --- 'Somente identificados' esconde os 18 descritos, mantem os 5 --- */
-  await page.check("#loc-identificados");
-  await page.waitForTimeout(400);
-  ids = await itensVisiveis(page);
-  const descIds = new Set(descritos.map((d) => d.id));
-  check("filtro 'Somente identificados' esconde os 18 descritos",
-    ids.every((id) => !descIds.has(id)),
-    "descritos visiveis=" +
-      ids.filter((id) => descIds.has(id)).length);
-  check("filtro 'Somente identificados' mantém os 5 membros",
-    membros.every((m) => ids.includes(m.id)));
-  await page.uncheck("#loc-identificados");
-  await page.waitForTimeout(300);
+  /* --- descritos e membros seguem pesquisaveis (sem filtro) --- */
+  {
+    const descIds = new Set(descritos.map((d) => d.id));
+    const alvoDesc = ponto(ID_URSO);
+    ids = await buscar(page, alvoDesc ? alvoDesc.label : "Ilha dos Ursos");
+    check("ponto descrito pesquisavel pelo rotulo",
+      ids.some((id) => descIds.has(id)),
+      "visiveis=" + ids.length);
+  }
 
   /* --- popup honesto do ponto descrito (Ilha dos Ursos): clica no
      item EXATO cujo _ponto.id confere, nao no primeiro da lista --- */
@@ -295,13 +292,14 @@ async function limparBusca(page) {
         check("popup descrito: item exato clicável", clicou === true);
         await page.waitForSelector(".leaflet-popup", { timeout: 8000 });
         const txt = await page.locator(".leaflet-popup").textContent();
-        check("popup descrito: texto honesto de descrição geográfica",
-          /Descrição geográfica; a fonte não informa nome próprio/i
-            .test(txt || ""), (txt || "").slice(0, 90));
-        check("popup descrito: não clama nome impresso",
-          !/Nome impresso/.test(txt || ""));
+        check("popup descrito: card mostra rotulo e resumo",
+          /Ilha dos Ursos/i.test(txt || "") &&
+            /Mormont|Baía de Gelo/i.test(txt || ""),
+          (txt || "").slice(0, 120));
+        check("popup descrito: sem status/evidencia",
+          !/Nome impresso|revis|evid|proveni/i.test(txt || ""));
       } catch (e) {
-        check("popup descrito: texto honesto de descrição geográfica",
+        check("popup descrito: card mostra rotulo e resumo",
           false, "popup não abriu: " + e.message.slice(0, 60));
       }
     } else {
@@ -409,7 +407,7 @@ async function limparBusca(page) {
       await page.waitForTimeout(500);
       const txt = await page.locator(".leaflet-popup").textContent();
       check("nativo: popup de membro identifica o conjunto",
-        /Identificação do conjunto|conjunto/i.test(txt || ""),
+        /Cinco Fortes/i.test(txt || ""),
         (txt || "").slice(0, 90));
       await page.screenshot(
         { path: join(OUT, "nomes-v5-popup-grupo.png") });
@@ -430,9 +428,8 @@ async function limparBusca(page) {
         !!simU && simU.simbolo === true,
         simU ? "simbolo=" + simU.simbolo : "sem marcador");
       const txt = await page.locator(".leaflet-popup").textContent();
-      check("nativo: popup descrito honesto (sem nome próprio)",
-        /Descrição geográfica; a fonte não informa nome próprio/i
-          .test(txt || ""), (txt || "").slice(0, 80));
+      check("nativo: popup descrito mostra card curto",
+        /Ilha dos Ursos/i.test(txt || ""), (txt || "").slice(0, 80));
       await page.screenshot(
         { path: join(OUT, "nomes-v5-popup-descricao.png") });
     } else {
@@ -457,6 +454,8 @@ async function limparBusca(page) {
       pediuAntigo = true;
     }
   });
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-inventario-v5.json", (route) =>
@@ -513,6 +512,8 @@ async function limparBusca(page) {
       pediuAntigo = true;
     }
   });
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-inventario-v5.json", (route) =>
@@ -551,6 +552,8 @@ async function limparBusca(page) {
       invResps.push(r.status() + " " + r.url().split("/").pop());
     }
   });
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/data/atlas-inventario-v5.json", (route) =>
@@ -558,9 +561,9 @@ async function limparBusca(page) {
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("#lista-personagens input[type=checkbox]",
     { state: "attached", timeout: 45000 });
-  const nota = await page.textContent("#localidades-nota");
-  check("v5 404: fallback carrega v4 real (242 referências)",
-    /242 referências/.test(nota || ""), (nota || "").slice(0, 60));
+  const nLocs = await page.locator("#loc-lista li").count();
+  check("v5 404: fallback carrega v4 real (242 itens)",
+    nLocs === 242, "n=" + nLocs);
   check("v5 404: resposta foi 404 do v5 + 200 do v4",
     invResps.some((s) => /^404 atlas-inventario-v5/.test(s)) &&
       invResps.some((s) => /^200 atlas-inventario-v4/.test(s)),
@@ -594,7 +597,7 @@ for (const largura of [390, 320]) {
   if (vis) {
     await page.selectOption("#livro-select", "adwd");
     await page.waitForTimeout(400);
-    const cap = await page.inputValue("#cap-select");
+    const cap = await page.inputValue("#cap-slider");
     check("mobile " + largura + ": ADWD vai ao cap. 271",
       cap === "271", "cap=" + cap);
   }

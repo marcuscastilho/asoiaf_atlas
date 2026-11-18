@@ -140,6 +140,8 @@ async function ligarColetores(page, tag) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -156,7 +158,7 @@ async function ligarColetores(page, tag) {
   await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
 
   check("lista tem 3 localidades",
     (await page.locator("#loc-lista li").count()) === 3);
@@ -200,7 +202,12 @@ async function ligarColetores(page, tag) {
   await page.click(".leaflet-control-zoom-out");
   await page.waitForTimeout(900);
   const zoomMundo = await page.evaluate(() => window.__atlasMap.getZoom());
-  await page.locator(".loc-item").first().click();
+  /* a lista de resultados so aparece com texto na busca */
+  await page.fill("#loc-busca", "Torre");
+  await page.waitForSelector("#loc-lista li:not([hidden])",
+    { timeout: 5000 });
+  await page.locator("#loc-lista li:not([hidden]) .loc-item")
+    .first().click();
   await page.waitForTimeout(1400);
   const zoomFoco = await page.evaluate(() => window.__atlasMap.getZoom());
   check("foco da busca aumenta o zoom", zoomFoco > zoomMundo + 1,
@@ -211,22 +218,10 @@ async function ligarColetores(page, tag) {
     (await page.locator(".leaflet-overlay-pane path").count()) >= 1 &&
       (await page.locator(".loc-pin-jon").count()) === 1);
 
-  // somente posicao atual: esconde linha, mantem marcador
-  await page.check("#cap-somente");
-  await page.waitForTimeout(350);
-  check("markerOnly esconde linha",
-    (await page.locator(".leaflet-overlay-pane path").count()) === 0);
-  check("markerOnly mantem marcador de posicao",
-    (await page.locator(".loc-pin-jon").count()) === 1);
-  await page.uncheck("#cap-somente");
-
   // capitulo sem posicao de referencia
   await setCapitulo(page, 1);
   check("ch1 sem marcador de posicao",
     (await page.locator(".loc-pin-jon").count()) === 0);
-  const nota1 = await page.locator("#cap-nota").textContent();
-  check("nota de omitidos/sem referencia",
-    /sem refer.ncia|omitidos/i.test(nota1), nota1.trim());
 
   // busca com acento e caixa
   await page.fill("#loc-busca", "ambar");
@@ -246,8 +241,8 @@ async function ligarColetores(page, tag) {
     (await page.locator(".leaflet-popup").count()) === 1,
     "pops=" + (await page.locator(".leaflet-popup").count()));
   const popupTxt = await page.locator(".leaflet-popup").first().textContent();
-  check("popup com status de revisao",
-    /revis/i.test(popupTxt) && /Castelo Negro|Winterfell|Torre/.test(popupTxt),
+  check("popup: card curto com nome da localidade",
+    /Castelo Negro|Winterfell|Torre/.test(popupTxt),
     popupTxt.trim().slice(0, 80));
   await page.keyboard.press("Escape");
 
@@ -314,6 +309,8 @@ async function ligarColetores(page, tag) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -350,6 +347,8 @@ async function ligarColetores(page, tag) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -381,6 +380,8 @@ async function ligarColetores(page, tag) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -400,6 +401,10 @@ async function ligarColetores(page, tag) {
     () => document.documentElement.scrollWidth - document.documentElement.clientWidth
   );
   check("mobile sem overflow horizontal", overflow <= 1, "overflow=" + overflow);
+  /* culling por vista: zoom minimo revela os 3 pinos do fixture */
+  await page.evaluate(() =>
+    window.__atlasMap.setZoom(window.__atlasMap.getMinZoom()));
+  await page.waitForTimeout(600);
   check("mobile: marcadores visiveis",
     (await page.locator(".loc-pin").count()) === 3);
   await page.screenshot({ path: join(OUT, "overlays-mobile.png"), fullPage: true });
@@ -416,6 +421,8 @@ async function ligarColetores(page, tag) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>

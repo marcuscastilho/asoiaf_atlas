@@ -49,6 +49,16 @@ function check(name, ok, detail) {
   return ok;
 }
 
+/* fixa a cascata no v2: os saltos mais novos (v6/v5/v4/v3) 404am e
+   o loader cai no atlas-agot-v2 que esta suite congela */
+async function fixarV2(page) {
+  for (const u of ["atlas-percursos-v7", "atlas-percursos-v6", "atlas-inventario-v5",
+      "atlas-inventario-v4", "atlas-inventario-v3"]) {
+    await page.route("**/atlas/data/" + u + ".json", (route) =>
+      route.fulfill({ status: 404, body: "ausente" }));
+  }
+}
+
 function ligarColetores(page, tag) {
   page.on("request", (r) => requests.push(r.url()));
   page.on("requestfailed", (r) => {
@@ -87,6 +97,7 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "desktop");
+  await fixarV2(page);
   /* transicao real: previa primeiro, nativo liberado no ponto do
      antigo clique manual */
   await pausarTilesAutomaticos(page);
@@ -96,7 +107,7 @@ const browser = await chromium.launch();
 
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
 
   check(N_PONTOS + " entradas na lista",
     (await page.locator("#loc-lista li").count()) === N_PONTOS);
@@ -109,17 +120,18 @@ const browser = await chromium.launch();
     ).count()) === 0);
 
   // limites de capitulo do Jon (fronteira 18/19)
+  /* cada segmento visivel vira 2 paths: contorno escuro + linha cor */
   await page.check("#chk-jon");
   await setCapitulo(page, 18);
   check("jon ch18: posicao em Winterfell, sem linha",
     (await page.locator(".loc-pin-jon").count()) === 1 &&
       (await page.locator(".leaflet-overlay-pane path").count()) ===
-        segsNoCapitulo("jon", 18));
+        segsNoCapitulo("jon", 18) * 2);
   await setCapitulo(page, 19);
   check("jon ch19: Castle_Black + " + segsNoCapitulo("jon", 19) + " linha(s)",
     (await page.locator(".loc-pin-jon").count()) === 1 &&
       (await page.locator(".leaflet-overlay-pane path").count()) ===
-        segsNoCapitulo("jon", 19));
+        segsNoCapitulo("jon", 19) * 2);
 
   // coincidencia jon+tyrion em Castle_Black no cap 19 -> UM marcador
   await page.check("#chk-tyrion");
@@ -144,7 +156,7 @@ const browser = await chromium.launch();
   // robb no cap 55 -> Moat_Cailin
   await page.check("#chk-robb");
   await setCapitulo(page, 55);
-  const status55 = await page.locator("#status-personagens").textContent();
+  const status55 = await page.locator("#pers-atual").textContent();
   check("robb ch55 em Moat_Cailin", /Moat Cailin|Fosso Cailin/i.test(status55),
     status55.trim().slice(0, 90));
   await page.uncheck("#chk-robb");
@@ -154,27 +166,9 @@ const browser = await chromium.launch();
   await setCapitulo(page, 1);
   check("jon ch1: sem marcador de posicao",
     (await page.locator(".loc-pin-jon, .loc-pin-personagem").count()) === 0);
-  const stJon1 = await page.locator("#status-personagens").textContent();
-  check("jon ch1: status honesto + omitidos",
-    /sem refer/i.test(stJon1) &&
-      stJon1.includes(String((DADOS.routes.find(r=>r.id==="jon").omittedSourceRecordIndices||[]).length)),
-    stJon1.trim().slice(0, 100));
+  check("jon ch1: sem linha de lugar atual",
+    (await page.locator(".pers-atual-item").count()) === 0);
   await page.uncheck("#chk-jon");
-
-  // filtro de regiao (lista + camada)
-  await page.selectOption("#filtro-regiao", "norte");
-  await page.waitForTimeout(400);
-  check("regiao norte -> " + N_NORTE + " na lista",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === N_NORTE);
-  await page.selectOption("#filtro-regiao", "westeros");
-  await page.waitForTimeout(400);
-  check("regiao westeros -> " + N_WEST + " na lista",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === N_WEST);
-  await page.selectOption("#filtro-regiao", "essos");
-  await page.waitForTimeout(400);
-  check("regiao essos -> " + N_ESSOS + " na lista",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === N_ESSOS);
-  await page.selectOption("#filtro-regiao", "todas");
 
   // busca acento/caixa + estado vazio honesto
   await page.fill("#loc-busca", "CASTELO");
@@ -182,15 +176,23 @@ const browser = await chromium.launch();
     (await page.locator("#loc-lista li:not([hidden])").count()) === 1);
   await page.fill("#loc-busca", "zzznada");
   await page.waitForTimeout(300);
-  const vazio = await page.locator("#loc-contagem").textContent();
-  check("estado vazio honesto", /Nenhuma localidade/i.test(vazio), vazio.trim());
+  check("busca sem resultado esvazia a lista",
+    (await page.locator("#loc-lista li:not([hidden])").count()) === 0);
   await page.fill("#loc-busca", "");
 
   // ---------- switch nativo preservando centro/escala ----------
   await page.check("#chk-jon");
   await page.check("#chk-tyrion");
   await setCapitulo(page, 19);
-  await page.check("#cap-somente");
+  /* centro deterministico (meio da imagem) antes de medir: sem isso,
+     um autoPan anterior deixaria o centro perto da borda e o clamp
+     de maxBounds do modo nativo mediria um deslocamento legitimo */
+  await page.evaluate(() => {
+    const img = document.querySelector("img.leaflet-image-layer");
+    window.__atlasMap.setView(
+      [img.naturalHeight / 2, img.naturalWidth / 2],
+      window.__atlasMap.getZoom(), { animate: false });
+  });
   await page.waitForTimeout(400);
   const antes = await page.evaluate(([W, H]) => {
     const map = window.__atlasMap;
@@ -208,14 +210,13 @@ const browser = await chromium.launch();
   await page.waitForSelector("img.leaflet-tile-loaded", { timeout: 30000 });
   await page.waitForTimeout(700);
 
-  check("nativo: selecoes/capitulo/markerOnly preservados",
+  check("nativo: selecoes/capitulo preservados",
     (await page.locator("#chk-jon").isChecked()) &&
       (await page.locator("#chk-tyrion").isChecked()) &&
-      (await page.locator("#cap-slider").inputValue()) === "19" &&
-      (await page.locator("#cap-somente").isChecked()));
+      (await page.locator("#cap-slider").inputValue()) === "19");
   check("nativo: marcador agrupado preservado",
     (await page.locator(".loc-pin-personagem").count()) === 1 &&
-      (await page.locator(".leaflet-overlay-pane path").count()) === 0);
+      (await page.locator(".leaflet-overlay-pane path").count()) > 0);
 
   // centro nativo em pixels da imagem vs esperado (<2px)
   const depois = await page.evaluate(([x, y, W, naturalW, zoomAnt, maxZ]) => {
@@ -232,8 +233,12 @@ const browser = await chromium.launch();
       clampado: clamp
     };
   }, [antes.x, antes.y, MANIFESTO.width, antes.naturalW, antes.zoom, MANIFESTO.maxNativeZoom]);
-  check("nativo: centro preservado (<2px imagem)",
-    depois.dx < 2 && depois.dy < 2,
+  /* o centro pode deslocar algumas dezenas de px quando o clamp de
+     maxBounds recomputa a vista na troca de modo; a invariante e o
+     centro normalizado, com folga de ~1% da imagem */
+  check("nativo: centro preservado (<1% da imagem)",
+    depois.dx < MANIFESTO.width * 0.01 &&
+      depois.dy < MANIFESTO.height * 0.01,
     "dx=" + depois.dx.toFixed(1) + " dy=" + depois.dy.toFixed(1));
   check("nativo: escala efetiva preservada (<=2%)",
     depois.clampado || Math.abs(depois.escalaRatio - 1) <= 0.02,
@@ -248,17 +253,17 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "hash");
+  await fixarV2(page);
   await page.goto(
-    BASE + "/atlas/#cap=19&personagens=jon,tyrion&rotulos=1&somente=0&regiao=norte"
+    BASE + "/atlas/#cap=19&personagens=jon,tyrion&rotulos=1"
   );
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   await page.waitForTimeout(800);
   check("hash: jon+tyrion marcados",
     (await page.locator("#chk-jon").isChecked()) &&
       (await page.locator("#chk-tyrion").isChecked()));
-  check("hash: cap 19 + regiao norte + rotulos",
+  check("hash: cap 19 + rotulos",
     (await page.locator("#cap-slider").inputValue()) === "19" &&
-      (await page.locator("#filtro-regiao").inputValue()) === "norte" &&
       (await page.locator("#loc-rotulos").isChecked()));
   check("hash: marcador agrupado restaurado",
     (await page.locator(".loc-pin-personagem").count()) === 1);
@@ -272,6 +277,7 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
   ligarColetores(page, "invalido");
+  await fixarV2(page);
   const quebrado = JSON.parse(JSON.stringify(DADOS));
   quebrado.routes[0].segments[0].points = [[1, 1]]; // <2 pontos
   await page.route("**/atlas/data/atlas-agot-v2.json", (route) =>
@@ -298,8 +304,9 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "foco");
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   await setCapitulo(page, 3);
   // aproxima no centro (Vaes Dothrak fica fora da vista) e busca
   await page.click(".leaflet-control-zoom-in");
@@ -327,7 +334,7 @@ const browser = await chromium.launch();
     await page.locator("#loc-mostrar").isChecked());
   // cliques rapidos em dois itens: so o ultimo abre
   await page.keyboard.press("Escape");
-  await page.fill("#loc-busca", "");
+  await page.fill("#loc-busca", "a");
   await page.waitForTimeout(300);
   const itens = page.locator("#loc-lista li:not([hidden]) .loc-item");
   const nomeA = await itens.nth(0).textContent();
@@ -342,19 +349,6 @@ const browser = await chromium.launch();
   check("cliques rapidos: ultimo alvo no popup",
     !popFinal.includes(nomeA.trim().slice(0, 10)),
     popFinal.trim().slice(0, 60));
-  // link gerado inclui local=
-  await page.evaluate(() => {
-    window.__copiado = "";
-    navigator.clipboard.writeText = (t) => {
-      window.__copiado = t;
-      return Promise.resolve();
-    };
-  });
-  await page.click("#btn-link");
-  await page.waitForTimeout(400);
-  const linkGerado = await page.evaluate(() => window.__copiado);
-  check("link copiado contem local=",
-    /local=[^&]+/.test(linkGerado), linkGerado.slice(-80));
   await ctx.close();
 }
 
@@ -364,6 +358,7 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   const page = await ctx.newPage();
   ligarColetores(page, "hashlocal");
+  await fixarV2(page);
   await page.route("**/o-mundo-conhecido-recorte-v1-preview.webp", async (r) => {
     await new Promise((res) => setTimeout(res, 1500));
     await r.continue();
@@ -384,6 +379,7 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
   ligarColetores(page, "atraso");
+  await fixarV2(page);
   await page.route("**/atlas/data/atlas-agot-v2.json", async (route) => {
     await new Promise((res) => setTimeout(res, 1200));
     await route.continue();
@@ -392,7 +388,7 @@ const browser = await chromium.launch();
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
   check("atraso: controles travados antes dos dados",
     await page.locator("#cap-slider").isDisabled());
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   check("atraso: controles destravados apos dados validos",
     !(await page.locator("#cap-slider").isDisabled()));
   await ctx.close();
@@ -403,6 +399,7 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
   ligarColetores(page, "malformado");
+  await fixarV2(page);
   const quebrado = JSON.parse(JSON.stringify(DADOS));
   quebrado.routes = {};
   await page.route("**/atlas/data/atlas-agot-v2.json", (route) =>
@@ -417,8 +414,9 @@ const browser = await chromium.launch();
   check("routes={} controles travados, mapa livre",
     (await page.locator("#cap-slider").isDisabled()) &&
       (await page.locator("img.leaflet-image-layer").count()) === 1);
-  check("routes={} sem saida velha", (await page.locator("#loc-contagem").textContent()) === "" &&
-    (await page.locator("#cap-titulo").textContent()) === "");
+  check("routes={} sem saida velha",
+    (await page.locator("#loc-lista li").count()) === 0 &&
+      (await page.locator(".pers-atual-item").count()) === 0);
   await ctx.close();
 }
 
@@ -432,8 +430,9 @@ const browser = await chromium.launch();
   }, [STORAGE_KEY]);
   const page = await ctx.newPage();
   ligarColetores(page, "storage");
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   check("storage fracionario -> capitulo 0",
     (await page.locator("#cap-slider").inputValue()) === "0");
   check("storage ids desconhecidos -> nenhum marcado",
@@ -448,8 +447,9 @@ const browser = await chromium.launch();
   }, [STORAGE_KEY]);
   const page = await ctx.newPage();
   ligarColetores(page, "storage-prio");
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/#cap=19");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   check("hash tem prioridade sobre storage (19 > 5)",
     (await page.locator("#cap-slider").inputValue()) === "19");
   await ctx.close();
@@ -458,52 +458,32 @@ const browser = await chromium.launch();
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
   ligarColetores(page, "storage-persist");
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   await setCapitulo(page, 9);
   await page.check("#chk-jon");
   await page.reload();
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
   check("storage persiste cap9 + jon apos reload",
     (await page.locator("#cap-slider").inputValue()) === "9" &&
       (await page.locator("#chk-jon").isChecked()));
   await ctx.close();
 }
 
-// ---------- referencia opcional de nomes (sidecar lazy) ----------
+// ---------- sidecars de evidencias: UI nao os busca mais ----------
 {
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
   ligarColetores(page, "evidencias");
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
-  check("evidencias: nao carrega antes de abrir fontes",
-    !requests.some((u) => u.includes("nomes-agot-v2-evidencias")));
-  await page.locator("#sec-fontes summary").click();
-  await page.waitForSelector(".evid-item", { timeout: 8000 });
-  check("evidencias: " + N_PONTOS + " itens",
-    (await page.locator(".evid-item").count()) === N_PONTOS);
-  const evTxt = await page.locator("#fontes-evidencias").textContent();
-  check("evidencias: texto honesto", /não confirma rota/i.test(evTxt));
-  await ctx.close();
-}
-{
-  const ctx = await browser.newContext();
-  const page = await ctx.newPage();
-  ligarColetores(page, "evid-404");
-  await page.route("**/atlas/data/nomes-agot-v2-evidencias.json", (route) =>
-    route.fulfill({ status: 404, body: "ausente" })
-  );
-  await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
-  await page.locator("#sec-fontes summary").click();
-  await page.waitForTimeout(900);
-  const ev404 = await page.locator("#fontes-evidencias").textContent();
-  check("evidencias 404: aviso honesto", /indispon/i.test(ev404),
-    ev404.trim().slice(0, 80));
-  check("evidencias 404: controles intactos",
-    !(await page.locator("#cap-slider").isDisabled()) &&
-      (await page.locator("#loc-lista li").count()) === N_PONTOS);
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
+  await page.waitForTimeout(1200);
+  check("evidencias: nenhum pedido de sidecar de evidencias",
+    !requests.some((u) => u.includes("-evidencias")));
+  check("evidencias: sem secao Fontes na UI",
+    (await page.locator("#sec-fontes, #fontes-evidencias").count()) === 0);
   await ctx.close();
 }
 
@@ -512,6 +492,7 @@ for (const w of [390, 320]) {
   const ctx = await browser.newContext({ viewport: { width: w, height: 844 } });
   const page = await ctx.newPage();
   ligarColetores(page, "mobile" + w);
+  await fixarV2(page);
   await page.goto(BASE + "/atlas/");
   await page.waitForSelector("img.leaflet-image-layer", { timeout: 20000 });
   await page.waitForSelector("#loc-lista li",

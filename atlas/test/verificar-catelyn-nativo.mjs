@@ -39,6 +39,8 @@ await page.route("**/atlas/data/atlas-inventario-v5.json", (route) =>
   route.fulfill({ status: 404, body: "ausente" }));
 /* fixa o salto mais novo: sem este pino a suite carregaria
    o v6 publicado em vez do conjunto pretendido */
+await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+  route.fulfill({ status: 404, body: "ausente" }));
 await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
   route.fulfill({ status: 404, body: "ausente" }));
 await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -49,7 +51,7 @@ page.on("pageerror", (e) => errs.push(e.message));
 /* estado montado em previa; nativo liberado no ponto do clique antigo */
 await pausarTilesAutomaticos(page);
 await page.goto(BASE + "/atlas/");
-await page.waitForSelector("#loc-lista li", { timeout: 20000 });
+await page.waitForSelector("#loc-lista li", { timeout: 20000, state: "attached" });
 await page.check("#chk-catelyn");
 await page.locator("#cap-slider").evaluate((el) => {
   el.value = "18";

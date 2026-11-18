@@ -43,6 +43,8 @@ const browser = await chromium.launch();
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -51,7 +53,7 @@ const browser = await chromium.launch();
   /* popup aberto em previa; nativo liberado no ponto do clique antigo */
   await pausarTilesAutomaticos(page);
   await page.goto(BASE);
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
 
   await page.fill("#loc-busca", "CASTELO");
   await page.waitForTimeout(300);
@@ -87,7 +89,7 @@ const browser = await chromium.launch();
   await page.locator(".leaflet-popup-close-button")
     .dispatchEvent("click");
   await page.waitForTimeout(400);
-  check("popup fechado pelo usuario", 
+  check("popup fechado pelo usuario",
     (await page.locator(".leaflet-popup").count()) === 0);
   await page.evaluate(() => {
     const map = window.__atlasMap;
@@ -109,13 +111,15 @@ const browser = await chromium.launch();
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   page.on("pageerror", (e) => pageErrors.push("[botoes] " + e.message));
   await page.goto(BASE);
-  await page.waitForSelector("#loc-lista li", { timeout: 15000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 15000, state: "attached" });
 
   check("inicial: limpar selecao desabilitado",
     await page.locator("#btn-limpar-sel").isDisabled());

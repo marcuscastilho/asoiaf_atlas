@@ -78,7 +78,10 @@ async function irPara(page, cap) {
       await page.waitForTimeout(250);
     }
   }
-  await page.selectOption("#cap-select", String(cap));
+  await page.locator("#cap-slider").evaluate((el, v) => {
+    el.value = String(v);
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+  }, cap);
   await page.waitForTimeout(300);
 }
 
@@ -129,12 +132,16 @@ function dimsImagem(page) {
     window.__atlasMap.eachLayer((l) => {
       if (l instanceof L.ImageOverlay && !b) b = l.getBounds();
     });
-    return b ? { n: b.getNorth(), e: b.getEast() } : null;
+    return b ? { n: b.getNorth(), s: b.getSouth(), e: b.getEast() }
+      : null;
   });
 }
 const TOL = 1e-4;
+/* interpolacao linear nos limites do overlay — vale nos dois modos:
+   previa ([0,0]x[h,w]) e nativo (unproject: norte=0, sul<0) */
 function esperado(dims, x, y) {
-  return [dims.n * (1 - y / MAN.height), dims.e * (x / MAN.width)];
+  return [dims.n + (dims.s - dims.n) * (y / MAN.height),
+    dims.e * (x / MAN.width)];
 }
 function temPinEm(ps, nome, x, y, dims) {
   const [la, lo] = esperado(dims, x, y);
@@ -168,6 +175,8 @@ async function novaPagina(vp) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   page.on("pageerror", (e) => pageErrors.push(e.message));
@@ -243,14 +252,13 @@ const tywin = rotaDe(/tywin/i);
   const nChk = await page.locator(
     "#lista-personagens input[type=checkbox]").count();
   check("UI: 27 perfis selecionáveis", nChk === 27, "n=" + nChk);
-  const nota = await page.textContent("#localidades-nota");
+  /* a UI minimalista nao expoe mais contagem textual: a prova de
+     "v4 real, sem fallback" e a lista com 242 pontos de controle */
+  const nLocs = await page.locator("#loc-lista li").count();
   check("UI: inventário v4 real carregado (sem fallback)",
-    /242 refer/i.test(nota || ""), (nota || "").slice(0, 70));
+    nLocs === 242, "n=" + nLocs);
   const nLivros = await page.locator("#livro-select option").count();
   check("UI: 5 livros no seletor", nLivros === 5, "n=" + nLivros);
-  const livroNota = await page.textContent("#livro-nota");
-  check("UI: ordem de leitura publicada explicada",
-    /Festim dos Corvos.*Dança dos Dragões/.test(livroNota || ""));
 
   const dims = await dimsImagem(page);
   check("UI: overlay de imagem disponível", !!dims);
@@ -468,7 +476,7 @@ const tywin = rotaDe(/tywin/i);
   check("stress: 27 perfis selecionados no cap 343",
     nSel343 === 27, "n=" + nSel343);
   await page.evaluate(() =>
-    document.querySelector("#btn-ver-percurso").click());
+    document.querySelector("#btn-focus-pers").click());
   await page.waitForTimeout(1200);
   const st343 = await page.evaluate(() => ({
     cap: document.querySelector("#cap-slider").value,

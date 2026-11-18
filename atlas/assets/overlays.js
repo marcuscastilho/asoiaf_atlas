@@ -8,6 +8,8 @@ window.GOTATLAS = (function () {
   "use strict";
 
   var MANIFEST_URL = "data/mapa.json";
+  var RESUMOS_URL = "data/locais-resumos.json";
+  var DATA_URL_V7 = "data/atlas-percursos-v7.json";
   var DATA_URL_V6 = "data/atlas-percursos-v6.json";
   var DATA_URL_V5 = "data/atlas-inventario-v5.json";
   var DATA_URL_V4 = "data/atlas-inventario-v4.json";
@@ -36,10 +38,8 @@ window.GOTATLAS = (function () {
     "settlement": "Localidades",
     "unknown-settlement": "Símbolos sem identificação"
   };
-  /* valor do filtro que representa os simbolos nao identificados */
-  var FILTRO_SEM_ID = "sem-identificacao";
   /* status de identificacao (campo opcional `identificationStatus`) —
-     exibidos de forma honesta, nunca como 'confirmado' */
+     validacao dos valores conhecidos; a UI nao os expoe mais */
   var ID_STATUS = {
     "printed-name": "Nome impresso",
     "portal-correspondence-review": "Identificação pendente",
@@ -48,7 +48,8 @@ window.GOTATLAS = (function () {
     "geographically-described":
       "Descrição geográfica; nome próprio não informado",
     "named-group-member":
-      "Identificação do conjunto; sem nome próprio individual"
+      "Identificação do conjunto; sem nome próprio individual",
+    "wiki-review": "Nome documentado por mapa regional e wiki"
   };
   /* singular honesto para simbolos cuja natureza o glifo indica sem
      nomear a localidade — 'unidentified' nao significa tipo incognito */
@@ -57,7 +58,8 @@ window.GOTATLAS = (function () {
     "city": "cidade",
     "village": "vilarejo",
     "ruin": "ruína",
-    "settlement": "localidade"
+    "settlement": "localidade",
+    "unknown-settlement": "símbolo sem identificação"
   };
 
   var state = {
@@ -85,17 +87,16 @@ window.GOTATLAS = (function () {
     rotaPopup: null,
     rotaPopupRef: null,
     query: "",
-    region: "todas",
-    tipoFiltro: "todas",
-    apenasIdentificados: false,
+    /* resumos curtos + chaves de wiki por localidade (sidecar local,
+       carregado preguiçosamente; ausencia nunca quebra o card) */
+    resumos: null,
     /* foco em localidade: intencao mais recente vence; o popup so abre
        quando o marcador (re)existir na camada */
     focusLocalId: null,
     pendingFocus: false,
     pendingHashFocusId: null,
     focoPopup: null,
-    focoPopupId: null,
-    evidenciasTentado: false
+    focoPopupId: null
   };
 
   var els = {};
@@ -106,10 +107,6 @@ window.GOTATLAS = (function () {
 
   function setStatus(msg) {
     els.status.textContent = msg || "";
-  }
-
-  function setCapNota(msg) {
-    els.capNota.textContent = msg || "";
   }
 
   function manifestAtivo() {
@@ -423,8 +420,15 @@ window.GOTATLAS = (function () {
             pp.startChapter > pp.endChapter) {
           return "intervalo de capítulos inválido em posição";
         }
-        if (typeof pp.locationId !== "string" || !ids[pp.locationId]) {
-          return "posição com localidade desconhecida";
+        /* posicao ou aponta uma localidade conhecida (locationId) ou
+           carrega um waypoint embutido com coordenadas proprias */
+        if (typeof pp.locationId === "string") {
+          if (!ids[pp.locationId]) {
+            return "posição com localidade desconhecida";
+          }
+        } else if (!(typeof pp.label === "string" && pp.label &&
+                     finitoDentro(pp.x, pp.y, W, H))) {
+          return "posição com waypoint inválido";
         }
       }
       if (rt.omittedRecords !== undefined && rt.omittedRecords !== null) {
@@ -593,8 +597,14 @@ window.GOTATLAS = (function () {
     return p.region || null;
   }
 
-  function pontoNaRegiao(p) {
-    return state.region === "todas" || regiaoDo(p) === state.region;
+  /* rotulo pt-BR da regiao para o card da localidade */
+  function regiaoLabel(p) {
+    var rid = regiaoDo(p);
+    var regs = regioes();
+    for (var i = 0; i < regs.length; i++) {
+      if (regs[i].id === rid) return regs[i].label || rid;
+    }
+    return rid;
   }
 
   /* simbolo visivel no mapa sem nome/natureza estabelecidos — nunca
@@ -603,21 +613,6 @@ window.GOTATLAS = (function () {
     return p.identificationStatus === "unidentified-symbol" ||
       p.identificationStatus === "geographically-described" ||
       p.kind === "unknown-settlement";
-  }
-
-  function pontoNoTipo(p) {
-    if (state.tipoFiltro === "todas") return true;
-    if (state.tipoFiltro === FILTRO_SEM_ID) {
-      return ehSimboloNaoIdentificado(p);
-    }
-    return p.kind === state.tipoFiltro;
-  }
-
-  /* filtros combinados de exibicao (regiao + tipo + identificados);
-     busca por texto fica em applyQuery */
-  function pontoPassaFiltro(p) {
-    return pontoNaRegiao(p) && pontoNoTipo(p) &&
-      (!state.apenasIdentificados || !ehSimboloNaoIdentificado(p));
   }
 
   /* ---------- DOM de popup/tooltip (sempre textContent) ---------- */
@@ -637,95 +632,72 @@ window.GOTATLAS = (function () {
     return s;
   }
 
-  function buildPopupPonto(p) {
-    var d = document.createElement("div");
-    d.className = "loc-popup";
+  /* primeira letra maiuscula sem mexer no resto do rotulo */
+  function inicialMaiuscula(s) {
+    return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+  }
+
+  /* card curto da localidade: nome, original, tipo + regiao, resumo
+     curto do sidecar e link externo verificado — nada de proveniencia,
+     evidencia, notas tecnicas ou status de revisao */
+  function preencherCartaoLocal(d, p) {
     var t = document.createElement("strong");
     t.textContent = p.label || p.id;
     d.appendChild(t);
-    if (ehSimboloNaoIdentificado(p)) {
-      if (p.identificationStatus === "geographically-described") {
-        /* descricao honesta da geografia: a fonte nao da nome proprio,
-           sem fingir um rotulo inventado */
-        linhaPopup(d, "loc-popup-status",
-          "Descrição geográfica; a fonte não informa nome próprio " +
-          "para este símbolo.");
-      } else {
-        /* nunca inventa identidade: descreve o glifo se o tipo for
-           conhecido pela legenda; natureza generica so quando o tipo
-           tambem e desconhecido */
-        var sing = p.kind && TIPO_SINGULAR[p.kind];
-        linhaPopup(d, "loc-popup-status", sing
-          ? "Símbolo de " + sing + " na digitalização; nome ainda " +
-            "não estabelecido."
-          : "Símbolo visível na digitalização; nome e natureza " +
-            "ainda não estabelecidos.");
-      }
-    } else {
-      /* um unico nome original em ingles, se diferente do rotulo */
-      var alt = p.english || p.originalKey || "";
-      if (alt && alt !== (p.label || p.id)) {
-        linhaPopup(d, "loc-popup-orig", alt);
-      }
-      if (typeof p.identificationStatus === "string" &&
-          Object.prototype.hasOwnProperty.call(
-            ID_STATUS, p.identificationStatus)) {
-        linhaPopup(d, "loc-popup-badge",
-          ID_STATUS[p.identificationStatus]);
-      }
+    /* um unico nome original em ingles, se diferente do rotulo */
+    var alt = p.english || p.originalKey || "";
+    if (alt && alt !== (p.label || p.id)) {
+      linhaPopup(d, "loc-popup-orig", alt);
     }
-    if (typeof p.summary === "string" && p.summary.trim()) {
-      linhaPopup(d, "loc-popup-resumo", p.summary);
+    var tipo = p.kind && TIPO_SINGULAR[p.kind];
+    var reg = regiaoLabel(p);
+    linhaPopup(d, "loc-popup-tipo",
+      inicialMaiuscula(tipo || "localidade") + (reg ? " · " + reg : ""));
+    var res = state.resumos && state.resumos[p.id];
+    if (res && typeof res.resumo === "string" && res.resumo.trim()) {
+      linhaPopup(d, "loc-popup-resumo", res.resumo);
     }
-    linhaPopup(d, "loc-popup-status", "Posição manual em revisão");
-    /* evidencias e notas tecnicas ficam recolhidas, fora do resumo */
-    var temDetalhe = (p.evidence || []).length || p.note ||
-      (p.kind && TIPOS_PONTO[p.kind]);
-    if (temDetalhe) {
-      var det = document.createElement("details");
-      det.className = "loc-popup-detalhes";
-      var sum = document.createElement("summary");
-      sum.textContent = "Fontes e detalhes técnicos";
-      det.appendChild(sum);
-      if (p.kind && TIPOS_PONTO[p.kind]) {
-        linhaPopup(det, "loc-popup-ev",
-          "Tipo: " + TIPOS_PONTO[p.kind]);
-      }
-      (p.evidence || []).forEach(function (ev) {
-        linhaPopup(
-          det, "loc-popup-ev",
-          [ev.kind, ev.label, ev.locator].filter(Boolean).join(" · ")
-        );
-      });
-      if (p.note) linhaPopup(det, "loc-popup-note", p.note);
-      d.appendChild(det);
+    if (res && typeof res.wiki === "string" && res.wiki) {
+      var w = document.createElement("div");
+      w.className = "loc-popup-wiki";
+      var a = document.createElement("a");
+      a.href = "https://awoiaf.westeros.org/index.php/" + res.wiki;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = "Abrir na wiki ↗";
+      w.appendChild(a);
+      d.appendChild(w);
     }
     return d;
   }
 
-  /* popup de posicao agrupada: lista personagens, sem evidencia cedo */
+  function buildPopupPonto(p) {
+    var d = document.createElement("div");
+    d.className = "loc-popup";
+    return preencherCartaoLocal(d, p);
+  }
+
+  /* popup de posicao agrupada: mesmo card curto + personagens do grupo */
   function buildPopupGrupo(grupo, cp) {
     var d = document.createElement("div");
     d.className = "loc-popup";
-    var t = document.createElement("strong");
-    t.textContent = (cp && (cp.label || cp.id)) || "Posição";
-    d.appendChild(t);
+    if (cp) {
+      preencherCartaoLocal(d, cp);
+    } else {
+      var t = document.createElement("strong");
+      t.textContent = "Posição";
+      d.appendChild(t);
+    }
+    var ul = document.createElement("ul");
+    ul.className = "loc-popup-membros";
     grupo.forEach(function (g) {
-      linhaPopup(
-        d, "loc-popup-orig",
-        (g.rota.character || g.rota.id) + " — capítulos " +
-          g.pos.startChapter + "–" + g.pos.endChapter
-      );
+      var li = document.createElement("li");
+      li.textContent = (g.rota.character || g.rota.id) + " — capítulos " +
+        g.pos.startChapter + "–" + g.pos.endChapter;
+      ul.appendChild(li);
     });
-    linhaPopup(d, "loc-popup-status",
-      "Posição aproximada (status: " +
-        statusPt(grupo[0].pos.status || grupo[0].rota.status) + ")");
+    d.appendChild(ul);
     return d;
-  }
-
-  /* exibe o enum de status em portugues; os dados originais nao mudam */
-  function statusPt(s) {
-    return s === "approximate" ? "aproximado" : (s || "aproximado");
   }
 
   /* ---------- camadas ---------- */
@@ -757,7 +729,6 @@ window.GOTATLAS = (function () {
   function drawFeatures() {
     var bounds = state.map.getBounds().pad(MARGEM_CULLING);
     state.data.controlPoints.forEach(function (p) {
-      if (!pontoPassaFiltro(p)) return;
       var ll = pointToLatLng(p.x, p.y);
       if (!bounds.contains(ll)) return;
       var cls = "loc-pin";
@@ -850,48 +821,23 @@ window.GOTATLAS = (function () {
     return s;
   }
 
-  /* endChapter e limite de visibilidade cumulativa, NAO duracao da
-     viagem — o texto nunca sugere duracao */
-  function textoDisponibilidade(seg) {
-    var t = "Disponível a partir do cap. " + seg.startChapter;
-    var ult = ultimoCapitulo();
-    if (seg.endChapter < ult) {
-      t += " · visível até cap. " + seg.endChapter;
-    }
-    return t;
-  }
-
-  /* popup compacto de trecho: cabeca visivel, fontes/precisao dentro
-     de details recolhidos — nada estoura o quadro do mapa */
+  /* popup curto de trecho: personagem, origem -> destino, modo e
+     capitulo — sem evidencia, precisao ou notas tecnicas */
   function buildPopupSegmento(rt, seg) {
     var d = document.createElement("div");
     d.className = "loc-popup loc-popup-trecho";
     var t = document.createElement("strong");
-    t.textContent = rt.character || rt.id;
+    var trecho = (seg.label || "Trecho aproximado")
+      .replace(/\s*->\s*/g, " → ");
+    t.textContent = (rt.character || rt.id) + " · " + trecho;
     d.appendChild(t);
-    linhaPopup(d, "loc-popup-orig", seg.label || "Trecho aproximado");
     var modo = modoLabelSegmento(seg);
-    linhaPopup(d, "loc-popup-status",
-      textoDisponibilidade(seg) + (modo ? " · " + modo : ""));
-    if (seg.geometryNotice || (seg.evidence || []).length) {
-      var det = document.createElement("details");
-      det.className = "loc-popup-detalhes";
-      var sum = document.createElement("summary");
-      sum.textContent = "Fontes e detalhes técnicos";
-      det.appendChild(sum);
-      if (seg.geometryNotice) {
-        linhaPopup(det, "loc-popup-nota", seg.geometryNotice);
-      }
-      (seg.evidence || []).forEach(function (ev) {
-        linhaPopup(det, "loc-popup-ev",
-          (ev && ev.label ? ev.label : "Fonte") +
-            (ev && ev.locator ? " · " + ev.locator : ""));
-      });
-      d.appendChild(det);
+    var cap = "cap. " + seg.startChapter;
+    if (seg.endChapter !== seg.startChapter) {
+      cap += "–" + seg.endChapter;
     }
-    linhaPopup(d, "loc-popup-status",
-      "Corredor " + statusPt(seg.status || rt.status) +
-        " — não é posição exata nem rota medida.");
+    linhaPopup(d, "loc-popup-tipo",
+      (modo ? modo + " · " : "") + cap);
     return d;
   }
 
@@ -900,9 +846,6 @@ window.GOTATLAS = (function () {
      de estar visivel (desmarcar, markerOnly ou voltar o capitulo) */
   function abrirPopupTrecho(rt, seg, latlng) {
     fecharPopupTrecho();
-    /* maxHeight nativo do Leaflet: _updateLayout le options.maxHeight,
-       aplica no conteudo e marca a classe 'scrolled'; update() no
-       toggle de details refaz leiaute e autoPan sem estourar o mapa */
     state.rotaPopup = L.popup({
       maxWidth: 320,
       maxHeight: Math.max(150,
@@ -912,21 +855,6 @@ window.GOTATLAS = (function () {
       .setContent(buildPopupSegmento(rt, seg))
       .openOn(state.map);
     state.rotaPopupRef = { rota: rt, seg: seg };
-    var el = state.rotaPopup.getElement &&
-      state.rotaPopup.getElement();
-    if (el) {
-      /* expandir <details> muda a altura: popup.update() recalcula
-         posicao e refaz o autoPan — o cabecalho nunca sai do mapa */
-      el.querySelectorAll("details").forEach(function (det) {
-        det.addEventListener("toggle", function () {
-          var pop = state.rotaPopup;
-          if (pop && pop.isOpen && pop.isOpen() &&
-              pop.getElement && pop.getElement() === el) {
-            pop.update();
-          }
-        });
-      });
-    }
   }
 
   function fecharPopupTrecho() {
@@ -948,6 +876,21 @@ window.GOTATLAS = (function () {
     if (!visivel) fecharPopupTrecho();
   }
 
+  /* resolve coords + rotulo de uma posicao: localidade por locationId
+     ou waypoint embutido {x, y, label} */
+  function posInfo(pos) {
+    if (pos && typeof pos.locationId === "string") {
+      var cp = cpById(pos.locationId);
+      return cp ? { x: cp.x, y: cp.y, label: cp.label || cp.id, cp: cp }
+                : null;
+    }
+    if (pos && isFinite(pos.x) && isFinite(pos.y)) {
+      return { x: pos.x, y: pos.y, label: pos.label || "Parada",
+               english: pos.english || "", cp: null };
+    }
+    return null;
+  }
+
   /* posicoes agrupadas por localidade: UM marcador por local */
   function drawRoutes() {
     var rotas = rotasSelecionadas();
@@ -959,6 +902,10 @@ window.GOTATLAS = (function () {
       segs.forEach(function (seg) {
         /* dados sem status sao tratados como aproximados, nunca certos */
         var aprox = !seg.status || seg.status === "approximate";
+        /* v7: "conhecida" desenha solido; "deduzida" ganha sobreposicao
+           pontilhada amarela alem do traco na cor do personagem */
+        var conhecida = seg.rota === "conhecida";
+        var deduzida = seg.rota === "deduzida";
         pernasViagem(seg).forEach(function (perna) {
           var latlngs = perna.pontos.map(function (pt) {
             return pointToLatLng(pt[0], pt[1]);
@@ -978,7 +925,7 @@ window.GOTATLAS = (function () {
             color: cor,
             weight: 4,
             opacity: 0.95,
-            dashArray: aprox
+            dashArray: !conhecida && aprox
               ? (perna.mode === "sea" ? "3 7" : "8 5")
               : null,
             interactive: true
@@ -993,6 +940,17 @@ window.GOTATLAS = (function () {
           line.on("mouseover", function () { line.bringToFront(); });
           line.addTo(state.map);
           state.routeLayers.push(line);
+          if (deduzida) {
+            var traco = L.polyline(latlngs, {
+              color: "#ffe600",
+              weight: 2,
+              opacity: 0.9,
+              dashArray: "1 7",
+              interactive: false
+            });
+            traco.addTo(state.map);
+            state.routeLayers.push(traco);
+          }
         });
       });
     });
@@ -1003,165 +961,64 @@ window.GOTATLAS = (function () {
         rt, state.chapter, state.markerOnly, GOTCORE
       );
       if (pos) {
-        (grupos[pos.locationId] = grupos[pos.locationId] || []).push({
+        var chave = typeof pos.locationId === "string"
+          ? pos.locationId
+          : "w:" + pos.x + "," + pos.y;
+        (grupos[chave] = grupos[chave] || []).push({
           rota: rt,
           pos: pos
         });
       }
     });
     Object.keys(grupos).forEach(function (loc) {
-      var cp = cpById(loc);
-      if (!cp) return;
       var grupo = grupos[loc];
+      var info = posInfo(grupo[0].pos);
+      if (!info) return;
       var soJon = grupo.length === 1 && grupo[0].rota.id === "jon";
       var cls = soJon ? "loc-pin loc-pin-jon" : "loc-pin loc-pin-personagem";
       var html = grupo.length > 1
         ? '<span class="loc-pin-n">' + grupo.length + "</span>"
         : "";
-      var mk = L.marker(pointToLatLng(cp.x, cp.y), {
+      var mk = L.marker(pointToLatLng(info.x, info.y), {
         icon: pinIcon(cls, html),
-        title: grupo.map(function (g) { return g.rota.character; }).join(", "),
+        title: grupo.map(function (g) { return g.rota.character; }).join(", ") +
+          " — " + info.label,
         alt: "Posição de personagem",
         keyboard: true,
         zIndexOffset: 1000
       });
-      mk.bindPopup(buildPopupGrupo(grupo, cp));
+      mk.bindPopup(buildPopupGrupo(
+        grupo, info.cp ||
+          { id: "", label: info.label, english: info.english }));
       mk.addTo(state.map);
       state.positionMarkers.push(mk);
     });
-    atualizarStatusPersonagens(rotas, grupos);
-    atualizarRoteiro(rotas);
+    atualizarPosicoesSel(rotas);
     validarPopupTrecho();
   }
 
-  /* roteiro: trechos no intervalo do capitulo atual, por personagem.
-     markerOnly e apenas toggle de desenho — o trecho ainda e listado;
-     nunca mostramos rotulos/trechos alem do capitulo escolhido */
-  function atualizarRoteiro(rotas) {
-    if (!els.roteiro) return;
-    els.roteiro.innerHTML = "";
-    rotas.forEach(function (rt) {
-      /* ordena por capitulo inicial; empate preserva a ordem de
-         insercao (sort estavel) — suplementos narrativos podem ter
-         sourceRecordIndex nulo */
-      var segs = puroSegmentosNoCapitulo(
-        rt, state.chapter, false, GOTCORE
-      ).slice().sort(function (a, b) {
-        return a.startChapter - b.startChapter;
-      });
-      var item = document.createElement("li");
-      item.className = "rot-item";
-      /* cabecalho: amostra da cor do trajeto + nome + botao "ver so" */
-      var cab = document.createElement("div");
-      cab.className = "rot-cab";
-      var sw = document.createElement("span");
-      sw.className = "pers-cor rot-cor";
-      sw.style.background = corSegura(rt.color);
-      cab.appendChild(sw);
-      var cab2 = document.createElement("strong");
-      cab2.className = "rot-nome";
-      cab2.textContent = rt.character || rt.id;
-      cab.appendChild(cab2);
-      var so = document.createElement("button");
-      so.type = "button";
-      so.className = "botao rot-so";
-      so.textContent = "Ver só este";
-      so.setAttribute("aria-label",
-        "Ver só este personagem: " + (rt.character || rt.id));
-      so.addEventListener("click", function () { verSoEste(rt); });
-      cab.appendChild(so);
-      item.appendChild(cab);
-      if (!segs.length) {
-        /* stationaryNotice: exibido quando o trajeto ja comecou ou
-           quando a rota nao tem segmento algum — antes do inicio um
-           aviso fixo poderia conter contexto de capitulos futuros */
-        var inicio = Infinity;
-        (rt.segments || []).forEach(function (s) {
-          if (s.startChapter < inicio) inicio = s.startChapter;
-        });
-        var podeAviso = !isFinite(inicio) || state.chapter >= inicio;
-        var aviso = podeAviso && rt.stationaryNotice
-          ? rt.stationaryNotice
-          : "Sem trecho registrado neste capítulo — o trajeto pode " +
-            "começar mais adiante ou não ter calibração.";
-        linhaPopup(item, "rot-nota", aviso);
-      } else {
-        var ul = document.createElement("ul");
-        ul.className = "rot-trechos";
-        segs.forEach(function (seg, i) {
-          var li = document.createElement("li");
-          var modo = modoLabelSegmento(seg);
-          var rotulo = (seg.label || "Trecho " + (i + 1)) +
-            " — " + textoDisponibilidade(seg) +
-            (modo ? " · " + modo : "");
-          var bt = document.createElement("button");
-          bt.type = "button";
-          bt.className = "rot-ver-trecho";
-          bt.textContent = rotulo;
-          bt.setAttribute("aria-label", "Ver trecho: " + rotulo);
-          bt.addEventListener("click", function () {
-            focarTrecho(rt, seg);
-          });
-          li.appendChild(bt);
-          if (seg.geometryNotice) {
-            var det = document.createElement("details");
-            det.className = "rot-precisao";
-            var sum = document.createElement("summary");
-            sum.textContent = "Precisão do trecho";
-            det.appendChild(sum);
-            linhaPopup(det, "rot-nota", seg.geometryNotice);
-            li.appendChild(det);
-          }
-          ul.appendChild(li);
-        });
-        item.appendChild(ul);
-      }
-      els.roteiro.appendChild(item);
-    });
-  }
-
-  function atualizarStatusPersonagens(rotas, grupos) {
-    els.statusPers.innerHTML = "";
-    var semPos = 0;
-    var omitidos = 0;
+  /* uma linha curta por personagem selecionado: "Nome — lugar atual";
+     so aparece quando ha posicao conhecida no capitulo */
+  function atualizarPosicoesSel(rotas) {
+    if (!els.persAtual) return;
+    els.persAtual.innerHTML = "";
     rotas.forEach(function (rt) {
       var pos = puroPosicaoNoCapitulo(
         rt, state.chapter, state.markerOnly, GOTCORE
       );
+      var info = pos ? posInfo(pos) : null;
+      if (!info) return;
       var linha = document.createElement("div");
-      linha.className = "pers-status";
+      linha.className = "pers-atual-item";
       var sw = document.createElement("span");
       sw.className = "pers-cor";
       sw.style.background = corSegura(rt.color);
       linha.appendChild(sw);
       var txt = document.createElement("span");
-      var cp = pos ? cpById(pos.locationId) : null;
-      if (cp) {
-        txt.textContent = (rt.character || rt.id) + ": " + (cp.label || cp.id);
-      } else {
-        txt.textContent = (rt.character || rt.id) +
-          ": sem referência calibrada neste capítulo";
-        semPos++;
-      }
-      var omit = (rt.omittedSourceRecordIndices || []).length;
-      omitidos += omit;
-      if (omit) {
-        txt.textContent += " · " + omit + " registros omitidos";
-      }
+      txt.textContent = (rt.character || rt.id) + " — " + info.label;
       linha.appendChild(txt);
-      els.statusPers.appendChild(linha);
+      els.persAtual.appendChild(linha);
     });
-    if (!rotas.length) {
-      setCapNota("");
-    } else if (semPos === rotas.length) {
-      setCapNota(
-        "Sem referência de posição neste capítulo" +
-          (omitidos ? "; " + omitidos + " registros de origem omitidos " +
-            "por falta de calibração." : ".")
-      );
-    } else {
-      setCapNota("");
-    }
   }
 
   /* ---------- rotulos opcionais com evitamento de sobreposicao ---------- */
@@ -1215,7 +1072,6 @@ window.GOTATLAS = (function () {
 
   function refresh() {
     clearLayers();
-    if (!idsSelecionadas().length) setCapNota("");
     if (!state.map || !state.viewReady || !state.dataReady) return;
     if (state.locVisible) drawFeatures();
     drawRoutes();
@@ -1237,21 +1093,16 @@ window.GOTATLAS = (function () {
     return alvo.filter(Boolean).join(" ");
   }
 
+  /* a lista so existe enquanto ha texto na busca — sem resultados a
+     mostrar com o campo vazio */
   function applyQuery() {
     var itens = els.lista.querySelectorAll("li");
     var q = state.query.trim();
-    var visiveis = 0;
-    var total = itens.length;
+    els.lista.hidden = !q;
     itens.forEach(function (li) {
       var p = li._ponto;
-      var ok = pontoPassaFiltro(p) &&
-        (!q || GOTCORE.searchMatches(alvoBusca(p), q));
-      li.hidden = !ok;
-      if (ok) visiveis++;
+      li.hidden = !q || !GOTCORE.searchMatches(alvoBusca(p), q);
     });
-    els.locContagem.textContent = visiveis === 0
-      ? "Nenhuma localidade corresponde à busca/filtro."
-      : visiveis + " de " + total + " localidades";
   }
 
   function zoomBusca() {
@@ -1378,23 +1229,6 @@ window.GOTATLAS = (function () {
       els.locMostrar.checked = true;
       mudou = true;
     }
-    /* limpa os filtros que esconderiam o alvo (regiao, tipo,
-       somente-identificados) — foco sempre revela o ponto pedido */
-    if (!pontoNaRegiao(p)) {
-      state.region = "todas";
-      els.filtroRegiao.value = "todas";
-      mudou = true;
-    }
-    if (!pontoNoTipo(p)) {
-      state.tipoFiltro = "todas";
-      if (els.filtroTipo) els.filtroTipo.value = "todas";
-      mudou = true;
-    }
-    if (state.apenasIdentificados && ehSimboloNaoIdentificado(p)) {
-      state.apenasIdentificados = false;
-      if (els.locIdent) els.locIdent.checked = false;
-      mudou = true;
-    }
     if (mudou) applyQuery();
     refresh(); /* garante o marcador se ja estiver no quadro */
     state.map.flyTo(pointToLatLng(p.x, p.y), zoomBusca());
@@ -1409,8 +1243,8 @@ window.GOTATLAS = (function () {
         rt, state.chapter, state.markerOnly, GOTCORE
       );
       if (pos) {
-        var cp = cpById(pos.locationId);
-        if (cp) lats.push(pointToLatLng(cp.x, cp.y));
+        var info = posInfo(pos);
+        if (info) lats.push(pointToLatLng(info.x, info.y));
       }
     });
     if (!lats.length) return;
@@ -1440,18 +1274,6 @@ window.GOTATLAS = (function () {
       orig.textContent = p.english || p.originalKey || "";
       b.appendChild(nome);
       if (orig.textContent) b.appendChild(orig);
-      /* distingue na lista sem inventar nomes genericos */
-      if (simb) {
-        var bd = document.createElement("span");
-        bd.className = "loc-item-badge loc-item-badge-simb";
-        bd.textContent = "Símbolo sem identificação";
-        b.appendChild(bd);
-      } else if (p.identificationStatus === "portal-correspondence-review") {
-        var bp = document.createElement("span");
-        bp.className = "loc-item-badge";
-        bp.textContent = "Identificação pendente";
-        b.appendChild(bp);
-      }
       b.addEventListener("click", function () { focusPonto(p); });
       li.appendChild(b);
       li._ponto = p;
@@ -1460,29 +1282,8 @@ window.GOTATLAS = (function () {
     applyQuery();
   }
 
-  function buildFiltroRegiao() {
-    var sel = els.filtroRegiao;
-    sel.innerHTML = "";
-    var todas = document.createElement("option");
-    todas.value = "todas";
-    todas.textContent = "Todas as regiões";
-    sel.appendChild(todas);
-    regioes().forEach(function (r) {
-      var o = document.createElement("option");
-      o.value = r.id;
-      o.textContent = r.label || r.id;
-      sel.appendChild(o);
-    });
-    sel.value = regioes().some(function (r) { return r.id === state.region; })
-      ? state.region
-      : "todas";
-  }
-
   function atualizarSel() {
     var n = idsSelecionadas().length;
-    els.selCount.textContent = n
-      ? n + (n === 1 ? " selecionado" : " selecionados")
-      : "Nenhum selecionado";
     els.limparSel.disabled = n === 0;
     atualizarFocusBtn();
     atualizarNavegacao();
@@ -1494,119 +1295,21 @@ window.GOTATLAS = (function () {
       return !!puroPosicaoNoCapitulo(rt, state.chapter, state.markerOnly, GOTCORE);
     });
     els.focusPers.disabled = !temPos;
-    /* "Ver percurso" promete a rota: habilita com trechos do capitulo
-       (markerOnly nao bloqueia — o clique o desliga) OU posicao */
-    var temGeo = temPos || rotas.some(function (rt) {
-      return puroSegmentosNoCapitulo(
-        rt, state.chapter, false, GOTCORE
-      ).length > 0;
-    });
-    if (els.verPercurso) els.verPercurso.disabled = !temGeo;
     if (els.livroCompleto) els.livroCompleto.disabled = !rotas.length;
   }
 
-  /* desliga "apenas posicao atual" quando uma acao pede para ver o
-     percurso; capitulo e selecao nunca mudam aqui */
-  function mostrarLinhas() {
-    if (!state.markerOnly) return false;
-    state.markerOnly = false;
-    els.somente.checked = false;
-    refresh();
-    salvarEstado();
-    return true;
-  }
-
-  /* recolhe o painel flutuante via botao existente (mapa ocupa o
-     quadro inteiro); devolve o foco do teclado ao container do mapa
-     porque o botao clicado desaparece com o painel */
-  function recolherPainelSeAberto() {
-    var lateral = qs("lateral");
-    var btnPainel = qs("btn-painel");
-    if (btnPainel && lateral &&
-        !lateral.classList.contains("lateral-fechada")) {
-      btnPainel.click();
-      var cont = state.map && state.map.getContainer &&
-        state.map.getContainer();
-      if (cont && cont.focus) cont.focus();
-    }
-  }
-
-  /* enquadra trechos revelados no capitulo atual + posicoes
-     conhecidas; mostra linhas sem mudar capitulo nem selecao */
-  function verPercurso() {
-    mostrarLinhas();
-    var lats = [];
-    rotasSelecionadas().forEach(function (rt) {
-      puroSegmentosNoCapitulo(
-        rt, state.chapter, false, GOTCORE
-      ).forEach(function (seg) {
-        (seg.points || []).forEach(function (pt) {
-          lats.push(pointToLatLng(pt[0], pt[1]));
-        });
-      });
-      var pos = puroPosicaoNoCapitulo(
-        rt, state.chapter, state.markerOnly, GOTCORE
-      );
-      if (pos) {
-        var cp = cpById(pos.locationId);
-        if (cp) lats.push(pointToLatLng(cp.x, cp.y));
-      }
-    });
-    if (!lats.length) return;
-    recolherPainelSeAberto();
-    if (lats.length === 1) {
-      state.map.flyTo(lats[0], zoomBusca());
-    } else {
-      state.map.flyToBounds(L.latLngBounds(lats), { padding: [28, 28] });
-    }
-  }
-
-  /* enquadra um unico trecho revelado (botao do roteiro): mostra
-     linhas, preserva capitulo e selecao, recolhe o painel */
-  function focarTrecho(rt, seg) {
-    mostrarLinhas();
-    var lats = (seg.points || []).map(function (pt) {
-      return pointToLatLng(pt[0], pt[1]);
-    });
-    if (!lats.length) return;
-    recolherPainelSeAberto();
-    if (lats.length === 1) {
-      state.map.flyTo(lats[0], zoomBusca());
-    } else {
-      state.map.flyToBounds(L.latLngBounds(lats), { padding: [28, 28] });
-    }
-  }
-
-  /* "Ver so este": isola o personagem (desambigua percursos que
-     dividem os mesmos vertices — sem deslocar coordenadas) e
-     enquadra o que dele estiver revelado agora */
-  function verSoEste(rt) {
-    state.selecionados = Object.create(null);
-    state.selecionados[rt.id] = true;
-    (state.data.routes || []).forEach(function (r) {
-      var cb = qs("chk-" + r.id);
-      if (cb) cb.checked = r.id === rt.id;
-    });
-    atualizarSel();
-    mostrarLinhas();
-    refresh();
-    salvarEstado();
-    verPercurso();
-  }
-
   /* consentimento explicito de spoiler: revela o livro SELECIONADO
-     ate o fim (sem ligar tiles nem trocar a selecao); trechos de
-     livros anteriores continuam cumulativos, os futuros nao */
+     ate o fim (sem trocar a selecao); trechos de livros anteriores
+     continuam cumulativos, os futuros nao */
   function livroCompleto() {
     if (!rotasSelecionadas().length) return;
-    state.markerOnly = false;
-    els.somente.checked = false;
     setChapter(limitesCapitulo().fim);
   }
 
+  /* lista de personagens: checkbox + amostra da cor + nome — rotas
+     renderizam sozinhas ao marcar ou ao mudar o capitulo */
   function buildPersonagens() {
     els.listaPers.innerHTML = "";
-    coberturaItens.length = 0;
     (state.data.routes || []).forEach(function (rt) {
       var cor = corSegura(rt.color);
       var label = document.createElement("label");
@@ -1621,19 +1324,6 @@ window.GOTATLAS = (function () {
       var nm = document.createElement("span");
       nm.className = "pers-nome";
       nm.textContent = rt.character || rt.id;
-      var info = document.createElement("span");
-      info.className = "pers-info";
-      info.textContent = (rt.book || "") +
-        (rt.status ? " · " + rt.status : "");
-      /* cobertura de revisao por livro: a nota vem liquidada do
-         conjunto (bookCoverage); sem o campo, nenhum rotulo extra */
-      var cob = null;
-      if (Array.isArray(rt.bookCoverage)) {
-        cob = document.createElement("span");
-        cob.className = "pers-cobertura";
-        cob.hidden = true;
-        coberturaItens.push({ rt: rt, sp: cob });
-      }
       cb.addEventListener("change", function () {
         if (cb.checked) state.selecionados[rt.id] = true;
         else delete state.selecionados[rt.id];
@@ -1643,187 +1333,23 @@ window.GOTATLAS = (function () {
       });
       label.appendChild(cb);
       label.appendChild(sw);
-      var corpo = document.createElement("span");
-      corpo.className = "pers-corpo";
-      corpo.appendChild(nm);
-      corpo.appendChild(info);
-      if (cob) corpo.appendChild(cob);
-      label.appendChild(corpo);
+      label.appendChild(nm);
       els.listaPers.appendChild(label);
     });
     atualizarSel();
-    atualizarCoberturas();
   }
 
-  /* texto de cobertura do livro ativo em cada rotulo: somente a nota
-     redigida no conjunto, via textContent (nunca HTML nem derivados);
-     livro sem entrada deixa o rotulo oculto */
-  var coberturaItens = [];
-  function atualizarCoberturas() {
-    if (!coberturaItens.length) return;
-    var ativo = livroAtivo();
-    var aid = ativo ? ativo.id : null;
-    coberturaItens.forEach(function (it) {
-      var nota = "";
-      var bcs = Array.isArray(it.rt.bookCoverage) ? it.rt.bookCoverage : [];
-      for (var i = 0; i < bcs.length; i++) {
-        if (bcs[i] && bcs[i].bookId === aid &&
-            typeof bcs[i].notice === "string") {
-          nota = bcs[i].notice;
-        }
+  /* ---------- resumos curtos + chaves de wiki (sidecar) ----------
+     Arquivo local opcional por ponto de controle; ausencia do arquivo
+     ou de uma entrada apenas omite resumo/link no card — nunca falha. */
+
+  function carregarResumos() {
+    fetchJson(RESUMOS_URL).then(function (r) {
+      if (r && typeof r === "object" && !Array.isArray(r)) {
+        state.resumos = r;
       }
-      it.sp.textContent = nota;
-      it.sp.hidden = !nota;
-    });
-  }
-
-  function buildFontes() {
-    els.fontes.innerHTML = "";
-    /* inventario: somente os valores liquidados no dataset, sem
-       qualidade derivada ou promessa de completude */
-    if (ehObj(state.data.inventory)) {
-      var inv = state.data.inventory;
-      Object.keys(inv).forEach(function (k) {
-        var v = inv[k];
-        if (typeof v === "string" || typeof v === "number") {
-          linhaPopup(els.fontes, "fontes-lim", k + ": " + v);
-        }
-      });
-    }
-    var lim = state.data.limitations;
-    if (typeof lim === "string") {
-      linhaPopup(els.fontes, "fontes-lim", lim);
-    } else if (Array.isArray(lim)) {
-      lim.forEach(function (item) {
-        linhaPopup(els.fontes, "fontes-lim", String(item));
-      });
-    }
-    (state.data.routes || []).forEach(function (rt) {
-      var h = linhaPopup(els.fontes, "fontes-rota",
-        (rt.character || rt.id) + " — " + (rt.book || "") +
-          (rt.status ? " (" + statusPt(rt.status) + ")" : ""));
-      h.style.borderLeftColor = corSegura(rt.color);
-      if (rt.notice) linhaPopup(els.fontes, "fontes-nota", rt.notice);
-      (rt.evidence || []).forEach(function (ev) {
-        linhaPopup(
-          els.fontes, "fontes-ev",
-          [ev.kind, ev.label, ev.locator].filter(Boolean).join(" · ")
-        );
-      });
-    });
-    /* referencia opcional de nomes: nova carga na proxima abertura */
-    state.evidenciasTentado = false;
-    if (els.fontesEvid) els.fontesEvid.textContent = "";
-    if (els.secFontes && els.secFontes.open) {
-      state.evidenciasTentado = true;
-      carregarEvidencias();
-    }
-  }
-
-  /* ---------- referencia opcional de nomes (sidecar) ----------
-     Auditoria de ocorrencia exata na edicao LeYa; arquivo local,
-     carregado sob demanda e nunca invalida o conjunto principal. */
-
-  /* sidecar de ocorrencia por dataset; datasets sem referencia propria
-     mostram aviso honesto em vez de usar a de outro conjunto */
-  var EVID_URLS = {
-    "atlas-saga-v6": "data/nomes-percursos-v6-evidencias.json",
-    "atlas-saga-v5": "data/nomes-inventario-v5-evidencias.json",
-    "atlas-saga-v4": "data/nomes-inventario-v4-evidencias.json",
-    "atlas-inventario-v3": "data/nomes-inventario-v3-evidencias.json",
-    "agot-atlas-v2": "data/nomes-agot-v2-evidencias.json"
-  };
-  var EVID_STATUS_OK = {
-    "term-occurrence-only":
-      "ocorrência do nome na edição LeYa; não confirma rota",
-    "not-established-by-exact-search":
-      "não estabelecido por busca exata (não prova ausência)"
-  };
-
-  function validarEvidencias(ev) {
-    if (!ev || typeof ev !== "object" || Array.isArray(ev)) {
-      return "arquivo malformado";
-    }
-    if (!state.data || ev.datasetId !== state.data.datasetId) {
-      return "datasetId divergente";
-    }
-    if (!ev.edition || ev.edition.id !== "AGOT-LEYA") {
-      return "edição desconhecida";
-    }
-    if (!Array.isArray(ev.entries)) return "entries ausente";
-    var ids = Object.create(null);
-    state.data.controlPoints.forEach(function (p) { ids[p.id] = true; });
-    for (var i = 0; i < ev.entries.length; i++) {
-      var e = ev.entries[i];
-      if (!e || typeof e.id !== "string" || !ids[e.id]) {
-        return "id desconhecido: " + (e && e.id);
-      }
-      if (typeof e.label !== "string" || !e.label) return "rótulo inválido";
-      /* hasOwnProperty: evita status herdados tipo '__proto__' */
-      if (typeof e.status !== "string" ||
-          !Object.prototype.hasOwnProperty.call(EVID_STATUS_OK, e.status)) {
-        return "status desconhecido: " + e.status;
-      }
-    }
-    return null;
-  }
-
-  function renderEvidencias(alvo, ev) {
-    alvo.textContent = "";
-    var cab = document.createElement("p");
-    cab.className = "fontes-lim";
-    cab.textContent = "Auditoria de ocorrência exata de nomes na edição " +
-      "LeYa (AGOT-LEYA). A ocorrência do nome não confirma entidade, " +
-      "coordenada ou rota; nenhum trecho do livro foi copiado.";
-    alvo.appendChild(cab);
-    ev.entries.forEach(function (e) {
-      var item = document.createElement("div");
-      item.className = "evid-item";
-      var nome = document.createElement("span");
-      nome.className = "evid-nome";
-      nome.textContent = e.label;
-      item.appendChild(nome);
-      var st = document.createElement("span");
-      st.className = "evid-status";
-      st.textContent = " — " + EVID_STATUS_OK[e.status];
-      item.appendChild(st);
-      if (e.status === "term-occurrence-only" &&
-          Array.isArray(e.locators) && e.locators.length) {
-        var loc = document.createElement("div");
-        loc.className = "evid-loc";
-        loc.textContent = e.locators.slice(0, 3).map(function (l) {
-          return ehObj(l)
-            ? String(l.epubMember || l.book || "")
-            : "";
-        }).filter(Boolean).join(" · ");
-        if (loc.textContent) item.appendChild(loc);
-      }
-      alvo.appendChild(item);
-    });
-  }
-
-  function carregarEvidencias() {
-    var alvo = els.fontesEvid;
-    if (!alvo) return;
-    var url = state.data && EVID_URLS[state.data.datasetId];
-    if (!url) {
-      alvo.textContent = "Referência opcional de nomes indisponível " +
-        "para este conjunto de dados.";
-      return;
-    }
-    fetchJson(url).then(function (ev) {
-      if (!state.dataReady) return;
-      var problema = validarEvidencias(ev);
-      if (problema) {
-        alvo.textContent = "Referência opcional de nomes indisponível: " +
-          problema + ".";
-        return;
-      }
-      renderEvidencias(alvo, ev);
     }).catch(function () {
-      if (!state.dataReady) return;
-      alvo.textContent = "Referência opcional de nomes indisponível " +
-        "(arquivo local ausente ou ilegível).";
+      /* sidecar ausente/ilegivel: cards seguem sem resumo/link */
     });
   }
 
@@ -1841,9 +1367,17 @@ window.GOTATLAS = (function () {
   function tituloCapitulo(i) {
     var caps = (state.data && state.data.chapters) || [];
     for (var k = 0; k < caps.length; k++) {
-      if (caps[k].index === i) {
-        return caps[k].title || "Capítulo " + i;
+      var c = caps[k];
+      if (c.index !== i) continue;
+      /* "Livro-N: Título" -> "Cap. localIndex+1 · Título"; sem titulo
+         curto reconhecivel, cai no numero global */
+      var t = typeof c.title === "string" ? c.title : "";
+      var dois = t.indexOf(":");
+      var curto = dois >= 0 ? t.slice(dois + 1).trim() : t.trim();
+      if (typeof c.localIndex === "number" && curto) {
+        return "Cap. " + (c.localIndex + 1) + " · " + curto;
       }
+      return curto || ("Capítulo " + i);
     }
     return "Capítulo " + i;
   }
@@ -1883,36 +1417,13 @@ window.GOTATLAS = (function () {
     els.prox.disabled = !state.dataReady || state.chapter >= lim.fim;
   }
 
-  function buildCapSelect() {
-    els.capSelect.innerHTML = "";
-    var lim = limitesCapitulo();
-    var caps = (state.data && state.data.chapters) || [];
-    caps.forEach(function (c) {
-      if (c.index < lim.ini || c.index > lim.fim) return;
-      var o = document.createElement("option");
-      o.value = String(c.index);
-      o.textContent = c.title || "Capítulo " + c.index;
-      els.capSelect.appendChild(o);
-    });
-  }
-
-  /* seletor de livro: visivel so quando o conjunto declara books[];
-     a nota explica a ordem de leitura publicada (nenhuma cronologia
-     sincronizada inventada entre os livros) */
+  /* seletor de livro: visivel so quando o conjunto declara books[] */
   function buildLivroSelect() {
     if (!els.livroSelect) return;
     var ls = livros();
     els.livroSelect.innerHTML = "";
     var tem = ls.length > 0;
     els.livroSelect.hidden = !tem;
-    if (els.livroNota) {
-      els.livroNota.hidden = !tem;
-      els.livroNota.textContent = tem
-        ? "Ordem de leitura: \u201cO Festim dos Corvos\u201d antes de " +
-          "\u201cA Dan\u00e7a dos Drag\u00f5es\u201d (ordem de " +
-          "publica\u00e7\u00e3o)."
-        : "";
-    }
     if (!tem) return;
     ls.forEach(function (lv) {
       var o = document.createElement("option");
@@ -1933,7 +1444,6 @@ window.GOTATLAS = (function () {
     els.slider.max = String(lim.fim);
     els.slider.setAttribute("aria-valuemin", String(lim.ini));
     els.slider.setAttribute("aria-valuemax", String(lim.fim));
-    buildCapSelect();
     setChapter(state.chapter, silencioso);
     if (els.livroSelect) {
       var ativo = livroAtivo();
@@ -1968,12 +1478,10 @@ window.GOTATLAS = (function () {
     i = GOTCORE.clamp(i, lim.ini, lim.fim);
     state.chapter = i;
     els.slider.value = String(i);
-    if (els.capSelect) els.capSelect.value = String(i);
     var titulo = tituloCapitulo(i);
     els.capTitulo.textContent = titulo;
     els.slider.setAttribute("aria-valuetext", titulo);
     atualizarNavegacao();
-    atualizarCoberturas();
     refresh();
     atualizarFocusBtn();
     if (!silencioso) salvarEstado();
@@ -1991,10 +1499,6 @@ window.GOTATLAS = (function () {
         cap: state.chapter,
         personagens: idsSelecionadas(),
         rotulos: state.labelsVisible ? 1 : 0,
-        somente: state.markerOnly ? 1 : 0,
-        regiao: state.region,
-        tipo: state.tipoFiltro,
-        identificados: state.apenasIdentificados ? 1 : 0,
         busca: state.query,
         local: state.focusLocalId,
         locais: state.locVisible ? 1 : 0
@@ -2023,12 +1527,6 @@ window.GOTATLAS = (function () {
       }
       else if (k === "local") { p.local = v; tem = true; }
       else if (k === "rotulos") { p.rotulos = v === "1" ? 1 : 0; tem = true; }
-      else if (k === "somente") { p.somente = v === "1" ? 1 : 0; tem = true; }
-      else if (k === "regiao") { p.regiao = v; tem = true; }
-      else if (k === "tipo") { p.tipo = v; tem = true; }
-      else if (k === "identificados") {
-        p.identificados = v === "1" ? 1 : 0; tem = true;
-      }
       else if (k === "busca") { p.busca = v.slice(0, 80); tem = true; }
       else if (k === "locais") { p.locais = v === "1" ? 1 : 0; tem = true; }
     });
@@ -2063,25 +1561,8 @@ window.GOTATLAS = (function () {
     if (s.rotulos === 1 || s.rotulos === 0) {
       state.labelsVisible = s.rotulos === 1;
     }
-    if (s.somente === 1 || s.somente === 0) {
-      state.markerOnly = s.somente === 1;
-    }
     if (s.locais === 1 || s.locais === 0) {
       state.locVisible = s.locais === 1;
-    }
-    if (typeof s.regiao === "string" &&
-        (s.regiao === "todas" ||
-          regioes().some(function (r) { return r.id === s.regiao; }))) {
-      state.region = s.regiao;
-    }
-    /* tipo aceito so entre os valores conhecidos do filtro */
-    if (typeof s.tipo === "string" &&
-        (s.tipo === "todas" || s.tipo === FILTRO_SEM_ID ||
-          Object.prototype.hasOwnProperty.call(TIPOS_PONTO, s.tipo))) {
-      state.tipoFiltro = s.tipo;
-    }
-    if (s.identificados === 1 || s.identificados === 0) {
-      state.apenasIdentificados = s.identificados === 1;
     }
     if (typeof s.busca === "string") state.query = s.busca.slice(0, 80);
     if (typeof s.local === "string" && cpById(s.local)) {
@@ -2091,84 +1572,11 @@ window.GOTATLAS = (function () {
     return local;
   }
 
-  function montarHash() {
-    var p = [];
-    p.push("cap=" + state.chapter);
-    var sel = idsSelecionadas();
-    if (sel.length) p.push("personagens=" + sel.join(","));
-    if (state.query) p.push("busca=" + encodeURIComponent(state.query));
-    if (state.region !== "todas") {
-      p.push("regiao=" + encodeURIComponent(state.region));
-    }
-    if (state.tipoFiltro !== "todas") {
-      p.push("tipo=" + encodeURIComponent(state.tipoFiltro));
-    }
-    p.push("identificados=" + (state.apenasIdentificados ? 1 : 0));
-    if (state.focusLocalId) {
-      p.push("local=" + encodeURIComponent(state.focusLocalId));
-    }
-    p.push("rotulos=" + (state.labelsVisible ? 1 : 0));
-    p.push("somente=" + (state.markerOnly ? 1 : 0));
-    p.push("locais=" + (state.locVisible ? 1 : 0));
-    return "#" + p.join("&");
-  }
-
-  function copiarLink() {
-    var url = location.origin + location.pathname + montarHash();
-    function fallback() {
-      els.linkSaida.value = url;
-      els.linkSaida.hidden = false;
-      els.linkSaida.select();
-      setStatus("Link gerado; copie pelo campo acima.");
-    }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(function () {
-        setStatus("Link copiado para a área de transferência.");
-      }, fallback);
-    } else {
-      fallback();
-    }
-  }
-
-  function resetPiloto() {
-    try { localStorage.removeItem(storageKey()); } catch (e) { /* ok */ }
-    try { history.replaceState(null, "", location.pathname); } catch (e) { /* ok */ }
-    state.chapter = 0;
-    state.selecionados = {};
-    state.locVisible = true;
-    state.labelsVisible = false;
-    state.markerOnly = false;
-    state.region = "todas";
-    state.tipoFiltro = "todas";
-    state.apenasIdentificados = false;
-    state.query = "";
-    state.focusLocalId = null;
-    state.pendingFocus = false;
-    state.pendingHashFocusId = null;
-    fecharPopupAntigo();
-    if (els.linkSaida) {
-      els.linkSaida.value = "";
-      els.linkSaida.hidden = true;
-    }
-    syncControles();
-    /* capitulo 0 deriva o primeiro livro; reaplica limites antes de
-       fixar o capitulo */
-    aplicarLivro(true);
-    setChapter(0, true);
-    salvarEstado();
-    setStatus("Piloto reiniciado.");
-  }
-
   function syncControles() {
     els.locMostrar.checked = state.locVisible;
     els.locRotulos.checked = state.labelsVisible;
     els.busca.value = state.query;
-    els.filtroRegiao.value = state.region;
-    if (els.filtroTipo) els.filtroTipo.value = state.tipoFiltro;
-    if (els.locIdent) els.locIdent.checked = state.apenasIdentificados;
-    els.somente.checked = state.markerOnly;
     els.slider.value = String(state.chapter);
-    if (els.capSelect) els.capSelect.value = String(state.chapter);
     if (els.livroSelect) {
       var livroSync = livroAtivo();
       els.livroSelect.value = livroSync ? livroSync.id : "";
@@ -2186,9 +1594,8 @@ window.GOTATLAS = (function () {
 
   var CONTROLES_DADOS = [
     "locMostrar", "locRotulos", "busca",
-    "focusPers", "limparSel", "link", "reset", "slider", "ant",
-    "prox", "somente", "capSelect", "livroSelect", "filtroRegiao",
-    "filtroTipo", "locIdent", "verPercurso", "livroCompleto"
+    "focusPers", "limparSel", "slider", "ant",
+    "prox", "livroSelect", "livroCompleto"
   ];
 
   /* trava os controles que dependem de dados; o mapa base segue livre */
@@ -2216,31 +1623,14 @@ window.GOTATLAS = (function () {
     fecharPopupTrecho();
     clearLayers();
     els.lista.innerHTML = "";
+    els.lista.hidden = true;
     els.listaPers.innerHTML = "";
-    els.fontes.innerHTML = "";
-    if (els.fontesEvid) els.fontesEvid.textContent = "";
-    state.evidenciasTentado = false;
-    els.statusPers.innerHTML = "";
-    els.locContagem.textContent = "";
-    els.selCount.textContent = "";
-    els.capSelect.innerHTML = "";
+    if (els.persAtual) els.persAtual.innerHTML = "";
     if (els.livroSelect) {
       els.livroSelect.innerHTML = "";
       els.livroSelect.hidden = true;
     }
-    if (els.livroNota) {
-      els.livroNota.textContent = "";
-      els.livroNota.hidden = true;
-    }
     els.capTitulo.textContent = "";
-    els.trajetoNota.textContent = "";
-    if (els.roteiro) els.roteiro.innerHTML = "";
-    els.nota.textContent = "";
-    if (els.linkSaida) {
-      els.linkSaida.value = "";
-      els.linkSaida.hidden = true;
-    }
-    setCapNota("");
     lockDown();
     setStatus("Localidades e trajetos indisponíveis: " + motivo +
       ". O mapa continua navegável.");
@@ -2271,26 +1661,16 @@ window.GOTATLAS = (function () {
   function init(opts) {
     state.map = opts.map;
     [
-      ["status", "localidades-status"], ["nota", "localidades-nota"],
+      ["status", "localidades-status"],
       ["lista", "loc-lista"], ["busca", "loc-busca"],
-      ["locContagem", "loc-contagem"],
-      ["filtroRegiao", "filtro-regiao"],
-      ["filtroTipo", "filtro-tipo"], ["locIdent", "loc-identificados"],
       ["locMostrar", "loc-mostrar"], ["locRotulos", "loc-rotulos"],
-      ["listaPers", "lista-personagens"], ["selCount", "sel-count"],
+      ["listaPers", "lista-personagens"], ["persAtual", "pers-atual"],
       ["limparSel", "btn-limpar-sel"], ["focusPers", "btn-focus-pers"],
-      ["statusPers", "status-personagens"],
-      ["slider", "cap-slider"], ["capSelect", "cap-select"],
-      ["livroSelect", "livro-select"], ["livroNota", "livro-nota"],
+      ["slider", "cap-slider"],
+      ["livroSelect", "livro-select"],
       ["ant", "cap-ant"], ["prox", "cap-prox"],
-      ["somente", "cap-somente"], ["capTitulo", "cap-titulo"],
-      ["capNota", "cap-nota"], ["trajetoNota", "trajeto-nota"],
-      ["verPercurso", "btn-ver-percurso"],
-      ["livroCompleto", "btn-livro-completo"],
-      ["roteiro", "roteiro-personagens"],
-      ["fontes", "fontes-lista"], ["link", "btn-link"],
-      ["linkSaida", "link-saida"], ["reset", "btn-reset"],
-      ["secFontes", "sec-fontes"], ["fontesEvid", "fontes-evidencias"]
+      ["capTitulo", "cap-titulo"],
+      ["livroCompleto", "btn-livro-completo"]
     ].forEach(function (par) { els[par[0]] = qs(par[1]); });
 
     els.locMostrar.addEventListener("change", function () {
@@ -2308,28 +1688,6 @@ window.GOTATLAS = (function () {
       applyQuery();
       salvarEstado();
     });
-    els.filtroRegiao.addEventListener("change", function () {
-      state.region = els.filtroRegiao.value;
-      applyQuery();
-      refresh();
-      salvarEstado();
-    });
-    if (els.filtroTipo) {
-      els.filtroTipo.addEventListener("change", function () {
-        state.tipoFiltro = els.filtroTipo.value;
-        applyQuery();
-        refresh();
-        salvarEstado();
-      });
-    }
-    if (els.locIdent) {
-      els.locIdent.addEventListener("change", function () {
-        state.apenasIdentificados = els.locIdent.checked;
-        applyQuery();
-        refresh();
-        salvarEstado();
-      });
-    }
     els.focusPers.addEventListener("click", focarPersonagens);
     els.limparSel.addEventListener("click", function () {
       state.selecionados = {};
@@ -2337,19 +1695,8 @@ window.GOTATLAS = (function () {
       refresh();
       salvarEstado();
     });
-    els.link.addEventListener("click", copiarLink);
-    els.reset.addEventListener("click", resetPiloto);
-    els.secFontes.addEventListener("toggle", function () {
-      if (els.secFontes.open && !state.evidenciasTentado) {
-        state.evidenciasTentado = true;
-        carregarEvidencias();
-      }
-    });
     els.slider.addEventListener("input", function () {
       setChapter(Number(els.slider.value));
-    });
-    els.capSelect.addEventListener("change", function () {
-      setChapter(Number(els.capSelect.value));
     });
     if (els.livroSelect) {
       els.livroSelect.addEventListener("change", function () {
@@ -2362,13 +1709,6 @@ window.GOTATLAS = (function () {
     els.prox.addEventListener("click", function () {
       setChapter(state.chapter + 1);
     });
-    els.somente.addEventListener("change", function () {
-      state.markerOnly = els.somente.checked;
-      refresh();
-      atualizarFocusBtn();
-      salvarEstado();
-    });
-    els.verPercurso.addEventListener("click", verPercurso);
     els.livroCompleto.addEventListener("click", livroCompleto);
     state.map.on("zoomend moveend", function () {
       if (!state.dataReady || !state.viewReady) return;
@@ -2405,18 +1745,20 @@ window.GOTATLAS = (function () {
 
     setStatus("Carregando dados do piloto…");
     /* manifesto uma vez; dados em cascata: v6 -> v5 -> v4 -> v3 -> v2
-       congelado -> piloto v1 — o fallback so dispara em ausencia (404);
+    /* manifesto uma vez; dados em cascata: v7 -> v6 -> v5 -> v4 -> v3 -> v2
        um conjunto mais novo PRESENTE mas invalido falha fechado, sem
        downgrade */
     fetchJson(MANIFEST_URL).then(function (m) {
-      return soSe404(fetchJson(DATA_URL_V6), function () {
-        return soSe404(fetchJson(DATA_URL_V5), function () {
-          return soSe404(fetchJson(DATA_URL_V4), function () {
-            return soSe404(fetchJson(DATA_URL), function () {
-              return soSe404(
-                fetchJson(DATA_FALLBACK_V2_URL), function () {
-                  return fetchJson(DATA_FALLBACK_URL);
-                });
+      return soSe404(fetchJson(DATA_URL_V7), function () {
+        return soSe404(fetchJson(DATA_URL_V6), function () {
+          return soSe404(fetchJson(DATA_URL_V5), function () {
+            return soSe404(fetchJson(DATA_URL_V4), function () {
+              return soSe404(fetchJson(DATA_URL), function () {
+                return soSe404(
+                  fetchJson(DATA_FALLBACK_V2_URL), function () {
+                    return fetchJson(DATA_FALLBACK_URL);
+                  });
+              });
             });
           });
         });
@@ -2434,27 +1776,9 @@ window.GOTATLAS = (function () {
         state.data = data;
         state.datasetId = data.datasetId || DATASET_FALLBACK_ID;
         state.dataReady = true;
-        var n = state.data.controlPoints.length;
-        var nSimb = state.data.controlPoints.filter(
-          ehSimboloNaoIdentificado).length;
-        var nr = (state.data.routes || []).length;
-        els.nota.textContent = n + " referências calibradas manualmente" +
-          (nSimb
-            ? " (" + (n - nSimb) + " identificadas em revisão, " +
-              nSimb + " símbolos sem identificação)"
-            : "") +
-          "; " + nr + (nr === 1 ? " personagem" : " personagens") +
-          " com registros parciais; linhas aproximadas e incompletas" +
-          " — em revisão, não são rotas confirmadas.";
-        var rotaAviso = (state.data.routes || [])
-          .map(function (r) { return r.notice; })
-          .filter(Boolean)[0];
-        if (rotaAviso) els.trajetoNota.textContent = rotaAviso;
         buildLivroSelect();
         buildLista();
-        buildFiltroRegiao();
         buildPersonagens();
-        buildFontes();
         /* fragmento tem prioridade sobre armazenamento; nunca ativa tiles */
         var focoLocal = aplicarEstado(lerEstado());
         /* o livro ativo deriva do capitulo global restaurado: primeiro
@@ -2467,6 +1791,7 @@ window.GOTATLAS = (function () {
            dependem de selecao/posicao atual */
         atualizarSel();
         refresh();
+        carregarResumos();
         setStatus("");
         if (focoLocal) {
           /* sem timer cego: executa quando dados + vista estiverem ok */

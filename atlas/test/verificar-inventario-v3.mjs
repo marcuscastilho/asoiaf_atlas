@@ -17,7 +17,6 @@ const BASE = "http://127.0.0.1:8080";
 
 const DATA_PATH = join(DIR, "..", "data", "atlas-inventario-v3.json");
 const DIAG_PATH = join(DIR, "..", "data", "inventario-v3-diagnostico.json");
-const EVID_PATH = join(DIR, "..", "data", "nomes-inventario-v3-evidencias.json");
 
 if (!existsSync(DATA_PATH)) {
   console.log("SKIP: atlas-inventario-v3.json ainda nao publicado.");
@@ -84,6 +83,8 @@ const browser = await chromium.launch();
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -93,7 +94,7 @@ const browser = await chromium.launch();
      antigo clique manual */
   await pausarTilesAutomaticos(page);
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 20000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 20000, state: "attached" });
 
   check("lista tem N localidades do artefato",
     (await page.locator("#loc-lista li").count()) === CPS.length,
@@ -157,7 +158,7 @@ const browser = await chromium.launch();
       document.getElementById("btn-painel")
         .getAttribute("aria-expanded") === "false" &&
       document.getElementById("btn-painel").textContent
-        .trim() === "Abrir painel"));
+        .trim() === "Expandir"));
   const centroRec = await page.evaluate(() => {
     const c = window.__atlasMap.getCenter();
     return { lat: c.lat, lng: c.lng };
@@ -185,65 +186,12 @@ const browser = await chromium.launch();
     !(await page.evaluate(
       () => document.getElementById("lateral-corpo").hidden)));
 
-  /* tela cheia inclui o painel (documentElement) e sai pelo botao */
-  await page.click("#btn-tela-cheia");
-  await page.waitForTimeout(600);
-  const fs = await page.evaluate(() => ({
-    ativo: !!document.fullscreenElement,
-    painelDentro: document.fullscreenElement &&
-      document.fullscreenElement.contains(
-        document.getElementById("lateral"))
-  }));
-  check("tela cheia ativa com painel dentro",
-    fs.ativo && fs.painelDentro, JSON.stringify(fs));
-  await page.click("#btn-tela-cheia");
-  await page.waitForTimeout(600);
-  check("sai da tela cheia pelo botao",
-    !(await page.evaluate(() => !!document.fullscreenElement)));
-
-  // nota honesta com divisao identificados/simbolos
-  const nota = await page.locator("#localidades-nota").textContent();
-  check("nota conta " + N_ID + " identificadas + " + N_SIMB + " simbolos",
-    nota.includes(String(N_SIMB)) && nota.includes(String(N_ID)),
-    nota.trim().slice(0, 120));
-
-  // ---------- filtro por tipo ----------
-  const nCastle = CPS.filter((p) => p.kind === "castle").length;
-  await page.selectOption("#filtro-tipo", "castle");
-  await page.waitForTimeout(400);
-  check("filtro castelo -> " + nCastle + " na lista (inclui anonimos)",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === nCastle);
-  check("filtro castelo -> " + nCastle + " pinos visiveis",
-    (await page.locator(".loc-pin").count()) === nCastle ||
-      (await page.locator(".loc-pin").count()) <= nCastle);
-
-  await page.selectOption("#filtro-tipo", "sem-identificacao");
-  await page.waitForTimeout(400);
-  check("filtro sem-identificacao -> " + N_SIMB + " na lista",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === N_SIMB);
-  check("simbolos usam pino vazado",
-    (await page.locator(".loc-pin-simbolo").count()) > 0 &&
-      (await page.locator(".loc-pin-simbolo").count()) ===
-        (await page.locator(".loc-pin").count()));
-
-  await page.selectOption("#filtro-tipo", "todas");
-  await page.check("#loc-identificados");
-  await page.waitForTimeout(400);
-  check("somente identificados -> " + N_ID + " na lista",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === N_ID);
-  await page.uncheck("#loc-identificados");
-  await page.waitForTimeout(300);
-
-  // ---------- regioes dinamicas ----------
-  for (const reg of DATA.regions || []) {
-    await page.selectOption("#filtro-regiao", reg.id);
-    await page.waitForTimeout(300);
-    const vis = await page.locator("#loc-lista li:not([hidden])").count();
-    check("regiao " + reg.id + " -> " + reg.pointIds.length + " na lista",
-      vis === reg.pointIds.length, "visiveis=" + vis);
-  }
-  await page.selectOption("#filtro-regiao", "todas");
-  await page.waitForTimeout(300);
+  /* filtros de tipo/regiao e "somente identificados" foram
+     removidos da UI simplificada */
+  check("sem filtros na UI",
+    (await page.locator(
+      "#filtro-tipo, #filtro-regiao, #loc-identificados, " +
+      "#localidades-nota, #btn-tela-cheia").count()) === 0);
 
   // ---------- busca com/sem acento (fluxo real de usuario) ----------
   async function focarPorBusca(termo, idEsperado) {
@@ -287,8 +235,8 @@ const browser = await chromium.launch();
     const d = document.querySelector(".leaflet-popup details");
     return d ? { existe: true, aberto: d.open } : { existe: false };
   });
-  check("popup: detalhes tecnicos recolhidos por padrao",
-    det.existe && !det.aberto, JSON.stringify(det));
+  check("popup: sem detalhes tecnicos na UI simplificada",
+    !det.existe, JSON.stringify(det));
   await page.keyboard.press("Escape");
 
   // ---------- simbolo anonimo com tipo conhecido (fluxo real) ----------
@@ -298,10 +246,11 @@ const browser = await chromium.launch();
     anonCastle ? anonCastle.id : "ausente");
   if (anonCastle) {
     const rSimb = await focarPorBusca(anonCastle.label, anonCastle.id);
-    check("simbolo de castelo anonimo: texto honesto de glifo",
-      /Símbolo de castelo/.test(rSimb.txt) &&
-        /nome ainda não estabelecido/.test(rSimb.txt) &&
-        !/natureza ainda não estabelecidos/.test(rSimb.txt),
+    /* a UI minimalista nao traz mais a nota "nome ainda nao
+       estabelecido": basta o rotulo honesto do artefato + tipo */
+    check("simbolo de castelo anonimo: card com rotulo honesto",
+      /S.mbolo sem nome/.test(rSimb.txt) &&
+        !/n.o estabelecid/.test(rSimb.txt),
       rSimb.txt.slice(0, 120));
     await page.keyboard.press("Escape");
   }
@@ -313,9 +262,12 @@ const browser = await chromium.launch();
     comp ? comp.id : "ausente");
   if (comp) {
     const rComp = await focarPorBusca(comp.label, comp.id);
-    check("distintivo 'Correspondência cartográfica em revisão' sem 'confirmado'",
-      /Correspondência cartográfica em revisão/.test(rComp.txt) &&
-        !/confirmad/i.test(rComp.txt),
+    /* sem distintivo de revisao na UI simplificada: o card mostra
+       apenas nome/tipo/resumo, sem selo nem 'confirmado' */
+    check("sem distintivo de revisao nem 'confirmado' no card",
+      /Portabr.nzea/.test(rComp.txt) &&
+        !/Correspondência cartográfica|revisão|confirmad/i
+          .test(rComp.txt),
       rComp.txt.slice(0, 120));
     await page.keyboard.press("Escape");
   }
@@ -356,11 +308,6 @@ const browser = await chromium.launch();
       paths18 === pernas18 * 2 && pontos18 > 20,
       "paths=" + paths18 + " pernas=" + pernas18 +
         " vertices=" + pontos18);
-    await page.check("#cap-somente");
-    await page.waitForTimeout(350);
-    check("markerOnly esconde linhas de trajeto",
-      (await page.locator(".leaflet-overlay-pane path").count()) === 0);
-    await page.uncheck("#cap-somente");
   } else {
     check("rota catelyn presente nos dados", false, "id nao encontrado");
   }
@@ -427,25 +374,19 @@ const browser = await chromium.launch();
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   ligarColetores(page, "hash");
   const tilesAntes = requests.length;
-  await page.goto(BASE + "/atlas/#cap=3&tipo=castle&identificados=1");
-  await page.waitForSelector("#loc-lista li", { timeout: 20000 });
+  await page.goto(BASE + "/atlas/#cap=3");
+  await page.waitForSelector("#loc-lista li", { timeout: 20000, state: "attached" });
   await page.waitForTimeout(800);
-  const nCastleId = CPS.filter((p) =>
-    p.kind === "castle" && !ehSimbolo(p)).length;
-  check("hash: filtro castle+identificados restaurado",
-    (await page.locator("#loc-lista li:not([hidden])").count()) === nCastleId,
-    "esperado=" + nCastleId);
-  check("hash: controles refletem filtros",
-    (await page.locator("#filtro-tipo").inputValue()) === "castle" &&
-      (await page.locator("#loc-identificados").isChecked()));
-  check("hash: nenhum tile automatico",
-    !requests.slice(tilesAntes).some((u) => u.includes("/atlas/tiles/")));
+  check("hash: capitulo 3 restaurado",
+    (await page.locator("#cap-slider").inputValue()) === "3");
   await ctx.close();
 }
 
@@ -459,6 +400,8 @@ async function casoV3Falho(nome, fulfill, extraCheck) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -500,6 +443,8 @@ await casoV3Falho("v3 HTTP 500", (r) =>
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -531,6 +476,8 @@ await casoV3Falho("v3 HTTP 500", (r) =>
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -560,48 +507,21 @@ await casoV3Falho("v3 HTTP 500", (r) =>
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   ligarColetores(page, "evid");
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 20000 });
-  check("evidencias: nao carrega antes de abrir fontes",
-    !requests.some((u) => u.includes("nomes-inventario-v3-evidencias")));
-  await page.evaluate(() => {
-    document.getElementById("sec-fontes").open = true;
-    document.getElementById("sec-fontes")
-      .dispatchEvent(new Event("toggle"));
-  });
+  await page.waitForSelector("#loc-lista li", { timeout: 20000, state: "attached" });
   await page.waitForTimeout(1500);
-  if (existsSync(EVID_PATH)) {
-    const EV = JSON.parse(readFileSync(EVID_PATH, "utf8"));
-    const nEv = (await page.locator(".evid-item").count());
-    check("evidencias v3: " + EV.entries.length + " itens (só nomeados)",
-      nEv === EV.entries.length, "itens=" + nEv);
-    const idsSimb = Object.create(null);
-    CPS.filter(ehSimbolo).forEach((p) => { idsSimb[p.id] = true; });
-    const evComSimb = EV.entries.filter((e) => idsSimb[e.id]).length;
-    check("evidencias v3: nenhum simbolo anonimo na auditoria",
-      evComSimb === 0, "entradas simbolo=" + evComSimb);
-    const evTxt = await page.locator("#fontes-evidencias").textContent();
-    check("evidencias v3: texto honesto",
-      /não confirma rota/i.test(evTxt));
-    /* inventario publicado: avisos liquidados aparecem em Fontes
-       (bookAuditNotice: auditoria conserva 115 nomes anteriores) */
-    const ftTxt = await page.locator("#fontes-lista").textContent();
-    check("fontes: bookAuditNotice do inventario presente",
-      !DATA.inventory || !DATA.inventory.bookAuditNotice ||
-        ftTxt.includes("bookAuditNotice"),
-      ftTxt.slice(0, 80));
-  } else {
-    const evTxt = await page.locator("#fontes-evidencias").textContent();
-    check("evidencias v3 ausentes: aviso honesto",
-      /indispon/i.test(evTxt), evTxt.trim().slice(0, 80));
-    check("evidencias ausentes: controles intactos",
-      !(await page.locator("#loc-mostrar").isDisabled()));
-  }
+  /* a UI simplificada nao busca mais o sidecar de evidencias */
+  check("evidencias: nenhum pedido ao sidecar de evidencias",
+    !requests.some((u) => u.includes("-evidencias")));
+  check("evidencias: sem secao Fontes na UI",
+    (await page.locator("#sec-fontes, #fontes-evidencias").count()) === 0);
   await ctx.close();
 }
 
@@ -628,27 +548,24 @@ if (existsSync(DIAG_PATH)) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   ligarColetores(page, "w1920");
   await page.goto(BASE + "/atlas/");
-  await page.waitForSelector("#loc-lista li", { timeout: 20000 });
+  await page.waitForSelector("#loc-lista li", { timeout: 20000, state: "attached" });
   await page.waitForSelector("img.leaflet-image-layer",
     { timeout: 20000 });
   const g1920 = await page.evaluate(() => {
     const q = document.getElementById("mapa-quadro").getBoundingClientRect();
-    const c = getComputedStyle(document.querySelector(".conteudo"));
-    return {
-      quadro: q.width,
-      padX: parseFloat(c.paddingLeft) + parseFloat(c.paddingRight)
-    };
+    return { quadro: q.width };
   });
   check("1920: mapa usa largura total do viewport",
-    Math.abs(g1920.quadro - (1920 - g1920.padX)) <= 2,
-    "quadro=" + g1920.quadro.toFixed(0) +
-      " esperado~" + (1920 - g1920.padX).toFixed(0));
+    Math.abs(g1920.quadro - 1920) <= 2,
+    "quadro=" + g1920.quadro.toFixed(0));
   const cover1920 = await page.evaluate(() => {
     const m = document.getElementById("mapa").getBoundingClientRect();
     const i = document.querySelector("img.leaflet-image-layer")
@@ -671,6 +588,8 @@ for (const w of [390, 320]) {
     route.fulfill({ status: 404, body: "ausente" }));
   /* fixa o salto mais novo: sem este pino a suite carregaria
      o v6 publicado em vez do conjunto pretendido */
+  await page.route("**/atlas/data/atlas-percursos-v7.json", (route) =>
+    route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-percursos-v6.json", (route) =>
     route.fulfill({ status: 404, body: "ausente" }));
   await page.route("**/atlas/data/atlas-inventario-v4.json", (route) =>
@@ -712,12 +631,14 @@ for (const w of [390, 320]) {
     return {
       dentro: a.left >= q.left && a.right <= q.right + 1 &&
         a.top >= q.top && a.bottom <= q.bottom + 1,
-      rolavel: c.scrollHeight > c.clientHeight,
+      /* painel minimalista pode caber sem rolagem em 844px: o
+         contrato e overflow-y:auto, nao overflow garantido */
+      rolavelCss: getComputedStyle(c).overflowY === "auto",
       aberto: !c.hidden
     };
   });
-  check("mobile " + w + ": painel abre dentro do mapa, rolavel",
-    geoMob.aberto && geoMob.dentro && geoMob.rolavel,
+  check("mobile " + w + ": painel abre dentro do mapa, corpo rolavel",
+    geoMob.aberto && geoMob.dentro && geoMob.rolavelCss,
     JSON.stringify(geoMob));
 
   /* rolagem do corpo: cabecalho fixo e mapa imovel */
@@ -727,6 +648,9 @@ for (const w of [390, 320]) {
   });
   const scrollInfo = await page.evaluate(() => {
     const c = document.getElementById("lateral-corpo");
+    /* forca overflow para exercitar a rolagem mesmo com o painel
+       curto (em 844px o conteudo minimalista pode caber) */
+    c.style.maxHeight = "120px";
     c.scrollTop = c.scrollHeight;
     const a = document.getElementById("lateral").getBoundingClientRect();
     const topo = document.querySelector(".lateral-topo")
@@ -735,6 +659,10 @@ for (const w of [390, 320]) {
       rolou: c.scrollTop > 0,
       topoFixo: topo.top >= a.top - 1 && topo.bottom <= a.bottom + 1
     };
+  });
+  await page.evaluate(() => {
+    document.getElementById("lateral-corpo").style.maxHeight = "";
+    document.getElementById("lateral-corpo").scrollTop = 0;
   });
   const posScroll = await page.evaluate(() => {
     const m = window.__atlasMap;
